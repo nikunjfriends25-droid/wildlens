@@ -259,7 +259,7 @@ KEYWORDS = [
     'species discovered', 'species found', 'species recorded',
     'camera trap', 'wildlife survey', 'wildlife census', 'wildlife monitoring',
     'WII', 'WWF', 'WTI', 'IUCN', 'wildlife institute',
-    'ecology', 'ecological', 'carbon sequestration',
+    'ecosystem', 'ecology', 'ecological', 'carbon sequestration',
     'marine ecosystem', 'coastal ecosystem', 'freshwater ecosystem',
     'forest ecosystem', 'wildlife ecosystem', 'river ecosystem',
     'woodland', 'native forest', 'tree cover',
