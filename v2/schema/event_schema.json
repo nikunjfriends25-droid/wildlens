@@ -1,0 +1,345 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "WildLens v2 Wildlife Event Schema — rough draft for Nikunj to validate. Every field marked REQUIRED must be present; OPTIONAL fields may be null.",
+
+  "event": {
+    "event_id": {
+      "type": "string (UUID v4)",
+      "required": true,
+      "example": "a3f1c2d4-7e8b-4f3a-9c2d-1b5e6f7a8c9d"
+    },
+
+    "classification": {
+      "event_type": {
+        "type": "enum",
+        "required": true,
+        "values": [
+          "poaching",
+          "hwc",
+          "mortality",
+          "sighting",
+          "discovery",
+          "conservation_action",
+          "habitat_threat",
+          "policy",
+          "research",
+          "other"
+        ],
+        "definitions": {
+          "poaching": "Illegal killing, trapping, or trade of wildlife or wildlife parts",
+          "hwc": "Human-wildlife conflict — attacks on humans, crop raids, property damage, retaliatory killing",
+          "mortality": "Animal death from natural causes, disease, accident (train/vehicle), or unknown cause",
+          "sighting": "Notable or rare sighting of a species, first record for an area",
+          "discovery": "New species described, new range record, new behaviour documented",
+          "conservation_action": "Proactive management — translocations, camera traps, drone surveys, reserve notifications, ex-situ conservation",
+          "habitat_threat": "Mining, forest fires, encroachment, road/infra projects affecting wildlife habitat",
+          "policy": "Government orders, court rulings, legislation, ESZ notifications, budget allocations",
+          "research": "Population surveys, censuses, ecological studies, camera trap results published",
+          "other": "Does not fit above categories"
+        }
+      },
+      "event_subtype": {
+        "type": "string",
+        "required": false,
+        "examples": [
+          "elephant_attack_fatal", "elephant_attack_injury",
+          "leopard_attack_fatal", "leopard_attack_injury",
+          "train_collision", "road_kill", "electrocution",
+          "forest_fire", "mining_clearance", "encroachment",
+          "new_species", "range_extension", "population_survey",
+          "translocation", "camera_trap_deployment", "esz_notification",
+          "heat_mortality", "disease_mortality", "poaching_seizure"
+        ]
+      },
+      "classification_confidence": {
+        "type": "float 0.0-1.0",
+        "required": true,
+        "note": "Model confidence in event_type assignment"
+      }
+    },
+
+    "temporal": {
+      "event_date": {
+        "type": "YYYY-MM-DD",
+        "required": true,
+        "note": "Best estimate of when the event occurred (not when reported)"
+      },
+      "event_date_precision": {
+        "type": "enum",
+        "required": true,
+        "values": ["exact", "week", "month", "year"],
+        "note": "How precise is event_date? Most news articles allow 'exact' or 'week'"
+      },
+      "reported_date": {
+        "type": "YYYY-MM-DD",
+        "required": true,
+        "note": "Date of earliest article covering this event"
+      }
+    },
+
+    "species": {
+      "type": "array — one entry per species mentioned",
+      "required": true,
+      "min_items": 0,
+      "item": {
+        "common_name": {
+          "type": "string",
+          "required": true,
+          "example": "Asian Elephant"
+        },
+        "scientific_name": {
+          "type": "string or null",
+          "required": false,
+          "example": "Elephas maximus"
+        },
+        "iucn_category": {
+          "type": "enum or null",
+          "required": false,
+          "values": ["EX", "EW", "CR", "EN", "VU", "NT", "LC", "DD", "NE"]
+        },
+        "count": {
+          "type": "integer or null",
+          "required": false,
+          "note": "Number of individual animals, if known"
+        },
+        "count_qualifier": {
+          "type": "enum or null",
+          "values": ["exact", "minimum", "approximately"]
+        }
+      }
+    },
+
+    "location": {
+      "place_name": {
+        "type": "string",
+        "required": true,
+        "note": "Most specific place name that can be confidently extracted"
+      },
+      "lat": {
+        "type": "float",
+        "required": true
+      },
+      "lon": {
+        "type": "float",
+        "required": true
+      },
+      "location_precision": {
+        "type": "enum",
+        "required": true,
+        "values": ["point", "district", "state", "region"],
+        "definitions": {
+          "point": "Specific PA, town, forest range, or named locality (±10km)",
+          "district": "District-level accuracy (±50km)",
+          "state": "State centroid only — could not determine finer location",
+          "region": "Multi-state geographic region (e.g. Western Ghats, Northeast India)"
+        }
+      },
+      "location_method": {
+        "type": "enum",
+        "required": true,
+        "values": [
+          "gazetteer_exact",
+          "gazetteer_iucn_constrained",
+          "ner_iucn_constrained",
+          "ner_geocoder",
+          "manual"
+        ]
+      },
+      "location_confidence": {
+        "type": "float 0.0-1.0",
+        "required": true
+      },
+      "state": {
+        "type": "string",
+        "required": true,
+        "example": "Kerala"
+      },
+      "district": {
+        "type": "string or null",
+        "required": false,
+        "example": "Wayanad"
+      },
+      "inside_pa": {
+        "type": "boolean or null",
+        "required": false,
+        "note": "Set by PostGIS spatial join in Phase 2"
+      },
+      "pa_name": {
+        "type": "string or null",
+        "required": false,
+        "example": "Wayanad Wildlife Sanctuary"
+      },
+      "pa_type": {
+        "type": "enum or null",
+        "required": false,
+        "values": ["tiger_reserve", "national_park", "wildlife_sanctuary", "biosphere_reserve", "reserve_forest", "community_reserve"]
+      },
+      "nearest_pa_name": {
+        "type": "string or null",
+        "required": false,
+        "note": "Name of nearest PA if location is outside any PA"
+      },
+      "nearest_pa_dist_km": {
+        "type": "float or null",
+        "required": false
+      },
+      "corridor_name": {
+        "type": "string or null",
+        "required": false,
+        "example": "Panna-Bandhavgarh Corridor"
+      }
+    },
+
+    "outcome": {
+      "outcome_summary": {
+        "type": "string",
+        "required": false,
+        "note": "1-2 sentence plain English description of what happened and result",
+        "example": "Wild elephant fatally attacked a farmer in Wayanad. Forest department took responsibility for victim's children."
+      },
+      "human_casualties": {
+        "type": "integer or null",
+        "required": false,
+        "note": "Number of humans killed or seriously injured"
+      },
+      "human_injuries": {
+        "type": "integer or null",
+        "required": false
+      },
+      "animal_casualties": {
+        "type": "integer or null",
+        "required": false,
+        "note": "Number of animals killed"
+      },
+      "severity": {
+        "type": "enum",
+        "required": true,
+        "values": ["critical", "high", "medium", "low"],
+        "definitions": {
+          "critical": "Human death, large-scale habitat loss, critically endangered species directly threatened",
+          "high": "Human injury, significant habitat damage, multiple animals killed, large fire/encroachment",
+          "medium": "Property damage, smaller incidents, policy/administrative actions with medium conservation impact",
+          "low": "No immediate harm, awareness events, minor incidents, positive news"
+        }
+      }
+    },
+
+    "source_articles": {
+      "type": "array — all articles covering this event",
+      "required": true,
+      "note": "Multiple articles = same event as identified by deduplication step",
+      "item": {
+        "url": "string (required)",
+        "headline": "string (required)",
+        "source": "string (required)",
+        "published": "YYYY-MM-DD (required)",
+        "is_primary": "boolean — which article has the most complete information (required)"
+      }
+    },
+
+    "flags": {
+      "is_valid_wildlife_event": {
+        "type": "boolean",
+        "required": true,
+        "note": "False for false positives that passed keyword filter (e.g. lone-wolf terrorism, Shigellosis)"
+      },
+      "needs_review": {
+        "type": "boolean",
+        "required": true,
+        "note": "Set true when confidence is low or fields conflict"
+      },
+      "review_notes": {
+        "type": "string or null",
+        "required": false,
+        "note": "Free text for annotator or pipeline to explain uncertainty"
+      }
+    },
+
+    "metadata": {
+      "pipeline_version": "string",
+      "created_at": "ISO 8601 timestamp",
+      "last_updated": "ISO 8601 timestamp"
+    }
+  },
+
+  "example_event": {
+    "event_id": "e7a3c1b2-4d5f-4a8e-9b1c-2d3e4f5a6b7c",
+    "classification": {
+      "event_type": "hwc",
+      "event_subtype": "elephant_attack_fatal",
+      "classification_confidence": 0.97
+    },
+    "temporal": {
+      "event_date": "2026-06-10",
+      "event_date_precision": "exact",
+      "reported_date": "2026-06-09"
+    },
+    "species": [
+      {
+        "common_name": "Asian Elephant",
+        "scientific_name": "Elephas maximus",
+        "iucn_category": "EN",
+        "count": 1,
+        "count_qualifier": "exact"
+      }
+    ],
+    "location": {
+      "place_name": "Wayanad, Kerala",
+      "lat": 11.6,
+      "lon": 76.0,
+      "location_precision": "district",
+      "location_method": "ner_geocoder",
+      "location_confidence": 0.82,
+      "state": "Kerala",
+      "district": "Wayanad",
+      "inside_pa": false,
+      "pa_name": null,
+      "pa_type": null,
+      "nearest_pa_name": "Wayanad Wildlife Sanctuary",
+      "nearest_pa_dist_km": 3.2,
+      "corridor_name": "Nilgiri Biosphere Elephant Corridor"
+    },
+    "outcome": {
+      "outcome_summary": "Wild elephant fatally attacked a 65-year-old man in Wayanad. Forest department took responsibility for the victim's two children.",
+      "human_casualties": 1,
+      "human_injuries": 0,
+      "animal_casualties": 0,
+      "severity": "critical"
+    },
+    "source_articles": [
+      {
+        "url": "https://www.thehindu.com/news/national/kerala/wild-elephant-attack-claims-65-year-old-man-in-keralas-wayanad/article71084237.ece",
+        "headline": "Wild elephant attack claims 65-year-old man in Kerala's Wayanad",
+        "source": "The Hindu",
+        "published": "2026-06-10",
+        "is_primary": true
+      },
+      {
+        "url": "https://www.thehindu.com/news/national/kerala/kerala-wild-elephant-attack-forest-department-takes-responsibility-for-victims-children/article71081002.ece",
+        "headline": "Kerala wild elephant attack: forest department takes responsibility for victim's children",
+        "source": "The Hindu",
+        "published": "2026-06-09",
+        "is_primary": false
+      }
+    ],
+    "flags": {
+      "is_valid_wildlife_event": true,
+      "needs_review": false,
+      "review_notes": null
+    },
+    "metadata": {
+      "pipeline_version": "v2.0.0",
+      "created_at": "2026-06-16T00:00:00Z",
+      "last_updated": "2026-06-16T00:00:00Z"
+    }
+  },
+
+  "notes_for_nikunj": {
+    "fields_to_add": "Add any fields here that you think are missing from an ecological standpoint",
+    "fields_to_remove": "Cross out any fields that are not practically extractable from news text",
+    "severity_calibration": "The severity enum definitions above are my first pass — adjust thresholds based on your ecological judgement",
+    "location_precision": "The point/district/state hierarchy may need a fourth level — e.g. 'forest_range' between point and district",
+    "species_handling": "Articles sometimes mention multiple species (e.g. elephant + leopard in same corridor). Should all species be listed, or only the primary one?",
+    "event_type_gaps": "Are there event types I am missing that you encounter in the field? E.g. 'zoonosis', 'flood_displacement', 'court_order_specific'?"
+  }
+}

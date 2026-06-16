@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WildLens v2 — System Flowchart</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 32px 24px; }
+  h1 { text-align: center; font-size: 22px; font-weight: 700; color: #4ade80; letter-spacing: 1px; margin-bottom: 6px; }
+  .subtitle { text-align: center; font-size: 13px; color: #64748b; margin-bottom: 40px; }
+  .flowchart { max-width: 960px; margin: 0 auto; }
+
+  /* Phase headers */
+  .phase-label { font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #475569; margin-bottom: 10px; padding-left: 4px; }
+
+  /* Horizontal row of boxes */
+  .row { display: flex; gap: 12px; margin-bottom: 6px; align-items: stretch; }
+  .row.centered { justify-content: center; }
+
+  /* Box */
+  .box { flex: 1; min-width: 0; border-radius: 10px; padding: 14px 16px; position: relative; }
+  .box.sm { flex: 0 0 auto; min-width: 200px; max-width: 240px; }
+  .box.md { flex: 0 0 auto; min-width: 240px; max-width: 300px; }
+  .box.wide { flex: 1; }
+
+  .box-title { font-size: 13px; font-weight: 700; margin-bottom: 5px; }
+  .box-body { font-size: 11.5px; line-height: 1.55; color: #cbd5e1; }
+  .box-body li { list-style: disc; margin-left: 14px; margin-bottom: 2px; }
+
+  /* Colour themes */
+  .phase-0 { background: rgba(139,92,246,0.15); border: 1.5px solid #7c3aed; }
+  .phase-0 .box-title { color: #a78bfa; }
+  .phase-1 { background: rgba(59,130,246,0.14); border: 1.5px solid #2563eb; }
+  .phase-1 .box-title { color: #60a5fa; }
+  .phase-2 { background: rgba(20,184,166,0.14); border: 1.5px solid #0d9488; }
+  .phase-2 .box-title { color: #2dd4bf; }
+  .phase-3 { background: rgba(234,179,8,0.13); border: 1.5px solid #b45309; }
+  .phase-3 .box-title { color: #fbbf24; }
+  .phase-4 { background: rgba(239,68,68,0.13); border: 1.5px solid #b91c1c; }
+  .phase-4 .box-title { color: #f87171; }
+  .phase-5 { background: rgba(74,222,128,0.12); border: 1.5px solid #16a34a; }
+  .phase-5 .box-title { color: #4ade80; }
+  .novel { background: rgba(251,191,36,0.1); border: 1.5px dashed #d97706; }
+  .novel .box-title { color: #fbbf24; }
+  .novel::after { content: '★ NOVEL'; font-size: 9px; font-weight: 700; color: #d97706; position: absolute; top: 8px; right: 10px; }
+
+  /* Arrow */
+  .arrow { text-align: center; font-size: 20px; color: #334155; margin: 2px 0 2px 0; }
+  .arrow-row { display: flex; gap: 12px; justify-content: space-around; margin: 2px 0; }
+  .arrow-row span { font-size: 20px; color: #334155; }
+
+  /* Separator */
+  .sep { height: 1px; background: #1e293b; margin: 22px 0 18px 0; }
+
+  /* Badge */
+  .badge { display: inline-block; font-size: 9.5px; font-weight: 700; letter-spacing: 0.5px; padding: 1px 7px; border-radius: 20px; margin-bottom: 6px; }
+  .badge.blue { background: #1e3a5f; color: #60a5fa; }
+  .badge.green { background: #14432a; color: #4ade80; }
+  .badge.yellow { background: #44320c; color: #fbbf24; }
+  .badge.red { background: #4a1a1a; color: #f87171; }
+  .badge.teal { background: #0d2d2b; color: #2dd4bf; }
+  .badge.purple { background: #2d1b69; color: #a78bfa; }
+
+  .note { font-size: 10.5px; color: #475569; margin-top: 8px; font-style: italic; }
+
+  @media print {
+    body { background: white; color: #111; padding: 16px; }
+    .box-body, .box { color: #222 !important; }
+    .box-body li { color: #333 !important; }
+    h1 { color: #166534; }
+  }
+</style>
+</head>
+<body>
+
+<h1>WildLens v2 — Ecological Intelligence System</h1>
+<p class="subtitle">Architecture flowchart &nbsp;·&nbsp; Phase 0–5 &nbsp;·&nbsp; Print: Ctrl+P → Save as PDF</p>
+
+<div class="flowchart">
+
+  <!-- PHASE 0 -->
+  <div class="phase-label">Phase 0 — Foundation (Before building anything)</div>
+  <div class="row">
+    <div class="box phase-0 md">
+      <span class="badge purple">Gold Standard Dataset</span>
+      <div class="box-title">200–300 Annotated Articles</div>
+      <div class="box-body">
+        <ul>
+          <li>Start from V1 news.json articles</li>
+          <li>Claude pre-annotates; Nikunj validates</li>
+          <li>Labels: event_type, species, correct_location, is_false_positive, duplicate_cluster</li>
+        </ul>
+        <p class="note">Use these to measure every pipeline stage</p>
+      </div>
+    </div>
+    <div class="box phase-0 md">
+      <span class="badge purple">Event Schema</span>
+      <div class="box-title">Data Model for Wildlife Events</div>
+      <div class="box-body">
+        <ul>
+          <li>event_id, event_type, species[], location{}, temporal{}</li>
+          <li>Ecological context: PA, corridor, habitat</li>
+          <li>Source articles[] with deduplication link</li>
+          <li>Confidence scores at every field</li>
+        </ul>
+        <p class="note">Schema drives all downstream design</p>
+      </div>
+    </div>
+    <div class="box phase-0 wide">
+      <span class="badge purple">Spatial Datasets</span>
+      <div class="box-title">Reference Data Assembly</div>
+      <div class="box-body">
+        <ul>
+          <li>PA shapefiles (Nikunj has these)</li>
+          <li>IUCN range maps for key species (tiger, elephant, lion, leopard, rhino, gharial, vulture…)</li>
+          <li>Wildlife corridor polygons (WII corridor datasets)</li>
+          <li>Forest cover raster (downversioned, no attribution needed)</li>
+          <li>District / state boundary GeoJSON</li>
+        </ul>
+        <p class="note">Stored as PostGIS layers in v2 database</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow">▼</div>
+  <div class="sep"></div>
+
+  <!-- PHASE 1 -->
+  <div class="phase-label">Phase 1 — Article Ingestion &amp; Filtering</div>
+  <div class="row">
+    <div class="box phase-1">
+      <span class="badge blue">Input</span>
+      <div class="box-title">RSS Feed Fetch</div>
+      <div class="box-body">
+        <ul>
+          <li>Same sources as V1 (+ regional feeds)</li>
+          <li>Deduplicate by URL before processing</li>
+          <li>Store raw article text, not just title</li>
+        </ul>
+      </div>
+    </div>
+    <div class="box phase-1">
+      <span class="badge blue">Filter</span>
+      <div class="box-title">Relevance Classification</div>
+      <div class="box-body">
+        <ul>
+          <li>Keyword pre-filter (same as V1)</li>
+          <li>ML classifier trained on gold standard</li>
+          <li>Removes: lone-wolf terrorism, disease outbreaks, urban infra, plantation drives</li>
+          <li>Output: is_wildlife_relevant score</li>
+        </ul>
+      </div>
+    </div>
+    <div class="box phase-1">
+      <span class="badge blue">Text Extraction</span>
+      <div class="box-title">Full Article Fetch</div>
+      <div class="box-body">
+        <ul>
+          <li>Fetch full article body (not just RSS excerpt)</li>
+          <li>Strip HTML, keep first 2000 chars</li>
+          <li>Store headline + body + date + source</li>
+        </ul>
+        <p class="note">Full text is needed for accurate NER &amp; species extraction</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow">▼</div>
+  <div class="sep"></div>
+
+  <!-- PHASE 2 -->
+  <div class="phase-label">Phase 2 — Event Extraction (the hard part)</div>
+  <div class="row">
+    <div class="box phase-2">
+      <span class="badge teal">NER</span>
+      <div class="box-title">Species Extraction</div>
+      <div class="box-body">
+        <ul>
+          <li>spaCy + custom species gazetteer</li>
+          <li>Maps common names → scientific names</li>
+          <li>Looks up IUCN status from pre-loaded table</li>
+          <li>Handles: "big cat", "pachyderm", "great apes" → species</li>
+        </ul>
+      </div>
+    </div>
+    <div class="box phase-2 novel">
+      <span class="badge teal">Location</span>
+      <div class="box-title">Species-Constrained Toponym Disambiguation</div>
+      <div class="box-body">
+        <ul>
+          <li>Extract all GPE/LOC candidates via NER</li>
+          <li>For each candidate: geocode → check overlap with IUCN range map</li>
+          <li>Score = geographic plausibility × species range overlap</li>
+          <li>Select highest-scoring candidate</li>
+          <li>Fallback: gazetteer → geocoder (V1 logic)</li>
+        </ul>
+        <p class="note">Example: "tiger" → reject Rajasthan desert, prefer Sundarbans/Corbett</p>
+      </div>
+    </div>
+    <div class="box phase-2">
+      <span class="badge teal">Classification</span>
+      <div class="box-title">Event Type + Outcome</div>
+      <div class="box-body">
+        <ul>
+          <li>Types: poaching, hwc, mortality, sighting, discovery, conservation_action, habitat_threat, policy, research</li>
+          <li>Extracts: casualties (human/animal), severity, outcome summary</li>
+          <li>Classifier trained on gold standard labels</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow">▼</div>
+
+  <!-- PHASE 2B -->
+  <div class="row">
+    <div class="box phase-2 novel">
+      <span class="badge teal">Deduplication</span>
+      <div class="box-title">Event Clustering (Same Incident → One Event)</div>
+      <div class="box-body">
+        <ul>
+          <li>Sentence embeddings (sentence-transformers) for semantic similarity</li>
+          <li>Cluster articles: same location + same species + same time window + high similarity → one event</li>
+          <li>Example: 8 articles about Rajouri forest fires → 1 event with 8 source_articles</li>
+          <li>Select canonical article (highest info density) as primary</li>
+        </ul>
+        <p class="note">Key metric: how many V1 duplicate pins does this eliminate?</p>
+      </div>
+    </div>
+    <div class="box phase-2">
+      <span class="badge teal">Ecological Enrichment</span>
+      <div class="box-title">Spatial Join with Reference Data</div>
+      <div class="box-body">
+        <ul>
+          <li>Point-in-polygon: is location inside a PA? Which one?</li>
+          <li>Buffer 5km: nearest PA name + distance</li>
+          <li>Corridor membership check</li>
+          <li>Habitat type from forest cover raster</li>
+          <li>State + district from admin boundaries</li>
+        </ul>
+        <p class="note">All done with PostGIS ST_Within, ST_DWithin queries</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow">▼</div>
+  <div class="sep"></div>
+
+  <!-- PHASE 3 -->
+  <div class="phase-label">Phase 3 — Event Store (PostgreSQL + PostGIS)</div>
+  <div class="row">
+    <div class="box phase-3 wide">
+      <span class="badge yellow">Storage</span>
+      <div class="box-title">Structured Event Database</div>
+      <div class="box-body" style="columns: 2; gap: 20px;">
+        <div>
+          <strong style="color:#fbbf24">events table</strong>
+          <ul>
+            <li>event_id (UUID)</li>
+            <li>event_type, event_subtype</li>
+            <li>location (PostGIS POINT)</li>
+            <li>inside_pa, pa_name, corridor_name</li>
+            <li>event_date, reported_date</li>
+            <li>severity, outcome_summary</li>
+          </ul>
+        </div>
+        <div>
+          <strong style="color:#fbbf24">event_species table</strong>
+          <ul>
+            <li>event_id, species_common, scientific_name, iucn_status, count</li>
+          </ul>
+          <strong style="color:#fbbf24">event_articles table</strong>
+          <ul>
+            <li>event_id, url, headline, source, published</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="box phase-3 novel md">
+      <span class="badge yellow">Analytics</span>
+      <div class="box-title">Corridor Stress Index</div>
+      <div class="box-body">
+        <ul>
+          <li>Events/month per corridor</li>
+          <li>Baseline = 12-month rolling average</li>
+          <li>Alert when current period &gt; 2× baseline</li>
+          <li>Broken down by event_type</li>
+        </ul>
+        <p class="note">Dashboard: "Panna–Bandhavgarh corridor showing elevated HWC this month"</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow">▼</div>
+  <div class="sep"></div>
+
+  <!-- PHASE 4 -->
+  <div class="phase-label">Phase 4 — Intelligence Layer</div>
+  <div class="row">
+    <div class="box phase-4 novel">
+      <span class="badge red">RAG Engine</span>
+      <div class="box-title">Natural Language Reports</div>
+      <div class="box-body">
+        <ul>
+          <li>Query the event store with structured filters</li>
+          <li>Retrieve relevant events as context</li>
+          <li>LLM synthesises into plain-English report</li>
+          <li>Example: "Summarise elephant HWC in Kerala in 2026"</li>
+          <li>Cites source articles</li>
+        </ul>
+        <p class="note">Uses local/open-source LLM to keep cost = zero</p>
+      </div>
+    </div>
+    <div class="box phase-4">
+      <span class="badge red">Query API</span>
+      <div class="box-title">Advanced Search Interface</div>
+      <div class="box-body">
+        <ul>
+          <li>Natural language: "all tiger incidents in Madhya Pradesh 2025"</li>
+          <li>Structured: filter by species / event_type / PA / date range / severity</li>
+          <li>Spatial: "events within 50km of Kaziranga"</li>
+          <li>Export: CSV / GeoJSON</li>
+        </ul>
+      </div>
+    </div>
+    <div class="box phase-4">
+      <span class="badge red">Alerts</span>
+      <div class="box-title">Threshold Monitoring</div>
+      <div class="box-body">
+        <ul>
+          <li>Poaching spike in a PA → flag</li>
+          <li>Same species, multiple deaths, same area &lt; 30 days → flag</li>
+          <li>Corridor stress index threshold breach → flag</li>
+          <li>Weekly digest email (optional)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow">▼</div>
+  <div class="sep"></div>
+
+  <!-- PHASE 5 -->
+  <div class="phase-label">Phase 5 — Interface</div>
+  <div class="row">
+    <div class="box phase-5 md">
+      <span class="badge green">Map</span>
+      <div class="box-title">Event Map (V2 Edition)</div>
+      <div class="box-body">
+        <ul>
+          <li>One pin per event (not per article)</li>
+          <li>Pin colour = event_type</li>
+          <li>Cluster heatmap for high-density areas</li>
+          <li>PA boundaries overlay</li>
+          <li>Corridor stress heat layer</li>
+        </ul>
+      </div>
+    </div>
+    <div class="box phase-5 md">
+      <span class="badge green">Dashboard</span>
+      <div class="box-title">Analytics Dashboard</div>
+      <div class="box-body">
+        <ul>
+          <li>Top species by event count</li>
+          <li>Top PAs by event count</li>
+          <li>HWC trend by state</li>
+          <li>New species discoveries timeline</li>
+          <li>Corridor stress index panel</li>
+        </ul>
+      </div>
+    </div>
+    <div class="box phase-5 wide">
+      <span class="badge green">Chat Interface</span>
+      <div class="box-title">Ask WildLens v2</div>
+      <div class="box-body">
+        <ul>
+          <li>"How many elephant deaths in Assam this year?"</li>
+          <li>"Which PA had the most poaching events in 2025?"</li>
+          <li>"Give me a report on tiger conservation in MP"</li>
+          <li>"Which corridors are under highest stress?"</li>
+        </ul>
+        <p class="note">Powered by RAG engine (Phase 4) — not keyword search like V1</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- Publication -->
+  <div class="phase-label">Publication &amp; IP Strategy</div>
+  <div class="row">
+    <div class="box novel md">
+      <span class="badge yellow">Patent Candidate</span>
+      <div class="box-title">Species-Constrained Toponym Disambiguation</div>
+      <div class="box-body">
+        Method: score location candidates by overlap with IUCN species range maps as ecological plausibility prior. Consult Indian patent attorney after paper acceptance.
+      </div>
+    </div>
+    <div class="box phase-0 wide">
+      <span class="badge purple">Publication Target</span>
+      <div class="box-title">Methods in Ecology and Evolution</div>
+      <div class="box-body">
+        Framing: domain-expert-driven NLP pipeline where ecological knowledge (range maps, PA topology, corridor stress baselines) constrains every stage. Evaluation against gold standard dataset (Phase 0). Contribution = ecological intelligence framing, not generic NLP.
+      </div>
+    </div>
+    <div class="box phase-0 md">
+      <span class="badge purple">V1 stays untouched</span>
+      <div class="box-title">V1 / V2 Separation</div>
+      <div class="box-body">
+        V1 at wildlens.in serves journalists and general public. V2 is a parallel research system — separate codebase, separate database, separate URL. Share only the spatial reference datasets.
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<p style="text-align:center; margin-top:40px; font-size:11px; color:#334155">
+  WildLens v2 — Internal planning document &nbsp;·&nbsp; ★ = novel contribution &nbsp;·&nbsp; dashed border = potentially patentable method
+</p>
+
+</body>
+</html>
