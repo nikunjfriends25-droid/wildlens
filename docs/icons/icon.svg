@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="114" fill="#060c06"/>
+  <!-- Leaf -->
+  <path d="M268 416a144 144 0 0 1-25-277C300 128 330 118 374 88c20 42 42 87 42 168 0 110-66 160-148 160z" fill="#16a34a"/>
+  <!-- Stem -->
+  <path d="M80 432c0-62 38-110 106-124 50-10 98-32 114-52" fill="none" stroke="#16a34a" stroke-width="28" stroke-linecap="round"/>
+</svg>
