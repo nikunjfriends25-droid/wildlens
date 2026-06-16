@@ -17,17 +17,20 @@ logger = logging.getLogger(__name__)
 
 SOURCES = [
     # NOTE: Down to Earth — HTTP 403, blocks all RSS programmatic access.
-    # NOTE: The Wire Science feed — broken, serves Feb-2024 articles indefinitely.
-    # NOTE: The Wire Environment (cms.thewire.in) — server times out consistently.
+    # NOTE: thewire.in/feed/ returns 0 entries; science.thewire.in/feed/ is the working endpoint.
 
     # Mongabay India — wildlife / forests (best Indian wildlife source)
     'https://india.mongabay.com/feed/',
     # Research Matters — Indian science & ecology research
     'https://researchmatters.in/rss.xml',
-    # Nature India — Nature journal's India science coverage
-    'https://www.nature.com/natindia.rss',
-    # NDTV India — catches wildlife, forest, conservation stories
-    'https://feeds.feedburner.com/ndtvnews-india-news',
+    # The Wire Science — direct feed restored by Wire tech team; 25 entries, strong wildlife/ecology
+    'https://science.thewire.in/feed/',
+    # NDTV — GN search; direct RSS (feedburner) returns 0 wildlife articles
+    {
+        'url': ('https://news.google.com/rss/search?q=wildlife+forest+elephant+tiger'
+                '+poaching+sanctuary+site:ndtv.com&hl=en-IN&gl=IN&ceid=IN:en'),
+        'source': 'NDTV',
+    },
     # Indian Express India — wildlife, poaching, forest coverage
     'https://indianexpress.com/section/india/feed/',
     # The Hindu — environment & sci-tech
@@ -48,18 +51,28 @@ SOURCES = [
     'https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms',
 
     # ── Northeast India ────────────────────────────────────────────────────────
-    # Assam Tribune — Assam's leading English daily; strong forest/wildlife beat
-    'https://www.assamtribune.com/feed/',
-    # Northeast Now — dedicated Northeast desk; covers all 8 NE states
-    'https://nenow.in/feed',
+    # Assam Tribune — direct feed blocked (301/403); GN search gives 28/30 kw-pass
+    {
+        'url': ('https://news.google.com/rss/search?q=wildlife+forest+elephant+tiger'
+                '+rhino+kaziranga+poaching+site:assamtribune.com'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+        'source': 'Assam Tribune',
+    },
+    # Northeast Now — /environment/feed (5/10 kw-pass) vs general /feed (0/10)
+    'https://nenow.in/environment/feed',
     # EastMojo — dedicated environment section; covers NE wildlife, species discoveries, conservation
     'https://eastmojo.com/environment/feed/',
 
     # ── J&K & Ladakh ──────────────────────────────────────────────────────────
     # Greater Kashmir — J&K's largest English daily; Dachigam, Hangul, snow leopard
     'https://www.greaterkashmir.com/feed/',
-    # Rising Kashmir — broad J&K coverage; forest, wildlife, environment
-    'https://risingkashmir.com/feed/',
+    # Rising Kashmir — direct feed returns 0 wildlife (all political); GN search targets hangul/snow leopard
+    {
+        'url': ('https://news.google.com/rss/search?q=wildlife+forest+snow+leopard'
+                '+hangul+sanctuary+site:risingkashmir.com'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+        'source': 'Rising Kashmir',
+    },
     # Daily Excelsior — Jammu-based; covers Trikuta hills, Ramnagar, Chenab valley forests
     {
         'url': ('https://news.google.com/rss/search?q=wildlife+forest+snow+leopard'
