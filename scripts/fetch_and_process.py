@@ -259,8 +259,9 @@ KEYWORDS = [
     'species discovered', 'species found', 'species recorded',
     'camera trap', 'wildlife survey', 'wildlife census', 'wildlife monitoring',
     'WII', 'WWF', 'WTI', 'IUCN', 'wildlife institute',
-    'ecosystem', 'ecology', 'ecological', 'carbon sequestration',
+    'ecology', 'ecological', 'carbon sequestration',
     'marine ecosystem', 'coastal ecosystem', 'freshwater ecosystem',
+    'forest ecosystem', 'wildlife ecosystem', 'river ecosystem',
     'woodland', 'native forest', 'tree cover',
     'migratory', 'nesting', 'breeding', 'spawning',
     'animal behaviour', 'conservation biology',
@@ -338,6 +339,10 @@ EXCLUDE_KEYWORDS = [
     # Finance / economy
     'stock market', 'sensex', 'nifty', 'budget', 'gdp', 'inflation',
     'interest rate', 'rbi ', 'sebi ', 'ipo ',
+    # Tech / startup (catches "deep-tech ecosystem", "healthcare sector", etc.)
+    'deep-tech', 'deep tech', 'startup ecosystem', 'tech ecosystem',
+    'fintech', 'edtech', 'healthtech', 'healthcare sector',
+    'artificial intelligence', 'machine learning', 'data centre',
 ]
 
 NEWS_JSON = os.path.join(os.path.dirname(__file__), '..', 'docs', 'news.json')
