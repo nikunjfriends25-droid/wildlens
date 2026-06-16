@@ -338,52 +338,98 @@
     "$comment": "PLANNING NOTE (added 2026-06-16): A third data ingestion track alongside RSS news — pulling from structured government/legal portals. Higher confidence than NLP extraction. Enables predictive threat detection and project lifecycle tracking.",
 
     "sources": {
-      "PARIVESH": {
-        "url": "parivesh.nic.in",
-        "description": "MoEFCC portal for Forest Clearance (FC), Environment Clearance (EC), and Wildlife Clearance (WL) applications",
-        "data_available": [
-          "Project location (lat/lon or district)",
-          "Forest area affected (hectares)",
-          "Forest type (Reserved Forest, Protected Forest, etc.)",
-          "Species likely affected (sometimes listed in WL clearance)",
-          "Case status: submitted / Stage-1 / Stage-2 / approved / rejected",
-          "Hearing dates and decisions"
+      "data_gov_in": {
+        "url": "data.gov.in",
+        "api_available": true,
+        "api_type": "Official REST API",
+        "access": "Free with API key — register at data.gov.in. Python: pip install datagovindia",
+        "license": "Open Government Data License India (free, attribution required)",
+        "example_code": "from datagovindia import DataGovIndia; d = DataGovIndia(); d.get_data('resource-id')",
+        "relevant_datasets": {
+          "environmental_clearance_parivesh": "50,000+ EC approvals from PARIVESH 2.0 — resource at data.gov.in/catalog/environmental-clearance-granted-parivesh-20",
+          "wildlife_sanctuaries": "Number and area of National Parks and Wildlife Sanctuaries",
+          "forest_area": "State-wise recorded forest area and legal status"
+        },
+        "limitations": "EC data only (Environment Clearance). Forest Clearance (FC) and Wildlife Clearance (WL) data is NOT on data.gov.in — must scrape PARIVESH portal directly for those.",
+        "priority": "HIGH — best structured source for environment clearance data, official, free"
+      },
+      "ecourts_akshit_api": {
+        "url": "akshit-me.gitbook.io/e-courts-india-api",
+        "github": "github.com/Akshit-WTF/eci",
+        "api_available": true,
+        "api_type": "REST API (third-party wrapper, not government-affiliated)",
+        "access": "Free for non-commercial use. API key required.",
+        "license": "Free non-commercial",
+        "features": [
+          "Pan-India case search ('Discover' feature)",
+          "Case status by case number",
+          "Orders and judgments",
+          "Covers District Courts, High Courts, Supreme Court"
         ],
-        "scraping_notes": "Portal has a public search interface. Filterable by state, project type, status. Consider polling for new entries monthly."
+        "use_for_wildlens": "Search Wildlife Protection Act 1972 cases, Forest Conservation Act 1980 cases, track poaching prosecution outcomes",
+        "priority": "HIGH — broadest court coverage including District Courts where most wildlife cases begin"
+      },
+      "ecourts_openjustice": {
+        "url": "openjustice-in.github.io",
+        "github": "github.com/openjustice-in/ecourts",
+        "pypi": "pip install ecourts",
+        "api_available": true,
+        "api_type": "Python library (scraper — not official API)",
+        "access": "Free, open source",
+        "license": "GPL-3.0",
+        "features": [
+          "Search cases by Act type (✅ working)",
+          "Cause lists by date (✅ working)",
+          "Cases by case number / FIR (🚧 in development)",
+          "Orders by case number (🚧 in development)",
+          "All High Courts via hcservices.ecourts.gov.in"
+        ],
+        "limitations": [
+          "High Courts only — not District Courts",
+          "Single-threaded by design (polite scraping)",
+          "Does not support Supreme Court"
+        ],
+        "use_for_wildlens": "Filter by Act: Wildlife Protection Act, Forest Conservation Act, Environment Protection Act. Pull HC orders for wildlife/forest cases.",
+        "priority": "MEDIUM — complementary to Akshit API; useful for bulk HC case retrieval by Act"
+      },
+      "PARIVESH": {
+        "url": "parivesh.nic.in / cpc.parivesh.nic.in",
+        "api_available": false,
+        "api_type": "None — portal only",
+        "access": "Public portal; FC data available as Excel download; WL data NOT available as structured download",
+        "workaround": "Scrape portal OR use data.gov.in for EC data. For FC and WL, a researcher (vjjan91/Environmental-Clearances on GitHub) scraped the portal 2000-2020 — their methodology can be replicated.",
+        "data_available": [
+          "Project name and proponent",
+          "State and district",
+          "Area of forest to be diverted (hectares)",
+          "Forest type",
+          "Case status (Stage 1 / Stage 2 / approved / rejected)",
+          "For Wildlife Clearance: species affected sometimes listed"
+        ],
+        "priority": "HIGH — most important source for predictive threat detection, but requires scraping"
       },
       "NGT": {
-        "url": "ngt.gov.in",
-        "description": "National Green Tribunal — quasi-judicial body for environmental cases",
+        "url": "greentribunal.gov.in",
+        "api_available": false,
+        "api_type": "None — PDF orders only",
+        "access": "Public PDFs. Third-party: enviroannotations.com indexes NGT orders and may be scrapeable.",
+        "pipeline_required": "Web scrape order list → download PDF → pdfplumber/pymupdf text extraction → NLP for location/species/outcome",
         "data_available": [
-          "Case number and title",
-          "Petitioner and respondent",
-          "PA / species / forest named in the order",
-          "Order type: stay / dismissed / penalty / remediation directed",
-          "Order date",
-          "Full text (PDF)"
+          "Case number and parties",
+          "PA / forest / species named in order",
+          "Order type: stay / penalty / remediation / dismissed",
+          "Full order text (rich ecological content)"
         ],
-        "scraping_notes": "Orders are published as PDFs. Will need PDF text extraction + NLP to get location/species. Search by keywords: 'wildlife', 'forest', 'protected area', species names."
-      },
-      "eCourts": {
-        "url": "ecourts.gov.in",
-        "description": "Supreme Court and High Courts",
-        "data_available": [
-          "Case status (pending / decided / appealed)",
-          "Order summaries (for SC)",
-          "Case numbers (CNR)"
-        ],
-        "scraping_notes": "Less structured than NGT. Useful for tracking SC/HC appeals of NGT orders or forest clearances. Filter by Act: Wildlife Protection Act 1972, Forest Conservation Act 1980."
+        "priority": "MEDIUM — high value per order but requires PDF pipeline. Implement after PARIVESH and eCourts."
       },
       "WCCB": {
         "url": "wccb.gov.in",
-        "description": "Wildlife Crime Control Bureau — poaching case data, seizure statistics",
-        "data_available": [
-          "Species seized",
-          "Quantity/value",
-          "State/location of seizure",
-          "Case outcome (sometimes)"
-        ],
-        "scraping_notes": "Annual reports are the main structured data source. Periodic press releases for high-profile cases."
+        "api_available": false,
+        "api_type": "None",
+        "access": "Annual reports (PDF). Third-party: dataful.in has year+state-wise wildlife crime cases as a dataset.",
+        "limitations": "No live data feed. Annual reports lag by 1-2 years. Not viable as a real-time source.",
+        "use_for_wildlens": "Calibration and benchmarking only — use WCCB annual data to validate poaching event counts extracted from news+court sources.",
+        "priority": "LOW — reference/validation only, not a live ingestion source"
       }
     },
 
