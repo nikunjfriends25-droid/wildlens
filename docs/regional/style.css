@@ -25,10 +25,10 @@
   --accent-faint:rgba(255, 255, 255, 0.08);
 
   /* Text */
-  --text-primary:   #f2f2f2;
-  --text-secondary: #8a8a8a;
-  --text-muted:     #444444;
-  --text-faint:     #282828;
+  --text-primary:   #f0f0f0;
+  --text-secondary: #b8b8b8;
+  --text-muted:     #888888;
+  --text-faint:     #606060;
 
   /* Category colours — only splash of colour in the UI */
   --cat-poaching:     #ef4444;
@@ -855,7 +855,7 @@ input[type="date"]:focus {
 /* English translation subtitle inside popup */
 .popup-translation {
   font-size: 11px;
-  color: #555;
+  color: #888;
   font-style: italic;
   line-height: 1.45;
   margin-top: 6px;
