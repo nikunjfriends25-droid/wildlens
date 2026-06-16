@@ -222,51 +222,118 @@ function applyFilters() {
   renderMarkers(filtered);
 }
 
-// ── Build source filters ──────────────────────────────────────────────────────
+// ── Build source filters (compact dropdown) ───────────────────────────────────
+let _srcDropdownSources = [];
+
 function buildSourceFilters(articles) {
-  const sources = [...new Set(articles.map(a => a.source))].sort();
-  sources.forEach(s => activeSrcs.add(s));
+  _srcDropdownSources = [...new Set(articles.map(a => a.source))].sort();
+  _srcDropdownSources.forEach(s => activeSrcs.add(s));
 
-  const container = document.getElementById('source-filters');
-  container.innerHTML = '';
+  const panel  = document.getElementById('src-dropdown-panel');
+  const btn    = document.getElementById('src-dropdown-btn');
 
-  sources.forEach(src => {
-    const chip = document.createElement('div');
-    chip.className = 'filter-chip source-chip active';
-    chip.setAttribute('role', 'checkbox');
-    chip.setAttribute('aria-checked', 'true');
-    chip.setAttribute('tabindex', '0');
-    chip.dataset.src = src;
+  // Header row: Select All / Clear
+  const header = document.createElement('div');
+  header.className = 'src-dd-header';
+  header.innerHTML = `
+    <button class="src-dd-action" id="src-select-all">All</button>
+    <span class="src-dd-sep">·</span>
+    <button class="src-dd-action" id="src-clear-all">None</button>`;
+  panel.appendChild(header);
+
+  // One row per source
+  _srcDropdownSources.forEach(src => {
+    const row = document.createElement('div');
+    row.className = 'src-dd-row active';
+    row.setAttribute('role', 'option');
+    row.setAttribute('aria-selected', 'true');
+    row.setAttribute('tabindex', '0');
+    row.dataset.src = src;
 
     const hasMeta = !!SOURCE_META[src];
-    chip.innerHTML = `
-      <span class="chip-label">${escapeHtml(src)}</span>
-      ${hasMeta ? `<button class="src-info-btn" aria-label="About ${escapeHtml(src)}" tabindex="0">
-        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="8"/><line x1="12" y1="12" x2="12" y2="16"/></svg>
-      </button>` : ''}
-      <span class="chip-check">
+    const count   = (window._allArticles || []).filter(a => a.source === src).length;
+
+    row.innerHTML = `
+      <span class="src-dd-check">
         <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
-      </span>`;
+      </span>
+      <span class="src-dd-name">${escapeHtml(src)}</span>
+      <span class="src-dd-count">${count}</span>
+      ${hasMeta ? `<button class="src-info-btn src-dd-info" aria-label="About ${escapeHtml(src)}" tabindex="-1">
+        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="8"/><line x1="12" y1="12" x2="12" y2="16"/></svg>
+      </button>` : ''}`;
 
     const toggle = () => {
       const active = activeSrcs.has(src);
-      if (active) { activeSrcs.delete(src); chip.classList.remove('active'); chip.setAttribute('aria-checked','false'); }
-      else        { activeSrcs.add(src);    chip.classList.add('active');    chip.setAttribute('aria-checked','true'); }
+      if (active) { activeSrcs.delete(src); row.classList.remove('active'); row.setAttribute('aria-selected','false'); }
+      else        { activeSrcs.add(src);    row.classList.add('active');    row.setAttribute('aria-selected','true'); }
+      updateSrcBtn();
       applyFilters();
     };
 
-    chip.addEventListener('click', toggle);
-    chip.addEventListener('keydown', e => { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); toggle(); } });
+    row.addEventListener('click', toggle);
+    row.addEventListener('keydown', e => { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); toggle(); } });
 
     if (hasMeta) {
-      const infoBtn = chip.querySelector('.src-info-btn');
+      const infoBtn = row.querySelector('.src-dd-info');
+      infoBtn.setAttribute('tabindex', '0');
       infoBtn.addEventListener('click', e => { e.stopPropagation(); showSourcePopover(src, infoBtn); });
       infoBtn.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); e.stopPropagation(); showSourcePopover(src, infoBtn); } });
     }
 
-    container.appendChild(chip);
+    panel.appendChild(row);
   });
+
+  // Select All / None handlers
+  document.getElementById('src-select-all').addEventListener('click', () => {
+    _srcDropdownSources.forEach(s => activeSrcs.add(s));
+    panel.querySelectorAll('.src-dd-row').forEach(r => { r.classList.add('active'); r.setAttribute('aria-selected','true'); });
+    updateSrcBtn(); applyFilters();
+  });
+  document.getElementById('src-clear-all').addEventListener('click', () => {
+    _srcDropdownSources.forEach(s => activeSrcs.delete(s));
+    panel.querySelectorAll('.src-dd-row').forEach(r => { r.classList.remove('active'); r.setAttribute('aria-selected','false'); });
+    updateSrcBtn(); applyFilters();
+  });
+
+  // Toggle dropdown open/close
+  btn.addEventListener('click', e => { e.stopPropagation(); toggleSrcDropdown(); });
+
+  updateSrcBtn();
 }
+
+function updateSrcBtn() {
+  const total  = _srcDropdownSources.length;
+  const active = _srcDropdownSources.filter(s => activeSrcs.has(s)).length;
+  const label  = document.getElementById('src-dropdown-label');
+  const btn    = document.getElementById('src-dropdown-btn');
+  label.textContent = active === total ? 'All sources' : active === 0 ? 'No sources' : `${active} of ${total} sources`;
+  btn.classList.toggle('src-btn-filtered', active !== total);
+}
+
+function toggleSrcDropdown() {
+  const panel = document.getElementById('src-dropdown-panel');
+  const btn   = document.getElementById('src-dropdown-btn');
+  const open  = !panel.hidden;
+  if (open) { closeSrcDropdown(); return; }
+  panel.hidden = false;
+  btn.setAttribute('aria-expanded', 'true');
+  btn.classList.add('open');
+}
+
+function closeSrcDropdown() {
+  const panel = document.getElementById('src-dropdown-panel');
+  const btn   = document.getElementById('src-dropdown-btn');
+  panel.hidden = true;
+  btn.setAttribute('aria-expanded', 'false');
+  btn.classList.remove('open');
+}
+
+// Close on outside click / Escape
+document.addEventListener('click', e => {
+  if (!document.getElementById('src-section').contains(e.target)) closeSrcDropdown();
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSrcDropdown(); });
 
 // ── Source info popover ───────────────────────────────────────────────────────
 let _popoverSrc = null;
@@ -326,7 +393,7 @@ document.addEventListener('click', e => {
   const pop = document.getElementById('src-popover');
   if (!pop.hidden && !pop.contains(e.target) && !e.target.closest('.src-info-btn')) hideSourcePopover();
 });
-document.addEventListener('keydown', e => { if (e.key === 'Escape') hideSourcePopover(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') { hideSourcePopover(); closeSrcDropdown(); } });
 
 // ── Date defaults ─────────────────────────────────────────────────────────────
 function setDefaultDates(articles) {
