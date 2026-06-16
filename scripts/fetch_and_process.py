@@ -175,6 +175,8 @@ KEYWORDS = [
     'civet', 'palm civet', 'binturong', 'mongoose',
     # Wild pig
     'wild boar',
+    # Bats
+    'bat', 'flying fox', 'fruit bat',
     # Marine mammals
     'dolphin', 'river dolphin', 'gangetic dolphin', 'irrawaddy dolphin',
     'whale', 'blue whale', 'humpback whale', 'sperm whale', 'porpoise', 'dugong',
@@ -228,7 +230,7 @@ KEYWORDS = [
     'eel', 'river fish', 'freshwater fish', 'marine fish',
 
     # ── INVERTEBRATES ────────────────────────────────────────────────────────
-    'butterfly', 'moth', 'dragonfly', 'damselfly', 'odonate',
+    'butterfly', 'butterflies', 'moth', 'dragonfly', 'dragonflies', 'damselfly', 'odonate',
     'beetle', 'wasp', 'bee', 'honeybee', 'bumblebee',
     'ant', 'termite', 'firefly', 'glowworm', 'cicada',
     'spider', 'scorpion', 'crab', 'horseshoe crab',
