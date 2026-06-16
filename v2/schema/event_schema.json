@@ -586,6 +586,120 @@
   },
   },
 
+  "reference_spatial_datasets": {
+    "$comment": "Static reference layers loaded once into PostGIS. Not polled — used for spatial joins and corridor/PA enrichment. Additions 2026-06-16: WTI corridors, WII/NWIS, GBIF.",
+
+    "wti_elephant_corridors": {
+      "source": "Wildlife Trust of India — Right of Passage project",
+      "publication": "Right of Passage: Elephant Corridors of India, 2nd Edition (2017) + 2023 MoEF update",
+      "url": "https://www.wti.org.in/projects/right-of-passage-national-elephant-corridors-project/",
+      "moef_pdf": "https://moef.gov.in/uploads/2023/11/PE-Elephant-Corridor-of-India-2023.pdf",
+      "corridor_count": 101,
+      "attributes_per_corridor": [
+        "corridor_name",
+        "state(s)",
+        "length_km",
+        "width_m (narrowest point)",
+        "area_ha",
+        "intensity_of_use (high/medium/low)",
+        "current_status (open/partially_obstructed/obstructed/closed)",
+        "securing_status (secured/in_process/not_secured)",
+        "connecting_PAs (two PA names the corridor links)",
+        "threats (roads, railways, settlements, agriculture)"
+      ],
+      "gis_data_availability": "No public shapefile download. PDF has corridor maps with arrows on forest cover raster. To get GIS data: (1) contact WTI project lead Upasana Ganguly directly, OR (2) manually digitize from the 183-page PDF into PostGIS, OR (3) MoEF may have shapefiles — file RTI.",
+      "use_for_wildlens_v2": [
+        "Primary corridor reference layer — replace the hand-coded corridor_name field in the event schema with a PostGIS lookup against the 101 WTI corridors",
+        "Enables corridor_stress_index: count events within each of the 101 named corridors",
+        "Enables pinch-point analysis: measure current GFW corridor width at the WTI-defined narrowest points",
+        "Attribute linking: article mentions 'Sigur corridor' → look up WTI record → get connecting PAs (Mudumalai ↔ Nagarahole), state (Tamil Nadu), status (partially obstructed)"
+      ],
+      "action_required": "Contact WTI for shapefile or digitize from PDF. This is a one-time setup task."
+    },
+
+    "wii_data": {
+      "source": "Wildlife Institute of India (MoEFCC autonomous body)",
+      "url": "https://wii.gov.in",
+      "datasets": {
+        "national_wildlife_information_system_nwis": {
+          "url": "https://wii.gov.in/nwdc_aboutus",
+          "contains": ["Protected Area boundaries and attributes", "Species conservation status", "Biogeographic zone classification", "Habitat type mapping", "PA network metadata"],
+          "access": "No public API. Request via WII directly or through data.gov.in. Some PA boundary shapefiles may be on WDPA (World Database of Protected Areas).",
+          "priority": "HIGH — PA boundaries are needed for PostGIS spatial joins. Use WDPA (protectedplanet.net) as the public alternative if WII data is not accessible."
+        },
+        "tiger_census_reports": {
+          "cadence": "Every 4 years — All India Tiger Estimation",
+          "latest": "AITE 2022 (report released 2023). AITE 2026 in progress.",
+          "contains": ["Tiger population estimates by landscape", "Tiger distribution maps (presence grid)", "Prey base assessment", "Habitat suitability maps"],
+          "access": "PDF reports only. No API. Distribution grid maps sometimes released as shapefiles.",
+          "use_for_wildlens": "Baseline tiger population per landscape — contextualize poaching/mortality events against the population at risk"
+        },
+        "m_stripes": {
+          "description": "Monitoring System for Tigers – Intensive Protection and Ecological Status. Used by all 54 tiger reserves for daily beat-level patrol logging.",
+          "access": "NOT public. Internal government system. Data would need MoEFCC data-sharing agreement.",
+          "note": "If Nikunj has any WII affiliation, this is the most granular tiger monitoring dataset in existence — worth pursuing through institutional channels."
+        },
+        "herbarium_via_gbif": {
+          "description": "4,322 digitized plant specimens from WII herbarium, published to GBIF",
+          "gbif_dataset": "https://www.gbif.org/dataset/9e7ea106-0bf8-4087-bb61-dfe4f29e0f17",
+          "use_for_wildlens": "Limited — plant specimens. Useful for habitat characterisation (what species grow in a PA) but not for wildlife events."
+        },
+        "research_reports": {
+          "url": "https://wii.gov.in/research_report",
+          "access": "PDF downloads. No structured data.",
+          "note": "Rich source for species distribution studies, corridor assessments, HWC reports — useful as background reading, not as a data feed."
+        }
+      },
+      "wdpa_alternative": {
+        "note": "For PA boundaries specifically, the World Database of Protected Areas (WDPA) is the public alternative to NWIS. Monthly updates, global, includes all Indian PAs with boundary polygons.",
+        "url": "protectedplanet.net",
+        "api": "WDPA has a REST API (iatistandard.org/protectedplanet). Also available as monthly shapefile download. Free for non-commercial use.",
+        "priority": "HIGH — Use WDPA shapefiles to populate the PostGIS PA layer if NWIS is not accessible."
+      }
+    },
+
+    "gbif": {
+      "source": "Global Biodiversity Information Facility",
+      "url": "https://www.gbif.org",
+      "what_it_is": "Aggregated occurrence records from museums, research institutions, citizen science (iNaturalist, eBird, etc.) and government datasets. For India: millions of geo-referenced species observations.",
+      "api_available": true,
+      "api_type": "REST API + pygbif Python client",
+      "access": "Free. Requires free account for bulk downloads. Search/count API needs no authentication.",
+      "python_library": "pip install pygbif",
+      "key_queries": {
+        "count_species_in_india": "from pygbif import occurrences as occ; occ.count(country='IN', taxonKey=<gbif_taxon_key>)",
+        "search_tiger_india": "occ.search(country='IN', scientificName='Panthera tigris', limit=300)",
+        "bounding_box_filter": "occ.search(decimalLatitude='8,37', decimalLongitude='68,98', country='IN')",
+        "bulk_download": "occ.download(['country = IN', 'taxonKey = 5219404'])"
+      },
+      "returned_fields_per_occurrence": [
+        "species / scientificName / taxonKey",
+        "decimalLatitude, decimalLongitude",
+        "coordinateUncertaintyInMeters",
+        "eventDate",
+        "locality (free text)",
+        "stateProvince, countryCode",
+        "basisOfRecord (HUMAN_OBSERVATION / MACHINE_OBSERVATION / PRESERVED_SPECIMEN / LITERATURE)",
+        "datasetName, institutionCode",
+        "recordedBy (observer name)"
+      ],
+      "india_data_volume": "~40 million occurrence records for India across all taxa. Key publishers: iNaturalist, eBird (Cornell), Bombay Natural History Society (BNHS), ZSI, BSI, WII.",
+      "use_for_wildlens_v2": {
+        "species_range_priors": "★ NOVEL — Species occurrence density map from GBIF. When NER extracts two possible location candidates for a tiger article, score each by GBIF tiger occurrence density within 50km. Higher density = more ecologically plausible = pick that location. This is the species-constrained toponym disambiguation contribution.",
+        "species_presence_baseline": "For each PA in PostGIS, build a species checklist from GBIF occurrences within the PA boundary. Use as baseline for 'first recorded sighting' detection — if an event mentions a species in a PA where GBIF has no prior record, it is a discovery event.",
+        "iucn_range_cross_check": "GBIF occurrence data can approximate IUCN range maps for India-specific taxa where IUCN shapefiles are not granular enough.",
+        "citizen_science_events": "iNaturalist observations flow through GBIF — high-quality geo-referenced sightings from the field. Can supplement news-based sighting events.",
+        "species_trend_analysis": "Year-over-year GBIF record count by species and PA — rough proxy for population trend (with caveats about observation effort)"
+      },
+      "caveats": [
+        "Observation bias — more records near roads, cities, and accessible areas. Dense GBIF records ≠ actually more animals there.",
+        "Coordinate uncertainty varies wildly — some records have 1m precision, others 100km. Always filter by coordinateUncertaintyInMeters < 10000 for spatial analysis.",
+        "basisOfRecord matters — PRESERVED_SPECIMEN may be decades old. Filter to HUMAN_OBSERVATION for recent presence data.",
+        "Citizen science records are generally good quality but unverified. BNHS and ZSI records are expert-verified."
+      ]
+    }
+  },
+
   "notes_for_nikunj": {
     "fields_to_add": "Add any fields here that you think are missing from an ecological standpoint",
     "fields_to_remove": "Cross out any fields that are not practically extractable from news text",
@@ -593,6 +707,9 @@
     "location_precision": "The point/district/state hierarchy may need a fourth level — e.g. 'forest_range' between point and district",
     "species_handling": "Articles sometimes mention multiple species (e.g. elephant + leopard in same corridor). Should all species be listed, or only the primary one?",
     "event_type_gaps": "Are there event types I am missing that you encounter in the field? E.g. 'zoonosis', 'flood_displacement', 'court_order_specific'?",
-    "regulatory_track_priority": "The regulatory data track (PARIVESH + NGT + eCourts) is architecturally separate from news ingestion but feeds the same event store. PARIVESH is the highest priority source — it provides structured location data and represents threats not yet in the news."
+    "regulatory_track_priority": "The regulatory data track (PARIVESH + NGT + eCourts) is architecturally separate from news ingestion but feeds the same event store. PARIVESH is the highest priority source — it provides structured location data and represents threats not yet in the news.",
+    "wti_corridor_action": "WTI elephant corridor shapefile is the single most valuable static layer for v2. If you have any WTI contacts, the fastest path is to email the Right of Passage project lead directly and ask for the GeoJSON/shapefile — they may share for research purposes.",
+    "gbif_novel_contribution": "The species-constrained toponym disambiguation (using GBIF occurrence density to score NER location candidates) is marked ★ NOVEL in the schema. This is a genuine methodological contribution worth calling out explicitly in the paper — no prior system has used GBIF ranges as a location disambiguation prior for wildlife news NLP.",
+    "wii_mstripes": "If you have any institutional connection to WII or any tiger reserve, M-STrIPES data would be transformative — it is the only daily-resolution ground-truth dataset for tiger movement and patrol coverage. Worth pursuing through a formal data-sharing request."
   }
 }
