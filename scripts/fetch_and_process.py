@@ -23,8 +23,10 @@ SOURCES = [
     'https://india.mongabay.com/feed/',
     # Research Matters — Indian science & ecology research
     'https://researchmatters.in/rss.xml',
-    # The Wire Science — direct feed restored by Wire tech team; 25 entries, strong wildlife/ecology
+    # The Wire Science — 25 entries, strong wildlife/ecology coverage
     'https://science.thewire.in/feed/',
+    # The Wire Environment — dedicated env feed from Wire tech team; broader climate/policy coverage
+    'https://feeds.thewire.in/environment.xml',
     # NDTV — GN search; direct RSS (feedburner) returns 0 wildlife articles
     {
         'url': ('https://news.google.com/rss/search?q=wildlife+forest+elephant+tiger'
