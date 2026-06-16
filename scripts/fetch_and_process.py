@@ -159,14 +159,14 @@ KEYWORDS = [
     'langur', 'macaque', 'gibbon', 'hoolock gibbon', 'lion-tailed macaque',
     'bonnet macaque', 'slow loris', 'monkey',
     # Deer & antelope
-    'sambar', 'chital', 'spotted deer', 'barasingha', 'swamp deer',
+    'deer', 'sambar', 'chital', 'spotted deer', 'barasingha', 'swamp deer',
     'hog deer', 'barking deer', 'mouse deer', 'musk deer',
     'nilgai', 'blackbuck', 'chinkara', 'four-horned antelope', 'gazelle',
     # Mountain ungulates
     'nilgiri tahr', 'markhor', 'ibex', 'blue sheep', 'bharal', 'hangul',
     'kashmir stag', 'mithun', 'gaur', 'bison', 'wild buffalo',
     # Lions
-    'asiatic lion', 'gir lion',
+    'lion', 'asiatic lion', 'gir lion',
     # Pangolin, panda & others
     'pangolin', 'red panda', 'giant squirrel', 'malabar squirrel',
     'flying squirrel', 'porcupine', 'Indian crested porcupine',
@@ -383,9 +383,11 @@ def fix_encoding(text: str) -> str:
     return text
 
 def _word_in(phrase: str, text: str) -> bool:
-    """True if phrase appears as whole word(s) in text (case-insensitive)."""
+    """True if phrase appears as whole word(s) in text (case-insensitive).
+    Handles common English plurals (tiger→tigers, leopard→leopards, forest→forests).
+    """
     escaped = _re.escape(phrase.lower())
-    return bool(_re.search(r'\b' + escaped + r'\b', text))
+    return bool(_re.search(r'\b' + escaped + r'(?:s|es)?\b', text))
 
 def matches_keywords(title: str, description: str = '') -> bool:
     """
