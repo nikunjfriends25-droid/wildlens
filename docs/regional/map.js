@@ -67,10 +67,11 @@ const CATEGORY_KEYWORDS = {
 const map = L.map('map', {
   center: [22, 82],
   zoom: 5,
-  minZoom: 5,
+  minZoom: 4,
   maxZoom: 15,
-  maxBounds: [[2, 60], [40, 105]],
-  maxBoundsViscosity: 0.85,
+  zoomSnap: 0.25,
+  maxBounds: [[1, 63], [41, 102]],
+  maxBoundsViscosity: 1.0,
   zoomControl: false,
 });
 
@@ -82,7 +83,18 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
   maxZoom: 19,
 }).addTo(map);
 
-map.fitBounds(INDIA_BOUNDS, { padding: [10, 10] });
+map.fitBounds([[3.5, 66], [38.5, 99]], { padding: [10, 10] });
+
+// India boundary overlay — same shapefile as English edition
+fetch('../india_boundary.geojson')
+  .then(r => r.json())
+  .then(data => {
+    L.geoJSON(data, {
+      style: { color: '#ffffff', weight: 1, opacity: 0.3, fill: false },
+      interactive: false,
+    }).addTo(map);
+  })
+  .catch(() => {});
 
 // ── Cluster group ─────────────────────────────────────────────────────────────
 const clusters = L.markerClusterGroup({
