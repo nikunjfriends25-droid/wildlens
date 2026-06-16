@@ -21,6 +21,31 @@ const CATEGORY_LABELS = {
   conservation: 'Conservation & Policy',
 };
 
+// ── Source metadata (for info popover) ───────────────────────────────────────
+const SOURCE_META = {
+  'Mongabay India':       { region: 'National',        lang: 'English', desc: 'Dedicated environmental journalism covering Indian wildlife, forests & conservation policy.' },
+  'Research Matters':     { region: 'National',        lang: 'English', desc: 'Science communication outlet covering ecology, biodiversity & wildlife research from Indian institutions.' },
+  'The Wire':             { region: 'National',        lang: 'English', desc: 'Independent news covering environment, science & forest rights across India.' },
+  'The Hindu':            { region: 'National',        lang: 'English', desc: 'India\'s leading broadsheet with strong coverage of environment, forests & wildlife policy.' },
+  'Indian Express':       { region: 'National',        lang: 'English', desc: 'National daily with dedicated environment desk covering wildlife crime, conservation & forest policy.' },
+  'Hindustan Times':      { region: 'National',        lang: 'English', desc: 'National daily covering wildlife conflict, poaching & conservation stories across India.' },
+  'Times of India':       { region: 'National',        lang: 'English', desc: 'India\'s highest-circulation English daily with environment & wildlife coverage.' },
+  'NDTV':                 { region: 'National',        lang: 'English', desc: 'TV & digital news network with environment correspondent covering national wildlife stories.' },
+  'Nature India':         { region: 'National',        lang: 'English', desc: 'Nature journal\'s India desk covering scientific research on biodiversity & ecology.' },
+  'EastMojo':             { region: 'Northeast India', lang: 'English', desc: 'Digital newsroom covering all 8 Northeast states — strong on wildlife, forests & environment.' },
+  'Northeast Now':        { region: 'Northeast India', lang: 'English', desc: 'Northeast-focused news with environment & wildlife coverage across Assam & neighbouring states.' },
+  'Assam Tribune':        { region: 'Assam',           lang: 'English', desc: 'Assam\'s oldest English daily. Covers Kaziranga, Manas, Brahmaputra ecosystem & rhino protection.' },
+  'Greater Kashmir':      { region: 'Jammu & Kashmir', lang: 'English', desc: 'J&K\'s largest English daily covering Dachigam, Hangul deer, snow leopard & forest management.' },
+  'Rising Kashmir':       { region: 'Jammu & Kashmir', lang: 'English', desc: 'J&K-based daily with coverage of Dachigam National Park & Himalayan wildlife.' },
+  'Daily Excelsior':      { region: 'Jammu & Kashmir', lang: 'English', desc: 'Jammu-based daily covering Trikuta hills, Chenab valley forests & wildlife of the Jammu region.' },
+  'Hill Post':            { region: 'Himachal Pradesh', lang: 'English', desc: 'HP-focused outlet covering snow leopard, Himalayan brown bear & high-altitude wildlife.' },
+  'The Pioneer':          { region: 'Central India',   lang: 'English', desc: 'Lucknow-based daily covering Dudhwa, Pilibhit tiger reserves & UP forest department.' },
+  'Central Chronicle':    { region: 'Madhya Pradesh',  lang: 'English', desc: 'MP-based daily covering Kanha, Bandhavgarh, Pench & Satpura tiger reserves.' },
+  'Tribune India':        { region: 'North India',     lang: 'English', desc: 'Chandigarh-based daily covering wildlife & forests of Punjab, Haryana & Himachal Pradesh.' },
+  'Telegraph India':      { region: 'East India',      lang: 'English', desc: 'Kolkata-based daily with strong coverage of Sundarbans, Bengal tigers & Northeast wildlife.' },
+  'Deccan Herald':        { region: 'Karnataka',       lang: 'English', desc: 'Bengaluru-based daily covering Nagarahole, Bandipur, Coorg forests & Western Ghats wildlife.' },
+};
+
 // Order matters — first match wins. conservation is the fallback (not listed here).
 const CATEGORY_KEYWORDS = {
   poaching:  ['poach', 'snare', 'traffick', 'smuggl', 'ivory', 'wildlife crime', 'confiscat', 'illegal hunt', 'crime against'],
@@ -213,8 +238,12 @@ function buildSourceFilters(articles) {
     chip.setAttribute('tabindex', '0');
     chip.dataset.src = src;
 
+    const hasMeta = !!SOURCE_META[src];
     chip.innerHTML = `
       <span class="chip-label">${escapeHtml(src)}</span>
+      ${hasMeta ? `<button class="src-info-btn" aria-label="About ${escapeHtml(src)}" tabindex="0">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="8"/><line x1="12" y1="12" x2="12" y2="16"/></svg>
+      </button>` : ''}
       <span class="chip-check">
         <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
       </span>`;
@@ -228,9 +257,76 @@ function buildSourceFilters(articles) {
 
     chip.addEventListener('click', toggle);
     chip.addEventListener('keydown', e => { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); toggle(); } });
+
+    if (hasMeta) {
+      const infoBtn = chip.querySelector('.src-info-btn');
+      infoBtn.addEventListener('click', e => { e.stopPropagation(); showSourcePopover(src, infoBtn); });
+      infoBtn.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); e.stopPropagation(); showSourcePopover(src, infoBtn); } });
+    }
+
     container.appendChild(chip);
   });
 }
+
+// ── Source info popover ───────────────────────────────────────────────────────
+let _popoverSrc = null;
+
+function showSourcePopover(src, anchor) {
+  const pop = document.getElementById('src-popover');
+  const meta = SOURCE_META[src];
+  if (!meta) return;
+
+  // If same source clicked again, close
+  if (_popoverSrc === src && !pop.hidden) { hideSourcePopover(); return; }
+  _popoverSrc = src;
+
+  const count = (window._allArticles || []).filter(a => a.source === src).length;
+
+  pop.innerHTML = `
+    <div class="src-pop-header">
+      <span class="src-pop-name">${escapeHtml(src)}</span>
+      <button class="src-pop-close" aria-label="Close">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="src-pop-tags">
+      <span class="src-pop-tag">${escapeHtml(meta.region)}</span>
+      <span class="src-pop-tag">${escapeHtml(meta.lang)}</span>
+      <span class="src-pop-tag">${count} article${count !== 1 ? 's' : ''}</span>
+    </div>
+    <p class="src-pop-desc">${escapeHtml(meta.desc)}</p>`;
+
+  pop.hidden = false;
+
+  // Position: below the anchor, aligned to panel left edge
+  const rect = anchor.getBoundingClientRect();
+  const panelW = document.getElementById('panel').offsetWidth;
+  pop.style.top  = (rect.bottom + 6) + 'px';
+  pop.style.left = '12px';
+  pop.style.width = (panelW - 24) + 'px';
+
+  // Clamp to viewport bottom
+  requestAnimationFrame(() => {
+    const popH = pop.offsetHeight;
+    const maxTop = window.innerHeight - popH - 8;
+    if (parseFloat(pop.style.top) > maxTop) pop.style.top = Math.max(8, maxTop) + 'px';
+  });
+
+  pop.querySelector('.src-pop-close').addEventListener('click', hideSourcePopover);
+}
+
+function hideSourcePopover() {
+  const pop = document.getElementById('src-popover');
+  pop.hidden = true;
+  _popoverSrc = null;
+}
+
+// Close on outside click or Escape
+document.addEventListener('click', e => {
+  const pop = document.getElementById('src-popover');
+  if (!pop.hidden && !pop.contains(e.target) && !e.target.closest('.src-info-btn')) hideSourcePopover();
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') hideSourcePopover(); });
 
 // ── Date defaults ─────────────────────────────────────────────────────────────
 function setDefaultDates(articles) {
@@ -324,6 +420,7 @@ fetch('news.json')
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(articles => {
     allArticles = articles;
+    window._allArticles = articles;
 
     allMarkers = articles.map(a => {
       const cat    = categorize(a.headline);

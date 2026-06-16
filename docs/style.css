@@ -982,3 +982,104 @@ input[type="date"]:focus {
 @media (min-width: 601px) and (max-width: 900px) {
   :root { --panel-width: 270px; }
 }
+
+/* ── Source info button ──────────────────────────────────────────────────────── */
+.src-info-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  background: transparent;
+  border: none;
+  border-radius: var(--r-xs);
+  color: var(--text-faint);
+  padding: 0;
+  cursor: pointer;
+  transition: color var(--dur-fast), background var(--dur-fast);
+  opacity: 0;
+}
+
+.filter-chip:hover .src-info-btn,
+.filter-chip:focus-within .src-info-btn { opacity: 1; }
+
+.src-info-btn:hover {
+  color: var(--text-secondary);
+  background: var(--bg-hover);
+}
+
+/* ── Source info popover ─────────────────────────────────────────────────────── */
+#src-popover {
+  position: fixed;
+  z-index: 1100;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-mid);
+  border-radius: var(--r-md);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.7), 0 2px 8px rgba(0,0,0,0.4);
+  padding: 12px;
+  animation: popover-in 140ms var(--ease) both;
+}
+
+@keyframes popover-in {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.src-pop-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.src-pop-name {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.src-pop-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  background: transparent;
+  border: none;
+  border-radius: var(--r-xs);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color var(--dur-fast), background var(--dur-fast);
+}
+
+.src-pop-close:hover { color: var(--text-primary); background: var(--bg-hover); }
+
+.src-pop-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.src-pop-tag {
+  padding: 2px 7px;
+  background: var(--bg-base);
+  border: 1px solid var(--border-mid);
+  border-radius: var(--r-full);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.src-pop-desc {
+  font-size: 11px;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin: 0;
+}
