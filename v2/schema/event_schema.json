@@ -334,12 +334,118 @@
     }
   },
 
+  "regulatory_data_track": {
+    "$comment": "PLANNING NOTE (added 2026-06-16): A third data ingestion track alongside RSS news — pulling from structured government/legal portals. Higher confidence than NLP extraction. Enables predictive threat detection and project lifecycle tracking.",
+
+    "sources": {
+      "PARIVESH": {
+        "url": "parivesh.nic.in",
+        "description": "MoEFCC portal for Forest Clearance (FC), Environment Clearance (EC), and Wildlife Clearance (WL) applications",
+        "data_available": [
+          "Project location (lat/lon or district)",
+          "Forest area affected (hectares)",
+          "Forest type (Reserved Forest, Protected Forest, etc.)",
+          "Species likely affected (sometimes listed in WL clearance)",
+          "Case status: submitted / Stage-1 / Stage-2 / approved / rejected",
+          "Hearing dates and decisions"
+        ],
+        "scraping_notes": "Portal has a public search interface. Filterable by state, project type, status. Consider polling for new entries monthly."
+      },
+      "NGT": {
+        "url": "ngt.gov.in",
+        "description": "National Green Tribunal — quasi-judicial body for environmental cases",
+        "data_available": [
+          "Case number and title",
+          "Petitioner and respondent",
+          "PA / species / forest named in the order",
+          "Order type: stay / dismissed / penalty / remediation directed",
+          "Order date",
+          "Full text (PDF)"
+        ],
+        "scraping_notes": "Orders are published as PDFs. Will need PDF text extraction + NLP to get location/species. Search by keywords: 'wildlife', 'forest', 'protected area', species names."
+      },
+      "eCourts": {
+        "url": "ecourts.gov.in",
+        "description": "Supreme Court and High Courts",
+        "data_available": [
+          "Case status (pending / decided / appealed)",
+          "Order summaries (for SC)",
+          "Case numbers (CNR)"
+        ],
+        "scraping_notes": "Less structured than NGT. Useful for tracking SC/HC appeals of NGT orders or forest clearances. Filter by Act: Wildlife Protection Act 1972, Forest Conservation Act 1980."
+      },
+      "WCCB": {
+        "url": "wccb.gov.in",
+        "description": "Wildlife Crime Control Bureau — poaching case data, seizure statistics",
+        "data_available": [
+          "Species seized",
+          "Quantity/value",
+          "State/location of seizure",
+          "Case outcome (sometimes)"
+        ],
+        "scraping_notes": "Annual reports are the main structured data source. Periodic press releases for high-profile cases."
+      }
+    },
+
+    "new_event_types": {
+      "clearance_application": "Forest/environment clearance filed with MoEFCC via PARIVESH — represents a FUTURE threat",
+      "clearance_granted": "Stage-1 or Stage-2 forest/environment clearance approved",
+      "clearance_rejected": "Application rejected by FAC (Forest Advisory Committee) or MoEFCC",
+      "clearance_conditional": "Approved with mitigation conditions (list conditions as outcome_summary)",
+      "ngt_order": "NGT issues an order — stay, penalty, remediation direction, or case dismissed",
+      "court_judgment": "High Court or Supreme Court judgment on a wildlife/forest case"
+    },
+
+    "new_schema_fields": {
+      "source_type": {
+        "type": "enum",
+        "required": true,
+        "values": ["news_article", "regulatory_document", "court_order", "ngt_order", "wccb_report"],
+        "note": "Determines which extraction pipeline was used and expected confidence level"
+      },
+      "regulatory": {
+        "type": "object — present only when source_type is regulatory_document / court_order / ngt_order",
+        "fields": {
+          "case_number": "string — PARIVESH project ID, NGT case number, or CNR number",
+          "case_status": "enum: pending | stage1_cleared | stage2_cleared | approved | rejected | conditional | challenged | stayed | decided | appealed",
+          "project_name": "string — official project name from the application",
+          "project_proponent": "string — company/government agency filing the application",
+          "clearance_type": "enum: FC | EC | WL | combined (Forest Clearance, Environment Clearance, Wildlife Clearance)",
+          "forest_area_ha": "float — area of forest to be diverted in hectares (from PARIVESH application)",
+          "verdict_summary": "string — 1-2 sentence plain English of the decision",
+          "next_hearing_date": "YYYY-MM-DD or null — if case is still pending",
+          "document_url": "string — link to the official order/application PDF"
+        }
+      }
+    },
+
+    "lifecycle_example": {
+      "description": "A single mining project in a wildlife corridor can generate multiple events across time, all linkable by project_name or case_number",
+      "timeline": [
+        {"date": "2026-01-10", "source_type": "regulatory_document", "event_type": "clearance_application", "case_status": "pending", "note": "PARIVESH entry — first alert before any news coverage"},
+        {"date": "2026-02-20", "source_type": "news_article", "event_type": "habitat_threat", "note": "Conservationists learn of application, protest begins"},
+        {"date": "2026-04-05", "source_type": "regulatory_document", "event_type": "clearance_granted", "case_status": "stage1_cleared"},
+        {"date": "2026-04-15", "source_type": "ngt_order", "event_type": "ngt_order", "case_status": "stayed", "note": "NGT stays clearance on petition"},
+        {"date": "2026-06-10", "source_type": "court_order", "event_type": "court_judgment", "case_status": "appealed"}
+      ]
+    },
+
+    "what_this_enables": [
+      "Predictive threat detection — flag forest clearance applications in wildlife corridors BEFORE construction starts",
+      "Project lifecycle tracking — link regulatory event → news coverage → on-ground impact into one timeline",
+      "Regulatory lag measurement — how long between clearance application and news coverage? Between approval and NGT challenge?",
+      "Compliance monitoring — cross-reference 'clearance_conditional' events with later news to see if conditions were met",
+      "Academic novelty — integrating regulatory + news + field data into a unified ecological intelligence model is not done anywhere currently"
+    ]
+  },
+
   "notes_for_nikunj": {
     "fields_to_add": "Add any fields here that you think are missing from an ecological standpoint",
     "fields_to_remove": "Cross out any fields that are not practically extractable from news text",
     "severity_calibration": "The severity enum definitions above are my first pass — adjust thresholds based on your ecological judgement",
     "location_precision": "The point/district/state hierarchy may need a fourth level — e.g. 'forest_range' between point and district",
     "species_handling": "Articles sometimes mention multiple species (e.g. elephant + leopard in same corridor). Should all species be listed, or only the primary one?",
-    "event_type_gaps": "Are there event types I am missing that you encounter in the field? E.g. 'zoonosis', 'flood_displacement', 'court_order_specific'?"
+    "event_type_gaps": "Are there event types I am missing that you encounter in the field? E.g. 'zoonosis', 'flood_displacement', 'court_order_specific'?",
+    "regulatory_track_priority": "The regulatory data track (PARIVESH + NGT + eCourts) is architecturally separate from news ingestion but feeds the same event store. PARIVESH is the highest priority source — it provides structured location data and represents threats not yet in the news."
   }
 }
