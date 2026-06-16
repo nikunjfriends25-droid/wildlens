@@ -526,68 +526,45 @@
       }
     },
 
-    "data_sources": {
-      "global_forest_watch": {
-        "url": "globalforestwatch.org",
-        "api_available": true,
-        "api_type": "REST API — POST polygon GeoJSON + SQL query",
-        "access": "Free with account and API key (expires annually)",
-        "license": "CC BY 4.0 for most datasets",
-        "key_datasets": {
-          "umd_tree_cover_loss": "Annual tree cover loss 2001–2024, 30m resolution. Query: SELECT year, SUM(area__ha) WHERE umd_tree_cover_loss__year = X",
-          "umd_tree_cover_extent": "Baseline canopy cover % at 2000",
-          "integrated_deforestation_alerts": "Near-real-time alerts (GLAD-L, GLAD-S2, RADD) — weekly cadence",
-          "primary_forest_loss": "Loss specifically in primary/intact forest — highest conservation value"
+    "primary_spatial_source": {
+      "$comment": "Global Forest Watch is the primary source for ALL spatial forest cover analysis. It consolidates what would otherwise require multiple sources.",
+      "url": "globalforestwatch.org",
+      "api_available": true,
+      "api_type": "REST API — POST polygon GeoJSON + SQL query",
+      "access": "Free with account and API key (expires annually)",
+      "license": "CC BY 4.0",
+      "datasets_and_what_they_cover": {
+        "umd_tree_cover_loss": {
+          "description": "Annual tree cover loss 2001–2024, 30m resolution",
+          "covers": ["forest_cover_area_ha", "annual_loss_ha", "forest_cover_pct_change"],
+          "query_example": "SELECT umd_tree_cover_loss__year, SUM(area__ha) as loss_ha FROM results GROUP BY year"
         },
-        "example_query": "POST /dataset/umd_tree_cover_loss/latest/query/json with body: {sql: 'SELECT umd_tree_cover_loss__year, SUM(area__ha) as loss_ha FROM results GROUP BY year', geometry: <PA boundary GeoJSON>}",
-        "priority": "HIGH — start here. GFW deforestation alerts can trigger immediate cross-checks against PARIVESH and news tracks."
+        "umd_tree_cover_extent": {
+          "description": "Baseline canopy cover % at year 2000, 30m",
+          "covers": ["canopy_cover_pct", "baseline establishment"]
+        },
+        "umd_tree_cover_loss_by_driver": {
+          "description": "Attributes loss to: commodity agriculture, shifting agriculture, forestry, wildfire, urbanization",
+          "covers": ["attribution — distinguishes legal clearing from wildfire from encroachment"]
+        },
+        "integrated_deforestation_alerts": {
+          "description": "Near-real-time alerts (GLAD-L, GLAD-S2, RADD) — weekly cadence, 10–30m resolution",
+          "covers": ["illegal_encroachment_detected", "forest_cover_loss_alert", "early warning before news coverage"]
+        },
+        "primary_forest": {
+          "description": "Intact primary forest layer — highest conservation value areas",
+          "covers": ["primary forest loss — most severe category of habitat degradation"]
+        },
+        "tree_cover_as_raster": {
+          "description": "Forest cover as continuous raster — can be used to compute spatial metrics",
+          "covers": ["fragmentation_index", "edge_density", "corridor_width_m", "corridor_connectivity"],
+          "how": "Download GeoTIFF for corridor polygon → compute patch statistics with rasterio/scipy → narrowest contiguous forest = corridor width"
+        }
       },
-      "isro_bhuvan_wms": {
-        "url": "bhuvan-vec2.nrsc.gov.in/bhuvan/wms",
-        "api_available": true,
-        "api_type": "OGC WMS / WMTS — no authentication required",
-        "access": "Free, public",
-        "key_layers": [
-          "Land Use Land Cover (LULC) at 1:50,000",
-          "Wasteland mapping",
-          "Urban land cover",
-          "Water bodies"
-        ],
-        "use_for_wildlens": "LULC classification to distinguish forest vs scrub vs agriculture vs settlement within event buffers. Better than GFW for land-use type (not just tree cover).",
-        "priority": "MEDIUM — complements GFW with land-use classification"
-      },
-      "google_earth_engine": {
-        "api_available": true,
-        "api_type": "Python API (earthengine-api) + JavaScript Code Editor",
-        "access": "Free for research/non-commercial. Requires project registration.",
-        "license": "Free for non-commercial research",
-        "key_datasets": [
-          "Hansen/UMD Global Forest Change (same data as GFW but with direct pixel access)",
-          "Sentinel-2 SR (10m resolution, NDVI time series)",
-          "Landsat Collection 2 (30m, 1985-present)",
-          "MODIS Terra/Aqua (500m, daily — good for fire and phenology)"
-        ],
-        "use_for_wildlens": "Custom analysis: compute NDVI trend for a PA over 10 years, detect fire scars, measure corridor width at specific pinch points, generate before/after images for clearance-granted events.",
-        "priority": "MEDIUM — powerful but requires GEE expertise. Use for deep analysis after basic GFW integration."
-      },
-      "fsi_isfr": {
-        "url": "fsi.nic.in",
-        "api_available": false,
-        "api_type": "None — PDF reports and Excel downloads every 2 years",
-        "latest": "ISFR 2023 (published 2024) — covers 751 districts",
-        "data_available": [
-          "District-level forest cover by density class (Very Dense Forest / Moderately Dense / Open Forest / Scrub)",
-          "State-level trend since 1987",
-          "Change from previous assessment"
-        ],
-        "use_for_wildlens": "Official India government numbers — use these when citing forest cover in the paper or when comparing against your own data. Also useful for validating GFW numbers against FSI methodology.",
-        "priority": "MEDIUM — authoritative but biennial lag. Use as reference, not live feed."
-      },
-      "nikunj_forest_cover": {
-        "source": "Downversioned FSI/MoEFCC data — Nikunj has this",
-        "attribution": "None required",
-        "use_for_wildlens": "Baseline reference layer for India. Higher resolution than public ISFR data for specific regions. Load as PostGIS raster layer.",
-        "priority": "HIGH — already available, no cost, use as primary baseline"
+      "secondary_sources": {
+        "fsi_isfr": "Official GoI numbers for paper citations — no API, biennial PDF. Use to cross-validate GFW numbers with India government methodology.",
+        "nikunj_forest_cover": "Downversioned FSI/MoEFCC data already available — load as PostGIS raster for India-specific baseline where GFW resolution is insufficient.",
+        "isro_bhuvan_wms": "LULC classification (what land use replaced forest) — WMS at bhuvan-vec2.nrsc.gov.in/bhuvan/wms, no auth needed. Complements GFW with land-use type context."
       }
     },
 
