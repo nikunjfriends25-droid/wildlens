@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
 
-  <link rel="stylesheet" href="style.css?v=3" />
+  <link rel="stylesheet" href="style.css?v=4" />
 </head>
 <body>
 
@@ -150,17 +150,16 @@
         </div>
       </div>
 
-      <!-- Source (collapsed by default) -->
-      <div class="filter-section">
-        <button class="section-header" data-target="src-body" aria-expanded="false">
+      <!-- Source dropdown -->
+      <div class="filter-section" id="src-section">
+        <div class="src-dropdown-row">
           <span class="section-label">Source</span>
-          <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
-            <polyline points="6 9 12 15 18 9"/>
-          </svg>
-        </button>
-        <div class="section-body collapsed" id="src-body">
-          <div id="source-filters" role="group" aria-label="Source filter"></div>
+          <button id="src-dropdown-btn" aria-haspopup="listbox" aria-expanded="false">
+            <span id="src-dropdown-label">All sources</span>
+            <svg class="src-chevron" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
         </div>
+        <div id="src-dropdown-panel" hidden role="listbox" aria-multiselectable="true" aria-label="Source filter"></div>
       </div>
 
     </div><!-- /panel-body -->
@@ -184,12 +183,15 @@
 
   </aside>
 
+  <!-- ── Source info popover ──────────────────────────────────────────── -->
+  <div id="src-popover" hidden role="tooltip" aria-live="polite"></div>
+
   <!-- ── Map ────────────────────────────────────────────────────────────── -->
   <main id="map" aria-label="WildLens Regional — Interactive wildlife news map of India"></main>
 
   <!-- Scripts -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-  <script src="map.js?v=3"></script>
+  <script src="map.js?v=4"></script>
 </body>
 </html>

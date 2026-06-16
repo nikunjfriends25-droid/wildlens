@@ -55,6 +55,31 @@ const LANG_DISPLAY = {
   'Gujarati':  'ગુજરાતી',
 };
 
+// ── Source metadata (for info popover) ───────────────────────────────────────
+const SOURCE_META = {
+  'Mathrubhumi':         { region: 'Kerala',        lang: 'Malayalam', desc: 'Kerala\'s oldest and most widely-read Malayalam daily. Strong coverage of Western Ghats wildlife, Periyar & Wayanad.' },
+  'Manorama Online':     { region: 'Kerala',        lang: 'Malayalam', desc: 'Malayala Manorama\'s digital platform. Covers elephant corridors, forest fires & wildlife crime in Kerala.' },
+  'Dainik Jagran':       { region: 'North India',   lang: 'Hindi',     desc: 'India\'s largest-circulated Hindi daily. Covers Dudhwa, UP forest dept, Himalayan wildlife & poaching.' },
+  'Amar Ujala':          { region: 'North India',   lang: 'Hindi',     desc: 'UP & Uttarakhand-focused Hindi daily with coverage of Jim Corbett, tiger reserves & human-wildlife conflict.' },
+  'Patrika':             { region: 'Rajasthan/MP',  lang: 'Hindi',     desc: 'Hindi daily covering Ranthambore, Keoladeo & MP tiger reserves like Kanha and Bandhavgarh.' },
+  'Pratidin Time':       { region: 'Assam',         lang: 'Assamese',  desc: 'Assam\'s leading digital news outlet. Reports on Kaziranga floods, rhino poaching & forest encroachment.' },
+  'Asomiya Pratidin':    { region: 'Assam',         lang: 'Assamese',  desc: 'Top-circulated Assamese newspaper. Covers Manas, Kaziranga & Brahmaputra ecosystem stories.' },
+  'Sakshi':              { region: 'AP/Telangana',  lang: 'Telugu',    desc: 'Telugu daily with wide AP/Telangana reach. Covers Nagarjunasagar, Eastern Ghats & wildlife corridors.' },
+  'Eenadu':              { region: 'AP/Telangana',  lang: 'Telugu',    desc: 'Highest-circulated Telugu newspaper. Reports on Nallamala forests, Godavari basin & wildlife crime.' },
+  'Prajavani':           { region: 'Karnataka',     lang: 'Kannada',   desc: 'Largest Kannada daily. Covers Nagarahole, Bandipur, Coorg & Western Ghats wildlife issues.' },
+  'Vijay Karnataka':     { region: 'Karnataka',     lang: 'Kannada',   desc: 'Karnataka\'s top Kannada paper covering Biligiri Rangaswamy, elephant corridors & forest fires.' },
+  'Dharitri':            { region: 'Odisha',        lang: 'Odia',      desc: 'Odisha\'s leading Odia daily. Covers Simlipal, Bhitarkanika, Olive Ridley turtles & tribal forest rights.' },
+  'Sambad':              { region: 'Odisha',        lang: 'Odia',      desc: 'Top Odia newspaper covering Chilika lake ecology, elephant conflict & Odisha wildlife department.' },
+  'Anandabazar Patrika': { region: 'West Bengal',   lang: 'Bengali',   desc: 'India\'s top Bengali newspaper. Covers Sundarbans, Bengal tiger, mangrove ecology & wildlife stories.' },
+  'Sangbad Pratidin':    { region: 'West Bengal',   lang: 'Bengali',   desc: 'Bengali daily with coverage of Sundarbans biosphere, migratory birds & North Bengal forests.' },
+  'Loksatta':            { region: 'Maharashtra',   lang: 'Marathi',   desc: 'Maharashtra\'s leading Marathi paper. Covers Tadoba, Melghat & Sahyadri wildlife & leopard conflict.' },
+  'Maharashtra Times':   { region: 'Maharashtra',   lang: 'Marathi',   desc: 'Marathi daily covering Vidarbha tiger reserves, forest dept news & human-wildlife conflict in Maharashtra.' },
+  'Dinamalar':           { region: 'Tamil Nadu',    lang: 'Tamil',     desc: 'Tamil Nadu\'s largest-circulated Tamil newspaper. Covers Mudumalai, Anamalai & Western Ghats wildlife.' },
+  'Dinamani':            { region: 'Tamil Nadu',    lang: 'Tamil',     desc: 'Tamil daily covering wildlife crime, Nilgiris biosphere & elephant management in Tamil Nadu.' },
+  'Divya Bhaskar':       { region: 'Gujarat',       lang: 'Gujarati',  desc: 'Gujarat\'s biggest Gujarati daily. Covers Gir lion census, Little Rann wild ass & Great Indian Bustard.' },
+  'Gujarat Samachar':    { region: 'Gujarat',       lang: 'Gujarati',  desc: 'Top Gujarati newspaper covering Marine National Park (Jamnagar), Asiatic lion & mangrove conservation.' },
+};
+
 // Order matters — first match wins. conservation is the fallback.
 const CATEGORY_KEYWORDS = {
   poaching:  ['poach', 'snare', 'traffick', 'smuggl', 'ivory', 'wildlife crime', 'confiscat', 'illegal hunt', 'crime against'],
@@ -119,6 +144,7 @@ let allMarkers  = [];
 const activeCats  = new Set(['poaching', 'discovery', 'conflict', 'research', 'conservation']);
 const activeSrcs  = new Set();
 const activeLangs = new Set();
+let _srcDropdownSources = [];
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -284,40 +310,171 @@ function buildLangFilters(articles) {
   });
 }
 
-// ── Build source filters ──────────────────────────────────────────────────────
+// ── Build source filters (compact dropdown) ───────────────────────────────────
 function buildSourceFilters(articles) {
-  const sources = [...new Set(articles.map(a => a.source))].sort();
-  sources.forEach(s => activeSrcs.add(s));
+  _srcDropdownSources = [...new Set(articles.map(a => a.source))].sort();
+  _srcDropdownSources.forEach(s => activeSrcs.add(s));
 
-  const container = document.getElementById('source-filters');
-  container.innerHTML = '';
+  const panel = document.getElementById('src-dropdown-panel');
+  const btn   = document.getElementById('src-dropdown-btn');
 
-  sources.forEach(src => {
-    const chip = document.createElement('div');
-    chip.className = 'filter-chip source-chip active';
-    chip.setAttribute('role', 'checkbox');
-    chip.setAttribute('aria-checked', 'true');
-    chip.setAttribute('tabindex', '0');
-    chip.dataset.src = src;
+  // Header row: Select All / Clear
+  const header = document.createElement('div');
+  header.className = 'src-dd-header';
+  header.innerHTML = `
+    <button class="src-dd-action" id="src-select-all">All</button>
+    <span class="src-dd-sep">·</span>
+    <button class="src-dd-action" id="src-clear-all">None</button>`;
+  panel.appendChild(header);
 
-    chip.innerHTML = `
-      <span class="chip-label">${escapeHtml(src)}</span>
-      <span class="chip-check">
+  // One row per source
+  _srcDropdownSources.forEach(src => {
+    const row = document.createElement('div');
+    row.className = 'src-dd-row active';
+    row.setAttribute('role', 'option');
+    row.setAttribute('aria-selected', 'true');
+    row.setAttribute('tabindex', '0');
+    row.dataset.src = src;
+
+    const hasMeta = !!SOURCE_META[src];
+    const count   = (window._allArticles || []).filter(a => a.source === src).length;
+
+    row.innerHTML = `
+      <span class="src-dd-check">
         <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
-      </span>`;
+      </span>
+      <span class="src-dd-name">${escapeHtml(src)}</span>
+      <span class="src-dd-count">${count}</span>
+      ${hasMeta ? `<button class="src-info-btn src-dd-info" aria-label="About ${escapeHtml(src)}" tabindex="-1">
+        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="8"/><line x1="12" y1="12" x2="12" y2="16"/></svg>
+      </button>` : ''}`;
 
     const toggle = () => {
       const active = activeSrcs.has(src);
-      if (active) { activeSrcs.delete(src); chip.classList.remove('active'); chip.setAttribute('aria-checked','false'); }
-      else        { activeSrcs.add(src);    chip.classList.add('active');    chip.setAttribute('aria-checked','true'); }
+      if (active) { activeSrcs.delete(src); row.classList.remove('active'); row.setAttribute('aria-selected','false'); }
+      else        { activeSrcs.add(src);    row.classList.add('active');    row.setAttribute('aria-selected','true'); }
+      updateSrcBtn();
       applyFilters();
     };
 
-    chip.addEventListener('click', toggle);
-    chip.addEventListener('keydown', e => { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); toggle(); } });
-    container.appendChild(chip);
+    row.addEventListener('click', toggle);
+    row.addEventListener('keydown', e => { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); toggle(); } });
+
+    if (hasMeta) {
+      const infoBtn = row.querySelector('.src-dd-info');
+      infoBtn.setAttribute('tabindex', '0');
+      infoBtn.addEventListener('click', e => { e.stopPropagation(); showSourcePopover(src, infoBtn); });
+      infoBtn.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); e.stopPropagation(); showSourcePopover(src, infoBtn); } });
+    }
+
+    panel.appendChild(row);
   });
+
+  // Select All / None handlers
+  document.getElementById('src-select-all').addEventListener('click', () => {
+    _srcDropdownSources.forEach(s => activeSrcs.add(s));
+    panel.querySelectorAll('.src-dd-row').forEach(r => { r.classList.add('active'); r.setAttribute('aria-selected','true'); });
+    updateSrcBtn(); applyFilters();
+  });
+  document.getElementById('src-clear-all').addEventListener('click', () => {
+    _srcDropdownSources.forEach(s => activeSrcs.delete(s));
+    panel.querySelectorAll('.src-dd-row').forEach(r => { r.classList.remove('active'); r.setAttribute('aria-selected','false'); });
+    updateSrcBtn(); applyFilters();
+  });
+
+  btn.addEventListener('click', e => { e.stopPropagation(); toggleSrcDropdown(); });
+
+  updateSrcBtn();
 }
+
+function updateSrcBtn() {
+  const total  = _srcDropdownSources.length;
+  const active = _srcDropdownSources.filter(s => activeSrcs.has(s)).length;
+  const label  = document.getElementById('src-dropdown-label');
+  const btn    = document.getElementById('src-dropdown-btn');
+  label.textContent = active === total ? 'All sources' : active === 0 ? 'No sources' : `${active} of ${total} sources`;
+  btn.classList.toggle('src-btn-filtered', active !== total);
+}
+
+function toggleSrcDropdown() {
+  const panel = document.getElementById('src-dropdown-panel');
+  const btn   = document.getElementById('src-dropdown-btn');
+  const open  = !panel.hidden;
+  if (open) { closeSrcDropdown(); return; }
+  panel.hidden = false;
+  btn.setAttribute('aria-expanded', 'true');
+  btn.classList.add('open');
+}
+
+function closeSrcDropdown() {
+  const panel = document.getElementById('src-dropdown-panel');
+  const btn   = document.getElementById('src-dropdown-btn');
+  panel.hidden = true;
+  btn.setAttribute('aria-expanded', 'false');
+  btn.classList.remove('open');
+}
+
+// Close on outside click / Escape
+document.addEventListener('click', e => {
+  if (!document.getElementById('src-section').contains(e.target)) closeSrcDropdown();
+});
+
+// ── Source info popover ───────────────────────────────────────────────────────
+let _popoverSrc = null;
+
+function showSourcePopover(src, anchor) {
+  const pop  = document.getElementById('src-popover');
+  const meta = SOURCE_META[src];
+  if (!meta) return;
+
+  if (_popoverSrc === src && !pop.hidden) { hideSourcePopover(); return; }
+  _popoverSrc = src;
+
+  const count = (window._allArticles || []).filter(a => a.source === src).length;
+
+  pop.innerHTML = `
+    <div class="src-pop-header">
+      <span class="src-pop-name">${escapeHtml(src)}</span>
+      <button class="src-pop-close" aria-label="Close">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="src-pop-tags">
+      <span class="src-pop-tag">${escapeHtml(meta.region)}</span>
+      <span class="src-pop-tag">${escapeHtml(meta.lang)}</span>
+      <span class="src-pop-tag">${count} article${count !== 1 ? 's' : ''}</span>
+    </div>
+    <p class="src-pop-desc">${escapeHtml(meta.desc)}</p>`;
+
+  pop.hidden = false;
+
+  const rect   = anchor.getBoundingClientRect();
+  const panelW = document.getElementById('panel').offsetWidth;
+  pop.style.top   = (rect.bottom + 6) + 'px';
+  pop.style.left  = '12px';
+  pop.style.width = (panelW - 24) + 'px';
+
+  requestAnimationFrame(() => {
+    const popH   = pop.offsetHeight;
+    const maxTop = window.innerHeight - popH - 8;
+    if (parseFloat(pop.style.top) > maxTop) pop.style.top = Math.max(8, maxTop) + 'px';
+  });
+
+  pop.querySelector('.src-pop-close').addEventListener('click', hideSourcePopover);
+}
+
+function hideSourcePopover() {
+  const pop = document.getElementById('src-popover');
+  pop.hidden = true;
+  _popoverSrc = null;
+}
+
+// Close popover on outside click or Escape
+document.addEventListener('click', e => {
+  const pop = document.getElementById('src-popover');
+  if (!pop.hidden && !pop.contains(e.target) && !e.target.closest('.src-info-btn')) hideSourcePopover();
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') { hideSourcePopover(); closeSrcDropdown(); } });
 
 // ── Date defaults ─────────────────────────────────────────────────────────────
 function setDefaultDates(articles) {
@@ -382,10 +539,11 @@ document.getElementById('reset-btn').addEventListener('click', () => {
     chip.classList.add('active'); chip.setAttribute('aria-checked', 'true');
   });
 
-  allArticles.forEach(a => { if (a.source) activeSrcs.add(a.source); });
-  document.querySelectorAll('#source-filters .filter-chip').forEach(chip => {
-    chip.classList.add('active'); chip.setAttribute('aria-checked', 'true');
+  _srcDropdownSources.forEach(s => activeSrcs.add(s));
+  document.querySelectorAll('#src-dropdown-panel .src-dd-row').forEach(r => {
+    r.classList.add('active'); r.setAttribute('aria-selected', 'true');
   });
+  updateSrcBtn();
 
   allArticles.forEach(a => { if (a.lang) activeLangs.add(a.lang); });
   document.querySelectorAll('#lang-filters .filter-chip').forEach(chip => {
@@ -416,6 +574,7 @@ fetch('news.json')
     }
 
     allArticles = articles;
+    window._allArticles = articles;
 
     allMarkers = articles.map(a => {
       const cat    = categorize(a.headline_en || a.headline);
