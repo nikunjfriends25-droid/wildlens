@@ -52,8 +52,9 @@ SOURCES = [
     'https://www.assamtribune.com/feed/',
     # Northeast Now — dedicated Northeast desk; covers all 8 NE states
     'https://nenow.in/feed',
-    # EastMojo — covers all 8 NE states; environment & wildlife desk
-    'https://eastmojo.com/feed/',
+    # EastMojo — general /feed/ returns only 10 mixed articles; GN search returns targeted wildlife hits
+    ('https://news.google.com/rss/search?q=wildlife+forest+elephant+tiger+rhino'
+     '+poaching+site:eastmojo.com&hl=en-IN&gl=IN&ceid=IN:en'),
 
     # ── J&K & Ladakh ──────────────────────────────────────────────────────────
     # Greater Kashmir — J&K's largest English daily; Dachigam, Hangul, snow leopard
