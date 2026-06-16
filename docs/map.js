@@ -701,8 +701,21 @@ document.getElementById('tour-btn')?.addEventListener('click', startTour);
 
     if (/\btoday\b/.test(q))     return { from: fmt(now), to: fmt(now) };
     if (/\byesterday\b/.test(q)) { const d = new Date(now); d.setDate(d.getDate()-1); return { from: fmt(d), to: fmt(d) }; }
-    if (/\blast\s+week\b|\bthis\s+week\b/.test(q)) { const d = new Date(now); d.setDate(d.getDate()-7); return { from: fmt(d), to: fmt(now) }; }
-    if (/\bthis\s+month\b/.test(q)) { const d = new Date(now.getFullYear(), now.getMonth(), 1); return { from: fmt(d), to: fmt(now) }; }
+    if (/\blast\s+week\b|\bthis\s+week\b|\bpast\s+(one\s+)?week\b/.test(q)) { const d = new Date(now); d.setDate(d.getDate()-7); return { from: fmt(d), to: fmt(now) }; }
+    if (/\blast\s+month\b|\bthis\s+month\b|\bpast\s+(one\s+)?month\b/.test(q)) { const d = new Date(now.getFullYear(), now.getMonth(), 1); return { from: fmt(d), to: fmt(now) }; }
+
+    // "past N days" / "past N weeks" / "last N days"
+    const pastN = q.match(/\b(?:past|last)\s+(\d+|one|two|three|four|five|six|seven|ten|fourteen|thirty)\s+(day|week|month)s?\b/);
+    if (pastN) {
+      const words = { one:1,two:2,three:3,four:4,five:5,six:6,seven:7,ten:10,fourteen:14,thirty:30 };
+      const n = parseInt(pastN[1]) || words[pastN[1]] || 1;
+      const unit = pastN[2];
+      const d = new Date(now);
+      if (unit === 'day')   d.setDate(d.getDate() - n);
+      if (unit === 'week')  d.setDate(d.getDate() - n * 7);
+      if (unit === 'month') d.setMonth(d.getMonth() - n);
+      return { from: fmt(d), to: fmt(now) };
+    }
 
     const MONTHS = { jan:0,feb:1,mar:2,apr:3,may:4,jun:5,jul:6,aug:7,sep:8,oct:9,nov:10,dec:11,
       january:0,february:1,march:2,april:3,june:5,july:6,august:7,september:8,october:9,november:10,december:11 };
@@ -875,7 +888,10 @@ document.getElementById('tour-btn')?.addEventListener('click', startTour);
       const more = filtered.length > 4
         ? `<p style="margin-top:4px;color:var(--text-muted);font-size:10px">…and ${filtered.length - 4} more</p>`
         : '';
-      addBot(`Found <strong>${filtered.length}</strong> ${desc} — map updated:<ul>${preview}</ul>${more}`);
+      const foundMsg = desc === 'all articles'
+        ? `Showing all <strong>${filtered.length}</strong> articles`
+        : `Found <strong>${filtered.length}</strong> ${desc}`;
+      addBot(`${foundMsg} — map updated:<ul>${preview}</ul>${more}`);
       return;
     }
 
