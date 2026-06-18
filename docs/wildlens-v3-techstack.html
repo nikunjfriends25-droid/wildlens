@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WildLens v3 — Tech Stack</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 32px 24px; }
+  h1 { text-align: center; font-size: 22px; font-weight: 700; color: #4ade80; letter-spacing: 1px; margin-bottom: 6px; }
+  .subtitle { text-align: center; font-size: 13px; color: #64748b; margin-bottom: 40px; }
+  .page { max-width: 1040px; margin: 0 auto; }
+
+  /* Section label */
+  .section-label { font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #475569; margin-bottom: 10px; padding-left: 4px; margin-top: 28px; }
+
+  /* Tool grid */
+  .grid { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 4px; }
+
+  /* Tool card */
+  .card { border-radius: 10px; padding: 14px 16px; min-width: 210px; flex: 1; }
+  .card-tool { font-size: 14px; font-weight: 700; margin-bottom: 4px; }
+  .card-install { font-family: 'Consolas', 'Courier New', monospace; font-size: 10.5px; color: #64748b; background: rgba(0,0,0,0.3); padding: 2px 7px; border-radius: 4px; display: inline-block; margin-bottom: 7px; }
+  .card-desc { font-size: 11.5px; line-height: 1.5; color: #94a3b8; }
+  .card-note { font-size: 10.5px; color: #475569; margin-top: 6px; font-style: italic; }
+
+  /* Badge */
+  .badge { display: inline-block; font-size: 9.5px; font-weight: 700; letter-spacing: 0.5px; padding: 1px 7px; border-radius: 20px; margin-bottom: 7px; }
+  .badge.blue   { background: #1e3a5f; color: #60a5fa; }
+  .badge.green  { background: #14432a; color: #4ade80; }
+  .badge.yellow { background: #44320c; color: #fbbf24; }
+  .badge.red    { background: #4a1a1a; color: #f87171; }
+  .badge.teal   { background: #0d2d2b; color: #2dd4bf; }
+  .badge.purple { background: #2d1b69; color: #a78bfa; }
+  .badge.grey   { background: #1e293b; color: #64748b; }
+
+  /* Card colour themes */
+  .c-blue   { background: rgba(59,130,246,0.10); border: 1.5px solid #2563eb; }
+  .c-blue   .card-tool { color: #60a5fa; }
+  .c-yellow { background: rgba(234,179,8,0.10); border: 1.5px solid #b45309; }
+  .c-yellow .card-tool { color: #fbbf24; }
+  .c-teal   { background: rgba(20,184,166,0.10); border: 1.5px solid #0d9488; }
+  .c-teal   .card-tool { color: #2dd4bf; }
+  .c-purple { background: rgba(139,92,246,0.10); border: 1.5px solid #7c3aed; }
+  .c-purple .card-tool { color: #a78bfa; }
+  .c-red    { background: rgba(239,68,68,0.10); border: 1.5px solid #b91c1c; }
+  .c-red    .card-tool { color: #f87171; }
+  .c-green  { background: rgba(74,222,128,0.10); border: 1.5px solid #16a34a; }
+  .c-green  .card-tool { color: #4ade80; }
+  .c-grey   { background: rgba(100,116,139,0.10); border: 1.5px solid #475569; }
+  .c-grey   .card-tool { color: #94a3b8; }
+
+  /* Separator */
+  .sep { height: 1px; background: #1e293b; margin: 28px 0 4px 0; }
+
+  /* Planned tag */
+  .planned { opacity: 0.65; }
+  .planned .card-tool::after { content: ' — planned'; font-size: 10px; font-weight: 400; color: #475569; }
+
+  @media print {
+    body { background: white; color: #111; }
+    .card-desc, .card-note { color: #333; }
+    .card-install { color: #555; background: #f1f5f9; }
+    h1 { color: #166534; }
+  }
+</style>
+</head>
+<body>
+
+<h1>WildLens v3 — Tech Stack</h1>
+<p class="subtitle">Library reference by module &nbsp;·&nbsp; Print: Ctrl+P → Save as PDF</p>
+
+<div class="page">
+
+  <!-- ── TRACK 1: NEWS INGESTION ───────────────────────────────────────── -->
+  <div class="section-label">Track 1 — News &amp; Historical Text Ingestion</div>
+  <div class="grid">
+
+    <div class="card c-blue">
+      <span class="badge blue">Live RSS</span>
+      <div class="card-tool">feedparser</div>
+      <div class="card-install">pip install feedparser</div>
+      <div class="card-desc">Parse RSS/Atom feeds from all V1 sources + regional feeds. Returns headline, URL, published date, summary.</div>
+    </div>
+
+    <div class="card c-blue">
+      <span class="badge blue">Full Article Text</span>
+      <div class="card-tool">trafilatura</div>
+      <div class="card-install">pip install trafilatura</div>
+      <div class="card-desc">Fetch and extract clean article body from any URL. Strips ads, nav, boilerplate. Better than BeautifulSoup for news sites.</div>
+    </div>
+
+    <div class="card c-blue">
+      <span class="badge blue">Historical 2013–present</span>
+      <div class="card-tool">google-cloud-bigquery</div>
+      <div class="card-install">pip install google-cloud-bigquery</div>
+      <div class="card-desc">Query GDELT dataset for India wildlife URLs using ENV_WILDLIFE / ENV_POACHING / ENV_DEFORESTATION theme codes. Free tier: 1 TB/month.</div>
+      <div class="card-note">Account at console.cloud.google.com — no credit card if under free tier.</div>
+    </div>
+
+    <div class="card c-blue">
+      <span class="badge blue">Historical 2003–present</span>
+      <div class="card-tool">requests (CDX API)</div>
+      <div class="card-install">pip install requests</div>
+      <div class="card-desc">Query Wayback Machine CDX index for full URL history of DTE, Mongabay, The Hindu, The Wire. No auth needed. Returns all archived article URLs per site.</div>
+      <div class="card-note">GET web.archive.org/cdx/search/cdx?url=downtoearth.org/news/wildlife/*&amp;output=json</div>
+    </div>
+
+  </div>
+  <div class="grid" style="margin-top:10px;">
+
+    <div class="card c-blue">
+      <span class="badge blue">PAU PDFs — text layer</span>
+      <div class="card-tool">pdfplumber</div>
+      <div class="card-install">pip install pdfplumber</div>
+      <div class="card-desc">Extract text from Kalpavriksh Protected Area Update PDFs that have a text layer (2010+ issues). Page-by-page extraction, handles tables.</div>
+    </div>
+
+    <div class="card c-blue">
+      <span class="badge blue">PAU PDFs — scanned</span>
+      <div class="card-tool">pytesseract + Tesseract</div>
+      <div class="card-install">pip install pytesseract &nbsp;·&nbsp; apt install tesseract-ocr</div>
+      <div class="card-desc">OCR for older PAU issues (2000–2009) that are scanned images. Use eng language model. Render PDF pages to images first with pdf2image.</div>
+      <div class="card-note">Also install: pip install pdf2image Pillow</div>
+    </div>
+
+    <div class="card c-grey">
+      <span class="badge grey">If institutional access</span>
+      <div class="card-tool">Factiva / LexisNexis</div>
+      <div class="card-install">University subscription — XML export</div>
+      <div class="card-desc">The Hindu from 1990, Times of India from 1991. Export structured XML per article. Covers pre-2003 gap that CDX and GDELT cannot fill.</div>
+    </div>
+
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ── TRACK 2: REGULATORY ───────────────────────────────────────────── -->
+  <div class="section-label">Track 2 — Regulatory Ingestion (PARIVESH · NGT · Courts)</div>
+  <div class="grid">
+
+    <div class="card c-yellow">
+      <span class="badge yellow">PARIVESH / data.gov.in</span>
+      <div class="card-tool">datagovindia</div>
+      <div class="card-install">pip install datagovindia</div>
+      <div class="card-desc">Official Python client for data.gov.in REST API. Pulls 50k+ environment clearance records from PARIVESH 2.0. Returns project name, state, district, forest area (ha), clearance status.</div>
+      <div class="card-note">Free API key at data.gov.in. For Forest Clearance (FC) and Wildlife Clearance (WL), scrape PARIVESH portal directly — not on data.gov.in.</div>
+    </div>
+
+    <div class="card c-yellow">
+      <span class="badge yellow">NGT · High Courts</span>
+      <div class="card-tool">ecourts</div>
+      <div class="card-install">pip install ecourts</div>
+      <div class="card-desc">Open-source Python library (GPL-3.0) for hcservices.ecourts.gov.in. Search by Act (Wildlife Protection Act, Forest Conservation Act). Covers all High Courts.</div>
+      <div class="card-note">High Courts only. Single-threaded by design (polite scraping). Does not cover District Courts or Supreme Court.</div>
+    </div>
+
+    <div class="card c-yellow">
+      <span class="badge yellow">District + High Courts</span>
+      <div class="card-tool">requests (Akshit eCourts API)</div>
+      <div class="card-install">pip install requests &nbsp;·&nbsp; Free API key</div>
+      <div class="card-desc">Third-party REST wrapper (akshit-me.gitbook.io/e-courts-india-api). Pan-India case search including District Courts. Returns case status, orders, judgments. Free non-commercial.</div>
+    </div>
+
+    <div class="card c-yellow">
+      <span class="badge yellow">PDF Orders</span>
+      <div class="card-tool">pymupdf (fitz)</div>
+      <div class="card-install">pip install pymupdf</div>
+      <div class="card-desc">Fast PDF text extraction for NGT orders and court judgments. Better than pdfplumber for large multi-page legal PDFs. Extract text, then run spaCy NLP for location/species/outcome.</div>
+    </div>
+
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ── TRACK 3: FOREST COVER ─────────────────────────────────────────── -->
+  <div class="section-label">Track 3 — Forest Cover &amp; Spatial Analysis (GFW)</div>
+  <div class="grid">
+
+    <div class="card c-teal">
+      <span class="badge teal">GFW API</span>
+      <div class="card-tool">requests</div>
+      <div class="card-install">pip install requests &nbsp;·&nbsp; Free GFW account</div>
+      <div class="card-desc">POST a polygon GeoJSON + SQL query to GFW REST API. Returns annual tree cover loss 2001–2024, loss by driver, near-real-time GLAD/RADD deforestation alerts.</div>
+      <div class="card-note">API key at globalforestwatch.org — expires annually, renew free.</div>
+    </div>
+
+    <div class="card c-teal">
+      <span class="badge teal">Raster Analysis</span>
+      <div class="card-tool">rasterio</div>
+      <div class="card-install">pip install rasterio</div>
+      <div class="card-desc">Read GFW tree cover GeoTIFF rasters. Clip to corridor/PA polygon, compute patch statistics. Used to measure corridor width at narrowest point and fragmentation index.</div>
+    </div>
+
+    <div class="card c-teal">
+      <span class="badge teal">Spatial Metrics</span>
+      <div class="card-tool">numpy · scipy · scikit-image</div>
+      <div class="card-install">pip install numpy scipy scikit-image</div>
+      <div class="card-desc">Compute fragmentation index (patch size distribution), edge density (perimeter/area), corridor width (morphological thinning on binary raster). Used for corridor integrity index.</div>
+    </div>
+
+    <div class="card c-teal">
+      <span class="badge teal">Vector Geometry</span>
+      <div class="card-tool">shapely · geopandas</div>
+      <div class="card-install">pip install shapely geopandas</div>
+      <div class="card-desc">Polygon operations in Python — buffer zones, intersections, point-in-polygon checks. Used before PostGIS queries and for IUCN range map overlap scoring.</div>
+    </div>
+
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ── TRACK 4: eBIRD ────────────────────────────────────────────────── -->
+  <div class="section-label">Track 4 — Biological Indicators · eBird (Planned)</div>
+  <div class="grid">
+
+    <div class="card c-purple planned">
+      <span class="badge purple">eBird Data</span>
+      <div class="card-tool">ebird-api</div>
+      <div class="card-install">pip install ebird-api &nbsp;·&nbsp; Free key at ebird.org/api/keygen</div>
+      <div class="card-desc">Fetch eBird checklists by PA boundary and year. Returns species list, observation counts, observer effort (hours, distance). Basis for specialist:generalist ratio computation.</div>
+    </div>
+
+    <div class="card c-purple planned">
+      <span class="badge purple">Species Classification</span>
+      <div class="card-tool">pandas</div>
+      <div class="card-install">pip install pandas</div>
+      <div class="card-desc">Load custom Indian forest specialist / generalist species list (CSV). Join against eBird observations. Aggregate ratio per PA per year. Normalise by observer effort (checklists, hours).</div>
+    </div>
+
+    <div class="card c-purple planned">
+      <span class="badge purple">Correlation Analysis</span>
+      <div class="card-tool">scipy.stats</div>
+      <div class="card-install">pip install scipy</div>
+      <div class="card-desc">Spearman rank correlation between specialist:generalist ratio and GFW forest loss / PARIVESH clearance count / WildLens event density — per PA per year. Non-parametric, handles non-normal distributions.</div>
+    </div>
+
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ── NLP PIPELINE ──────────────────────────────────────────────────── -->
+  <div class="section-label">NLP Pipeline — All Text Tracks Feed Through Here</div>
+  <div class="grid">
+
+    <div class="card c-teal">
+      <span class="badge teal">NER</span>
+      <div class="card-tool">spaCy en_core_web_trf</div>
+      <div class="card-install">pip install spacy &nbsp;·&nbsp; python -m spacy download en_core_web_trf</div>
+      <div class="card-desc">Transformer-based NER model. Extracts GPE/LOC entities (location), plus ORG/PERSON where relevant. Same model as V1 pipeline. Applied to all text tracks.</div>
+      <div class="card-note">Heavy download (~500MB). Cache in GitHub Actions with actions/cache@v4 keyed on requirements hash.</div>
+    </div>
+
+    <div class="card c-teal">
+      <span class="badge teal">Species Extraction</span>
+      <div class="card-tool">Custom gazetteer (CSV)</div>
+      <div class="card-install">data/species_gazetteer.csv — no install</div>
+      <div class="card-desc">Maps common names → scientific name + IUCN category. Handles colloquials: "big cat" → Panthera, "pachyderm" → elephant. Loaded as dict at startup. Fast O(1) lookup after tokenisation.</div>
+    </div>
+
+    <div class="card c-teal">
+      <span class="badge teal">★ Toponym Disambiguation</span>
+      <div class="card-tool">shapely + PostGIS + IUCN range maps</div>
+      <div class="card-install">pip install shapely psycopg2-binary</div>
+      <div class="card-desc">For each NER location candidate: geocode → check overlap with IUCN range map for the extracted species. Score = range overlap area. Highest-scoring candidate wins. Novel contribution.</div>
+    </div>
+
+    <div class="card c-teal">
+      <span class="badge teal">Event Classification</span>
+      <div class="card-tool">scikit-learn</div>
+      <div class="card-install">pip install scikit-learn</div>
+      <div class="card-desc">Text classifier (TF-IDF + LogReg or fine-tuned BERT) trained on gold standard annotations. Predicts event_type across 16 classes. Outputs class + confidence score.</div>
+    </div>
+
+    <div class="card c-teal">
+      <span class="badge teal">★ Deduplication</span>
+      <div class="card-tool">sentence-transformers</div>
+      <div class="card-install">pip install sentence-transformers</div>
+      <div class="card-desc">Semantic embeddings for each article. Cosine similarity clustering: articles within same location × same species × same 7-day window → one event record. Eliminates duplicate pins from multi-outlet coverage.</div>
+    </div>
+
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ── SPATIAL REFERENCE DATA ────────────────────────────────────────── -->
+  <div class="section-label">Spatial Reference Layers — Load Once into PostGIS</div>
+  <div class="grid">
+
+    <div class="card c-grey">
+      <span class="badge grey">PA Boundaries</span>
+      <div class="card-tool">WDPA Shapefiles</div>
+      <div class="card-install">protectedplanet.net — monthly shapefile download</div>
+      <div class="card-desc">World Database of Protected Areas. All Indian PA boundaries with attributes (name, IUCN category, area, year established). Load into PostGIS as reference layer for ST_Within queries.</div>
+    </div>
+
+    <div class="card c-grey">
+      <span class="badge grey">Elephant Corridors</span>
+      <div class="card-tool">WTI GeoJSON (101 corridors)</div>
+      <div class="card-install">Contact WTI — no public download</div>
+      <div class="card-desc">"Right of Passage" 2nd Ed (2017) + MoEF 2023. Attributes: name, states, width (narrowest), status, connecting PAs. Email Upasana Ganguly at WTI for shapefile. Highest-priority static layer.</div>
+    </div>
+
+    <div class="card c-grey">
+      <span class="badge grey">Species Ranges</span>
+      <div class="card-tool">IUCN Red List Shapefiles</div>
+      <div class="card-install">iucnredlist.org/resources/spatial-data-download</div>
+      <div class="card-desc">Species distribution polygons for tiger, elephant, lion, leopard, rhino, gharial, vulture species. Used for toponym disambiguation scoring. Free download with registration.</div>
+    </div>
+
+    <div class="card c-grey">
+      <span class="badge grey">Admin Boundaries</span>
+      <div class="card-tool">India GeoJSON (states + districts)</div>
+      <div class="card-install">datameet/maps — GitHub, free</div>
+      <div class="card-desc">State and district boundary polygons for India. Used for stateProvince and county enrichment via PostGIS ST_Within. datameet/maps on GitHub has clean district-level GeoJSON.</div>
+    </div>
+
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ── EVENT STORE ───────────────────────────────────────────────────── -->
+  <div class="section-label">Event Store — PostgreSQL + PostGIS</div>
+  <div class="grid">
+
+    <div class="card c-yellow">
+      <span class="badge yellow">Database</span>
+      <div class="card-tool">PostgreSQL + PostGIS</div>
+      <div class="card-install">apt install postgresql postgis &nbsp;·&nbsp; CREATE EXTENSION postgis;</div>
+      <div class="card-desc">Main event database. PostGIS adds geometry column type and spatial functions (ST_Within, ST_DWithin, ST_Intersects) for all PA/corridor membership queries. Stores events, regulatory, forest_cover, species, articles tables.</div>
+    </div>
+
+    <div class="card c-yellow">
+      <span class="badge yellow">ORM</span>
+      <div class="card-tool">SQLAlchemy + GeoAlchemy2</div>
+      <div class="card-install">pip install sqlalchemy geoalchemy2 psycopg2-binary</div>
+      <div class="card-desc">Python ORM for PostgreSQL. GeoAlchemy2 adds PostGIS geometry type support. Define event schema as Python classes — avoids raw SQL for CRUD operations.</div>
+    </div>
+
+    <div class="card c-yellow">
+      <span class="badge yellow">Migrations</span>
+      <div class="card-tool">Alembic</div>
+      <div class="card-install">pip install alembic</div>
+      <div class="card-desc">Schema version control for PostgreSQL. Generate migration scripts when event schema changes. Rollback-safe. Works with SQLAlchemy models.</div>
+    </div>
+
+    <div class="card c-yellow">
+      <span class="badge yellow">Vector Search</span>
+      <div class="card-tool">pgvector</div>
+      <div class="card-install">apt install postgresql-pgvector &nbsp;·&nbsp; CREATE EXTENSION vector;</div>
+      <div class="card-desc">PostgreSQL extension for storing and querying vector embeddings. Used by RAG engine to find semantically similar events. Keeps everything in one database — no separate vector store needed.</div>
+    </div>
+
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ── INTELLIGENCE LAYER ────────────────────────────────────────────── -->
+  <div class="section-label">Intelligence Layer — RAG · Query API · Alerts</div>
+  <div class="grid">
+
+    <div class="card c-red">
+      <span class="badge red">Local LLM</span>
+      <div class="card-tool">Ollama</div>
+      <div class="card-install">ollama.com — free, runs locally</div>
+      <div class="card-desc">Run open-source LLMs locally. Zero API cost. Recommended models: Mistral 7B (fast, good reasoning) or Llama 3.1 8B (strong instruction following). Powers natural language report generation.</div>
+      <div class="card-note">GPU recommended but runs on CPU. 8GB RAM minimum for 7B models.</div>
+    </div>
+
+    <div class="card c-red">
+      <span class="badge red">RAG Framework</span>
+      <div class="card-tool">LlamaIndex</div>
+      <div class="card-install">pip install llama-index llama-index-vector-stores-postgres</div>
+      <div class="card-desc">Orchestrates retrieval-augmented generation. Query → retrieve relevant events from pgvector → pass as context to Ollama LLM → return cited plain-English report. Supports structured filter + semantic search hybrid.</div>
+    </div>
+
+    <div class="card c-red">
+      <span class="badge red">Query API</span>
+      <div class="card-tool">FastAPI</div>
+      <div class="card-install">pip install fastapi uvicorn</div>
+      <div class="card-desc">REST API exposing event store queries: filter by species / event_type / PA / date range / severity / spatial radius. Also serves RAG chat endpoint. Lightweight, async, auto-generates OpenAPI docs.</div>
+    </div>
+
+    <div class="card c-red">
+      <span class="badge red">Scheduling</span>
+      <div class="card-tool">GitHub Actions (existing)</div>
+      <div class="card-install">Already set up in .github/workflows/</div>
+      <div class="card-desc">Track 1 RSS pipeline runs every 6h (existing V1 cron). V2 pipeline extends this with NLP, deduplication, PostGIS enrichment. GFW alert polling added as separate weekly workflow.</div>
+    </div>
+
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ── INTERFACE ─────────────────────────────────────────────────────── -->
+  <div class="section-label">Interface — Map · Dashboard · Chat</div>
+  <div class="grid">
+
+    <div class="card c-green">
+      <span class="badge green">Map</span>
+      <div class="card-tool">Leaflet.js + MarkerCluster</div>
+      <div class="card-install">CDN — same as V1</div>
+      <div class="card-desc">Interactive map. One pin per event (not per article). Pin colour = event_type. PA boundary overlay. Corridor stress heat layer. Inherits V1 tile layer and cluster plugin.</div>
+    </div>
+
+    <div class="card c-green">
+      <span class="badge green">Dashboard</span>
+      <div class="card-tool">Plotly.js</div>
+      <div class="card-install">CDN — cdn.plot.ly/plotly-latest.min.js</div>
+      <div class="card-desc">Interactive charts: event counts by species/PA/type, HWC trend by state, corridor stress index panel, species:generalist ratio trend (Track 4). Richer than Chart.js for multi-axis ecological data.</div>
+    </div>
+
+    <div class="card c-green">
+      <span class="badge green">Chat Interface</span>
+      <div class="card-tool">Vanilla HTML/JS → FastAPI</div>
+      <div class="card-install">No framework — plain fetch() calls</div>
+      <div class="card-desc">Simple chat UI that POSTs queries to FastAPI RAG endpoint. Streams response tokens. Displays cited source articles. No React/Vue — keeps bundle zero and works on GitHub Pages static hosting.</div>
+    </div>
+
+    <div class="card c-green">
+      <span class="badge green">Hosting</span>
+      <div class="card-tool">GitHub Pages + lightweight VPS</div>
+      <div class="card-install">GitHub Pages: free · VPS: ~$6/month (Hetzner CX11)</div>
+      <div class="card-desc">Static frontend (map, dashboard, chat UI) on GitHub Pages. FastAPI + PostgreSQL on a small VPS. V1 stays on GitHub Pages untouched — V2 API runs separately.</div>
+      <div class="card-note">During research phase, FastAPI can run locally — VPS only needed when sharing with collaborators.</div>
+    </div>
+
+  </div>
+
+</div>
+
+<p style="text-align:center; margin-top:48px; font-size:11px; color:#334155">
+  WildLens v3 — Tech Stack Reference &nbsp;·&nbsp; Planned modules shown at reduced opacity &nbsp;·&nbsp; Print: Ctrl+P → Save as PDF
+</p>
+
+</body>
+</html>
