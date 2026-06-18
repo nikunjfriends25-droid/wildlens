@@ -109,16 +109,17 @@
     </div>
     <div class="box phase-0 wide">
       <span class="badge purple">Spatial Datasets</span>
-      <div class="box-title">Reference Data Assembly</div>
+      <div class="box-title">Reference Data Assembly (load once into PostGIS)</div>
       <div class="box-body">
         <ul>
-          <li>PA shapefiles (Nikunj has these)</li>
-          <li>IUCN range maps for key species (tiger, elephant, lion, leopard, rhino, gharial, vulture…)</li>
-          <li>Wildlife corridor polygons (WII corridor datasets)</li>
-          <li>Forest cover raster (downversioned, no attribution needed)</li>
-          <li>District / state boundary GeoJSON</li>
+          <li><strong style="color:#a78bfa">WTI Elephant Corridors</strong> — 101 corridors, "Right of Passage" 2nd Ed (2017) + MoEF 2023. Name, states, width, status, connecting PAs. <em>Contact WTI for shapefile.</em></li>
+          <li><strong style="color:#a78bfa">WDPA</strong> — World Database of Protected Areas. All Indian PA boundaries. REST API + monthly shapefile. Free.</li>
+          <li><strong style="color:#a78bfa">GBIF</strong> — ~40M species occurrence records for India. pygbif Python client. Enables species-range scoring for toponym disambiguation ★</li>
+          <li><strong style="color:#a78bfa">IUCN range maps</strong> — tiger, elephant, lion, leopard, rhino, gharial, vulture…</li>
+          <li><strong style="color:#a78bfa">WII Tiger Census</strong> — AITE 2022 distribution grids + habitat maps (PDF + shapefiles)</li>
+          <li>District / state boundary GeoJSON · Forest cover raster (Nikunj has FSI downversioned)</li>
         </ul>
-        <p class="note">Stored as PostGIS layers in v2 database</p>
+        <p class="note">Stored as PostGIS layers. WTI corridor shapefile is the single highest-priority acquisition.</p>
       </div>
     </div>
   </div>
@@ -126,8 +127,88 @@
   <div class="arrow">▼</div>
   <div class="sep"></div>
 
+  <!-- THREE PARALLEL DATA TRACKS -->
+  <div class="phase-label">Three Parallel Data Tracks — all feed into the same Event Store</div>
+  <div class="row">
+    <div class="box phase-1 wide">
+      <span class="badge blue">Track 1 — News (Reactive)</span>
+      <div class="box-title">RSS Article Pipeline</div>
+      <div class="box-body">
+        <ul>
+          <li>Same RSS sources as V1 + regional feeds</li>
+          <li>NLP extraction: species, location, event type, severity</li>
+          <li>Deduplication: same incident → one event record</li>
+          <li>Spatial join: PA/corridor enrichment via PostGIS</li>
+        </ul>
+        <p class="note">Tells you what was <strong style="color:#60a5fa">REPORTED</strong> — Layer 2 of the three-layer model</p>
+      </div>
+    </div>
+    <div class="box phase-3 wide">
+      <span class="badge yellow">Track 2 — Regulatory (Predictive)</span>
+      <div class="box-title">Court Cases · Forest Clearances · NGT Verdicts</div>
+      <div class="box-body">
+        <ul>
+          <li><strong style="color:#fbbf24">PARIVESH</strong> — forest clearance applications &amp; decisions (data.gov.in API, 50k+ records)</li>
+          <li><strong style="color:#fbbf24">NGT</strong> — National Green Tribunal orders (ecourts library, High Courts)</li>
+          <li><strong style="color:#fbbf24">E-Courts India</strong> — District + High Court judgments pan-India (Akshit's API, free non-commercial)</li>
+          <li><strong style="color:#fbbf24">WCCB</strong> — Wildlife Crime Control Bureau seizure data</li>
+          <li>Structured parse: case_number, case_status, forest_area_ha, clearance_type, verdict_summary, project_location</li>
+        </ul>
+        <p class="note">Tells you what was <strong style="color:#fbbf24">AUTHORISED</strong> — Layer 1. Key: clearances filed months before news coverage or satellite detection.</p>
+      </div>
+    </div>
+    <div class="box phase-2 wide">
+      <span class="badge teal">Track 3 — Spatial / Remote Sensing (Continuous)</span>
+      <div class="box-title">Forest Cover Change · GFW</div>
+      <div class="box-body">
+        <ul>
+          <li><strong style="color:#2dd4bf">Global Forest Watch</strong> — primary spatial source (REST API, free)</li>
+          <li>Annual tree cover loss 2001–2024 (30m, UMD/Hansen)</li>
+          <li>Near-real-time deforestation alerts: GLAD-L, GLAD-S2, RADD (weekly, 10–30m)</li>
+          <li>Loss by driver: agriculture / fire / urbanization / forestry</li>
+          <li>Corridor width &amp; fragmentation from GeoTIFF raster (rasterio/scipy)</li>
+          <li>Secondary: FSI ISFR (official GoI numbers), LULC via Bhuvan WMS</li>
+        </ul>
+        <p class="note">Tells you what <strong style="color:#2dd4bf">ACTUALLY HAPPENED</strong> — Layer 3. Ground truth.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow">▼</div>
+
+  <!-- THREE-LAYER GAP ANALYSIS -->
+  <div class="row">
+    <div class="box novel wide">
+      <span class="badge yellow">★ Core Analytical Framework</span>
+      <div class="box-title">Three-Layer Gap Analysis — Where the Intelligence Lives</div>
+      <div class="box-body" style="columns: 2; gap: 24px;">
+        <div>
+          <strong style="color:#fbbf24">The Three Layers</strong>
+          <ul>
+            <li><strong>L1 Regulatory</strong> — what was authorised (PARIVESH/NGT/courts)</li>
+            <li><strong>L2 Events</strong> — what was reported (news + court coverage)</li>
+            <li><strong>L3 Ground truth</strong> — what satellite shows happened (GFW)</li>
+          </ul>
+        </div>
+        <div>
+          <strong style="color:#fbbf24">The Gaps = Intelligence</strong>
+          <ul>
+            <li><strong style="color:#f87171">L3 loss + no L1</strong> → ILLEGAL ENCROACHMENT — cleared with no permit ever filed</li>
+            <li><strong style="color:#f87171">L3 loss + no L2</strong> → UNDERREPORTED DEGRADATION — satellite saw it, no news article ever wrote about it</li>
+            <li><strong style="color:#fbbf24">L1 exists + no L3</strong> → Clearance granted but not yet acted on — keep monitoring</li>
+            <li><strong style="color:#4ade80">L2 + L3 confirm</strong> → High-confidence validated event</li>
+          </ul>
+        </div>
+      </div>
+      <p class="note">Example lifecycle: PARIVESH clearance filed (L1) → news reports protest (L2) → GFW detects 80ha loss 6 months later (L3) → all three linked by location + project name → complete picture</p>
+    </div>
+  </div>
+
+  <div class="arrow">▼</div>
+  <div class="sep"></div>
+
   <!-- PHASE 1 -->
-  <div class="phase-label">Phase 1 — Article Ingestion &amp; Filtering</div>
+  <div class="phase-label">Phase 1 — Article Ingestion &amp; Filtering (Track 1 detail)</div>
   <div class="row">
     <div class="box phase-1">
       <span class="badge blue">Input</span>
@@ -252,20 +333,34 @@
   <div class="row">
     <div class="box phase-3 wide">
       <span class="badge yellow">Storage</span>
-      <div class="box-title">Structured Event Database</div>
+      <div class="box-title">Structured Event Database (all three tracks unified)</div>
       <div class="box-body" style="columns: 2; gap: 20px;">
         <div>
           <strong style="color:#fbbf24">events table</strong>
           <ul>
             <li>event_id (UUID)</li>
             <li>event_type, event_subtype</li>
+            <li>source_track (news / regulatory / satellite)</li>
             <li>location (PostGIS POINT)</li>
             <li>inside_pa, pa_name, corridor_name</li>
             <li>event_date, reported_date</li>
             <li>severity, outcome_summary</li>
           </ul>
+          <strong style="color:#fbbf24">regulatory table</strong>
+          <ul>
+            <li>case_number, case_status</li>
+            <li>forest_area_ha, clearance_type</li>
+            <li>verdict_summary, project_name</li>
+          </ul>
         </div>
         <div>
+          <strong style="color:#fbbf24">forest_cover table</strong>
+          <ul>
+            <li>polygon_id (PA or corridor)</li>
+            <li>year, loss_ha, loss_driver</li>
+            <li>corridor_width_m, fragmentation_index</li>
+            <li>alert_type (GLAD/RADD)</li>
+          </ul>
           <strong style="color:#fbbf24">event_species table</strong>
           <ul>
             <li>event_id, species_common, scientific_name, iucn_status, count</li>
@@ -279,15 +374,16 @@
     </div>
     <div class="box phase-3 novel md">
       <span class="badge yellow">Analytics</span>
-      <div class="box-title">Corridor Stress Index</div>
+      <div class="box-title">Corridor Stress Index + Corridor Integrity Index</div>
       <div class="box-body">
         <ul>
-          <li>Events/month per corridor</li>
-          <li>Baseline = 12-month rolling average</li>
-          <li>Alert when current period &gt; 2× baseline</li>
-          <li>Broken down by event_type</li>
+          <li><strong style="color:#fbbf24">Stress index</strong> — events/month per corridor (from news track)</li>
+          <li><strong style="color:#fbbf24">Integrity index</strong> — corridor width + connectivity trend (from GFW track)</li>
+          <li>Combined: high stress + declining integrity = corridor in active collapse</li>
+          <li>High stress + stable integrity = pressure but still intact</li>
+          <li>Low stress + declining integrity = underreported degradation</li>
         </ul>
-        <p class="note">Dashboard: "Panna–Bandhavgarh corridor showing elevated HWC this month"</p>
+        <p class="note">"Panna–Bandhavgarh: elevated HWC + 12% width loss this year = active collapse"</p>
       </div>
     </div>
   </div>
@@ -332,6 +428,9 @@
           <li>Poaching spike in a PA → flag</li>
           <li>Same species, multiple deaths, same area &lt; 30 days → flag</li>
           <li>Corridor stress index threshold breach → flag</li>
+          <li><strong style="color:#f87171">GFW deforestation alert fires in PA buffer → cross-check PARIVESH</strong> — no clearance found = illegal encroachment alert</li>
+          <li><strong style="color:#f87171">L3 satellite loss with no L2 news coverage</strong> → underreported degradation flag</li>
+          <li><strong style="color:#f87171">PARIVESH clearance granted in wildlife corridor</strong> → predictive threat alert before any news</li>
           <li>Weekly digest email (optional)</li>
         </ul>
       </div>
@@ -391,17 +490,26 @@
   <div class="phase-label">Publication &amp; IP Strategy</div>
   <div class="row">
     <div class="box novel md">
-      <span class="badge yellow">Patent Candidate</span>
+      <span class="badge yellow">★ Patent Candidate 1</span>
       <div class="box-title">Species-Constrained Toponym Disambiguation</div>
       <div class="box-body">
-        Method: score location candidates by overlap with IUCN species range maps as ecological plausibility prior. Consult Indian patent attorney after paper acceptance.
+        Score NER location candidates by GBIF species occurrence density + IUCN range map overlap as ecological plausibility prior. No prior NLP system uses species ranges to disambiguate place names.
+        <p class="note">Consult Indian patent attorney after paper acceptance.</p>
+      </div>
+    </div>
+    <div class="box novel md">
+      <span class="badge yellow">★ Novel Contribution 2</span>
+      <div class="box-title">Three-Layer Ecological Gap Analysis</div>
+      <div class="box-body">
+        Cross-referencing regulatory (L1: PARIVESH/NGT/courts) + news events (L2) + satellite forest cover (L3: GFW) to surface illegal encroachment and underreported degradation. Gaps between layers = intelligence no single source can provide.
+        <p class="note">First system to unify all three data streams for Indian wildlife.</p>
       </div>
     </div>
     <div class="box phase-0 wide">
       <span class="badge purple">Publication Target</span>
       <div class="box-title">Methods in Ecology and Evolution</div>
       <div class="box-body">
-        Framing: domain-expert-driven NLP pipeline where ecological knowledge (range maps, PA topology, corridor stress baselines) constrains every stage. Evaluation against gold standard dataset (Phase 0). Contribution = ecological intelligence framing, not generic NLP.
+        Framing: domain-expert-driven pipeline where ecological knowledge (range maps, PA topology, corridor stress, regulatory data) constrains every stage. Three data tracks + gap analysis = ecological intelligence, not generic NLP. Evaluated against gold standard dataset (Phase 0).
       </div>
     </div>
     <div class="box phase-0 md">
