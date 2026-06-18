@@ -709,7 +709,6 @@
       "6. Quarterly: re-run corridor integrity metrics → compare to previous quarter → flag degradation"
     ]
   },
-  },
 
   "reference_spatial_datasets": {
     "$comment": "Static reference layers loaded once into PostGIS. Not polled — used for spatial joins and corridor/PA enrichment. Additions 2026-06-16: WTI corridors, WII/NWIS, GBIF.",
@@ -825,6 +824,109 @@
     }
   },
 
+  "kalpavriksh_pau_track": {
+    "$comment": "PLANNING NOTE (added 2026-06-18): Historical supplement to Track 1 (news). Protected Area Update is a newsletter published by Kalpavriksh covering PA news from across India. ~25 years of issues = substantial historical baseline that RSS feeds cannot provide.",
+
+    "source": {
+      "name": "Protected Area Update (PAU)",
+      "publisher": "Kalpavriksh Environmental Action Group",
+      "url": "https://kalpavriksh.org/resources/publications/",
+      "format": "PDF newsletters — approximately bi-monthly issues",
+      "temporal_coverage": "~2000–2024 (roughly 25 years)",
+      "content": "News items from Protected Areas across India — wildlife sightings, poaching arrests, management actions, community conflicts, policy decisions within PAs. Curated by domain experts (not automated), making false positive rate very low.",
+      "license_status": "Contact Kalpavriksh directly for research data-sharing permission. Non-commercial research use likely permitted.",
+      "action_required": "Email Kalpavriksh (kalpavriksh@kalpavriksh.org) requesting PAU PDF archive for research purposes. They are a public interest organisation and this is exactly the use case they support."
+    },
+
+    "why_high_priority": [
+      "Historical depth: RSS feeds give 1–2 years of data. PAU gives a 25-year baseline — essential for trend analysis and baseline establishment.",
+      "Low false positive rate: expert-curated content, already filtered to PA-relevant wildlife news.",
+      "Temporal context: can establish 'what was normal' for a PA before measuring current stress.",
+      "Gap validation: cross-check current events against 25-year PAU baseline to identify genuinely anomalous trends."
+    ],
+
+    "technical_pipeline": {
+      "step_1": "Obtain PDF archive from Kalpavriksh",
+      "step_2": "OCR: newer PDFs (2010+) likely have text layer — use pdfplumber. Older PDFs (2000–2009) may be scans — use Tesseract with 'eng+hin' language models for mixed English/Hindi issues.",
+      "step_3": "Parse into individual news items — each PAU issue contains multiple short items. Split on item headers.",
+      "step_4": "Same NLP pipeline as RSS Track 1: species extraction → toponym disambiguation → event classification.",
+      "step_5": "Assign eventDate from the item date (or publication date if individual dates not given).",
+      "step_6": "Set basisOfRecord = 'HumanObservation', wildlens:sourceTrack = 'kalpavriksh_pau'",
+      "note": "Historical items will have lower geocoding accuracy (less context than full news articles). Expect higher coordinateUncertaintyInMeters for older items."
+    },
+
+    "integration_in_schema": {
+      "wildlens:sourceTrack": "kalpavriksh_pau (distinct from 'news' for provenance tracking)",
+      "basisOfRecord": "HumanObservation",
+      "wildlens:reportedDate": "PAU issue publication date",
+      "eventDate": "Date of event as stated in the item (may be approximate for older issues)"
+    }
+  },
+
+  "ebird_biological_indicators_track": {
+    "$comment": "PLANNING NOTE (added 2026-06-18): Planned Track 4 — biological validation layer. Uses bird community composition (specialist:generalist ratio) as a habitat quality indicator, correlated with regulatory, satellite, and news data. Defer to after Tracks 1–3 are operational.",
+
+    "concept": {
+      "ecological_basis": "Forest specialist birds (Great Hornbill, pittas, flycatchers, woodpeckers) require intact forest interior and decline with habitat degradation. Generalist birds (House Crow, Common Myna, Red-vented Bulbul) increase in disturbed habitats. The specialist:generalist ratio is a well-validated habitat quality indicator used in European and North American bird monitoring programmes (e.g. European Bird Index).",
+      "india_applicability": "India has rich eBird coverage in birding hotspots. Key specialist species: Great Hornbill (Buceros bicornis), Indian Pitta (Pitta brachyura), Malabar Pied Hornbill, various endemic flycatchers. Key generalists: House Crow (Corvus splendens), Common Myna (Acridotheres tristis), Red-vented Bulbul.",
+      "novel_correlation": "No existing system correlates eBird community composition with PARIVESH clearances + GFW forest loss + news events in a unified intelligence framework. This would be a standalone paper contribution."
+    },
+
+    "data_source": {
+      "name": "eBird",
+      "publisher": "Cornell Lab of Ornithology",
+      "url": "https://ebird.org/india",
+      "api": "eBird API 2.0 — https://documenter.getpostman.com/view/664302/S1ENwy59",
+      "api_key": "Free — register at ebird.org/api/keygen",
+      "python_library": "pip install ebird-api",
+      "license": "Free for non-commercial use with attribution",
+      "india_coverage": "One of the best-covered countries in Asia. Millions of checklists, especially strong in Western Ghats, Himalayan foothills, Northeast India."
+    },
+
+    "metrics": {
+      "specialist_generalist_ratio": "Count of specialist species observations / count of generalist species observations within a PA or corridor in a given time window. Declining ratio = degrading habitat.",
+      "community_specialization_index": "Mean specialization score across all species observed — finer-grained than binary specialist/generalist split.",
+      "species_richness_trend": "Year-over-year unique species count per PA — rough proxy for habitat health.",
+      "observation_effort_correction": "Always correct for number of checklists and total observation hours before comparing across PAs or time periods. Raw counts are meaningless without effort normalization."
+    },
+
+    "classification_task": {
+      "challenge": "No standard Indian forest specialist/generalist species list exists. Must define it.",
+      "approach": "Classify species using habitat breadth scores from published Indian studies (e.g., Tittensor et al., BNHS records) OR use IUCN habitat preference data per species. Start with a curated list of ~30 specialists and ~20 generalists for a pilot.",
+      "species_list_note": "This classification decision must be justified in any paper — it is a methodological contribution in itself."
+    },
+
+    "correlations_to_compute": {
+      "regulatory_correlation": "PARIVESH FC/EC clearance granted in PA buffer → measure specialist:generalist ratio 1, 2, 5 years later → does it decline after clearance?",
+      "satellite_correlation": "GFW tree cover loss in PA → does specialist:generalist ratio track the forest loss signal with a temporal lag?",
+      "news_correlation": "HWC event density in corridor → does rising HWC coincide with declining specialist ratio (animals displaced from degraded interior)?",
+      "publication_potential": "Multi-source validation paper: regulatory data + satellite data + news events + biological indicator, all converging on same PAs. Very strong methods paper."
+    },
+
+    "known_caveats": [
+      "Observer effort bias: more eBird checklists near cities and roads. Remote forest interiors (most ecologically critical areas) have fewest observations.",
+      "Detection probability varies by species: secretive forest birds (pittas) are under-recorded relative to their actual presence.",
+      "Temporal lag: bird community response to habitat change may lag the actual change by 2–5 years.",
+      "Spatial mismatch: eBird checklists are point observations; PA/corridor analysis requires aggregation over polygon — need careful spatial join.",
+      "India specialist/generalist list: no standard published list exists — must create and justify one."
+    ],
+
+    "implementation_sequence": [
+      "1. Define specialist/generalist species list for India (~50 species total) — consult published literature",
+      "2. Register for eBird API key",
+      "3. For each PA in PostGIS: query eBird API for all checklists within PA boundary for each year 2010–2024",
+      "4. Normalise by observation effort (checklists, hours)",
+      "5. Compute specialist:generalist ratio per PA per year → time series",
+      "6. Cross-join with GFW annual loss data for same PA × year",
+      "7. Cross-join with PARIVESH clearances issued within PA buffer",
+      "8. Cross-join with WildLens event count (HWC/poaching) for same PA × year",
+      "9. Compute correlations — Spearman rank for non-normal distributions",
+      "10. Visualise as PA-level dashboard: biological health indicator alongside event counts and forest cover"
+    ],
+
+    "defer_until": "Tracks 1–3 operational and validated against gold standard. eBird adds validation depth, not foundation. Build the foundation first."
+  },
+
   "notes_for_nikunj": {
     "fields_to_add": "Add any fields here that you think are missing from an ecological standpoint",
     "fields_to_remove": "Cross out any fields that are not practically extractable from news text",
@@ -835,6 +937,9 @@
     "regulatory_track_priority": "The regulatory data track (PARIVESH + NGT + eCourts) is architecturally separate from news ingestion but feeds the same event store. PARIVESH is the highest priority source — it provides structured location data and represents threats not yet in the news.",
     "wti_corridor_action": "WTI elephant corridor shapefile is the single most valuable static layer for v2. If you have any WTI contacts, the fastest path is to email the Right of Passage project lead directly and ask for the GeoJSON/shapefile — they may share for research purposes.",
     "gbif_novel_contribution": "The species-constrained toponym disambiguation (using GBIF occurrence density to score NER location candidates) is marked ★ NOVEL in the schema. This is a genuine methodological contribution worth calling out explicitly in the paper — no prior system has used GBIF ranges as a location disambiguation prior for wildlife news NLP.",
-    "wii_mstripes": "If you have any institutional connection to WII or any tiger reserve, M-STrIPES data would be transformative — it is the only daily-resolution ground-truth dataset for tiger movement and patrol coverage. Worth pursuing through a formal data-sharing request."
+    "wii_mstripes": "If you have any institutional connection to WII or any tiger reserve, M-STrIPES data would be transformative — it is the only daily-resolution ground-truth dataset for tiger movement and patrol coverage. Worth pursuing through a formal data-sharing request.",
+    "kalpavriksh_pau_action": "Contact Kalpavriksh (kalpavriksh@kalpavriksh.org) for the PAU PDF archive. High priority — this gives 25-year historical depth that changes the entire analysis from 'current snapshot' to 'long-term trend'. OCR is a solved problem; getting the PDFs is the only blocker.",
+    "ebird_priority": "eBird (Track 4) is a strong future addition but defer until Tracks 1–3 are working. The specialist:generalist ratio concept is scientifically rigorous — the key work you need to do is define the Indian forest specialist species list (~30 species) before any coding starts. That definition will need citation support for any paper.",
+    "ebird_species_list_question": "Before implementing eBird integration, decide: which 30 species count as 'forest specialists' and which 20 as 'habitat generalists' for the Indian context? This classification is itself a methodological contribution — it needs to be based on published habitat breadth data, not just expert intuition."
   }
 }

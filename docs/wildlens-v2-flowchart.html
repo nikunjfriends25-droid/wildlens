@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WildLens v2 — System Flowchart</title>
+<title>WildLens v3 — System Flowchart</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: 'Segoe UI', Arial, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 32px 24px; }
@@ -74,7 +74,7 @@
 </head>
 <body>
 
-<h1>WildLens v2 — Ecological Intelligence System</h1>
+<h1>WildLens v3 — Ecological Intelligence System</h1>
 <p class="subtitle">Architecture flowchart &nbsp;·&nbsp; Phase 0–5 &nbsp;·&nbsp; Print: Ctrl+P → Save as PDF</p>
 
 <div class="flowchart">
@@ -130,15 +130,16 @@
   <div class="row">
     <div class="box phase-1 wide">
       <span class="badge blue">Track 1 — News (Reactive)</span>
-      <div class="box-title">RSS Article Pipeline</div>
+      <div class="box-title">RSS Article Pipeline + Historical PDFs</div>
       <div class="box-body">
         <ul>
-          <li>Same RSS sources as V1 + regional feeds</li>
+          <li>Same RSS sources as V1 + regional feeds (live)</li>
+          <li><strong style="color:#60a5fa">Kalpavriksh PAU</strong> — Protected Area Update newsletter, ~25 years of PA news in PDF form. OCR + same NLP pipeline. Historical baseline 2000–2024.</li>
           <li>NLP extraction: species, location, event type, severity</li>
           <li>Deduplication: same incident → one event record</li>
           <li>Spatial join: PA/corridor enrichment via PostGIS</li>
         </ul>
-        <p class="note">Tells you what was <strong style="color:#60a5fa">REPORTED</strong> — Layer 2 of the three-layer model</p>
+        <p class="note">Tells you what was <strong style="color:#60a5fa">REPORTED</strong> — Layer 2. PAU adds 25-year historical depth to RSS-only coverage.</p>
       </div>
     </div>
     <div class="box phase-3 wide">
@@ -168,6 +169,23 @@
           <li>Secondary: FSI ISFR (official GoI numbers), LULC via Bhuvan WMS</li>
         </ul>
         <p class="note">Tells you what <strong style="color:#2dd4bf">ACTUALLY HAPPENED</strong> — Layer 3. Ground truth.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- TRACK 4 — BIOLOGICAL INDICATORS (PLANNED) -->
+  <div class="row" style="margin-top:6px;">
+    <div class="box phase-2 wide" style="border: 1.5px dashed #6366f1; opacity: 0.85;">
+      <span class="badge purple">Track 4 — Biological Indicators (Planned)</span>
+      <div class="box-title">eBird Specialist : Generalist Bird Ratio</div>
+      <div class="box-body">
+        <ul>
+          <li><strong style="color:#a78bfa">eBird API</strong> — Cornell Lab of Ornithology. Structured checklists with date, location, observer effort. Rich India coverage.</li>
+          <li>Classify species: forest <em>specialists</em> (Great Hornbill, pittas, flycatchers) vs habitat <em>generalists</em> (House Crow, Common Myna)</li>
+          <li>Compute specialist : generalist ratio per PA / corridor over time — declining ratio = degrading habitat quality</li>
+          <li>Correlate with: PARIVESH clearances in area (Track 2), GFW forest loss (Track 3), HWC/poaching events (Track 1)</li>
+        </ul>
+        <p class="note">Adds a <strong style="color:#a78bfa">biological signal</strong> to the regulatory + satellite + news triangle. Key caveat: eBird coverage is sparser in remote forest interiors — account for observer effort. Defer to after Tracks 1–3 are operational.</p>
       </div>
     </div>
   </div>
@@ -469,7 +487,7 @@
     </div>
     <div class="box phase-5 wide">
       <span class="badge green">Chat Interface</span>
-      <div class="box-title">Ask WildLens v2</div>
+      <div class="box-title">Ask WildLens v3</div>
       <div class="box-body">
         <ul>
           <li>"How many elephant deaths in Assam this year?"</li>
@@ -522,7 +540,7 @@
 </div>
 
 <p style="text-align:center; margin-top:40px; font-size:11px; color:#334155">
-  WildLens v2 — Internal planning document &nbsp;·&nbsp; ★ = novel contribution &nbsp;·&nbsp; dashed border = potentially patentable method
+  WildLens v3 — Internal planning document &nbsp;·&nbsp; ★ = novel contribution &nbsp;·&nbsp; dashed border = potentially patentable method
 </p>
 
 </body>
