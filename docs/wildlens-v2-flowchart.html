@@ -64,6 +64,10 @@
 
   .note { font-size: 10.5px; color: #475569; margin-top: 8px; font-style: italic; }
 
+  /* Publication section — same colour as novel but no auto ★ NOVEL watermark (badge text already labels them) */
+  .pub-novel { background: rgba(251,191,36,0.1); border: 1.5px dashed #d97706; }
+  .pub-novel .box-title { color: #fbbf24; }
+
   @media print {
     body { background: white; color: #111; padding: 16px; }
     .box-body, .box { color: #222 !important; }
@@ -506,7 +510,7 @@
   <!-- Publication -->
   <div class="phase-label">Publication &amp; IP Strategy</div>
   <div class="row">
-    <div class="box novel md">
+    <div class="box pub-novel">
       <span class="badge yellow">★ Patent Candidate 1</span>
       <div class="box-title">Species-Constrained Toponym Disambiguation</div>
       <div class="box-body">
@@ -514,7 +518,7 @@
         <p class="note">Consult Indian patent attorney after paper acceptance.</p>
       </div>
     </div>
-    <div class="box novel md">
+    <div class="box pub-novel">
       <span class="badge yellow">★ Novel Contribution 2</span>
       <div class="box-title">Three-Layer Ecological Gap Analysis</div>
       <div class="box-body">
@@ -522,14 +526,24 @@
         <p class="note">First system to unify all three data streams for Indian wildlife.</p>
       </div>
     </div>
-    <div class="box phase-0 wide">
+    <div class="box pub-novel">
+      <span class="badge yellow">★ Novel Contribution 3</span>
+      <div class="box-title">Biological Indicator Correlation (eBird)</div>
+      <div class="box-body">
+        Specialist:generalist bird ratio as habitat quality proxy, correlated with PARIVESH clearances + GFW forest loss + news events across the same PAs and corridors. No prior system links regulatory + satellite + biological signals for Indian wildlife.
+        <p class="note">Sufficient for a standalone paper independent of Contributions 1 &amp; 2.</p>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 6px;">
+    <div class="box phase-0">
       <span class="badge purple">Publication Target</span>
       <div class="box-title">Methods in Ecology and Evolution</div>
       <div class="box-body">
         Framing: domain-expert-driven pipeline where ecological knowledge (range maps, PA topology, corridor stress, regulatory data) constrains every stage. Three data tracks + gap analysis = ecological intelligence, not generic NLP. Evaluated against gold standard dataset (Phase 0).
       </div>
     </div>
-    <div class="box phase-0 md">
+    <div class="box phase-0">
       <span class="badge purple">V1 stays untouched</span>
       <div class="box-title">V1 / V2 Separation</div>
       <div class="box-body">
