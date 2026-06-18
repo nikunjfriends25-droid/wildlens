@@ -418,13 +418,125 @@
     </div>
 
     <div class="card c-green">
-      <span class="badge green">Hosting</span>
-      <div class="card-tool">GitHub Pages + lightweight VPS</div>
-      <div class="card-install">GitHub Pages: free · VPS: ~$6/month (Hetzner CX11)</div>
-      <div class="card-desc">Static frontend (map, dashboard, chat UI) on GitHub Pages. FastAPI + PostgreSQL on a small VPS. V1 stays on GitHub Pages untouched — V2 API runs separately.</div>
-      <div class="card-note">During research phase, FastAPI can run locally — VPS only needed when sharing with collaborators.</div>
+      <span class="badge green">Frontend</span>
+      <div class="card-tool">GitHub Pages</div>
+      <div class="card-install">Free — already set up at wildlens.in</div>
+      <div class="card-desc">Static files (map, dashboard, chat UI) served from docs/v2/. V1 at wildlens.in stays completely untouched. JavaScript fetch() calls hit api.wildlens.in for queries.</div>
     </div>
 
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ── HOSTING GUIDE ─────────────────────────────────────────────────── -->
+  <div class="section-label">Hosting Guide — Where Everything Runs</div>
+
+  <!-- Architecture diagram -->
+  <div style="background:rgba(15,23,42,0.8); border:1.5px solid #1e293b; border-radius:10px; padding:20px 24px; margin-bottom:16px; font-family:'Consolas','Courier New',monospace; font-size:12px; line-height:2;">
+    <div style="color:#475569; font-size:10px; font-weight:700; letter-spacing:2px; margin-bottom:12px;">ARCHITECTURE</div>
+    <div><span style="color:#4ade80">wildlens.in</span> <span style="color:#334155">──────────────→</span> <span style="color:#60a5fa">GitHub Pages</span> <span style="color:#334155">(static frontend — free, already live)</span></div>
+    <div><span style="color:#4ade80">api.wildlens.in</span> <span style="color:#334155">──────────→</span> <span style="color:#fbbf24">Cloud server</span> <span style="color:#334155">(FastAPI + PostgreSQL + LLM)</span></div>
+    <div style="margin-top:8px;"><span style="color:#475569; font-size:11px;">One A record in GoDaddy: api.wildlens.in → server IP. That's the only DNS change needed.</span></div>
+  </div>
+
+  <!-- What runs where note -->
+  <div style="background:rgba(20,184,166,0.07); border:1.5px solid #0d9488; border-radius:10px; padding:14px 18px; margin-bottom:16px; font-size:12px; line-height:1.7; color:#94a3b8;">
+    <span style="color:#2dd4bf; font-weight:700;">What runs where:</span><br>
+    <strong style="color:#e2e8f0">GitHub Actions</strong> — data ingestion pipeline (all 4 tracks), runs every 6h. Writes to PostgreSQL on your server AND to docs/news.json for V1.<br>
+    <strong style="color:#e2e8f0">Cloud server</strong> — PostgreSQL + PostGIS + pgvector (event store) · FastAPI (query API + RAG endpoint).<br>
+    <strong style="color:#e2e8f0">LLM</strong> — Groq API (free cloud) or Ollama (on server, needs more RAM). Used only for RAG report generation — not trained, not fine-tuned.<br>
+    <strong style="color:#e2e8f0">GitHub Pages</strong> — static frontend only. Map, dashboard, chat UI. fetch() calls hit api.wildlens.in.
+  </div>
+
+  <!-- LLM note -->
+  <div style="background:rgba(139,92,246,0.08); border:1.5px solid #7c3aed; border-radius:10px; padding:14px 18px; margin-bottom:16px; font-size:12px; line-height:1.7; color:#94a3b8;">
+    <span style="color:#a78bfa; font-weight:700;">LLM is not trained — it is used in RAG mode.</span><br>
+    What IS trained on your gold standard data: the <strong style="color:#e2e8f0">event classifier</strong> (scikit-learn) and <strong style="color:#e2e8f0">relevance classifier</strong> — small, fast, no GPU needed.<br>
+    The LLM only synthesises reports from retrieved events passed as context. Domain knowledge lives in the database, not the model weights. This is the whole point of RAG — no fine-tuning required.
+  </div>
+
+  <!-- Free tier -->
+  <div style="margin-bottom:10px;">
+    <div style="font-size:11px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#4ade80; margin-bottom:10px;">▶ Free Tier — Use During Phase 1–2 (Development &amp; Validation)</div>
+    <div class="grid">
+
+      <div class="card c-green">
+        <span class="badge green">Database</span>
+        <div class="card-tool">Supabase</div>
+        <div class="card-install">supabase.com — free forever tier</div>
+        <div class="card-desc">Managed PostgreSQL with PostGIS ✓ and pgvector ✓ built in. 500MB storage — sufficient for events + Indian PA spatial layers at research scale. No server to manage, just connect via connection string.</div>
+        <div class="card-note">Load only Indian PAs from WDPA (not global) to stay within 500MB. Upgrade to Pro ($25/mo) if storage exceeded.</div>
+      </div>
+
+      <div class="card c-green">
+        <span class="badge green">API</span>
+        <div class="card-tool">Render</div>
+        <div class="card-install">render.com — free tier (750 hrs/month)</div>
+        <div class="card-desc">Hosts FastAPI. Free tier spins down after 15min inactivity — first request after idle takes ~30s to wake. Acceptable for a research tool with occasional use. No sleep if you upgrade ($7/mo).</div>
+      </div>
+
+      <div class="card c-green">
+        <span class="badge green">LLM</span>
+        <div class="card-tool">Groq API</div>
+        <div class="card-install">console.groq.com — free API key</div>
+        <div class="card-desc">Llama 3.1 70B free of charge. ~14,400 requests/day — far more than a research tool will use. Significantly more capable than a 7B model on a small server. pip install groq.</div>
+        <div class="card-note">Data leaves your machine. Fine for public wildlife news. Would reconsider for sensitive unpublished field data.</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Paid tier -->
+  <div style="margin-bottom:10px;">
+    <div style="font-size:11px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#fbbf24; margin-bottom:10px;">▶ Paid Tier — Move Here When Sharing With Collaborators</div>
+    <div class="grid">
+
+      <div class="card c-yellow">
+        <span class="badge yellow">Recommended</span>
+        <div class="card-tool">Hetzner CX32</div>
+        <div class="card-install">hetzner.com — €7.49/month (~$8)</div>
+        <div class="card-desc">4 vCPU · 8GB RAM · 80GB SSD. Runs PostgreSQL + PostGIS + pgvector + FastAPI + Ollama 7B all on one server. 8GB RAM is the minimum comfortable for Ollama. Best value paid option — German datacenter, reliable.</div>
+        <div class="card-note">Keep Groq for LLM if you want to save RAM for the database. Then CX22 (4GB, €4.49/mo) is sufficient.</div>
+      </div>
+
+      <div class="card c-yellow">
+        <span class="badge yellow">Minimum</span>
+        <div class="card-tool">Hetzner CX22</div>
+        <div class="card-install">hetzner.com — €4.49/month (~$5)</div>
+        <div class="card-desc">2 vCPU · 4GB RAM · 40GB SSD. Enough for PostgreSQL + PostGIS + FastAPI. Cannot run Ollama (not enough RAM) — use Groq API for LLM instead. Good option if you want one server but lowest cost.</div>
+      </div>
+
+      <div class="card c-yellow">
+        <span class="badge yellow">If Scaling</span>
+        <div class="card-tool">Hetzner CX42</div>
+        <div class="card-install">hetzner.com — €14.49/month (~$16)</div>
+        <div class="card-desc">8 vCPU · 16GB RAM · 160GB SSD. Runs Ollama 13B comfortably. Only needed if traffic grows significantly or you want a larger local model. Not needed for research phase.</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Deploy sequence -->
+  <div style="background:rgba(15,23,42,0.8); border:1.5px solid #1e293b; border-radius:10px; padding:20px 24px; margin-top:6px;">
+    <div style="color:#475569; font-size:10px; font-weight:700; letter-spacing:2px; margin-bottom:14px;">DEPLOY SEQUENCE (when ready)</div>
+    <div style="font-size:12px; line-height:2.1; color:#94a3b8;">
+      <span style="color:#60a5fa; font-weight:700;">Free path:</span><br>
+      1. Create Supabase project → enable PostGIS + pgvector extensions → run Alembic migrations<br>
+      2. Load spatial reference layers (ogr2ogr → Supabase connection string)<br>
+      3. Deploy FastAPI to Render → set DB connection string as env var<br>
+      4. Get Groq API key → set as env var in Render<br>
+      5. Add SUPABASE_URL + GROQ_API_KEY as GitHub Actions secrets → pipeline inserts events into Supabase<br>
+      6. Add <code style="background:rgba(0,0,0,0.3); padding:1px 5px; border-radius:3px;">api.wildlens.in</code> CNAME in GoDaddy → Render URL<br>
+      7. Deploy V2 frontend to <code style="background:rgba(0,0,0,0.3); padding:1px 5px; border-radius:3px;">docs/v2/</code> → live on wildlens.in/v2<br>
+      <br>
+      <span style="color:#fbbf24; font-weight:700;">Paid path (Hetzner CX32):</span><br>
+      1. Create Hetzner server → SSH in → install PostgreSQL + PostGIS + pgvector + FastAPI + Ollama + nginx + certbot<br>
+      2. Pull Ollama model: <code style="background:rgba(0,0,0,0.3); padding:1px 5px; border-radius:3px;">ollama pull mistral</code><br>
+      3. Set up systemd service for FastAPI (auto-restart on reboot)<br>
+      4. certbot → free SSL for api.wildlens.in<br>
+      5. Add A record in GoDaddy: <code style="background:rgba(0,0,0,0.3); padding:1px 5px; border-radius:3px;">api.wildlens.in → Hetzner IP</code><br>
+      6. Add server SSH key + DB credentials as GitHub Actions secrets
+    </div>
   </div>
 
 </div>
