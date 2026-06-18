@@ -1,16 +1,53 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$comment": "WildLens v2 Wildlife Event Schema — rough draft for Nikunj to validate. Every field marked REQUIRED must be present; OPTIONAL fields may be null.",
+  "$comment": "WildLens v2 Wildlife Event Schema. Darwin Core (DwC) terms used wherever applicable — see darwin_core_compliance section. Non-DwC extensions are noted with 'wildlens:' prefix in comments.",
+
+  "darwin_core_compliance": {
+    "standard": "Darwin Core (DwC) — https://dwc.tdwg.org/",
+    "namespace": "http://rs.tdwg.org/dwc/terms/",
+    "approach": "DwC field names are used directly where a standard term exists. WildLens-specific fields (no DwC equivalent) are noted inline. Goal: records can be exported as DwC-compliant occurrences and published to GBIF if needed.",
+    "field_mapping": {
+      "eventID":                    "dwc:eventID — our event_id",
+      "eventDate":                  "dwc:eventDate — ISO 8601 date the event occurred",
+      "vernacularName":             "dwc:vernacularName — common species name",
+      "scientificName":             "dwc:scientificName — binomial species name",
+      "individualCount":            "dwc:individualCount — number of animals",
+      "kingdom":                    "dwc:kingdom — always 'Animalia' for wildlife events",
+      "family":                     "dwc:family — taxonomic family",
+      "genus":                      "dwc:genus — taxonomic genus",
+      "taxonRank":                  "dwc:taxonRank — 'species' when scientificName given",
+      "locality":                   "dwc:locality — most specific place name",
+      "decimalLatitude":            "dwc:decimalLatitude",
+      "decimalLongitude":           "dwc:decimalLongitude",
+      "geodeticDatum":              "dwc:geodeticDatum — always 'EPSG:4326' (WGS84)",
+      "coordinateUncertaintyInMeters": "dwc:coordinateUncertaintyInMeters — numeric (point=5000, district=50000, state=200000, region=500000)",
+      "stateProvince":              "dwc:stateProvince — Indian state name",
+      "county":                     "dwc:county — used for Indian district (nearest DwC equivalent)",
+      "country":                    "dwc:country — always 'India'",
+      "countryCode":                "dwc:countryCode — always 'IN'",
+      "basisOfRecord":              "dwc:basisOfRecord — 'HumanObservation' (news/court), 'MachineObservation' (GFW satellite)",
+      "iucnRedListCategory":        "wildlens: extension — no DwC term exists. Values: EX/EW/CR/EN/VU/NT/LC/DD/NE",
+      "wildlens:eventType":         "wildlens: extension — our classification (poaching/hwc/mortality etc). DwC eventType means survey/sample type, not incident type.",
+      "wildlens:severity":          "wildlens: extension — no DwC equivalent",
+      "wildlens:insidePA":          "wildlens: extension — PostGIS spatial join result",
+      "wildlens:paName":            "wildlens: extension — Protected Area name",
+      "wildlens:corridorName":      "wildlens: extension — WTI corridor name",
+      "wildlens:sourceTrack":       "wildlens: extension — which data track produced this event (news/regulatory/satellite)",
+      "wildlens:reportedDate":      "wildlens: extension — date article was published (distinct from eventDate which is when event occurred)"
+    }
+  },
 
   "event": {
-    "event_id": {
+    "eventID": {
+      "dwc": "dwc:eventID",
       "type": "string (UUID v4)",
       "required": true,
       "example": "a3f1c2d4-7e8b-4f3a-9c2d-1b5e6f7a8c9d"
     },
 
     "classification": {
-      "event_type": {
+      "wildlens:eventType": {
+        "note": "No DwC equivalent — DwC eventType refers to survey/sample type, not incident classification. This is a wildlens extension.",
         "type": "enum",
         "required": true,
         "values": [
@@ -59,21 +96,23 @@
     },
 
     "temporal": {
-      "event_date": {
+      "eventDate": {
+        "dwc": "dwc:eventDate",
         "type": "YYYY-MM-DD",
         "required": true,
-        "note": "Best estimate of when the event occurred (not when reported)"
+        "note": "Best estimate of when the event occurred (not when reported). ISO 8601."
       },
-      "event_date_precision": {
+      "eventDatePrecision": {
+        "note": "wildlens: extension",
         "type": "enum",
         "required": true,
         "values": ["exact", "week", "month", "year"],
-        "note": "How precise is event_date? Most news articles allow 'exact' or 'week'"
+        "note2": "How precise is eventDate? Most news articles allow 'exact' or 'week'"
       },
-      "reported_date": {
+      "wildlens:reportedDate": {
+        "note": "wildlens: extension — date of earliest article covering this event. Distinct from eventDate (when it happened).",
         "type": "YYYY-MM-DD",
-        "required": true,
-        "note": "Date of earliest article covering this event"
+        "required": true
       }
     },
 
@@ -82,27 +121,58 @@
       "required": true,
       "min_items": 0,
       "item": {
-        "common_name": {
+        "vernacularName": {
+          "dwc": "dwc:vernacularName",
           "type": "string",
           "required": true,
           "example": "Asian Elephant"
         },
-        "scientific_name": {
+        "scientificName": {
+          "dwc": "dwc:scientificName",
           "type": "string or null",
           "required": false,
           "example": "Elephas maximus"
         },
-        "iucn_category": {
+        "kingdom": {
+          "dwc": "dwc:kingdom",
+          "type": "string",
+          "required": false,
+          "default": "Animalia",
+          "note": "Almost always 'Animalia' for wildlife events. 'Plantae' for vegetation articles."
+        },
+        "family": {
+          "dwc": "dwc:family",
+          "type": "string or null",
+          "required": false,
+          "example": "Elephantidae"
+        },
+        "genus": {
+          "dwc": "dwc:genus",
+          "type": "string or null",
+          "required": false,
+          "example": "Elephas"
+        },
+        "taxonRank": {
+          "dwc": "dwc:taxonRank",
+          "type": "string",
+          "required": false,
+          "default": "species",
+          "note": "Set to 'species' when scientificName is a full binomial. 'genus' if only genus known."
+        },
+        "iucnRedListCategory": {
+          "note": "wildlens: extension — no standard DwC term. IUCN Red List vocabulary.",
           "type": "enum or null",
           "required": false,
           "values": ["EX", "EW", "CR", "EN", "VU", "NT", "LC", "DD", "NE"]
         },
-        "count": {
+        "individualCount": {
+          "dwc": "dwc:individualCount",
           "type": "integer or null",
           "required": false,
           "note": "Number of individual animals, if known"
         },
-        "count_qualifier": {
+        "individualCountQualifier": {
+          "note": "wildlens: extension",
           "type": "enum or null",
           "values": ["exact", "minimum", "approximately"]
         }
@@ -110,31 +180,49 @@
     },
 
     "location": {
-      "place_name": {
+      "locality": {
+        "dwc": "dwc:locality",
         "type": "string",
         "required": true,
         "note": "Most specific place name that can be confidently extracted"
       },
-      "lat": {
+      "decimalLatitude": {
+        "dwc": "dwc:decimalLatitude",
         "type": "float",
         "required": true
       },
-      "lon": {
+      "decimalLongitude": {
+        "dwc": "dwc:decimalLongitude",
         "type": "float",
         "required": true
       },
-      "location_precision": {
+      "geodeticDatum": {
+        "dwc": "dwc:geodeticDatum",
+        "type": "string",
+        "required": true,
+        "default": "EPSG:4326",
+        "note": "Always WGS84 for this system"
+      },
+      "coordinateUncertaintyInMeters": {
+        "dwc": "dwc:coordinateUncertaintyInMeters",
+        "type": "integer",
+        "required": true,
+        "note": "Numeric radius of uncertainty. Derived from locationPrecision: point=5000, district=50000, state=200000, region=500000"
+      },
+      "locationPrecision": {
+        "note": "wildlens: extension — categorical form of coordinateUncertaintyInMeters, easier for pipeline logic",
         "type": "enum",
         "required": true,
         "values": ["point", "district", "state", "region"],
         "definitions": {
-          "point": "Specific PA, town, forest range, or named locality (±10km)",
-          "district": "District-level accuracy (±50km)",
-          "state": "State centroid only — could not determine finer location",
-          "region": "Multi-state geographic region (e.g. Western Ghats, Northeast India)"
+          "point": "Specific PA, town, forest range, or named locality (coordinateUncertaintyInMeters ≤ 5000)",
+          "district": "District-level accuracy (≤ 50000m)",
+          "state": "State centroid only (≤ 200000m)",
+          "region": "Multi-state geographic region (≤ 500000m)"
         }
       },
-      "location_method": {
+      "georeferenceProtocol": {
+        "dwc": "dwc:georeferenceProtocol",
         "type": "enum",
         "required": true,
         "values": [
@@ -145,45 +233,66 @@
           "manual"
         ]
       },
-      "location_confidence": {
-        "type": "float 0.0-1.0",
-        "required": true
+      "georeferenceVerificationStatus": {
+        "dwc": "dwc:georeferenceVerificationStatus",
+        "type": "enum",
+        "required": true,
+        "values": ["requires_verification", "verified", "cannot_be_verified"]
       },
-      "state": {
+      "country": {
+        "dwc": "dwc:country",
+        "type": "string",
+        "required": true,
+        "default": "India"
+      },
+      "countryCode": {
+        "dwc": "dwc:countryCode",
+        "type": "string",
+        "required": true,
+        "default": "IN"
+      },
+      "stateProvince": {
+        "dwc": "dwc:stateProvince",
         "type": "string",
         "required": true,
         "example": "Kerala"
       },
-      "district": {
+      "county": {
+        "dwc": "dwc:county",
         "type": "string or null",
         "required": false,
+        "note": "DwC county used for Indian district — nearest standard equivalent",
         "example": "Wayanad"
       },
-      "inside_pa": {
+      "wildlens:insidePA": {
+        "note": "wildlens: extension — set by PostGIS ST_Within spatial join in Phase 2",
         "type": "boolean or null",
-        "required": false,
-        "note": "Set by PostGIS spatial join in Phase 2"
+        "required": false
       },
-      "pa_name": {
+      "wildlens:paName": {
+        "note": "wildlens: extension",
         "type": "string or null",
         "required": false,
         "example": "Wayanad Wildlife Sanctuary"
       },
-      "pa_type": {
+      "wildlens:paType": {
+        "note": "wildlens: extension",
         "type": "enum or null",
         "required": false,
         "values": ["tiger_reserve", "national_park", "wildlife_sanctuary", "biosphere_reserve", "reserve_forest", "community_reserve"]
       },
-      "nearest_pa_name": {
+      "wildlens:nearestPAName": {
+        "note": "wildlens: extension — name of nearest PA if location is outside any PA",
         "type": "string or null",
-        "required": false,
-        "note": "Name of nearest PA if location is outside any PA"
+        "required": false
       },
-      "nearest_pa_dist_km": {
+      "wildlens:nearestPADistKm": {
+        "note": "wildlens: extension",
         "type": "float or null",
         "required": false
       },
-      "corridor_name": {
+      "wildlens:corridorName": {
+        "note": "wildlens: extension — WTI Right of Passage corridor name",
         "type": "string or null",
         "required": false,
         "example": "Panna-Bandhavgarh Corridor"
@@ -229,11 +338,17 @@
       "required": true,
       "note": "Multiple articles = same event as identified by deduplication step",
       "item": {
-        "url": "string (required)",
-        "headline": "string (required)",
-        "source": "string (required)",
-        "published": "YYYY-MM-DD (required)",
-        "is_primary": "boolean — which article has the most complete information (required)"
+        "url": "string (required) — maps to dcterms:references",
+        "headline": "string (required) — maps to dcterms:title",
+        "source": "string (required) — maps to dwc:institutionCode",
+        "published": "YYYY-MM-DD (required) — maps to dcterms:created",
+        "basisOfRecord": {
+          "dwc": "dwc:basisOfRecord",
+          "required": true,
+          "values": ["HumanObservation", "MachineObservation", "MaterialCitation"],
+          "note": "HumanObservation for news/court records. MachineObservation for GFW satellite alerts. MaterialCitation for literature/research papers."
+        },
+        "wildlens:isPrimary": "boolean — which article has the most complete information (required)"
       }
     },
 
@@ -263,48 +378,56 @@
   },
 
   "example_event": {
-    "event_id": "e7a3c1b2-4d5f-4a8e-9b1c-2d3e4f5a6b7c",
+    "eventID": "e7a3c1b2-4d5f-4a8e-9b1c-2d3e4f5a6b7c",
     "classification": {
-      "event_type": "hwc",
-      "event_subtype": "elephant_attack_fatal",
-      "classification_confidence": 0.97
+      "wildlens:eventType": "hwc",
+      "wildlens:eventSubtype": "elephant_attack_fatal",
+      "wildlens:classificationConfidence": 0.97
     },
     "temporal": {
-      "event_date": "2026-06-10",
-      "event_date_precision": "exact",
-      "reported_date": "2026-06-09"
+      "eventDate": "2026-06-10",
+      "eventDatePrecision": "exact",
+      "wildlens:reportedDate": "2026-06-09"
     },
     "species": [
       {
-        "common_name": "Asian Elephant",
-        "scientific_name": "Elephas maximus",
-        "iucn_category": "EN",
-        "count": 1,
-        "count_qualifier": "exact"
+        "vernacularName": "Asian Elephant",
+        "scientificName": "Elephas maximus",
+        "kingdom": "Animalia",
+        "family": "Elephantidae",
+        "genus": "Elephas",
+        "taxonRank": "species",
+        "iucnRedListCategory": "EN",
+        "individualCount": 1,
+        "individualCountQualifier": "exact"
       }
     ],
     "location": {
-      "place_name": "Wayanad, Kerala",
-      "lat": 11.6,
-      "lon": 76.0,
-      "location_precision": "district",
-      "location_method": "ner_geocoder",
-      "location_confidence": 0.82,
-      "state": "Kerala",
-      "district": "Wayanad",
-      "inside_pa": false,
-      "pa_name": null,
-      "pa_type": null,
-      "nearest_pa_name": "Wayanad Wildlife Sanctuary",
-      "nearest_pa_dist_km": 3.2,
-      "corridor_name": "Nilgiri Biosphere Elephant Corridor"
+      "locality": "Wayanad, Kerala",
+      "decimalLatitude": 11.6,
+      "decimalLongitude": 76.0,
+      "geodeticDatum": "EPSG:4326",
+      "coordinateUncertaintyInMeters": 50000,
+      "locationPrecision": "district",
+      "georeferenceProtocol": "ner_geocoder",
+      "georeferenceVerificationStatus": "requires_verification",
+      "country": "India",
+      "countryCode": "IN",
+      "stateProvince": "Kerala",
+      "county": "Wayanad",
+      "wildlens:insidePA": false,
+      "wildlens:paName": null,
+      "wildlens:paType": null,
+      "wildlens:nearestPAName": "Wayanad Wildlife Sanctuary",
+      "wildlens:nearestPADistKm": 3.2,
+      "wildlens:corridorName": "Nilgiri Biosphere Elephant Corridor"
     },
     "outcome": {
       "outcome_summary": "Wild elephant fatally attacked a 65-year-old man in Wayanad. Forest department took responsibility for the victim's two children.",
-      "human_casualties": 1,
-      "human_injuries": 0,
-      "animal_casualties": 0,
-      "severity": "critical"
+      "wildlens:humanCasualties": 1,
+      "wildlens:humanInjuries": 0,
+      "wildlens:animalCasualties": 0,
+      "wildlens:severity": "critical"
     },
     "source_articles": [
       {
@@ -312,20 +435,22 @@
         "headline": "Wild elephant attack claims 65-year-old man in Kerala's Wayanad",
         "source": "The Hindu",
         "published": "2026-06-10",
-        "is_primary": true
+        "basisOfRecord": "HumanObservation",
+        "wildlens:isPrimary": true
       },
       {
         "url": "https://www.thehindu.com/news/national/kerala/kerala-wild-elephant-attack-forest-department-takes-responsibility-for-victims-children/article71081002.ece",
         "headline": "Kerala wild elephant attack: forest department takes responsibility for victim's children",
         "source": "The Hindu",
         "published": "2026-06-09",
-        "is_primary": false
+        "basisOfRecord": "HumanObservation",
+        "wildlens:isPrimary": false
       }
     ],
     "flags": {
-      "is_valid_wildlife_event": true,
-      "needs_review": false,
-      "review_notes": null
+      "wildlens:isValidWildlifeEvent": true,
+      "wildlens:needsReview": false,
+      "wildlens:reviewNotes": null
     },
     "metadata": {
       "pipeline_version": "v2.0.0",
