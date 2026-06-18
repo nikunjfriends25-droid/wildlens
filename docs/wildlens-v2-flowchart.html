@@ -114,9 +114,7 @@
         <ul>
           <li><strong style="color:#a78bfa">WTI Elephant Corridors</strong> — 101 corridors, "Right of Passage" 2nd Ed (2017) + MoEF 2023. Name, states, width, status, connecting PAs. <em>Contact WTI for shapefile.</em></li>
           <li><strong style="color:#a78bfa">WDPA</strong> — World Database of Protected Areas. All Indian PA boundaries. REST API + monthly shapefile. Free.</li>
-          <li><strong style="color:#a78bfa">GBIF</strong> — ~40M species occurrence records for India. pygbif Python client. Enables species-range scoring for toponym disambiguation ★</li>
           <li><strong style="color:#a78bfa">IUCN range maps</strong> — tiger, elephant, lion, leopard, rhino, gharial, vulture…</li>
-          <li><strong style="color:#a78bfa">WII Tiger Census</strong> — AITE 2022 distribution grids + habitat maps (PDF + shapefiles)</li>
           <li>District / state boundary GeoJSON · Forest cover raster (Nikunj has FSI downversioned)</li>
         </ul>
         <p class="note">Stored as PostGIS layers. WTI corridor shapefile is the single highest-priority acquisition.</p>
@@ -493,7 +491,7 @@
       <span class="badge yellow">★ Patent Candidate 1</span>
       <div class="box-title">Species-Constrained Toponym Disambiguation</div>
       <div class="box-body">
-        Score NER location candidates by GBIF species occurrence density + IUCN range map overlap as ecological plausibility prior. No prior NLP system uses species ranges to disambiguate place names.
+        Score NER location candidates by IUCN range map overlap as ecological plausibility prior. No prior NLP system uses species ranges to disambiguate place names.
         <p class="note">Consult Indian patent attorney after paper acceptance.</p>
       </div>
     </div>
