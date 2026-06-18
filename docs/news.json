@@ -18,6 +18,24 @@
     "lon": 75.7706
   },
   {
+    "headline": "Study finds urbanisation is reshaping frog communities in the Western Ghats",
+    "url": "https://india.mongabay.com/2026/06/study-finds-urbanisation-is-reshaping-frog-communities-in-the-western-ghats/",
+    "source": "Mongabay India",
+    "published": "2026-06-18",
+    "place_name": "Western Ghats",
+    "lat": 13.0,
+    "lon": 75.5
+  },
+  {
+    "headline": "New plant pest hunting 'aphid wasp' species discovered in Kozhikode",
+    "url": "https://researchmatters.in/news/new-plant-pest-hunting-aphid-wasp-species-discovered-kozhikode",
+    "source": "Research Matters",
+    "published": "2026-06-18",
+    "place_name": "Kozhikode",
+    "lat": 11.2588,
+    "lon": 75.7804
+  },
+  {
     "headline": "Snow leopard conservation body in Ladakh soon",
     "url": "https://timesofindia.indiatimes.com/india/snow-leopard-conservation-body-in-ladakh-soon/articleshow/131780388.cms",
     "source": "Times of India",
@@ -1168,6 +1186,15 @@
     "place_name": "Assam",
     "lat": 26.2006,
     "lon": 92.9376
+  },
+  {
+    "headline": "Why Thekkady In Kerala Is The Ultimate Destination For Wildlife Lovers",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOakVENy1vYTBuWDVhRFI5Y290YXB2X0p2MTF4VHBUVUF4VjRUTEZZbEd4ckl0R1RSOUNUS3hmeUtLWG9qTUpJUG45dDNSX2tRdWk3VkxnYWdqdmNTOXlGN2ZSV2pkRXBoNHpxRGFQTjlYYUNPRmE0eWJrU3NMaTdzZl95cExsbWdRY05zVjJEQ1g2ZWVQa1hhc1U5MU8xUlU1eWU3UEstcUd5bG_SAbMBQVVfeXFMTVppc0VkamVISEQzMXVOOVF0QzZaZXIxaHYwRUg1dTBJcUs5dnp6VVBad0VaM0NOWTNTQzFfcTBJMGZvNExTNmttT3Myck82dW5KSHozUlktQUswVDNDUFRxZjRUbjM2N29uTXQtRDZPOGVYYTBEVUhreG4tV29YNmZMSDBSRWZ6YU42SzRNamg1ZHIwOUg2VDMwZVpSTV9vZHpsNDNNVUhCLTRMTExDYkR5MU0?oc=5",
+    "source": "NDTV",
+    "published": "2026-04-15",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
   },
   {
     "headline": "New gecko species discovered in Assam’s Raimona landscape",
