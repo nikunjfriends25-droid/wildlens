@@ -60,18 +60,30 @@
           "habitat_threat",
           "policy",
           "research",
+          "rescue",
+          "disease",
+          "flood_displacement",
+          "wildlife_crime",
+          "fire",
+          "coexistence",
           "other"
         ],
         "definitions": {
-          "poaching": "Illegal killing, trapping, or trade of wildlife or wildlife parts",
+          "poaching": "Illegal killing or trapping of wildlife. Use when the act of killing/trapping is the focus.",
           "hwc": "Human-wildlife conflict — attacks on humans, crop raids, property damage, retaliatory killing",
-          "mortality": "Animal death from natural causes, disease, accident (train/vehicle), or unknown cause",
+          "mortality": "Animal death from natural causes, heat, accident (train/vehicle), or unknown cause. Not disease (use disease) and not poaching (use poaching).",
           "sighting": "Notable or rare sighting of a species, first record for an area",
           "discovery": "New species described, new range record, new behaviour documented",
           "conservation_action": "Proactive management — translocations, camera traps, drone surveys, reserve notifications, ex-situ conservation",
-          "habitat_threat": "Mining, forest fires, encroachment, road/infra projects affecting wildlife habitat",
+          "habitat_threat": "Encroachment, road/infra projects, mining, industrial activity affecting wildlife habitat. Not forest fires (use fire).",
           "policy": "Government orders, court rulings, legislation, ESZ notifications, budget allocations",
           "research": "Population surveys, censuses, ecological studies, camera trap results published",
+          "rescue": "Animal rescued alive — from wells, snares, floods, fires, injury, human settlements. Animal survives.",
+          "disease": "Wildlife disease outbreak or suspected disease event — avian flu, CDV, anthrax, viral outbreak, mange. Use even when disease is suspected but not confirmed.",
+          "flood_displacement": "Monsoon floods or inundation events displacing wildlife or damaging habitat — common annual event in Kaziranga/Brahmaputra, coastal PAs.",
+          "wildlife_crime": "Arrest, seizure, prosecution, conviction related to wildlife crime. Focus is on the legal/enforcement action, not the killing act. Use alongside or instead of poaching when article is about enforcement rather than the incident itself.",
+          "fire": "Forest fire or wildfire event — habitat burned, animals displaced or killed by fire. Distinct from habitat_threat (which is chronic/planned) — fire is an acute event.",
+          "coexistence": "Positive human-wildlife interaction or coexistence initiative — community conservation, corridor restoration, underpasses, compensation schemes, tolerance stories.",
           "other": "Does not fit above categories"
         }
       },
@@ -85,7 +97,12 @@
           "forest_fire", "mining_clearance", "encroachment",
           "new_species", "range_extension", "population_survey",
           "translocation", "camera_trap_deployment", "esz_notification",
-          "heat_mortality", "disease_mortality", "poaching_seizure"
+          "heat_mortality", "disease_mortality", "poaching_seizure",
+          "well_rescue", "fire_rescue", "flood_rescue", "snare_rescue", "separation_rescue", "search_rescue",
+          "avian_flu", "canine_distemper", "anthrax", "mange", "viral_outbreak",
+          "monsoon_flood", "flash_flood", "coastal_inundation",
+          "trafficking_arrest", "seizure", "conviction", "prosecution",
+          "community_conservation", "corridor_restoration", "underpass_construction", "compensation_scheme"
         ]
       },
       "classification_confidence": {
