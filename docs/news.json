@@ -94,9 +94,9 @@
     "url": "https://www.thehindu.com/news/national/kerala/elephant-runs-amok-at-kottiyoor-temple-in-kerala-no-casualties-reported/article71108281.ece",
     "source": "The Hindu",
     "published": "2026-06-16",
-    "place_name": "Kerala",
-    "lat": 10.8505,
-    "lon": 76.2711
+    "place_name": "Kottiyoor Kannur Kerala",
+    "lat": 11.95,
+    "lon": 75.55
   },
   {
     "headline": "Kerala’s move to intensify wild boar culling comes under fire",
@@ -130,18 +130,18 @@
     "url": "https://assamtribune.com/north-east/new-butterfly-species-discovered-in-arunachal-pradeshs-mayodia-pass-1612742",
     "source": "Assam Tribune",
     "published": "2026-06-15",
-    "place_name": "Arunachal Pradesh",
-    "lat": 28.218,
-    "lon": 94.7278
+    "place_name": "Mayodia Pass Arunachal Pradesh",
+    "lat": 28.08,
+    "lon": 95.88
   },
   {
     "headline": "Assam: New Digboi Forest Division office building remains incomplete after two years",
     "url": "https://nenow.in/north-east-news/assam/assam-new-digboi-forest-division-office-building-remains-incomplete-after-two-years.html",
     "source": "Northeast Now",
     "published": "2026-06-15",
-    "place_name": "Assam",
-    "lat": 26.2006,
-    "lon": 92.9376
+    "place_name": "Digboi Assam",
+    "lat": 27.38,
+    "lon": 95.62
   },
   {
     "headline": "Rajasthan to deploy AI surveillance system in tiger reserves to curb poaching and monitor wildlife - Daily Pioneer",
@@ -166,9 +166,9 @@
     "url": "https://indianexpress.com/article/india/rajasthan-in-principle-clearance-for-coal-block-in-hasdeo-arand-10738393/",
     "source": "Indian Express",
     "published": "2026-06-14",
-    "place_name": "Chhattisgarh",
-    "lat": 21.2787,
-    "lon": 81.8661
+    "place_name": "Hasdeo-Arand Forest Chhattisgarh",
+    "lat": 22.5,
+    "lon": 82.7
   },
   {
     "headline": "Nagaon family's civet cub tale makes it to CBSE class 10 textbook",
@@ -238,18 +238,18 @@
     "url": "https://nenow.in/environment/assam-wildlife-sos-disengaged-after-doomdooma-elephant-calf-death.html",
     "source": "Northeast Now",
     "published": "2026-06-14",
-    "place_name": "Assam",
-    "lat": 26.2006,
-    "lon": 92.9376
+    "place_name": "Doomdooma Assam",
+    "lat": 27.45,
+    "lon": 95.35
   },
   {
     "headline": "New 'western trickle frog' discovered from the Garo and Khasi hills in Meghalaya",
     "url": "https://researchmatters.in/news/new-western-trickle-frog-discovered-garo-and-khasi-hills-meghalaya",
     "source": "Research Matters",
     "published": "2026-06-13",
-    "place_name": "Meghalaya",
-    "lat": 25.467,
-    "lon": 91.3662
+    "place_name": "Garo-Khasi Hills Meghalaya",
+    "lat": 25.5,
+    "lon": 91.0
   },
   {
     "headline": "Andhra Pradesh Biodiversity Board plans Statewide rollout of OECMs",
@@ -274,9 +274,9 @@
     "url": "https://nenow.in/environment/uttarakhand-nagaland-tripura-to-pilot-community-led-forest-management-project.html",
     "source": "Northeast Now",
     "published": "2026-06-13",
-    "place_name": "Uttarakhand",
-    "lat": 30.0668,
-    "lon": 79.0193
+    "place_name": "Multi-state (Uttarakhand Nagaland Tripura)",
+    "lat": 25.0,
+    "lon": 82.0
   },
   {
     "headline": "Forest fire sweeps through Bathuni forest",
@@ -301,9 +301,9 @@
     "url": "https://thewire.in/environment/how-a-gap-in-environmental-regulation-enabled-ntpcs-4500-acre-solar-project-near-gujarats-wetlands",
     "source": "The Wire",
     "published": "2026-06-13",
-    "place_name": "Gujarat",
-    "lat": 22.2587,
-    "lon": 71.1924
+    "place_name": "Little Rann of Kutch",
+    "lat": 23.2,
+    "lon": 71.8
   },
   {
     "headline": "New blue-spotted damselfly discovered in the Andaman Islands",
@@ -319,9 +319,9 @@
     "url": "https://www.ndtv.com/india-news/tiger-takes-over-madhya-pradeshs-raisen-fort-hill-tourist-entry-shut-11627568#publisher=newsstand",
     "source": "NDTV",
     "published": "2026-06-12",
-    "place_name": "Madhya Pradesh",
-    "lat": 22.9734,
-    "lon": 78.6569
+    "place_name": "Raisen",
+    "lat": 23.3325,
+    "lon": 77.7862
   },
   {
     "headline": "4 sites on Nicobar west coast identified for coral translocation, says Zoological Survey of India",
@@ -427,18 +427,18 @@
     "url": "https://www.thehindu.com/news/national/karnataka/horticulture-dept-to-introduce-617-new-species-in-cubbon-and-lalbagh-including-endangered-ones/article71085343.ece",
     "source": "The Hindu",
     "published": "2026-06-12",
-    "place_name": "BR Hills",
-    "lat": 11.9667,
-    "lon": 77.1667
+    "place_name": "Bengaluru (Cubbon Park & Lalbagh)",
+    "lat": 12.9716,
+    "lon": 77.5946
   },
   {
     "headline": "Assam: Mutilated Royal Bengal Tiger carcass found in Sonitpur",
     "url": "https://nenow.in/environment/assam-mutilated-royal-bengal-tiger-carcass-found-in-sonitpur.html",
     "source": "Northeast Now",
     "published": "2026-06-12",
-    "place_name": "Assam",
-    "lat": 26.2006,
-    "lon": 92.9376
+    "place_name": "Sonitpur Assam",
+    "lat": 26.7,
+    "lon": 92.8
   },
   {
     "headline": "3 injured in two suspected elephant attacks in Kerala’s Palakkad",
@@ -499,18 +499,18 @@
     "url": "https://www.thehindu.com/sci-tech/energy-and-environment/on-lakshadweeps-kadmat-island-corals-green-humour-by-rohan-chakravarty/article71076215.ece",
     "source": "The Hindu",
     "published": "2026-06-11",
-    "place_name": "Lakshadweep",
-    "lat": 10.5626,
-    "lon": 72.6369
+    "place_name": "Lakshadweep / Kadmat Island",
+    "lat": 11.23,
+    "lon": 72.79
   },
   {
     "headline": "'Disease Did Not Kill Lions, Heat Did': Gujarat Forest Minister",
     "url": "https://thewire.in/environment/disease-did-not-kill-lions-heat-did-gujarat-forest-minister",
     "source": "The Wire",
     "published": "2026-06-11",
-    "place_name": "Gujarat",
-    "lat": 22.2587,
-    "lon": 71.1924
+    "place_name": "Gir Forest National Park",
+    "lat": 21.1239,
+    "lon": 70.798
   },
   {
     "headline": "CREDAI supports Parandur project, says second airport for Chennai is necessary",
@@ -544,9 +544,9 @@
     "url": "https://www.thehindu.com/news/national/kerala/wild-elephant-attack-claims-65-year-old-man-in-keralas-wayanad/article71084237.ece",
     "source": "The Hindu",
     "published": "2026-06-10",
-    "place_name": "Kerala",
-    "lat": 10.8505,
-    "lon": 76.2711
+    "place_name": "Wayanad Kerala",
+    "lat": 11.6,
+    "lon": 76.0
   },
   {
     "headline": "Gaur that roamed 300 km across districts relocated to forest habitat",
@@ -661,18 +661,18 @@
     "url": "https://www.thehindu.com/news/national/kerala/kerala-govt-seeks-centres-permission-to-use-forest-land-for-wayanad-mch-expansion/article71079653.ece",
     "source": "The Hindu",
     "published": "2026-06-09",
-    "place_name": "Kerala",
-    "lat": 10.8505,
-    "lon": 76.2711
+    "place_name": "Wayanad Kerala",
+    "lat": 11.6,
+    "lon": 76.0
   },
   {
     "headline": "Drone squad formed to monitor wild elephants at Aralam in Kerala’s Kannur",
     "url": "https://www.thehindu.com/news/national/kerala/drone-squad-formed-to-monitor-wild-elephants-at-aralam-in-keralas-kannur/article71079609.ece",
     "source": "The Hindu",
     "published": "2026-06-09",
-    "place_name": "Kerala",
-    "lat": 10.8505,
-    "lon": 76.2711
+    "place_name": "Aralam Wildlife Sanctuary Kannur Kerala",
+    "lat": 12.05,
+    "lon": 75.75
   },
   {
     "headline": "Woman, 55, Mauled To Death By Leopard In Uttarakhand, Wild Cat Shot Dead",
@@ -688,9 +688,9 @@
     "url": "https://www.thehindu.com/news/national/kerala/kerala-wild-elephant-attack-forest-department-takes-responsibility-for-victims-children/article71081002.ece",
     "source": "The Hindu",
     "published": "2026-06-09",
-    "place_name": "Kerala",
-    "lat": 10.8505,
-    "lon": 76.2711
+    "place_name": "Wayanad Kerala",
+    "lat": 11.6,
+    "lon": 76.0
   },
   {
     "headline": "Study unveils new fish species in Western Ghats, solves evolutionary riddle",
@@ -1012,18 +1012,18 @@
     "url": "https://www.thehindu.com/sci-tech/energy-and-environment/tigress-zeenat-gives-birth-to-four-cubs-in-similipal-boost-to-translocation-effort/article71052567.ece",
     "source": "The Hindu",
     "published": "2026-06-03",
-    "place_name": "Odisha",
-    "lat": 20.9517,
-    "lon": 85.0985
+    "place_name": "Similipal Tiger Reserve",
+    "lat": 21.95,
+    "lon": 86.45
   },
   {
     "headline": "Kaziranga records first yellow-throated marten",
     "url": "https://www.thehindu.com/sci-tech/energy-and-environment/kaziranga-records-first-yellow-throated-marten/article71053318.ece",
     "source": "The Hindu",
     "published": "2026-06-03",
-    "place_name": "Assam",
-    "lat": 26.2006,
-    "lon": 92.9376
+    "place_name": "Kaziranga National Park",
+    "lat": 26.5775,
+    "lon": 93.1711
   },
   {
     "headline": "Artificial light at night alters foraging behaviour in kites",
@@ -1066,9 +1066,9 @@
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcE1qQ2lHYXp6UjVDQUxXUG92QXdVclc2cnRxeUZwdUJUaVJ5blN3SnVxckQzdFJzVktEZ1cxZ3BmMjRWZVZzNDhOOTZ0dURfb0NYRHBmQnJCNEE1Z0RfSkZhYUlkalVuZnpYelRWcTN0Q0txZnpLLXYxM1FZd2xQMDdFbjJhX2lPWVhOUVN6blNONjJrMHkwU0NoN1ZHM3hOclpNWWtuV2k5aG9yOFRsdnFOa9IBuAFBVV95cUxQNzFsLUV6cVVWb3BBUUZKcGFmZkJ4ejR1cFJwMlZGTThSMFJOY2ljN3lEY3JoVktIcUlnZ1V0SEZRVjV3OHduUjhmRXpDRVpGektTMlc1akN3TnNBazFPYVVCR2QwTnRBLXVRYjB0anVlNkVPdmJlVnhZRmtCcnJEaUpaRThqbTRvbnFxRWsyOWlBeDhrN3NlZjRKbW13TU5hdWx1cXpXbG5fZjk0Q0Fia01Db1l0b1Fx?oc=5",
     "source": "Assam Tribune",
     "published": "2026-06-01",
-    "place_name": "Assam",
-    "lat": 26.2006,
-    "lon": 92.9376
+    "place_name": "Kaziranga National Park",
+    "lat": 26.5775,
+    "lon": 93.1711
   },
   {
     "headline": "Nagaland yields a new-to-science cascade frog species",
@@ -1111,18 +1111,18 @@
     "url": "https://www.thehindu.com/news/national/gujarat/4-lion-cubs-die-in-gujarats-gir-forest-region-17-isolated-amid-viral-infection-scare/article71031878.ece",
     "source": "The Hindu",
     "published": "2026-05-28",
-    "place_name": "Gujarat",
-    "lat": 22.2587,
-    "lon": 71.1924
+    "place_name": "Gir National Park",
+    "lat": 21.1239,
+    "lon": 70.798
   },
   {
     "headline": "Indian Army, IAF contain major forest fire in Himachal’s Kasauli slopes",
     "url": "https://www.thehindu.com/news/national/himachal-pradesh/indian-army-iaf-contain-major-forest-fire-in-himachals-kasauli-slopes/article71029584.ece",
     "source": "The Hindu",
     "published": "2026-05-27",
-    "place_name": "Himachal",
-    "lat": 31.1048,
-    "lon": 77.1734
+    "place_name": "Kasauli Himachal Pradesh",
+    "lat": 30.9,
+    "lon": 76.96
   },
   {
     "headline": "New toad species recorded in Meghalaya named after Khasi women’s attire",
@@ -1165,9 +1165,9 @@
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORWRVbmJYblJ2M19nVzkzd0Zpanl6MUJ3YXJ6Y3A4NnhpNUVDYzRIWXpaa3FIZFNYckNfZUNBUFBDYlVCa2hMMDd4WFA4T2JpMDNGMGhoM1YzNi1hWHJtcklMU0piTnJjRXEzWkdzTEt0ZF9WNTZKTkJLN2JBVWR0ZGdXWDUxbVdCdTFGNk1rcGZ4ejdJeThuQ1RSaDI4VTlQWi1tY9IBqgFBVV95cUxNNUJDN0J4a2Z3SU9zOHkwZ1RNX2VCcVRSbVN1YkhycElZcFRMeUdyanV5ZHFjcTJCVm1HYVR0M042N2E5cGFCdEU5cjhrekM0bFlhay1CcDA4b1c2V1BBZFh2X2UtMDRVUkJlaVhfZExTdmxqaVA5TzhWSkdtY05DeS04T0hJOUJUeWlHSnhZblJkbjBvUDNkV1E5YmF6dDIxdUo5cnNZV3Ftdw?oc=5",
     "source": "Assam Tribune",
     "published": "2026-05-11",
-    "place_name": "Assam",
-    "lat": 26.2006,
-    "lon": 92.9376
+    "place_name": "Kaziranga National Park",
+    "lat": 26.5775,
+    "lon": 93.1711
   },
   {
     "headline": "Pawan Kalyan backs Peacock Tarantula conservation as rare Eastern Ghats species faces extinction risk",
@@ -1183,9 +1183,9 @@
     "url": "https://eastmojo.com/premium/2026/04/17/assam-lost-for-36-years-rare-dragonfly-resurfaces-in-raimona/",
     "source": "EastMojo",
     "published": "2026-04-17",
-    "place_name": "Assam",
-    "lat": 26.2006,
-    "lon": 92.9376
+    "place_name": "Raimona National Park",
+    "lat": 26.55,
+    "lon": 90.0
   },
   {
     "headline": "Why Thekkady In Kerala Is The Ultimate Destination For Wildlife Lovers",
@@ -1201,9 +1201,9 @@
     "url": "https://eastmojo.com/premium/2026/04/13/new-gecko-species-discovered-in-assams-raimona-landscape/",
     "source": "EastMojo",
     "published": "2026-04-13",
-    "place_name": "Assam",
-    "lat": 26.2006,
-    "lon": 92.9376
+    "place_name": "Raimona National Park",
+    "lat": 26.55,
+    "lon": 90.0
   },
   {
     "headline": "40 Ex-Civil Servants Urge Assam to Withdraw Forest Force Poll Duty Order, Cite Legal Violations - TheWire.in",
@@ -1246,9 +1246,9 @@
     "url": "https://eastmojo.com/meghalaya/2026/01/14/hidden-in-khasi-hills-rare-woolly-bat-found-in-india-for-the-first-time/",
     "source": "EastMojo",
     "published": "2026-01-14",
-    "place_name": "Guwahati",
-    "lat": 26.1445,
-    "lon": 91.7362
+    "place_name": "Khasi Hills, Meghalaya",
+    "lat": 25.5,
+    "lon": 91.8
   },
   {
     "headline": "India arrests INTERPOL-wanted wildlife trafficker in Sikkim after coordinated chase",
@@ -1264,9 +1264,9 @@
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNjh6UmFUbk9hcy1zWkpLOWNyRW1uMW44X2tqRDVtMkh5UnIwOHAtT0NfTkJxQk95N042QW1KcEt5UWt4SG5FZU1XZVNVaFlER3JtN21fUkhVcXRPZlRfUU8yc2FhRVc0QWpiQ1dxUEN6eENPSUlDblZFYW52WmtlU2JEYlVLRUhMNXpKYkY5RE1taGpFRHFF?oc=5",
     "source": "The Pioneer",
     "published": "2025-11-13",
-    "place_name": "Bihar",
-    "lat": 25.0961,
-    "lon": 85.3131
+    "place_name": "Kuno National Park",
+    "lat": 26.7,
+    "lon": 77.7
   },
   {
     "headline": "Karnataka CM Siddaramaiah warns of strict action against those killing wildlife",
@@ -1336,9 +1336,9 @@
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmk0SUdHRmZRX2MxejRaX254WUNzUUtheDFHOHZnYTVTWk53Rnh0YUFKOW5EMFFNWGU2d19EM2ZwUjFTRnBaeGxIeVMyTVRwWlBFZjVVemxRN2JqRXZvVEdHSDhmTDRKREo5cUl4Mm84d01meldOcmczVjlBOTFmWXNrX285U3d6TG9GSnVhb0xET2RvRVFzNWl3TEVLN1hNSW9wd0JEVy11RXJaclp2a9IBtgFBVV95cUxNUE5xaUlkS1NpUnNFWGZRYzJOZU9Wc2xFVzVfZXhKRnVnQUk2c1QyOTN0LVM5Y1Z1VFdCWUlkbEdEaERyYU54NmVFTnBCSjlYZW5wNDgxd0dkeE1hRGRGQ2pzUTd4bkh1QXAwYTBkcTNFSU15VERqMjQ2Rkp6TE5aS0FLVmQ2ZGdtbjh5N3BIUGYzRHliTHJWNUNldlN1Q0hTY0FqbG9sNW9iODFqbXVvajNsd1E0QQ?oc=5",
     "source": "Assam Tribune",
     "published": "2025-07-14",
-    "place_name": "Assam",
-    "lat": 26.2006,
-    "lon": 92.9376
+    "place_name": "Orang National Park",
+    "lat": 26.5,
+    "lon": 92.0
   },
   {
     "headline": "Kerala Seeks To Amend Wildlife Act To Allow Killing Of Animals. Reasons Explained",
@@ -1381,9 +1381,9 @@
     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWGkxR0dZSDNYX1hrTDRyYUxTRU9wUHYzVS1PZ0VyaTM1dGVpZ0Y1ZlJwa2NYZk01dTNmMmFueGswR01aa0tBSmR6UFota2hGaVQ2SDM3aGh4Zm1JZWY3eFBtMWQ3cnpyclVqc2Jtc0pwTGlKYTZpWkllV1NfaFhjUk12cEEtU2xXMFNnUjRKQmNTZ0VkVnZBQ0xjbEdEZ21aemVUdTRwMzI1eTBOSGZIWVMtcHBsM2R0T3hjRHFIbVA3YjlhNndTSWhMN2x1enVMMFRIRjBxN0RSMnJuZFppei130gHnAUFVX3lxTFBUekJodElLZ3pmMUhsVnhGaVJhcW9jOHBBU0F0U2dXbElNUm1GVHV3Z1dKRFB4U0lOS1dZTDc3d3VvRjdwQmh5em5DM2RsTXFabHVVcUpENWNGZjJNYm1sV3Z1RHc3SGdPZ0s5RGRuNnlQempnc1Itcko0NXFCSm5hXzE4blg2Y3lXUnBEMmFtTkFTVHVrcFpwYi13N0VLZUtMT2RZdXB2UGpuYTkyVzZmUGl6VzJDcTl2Q1FHcHN3aks2QmV0M0psa1dETHFnMkVxZk1ERjZGemMwMFRaMmZCNWRJTDR1OA?oc=5",
     "source": "Assam Tribune",
     "published": "2025-04-13",
-    "place_name": "Assam",
-    "lat": 26.2006,
-    "lon": 92.9376
+    "place_name": "Kaziranga National Park",
+    "lat": 26.5775,
+    "lon": 93.1711
   },
   {
     "headline": "Forest dept in spot over missing tusks from elephant skeleton in Bhadra Tiger Reserve",
@@ -1444,27 +1444,27 @@
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdk5Yb0o0d2gwUVJ3WnZCbzA1NW9ZRElsRTZabzE3MjRTQllQblJTN0NmY0QtQVJmQmFGT3F4dHFaMldSUW1pTmNhTE1qYV82Y1dUWm1SU2szVVFhUHZKd2h2T1piN01DRkhhWXViYjB3RkhDcExvLVFuaC11SWdvcWdaWEpwdXZQdG5UaFJzMTVJaXoxMGNxMlJfdDnSAaIBQVVfeXFMTjhxOE1HMUJiX2dWQWxvM2VzUnlqeVI0WFo2d3loazl1b3JjRWl0bVFia0lMRWhLYnJ2UmJpcGMwQzkxendKU2Fod0RBdVZMaVNSeldrLWdRdWZuZmJJc29OeE5yaEN4VWYxb2xtLW9xN3poOVhkeVFfanI3d2NQdm13YklzZFhQUFVpbmhGOElCQ3VDcDBVVVJxdWpmelJOeUdR?oc=5",
     "source": "Assam Tribune",
     "published": "2024-03-08",
-    "place_name": "Assam",
-    "lat": 26.2006,
-    "lon": 92.9376
+    "place_name": "Kaziranga National Park",
+    "lat": 26.5775,
+    "lon": 93.1711
   },
   {
     "headline": "The Dubious Business of Trading Carbon and Its Stakes For India’s People and Forests",
     "url": "https://science.thewire.in/environment/the-dubious-business-of-trading-carbon-and-its-stakes-for-indias-people-and-forests/",
     "source": "The Wire",
     "published": "2024-02-14",
-    "place_name": "Andhra Pradesh",
-    "lat": 15.9129,
-    "lon": 79.74
+    "place_name": "India",
+    "lat": 22.5,
+    "lon": 82.0
   },
   {
     "headline": "MM Hills safari new addition on Mysuru's wildlife tourism circuit",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdmljUHYyWG4zZTdScTBEX2tGTHZiVjRLVTVjd0RxMm14ZFJhZlhRQ3VubGZFME9nRjBEQ09yNXRvUGFYajd5Qy1KMlcteWZ0S3VfNUdFN2FfQUpNYmhnb1RCeDR3S09ETWltWVdpY21qZlVIQjBjdEN1MW5SYWdSQ0UtTnRncl90WVE3UmVqZnB1UGhYT2ZHV3pWZy1SYl9XUWVYck5LV3gzVDRBYUllZWNKMXZTOWJ5Mmc?oc=5",
     "source": "Deccan Herald",
     "published": "2023-11-26",
-    "place_name": "Mysuru",
-    "lat": 12.2958,
-    "lon": 76.6394
+    "place_name": "MM Hills Wildlife Sanctuary",
+    "lat": 12.0,
+    "lon": 77.5
   },
   {
     "headline": "Char Dham Of The Great Himalayan National Park (III) — The Jiva Nal",
@@ -1534,9 +1534,9 @@
     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZGZNRVhaZHRSc2J3d3FyOU1DYURReVh2aDRVNXJDN1FDWEp4T1doU0NBUnQ4d01PMGxUa3pyOFBXLVBmWldpS2JmZHQ2ZGdOaHJTa0k2bGplWG40WlZmSVVTY1RTaEM0dFUyUUFidDZHdHI5TzNzek5wYkJRUGh6MHRRWHJqX1ZSWkh2d2d3ejBjblZtVlA3UGRvaWFFbjhqZnNqVHo2OEZHNE13aW5HVDFGMkdSLUZBcC1nVTB3Z0pReDlBZVNQMTBOT2pvX2RaRHhR?oc=5",
     "source": "Deccan Herald",
     "published": "2021-11-10",
-    "place_name": "Assam",
-    "lat": 26.2006,
-    "lon": 92.9376
+    "place_name": "Kaziranga National Park",
+    "lat": 26.5775,
+    "lon": 93.1711
   },
   {
     "headline": "Watch: Baby Elephant Reunited With Mother After Rescue In Tamil Nadu's Mudumalai National Park",
@@ -1552,9 +1552,9 @@
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZEE4QXdWUFUxd0ZWemQtZ1ZnalVtTDI5Z2VPUWxzYk9SUnl0bGplai1CY2plSk5leUZZeUh4TWZoZkllcVRmMEdYaFJjaFNzWGZyckhSV215SW41eTMyTHUwQnNHV3FkUE9xUGlRODJKclBMTEhBV0w3RE9LbXpjYmN1RGF5NVMyNEN4ZWNfc25sZk5nMTBtTEYyTm1fZHljX3RzRkJLemNQUmFh0gGyAUFVX3lxTE1Wc3liZmFEX01FUGpnT05ZRXM0eFFWVlJrU3gyNmVLN2t0ME9kVVJZLUtFSTJ3NXFIZ0xtU0JxVVMyVlhmUG1FUmJZaW9XVWxFdHN6cVh6dERNRmpfZGFBM2pNc0hXMnpONW1lMHpYU1had0hlUk5KRThfemkzcjQyTXotNXk2X1VydFJUX0xzZXlrTF9rYU01UGV3SlVMUWtIcHYwUlVuNFdIb25jaVVkenc?oc=5",
     "source": "Assam Tribune",
     "published": "2021-05-31",
-    "place_name": "Assam",
-    "lat": 26.2006,
-    "lon": 92.9376
+    "place_name": "Kaziranga National Park",
+    "lat": 26.5775,
+    "lon": 93.1711
   },
   {
     "headline": "Assam Flood: Surging Brahmaputra Takes Heavy Toll on State’s Wildlife - The Wire Science",
@@ -1606,9 +1606,9 @@
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVVhrcDNTYXRBX2tGdFM2VVVYSUZ0ZlBJMlk3TmFETWdxWUQzcEc1Sm9qTEp3U3VkY1FPdG05QWp2d285NVlMTVFhM3FYUzQ5ZjBva0NIeVdnQWdyeEhFMExtT1hFVVlfblNacTNoaEFEOWdnUVkzQ1gzWGJfU1VDcEhwdVJTdlVtZlQ2eWhCN1BkZWk5Tm9CYk91OVFBWDRUWERaUFhWZVF5eU5sVlZJZ19lZTdOYms?oc=5",
     "source": "NDTV",
     "published": "2019-10-12",
-    "place_name": "Karnataka",
-    "lat": 15.3173,
-    "lon": 75.7139
+    "place_name": "Bandipur Tiger Reserve",
+    "lat": 11.6667,
+    "lon": 76.6333
   },
   {
     "headline": "Who Killed the Wandering Rhino in Assam? - The Wire Science",
@@ -1642,9 +1642,9 @@
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdVNKLXFxWlk1NWFqM1BGN3NHdW5SYkJyYldsV3RqakpmMUkxLUx0WHVoaXZHaUlPdWJwREg2LUFib0hlWmpYU2daWGtORkh4VTVhT25kTDZ4RjlCVm5xTUt4RkNuM1ZtYXpscnlCUHYxODB5VWs0bmo3eFJwek5nenBsbU0waklVcy01TXlydl9xMkxYVHQ0cDBIS1kyMzlIV3IzWXNMcE5DYmJTUWFybXZ3WDJFTEFVWmZpTnVjek5rdw?oc=5",
     "source": "NDTV",
     "published": "2019-07-05",
-    "place_name": "Assam",
-    "lat": 26.2006,
-    "lon": 92.9376
+    "place_name": "Kaziranga National Park",
+    "lat": 26.5775,
+    "lon": 93.1711
   },
   {
     "headline": "Karnataka’s Sixth Tiger Reserve Is Emerging Where Dacoits Once Roamed - The Wire Science",
