@@ -130,16 +130,17 @@
   <div class="row">
     <div class="box phase-1 wide">
       <span class="badge blue">Track 1 — News (Reactive)</span>
-      <div class="box-title">RSS Article Pipeline + Historical PDFs</div>
+      <div class="box-title">RSS + Historical Sources → NLP Pipeline</div>
       <div class="box-body">
         <ul>
-          <li>Same RSS sources as V1 + regional feeds (live)</li>
-          <li><strong style="color:#60a5fa">Kalpavriksh PAU</strong> — Protected Area Update newsletter, ~25 years of PA news in PDF form. OCR + same NLP pipeline. Historical baseline 2000–2024.</li>
-          <li>NLP extraction: species, location, event type, severity</li>
+          <li><strong style="color:#60a5fa">Live RSS</strong> — Same sources as V1 + regional feeds (ongoing)</li>
+          <li><strong style="color:#60a5fa">GDELT</strong> — Global event database, ENV_WILDLIFE / ENV_POACHING themes. BigQuery free. 2013–present. ~50k–200k India wildlife URLs. Location pre-tagged (re-run WildLens NLP for accuracy).</li>
+          <li><strong style="color:#60a5fa">Wayback Machine CDX</strong> — Full historical URL inventory for DTE, Mongabay, The Hindu, The Wire via free CDX API. Fetch live articles. 2003–present per site.</li>
+          <li><strong style="color:#60a5fa">Kalpavriksh PAU</strong> — Protected Area Update PDFs, expert-curated, 2000–2024. OCR → same NLP. Lowest false positive rate of all sources.</li>
+          <li>All sources → same NLP pipeline: species extraction → species-constrained toponym disambiguation → event classification</li>
           <li>Deduplication: same incident → one event record</li>
-          <li>Spatial join: PA/corridor enrichment via PostGIS</li>
         </ul>
-        <p class="note">Tells you what was <strong style="color:#60a5fa">REPORTED</strong> — Layer 2. PAU adds 25-year historical depth to RSS-only coverage.</p>
+        <p class="note">Combined coverage: <strong>2003–present</strong> (free). <strong>2000–2024</strong> with PAU. Pre-2003 via Factiva/LexisNexis if institutional access available. Tells you what was <strong style="color:#60a5fa">REPORTED</strong> — Layer 2.</p>
       </div>
     </div>
     <div class="box phase-3 wide">

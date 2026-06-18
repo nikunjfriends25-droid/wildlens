@@ -863,6 +863,125 @@
     }
   },
 
+  "historical_news_sources": {
+    "$comment": "PLANNING NOTE (added 2026-06-18): Additional historical depth sources for Track 1 alongside Kalpavriksh PAU. These provide article-level historical coverage that RSS feeds cannot — RSS retains no history. Combined with PAU, these give a continuous record from ~2003 to present.",
+
+    "source_summary": {
+      "gdelt": {
+        "coverage": "2013–present",
+        "format": "Structured event records with location already extracted",
+        "effort": "LOW — BigQuery SQL query, no scraping",
+        "priority": "HIGHEST — do this first"
+      },
+      "internet_archive_cdx": {
+        "coverage": "2003–present (per site)",
+        "format": "URL list → fetch live article text",
+        "effort": "MEDIUM — CDX API call + article scraper",
+        "priority": "HIGH — best for full article text from trusted sources"
+      },
+      "factiva_lexisnexis": {
+        "coverage": "1990s–present",
+        "format": "Structured XML export",
+        "effort": "LOW if university access exists",
+        "priority": "HIGH if accessible — 30+ years of Indian press"
+      }
+    },
+
+    "gdelt": {
+      "name": "Global Database of Events, Language, and Tone (GDELT)",
+      "url": "https://www.gdeltproject.org/",
+      "bigquery_dataset": "gdelt-bq.gdeltv2.gkg",
+      "temporal_coverage": "2013–present (comprehensive), 1979–2013 (partial via digitised newspapers)",
+      "api_available": true,
+      "api_type": "Google BigQuery (free tier: 1TB/month queries) + REST API for recent data",
+      "license": "Open data — free for any use including commercial",
+      "access": "Free Google Cloud account. No API key needed for BigQuery if using free tier.",
+
+      "what_it_provides": [
+        "Source URL and publication date per article",
+        "ActionGeo: country, state/province, city — location already extracted from article",
+        "Theme codes: ENV_WILDLIFE, ENV_DEFORESTATION, ENV_POACHING, LEADER_ENVIRONMENT etc.",
+        "Tone score: positive/negative/polarity of the article",
+        "SourceCommonName: publication name (The Hindu, Times of India, Mongabay, etc.)"
+      ],
+
+      "bigquery_example": {
+        "description": "Get all India wildlife articles 2013–2024",
+        "sql": "SELECT DocumentIdentifier AS url, DATE, Locations, Themes, SourceCommonName, V2Tone FROM `gdelt-bq.gdeltv2.gkg` WHERE DATE >= 20130101 AND DATE <= 20241231 AND STRPOS(Locations, 'India') > 0 AND (STRPOS(Themes, 'ENV_WILDLIFE') > 0 OR STRPOS(Themes, 'ENV_POACHING') > 0 OR STRPOS(Themes, 'ENV_DEFORESTATION') > 0)",
+        "note": "Returns URL + GDELT-extracted location + theme codes. Fetch the URL to get full article text. GDELT location extraction has higher error rate than WildLens v2 pipeline — treat as URL discovery, re-run your own NLP on fetched text."
+      },
+
+      "gdelt_location_caveat": "GDELT location extraction uses TABARI/PETRARCH rule-based system — lower accuracy than spaCy NER + species-constrained disambiguation. Use GDELT's location only as a rough filter. Always re-geocode with WildLens pipeline after fetching the article text.",
+
+      "wildlens_sourceTrack": "gdelt_historical",
+      "implementation": [
+        "1. Run BigQuery query above — get ~50k–200k URLs with GDELT theme/location metadata",
+        "2. Deduplicate URLs against existing news.json",
+        "3. Fetch full article text for each new URL (respect robots.txt, 1 req/sec per domain)",
+        "4. Run full WildLens NLP pipeline on fetched text (species → location → event type)",
+        "5. Store with wildlens:sourceTrack = 'gdelt_historical' and eventDate from GDELT DATE field"
+      ]
+    },
+
+    "internet_archive_cdx": {
+      "name": "Internet Archive Wayback Machine — CDX URL Index API",
+      "url": "https://web.archive.org/cdx/search/cdx",
+      "temporal_coverage": "Varies by site — Down to Earth ~2003, Mongabay India ~2012, The Hindu ~2000",
+      "api_available": true,
+      "api_type": "Free REST API — no auth required",
+      "license": "Public CDX index is freely queryable. Fetching archived page content is permitted for non-commercial research.",
+
+      "what_it_provides": "Complete URL inventory for a given site path across all years the Wayback Machine has crawled it. Gives you every historical article URL — then you fetch the live article (preferred) or the archived snapshot.",
+
+      "example_queries": {
+        "downtoearth_wildlife": "GET http://web.archive.org/cdx/search/cdx?url=downtoearth.org/news/wildlife/*&output=json&fl=original,timestamp&collapse=urlkey&limit=100000",
+        "mongabay_india": "GET http://web.archive.org/cdx/search/cdx?url=india.mongabay.com/*&output=json&fl=original,timestamp&collapse=urlkey&limit=100000",
+        "note": "collapse=urlkey deduplicates multiple crawls of the same URL. fl=original,timestamp gives the live URL and first-seen date."
+      },
+
+      "python_snippet": "import requests\nparams = {'url': 'downtoearth.org/news/wildlife/*', 'output': 'json', 'fl': 'original,timestamp', 'collapse': 'urlkey', 'limit': 100000}\nurls = requests.get('http://web.archive.org/cdx/search/cdx', params=params).json()\n# urls is [[original_url, timestamp], ...] — first row is header",
+
+      "target_sites": [
+        {"site": "downtoearth.org", "path": "/news/wildlife/*", "est_articles": "2000+", "coverage_from": "2003"},
+        {"site": "downtoearth.org", "path": "/news/forests/*", "est_articles": "1500+", "coverage_from": "2003"},
+        {"site": "india.mongabay.com", "path": "/*", "est_articles": "3000+", "coverage_from": "2012"},
+        {"site": "science.thewire.in", "path": "/*", "est_articles": "1000+", "coverage_from": "2015"},
+        {"site": "www.thehindu.com", "path": "/sci-tech/energy-and-environment/*", "est_articles": "5000+", "coverage_from": "2005"}
+      ],
+
+      "fetch_strategy": "Prefer fetching the live article URL (if it still exists) over the archived Wayback snapshot — live URLs are faster and more stable. Check HTTP status; if 404, fall back to https://web.archive.org/web/{timestamp}/{original_url}.",
+
+      "wildlens_sourceTrack": "archive_historical",
+      "implementation": [
+        "1. For each target site: call CDX API to get full URL list",
+        "2. Filter URLs by date range and path pattern to exclude non-article pages",
+        "3. Deduplicate against existing news.json by URL",
+        "4. Batch-fetch article text (1 req/sec per domain, respect robots.txt)",
+        "5. Run WildLens NLP pipeline on fetched text",
+        "6. Use CDX timestamp as fallback eventDate if article date not extractable from text"
+      ]
+    },
+
+    "factiva_lexisnexis": {
+      "name": "Factiva (Dow Jones) / LexisNexis Academic",
+      "temporal_coverage": "The Hindu from 1990, Times of India from 1991, Indian Express from 1997",
+      "access": "University or institutional subscription required. Check if any affiliated university has access.",
+      "license": "Academic use only — data cannot be published in raw form, only aggregate statistics or quotes in a paper.",
+      "export_format": "Structured XML or RTF per article with headline, date, byline, full text",
+      "search_strategy": "Search for: tiger OR elephant OR leopard OR rhino OR poach* OR wildlife OR 'national park' OR 'wildlife sanctuary' — filter to India, date range 1990–2013 (before GDELT comprehensive coverage)",
+      "wildlens_sourceTrack": "factiva_historical",
+      "note": "Even if you cannot publish raw articles, aggregate event counts and trend statistics derived from them are publishable. Factiva/LexisNexis would give pre-2013 mainstream press coverage that no other free source provides. Check institutional access before investing time here."
+    },
+
+    "combined_temporal_coverage": {
+      "description": "What the combined sources give you",
+      "2000_2012": "Kalpavriksh PAU (PA-specific, expert curated) + CDX archive scraping of DTE/Mongabay/The Hindu",
+      "2013_present": "GDELT (broad, structured) + CDX archive + live RSS (existing V1 pipeline)",
+      "pre_2000": "Factiva/LexisNexis only (if institutional access available)",
+      "conclusion": "Without Factiva, you have solid coverage from ~2003. With it, 1990. GDELT + CDX alone (free) gives excellent 2003–present depth."
+    }
+  },
+
   "ebird_biological_indicators_track": {
     "$comment": "PLANNING NOTE (added 2026-06-18): Planned Track 4 — biological validation layer. Uses bird community composition (specialist:generalist ratio) as a habitat quality indicator, correlated with regulatory, satellite, and news data. Defer to after Tracks 1–3 are operational.",
 
