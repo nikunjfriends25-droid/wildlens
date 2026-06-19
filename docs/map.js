@@ -255,6 +255,12 @@ function buildSourceFilters(articles) {
   const panel  = document.getElementById('src-dropdown-panel');
   const btn    = document.getElementById('src-dropdown-btn');
 
+  // Source search
+  const searchWrap = document.createElement('div');
+  searchWrap.className = 'src-search-wrap';
+  searchWrap.innerHTML = `<input id="src-search-input" type="search" placeholder="Search sources…" autocomplete="off" aria-label="Search sources" />`;
+  panel.appendChild(searchWrap);
+
   // Header row: Select All / Clear
   const header = document.createElement('div');
   header.className = 'src-dd-header';
@@ -317,6 +323,14 @@ function buildSourceFilters(articles) {
     _srcDropdownSources.forEach(s => activeSrcs.delete(s));
     panel.querySelectorAll('.src-dd-row').forEach(r => { r.classList.remove('active'); r.setAttribute('aria-selected','false'); });
     updateSrcBtn(); applyFilters();
+  });
+
+  // Source search filter
+  document.getElementById('src-search-input').addEventListener('input', function() {
+    const q = this.value.toLowerCase();
+    panel.querySelectorAll('.src-dd-row').forEach(r => {
+      r.style.display = r.dataset.src.toLowerCase().includes(q) ? '' : 'none';
+    });
   });
 
   // Toggle dropdown open/close

@@ -5,7 +5,7 @@
    - CDN assets      → cache-first
    - navigation miss → offline.html
 */
-const CACHE = 'wildlens-v2';
+const CACHE = 'wildlens-v3';
 
 const PRECACHE = [
   '/',

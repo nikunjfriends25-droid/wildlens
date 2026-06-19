@@ -1077,6 +1077,25 @@ input[type="date"]:focus {
 
 #src-dropdown-btn.open .src-chevron { transform: rotate(180deg); }
 
+/* Source search (desktop) */
+.src-search-wrap {
+  padding: 8px 10px 4px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.src-search-wrap input {
+  width: 100%;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: var(--r-sm);
+  color: var(--text-primary);
+  font-size: 12px;
+  padding: 5px 8px;
+  outline: none;
+  box-sizing: border-box;
+}
+.src-search-wrap input::placeholder { color: var(--text-faint); }
+.src-search-wrap input:focus { border-color: rgba(255,255,255,0.25); }
+
 #src-dropdown-panel {
   background: rgba(22, 22, 22, 0.82);
   backdrop-filter: blur(14px);
