@@ -54,7 +54,7 @@ const map = L.map('map', {
   tap: true,
   preferCanvas: true,
 });
-L.control.zoom({ position: 'topright' }).addTo(map);
+L.control.zoom({ position: 'bottomright' }).addTo(map);
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; <a href="https://carto.com/" target="_blank" rel="noopener">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>',
   subdomains: 'abcd', maxZoom: 19,
@@ -262,6 +262,11 @@ function buildSourceFilters(articles) {
   const panel = document.getElementById('src-dropdown-panel-sheet');
   const btn   = document.getElementById('src-dropdown-btn-sheet');
 
+  const searchWrap = document.createElement('div');
+  searchWrap.className = 'src-search-wrap';
+  searchWrap.innerHTML = `<input id="src-search-input-sheet" type="search" placeholder="Search sources…" autocomplete="off" aria-label="Search sources" />`;
+  panel.appendChild(searchWrap);
+
   const header = document.createElement('div');
   header.className = 'src-dd-header';
   header.innerHTML = `<button class="src-dd-action" id="src-select-all">All</button><span class="src-dd-sep">·</span><button class="src-dd-action" id="src-clear-all">None</button>`;
@@ -303,6 +308,13 @@ function buildSourceFilters(articles) {
     _pendingSrcs.clear();
     panel.querySelectorAll('.src-dd-row').forEach(r => { r.classList.remove('active'); r.setAttribute('aria-selected','false'); });
     updateSrcBtn();
+  });
+
+  document.getElementById('src-search-input-sheet').addEventListener('input', function() {
+    const q = this.value.toLowerCase();
+    panel.querySelectorAll('.src-dd-row').forEach(r => {
+      r.style.display = r.dataset.src.toLowerCase().includes(q) ? '' : 'none';
+    });
   });
 
   btn.addEventListener('click', () => {

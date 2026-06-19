@@ -86,6 +86,9 @@
     <div id="bottom-actions">
       <div id="article-count" aria-live="polite"></div>
       <button id="edition-btn" aria-label="Switch to Regional Edition" onclick="location.href='/app/regional/'">Regional ›</button>
+      <button id="about-btn" aria-label="About WildLens" onclick="document.getElementById('about-modal').removeAttribute('hidden')">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+      </button>
       <button id="filters-btn" aria-label="Open filters" aria-expanded="false" aria-controls="filter-sheet">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
           <line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="11" y1="18" x2="13" y2="18"/>
@@ -134,11 +137,19 @@
       <button class="sheet-apply" id="sheet-apply-btn">Show results</button>
     </div>
 
-    <!-- About & Contact -->
-    <div class="sheet-about">
-      <p class="sheet-about-title">About WildLens</p>
-      <p class="sheet-about-body">An automated system that fetches wildlife and environment news from across India every 6 hours. Articles may occasionally be missed or unrelated ones may slip through — no automated pipeline is perfect.</p>
-      <p class="sheet-about-body">Spotted a missed article, a false positive, or want to reach us for anything else? Write to <a href="mailto:nikunj@wildlens.in" class="sheet-about-link">nikunj@wildlens.in</a></p>
+  </div>
+
+  <!-- About modal -->
+  <div id="about-modal" hidden role="dialog" aria-modal="true" aria-label="About WildLens" onclick="if(event.target===this)this.setAttribute('hidden','')">
+    <div id="about-modal-box">
+      <div id="about-modal-head">
+        <span id="about-modal-title">About WildLens</span>
+        <button id="about-modal-close" aria-label="Close" onclick="document.getElementById('about-modal').setAttribute('hidden','')">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <p>WildLens is an automated system that fetches wildlife and environment news from across India every 6 hours. No automated pipeline is perfect — articles may occasionally be missed or unrelated ones may slip through.</p>
+      <p>Spotted a missed article or a false positive? Want to get in touch for anything else? Write to us at <a href="mailto:nikunj@wildlens.in">nikunj@wildlens.in</a></p>
     </div>
   </div>
 

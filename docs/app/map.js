@@ -29,18 +29,48 @@ const CATEGORY_KEYWORDS = {
   research:  ['finds study','reveals survey','population rises','population survey','census','camera trap'],
 };
 const SOURCE_META = {
-  'Mongabay India':    { region:'National',        lang:'English', desc:'Dedicated environmental journalism covering Indian wildlife, forests & conservation.' },
-  'The Wire':          { region:'National',        lang:'English', desc:'Independent news covering environment, science & forest rights across India.' },
-  'The Hindu':         { region:'National',        lang:'English', desc:"India's leading broadsheet with strong coverage of wildlife & forest policy." },
-  'Indian Express':    { region:'National',        lang:'English', desc:'National daily with dedicated environment desk covering wildlife & conservation.' },
-  'Hindustan Times':   { region:'National',        lang:'English', desc:'National daily covering wildlife conflict, poaching & conservation stories.' },
-  'Times of India':    { region:'National',        lang:'English', desc:"India's highest-circulation English daily with wildlife coverage." },
-  'NDTV':              { region:'National',        lang:'English', desc:'TV & digital network with environment correspondent.' },
-  'EastMojo':          { region:'Northeast India', lang:'English', desc:'Digital newsroom covering all 8 Northeast states — wildlife & forests.' },
-  'Northeast Now':     { region:'Northeast India', lang:'English', desc:'Northeast-focused news with wildlife coverage across Assam & neighbours.' },
-  'Assam Tribune':     { region:'Assam',           lang:'English', desc:"Assam's oldest English daily. Covers Kaziranga, rhino & Manas." },
-  'Greater Kashmir':   { region:'J&K',             lang:'English', desc:"J&K's largest daily — Hangul deer, snow leopard & forest coverage." },
-  'Deccan Herald':     { region:'Karnataka',       lang:'English', desc:'Bengaluru-based daily covering Nagarahole, Bandipur & Western Ghats.' },
+  'Mongabay India':        { region:'National',        lang:'English', desc:"Dedicated environmental journalism covering Indian wildlife, forests & conservation policy." },
+  'The Wire':              { region:'National',        lang:'English', desc:"Independent news covering environment, science & forest rights across India." },
+  'The Wire Science':      { region:'National',        lang:'English', desc:"Science desk of The Wire covering ecology, conservation biology & environmental research." },
+  'The Hindu':             { region:'National',        lang:'English', desc:"India's leading broadsheet with strong coverage of environment, forests & wildlife policy." },
+  'Indian Express':        { region:'National',        lang:'English', desc:"National daily with dedicated environment desk covering wildlife crime, conservation & forest policy." },
+  'The Indian Express':    { region:'National',        lang:'English', desc:"National daily with dedicated environment desk covering wildlife crime, conservation & forest policy." },
+  'Hindustan Times':       { region:'National',        lang:'English', desc:"National daily covering wildlife conflict, poaching & conservation stories across India." },
+  'Times of India':        { region:'National',        lang:'English', desc:"India's highest-circulation English daily with environment & wildlife coverage." },
+  'The Times of India':    { region:'National',        lang:'English', desc:"India's highest-circulation English daily with environment & wildlife coverage." },
+  'NDTV':                  { region:'National',        lang:'English', desc:"TV & digital news network with environment correspondent covering national wildlife stories." },
+  'Nature India':          { region:'National',        lang:'English', desc:"Nature journal's India desk covering scientific research on biodiversity & ecology." },
+  'Down To Earth':         { region:'National',        lang:'English', desc:"CSE's flagship magazine — India's most authoritative voice on environment, forests & climate policy." },
+  'Scroll.in':             { region:'National',        lang:'English', desc:"Independent digital outlet with strong environment & forest rights coverage." },
+  'ThePrint':              { region:'National',        lang:'English', desc:"Digital news platform with environment & policy reporting across India." },
+  'Frontline Magazine':    { region:'National',        lang:'English', desc:"The Hindu's fortnightly magazine with in-depth environment, forest & tribal rights stories." },
+  'India Today':           { region:'National',        lang:'English', desc:"National magazine & digital outlet with wildlife & environment coverage." },
+  'Outlook India':         { region:'National',        lang:'English', desc:"National magazine covering environment, wildlife conservation & forest policy." },
+  'Land Conflict Watch':   { region:'National',        lang:'English', desc:"Data journalism outlet tracking land conflicts involving forests, wildlife & tribal communities." },
+  'India Development Review':{ region:'National',     lang:'English', desc:"Development-focused platform covering conservation funding, forest rights & policy." },
+  'Business Standard':     { region:'National',        lang:'English', desc:"Financial daily with environment & natural resource policy reporting." },
+  'ANI News':              { region:'National',        lang:'English', desc:"Wire service distributing wildlife & forest news from government and official sources across India." },
+  'Research Matters':      { region:'National',        lang:'English', desc:"Science communication outlet covering ecology, biodiversity & wildlife research from Indian institutions." },
+  'EastMojo':              { region:'Northeast India', lang:'English', desc:"Digital newsroom covering all 8 Northeast states — strong on wildlife, forests & environment." },
+  'Northeast Now':         { region:'Northeast India', lang:'English', desc:"Northeast-focused news with environment & wildlife coverage across Assam & neighbouring states." },
+  'Northeast Today':       { region:'Northeast India', lang:'English', desc:"Northeast India outlet covering Assam, Meghalaya & Arunachal wildlife & forests." },
+  'Morung Express':        { region:'Nagaland',        lang:'English', desc:"Nagaland's principal English daily covering Nagaland wildlife & Amur falcon migration." },
+  'Assam Tribune':         { region:'Assam',           lang:'English', desc:"Assam's oldest English daily. Covers Kaziranga, Manas, Brahmaputra ecosystem & rhino protection." },
+  'The Assam Tribune':     { region:'Assam',           lang:'English', desc:"Assam's oldest English daily. Covers Kaziranga, Manas, Brahmaputra ecosystem & rhino protection." },
+  'Greater Kashmir':       { region:'Jammu & Kashmir', lang:'English', desc:"J&K's largest English daily covering Dachigam, Hangul deer, snow leopard & forest management." },
+  'Rising Kashmir':        { region:'Jammu & Kashmir', lang:'English', desc:"J&K-based daily with coverage of Dachigam National Park & Himalayan wildlife." },
+  'Hill Post':             { region:'Himachal Pradesh',lang:'English', desc:"HP-focused outlet covering snow leopard, Himalayan brown bear & high-altitude wildlife." },
+  'The Pioneer':           { region:'Central India',   lang:'English', desc:"Lucknow-based daily covering Dudhwa, Pilibhit tiger reserves & UP forest department." },
+  'Telegraph India':       { region:'East India',      lang:'English', desc:"Kolkata-based daily with strong coverage of Sundarbans, Bengal tigers & Northeast wildlife." },
+  'Deccan Herald':         { region:'Karnataka',       lang:'English', desc:"Bengaluru-based daily covering Nagarahole, Bandipur, Coorg forests & Western Ghats wildlife." },
+  'Star of Mysore':        { region:'Karnataka',       lang:'English', desc:"Mysuru-based daily covering Nagarahole, Bandipur & Kabini wildlife." },
+  'Deccan Chronicle':      { region:'South India',     lang:'English', desc:"Hyderabad-based daily covering Telangana, AP wildlife & Eastern Ghats forests." },
+  'The New Indian Express':{ region:'South India',     lang:'English', desc:"South-India-focused daily with strong coverage of Western Ghats, Tamil Nadu & Kerala wildlife." },
+  'The News Minute':       { region:'South India',     lang:'English', desc:"Digital outlet covering South Indian states — Nilgiris, Kerala forests & Western Ghats." },
+  'The Federal':           { region:'South India',     lang:'English', desc:"Independent digital outlet covering South Indian environment & forest stories." },
+  'Sambad English':        { region:'Odisha',          lang:'English', desc:"Odisha's leading daily covering Simlipal, Bhitarkanika & Chilika wildlife." },
+  'OdishaBytes':           { region:'Odisha',          lang:'English', desc:"Odisha digital outlet covering state wildlife — elephants, leopards & Mahanadi basin." },
+  'Gomantak Times':        { region:'Goa',             lang:'English', desc:"Goa-based daily covering Bhagwan Mahavir Wildlife Sanctuary & coastal ecology." },
 };
 
 // ── Map ───────────────────────────────────────────────────────────────────────
@@ -54,7 +84,7 @@ const map = L.map('map', {
   tap: true,
   preferCanvas: true,
 });
-L.control.zoom({ position: 'topright' }).addTo(map);
+L.control.zoom({ position: 'bottomright' }).addTo(map);
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; <a href="https://carto.com/" target="_blank" rel="noopener">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>',
   subdomains: 'abcd', maxZoom: 19,
@@ -254,6 +284,37 @@ document.querySelectorAll('#cat-strip .cat-chip').forEach(chip => {
   });
 });
 
+// ── Source info modal (mobile) ────────────────────────────────────────────────
+function showSourceInfo(src) {
+  const meta = SOURCE_META[src];
+  if (!meta) return;
+  let modal = document.getElementById('src-info-modal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'src-info-modal';
+    modal.setAttribute('role', 'dialog');
+    modal.setAttribute('aria-modal', 'true');
+    modal.addEventListener('click', e => { if (e.target === modal) modal.setAttribute('hidden', ''); });
+    modal.innerHTML = `<div id="src-info-box">
+      <div id="src-info-head">
+        <span id="src-info-name"></span>
+        <button id="src-info-close" aria-label="Close">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <p id="src-info-desc"></p>
+      <div id="src-info-tags"></div>
+    </div>`;
+    document.body.appendChild(modal);
+    document.getElementById('src-info-close').addEventListener('click', () => modal.setAttribute('hidden', ''));
+  }
+  document.getElementById('src-info-name').textContent = src;
+  document.getElementById('src-info-desc').textContent = meta.desc;
+  document.getElementById('src-info-tags').innerHTML =
+    `<span class="src-info-tag">${escapeHtml(meta.region)}</span><span class="src-info-tag">${escapeHtml(meta.lang)}</span>`;
+  modal.removeAttribute('hidden');
+}
+
 // ── Source dropdown (inside filter sheet) ─────────────────────────────────────
 let _srcPanelOpen = false;
 
@@ -263,6 +324,12 @@ function buildSourceFilters(articles) {
 
   const panel = document.getElementById('src-dropdown-panel-sheet');
   const btn   = document.getElementById('src-dropdown-btn-sheet');
+
+  // Source search
+  const searchWrap = document.createElement('div');
+  searchWrap.className = 'src-search-wrap';
+  searchWrap.innerHTML = `<input id="src-search-input-sheet" type="search" placeholder="Search sources…" autocomplete="off" aria-label="Search sources" />`;
+  panel.appendChild(searchWrap);
 
   const header = document.createElement('div');
   header.className = 'src-dd-header';
@@ -274,11 +341,15 @@ function buildSourceFilters(articles) {
     row.className = 'src-dd-row active';
     row.setAttribute('role','option'); row.setAttribute('aria-selected','true'); row.setAttribute('tabindex','0');
     row.dataset.src = src;
-    const count = (window._allArticles||[]).filter(a => a.source===src).length;
+    const count   = (window._allArticles||[]).filter(a => a.source===src).length;
+    const hasMeta = !!SOURCE_META[src];
     row.innerHTML = `
       <span class="src-dd-check"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>
       <span class="src-dd-name">${escapeHtml(src)}</span>
-      <span class="src-dd-count">${count}</span>`;
+      <span class="src-dd-count">${count}</span>
+      ${hasMeta ? `<button class="src-info-btn src-dd-info" aria-label="About ${escapeHtml(src)}" tabindex="-1">
+        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12.01" y2="8"/><line x1="12" y1="12" x2="12" y2="16"/></svg>
+      </button>` : ''}`;
 
     row.addEventListener('click', () => {
       const on = _pendingSrcs.has(src);
@@ -287,6 +358,14 @@ function buildSourceFilters(articles) {
       updateSrcBtn();
     });
     row.addEventListener('keydown', e => { if (e.key===' '||e.key==='Enter') { e.preventDefault(); row.click(); } });
+
+    if (hasMeta) {
+      const infoBtn = row.querySelector('.src-dd-info');
+      infoBtn.setAttribute('tabindex', '0');
+      infoBtn.addEventListener('click', e => { e.stopPropagation(); showSourceInfo(src); });
+      infoBtn.addEventListener('keydown', e => { if (e.key==='Enter'||e.key===' ') { e.preventDefault(); e.stopPropagation(); showSourceInfo(src); } });
+    }
+
     panel.appendChild(row);
   });
 
@@ -301,6 +380,13 @@ function buildSourceFilters(articles) {
     _pendingSrcs.clear();
     panel.querySelectorAll('.src-dd-row').forEach(r => { r.classList.remove('active'); r.setAttribute('aria-selected','false'); });
     updateSrcBtn();
+  });
+
+  document.getElementById('src-search-input-sheet').addEventListener('input', function() {
+    const q = this.value.toLowerCase();
+    panel.querySelectorAll('.src-dd-row').forEach(r => {
+      r.style.display = r.dataset.src.toLowerCase().includes(q) ? '' : 'none';
+    });
   });
 
   btn.addEventListener('click', () => {
