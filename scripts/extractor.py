@@ -5,6 +5,17 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+# Used to detect multistate policy articles that have no single pin location.
+# If 2+ of these appear in the title, the article is skipped.
+_INDIAN_STATES = {
+    'andhra pradesh', 'arunachal pradesh', 'assam', 'bihar', 'chhattisgarh',
+    'goa', 'gujarat', 'haryana', 'himachal pradesh', 'jharkhand', 'karnataka',
+    'kerala', 'madhya pradesh', 'maharashtra', 'manipur', 'meghalaya', 'mizoram',
+    'nagaland', 'odisha', 'punjab', 'rajasthan', 'sikkim', 'tamil nadu',
+    'telangana', 'tripura', 'uttar pradesh', 'uttarakhand', 'west bengal',
+    'delhi', 'jammu and kashmir', 'ladakh', 'puducherry', 'chandigarh',
+}
+
 GAZETTEER_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'india_pa_gazetteer.csv')
 
 _gazetteer = None
@@ -103,6 +114,14 @@ def extract_location(title: str, description: str):
     if match and match[0] != 'India':
         return match
 
+    # Multistate check — if 2+ Indian states appear in the title, the article
+    # covers a national/multi-state policy and has no single pin location. Skip it.
+    title_lower = title.lower()
+    states_in_title = [s for s in _INDIAN_STATES if _word_match(s, title_lower)]
+    if len(states_in_title) >= 2:
+        logger.debug(f"Skipping multistate article: {title[:60]}")
+        return None, None, None
+
     # Pass 3: spaCy NER (graceful — returns None when spaCy not installed)
     nlp = _load_nlp()
     if nlp:
@@ -114,8 +133,10 @@ def extract_location(title: str, description: str):
                 if ent.label_ in ('GPE', 'LOC') and len(ent.text.strip()) > 2
             ]
             if candidates:
-                best = max(candidates, key=len)
-                return best, None, None
+                # Use the first entity in document order — most prominent location signal.
+                # Previously used max(key=len) which incorrectly picked longer state names
+                # from descriptions over the actual subject location in the title.
+                return candidates[0], None, None
         except Exception as e:
             logger.warning(f"spaCy NER failed: {e}")
 

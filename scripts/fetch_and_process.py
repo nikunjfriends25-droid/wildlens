@@ -4,6 +4,7 @@ import logging
 import os
 import sys
 from datetime import datetime, timezone
+from urllib.parse import urlparse, urlunparse
 
 import feedparser
 from dateutil import parser as dateparser
@@ -67,7 +68,13 @@ SOURCES = [
 
     # ── J&K & Ladakh ──────────────────────────────────────────────────────────
     # Greater Kashmir — J&K's largest English daily; Dachigam, Hangul, snow leopard
-    'https://www.greaterkashmir.com/feed/',
+    # General /feed/ caused PA-name false positives (e.g. taekwondo in Kishtwar)
+    {
+        'url': ('https://news.google.com/rss/search?q=wildlife+forest+snow+leopard'
+                '+hangul+sanctuary+dachigam+poaching+site:greaterkashmir.com'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+        'source': 'Greater Kashmir',
+    },
     # Rising Kashmir — direct feed returns 0 wildlife (all political); GN search targets hangul/snow leopard
     {
         'url': ('https://news.google.com/rss/search?q=wildlife+forest+snow+leopard'
@@ -108,6 +115,28 @@ SOURCES = [
         'source': 'Hill Post',
     },
 
+    # ── Gujarat (Gir / Asiatic lion / Wild Ass / Whale Shark / Marine NP) ────
+    # No Gujarat daily has a usable direct wildlife RSS feed.
+    # This GN search pulls from ALL sources including TOI city sections (Rajkot,
+    # Ahmedabad), Gujarat Samachar, Divya Bhaskar, DNA, etc. without site: restriction.
+    # Covers the full Gujarat wildlife portfolio beyond just lion/Gir.
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                'gujarat+lion+OR+gujarat+%22wild+ass%22+OR+gujarat+%22whale+shark%22'
+                '+OR+gujarat+flamingo+OR+gujarat+blackbuck+OR+gujarat+gir'
+                '+OR+gujarat+velavadar+OR+gujarat+dugong+OR+gujarat+bustard'
+                '+OR+gujarat+%22marine+national+park%22+OR+gujarat+%22nal+sarovar%22'
+                '+OR+gujarat+%22rann+of+kutch%22+OR+gujarat+%22little+rann%22'
+                '+OR+gujarat+pangolin+OR+gujarat+%22olive+ridley%22'
+                '+OR+gujarat+%22great+indian+bustard%22+OR+gujarat+wolf'
+                '+OR+gujarat+%22spiny-tailed+lizard%22+OR+gujarat+%22indian+roller%22'
+                '+OR+gujarat+%22lesser+florican%22+OR+gujarat+%22painted+stork%22'
+                '+OR+gujarat+%22forest+department%22+OR+gujarat+poaching'
+                '+OR+gujarat+%22wildlife+sanctuary%22+OR+gujarat+%22barda+hills%22'
+                '+OR+gujarat+%22shoolpaneshwar%22+OR+gujarat+%22jessore%22'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
     # ── National ───────────────────────────────────────────────────────────────
     # Hindustan Times — strong UP, Uttarakhand, Gujarat, national coverage
     'https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml',
@@ -139,6 +168,105 @@ SOURCES = [
                 '+elephant+poaching+sanctuary+site:deccanherald.com'
                 '&hl=en-IN&gl=IN&ceid=IN:en'),
         'source': 'Deccan Herald',
+    },
+
+    # ── Broad catch-all queries (no site: restriction) ────────────────────────
+    # These act as a permanent safety net for city-level articles, new publications,
+    # and any source not in the list above. GN aggregates ALL Indian sources.
+    # Duplicates from specific feeds above are eliminated by URL deduplication.
+    # No forced_source — real publication name extracted from each GN entry.
+
+    # 1. Big mammals, predators, ungulates
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                'tiger+OR+leopard+OR+elephant+OR+rhinoceros+OR+rhino'
+                '+OR+%22snow+leopard%22+OR+%22clouded+leopard%22'
+                '+OR+%22sloth+bear%22+OR+%22sun+bear%22+OR+%22asiatic+lion%22'
+                '+OR+dhole+OR+wolf+OR+pangolin+OR+%22red+panda%22'
+                '+OR+%22wild+dog%22+OR+%22striped+hyena%22+OR+nilgai'
+                '+OR+gaur+OR+bison+OR+%22four-horned+antelope%22'
+                '+OR+%22blackbuck%22+OR+chinkara+OR+%22indian+gazelle%22'
+                '+OR+hangul+OR+%22kashmir+stag%22+OR+%22musk+deer%22'
+                '+OR+%22barasingha%22+OR+%22swamp+deer%22+OR+chausingha'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # 2. Birds (threatened, migratory, flagship)
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                '%22great+indian+bustard%22+OR+%22lesser+florican%22'
+                '+OR+hornbill+OR+%22sarus+crane%22+OR+flamingo'
+                '+OR+vulture+OR+%22forest+owlet%22+OR+%22jerdon%27s+courser%22'
+                '+OR+pelican+OR+%22painted+stork%22+OR+%22black-necked+crane%22'
+                '+OR+%22demoiselle+crane%22+OR+%22migratory+bird%22'
+                '+OR+avifauna+OR+osprey+OR+%22indian+skimmer%22'
+                '+OR+%22spoon-billed+sandpiper%22+OR+%22sociable+lapwing%22'
+                '+OR+%22siberian+crane%22+OR+%22bar-headed+goose%22'
+                '+OR+%22steppe+eagle%22+OR+%22eastern+imperial+eagle%22'
+                '+OR+%22pallas%27s+fish+eagle%22+OR+%22white-rumped+vulture%22'
+                '+OR+%22red-headed+vulture%22+OR+%22egyptian+vulture%22'
+                '+OR+%22long-billed+vulture%22+OR+%22indian+vulture%22'
+                '+OR+%22florican%22+OR+%22bird+species%22+OR+%22bird+count%22'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # 3. Marine, freshwater, herpetofauna
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                '%22whale+shark%22+OR+%22river+dolphin%22+OR+%22gangetic+dolphin%22'
+                '+OR+gharial+OR+%22olive+ridley%22+OR+%22sea+turtle%22'
+                '+OR+%22leatherback+turtle%22+OR+%22hawksbill+turtle%22'
+                '+OR+%22green+turtle%22+OR+dugong+OR+%22coral+reef%22'
+                '+OR+mangrove+OR+mahseer+OR+%22mugger+crocodile%22'
+                '+OR+%22saltwater+crocodile%22+OR+python+OR+%22king+cobra%22'
+                '+OR+%22indian+rock+python%22+OR+%22monitor+lizard%22'
+                '+OR+%22marine+turtle%22+OR+%22nest+site%22+OR+%22turtle+nesting%22'
+                '+OR+%22humpback+whale%22+OR+%22blue+whale%22+OR+%22sperm+whale%22'
+                '+OR+%22irrawaddy+dolphin%22+OR+%22hilsa%22+OR+%22freshwater%22+fish'
+                '+OR+%22fishing+cat%22+OR+%22smooth+otter%22+OR+otter+river'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # 4. Conservation, threats, conflict, policy
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                'poaching+OR+%22wildlife+trafficking%22'
+                '+OR+%22human+wildlife+conflict%22+OR+%22man-animal+conflict%22'
+                '+OR+%22elephant+corridor%22+OR+%22tiger+corridor%22'
+                '+OR+%22wildlife+corridor%22+OR+%22forest+fire%22+OR+wildfire'
+                '+OR+%22habitat+loss%22+OR+%22forest+encroachment%22'
+                '+OR+%22wildlife+rescue%22+OR+%22forest+department%22+wildlife'
+                '+OR+%22wildlife+crime%22+OR+%22wildlife+trafficking%22'
+                '+OR+%22compensatory+afforestation%22+OR+%22forest+clearance%22'
+                '+OR+%22project+tiger%22+OR+%22project+elephant%22'
+                '+OR+%22wii+report%22+OR+%22census+wildlife%22'
+                '+OR+%22captive+elephant%22+OR+%22captive+animal%22'
+                '+OR+%22rewilding%22+OR+%22translocation%22+wildlife'
+                '+OR+%22radio+collar%22+OR+%22camera+trap%22'
+                '+OR+%22wildlife+underpass%22+OR+%22eco+bridge%22'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # 5. Protected area names — catches PA-specific news even without species terms
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                'kaziranga+OR+sundarbans+OR+%22jim+corbett%22'
+                '+OR+bandipur+OR+ranthambore+OR+%22gir+forest%22'
+                '+OR+kanha+OR+pench+OR+tadoba+OR+nagarhole+OR+nagarahole'
+                '+OR+simlipal+OR+manas+OR+namdapha+OR+periyar'
+                '+OR+sariska+OR+bharatpur+OR+chilika+OR+bhitarkanika'
+                '+OR+%22valley+of+flowers%22+OR+%22great+himalayan+national+park%22'
+                '+OR+%22silent+valley%22+OR+%22anamalai%22+OR+%22mudumalai%22'
+                '+OR+%22bandhavgarh%22+OR+%22panna+tiger%22+OR+%22satpura%22'
+                '+OR+%22dudhwa%22+OR+%22katerniaghat%22+OR+%22rajaji%22'
+                '+OR+%22kibber%22+OR+%22pin+valley%22+OR+%22great+indian+bustard+sanctuary%22'
+                '+OR+%22pakke%22+OR+%22eaglenest%22+OR+%22dibang%22+OR+%22kamlang%22'
+                '+OR+%22nagzira%22+OR+%22melghat%22+OR+%22sahyadri%22+OR+%22radhanagari%22'
+                '+OR+%22bhadra%22+OR+%22kudremukh%22+OR+%22pushpagiri%22'
+                '+OR+%22indravati%22+OR+%22achanakmar%22+OR+%22udanti%22'
+                '+OR+%22dampa%22+OR+%22phawngpui%22+OR+%22murlen%22'
+                '+OR+%22intanki%22+OR+%22fakim%22+OR+%22khangchendzonga%22'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
     },
 ]
 
@@ -246,7 +374,7 @@ KEYWORDS = [
     'foraminifera', 'diatom', 'plankton', 'microorganism', 'zooplankton',
 
     # ── ECOLOGY & CONSERVATION ───────────────────────────────────────────────
-    'wildlife', 'poaching', 'wildlife trafficking', 'wildlife crime',
+    'wildlife', 'poaching', 'poacher', 'poached', 'wildlife trafficking', 'wildlife crime',
     'national park', 'wildlife sanctuary', 'tiger reserve', 'biosphere reserve',
     'wildlife corridor', 'elephant corridor', 'forest corridor',
     'wildlife conservation', 'species conservation', 'biodiversity conservation',
@@ -307,7 +435,7 @@ KEYWORDS = [
     'grizzled squirrel', 'guindy', 'pulicat', 'vedanthangal',
     'point calimere', 'megamalai', 'topslip', 'srivilliputhur',
     # Gujarat
-    'wild ass', 'velavadar', 'nal sarovar', 'jessore', 'vansda', 'shoolpaneshwar',
+    'gir', 'wild ass', 'velavadar', 'nal sarovar', 'jessore', 'vansda', 'shoolpaneshwar',
     'rann of kutch',
 ]
 
@@ -325,7 +453,7 @@ EXCLUDE_KEYWORDS = [
     'union cabinet', 'lok sabha', 'rajya sabha', 'parliament',
     'rebellion', 'political', 'party', 'tmc', 'bjp', 'congress', 'aap',
     'nda ', ' upa', 'chief minister', 'governor appoints',
-    'anti-encroachment drive', 'demolition drive', 'encroachment drive',
+    'anti-encroachment drive', 'demolition drive',
     'legislators', 'lawmaker', 'offsite', 'review huddle', 'party huddle',
     # Infrastructure / civic
     'metro', 'railway', 'highway', 'flyover', 'road widening',
@@ -349,6 +477,16 @@ EXCLUDE_KEYWORDS = [
 
 NEWS_JSON = os.path.join(os.path.dirname(__file__), '..', 'docs', 'news.json')
 INDIA_CENTER = (20.5937, 78.9629)  # generic pin — reject these
+
+
+def _normalize_url(url: str) -> str:
+    """Strip query string and fragment for deduplication.
+    Same article with ?utm_source, ?ref, etc. attached is treated as identical."""
+    try:
+        p = urlparse(url)
+        return urlunparse(p._replace(query='', fragment=''))
+    except Exception:
+        return url
 
 
 def load_existing():
@@ -459,6 +597,9 @@ def source_name(url: str) -> str:
         'eastmojo.com':        'EastMojo',
         'greaterkashmir.com':  'Greater Kashmir',
         'risingkashmir.com':   'Rising Kashmir',
+        'gujaratsamachar.com': 'Gujarat Samachar',
+        'divyabhaskar.co.in':  'Divya Bhaskar',
+        'dnaindia.com':        'DNA India',
     }
     for key, name in mapping.items():
         if key in url:
@@ -471,7 +612,9 @@ def source_name(url: str) -> str:
 
 def main():
     existing = load_existing()
-    seen_urls = {a['url'] for a in existing}
+    # Normalize stored URLs so articles with tracking params (?utm_source etc.)
+    # are not re-fetched as if they were new articles.
+    seen_urls = {_normalize_url(a['url']) for a in existing}
     logger.info(f"Loaded {len(existing)} existing articles")
 
     new_articles = []
@@ -490,7 +633,10 @@ def main():
 
         for entry in entries:
             url = getattr(entry, 'link', None)
-            if not url or url in seen_urls:
+            if not url:
+                continue
+            norm_url = _normalize_url(url)
+            if norm_url in seen_urls:
                 continue
 
             title = fix_encoding(getattr(entry, 'title', '') or '')
@@ -500,10 +646,17 @@ def main():
             if title.startswith('You searched for'):
                 continue
 
+            # For broad GN queries (no forced_source), extract the real publication
+            # name from each entry's source field. GN populates entry.source.title
+            # with the outlet name (e.g. "Times of India", "Deccan Chronicle").
+            gn_source = None
+            if not forced_source and 'news.google.com' in feed_url:
+                gn_source = getattr(getattr(entry, 'source', None), 'title', None)
+
             # Strip "- Publication Name" suffix Google News appends to titles
-            # e.g. "Tiger census results - Deccan Herald" → "Tiger census results"
-            if forced_source:
-                for sep in (f' - {forced_source}', f' | {forced_source}'):
+            pub_name = forced_source or gn_source
+            if pub_name:
+                for sep in (f' - {pub_name}', f' | {pub_name}'):
                     if title.endswith(sep):
                         title = title[:-len(sep)].strip()
                         break
@@ -531,7 +684,12 @@ def main():
                 logger.debug(f"Skipping India-centre pin: {title[:50]}")
                 continue
 
-            sname = forced_source if forced_source else source_name(feed_url)
+            if forced_source:
+                sname = forced_source
+            elif gn_source:
+                sname = gn_source
+            else:
+                sname = source_name(feed_url)
 
             article = {
                 'headline': title.strip(),
@@ -543,7 +701,7 @@ def main():
                 'lon': lon,
             }
             new_articles.append(article)
-            seen_urls.add(url)
+            seen_urls.add(norm_url)
             logger.info(f"  + {title[:50]} @ {place_name}")
 
     merged = existing + new_articles
