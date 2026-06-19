@@ -170,6 +170,277 @@ SOURCES = [
         'source': 'Deccan Herald',
     },
 
+    # ── State-specific comprehensive queries ──────────────────────────────────
+    # Each state query covers its distinctive taxa, PAs, and conservation issues.
+    # No site: restriction — pulls from ALL sources (state dailies, city editions,
+    # national outlets covering that state). Duplicates are eliminated by URL dedup.
+    # No forced_source — real publication name extracted from each GN entry.
+
+    # Maharashtra — leopard HWC near Mumbai/Pune, Tadoba, Melghat, Sahyadri
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                'maharashtra+leopard+OR+maharashtra+tiger+OR+maharashtra+gaur'
+                '+OR+maharashtra+%22indian+giant+squirrel%22+OR+maharashtra+wolf'
+                '+OR+maharashtra+%22sloth+bear%22+OR+maharashtra+gharial'
+                '+OR+maharashtra+tadoba+OR+maharashtra+melghat'
+                '+OR+maharashtra+nagzira+OR+maharashtra+sahyadri'
+                '+OR+maharashtra+radhanagari+OR+maharashtra+koyna'
+                '+OR+maharashtra+%22bor+tiger%22+OR+maharashtra+chandoli'
+                '+OR+maharashtra+%22great+indian+bustard%22+OR+maharashtra+pangolin'
+                '+OR+maharashtra+%22wildlife+rescue%22+OR+maharashtra+poaching'
+                '+OR+maharashtra+%22man-animal+conflict%22+OR+maharashtra+%22forest+fire%22'
+                '+OR+maharashtra+%22forest+department%22+wildlife'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # Madhya Pradesh — tiger capital, Ken-Betwa, barasingha, gharial (Chambal)
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                '%22madhya+pradesh%22+tiger+OR+%22madhya+pradesh%22+leopard'
+                '+OR+%22madhya+pradesh%22+barasingha+OR+%22madhya+pradesh%22+gharial'
+                '+OR+%22madhya+pradesh%22+wolf+OR+%22madhya+pradesh%22+%22sloth+bear%22'
+                '+OR+%22madhya+pradesh%22+gaur+OR+%22madhya+pradesh%22+vulture'
+                '+OR+kanha+OR+bandhavgarh+OR+panna+OR+satpura'
+                '+OR+%22ken-betwa%22+OR+%22ken+betwa%22+OR+nauradehi'
+                '+OR+%22sanjay+tiger%22+OR+ratapani+OR+%22chambal+sanctuary%22'
+                '+OR+%22madhya+pradesh%22+poaching+OR+%22madhya+pradesh%22+%22forest+fire%22'
+                '+OR+%22madhya+pradesh%22+%22tiger+death%22+OR+%22madhya+pradesh%22+corridor'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # Rajasthan — GIB, Ranthambhore, desert species, power-line collisions
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                'rajasthan+tiger+OR+rajasthan+%22great+indian+bustard%22'
+                '+OR+rajasthan+%22desert+cat%22+OR+rajasthan+caracal'
+                '+OR+rajasthan+wolf+OR+rajasthan+chinkara+OR+rajasthan+urial'
+                '+OR+rajasthan+leopard+OR+rajasthan+%22indian+gazelle%22'
+                '+OR+ranthambore+OR+sariska+OR+%22keoladeo%22+OR+bharatpur+wetland'
+                '+OR+%22desert+national+park%22+OR+%22mount+abu%22+wildlife'
+                '+OR+%22kumbhalgarh%22+wildlife+OR+%22sita+mata%22+wildlife'
+                '+OR+rajasthan+%22power+line%22+bird+OR+rajasthan+bustard+collision'
+                '+OR+rajasthan+poaching+OR+rajasthan+%22wildlife+rescue%22'
+                '+OR+rajasthan+%22forest+department%22+wildlife'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # Uttarakhand — Corbett, Rajaji, snow leopard, elephant corridors
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                'uttarakhand+tiger+OR+uttarakhand+elephant+OR+uttarakhand+leopard'
+                '+OR+uttarakhand+%22snow+leopard%22+OR+uttarakhand+%22red+panda%22'
+                '+OR+uttarakhand+%22himalayan+black+bear%22+OR+uttarakhand+%22musk+deer%22'
+                '+OR+uttarakhand+goral+OR+uttarakhand+tahr'
+                '+OR+uttarakhand+gharial+OR+uttarakhand+mahseer'
+                '+OR+%22jim+corbett%22+OR+rajaji+OR+%22nanda+devi%22'
+                '+OR+%22valley+of+flowers%22+OR+gangotri+wildlife'
+                '+OR+%22kedarnath+wildlife%22+OR+%22govind+pashu+vihar%22'
+                '+OR+uttarakhand+%22elephant+corridor%22+OR+uttarakhand+poaching'
+                '+OR+uttarakhand+%22man-animal%22+OR+uttarakhand+%22forest+fire%22'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # Odisha — olive ridley mass nesting, Simlipal, Chilika, Bhitarkanika saltwater croc
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                'odisha+elephant+OR+odisha+tiger+OR+odisha+%22olive+ridley%22'
+                '+OR+odisha+%22saltwater+crocodile%22+OR+odisha+%22mugger%22'
+                '+OR+odisha+%22irrawaddy+dolphin%22+OR+odisha+flamingo'
+                '+OR+odisha+%22fishing+cat%22+OR+odisha+pangolin'
+                '+OR+simlipal+OR+bhitarkanika+OR+chilika'
+                '+OR+gahirmatha+OR+%22debrigarh%22+OR+satkosia'
+                '+OR+%22turtle+nesting%22+odisha+OR+%22mass+nesting%22'
+                '+OR+odisha+%22wildlife+rescue%22+OR+odisha+poaching'
+                '+OR+odisha+%22forest+fire%22+OR+odisha+%22man-animal%22'
+                '+OR+odisha+%22forest+department%22+wildlife'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # West Bengal — Sundarbans, rhino (Gorumara/Jaldapara), North Bengal elephants
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                '%22west+bengal%22+tiger+OR+%22west+bengal%22+rhinoceros'
+                '+OR+%22west+bengal%22+elephant+OR+%22west+bengal%22+%22fishing+cat%22'
+                '+OR+%22west+bengal%22+%22clouded+leopard%22+OR+%22west+bengal%22+%22gangetic+dolphin%22'
+                '+OR+sundarbans+OR+gorumara+OR+jaldapara+OR+%22buxa+tiger%22'
+                '+OR+%22neora+valley%22+OR+singalila+OR+chapramari'
+                '+OR+%22west+bengal%22+%22mangrove%22+wildlife'
+                '+OR+%22west+bengal%22+poaching+OR+%22west+bengal%22+%22wildlife+rescue%22'
+                '+OR+%22west+bengal%22+%22forest+fire%22+OR+%22north+bengal%22+wildlife'
+                '+OR+%22west+bengal%22+%22man-animal%22+OR+%22west+bengal%22+%22human+wildlife%22'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # Karnataka — Western Ghats, Nagarhole, Bandipur, elephant HWC in Kodagu
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                'karnataka+tiger+OR+karnataka+elephant+OR+karnataka+leopard'
+                '+OR+karnataka+%22lion-tailed+macaque%22+OR+karnataka+dhole'
+                '+OR+karnataka+gaur+OR+karnataka+%22sloth+bear%22'
+                '+OR+karnataka+%22indian+star+tortoise%22+OR+karnataka+%22malabar+hornbill%22'
+                '+OR+karnataka+%22king+cobra%22+OR+karnataka+%22giant+squirrel%22'
+                '+OR+nagarhole+OR+nagarahole+OR+bandipur+OR+%22brt+tiger%22'
+                '+OR+%22kali+tiger%22+OR+dandeli+OR+kudremukh+OR+bhadra+wildlife'
+                '+OR+%22ranibennur%22+OR+%22arabithittu%22+OR+%22sharavathi%22+wildlife'
+                '+OR+karnataka+poaching+OR+karnataka+%22man-animal%22'
+                '+OR+karnataka+%22forest+fire%22+OR+karnataka+%22wildlife+rescue%22'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # Kerala — Periyar, tahr, lion-tailed macaque, Silent Valley, elephant train deaths
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                'kerala+tiger+OR+kerala+elephant+OR+kerala+%22nilgiri+tahr%22'
+                '+OR+kerala+%22lion-tailed+macaque%22+OR+kerala+%22great+hornbill%22'
+                '+OR+kerala+%22king+cobra%22+OR+kerala+gaur+OR+kerala+leopard'
+                '+OR+kerala+%22smooth+otter%22+OR+kerala+%22fishing+cat%22'
+                '+OR+kerala+%22malabar+giant+squirrel%22'
+                '+OR+periyar+OR+%22silent+valley%22+OR+wayanad+wildlife'
+                '+OR+eravikulam+OR+%22parambikulam%22+OR+%22chinnar%22+wildlife'
+                '+OR+kerala+%22train+hit%22+elephant+OR+kerala+%22train+accident%22+elephant'
+                '+OR+kerala+poaching+OR+kerala+%22man-animal%22+OR+kerala+%22forest+fire%22'
+                '+OR+kerala+%22wildlife+rescue%22+OR+kerala+%22forest+department%22+wildlife'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # Tamil Nadu — Mudumalai, Anamalai, tahr, Gulf of Mannar, Point Calimere
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                '%22tamil+nadu%22+tiger+OR+%22tamil+nadu%22+elephant'
+                '+OR+%22tamil+nadu%22+%22nilgiri+tahr%22+OR+%22tamil+nadu%22+%22lion-tailed+macaque%22'
+                '+OR+%22tamil+nadu%22+gaur+OR+%22tamil+nadu%22+%22sloth+bear%22'
+                '+OR+%22tamil+nadu%22+%22olive+ridley%22+OR+%22tamil+nadu%22+dugong'
+                '+OR+%22tamil+nadu%22+%22sea+horse%22+OR+%22tamil+nadu%22+%22sea+turtle%22'
+                '+OR+mudumalai+OR+%22anamalai%22+OR+%22indira+gandhi+wildlife%22'
+                '+OR+%22mukurthi%22+OR+%22point+calimere%22+OR+vedanthangal'
+                '+OR+%22gulf+of+mannar%22+OR+%22kalakad+mundanthurai%22'
+                '+OR+%22meghamalai%22+OR+%22grizzled+squirrel%22'
+                '+OR+%22tamil+nadu%22+poaching+OR+%22tamil+nadu%22+%22man-animal%22'
+                '+OR+%22tamil+nadu%22+%22wildlife+rescue%22+OR+%22tamil+nadu%22+%22forest+fire%22'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # Andhra Pradesh / Telangana — Nagarjunasagar, wolf, blackbuck, Rollapadu
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                '%22andhra+pradesh%22+tiger+OR+%22andhra+pradesh%22+%22indian+wolf%22'
+                '+OR+%22andhra+pradesh%22+blackbuck+OR+%22andhra+pradesh%22+%22sloth+bear%22'
+                '+OR+%22andhra+pradesh%22+%22great+indian+bustard%22+OR+%22andhra+pradesh%22+elephant'
+                '+OR+telangana+tiger+OR+telangana+wolf+OR+telangana+%22sloth+bear%22'
+                '+OR+telangana+blackbuck+OR+telangana+%22kawal+tiger%22'
+                '+OR+%22nagarjunasagar%22+OR+amrabad+OR+%22papikonda%22'
+                '+OR+%22rollapadu%22+OR+%22nelapattu%22+OR+%22sri+lankamalleswara%22'
+                '+OR+%22andhra+pradesh%22+poaching+OR+telangana+poaching'
+                '+OR+%22andhra+pradesh%22+%22wildlife+rescue%22+OR+telangana+%22wildlife+rescue%22'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # Himachal Pradesh — snow leopard (Spiti), western tragopan, Great Himalayan NP
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                '%22himachal+pradesh%22+%22snow+leopard%22+OR+%22himachal+pradesh%22+%22himalayan+bear%22'
+                '+OR+%22himachal+pradesh%22+%22musk+deer%22+OR+%22himachal+pradesh%22+bharal'
+                '+OR+%22himachal+pradesh%22+%22blue+sheep%22+OR+%22himachal+pradesh%22+%22himalayan+wolf%22'
+                '+OR+%22himachal+pradesh%22+%22western+tragopan%22+OR+%22himachal+pradesh%22+%22cheer+pheasant%22'
+                '+OR+%22himachal+pradesh%22+%22himalayan+tahr%22+OR+%22himachal+pradesh%22+%22ibex%22'
+                '+OR+%22great+himalayan+national+park%22+OR+%22pin+valley%22'
+                '+OR+kibber+wildlife+OR+kugti+wildlife+OR+%22lippa+asrang%22'
+                '+OR+%22himachal+pradesh%22+poaching+OR+%22himachal+pradesh%22+%22wildlife+rescue%22'
+                '+OR+spiti+wildlife+OR+lahaul+wildlife+OR+%22himachal%22+%22camera+trap%22'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # Arunachal Pradesh — hornbill, clouded leopard, Namdapha, Eaglenest
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                '%22arunachal+pradesh%22+hornbill+OR+%22arunachal+pradesh%22+%22clouded+leopard%22'
+                '+OR+%22arunachal+pradesh%22+tiger+OR+%22arunachal+pradesh%22+elephant'
+                '+OR+%22arunachal+pradesh%22+%22hoolock+gibbon%22+OR+%22arunachal+pradesh%22+%22red+panda%22'
+                '+OR+%22arunachal+pradesh%22+takin+OR+%22arunachal+pradesh%22+%22mishmi+takin%22'
+                '+OR+%22arunachal+pradesh%22+%22white-bellied+heron%22'
+                '+OR+%22arunachal+pradesh%22+%22snow+leopard%22'
+                '+OR+namdapha+OR+pakke+wildlife+OR+eaglenest+OR+kamlang+OR+dibang+wildlife'
+                '+OR+%22arunachal+pradesh%22+poaching+OR+%22arunachal+pradesh%22+%22wildlife+rescue%22'
+                '+OR+%22arunachal+pradesh%22+%22forest+department%22+wildlife'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # Northeast (Meghalaya / Nagaland / Manipur / Mizoram / Tripura / Sikkim)
+    # Assam has dedicated sources; this covers the remaining NE states
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                'meghalaya+wildlife+OR+nagaland+wildlife+OR+manipur+wildlife'
+                '+OR+mizoram+wildlife+OR+tripura+wildlife+OR+sikkim+wildlife'
+                '+OR+meghalaya+%22amur+falcon%22+OR+nagaland+%22amur+falcon%22'
+                '+OR+nagaland+hornbill+OR+%22hornbill+festival%22+wildlife'
+                '+OR+manipur+%22brow-antlered+deer%22+OR+%22sangai%22'
+                '+OR+%22keibul+lamjao%22+OR+%22loktak+lake%22+wildlife'
+                '+OR+sikkim+%22red+panda%22+OR+sikkim+%22snow+leopard%22'
+                '+OR+%22khangchendzonga%22+OR+meghalaya+%22clouded+leopard%22'
+                '+OR+%22dampa%22+wildlife+OR+%22phawngpui%22+OR+%22murlen%22'
+                '+OR+%22fakim%22+OR+%22intanki%22+OR+%22sirohi%22'
+                '+OR+tripura+%22clouded+leopard%22+OR+tripura+elephant'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # Jharkhand / Bihar / Chhattisgarh — wild buffalo, Valmiki, Gangetic dolphin
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                'jharkhand+elephant+OR+jharkhand+tiger+OR+jharkhand+%22forest+fire%22'
+                '+OR+jharkhand+poaching+OR+%22palamau%22+OR+%22betla+national+park%22'
+                '+OR+bihar+%22gangetic+dolphin%22+OR+%22valmiki+tiger%22+OR+%22vikramshila%22'
+                '+OR+bihar+%22gharial%22+OR+bihar+%22wildlife+rescue%22+OR+bihar+elephant'
+                '+OR+chhattisgarh+%22wild+buffalo%22+OR+chhattisgarh+elephant'
+                '+OR+chhattisgarh+tiger+OR+chhattisgarh+wolf+OR+chhattisgarh+gaur'
+                '+OR+indravati+OR+achanakmar+OR+%22udanti+sitanadi%22+OR+%22barnawapara%22'
+                '+OR+chhattisgarh+poaching+OR+chhattisgarh+%22forest+fire%22'
+                '+OR+chhattisgarh+%22wildlife+rescue%22'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # Jammu & Kashmir / Ladakh — hangul, snow leopard, black-necked crane, Changthang
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                '%22jammu+and+kashmir%22+%22snow+leopard%22+OR+ladakh+%22snow+leopard%22'
+                '+OR+%22jammu+and+kashmir%22+hangul+OR+%22kashmir+stag%22'
+                '+OR+ladakh+%22black-necked+crane%22+OR+ladakh+%22bar-headed+goose%22'
+                '+OR+ladakh+%22tibetan+wolf%22+OR+ladakh+%22pallas+cat%22'
+                '+OR+ladakh+%22marco+polo+sheep%22+OR+ladakh+urial+OR+ladakh+bharal'
+                '+OR+%22jammu+and+kashmir%22+leopard+OR+%22jammu+and+kashmir%22+%22musk+deer%22'
+                '+OR+dachigam+OR+%22hemis+national+park%22+OR+%22salim+ali%22+wildlife'
+                '+OR+%22changthang%22+wildlife+OR+%22trikuta%22+wildlife'
+                '+OR+ladakh+%22wildlife+rescue%22+OR+ladakh+poaching'
+                '+OR+%22jammu+and+kashmir%22+poaching+OR+%22jammu+and+kashmir%22+wildlife'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # Punjab / Haryana / Delhi NCR — bird migration, blackbuck, ramsar wetlands
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                'punjab+%22migratory+bird%22+OR+punjab+blackbuck+OR+punjab+%22wildlife+rescue%22'
+                '+OR+haryana+blackbuck+OR+haryana+%22migratory+bird%22+OR+haryana+%22wildlife+rescue%22'
+                '+OR+%22sultan+pur%22+bird+OR+%22sultanpur+national+park%22'
+                '+OR+%22kalagarh+bird%22+OR+%22harike%22+wetland+OR+%22ropar+wetland%22'
+                '+OR+%22bhadohi%22+wetland+OR+%22pong+dam%22+bird'
+                '+OR+delhi+%22migratory+bird%22+OR+delhi+%22wildlife+rescue%22'
+                '+OR+delhi+%22okhla+bird%22+OR+%22yamuna+biodiversity%22'
+                '+OR+%22aravalli+wildlife%22+OR+haryana+wolf+OR+haryana+%22nilgai%22'
+                '+OR+punjab+poaching+OR+haryana+poaching'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
+    # Goa — marine turtles, mangroves, Bhagwan Mahavir, Mhadei, mollem
+    {
+        'url': ('https://news.google.com/rss/search?q='
+                'goa+%22olive+ridley%22+OR+goa+%22sea+turtle%22+OR+goa+%22turtle+nesting%22'
+                '+OR+goa+leopard+OR+goa+gaur+OR+goa+%22giant+squirrel%22'
+                '+OR+goa+%22king+cobra%22+OR+goa+mangrove+OR+goa+%22wildlife+rescue%22'
+                '+OR+%22bhagwan+mahavir%22+OR+%22mollem%22+wildlife+OR+%22mhadei%22+wildlife'
+                '+OR+%22cotigao%22+OR+%22bondla%22+wildlife+OR+goa+poaching'
+                '+OR+goa+%22forest+fire%22+OR+goa+%22forest+department%22+wildlife'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+    },
+
     # ── Broad catch-all queries (no site: restriction) ────────────────────────
     # These act as a permanent safety net for city-level articles, new publications,
     # and any source not in the list above. GN aggregates ALL Indian sources.
