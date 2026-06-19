@@ -85,8 +85,8 @@
     </div>
     <div id="bottom-actions">
       <div id="article-count" aria-live="polite"></div>
-      <button id="edition-btn" aria-label="Switch to Regional Edition" onclick="location.href='/app/regional/'">Regional ›</button>
-      <button id="about-btn" aria-label="About WildLens" onclick="document.getElementById('about-modal').removeAttribute('hidden')">
+      <button id="edition-btn" aria-label="Switch to Regional Edition">Regional ›</button>
+      <button id="about-btn" aria-label="About WildLens">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
       </button>
       <button id="filters-btn" aria-label="Open filters" aria-expanded="false" aria-controls="filter-sheet">
@@ -140,11 +140,11 @@
   </div>
 
   <!-- About modal -->
-  <div id="about-modal" hidden role="dialog" aria-modal="true" aria-label="About WildLens" onclick="if(event.target===this)this.setAttribute('hidden','')">
+  <div id="about-modal" hidden role="dialog" aria-modal="true" aria-label="About WildLens">
     <div id="about-modal-box">
       <div id="about-modal-head">
         <span id="about-modal-title">About WildLens</span>
-        <button id="about-modal-close" aria-label="Close" onclick="document.getElementById('about-modal').setAttribute('hidden','')">
+        <button id="about-modal-close" aria-label="Close">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         </button>
       </div>

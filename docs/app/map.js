@@ -481,3 +481,9 @@ fetch('../news.json')
     console.error('Failed to load news.json:', err);
     document.getElementById('article-count').textContent = 'Failed to load articles';
   });
+
+// ── Edition / About button wiring (CSP-safe, no inline onclick) ───────────────
+document.getElementById('edition-btn').addEventListener('click', () => { location.href = '/app/regional/'; });
+document.getElementById('about-btn').addEventListener('click', () => { document.getElementById('about-modal').removeAttribute('hidden'); });
+document.getElementById('about-modal-close').addEventListener('click', () => { document.getElementById('about-modal').setAttribute('hidden', ''); });
+document.getElementById('about-modal').addEventListener('click', e => { if (e.target === e.currentTarget) e.currentTarget.setAttribute('hidden', ''); });
