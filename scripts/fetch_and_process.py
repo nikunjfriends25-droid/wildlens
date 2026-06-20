@@ -749,6 +749,12 @@ EXCLUDE_KEYWORDS = [
 NEWS_JSON = os.path.join(os.path.dirname(__file__), '..', 'docs', 'news.json')
 INDIA_CENTER = (20.5937, 78.9629)  # generic pin — reject these
 
+# Sources whose content is not wildlife news (exam prep, lifestyle, etc.)
+BLOCKED_SOURCES = {
+    'Vajiram & Ravi',
+    'Luxury Lifestyle Magazine',
+}
+
 
 def _normalize_url(url: str) -> str:
     """Strip query string and fragment for deduplication.
@@ -923,6 +929,10 @@ def main():
             gn_source = None
             if not forced_source and 'news.google.com' in feed_url:
                 gn_source = getattr(getattr(entry, 'source', None), 'title', None)
+
+            if (forced_source or gn_source) in BLOCKED_SOURCES:
+                logger.debug(f"Blocked source skipped: {forced_source or gn_source}")
+                continue
 
             # Strip "- Publication Name" suffix Google News appends to titles
             pub_name = forced_source or gn_source
