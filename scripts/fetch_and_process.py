@@ -769,12 +769,30 @@ def _normalize_url(url: str) -> str:
 def load_existing():
     try:
         with open(NEWS_JSON, encoding='utf-8') as f:
-            data = json.load(f)
-        if isinstance(data, list):
-            return data
-    except (FileNotFoundError, json.JSONDecodeError):
-        pass
-    return []
+            raw = f.read()
+    except FileNotFoundError:
+        logger.info("news.json not found — starting fresh")
+        return []
+
+    # Detect git merge-conflict markers left in the file
+    if '<<<<<<< ' in raw or '=======' in raw or '>>>>>>> ' in raw:
+        raise RuntimeError(
+            "news.json contains git merge-conflict markers. "
+            "Resolve the conflict manually before running the pipeline."
+        )
+
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError as e:
+        raise RuntimeError(
+            f"news.json is corrupted (JSONDecodeError: {e}). "
+            "Restore from git before running the pipeline."
+        ) from e
+
+    if not isinstance(data, list):
+        raise RuntimeError("news.json root element is not a list — file is malformed.")
+
+    return data
 
 
 import re as _re
@@ -987,6 +1005,14 @@ def main():
 
     merged = existing + new_articles
     merged.sort(key=lambda a: a.get('published', ''), reverse=True)
+
+    # Safety check: abort if merged count drops by more than 20% vs existing.
+    # This catches silent data loss (corrupted load, race condition, etc.)
+    if existing and len(merged) < len(existing) * 0.80:
+        raise RuntimeError(
+            f"SAFETY ABORT: merged count {len(merged)} is more than 20% below "
+            f"existing count {len(existing)}. Something went wrong — not writing."
+        )
 
     os.makedirs(os.path.dirname(NEWS_JSON), exist_ok=True)
     with open(NEWS_JSON, 'w', encoding='utf-8') as f:

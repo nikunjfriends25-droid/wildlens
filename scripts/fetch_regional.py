@@ -288,12 +288,29 @@ def translate_to_english(text: str, src_lang: str) -> str:
 def load_existing():
     try:
         with open(REGIONAL_JSON, encoding='utf-8') as f:
-            data = json.load(f)
-        if isinstance(data, list):
-            return data
-    except (FileNotFoundError, json.JSONDecodeError):
-        pass
-    return []
+            raw = f.read()
+    except FileNotFoundError:
+        logger.info('regional/news.json not found — starting fresh')
+        return []
+
+    if '<<<<<<< ' in raw or '=======' in raw or '>>>>>>> ' in raw:
+        raise RuntimeError(
+            'regional/news.json contains git merge-conflict markers. '
+            'Resolve before running the pipeline.'
+        )
+
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError as e:
+        raise RuntimeError(
+            f'regional/news.json is corrupted (JSONDecodeError: {e}). '
+            'Restore from git before running the pipeline.'
+        ) from e
+
+    if not isinstance(data, list):
+        raise RuntimeError('regional/news.json root element is not a list — file is malformed.')
+
+    return data
 
 
 # ── Main pipeline ────────────────────────────────────────────────────────────
@@ -377,6 +394,12 @@ def main():
 
     merged = existing + new_articles
     merged.sort(key=lambda a: a.get('published', ''), reverse=True)
+
+    if existing and len(merged) < len(existing) * 0.80:
+        raise RuntimeError(
+            f'SAFETY ABORT: merged count {len(merged)} is more than 20% below '
+            f'existing count {len(existing)}. Not writing regional/news.json.'
+        )
 
     os.makedirs(os.path.dirname(REGIONAL_JSON), exist_ok=True)
     with open(REGIONAL_JSON, 'w', encoding='utf-8') as f:
