@@ -459,6 +459,53 @@
     </div>
   </div>
 
+  <!-- PHASE 4B — SDM -->
+  <div class="row" style="margin-top:6px;">
+    <div class="box phase-4 novel wide">
+      <span class="badge red">★ Conflict Risk SDM</span>
+      <div class="box-title">Species Distribution Modelling — Predictive Conflict &amp; Crime Hotspot Maps</div>
+      <div class="box-body" style="columns: 2; gap: 24px;">
+        <div>
+          <strong style="color:#f87171">Method (from Kitratporn &amp; Takeuchi 2020)</strong>
+          <ul>
+            <li>Treat geocoded conflict incidents (from Event Store) as <em>occurrence data</em> — same principle used in species range modelling</li>
+            <li>Fit MaxEnt model per species × conflict type × season using environmental predictors</li>
+            <li>Output: continuous conflict probability surface → discretised to 4 risk zones per 5km grid cell</li>
+            <li>Re-run quarterly: wet season vs dry season patterns captured</li>
+          </ul>
+          <strong style="color:#f87171">Two-Axis Classification</strong>
+          <ul>
+            <li><strong>Axis 1 — Resource Suitability:</strong> IUCN species range overlap + GFW forest cover density + distance to PA boundary + habitat type</li>
+            <li><strong>Axis 2 — Human Pressure:</strong> population density (census) + road proximity + agricultural land fraction + settlement density (night-lights proxy)</li>
+            <li>High suitability + High pressure → <strong style="color:#f87171">HIGH CONFLICT</strong></li>
+            <li>High suitability + Low pressure → <strong style="color:#fbbf24">LIKELY CONFLICT</strong></li>
+            <li>Low suitability + High pressure → <strong style="color:#60a5fa">LOW CONFLICT</strong></li>
+            <li>Low suitability + Low pressure → <strong style="color:#4ade80">RARE / SAFE</strong></li>
+          </ul>
+        </div>
+        <div>
+          <strong style="color:#f87171">Applied Conflict Types (all species where applicable)</strong>
+          <ul>
+            <li><strong style="color:#f87171">Elephant HWC</strong> — crop raid corridors, village encroachment into range</li>
+            <li><strong style="color:#f87171">Tiger HWC</strong> — livestock kills, human attacks near forest edges</li>
+            <li><strong style="color:#f87171">Leopard HWC</strong> — periurban fringe risk zones, scrub-forest boundaries</li>
+            <li><strong style="color:#f87171">Bear / Gaur / Other HWC</strong> — wherever ≥10 events exist in event store</li>
+            <li><strong style="color:#f87171">Poaching hotspots</strong> — treat poaching events as occurrence points; human pressure axis = road access + ranger station proximity</li>
+            <li><strong style="color:#f87171">Wildlife crime / smuggling</strong> — seizure locations as occurrences; pressure axis = border proximity + transit routes + demand centres</li>
+          </ul>
+          <strong style="color:#f87171">Data inputs</strong>
+          <ul>
+            <li>Occurrence: events table (event_type ∈ hwc, poaching, wildlife_crime), deduplicated, date-matched to season</li>
+            <li>Resource suitability: IUCN range maps + GFW forest cover (both already in Phase 0 / Track 3)</li>
+            <li>Human pressure: <em>new layers to load</em> — WorldPop India population grid (100m, free), OSM road network (download.geofabrik.de), MODIS nighttime lights (NASA Earthdata, free)</li>
+            <li>Seasonal split: wet (Jun–Sep) / dry (Oct–May) per Maharashtra paper approach; or quarterly for finer resolution</li>
+          </ul>
+          <p class="note">Advantage over original paper: WildLens occurrence data is curated (NLP-classified, deduped) vs raw Google News — higher occurrence quality → better SDM accuracy. India-wide multi-species coverage is a first.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="arrow">▼</div>
   <div class="sep"></div>
 
@@ -475,6 +522,8 @@
           <li>Cluster heatmap for high-density areas</li>
           <li>PA boundaries overlay</li>
           <li>Corridor stress heat layer</li>
+          <li><strong style="color:#f87171">Conflict risk overlay</strong> — species-selectable SDM zone map (High / Likely / Low / Rare) toggleable per species (elephant, tiger, leopard, poaching, etc.)</li>
+          <li><strong style="color:#f87171">Seasonal toggle</strong> — wet vs dry season risk zones</li>
         </ul>
       </div>
     </div>
@@ -533,6 +582,16 @@
       <div class="box-body">
         Specialist:generalist bird ratio as habitat quality proxy, correlated with PARIVESH clearances + GFW forest loss + news events across the same PAs and corridors. No prior system links regulatory + satellite + biological signals for Indian wildlife.
         <p class="note">Sufficient for a standalone paper independent of Contributions 1 &amp; 2.</p>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin-top:6px;">
+    <div class="box pub-novel wide">
+      <span class="badge yellow">★ Novel Contribution 4</span>
+      <div class="box-title">Multi-Species Conflict SDM from Curated News Occurrence Data</div>
+      <div class="box-body">
+        Extends Kitratporn &amp; Takeuchi (2020) — which applied MaxEnt SDM to a single species (elephant) in a single country (Thailand) using raw Google News scrapes — to a multi-species, all-India system using NLP-curated, deduplicated, ecologically validated occurrence data. Two-axis classification (resource suitability × human pressure) produces seasonal conflict risk zone maps for elephant HWC, tiger HWC, leopard HWC, poaching hotspots, and wildlife crime corridors simultaneously. First system to apply SDM-style conflict modelling across multiple human-wildlife conflict types at national scale.
+        <p class="note">Key differentiator: occurrence data quality. WildLens occurrence points are NLP-classified (not keyword-matched), species-constrained (IUCN range validated), and deduplicated — substantially higher quality than the raw news scrapes used in the original paper, leading to more reliable SDM outputs.</p>
       </div>
     </div>
   </div>
