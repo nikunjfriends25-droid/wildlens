@@ -241,6 +241,8 @@ const activeSrcs = new Set();
 let _srcDropdownSources = [];
 let _pendingSrcs = new Set();   // holds changes until Apply is tapped
 let _pendingFrom = '', _pendingTo = '';
+const HISTORY_DAYS = 60;
+let showHistorical = localStorage.getItem('wl_history') === '1';
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 function escapeHtml(str) {
@@ -279,9 +281,14 @@ function applyFilters() {
   const dateFrom = document.getElementById('date-from-sheet').value;
   const dateTo   = document.getElementById('date-to-sheet').value;
 
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - HISTORY_DAYS);
+  const cutoffStr = cutoff.toISOString().slice(0, 10);
+
   const filtered = allMarkers.filter(({ article:a }) => {
     if (!activeCats.has(categorize(a.headline))) return false;
     if (!activeSrcs.has(a.source))               return false;
+    if (!showHistorical && a.published < cutoffStr) return false;
     if (dateFrom && a.published < dateFrom)       return false;
     if (dateTo   && a.published > dateTo)         return false;
     if (query && !((a.headline||'').toLowerCase().includes(query) ||
@@ -293,6 +300,24 @@ function applyFilters() {
   clusters.clearLayers();
   filtered.forEach(({ marker }) => clusters.addLayer(marker));
   updateCountBadge(filtered.length, allArticles.length);
+  updateHistoryBar();
+}
+
+// ── History bar ───────────────────────────────────────────────────────────────
+function updateHistoryBar() {
+  const bar = document.getElementById('history-bar');
+  if (!bar) return;
+  const total = allArticles.length;
+  if (showHistorical) {
+    bar.innerHTML = `All time &nbsp;·&nbsp; <button class="history-link" id="history-toggle-btn">Show recent only →</button>`;
+  } else {
+    bar.innerHTML = `Last 60 days &nbsp;·&nbsp; <button class="history-link" id="history-toggle-btn">Show all ${total} →</button>`;
+  }
+  document.getElementById('history-toggle-btn').addEventListener('click', () => {
+    showHistorical = !showHistorical;
+    localStorage.setItem('wl_history', showHistorical ? '1' : '0');
+    applyFilters();
+  });
 }
 
 // ── Article card ──────────────────────────────────────────────────────────────
@@ -385,7 +410,9 @@ document.getElementById('sheet-reset-btn').addEventListener('click', () => {
     r.classList.add('active'); r.setAttribute('aria-selected','true');
   });
   updateSrcBtn();
-  setDefaultDates(allArticles);
+  showHistorical = false;
+  localStorage.setItem('wl_history', '0');
+  setDefaultDates();
   ['poaching','discovery','conflict','research','conservation'].forEach(c => activeCats.add(c));
   document.querySelectorAll('#cat-strip .cat-chip').forEach(ch => {
     ch.classList.remove('inactive'); ch.setAttribute('aria-pressed','true');
@@ -533,12 +560,9 @@ function updateSrcBtn() {
 }
 
 // ── Date defaults ─────────────────────────────────────────────────────────────
-function setDefaultDates(articles) {
-  const dates = articles.map(a=>a.published).filter(Boolean).sort();
-  if (dates.length) {
-    document.getElementById('date-from-sheet').value = dates[0];
-    document.getElementById('date-to-sheet').value   = dates[dates.length-1];
-  }
+function setDefaultDates() {
+  document.getElementById('date-from-sheet').value = '';
+  document.getElementById('date-to-sheet').value   = new Date().toISOString().slice(0, 10);
 }
 
 document.getElementById('date-from-sheet').addEventListener('change', () => {
@@ -599,7 +623,7 @@ fetch('../news.json')
     });
 
     buildSourceFilters(articles);
-    setDefaultDates(articles);
+    setDefaultDates();
     applyFilters();
   })
   .catch(err => {
