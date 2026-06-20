@@ -258,7 +258,7 @@ document.getElementById('sheet-reset-btn').addEventListener('click', () => {
   localStorage.setItem('wl_history', '0');
   setDefaultDates();
   Object.keys(LANG_COLORS).forEach(l => activeLangs.add(l));
-  document.querySelectorAll('#cat-strip .lang-chip').forEach(ch => {
+  document.querySelectorAll('#lang-chips .lang-chip').forEach(ch => {
     ch.classList.remove('inactive'); ch.setAttribute('aria-pressed','true');
   });
   closeFilterSheet();
@@ -268,7 +268,7 @@ document.getElementById('sheet-reset-btn').addEventListener('click', () => {
 document.addEventListener('keydown', e => { if (e.key==='Escape') { closeFilterSheet(); hideArticleCard(); } });
 
 // ── Language chips ────────────────────────────────────────────────────────────
-document.querySelectorAll('#cat-strip .lang-chip').forEach(chip => {
+document.querySelectorAll('#lang-chips .lang-chip').forEach(chip => {
   chip.addEventListener('click', () => {
     const lang = chip.dataset.lang;
     const active = activeLangs.has(lang);

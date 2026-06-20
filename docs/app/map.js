@@ -414,7 +414,7 @@ document.getElementById('sheet-reset-btn').addEventListener('click', () => {
   localStorage.setItem('wl_history', '0');
   setDefaultDates();
   ['poaching','discovery','conflict','research','conservation'].forEach(c => activeCats.add(c));
-  document.querySelectorAll('#cat-strip .cat-chip').forEach(ch => {
+  document.querySelectorAll('#cat-chips .cat-chip').forEach(ch => {
     ch.classList.remove('inactive'); ch.setAttribute('aria-pressed','true');
   });
   closeFilterSheet();
@@ -425,7 +425,7 @@ document.getElementById('sheet-reset-btn').addEventListener('click', () => {
 document.addEventListener('keydown', e => { if (e.key==='Escape') { closeFilterSheet(); hideArticleCard(); } });
 
 // ── Category chips ────────────────────────────────────────────────────────────
-document.querySelectorAll('#cat-strip .cat-chip').forEach(chip => {
+document.querySelectorAll('#cat-chips .cat-chip').forEach(chip => {
   chip.addEventListener('click', () => {
     const cat = chip.dataset.cat;
     const active = activeCats.has(cat);

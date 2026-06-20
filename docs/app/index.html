@@ -65,24 +65,7 @@
   <div id="count-badge" aria-live="polite" aria-atomic="true"></div>
 
   <!-- Bottom bar -->
-  <nav id="bottom-bar" aria-label="Map filters">
-    <div id="cat-strip" role="group" aria-label="Filter by category">
-      <button class="cat-chip" data-cat="poaching" style="background:rgba(239,68,68,0.14);color:#fca5a5;border-color:rgba(239,68,68,0.25)" aria-pressed="true">
-        <span class="cat-chip-dot" style="background:#ef4444" aria-hidden="true"></span>Poaching
-      </button>
-      <button class="cat-chip" data-cat="discovery" style="background:rgba(245,158,11,0.14);color:#fcd34d;border-color:rgba(245,158,11,0.25)" aria-pressed="true">
-        <span class="cat-chip-dot" style="background:#f59e0b" aria-hidden="true"></span>Discovery
-      </button>
-      <button class="cat-chip" data-cat="conflict" style="background:rgba(249,115,22,0.14);color:#fdba74;border-color:rgba(249,115,22,0.25)" aria-pressed="true">
-        <span class="cat-chip-dot" style="background:#f97316" aria-hidden="true"></span>Conflict
-      </button>
-      <button class="cat-chip" data-cat="research" style="background:rgba(6,182,212,0.14);color:#67e8f9;border-color:rgba(6,182,212,0.25)" aria-pressed="true">
-        <span class="cat-chip-dot" style="background:#06b6d4" aria-hidden="true"></span>Research
-      </button>
-      <button class="cat-chip" data-cat="conservation" style="background:rgba(129,140,248,0.14);color:#a5b4fc;border-color:rgba(129,140,248,0.25)" aria-pressed="true">
-        <span class="cat-chip-dot" style="background:#818cf8" aria-hidden="true"></span>Policy
-      </button>
-    </div>
+  <nav id="bottom-bar" aria-label="Map controls">
     <div id="bottom-actions">
       <div id="article-count" aria-live="polite"></div>
       <button id="edition-btn" aria-label="Switch to Regional Edition">Regional ›</button>
@@ -109,6 +92,18 @@
       <button class="sheet-close" aria-label="Close filters">
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
       </button>
+    </div>
+
+    <!-- Category -->
+    <div class="filter-section">
+      <div class="filter-label">Category</div>
+      <div id="cat-chips" class="chip-row" role="group" aria-label="Filter by category">
+        <button class="cat-chip" data-cat="poaching" style="background:rgba(239,68,68,0.14);color:#fca5a5;border-color:rgba(239,68,68,0.25)" aria-pressed="true"><span class="cat-chip-dot" style="background:#ef4444" aria-hidden="true"></span>Poaching</button>
+        <button class="cat-chip" data-cat="discovery" style="background:rgba(245,158,11,0.14);color:#fcd34d;border-color:rgba(245,158,11,0.25)" aria-pressed="true"><span class="cat-chip-dot" style="background:#f59e0b" aria-hidden="true"></span>Discovery</button>
+        <button class="cat-chip" data-cat="conflict" style="background:rgba(249,115,22,0.14);color:#fdba74;border-color:rgba(249,115,22,0.25)" aria-pressed="true"><span class="cat-chip-dot" style="background:#f97316" aria-hidden="true"></span>Conflict</button>
+        <button class="cat-chip" data-cat="research" style="background:rgba(6,182,212,0.14);color:#67e8f9;border-color:rgba(6,182,212,0.25)" aria-pressed="true"><span class="cat-chip-dot" style="background:#06b6d4" aria-hidden="true"></span>Research</button>
+        <button class="cat-chip" data-cat="conservation" style="background:rgba(129,140,248,0.14);color:#a5b4fc;border-color:rgba(129,140,248,0.25)" aria-pressed="true"><span class="cat-chip-dot" style="background:#818cf8" aria-hidden="true"></span>Policy</button>
+      </div>
     </div>
 
     <!-- Source -->

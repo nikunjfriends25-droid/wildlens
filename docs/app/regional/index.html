@@ -64,18 +64,8 @@
   <!-- Article count badge -->
   <div id="count-badge" aria-live="polite" aria-atomic="true"></div>
 
-  <!-- Bottom bar — language chips instead of category chips -->
-  <nav id="bottom-bar" aria-label="Language filters">
-    <div id="cat-strip" role="group" aria-label="Filter by language" style="gap:6px">
-      <button class="cat-chip lang-chip" data-lang="Hindi"     style="background:rgba(251,146,60,0.14);color:#fdba74;border-color:rgba(251,146,60,0.25)"  aria-pressed="true"><span class="cat-chip-dot" style="background:#f97316" aria-hidden="true"></span>Hindi</button>
-      <button class="cat-chip lang-chip" data-lang="Bengali"   style="background:rgba(52,211,153,0.14);color:#6ee7b7;border-color:rgba(52,211,153,0.25)"  aria-pressed="true"><span class="cat-chip-dot" style="background:#34d399" aria-hidden="true"></span>Bengali</button>
-      <button class="cat-chip lang-chip" data-lang="Tamil"     style="background:rgba(251,191,36,0.14);color:#fde68a;border-color:rgba(251,191,36,0.25)"  aria-pressed="true"><span class="cat-chip-dot" style="background:#fbbf24" aria-hidden="true"></span>Tamil</button>
-      <button class="cat-chip lang-chip" data-lang="Telugu"    style="background:rgba(167,139,250,0.14);color:#ddd6fe;border-color:rgba(167,139,250,0.25)" aria-pressed="true"><span class="cat-chip-dot" style="background:#a78bfa" aria-hidden="true"></span>Telugu</button>
-      <button class="cat-chip lang-chip" data-lang="Kannada"   style="background:rgba(244,114,182,0.14);color:#fbcfe8;border-color:rgba(244,114,182,0.25)" aria-pressed="true"><span class="cat-chip-dot" style="background:#f472b6" aria-hidden="true"></span>Kannada</button>
-      <button class="cat-chip lang-chip" data-lang="Malayalam" style="background:rgba(56,189,248,0.14);color:#bae6fd;border-color:rgba(56,189,248,0.25)"   aria-pressed="true"><span class="cat-chip-dot" style="background:#38bdf8" aria-hidden="true"></span>Malay.</button>
-      <button class="cat-chip lang-chip" data-lang="Marathi"   style="background:rgba(163,230,53,0.14);color:#d9f99d;border-color:rgba(163,230,53,0.25)"   aria-pressed="true"><span class="cat-chip-dot" style="background:#a3e635" aria-hidden="true"></span>Marathi</button>
-      <button class="cat-chip lang-chip" data-lang="Other"     style="background:rgba(148,163,184,0.14);color:#cbd5e1;border-color:rgba(148,163,184,0.25)"  aria-pressed="true"><span class="cat-chip-dot" style="background:#94a3b8" aria-hidden="true"></span>Other</button>
-    </div>
+  <!-- Bottom bar -->
+  <nav id="bottom-bar" aria-label="Map controls">
     <div id="bottom-actions">
       <div id="article-count" aria-live="polite"></div>
       <button id="edition-btn" aria-label="Switch to English Edition">English ›</button>
@@ -102,6 +92,21 @@
       <button class="sheet-close" aria-label="Close filters">
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
       </button>
+    </div>
+
+    <!-- Language -->
+    <div class="filter-section">
+      <div class="filter-label">Language</div>
+      <div id="lang-chips" class="chip-row" role="group" aria-label="Filter by language">
+        <button class="cat-chip lang-chip" data-lang="Hindi"     style="background:rgba(251,146,60,0.14);color:#fdba74;border-color:rgba(251,146,60,0.25)"   aria-pressed="true"><span class="cat-chip-dot" style="background:#f97316" aria-hidden="true"></span>Hindi</button>
+        <button class="cat-chip lang-chip" data-lang="Bengali"   style="background:rgba(52,211,153,0.14);color:#6ee7b7;border-color:rgba(52,211,153,0.25)"   aria-pressed="true"><span class="cat-chip-dot" style="background:#34d399" aria-hidden="true"></span>Bengali</button>
+        <button class="cat-chip lang-chip" data-lang="Tamil"     style="background:rgba(251,191,36,0.14);color:#fde68a;border-color:rgba(251,191,36,0.25)"   aria-pressed="true"><span class="cat-chip-dot" style="background:#fbbf24" aria-hidden="true"></span>Tamil</button>
+        <button class="cat-chip lang-chip" data-lang="Telugu"    style="background:rgba(167,139,250,0.14);color:#ddd6fe;border-color:rgba(167,139,250,0.25)"  aria-pressed="true"><span class="cat-chip-dot" style="background:#a78bfa" aria-hidden="true"></span>Telugu</button>
+        <button class="cat-chip lang-chip" data-lang="Kannada"   style="background:rgba(244,114,182,0.14);color:#fbcfe8;border-color:rgba(244,114,182,0.25)"  aria-pressed="true"><span class="cat-chip-dot" style="background:#f472b6" aria-hidden="true"></span>Kannada</button>
+        <button class="cat-chip lang-chip" data-lang="Malayalam" style="background:rgba(56,189,248,0.14);color:#bae6fd;border-color:rgba(56,189,248,0.25)"    aria-pressed="true"><span class="cat-chip-dot" style="background:#38bdf8" aria-hidden="true"></span>Malayalam</button>
+        <button class="cat-chip lang-chip" data-lang="Marathi"   style="background:rgba(163,230,53,0.14);color:#d9f99d;border-color:rgba(163,230,53,0.25)"    aria-pressed="true"><span class="cat-chip-dot" style="background:#a3e635" aria-hidden="true"></span>Marathi</button>
+        <button class="cat-chip lang-chip" data-lang="Other"     style="background:rgba(148,163,184,0.14);color:#cbd5e1;border-color:rgba(148,163,184,0.25)"   aria-pressed="true"><span class="cat-chip-dot" style="background:#94a3b8" aria-hidden="true"></span>Other</button>
+      </div>
     </div>
 
     <!-- Source -->
