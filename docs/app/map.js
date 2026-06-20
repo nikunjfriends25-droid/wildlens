@@ -71,6 +71,131 @@ const SOURCE_META = {
   'Sambad English':        { region:'Odisha',          lang:'English', desc:"Odisha's leading daily covering Simlipal, Bhitarkanika & Chilika wildlife." },
   'OdishaBytes':           { region:'Odisha',          lang:'English', desc:"Odisha digital outlet covering state wildlife — elephants, leopards & Mahanadi basin." },
   'Gomantak Times':        { region:'Goa',             lang:'English', desc:"Goa-based daily covering Bhagwan Mahavir Wildlife Sanctuary & coastal ecology." },
+
+  // National digital / wire
+  'News18':               { region:'National',        lang:'English', desc:"Major TV & digital network with environment & wildlife coverage across all Indian states." },
+  'Times Now':            { region:'National',        lang:'English', desc:"National TV channel with breaking wildlife, forest fire & poaching news." },
+  'ETV Bharat':           { region:'National',        lang:'English', desc:"Multilingual TV network with state-level wildlife & forest coverage across India." },
+  'NDTV Profit':          { region:'National',        lang:'English', desc:"NDTV's business desk — covers natural resource, forest land-use & climate policy stories." },
+  'The Economic Times':   { region:'National',        lang:'English', desc:"India's largest financial daily with environment, climate & natural resource policy coverage." },
+  'Mint':                 { region:'National',        lang:'English', desc:"Business daily with coverage of forest carbon markets, wildlife policy & environmental regulation." },
+  'BusinessLine':         { region:'National',        lang:'English', desc:"The Hindu's business daily — covers forest land acquisition, mining & biodiversity policy." },
+  'The Quint':            { region:'National',        lang:'English', desc:"Digital news outlet with environment & investigative wildlife coverage." },
+  'The Better India':     { region:'National',        lang:'English', desc:"Solutions-focused journalism highlighting conservation success stories & community-led wildlife protection." },
+  'Indiaspend':           { region:'National',        lang:'English', desc:"Data journalism outlet covering deforestation rates, wildlife census data & forest policy analysis." },
+  'Swarajyamag':          { region:'National',        lang:'English', desc:"National magazine with coverage of tribal forest rights, conservation & environment policy." },
+  'PIB India':            { region:'National',        lang:'English', desc:"Press Information Bureau — official government press releases on wildlife, forest & environment policy." },
+  'IUCN':                 { region:'International',   lang:'English', desc:"International Union for Conservation of Nature — Red List updates, species assessments & India conservation reports." },
+  'India Today NE':       { region:'Northeast India', lang:'English', desc:"Northeast edition of India Today covering Assam, Arunachal, Meghalaya & region's wildlife." },
+  'The Statesman':        { region:'East India',      lang:'English', desc:"Kolkata broadsheet covering Sundarbans, Bengal tigers & Northeast conservation stories." },
+  'Arunachal Observer':   { region:'Arunachal Pradesh', lang:'English', desc:"Arunachal Pradesh's leading daily covering the state's rich biodiversity, tigers & elephant corridors." },
+  'The News Mill':        { region:'Northeast India', lang:'English', desc:"Northeast digital outlet covering Manipur, Mizoram & Northeast India wildlife & forest stories." },
+  't2ONLINE':             { region:'East India',      lang:'English', desc:"Telegraph India's lifestyle supplement — covers wildlife conservation & eco-tourism in eastern India." },
+  'The Asian Age':        { region:'National',        lang:'English', desc:"National English daily with environment & wildlife stories from across India." },
+  'NewsMeter':            { region:'Telangana',       lang:'English', desc:"Hyderabad-based digital outlet covering Telangana & AP wildlife, forests & environmental conflicts." },
+  'Telangana Today':      { region:'Telangana',       lang:'English', desc:"Telangana state daily covering Nagarjunasagar-Srisailam tiger reserve & AP/Telangana wildlife." },
+  'DT Next':              { region:'Tamil Nadu',      lang:'English', desc:"Chennai-based daily (sister of Dinamalar) covering Tamil Nadu wildlife — Nilgiris, Mudumalai & Guindy." },
+  'The South First':      { region:'South India',     lang:'English', desc:"South India digital outlet covering forest rights, Western Ghats ecology & state-level wildlife policy." },
+  'Odisha TV':            { region:'Odisha',          lang:'English', desc:"Odisha's leading news channel covering Simlipal tiger reserve, Bhitarkanika & Odisha wildlife." },
+  'Ommcom News':          { region:'Odisha',          lang:'English', desc:"Odisha digital outlet covering state forests, elephant corridors & wildlife conflict." },
+  'KalingaTV':            { region:'Odisha',          lang:'English', desc:"Odisha TV channel covering Simlipal, Satkosia & eastern India wildlife stories." },
+  'orissapost.com':       { region:'Odisha',          lang:'English', desc:"Odisha Post — digital daily covering Odisha wildlife, tribal forest communities & conservation." },
+  'Free Press Journal':   { region:'Maharashtra',     lang:'English', desc:"Mumbai daily covering Maharashtra wildlife — Tadoba, Melghat tiger reserves & Sahyadri forests." },
+  'Bangalore Mirror':     { region:'Karnataka',       lang:'English', desc:"Bengaluru city daily covering Bannerghatta, Nagarahole & urban leopard conflict stories." },
+  'lokmattimes.com':      { region:'Maharashtra',     lang:'English', desc:"Lokmat English — Maharashtra outlet covering Vidarbha tigers, forest land conflicts & conservation." },
+  'thehitavada.com':      { region:'Central India',   lang:'English', desc:"Nagpur-based daily covering central India tiger belt — Tadoba, Pench, Kanha & Melghat." },
+  'heraldgoa.in':         { region:'Goa',             lang:'English', desc:"Goa Herald — covers Mhadei wildlife sanctuary, Western Ghats biodiversity & Goa forest conflicts." },
+  'Prudent Media':        { region:'Goa',             lang:'English', desc:"Goa-based digital outlet covering coastal ecology, wildlife sanctuary news & Mhadei dispute." },
+  'MorungExpress':        { region:'Nagaland',        lang:'English', desc:"Nagaland's principal English daily covering Nagaland wildlife & Amur falcon migration." },
+  'newsclick.in':         { region:'National',        lang:'English', desc:"Digital outlet covering forest rights, tribal communities & environment." },
+  'The Tribune':          { region:'North India',     lang:'English', desc:"Chandigarh-based daily covering wildlife & forests of Punjab, Haryana & Himachal Pradesh." },
+  'The Business Standard':{ region:'National',        lang:'English', desc:"Financial daily with environment & natural resource policy reporting." },
+
+  // Gujarat / West
+  'Ahmedabad Mirror':     { region:'Gujarat',         lang:'English', desc:"Ahmedabad city daily covering Gir lion sanctuary, Little Rann & Gujarat wildlife stories." },
+  'Mid-day':              { region:'Maharashtra',     lang:'English', desc:"Mumbai tabloid covering Sanjay Gandhi National Park, leopard conflict & Maharashtra forest news." },
+
+  // Himachal / North
+  'HimbuMail':            { region:'Himachal Pradesh', lang:'English', desc:"HP-focused digital outlet covering snow leopard, Himalayan wildlife & forest news." },
+  'thepatriot.in':        { region:'Northeast India', lang:'English', desc:"Northeast India outlet covering Manipur, Nagaland & regional wildlife stories." },
+  'jharkhandstatenews.com': { region:'Jharkhand',    lang:'English', desc:"Jharkhand news covering Palamau tiger reserve, elephant corridors & state forest department." },
+
+  // South / Andhra
+  'Hyderabad Mail':       { region:'Telangana',       lang:'English', desc:"Hyderabad-based outlet covering Telangana & AP wildlife, forest encroachment & urban wildlife conflict." },
+  'The Siasat Daily':     { region:'Telangana',       lang:'English', desc:"Hyderabad-based daily covering Deccan wildlife, Amrabad tiger reserve & AP/Telangana forests." },
+  'EdexLive':             { region:'South India',     lang:'English', desc:"The New Indian Express education & science desk covering biodiversity research & conservation." },
+  'YOCee':                { region:'Tamil Nadu',      lang:'English', desc:"Chennai-focused digital outlet covering Tamil Nadu wildlife, Nilgiris & coastal ecology." },
+
+  // Aggregators / wire
+  'Devdiscourse':         { region:'National',        lang:'English', desc:"Development & policy news aggregator covering environment, forest clearances & wildlife policy." },
+  'MSN':                  { region:'National',        lang:'English', desc:"Microsoft News aggregator republishing Indian wildlife & environment stories from partner outlets." },
+  'Dailyhunt':            { region:'National',        lang:'Multilingual', desc:"Indian news aggregator republishing wildlife & environment content from regional and national outlets." },
+  'Rediff':               { region:'National',        lang:'English', desc:"Indian web portal aggregating wildlife & environment news from national sources." },
+  'India.Com':            { region:'National',        lang:'English', desc:"Digital news aggregator covering Indian wildlife, environment & conservation stories." },
+  'Awaz The Voice':       { region:'National',        lang:'English', desc:"Digital outlet covering minority communities, tribal forest rights & environment across India." },
+
+  // Financial / corporate
+  'Moneycontrol.com':     { region:'National',        lang:'English', desc:"Financial news site covering natural resource policy, forest land acquisitions & green economy." },
+  'CNBC TV18':            { region:'National',        lang:'English', desc:"Business TV channel covering environment regulation, forest sector & green policy news." },
+  'Exchange4Media':       { region:'National',        lang:'English', desc:"Media industry outlet occasionally covering wildlife documentary & conservation communication stories." },
+
+  // Science / research orgs
+  'WWF India':            { region:'National',        lang:'English', desc:"WWF India — publishes conservation updates, species reports & habitat protection news for India." },
+  'The Nature Conservancy': { region:'International', lang:'English', desc:"TNC — international conservation organisation publishing India landscape & biodiversity news." },
+  'One Earth':            { region:'International',   lang:'English', desc:"Conservation science publication covering global and India biodiversity & habitat protection." },
+  'Indian Council Of Agricultural Research': { region:'National', lang:'English', desc:"ICAR — government research body, covers agroforestry, wildlife-agriculture interface & biodiversity." },
+  'Department of Science & Technology (DST)': { region:'National', lang:'English', desc:"Government science ministry publishing research funding, ecology studies & conservation science news." },
+
+  // Legal
+  'Live Law':             { region:'National',        lang:'English', desc:"Legal news outlet covering NGT orders, Supreme Court forest cases & wildlife protection law." },
+  'SCC Online':           { region:'National',        lang:'English', desc:"Legal database covering court judgments on forest rights, wildlife crime & environmental law." },
+  'The National Law Review': { region:'International', lang:'English', desc:"Legal analysis outlet covering India environmental law, wildlife protection & forest regulation." },
+  'Nomad Lawyer':         { region:'National',        lang:'English', desc:"Legal commentary covering environmental law, NGT & wildlife protection act cases in India." },
+
+  // Odisha
+  'pragativadi.com':      { region:'Odisha',          lang:'Odia', desc:"Pragativadi — major Odia-language daily covering Odisha wildlife, Simlipal & elephant corridors." },
+  'Bhaskar English':      { region:'National',        lang:'English', desc:"Dainik Bhaskar's English digital edition covering wildlife & environment stories from across India." },
+
+  // CSR / development
+  'The CSR Journal':      { region:'National',        lang:'English', desc:"CSR-focused outlet covering corporate conservation funding, biodiversity projects & forest initiatives." },
+
+  // IAS / current affairs
+  'GK Today':             { region:'National',        lang:'English', desc:"Current affairs & exam prep outlet — covers wildlife reserves, species & conservation policy as factual summaries." },
+  'INSIGHTS IAS':         { region:'National',        lang:'English', desc:"IAS exam preparation covering environment, biodiversity & conservation as current affairs topics." },
+  'Drishti IAS':          { region:'National',        lang:'English', desc:"IAS coaching outlet covering environment & ecology — wildlife reserves, species & policy." },
+  'AffairsCloud.com':     { region:'National',        lang:'English', desc:"Current affairs aggregator covering wildlife conservation, PA notifications & forest policy." },
+  'UPSC Colorfull notes': { region:'National',        lang:'English', desc:"UPSC preparation resource covering environment & ecology topics — wildlife reserves & biodiversity." },
+  'PW':                   { region:'National',        lang:'English', desc:"Physics Wallah / PW — edtech covering environment & ecology as UPSC/competitive exam topics." },
+  'Indianmasterminds':    { region:'National',        lang:'English', desc:"Banking & govt exam outlet occasionally covering wildlife & environment as current affairs." },
+
+  // Travel / lifestyle
+  'curlytales.com':       { region:'National',        lang:'English', desc:"Travel & food outlet covering wildlife safaris, national park tourism & eco-travel in India." },
+  'NativePlanet':         { region:'National',        lang:'English', desc:"India travel platform covering national parks, wildlife sanctuaries & safari destinations." },
+  'Indiahikes':           { region:'National',        lang:'English', desc:"Trekking & outdoors platform covering Himalayan forests, wildlife sightings & mountain ecology." },
+  'Outlook Traveller':    { region:'National',        lang:'English', desc:"Outlook's travel magazine covering wildlife sanctuaries, safari tourism & eco-destinations in India." },
+  'Condé Nast Traveller India': { region:'National', lang:'English', desc:"Luxury travel magazine with wildlife safari & conservation-tourism coverage across India." },
+  'ET TravelWorld':       { region:'National',        lang:'English', desc:"Economic Times travel vertical covering wildlife tourism, sanctuary developments & eco-travel." },
+  'Travel And Tour World': { region:'International',  lang:'English', desc:"International travel trade outlet covering India wildlife tourism & national park developments." },
+  'Travel Trade Journal': { region:'National',        lang:'English', desc:"Travel industry trade publication covering wildlife tourism trends & national park developments." },
+  'homegrown.co.in':      { region:'National',        lang:'English', desc:"Youth culture & travel outlet covering India wildlife, forests & nature-related stories." },
+
+  // International
+  'Khaleej Times':        { region:'International',   lang:'English', desc:"UAE-based English daily covering India wildlife stories with international readership." },
+  'The Daily Star':       { region:'International',   lang:'English', desc:"Bangladesh's leading English daily — covers Sundarbans shared ecosystem & regional wildlife." },
+  'RTL Today':            { region:'International',   lang:'English', desc:"Luxembourg news outlet occasionally covering India wildlife & conservation stories." },
+  'dw.com':               { region:'International',   lang:'English', desc:"Deutsche Welle — German international broadcaster covering India environment & wildlife stories." },
+  'The Diplomat – Asia-Pacific': { region:'International', lang:'English', desc:"Asia-Pacific affairs magazine covering India environment policy, forest rights & wildlife regulation." },
+  'Prothom Alo English':  { region:'International',   lang:'English', desc:"Bangladesh's Prothom Alo English — covers Sundarbans tiger reserve & Bangladesh-India shared wildlife." },
+
+  // Niche / investigative
+  'Cobrapost':            { region:'National',        lang:'English', desc:"Investigative journalism outlet covering wildlife crime, poaching networks & forest land scams." },
+  'organiser.org':        { region:'National',        lang:'English', desc:"RSS-linked weekly covering tribal & forest community issues alongside wildlife & environment." },
+  'Doing Sociology':      { region:'National',        lang:'English', desc:"Academic sociology platform covering human-wildlife conflict, forest communities & conservation policy." },
+  'WorldAtlas':           { region:'International',   lang:'English', desc:"Geography & facts platform covering India national parks, endangered species & biodiversity data." },
+  'Goa News Hub':         { region:'Goa',             lang:'English', desc:"Goa digital outlet covering Western Ghats biodiversity, Mhadei river & coastal wildlife." },
+  'usthadian.com':        { region:'Northeast India', lang:'English', desc:"Northeast India outlet covering Tripura, Mizoram & northeast wildlife & forest news." },
+  'Construction World':   { region:'National',        lang:'English', desc:"Infrastructure outlet covering forest land diversion for projects, environmental clearances & green building." },
+  'Architect and Interiors India': { region:'National', lang:'English', desc:"Design publication covering sustainable architecture, forest materials & eco-design in India." },
 };
 
 // ── Map ───────────────────────────────────────────────────────────────────────
