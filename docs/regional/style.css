@@ -1085,3 +1085,53 @@ input[type="date"]:focus {
   color: var(--text-secondary);
   margin: 0;
 }
+
+/* ── About button + modal ────────────────────────────────────────────────────── */
+#about-btn {
+  display: flex; align-items: center; gap: 4px;
+  background: none; border: none; padding: 0;
+  font-size: 11px; color: var(--text-faint);
+  cursor: pointer;
+}
+#about-btn:hover { color: var(--text-muted); }
+#about-btn svg { flex-shrink: 0; }
+
+#about-modal {
+  position: fixed; inset: 0; z-index: 2000;
+  background: rgba(0,0,0,0.6);
+  display: flex; align-items: center; justify-content: center;
+  padding: 24px;
+}
+#about-modal[hidden] { display: none; }
+#about-modal-box {
+  background: #111a11;
+  border: 1px solid var(--border-mid);
+  border-radius: 12px;
+  padding: 22px 20px 20px;
+  max-width: 360px; width: 100%;
+}
+#about-modal-head {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 14px;
+}
+#about-modal-title {
+  font-size: 14px; font-weight: 600;
+  color: var(--text-primary);
+}
+#about-modal-close {
+  width: 26px; height: 26px;
+  background: rgba(255,255,255,0.07); border: none; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-muted); cursor: pointer; flex-shrink: 0;
+}
+#about-modal-close:hover { background: rgba(255,255,255,0.12); color: var(--text-secondary); }
+#about-modal-box p {
+  font-size: 13px; color: var(--text-secondary);
+  line-height: 1.6; margin-bottom: 10px;
+}
+#about-modal-box p:last-child { margin-bottom: 0; }
+#about-modal-box a {
+  color: var(--accent);
+  text-decoration: none; font-weight: 500;
+}
+#about-modal-box a:hover { text-decoration: underline; }

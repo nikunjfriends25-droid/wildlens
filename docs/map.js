@@ -67,6 +67,64 @@ const SOURCE_META = {
   'Newsclick.in':         { region: 'National',        lang: 'English', desc: 'Left-leaning digital outlet covering forest rights, tribal communities & environment.' },
   'Business Standard':    { region: 'National',        lang: 'English', desc: 'Financial daily with environment & natural resource policy reporting.' },
   'ANI News':             { region: 'National',        lang: 'English', desc: 'Wire service distributing wildlife & forest news from government and official sources across India.' },
+
+  // Variant names (same publications, different display names in feed)
+  'The Indian Express':   { region: 'National',        lang: 'English', desc: 'National daily with dedicated environment desk covering wildlife crime, conservation & forest policy.' },
+  'The Times of India':   { region: 'National',        lang: 'English', desc: 'India\'s highest-circulation English daily with environment & wildlife coverage.' },
+  'The Assam Tribune':    { region: 'Assam',           lang: 'English', desc: 'Assam\'s oldest English daily. Covers Kaziranga, Manas, Brahmaputra ecosystem & rhino protection.' },
+  'The Business Standard':{ region: 'National',        lang: 'English', desc: 'Financial daily with environment & natural resource policy reporting.' },
+  'The Tribune':          { region: 'North India',     lang: 'English', desc: 'Chandigarh-based daily covering wildlife & forests of Punjab, Haryana & Himachal Pradesh.' },
+  'MorungExpress':        { region: 'Nagaland',        lang: 'English', desc: 'Nagaland\'s principal English daily covering Nagaland wildlife & Amur falcon migration.' },
+  'newsclick.in':         { region: 'National',        lang: 'English', desc: 'Digital outlet covering forest rights, tribal communities & environment.' },
+
+  // Major national TV / digital
+  'News18':               { region: 'National',        lang: 'English', desc: 'Major TV & digital network with environment & wildlife coverage across all Indian states.' },
+  'Times Now':            { region: 'National',        lang: 'English', desc: 'National TV channel with breaking wildlife, forest fire & poaching news.' },
+  'ETV Bharat':           { region: 'National',        lang: 'English', desc: 'Multilingual TV network with state-level wildlife & forest coverage across India.' },
+  'NDTV Profit':          { region: 'National',        lang: 'English', desc: 'NDTV\'s business desk — covers natural resource, forest land-use & climate policy stories.' },
+
+  // Financial / business dailies with environment desks
+  'The Economic Times':   { region: 'National',        lang: 'English', desc: 'India\'s largest financial daily with environment, climate & natural resource policy coverage.' },
+  'Mint':                 { region: 'National',        lang: 'English', desc: 'Business daily with coverage of forest carbon markets, wildlife policy & environmental regulation.' },
+  'BusinessLine':         { region: 'National',        lang: 'English', desc: 'The Hindu\'s business daily — covers forest land acquisition, mining & biodiversity policy.' },
+
+  // National digital outlets
+  'The Quint':            { region: 'National',        lang: 'English', desc: 'Digital news outlet with environment & investigative wildlife coverage.' },
+  'The Better India':     { region: 'National',        lang: 'English', desc: 'Solutions-focused journalism highlighting conservation success stories & community-led wildlife protection.' },
+  'Indiaspend':           { region: 'National',        lang: 'English', desc: 'Data journalism outlet covering deforestation rates, wildlife census data & forest policy analysis.' },
+  'Swarajyamag':          { region: 'National',        lang: 'English', desc: 'National magazine with coverage of tribal forest rights, conservation & environment policy.' },
+  'PIB India':            { region: 'National',        lang: 'English', desc: 'Press Information Bureau — official government press releases on wildlife, forest & environment policy.' },
+  'IUCN':                 { region: 'International',   lang: 'English', desc: 'International Union for Conservation of Nature — Red List updates, species assessments & India conservation reports.' },
+  'India Today NE':       { region: 'Northeast India', lang: 'English', desc: 'Northeast edition of India Today covering Assam, Arunachal, Meghalaya & region\'s wildlife.' },
+
+  // East / Northeast
+  'The Statesman':        { region: 'East India',      lang: 'English', desc: 'Kolkata broadsheet covering Sundarbans, Bengal tigers & Northeast conservation stories.' },
+  'Arunachal Observer':   { region: 'Arunachal Pradesh', lang: 'English', desc: 'Arunachal Pradesh\'s leading daily covering the state\'s rich biodiversity, tigers & elephant corridors.' },
+  'The News Mill':        { region: 'Northeast India', lang: 'English', desc: 'Northeast digital outlet covering Manipur, Mizoram & Northeast India wildlife & forest stories.' },
+  't2ONLINE':             { region: 'East India',      lang: 'English', desc: 'Telegraph India\'s lifestyle supplement — covers wildlife conservation & eco-tourism in eastern India.' },
+  'The Asian Age':        { region: 'National',        lang: 'English', desc: 'National English daily with environment & wildlife stories from across India.' },
+
+  // South India
+  'NewsMeter':            { region: 'Telangana',       lang: 'English', desc: 'Hyderabad-based digital outlet covering Telangana & AP wildlife, forests & environmental conflicts.' },
+  'Telangana Today':      { region: 'Telangana',       lang: 'English', desc: 'Telangana state daily covering Nagarjunasagar-Srisailam tiger reserve & AP/Telangana wildlife.' },
+  'DT Next':              { region: 'Tamil Nadu',      lang: 'English', desc: 'Chennai-based daily (sister of Dinamalar) covering Tamil Nadu wildlife — nilgiris, Mudumalai & Guindy.' },
+  'The South First':      { region: 'South India',     lang: 'English', desc: 'South India digital outlet covering forest rights, Western Ghats ecology & state-level wildlife policy.' },
+
+  // Odisha
+  'Odisha TV':            { region: 'Odisha',          lang: 'English', desc: 'Odisha\'s leading news channel covering Simlipal tiger reserve, Bhitarkanika & Odisha wildlife.' },
+  'Ommcom News':          { region: 'Odisha',          lang: 'English', desc: 'Odisha digital outlet covering state forests, elephant corridors & wildlife conflict.' },
+  'KalingaTV':            { region: 'Odisha',          lang: 'English', desc: 'Odisha TV channel covering Simlipal, Satkosia & eastern India wildlife stories.' },
+  'orissapost.com':       { region: 'Odisha',          lang: 'English', desc: 'Odisha Post — digital daily covering Odisha wildlife, tribal forest communities & conservation.' },
+
+  // Maharashtra / West India
+  'Free Press Journal':   { region: 'Maharashtra',     lang: 'English', desc: 'Mumbai daily covering Maharashtra wildlife — Tadoba, Melghat tiger reserves & Sahyadri forests.' },
+  'Bangalore Mirror':     { region: 'Karnataka',       lang: 'English', desc: 'Bengaluru city daily covering Bannerghatta, Nagarahole & urban leopard conflict stories.' },
+  'lokmattimes.com':      { region: 'Maharashtra',     lang: 'English', desc: 'Lokmat English — Maharashtra outlet covering Vidarbha tigers, forest land conflicts & conservation.' },
+  'thehitavada.com':      { region: 'Central India',   lang: 'English', desc: 'Nagpur-based daily covering central India tiger belt — Tadoba, Pench, Kanha & Melghat.' },
+
+  // Goa
+  'heraldgoa.in':         { region: 'Goa',             lang: 'English', desc: 'Goa Herald — covers Mhadei wildlife sanctuary, Western Ghats biodiversity & Goa forest conflicts.' },
+  'Prudent Media':        { region: 'Goa',             lang: 'English', desc: 'Goa-based digital outlet covering coastal ecology, wildlife sanctuary news & Mhadei dispute.' },
 };
 
 // Order matters — first match wins. conservation is the fallback (not listed here).
