@@ -143,6 +143,9 @@ let allArticles = [];
 let allMarkers  = [];
 const activeCats  = new Set(['poaching', 'discovery', 'conflict', 'research', 'conservation']);
 const activeSrcs  = new Set();
+
+const HISTORY_DAYS = 60;
+let showHistorical = localStorage.getItem('wl_history') === '1';
 const activeLangs = new Set();
 let _srcDropdownSources = [];
 
@@ -241,8 +244,27 @@ function renderMarkers(filtered) {
       ? `${total} article${total !== 1 ? 's' : ''} on map`
       : `${shown} of ${total} articles`;
 
+  updateHistoryBar();
+
   const empty = document.getElementById('empty-state');
   if (empty) empty.classList.toggle('visible', shown === 0);
+}
+
+// ── History toggle ────────────────────────────────────────────────────────────
+function updateHistoryBar() {
+  const bar = document.getElementById('history-bar');
+  if (!bar) return;
+  const total = allArticles.length;
+  if (showHistorical) {
+    bar.innerHTML = `All time &nbsp;·&nbsp; <button class="history-link" id="history-toggle-btn">Show recent only →</button>`;
+  } else {
+    bar.innerHTML = `Last 60 days &nbsp;·&nbsp; <button class="history-link" id="history-toggle-btn">Show all ${total} →</button>`;
+  }
+  document.getElementById('history-toggle-btn').addEventListener('click', () => {
+    showHistorical = !showHistorical;
+    localStorage.setItem('wl_history', showHistorical ? '1' : '0');
+    applyFilters();
+  });
 }
 
 // ── Apply filters ─────────────────────────────────────────────────────────────
@@ -251,11 +273,16 @@ function applyFilters() {
   const dateFrom = document.getElementById('date-from').value;
   const dateTo   = document.getElementById('date-to').value;
 
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - HISTORY_DAYS);
+  const cutoffStr = cutoff.toISOString().slice(0, 10);
+
   const filtered = allMarkers.filter(({ article: a }) => {
     const cat = categorize(a.headline_en || a.headline);
     if (!activeCats.has(cat))        return false;
     if (!activeSrcs.has(a.source))   return false;
     if (!activeLangs.has(a.lang))    return false;
+    if (!showHistorical && a.published < cutoffStr) return false;
     if (dateFrom && a.published < dateFrom) return false;
     if (dateTo   && a.published > dateTo)   return false;
     if (query && !(
@@ -477,12 +504,9 @@ document.addEventListener('click', e => {
 document.addEventListener('keydown', e => { if (e.key === 'Escape') { hideSourcePopover(); closeSrcDropdown(); } });
 
 // ── Date defaults ─────────────────────────────────────────────────────────────
-function setDefaultDates(articles) {
-  const dates = articles.map(a => a.published).filter(Boolean).sort();
-  if (dates.length) {
-    document.getElementById('date-from').value = dates[0];
-    document.getElementById('date-to').value   = dates[dates.length - 1];
-  }
+function setDefaultDates() {
+  document.getElementById('date-from').value = '';
+  document.getElementById('date-to').value   = new Date().toISOString().slice(0, 10);
 }
 
 // ── Category chip wiring ──────────────────────────────────────────────────────
@@ -550,7 +574,9 @@ document.getElementById('reset-btn').addEventListener('click', () => {
     chip.classList.add('active'); chip.setAttribute('aria-checked', 'true');
   });
 
-  setDefaultDates(allArticles);
+  showHistorical = false;
+  localStorage.setItem('wl_history', '0');
+  setDefaultDates();
   applyFilters();
 });
 
@@ -604,7 +630,7 @@ fetch('news.json')
 
     buildLangFilters(articles);
     buildSourceFilters(articles);
-    setDefaultDates(articles);
+    setDefaultDates();
     applyFilters();
   })
   .catch(err => {

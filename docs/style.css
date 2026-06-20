@@ -539,6 +539,25 @@ input[type="date"]:focus {
   letter-spacing: 0.01em;
 }
 
+#history-bar {
+  font-size: 10.5px;
+  color: var(--text-faint);
+  text-align: center;
+  min-height: 14px;
+  letter-spacing: 0.01em;
+}
+.history-link {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--accent);
+  font-size: 10.5px;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: 0.01em;
+}
+.history-link:hover { text-decoration: underline; }
+
 #reset-btn {
   display: flex;
   align-items: center;
