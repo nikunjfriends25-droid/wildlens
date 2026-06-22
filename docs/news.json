@@ -1,5 +1,41 @@
 [
   {
+    "headline": "Village documents 600 species through a community-led survey",
+    "url": "https://india.mongabay.com/2026/06/village-documents-600-species-through-a-community-led-survey/",
+    "source": "Mongabay India",
+    "published": "2026-06-22",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
+    "headline": "Elephant calf rescued from abandoned well in Pathanamthitta",
+    "url": "https://www.thehindu.com/news/national/kerala/elephant-calf-rescued-from-abandoned-well-in-pathanamthitta/article71132677.ece",
+    "source": "The Hindu",
+    "published": "2026-06-22",
+    "place_name": "Pathanamthitta",
+    "lat": 9.2648,
+    "lon": 76.787
+  },
+  {
+    "headline": "Meghalaya State Zoo records first Stump-tailed macaque birth",
+    "url": "https://www.hindustantimes.com/india-news/meghalaya-state-zoo-records-first-stump-tailed-macaque-birth-101782117486880.html",
+    "source": "Hindustan Times",
+    "published": "2026-06-22",
+    "place_name": "Meghalaya",
+    "lat": 25.467,
+    "lon": 91.3662
+  },
+  {
+    "headline": "Wild elephant calf falls into well in Kerala's Pathanamthitta, rescue operation underway",
+    "url": "https://www.hindustantimes.com/india-news/wild-elephant-calf-falls-into-well-in-keralas-pathanamthitta-rescue-operation-underway-101782106862072.html",
+    "source": "Hindustan Times",
+    "published": "2026-06-22",
+    "place_name": "Pathanamthitta",
+    "lat": 9.2648,
+    "lon": 76.787
+  },
+  {
     "headline": "The Illusion of Mitigation: Translocating Corals Around Great Nicobar Island Will Kill Them",
     "url": "https://thewire.in/environment/great-nicobar-island-corals-translocating-illusion",
     "source": "The Wire",
@@ -43,6 +79,15 @@
     "place_name": "Odisha",
     "lat": 20.9517,
     "lon": 85.0985
+  },
+  {
+    "headline": "Forest officials mark Yoga Day with elephants in Jaldapara",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOU041MzRtaDdWQVY5aDZwWDU2NDg0MmVDbFBJMV9oMUhNbnBONUtmay1yVjh3em9iZWMtZUFaZVVtMDk1RjhCWGpYUXRqZVpIbWhUZU1MQ3RONnUzMmJpV3lSaW9YSTRTSGN1V2lFeDJZeHJma05sZG04RGJSYV9nMnZFR1ozX1pPUG1zbENGNWY0M3VGTDV6SDl1N2k5dE92N1QzTEFpenZVRjZKZ3VBWVdDcW9Ddk03UkRtWlprR3Q0Qk96NTVmU3hUMHJnSTdjc1UwUzR4b2Z3S05YLXZuVjd2bGhjQ2pxWHVrUlZWZXZOdw?oc=5",
+    "source": "MSN",
+    "published": "2026-06-21",
+    "place_name": "Jaldapara",
+    "lat": 26.7,
+    "lon": 89.65
   },
   {
     "headline": "Terror support network busted in Jammu &amp; Kashmir’s Kishtwar, government staffer among 2 OGWs held",
@@ -1539,6 +1584,15 @@
     "lon": 79.3833
   },
   {
+    "headline": "Arunachal Pradesh CM unveils new logo of 4th Edition of Eaglenest Bird Festival",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUDRUMkF2R2swVEVYMlNaM2p2aDNaM000QzVHay05a1YxOGRlN1NtdVFjYkRpcVIxUk1zRjhZNlR4RjdrWGV3SVR1TU4ybTNLRXlCQU1GMW9iUTcxQ2Fpd1FLcFc3NHA0U0pGOHI4Z2lZZjdwMU8tMTEzVy1kOV9aTmJXYlMxNjFmQ2lrSkpEVlpTcFBqQlFsT1ZhTkxwWEdQQkcyY3pSdHc?oc=5",
+    "source": "Newsonair",
+    "published": "2026-06-04",
+    "place_name": "Arunachal Pradesh",
+    "lat": 28.218,
+    "lon": 94.7278
+  },
+  {
     "headline": "The whistling pack hunter",
     "url": "https://india.mongabay.com/short-article/2026/06/the-whistling-pack-hunter/",
     "source": "Mongabay India",
@@ -1699,6 +1753,15 @@
     "place_name": "Tadoba",
     "lat": 20.2333,
     "lon": 79.3833
+  },
+  {
+    "headline": "Maharashtra clears Gadchiroli mining project of Lloyds Metals, says not in tiger corridor; maps show otherwise",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYTI3SXptQUhXWUplaDd1YzJlQmQ4ZEU5bW1QYWtHRkpQUnBPbFlTX2lQRk9RQzIzdk92SWxmelJYMHlPZGhLSERzbExCUThoblJWLTFSUzZTOWI1X2YwN0RDb2o4YmVmbEkteXdUc2hDckQ4WGFmU3hOakxHQ2o3Q1haZHhFY05fMGJsX2NzTHd5ZExlQWJxbzYxckg2UENuX25sWkJGRm1JS0h6OTh2bC1PeVctd2YyQ3BmMzV1bFZGcWF3NVpzTXd3QjlYMG96eWc?oc=5",
+    "source": "The Indian Express",
+    "published": "2026-06-01",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
   },
   {
     "headline": "Nagaland yields a new-to-science cascade frog species",
@@ -2311,6 +2374,15 @@
     "place_name": "Goa",
     "lat": 15.2993,
     "lon": 74.124
+  },
+  {
+    "headline": "Three previously unknown species of rove beetles discovered in Arunachal Pradesh",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQ0E1RF9lbVo5RVJYSGw1NWNHcDQ3X2hSbzExYWVKYURfemx4dHp2cGNvNEgtRVhyb1o3ckpFOVlENndvYmpSdEgyc2dQTnFoQTJaekxSb09Pa2NIYk5sOE43U2NXNkEzNVZJS0dpUHNoZ0dhV1hJU09rdjh0TnBRU3ZIbDRYYngzV2Y2NHVqSkhXdUp4eFpkcTlaYUhGWXVIR3NFVnF3d2hnUzFsLXJRNk1VdmhTS2RUX0ZuUnVYSHgyT2N2QW5SeDc0eHRKZGPSAdQBQVVfeXFMUFdJZzE2aG9fMWttZERJZm5ZMVF6cGdKdXBfR3RJX3hFS0hIX1V3aXBfUExLVElrWEYxYml4Zzc4Zl9RZXZlNFFmRVpHVVphUEZSWDdHRzlIMV9ENkZVWVBrNmJCeU1RVmx0LS1GcGZBazF3UVlBR2J6Uk1iRWN0X2VqVWZCMVlod3FuaUZ4bnE4N3F2UnppYVl2UG5YOEZkTnFia1c3Zk5ZUXUxX1NzYkdSbWZ0cmlhdTlacWlvT1FmVVR2Z1JjMzdIaDNJOFljSnYxdVI?oc=5",
+    "source": "Telegraph India",
+    "published": "2026-04-04",
+    "place_name": "Arunachal Pradesh",
+    "lat": 28.218,
+    "lon": 94.7278
   },
   {
     "headline": "40 Ex-Civil Servants Urge Assam to Withdraw Forest Force Poll Duty Order, Cite Legal Violations - TheWire.in",
@@ -3006,6 +3078,15 @@
     "lon": 79.0193
   },
   {
+    "headline": "New Strobilanthes Species Discovered in Arunachal Pradesh",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMVpPdFY0LTZOTl9fWV96eWhvR0R3aHBrUWtJYnR5TF9RT2VqQUpxWlFFUlU4MnlsNjdkcUZ3RjBwb2szVnlYVVY1STlRYUIzQ1dYdVlQR1dCMENQNGdxRnduWnlpenhKRHNXMk9uUnpJOE1YT1F6V2dHVnVYV01BVUp6bHlHS3NL?oc=5",
+    "source": "GK Today",
+    "published": "2026-01-27",
+    "place_name": "Arunachal Pradesh",
+    "lat": 28.218,
+    "lon": 94.7278
+  },
+  {
     "headline": "2,663 excluder devices to prevent turtle deaths in Tamil Nadu coasts",
     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNd05nOUpfQlg1a3BCRnZjcXc4bWhQOFlVd0EwZHVGMURIcEJrZTRXdUlvR2NKUlhlbVp5QVlHR1FIeHhGbVpldlBGVkphQkpneWswTjQwS2NCR2ZIOU5wTERISTJxREVVRFBlV3dybDVESWlsNUVhVjRnZmVCLWxkMm9femZoRlFUeWw5RHVRQ0ExcHNmU21fOG85U2JlcElSRmpUSVBfRnZJcG5CNUVFTFBJSkVPNUpMYmE5NjhZc1RHVjRPSmxPQk9R0gHXAUFVX3lxTE9QMkY2X1NGb1RYUDBXVzM4TS12Rm95dl9QRmdZTkxZZVZPbUdzRjBZYlFaaWZkdnZPNnN0YWZtdTJ3WGFZYkxRbVJZcmE5MEVpWGJ6b0N3QnZaRUFUMWFoN202YkJXYmlDWkFjRE5FRnNTM2lReHFwTHdXZjFidVNGcWRGb0hZdUxZei15bXlLTkEyRTZMaTloVF9OQTNMRWt6bm1IZzdOWGJmMnRRcl9nUm5TVklPZjNobXBuWW9zMEtzOENQaTU2OVcwa0taVHg5c0t3RmNR?oc=5",
     "source": "The New Indian Express",
@@ -3022,6 +3103,15 @@
     "place_name": "Ratapani Tiger Reserve",
     "lat": 22.9333,
     "lon": 77.6167
+  },
+  {
+    "headline": "Nagpur bench of HC orders suo motu PIL over spate of tiger deaths in Maharashtra | Mumbai news",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbGNLUmRXNC1TNTllbmpPRDl3aEZVYUc5RFNicWkyZjh0UGZ5bFBaUXFoZExjWGJWNWcwNkU4YXNfWVY2YWJRRmlmX0ZPejVEV1J0Y0xvdXlWdm5DbHJ3bU5GWC1VcTZqS1M2WlN5dG1oZzlabkgtUTl4Vzh6eUFEVUFub2VnSEFJUFJkbkRGWkRkVk1nemNFTWRfNTBhUDF3OUQ1MWNfSGtHQ2NPWkxvSXREZ0xCcjJPQnExemtKSklCNURIZi04bFlDQk9iSkJHdUhRYU9WMERGRXZDLXNGbHlOT2U0UdIB6wFBVV95cUxOWU82S0V3RU9XRkR1U2ROc1p0aFJ2ajBjb2VmekxIbFVTc3psRjQwS3BiSUhpUjVmYXZWaGpzbmt3d0FjUjNYRGZPU3dxZzBCY2NtMGpUbFBaOWRPYjJidEUyYmtZTVNRaW96QzBSR0FEZEZ3cEUxYWxqNmJrNjJxOGRWUjNKYjZvSlNwRndFUHBSbzRoX2x5YXMzMW1zQlB3bGNaOG1wR3J1T1BVY2x0c0UxWUk4M1hfdHVxQ1hidmlEUjh6MGpta3ZzTFNzVk9PMTNIQ05VRFpiZHppN1F5V1YzdkVmVXAzZ3V3?oc=5",
+    "source": "Hindustan Times",
+    "published": "2026-01-24",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
   },
   {
     "headline": "Reject mining projects in Maharashtra’s Tadoba Andhari Tiger Reserve corridor: Aaditya urges Centre",
@@ -3076,6 +3166,15 @@
     "place_name": "Tadoba Andhari Tiger Reserve",
     "lat": 20.2167,
     "lon": 79.3167
+  },
+  {
+    "headline": "New Ginger Species Discovered in Arunachal Pradesh’s Siang Valley",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTjhCT2FwSFFnb2tqS0RUZVdFMWNEUjhDbDIyU1F4MFZZdWRRa1p2eE1MQ1hRcTR4Tm5EM0JjVFltNWtFeUNxbnFPTEJTSVZHLXlwR2ZPbEJwN0sxaEJ3R0syWHNWRC0tdDF4ZC00UHVzbW11Q05OREpiZDlUOWdlUFNjMmdlekxrWlhJVXRmaFhpdw?oc=5",
+    "source": "GK Today",
+    "published": "2026-01-21",
+    "place_name": "Arunachal Pradesh",
+    "lat": 28.218,
+    "lon": 94.7278
   },
   {
     "headline": "Elephant Dies of Electrocution at Mango Orchard in Chittoor",
@@ -3726,6 +3825,15 @@
     "lon": 88.8806
   },
   {
+    "headline": "Six new species of butterflies discovered near Siang Valley in Arunachal Pradesh",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV1psQWl0bEJOSnRlTTVNX251VDZrNjUwLUoyMXJ0OGxKNEZJeDgxTEV0MkdsczR4Y2ZhRVR4UFdYNHVuSGRKYU5WQWhMdlBwcHJqRjBUbmZtSWxfcGhJV1daUngyU1NkaVJBclFxbFZyOV8xWHhMWDV1RXFOVTdjZ2lDMjZSR0NxRG11bGUyZ1RCX3ZYUDl1eGEwYnFrVDRUdkVManlWZ3Q5UQ?oc=5",
+    "source": "researchmatters.in",
+    "published": "2025-11-03",
+    "place_name": "Arunachal Pradesh",
+    "lat": 28.218,
+    "lon": 94.7278
+  },
+  {
     "headline": "Empowering Tiger Widows in the Sundarbans: Extending Mission Navshakti’s FAO-Recognized Model for Inclusive, Climate-Resilient Livelihoods | ICAR",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUFo5VkVOSlJLeEdqYWJXcjZaaWNvSHh2MXJ3STFZQmFnSFF5UGpXb2ZMc1dGRDhLSXVodktWLW1PdEtoTDI4UUZLcENVZ0NVVUIzdzZKZzBnUmFXc3Z2U2N5VXFndjBWSGFtU0hhTld1RG5uUzVoWnBkc1IxLWM2ZWhGQm52VHF2dWVhWjFxcThuM0ZUT09PVE44ZmZSYi1zcllTMkx5S1FYQnF4T1pnZU1mMHg5TjRW?oc=5",
     "source": "Indian Council Of Agricultural Research",
@@ -3832,6 +3940,24 @@
     "place_name": "Sundarbans",
     "lat": 21.9497,
     "lon": 88.8806
+  },
+  {
+    "headline": "New Begonia Species Named Chowna Buku Chulu Discovered in Arunachal Pradesh",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTG5YeGhrUXpBbE81cVVsRDVPZ1d1VFNQRU80Q1E4andkUzB2Nkh1ZTQtNXktel9vbWdITlUwdnIwWjhjclBDLWNCaWRPbzhBT2h0UExrYkY1Zk9hLXRnNzRoa0xzNzVtbEVJbjh2YlpmdXVSS3B6U1FWbHdMTDNmNEduRlJHNWtQWmcwSFNqM19kaXBfX215Q0wtald6S3Qx?oc=5",
+    "source": "GK Today",
+    "published": "2025-10-14",
+    "place_name": "Arunachal Pradesh",
+    "lat": 28.218,
+    "lon": 94.7278
+  },
+  {
+    "headline": "Sparkling Red Begonia Discovery Lights Up Arunachal Pradesh’s Biodiversity Hotspot",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZEVZZjczSUZXRTBLT2VmeG1ZVTlWa1ZIWHlYNXRzeUhxbHcyZUs3QmoxVmtnZ0pMYzBDRlVRSU5PeUZxQ2RXMVVvMEhPZEdrenI5LUllYjZUT09OWVpubVZ6bXBrWXE5WlBWNzBkLU8zUlV1Ui1KSU9fc3daM1lYZmZIMFJzaFRFVkRTX0Z6YjhTMk1pTEw1aHd5QXlVUDJxOFE3NElZWEE?oc=5",
+    "source": "Arunachal24",
+    "published": "2025-10-12",
+    "place_name": "Arunachal Pradesh",
+    "lat": 28.218,
+    "lon": 94.7278
   },
   {
     "headline": "DTE Ground Report: Uttarakhand’s state bird and other species are at grave risk as alpine meadows & jungles recede due to climate change & tourism",
@@ -4984,6 +5110,24 @@
     "place_name": "Chennai",
     "lat": 13.0827,
     "lon": 80.2707
+  },
+  {
+    "headline": "Trawler nets cause unprecedented loss of 1000 turtles along Tamil Nadu coastline",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOV2NzaDU0UGVkVjlULUVLblJDS2tDYkY3ZFcyRWozY2dGM2VWNTFxcGR6TUhXbGtCdU16TVlKaUpBM0pFNVFuRlFoSnl6bGlCWXphVVMxNk1XQlFNUUUzQzE5QzdsdDlST1AxajlISnNUbEF3eHA4LTNzVmhObHhNaWw4QUp2aHN3RmdrSnVHZlZiakdSQlYwaFZWT3M0SVloSDZ2VThpanhvNFkydFRuNWtrWXVnajdUVk1iOS1jVnk3bHdBZm5RcDAzd3Z5Y1dnbVczUVk4cy1Id0dPWmRkYUd30gHiAUFVX3lxTE5XY3NoNTRQZWRWOVQtRUtuUkNLa0NiRjdkVzJFajNjZ0YzZVY1MXFwZHpNSFdsa0J1TXpNWUppSkEzSkU1UW5GUWhKeXpsaUJZemFVUzE2TVdCUU1RRTNDMTlDN2x0OVJPUDFqOUhKc1RsQXd4cDgtM3NWaE5seE1pbDhBSnZoc3dGZ2tKdUdmVmJqR1JCVjBoVlZPczRJWWhINnZVOGlqeG80WTJ0VG41a2tZdWdqN1RWTWI5LWNWeTdsd0FmblFwMDN3dnljV2dtVzNRWThzLUh3R09aZGRhR3c?oc=5",
+    "source": "The New Indian Express",
+    "published": "2025-01-25",
+    "place_name": "Tamil Nadu",
+    "lat": 11.1271,
+    "lon": 78.6569
+  },
+  {
+    "headline": "Over 500 dead Olive Ridley turtles wash ashore in Tamil Nadu: Report",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVG1wQ081bzRyY3NVOGloaE9SWEUtZTBfOTZsZjQxZkJRUjBSc1JWcm1wN0NKY2RQR0xnR0JsRUdSSnFVeGo2UEtWQ19ISV96Ym9kRGtBRFJQMFZ2OWRPZjQzbXh5UjlKel9xMGt0MnVHdUc5N1ZhRjYwcGctakNkY210X0dyM3lGaEc1MWQtdVE0R0dvbm9sQkE5Uzl0enpuYUHSAacBQVVfeXFMUHhwYW8wRDhNNEFITU9COC1GZmpxTGEzS29RSzF5UTVnQVNMMmIzdE91MkhpcWZ0RXgxS0FmcUdOTlRlbFhvaGFrYnA2eWp5aXZqWGdNY2xfemt2UC16MFRUdXNacFJSTmNPbFR0cHprQXJtT3lSRmIzMFgtb0dwWVlHYXF2QWhPOHBPRlJuZ0FLY2tWOTdIZUNLV2J1cVFFNGNhdGtwamM?oc=5",
+    "source": "Scroll.in",
+    "published": "2025-01-20",
+    "place_name": "Tamil Nadu",
+    "lat": 11.1271,
+    "lon": 78.6569
   },
   {
     "headline": "Tamil Nadu junks Turtle Excluder Devices, kills Olive Ridleys en masse",
@@ -6282,6 +6426,15 @@
     "lon": 74.124
   },
   {
+    "headline": "Monitor lizard skins seized, two poachers held in Odisha",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZUxIZ0xvdUR3S0h6MW1zMnlZVHJqZkF0cDlxeFhHc3hxNG11bWI1Mnk1NDB5WnRHUTVfenZlelBDX0lldGplcE5fQXlIam9ZM3RyTjZ5eEpJSlFCZHFHWHZVZ0EtMFNiajA1WlRzZEpTUHh2MG1RNU9kZ2VCOHJndUQ5c3J2RXZkRzJ1UUkwZ25iSW5xRGpfMDJMTnlSZEYtVGxOekk4bXZhRjFBa0t0cEhHZmZEcWVtcmhJb0VxMmdwclZGZVHSAdMBQVVfeXFMUGlyTzBhRFNVaGJfRHRyRFlOQ1k0TWNyYmRoX1ExbmRwcS14NFZNZDdUQ1QxeEZaUVBKRl9WdFhhUlE1OGpXRVlZT2ZNcU9CZTkwcmd4cGpIdkhUMnpPN1JxZkNUdTBka205bkdpRWszeFEwdVZ0ZWxqYUJ5V1VfVWV6ZTN4SE5laU1zdTNwc3pCb3FQcjFUcG5Sa1dsLVJKc0dRcDRyTi1PME9CVTZ5RlY1SlRWU0ZZN0V3aGNydkNTVEtudEg4VFNLMWdnQmJCRE1TQQ?oc=5",
+    "source": "The New Indian Express",
+    "published": "2021-09-18",
+    "place_name": "Odisha",
+    "lat": 20.9517,
+    "lon": 85.0985
+  },
+  {
     "headline": "Tamil Nadu to set up India’s first Dugong Conservation Reserve",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUUR4QWc2YjlMdUhEeEZoZUt5VVhXXzNyRmpyekFWOTdKdURnY2NSRkV3dENJYkVQeGc1Qm9Jb3ZEN1YtRjB3RVNKazNZalpyYTliLUg1bmtUZzcxYWl6Y1RWeGdBVWJGVkFTTTZJWTBETjhmaVFnaGlxNFlTNzNCZDJyZUZVWWZ1ZDE2V2Zn?oc=5",
     "source": "GK Today",
@@ -6957,6 +7110,33 @@
     "lon": 78.6569
   },
   {
+    "headline": "Former Madhya Pradesh CM Babulal Gaur passes away",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbVlFdm1yeGMyWDZHc2F3QlFMblM3dmVSck9zSm5OS2hGNG5NQkFvQUJqU1BsdnctdjZMcXdfb3JzcmRibE5SeDVuaUZrUmhlTXJ0QW1md2NIUjY0TzdEVHItSkR0Szg4QzNiNHpjWjkybWRZQm5TYUc1SHl1Z1dJaUl6QmhjSHZlNk1LdjRBUHd0WHl6aF9UMi1xbEtDMkFQdGFwS0hhYnlNb3Vx0gGzAUFVX3lxTFAyZHVCdy0wQ01BSUlhOFd3UG5pRVZEb0UwLUdxWDF6VHFwMW03WkxEMXl1RTFEclRfcjdQRVMzOVpyUlEtRlJYN2NPdEpmUHVoU04yQ05qNmFzQ1FZOWowWXlsQk9qYTVyU0ltM3c1bDZoUElvQXVBZnZYSWtYanpoZWR4eXpJVmlHdzNvVTllVGpwamtGUDFBYUo3WWk4RGJZeWdzN1liNnBGUFNXeVlaeFBn?oc=5",
+    "source": "The Hindu",
+    "published": "2019-08-21",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
+  },
+  {
+    "headline": "Former Madhya Pradesh CM Babulal Gaur passes away at 89",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYU80VjFlMVBaOENNWmRfQ0VMNHduLUVvNFpSdXRraHE3ejdsQUlRN2ZTVjhKbHZWS0xxbDNROVZBMU1jcF9FblpfcTFSTm8xXzdkTlVYU2F2ZWEyV1RmVV9OM3BGMGRFVFlqSHBUS0h0S2lTTjBPUmt5emd2OEFseHYyT2lBMEs4MjQ3b9IBkwFBVV95cUxPZWw2X2pwOUxlRFFaa0ZHdFdGNUhWR3ZraFRZZmQwVVNoUzVOaWZWTk44RlN3V05SbHJ0NEI0bTBEbXhwem16NzlDckFJUHYyQlM0VUFmY0tlbkNXWXJYVXdhTzhna0R5N0gwS1NoNjBxLXhBZDJlbHpEb3JiY0FSLTUxZ1ZJM01kLWdZLVVHeTNGcFE?oc=5",
+    "source": "The Indian Express",
+    "published": "2019-08-21",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
+  },
+  {
+    "headline": "Former Madhya Pradesh CM Babulal Gaur dies at 89",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa1Z0Rmt3c1VnSFh5cmxxWlIxdFJaYkd4M2ZSaERNcTVLMDdhTEEyTmNZbXZ4Z0N0cVY3Qm5GOVU0a0Y2b2JlVTIxdjRsNURXVVktaGp5alRITURPR2dCV1VUajVpdlRmS3JiRVlEVEJ3OFRFRUNZUkxieVVPbEFNT1Y4MXFKRDFtbGZ6Q2xsRHJNdVVTQURqOUo3dUlmZW03alZjV3NvaDfSAa4BQVVfeXFMUDM1eGtiOS1vSG5hQ0NBOWllVHAzNm4xZ3p2Ul9ERHgydHNqUXBUUUptMTFuNFRWdk83aGVLZWJZVjhHMkcyUWhzdzczZ2F6UjlqUEFPaFY1RVZEY0trWW0tX0JyMXRCekJ1c3FVYmNiZmdoNzY0UWZsQm5GSGdfeFdyTXdIZ09wWHpaVzZxeDlha0NWaHlWX0R1RnE4Qk5PQmx0Y2JHYXJac3hFNkl3?oc=5",
+    "source": "India Today",
+    "published": "2019-08-21",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
+  },
+  {
     "headline": "From Kerala to Cannes: A ‘roar trip’ traversing 25 countries to save the tiger",
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTURvUXd2NHI4ZGoyZFZ2R0QxUGxWUXd4Z0V1MURxSmxpeEVwb1pLX1YtWlkxWnpHdGtPRGpQTmd6M0IySl91MHFmWFpCZjBRemotZ0liQ0Z0TUZFdlVqX2E3b1FfYk5Gd3RmazBFNU5YSE5pYndpOXdiYlhUNFVxY0tmY08ydlR0b1BrdlBoZUJJUnVCUHNydXdTZmJpcnNOSzhqZk1oaERQNlBSbXdnQ29jTkRKU1BlY08xQXROWXZuZVg1bVZpejFVZjBTd9IB0wFBVV95cUxQN2pBSDhKcU44WWxlbnhGYndheFpTYnNWc0xEaVFNR3A5emRBdFBaTXkwNFRZZkNqN0pXUFg2NXF2ckhPWk5RUXZvd0dON01MUzdnNnhDeWxoSV9xcVBPaFFyOU5fVWxIT3lIWWRXU2JOVlhiN0ltV2NNajVqZVhfWkV4Q2pWdlQ2QmhJZEdHcVoyb0lNTjdHQnBudzhISjBZSVlINlExc0QxRlZzeExiQzFBRkg2RERjSFJnX3Q5N19faDNJTENGcm1PSU81b2huVjdr?oc=5",
     "source": "Telegraph India",
@@ -7065,6 +7245,15 @@
     "lon": 85.0985
   },
   {
+    "headline": "Former Madhya Pradesh CM Babulal Gaur bats for police commissionerate system to check crimes",
+    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQcEIzaDhKQl8wS1FpbEM2N1pvS01NNGltV01lZWtTcTIyUmNWd1l0OE82Y0FoRU9leFprd2RDMjNNWmFNbFB4S2J0UWtBdFhhbkFvMGJKaVUzNmpSZGVZZ0VpbkRXMmVjXzNlRzQ1dlpsT01UaGp0dWx2b3l3M1FlSi05eG5JeGFZcktSeXhGV2o5R05oQnlPR1FmZUxJWXV3aDFFaHMtZXdQNTJybnNHSlBzSGY0R1NMZ29KSW9lOG1FcTN0LUMzOU5MUVphc21vNnB3ZzhnWUJFR1k5b1A4aHJDSWdkYVctM252Z9IB-gFBVV95cUxOeUVWeDJFa0h1SUc1NkdST1dfbjNySURQTWRTLWZIN1JmSmVhMXhTVGJzeHQtdkpjcEdSU1hPMTN2MjY2YzBDamxWNEVVTUhQSGtLWms1cXJPUGFUQVpWZkhRXzg3VS1zYURTZ3UtVjlQdU9DdUZlYWRSbzFWTmhHWUNCcWJ3QkNDRXl4RHlDN2I1eUZhR1huYTdnYUVQRWJGbG9wYzdUUGMweHlRZ3VQMzN0Ri1WUzdfS0hNRTRybWVZc1B3cVMySklpaHByR3lhbnhqNW1Uam5sOVhNYjNYZEFtczZveGF6SVN2NEVPQ1EzQndhM0JiVkVR?oc=5",
+    "source": "The New Indian Express",
+    "published": "2018-04-01",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
+  },
+  {
     "headline": "Spotting a tiger in the Sunderbans National Park, West Bengal, India",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMnljYlV5OXg1TkhjREhCOGZwN0pmc09MUkI1T2dLdFFDcDF5b1JQUHRHNTh2NlBTSkZxSzBYQTl6SWZvLWhzZ28zTzU3LS0wNFdtVHUtQk5OeDY4eVJ3NktZZUc3aHpFTi1vSEpUVVZ4bFVlMWhGRFJ6UHdqcXd6cTlUMl9zc1FKblhz?oc=5",
     "source": "The Travel Magazine",
@@ -7072,6 +7261,15 @@
     "place_name": "West Bengal",
     "lat": 22.9868,
     "lon": 87.855
+  },
+  {
+    "headline": "Living through forests",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBZTTZDejhJSzlqaWtxS0lrMUlRdXZUTFBuNFU3alQ4bjRlWUdtN24xWlJPVDNSVFp2ajZKaHZTcVFnSjRFUnNqcUJCcTVzZw?oc=5",
+    "source": "Assam Times",
+    "published": "2018-03-22",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
   },
   {
     "headline": "Odisha's lesser-known wildlife sanctuaries call out to tired souls seeking adventure",
@@ -7135,6 +7333,15 @@
     "place_name": "Mumbai",
     "lat": 19.076,
     "lon": 72.8777
+  },
+  {
+    "headline": "Tiger found dead in Satpura reserve, 12th this year in Madhya Pradesh | Hindustan Times",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQU2NNX3JDdUhFaVlhMnpnUFVtNmRCMUg0T3ZQNFVGVUNtdEtfSV9ZcHhQZlVDQm1NXy1qWkV0Y2ZMTTFSbWYtNjZPMzB6bE1oMW9CSzRORl9IRXc1RUVBb0VtTjVmVmRlZktScVJhc2Y5QWQ2SU1xbG5XZlZ1cktIZ1BjeVdDdU5lZEtoMkNCZEotWEM5SkhVQkp3aW1JYnk0bzBQa2xVd2pmcEdFVHRlVHpyZDVDZkJ4cXpaTG8tQjZ3WmJET2lkMkF4TXpxODg1UjBFWU5tONIB3AFBVV95cUxNOXBrd09rVjVMWHZuekNwa05ER1JCQl9nWGNzamNNcGdNZ0toV2VmZmd4dXl6OS1qbFFRUHZXNlB0c1hHUWpQR2VhSFd6NW10bWhZQzhVU21BY2tvYjJmWVhxemtORWJ5R2VxRHczRlpxbEVzQnUzdUw0R1pxaUNJWlpmMGZ5Wm4wenZ4bFQ4ME5DajUzdmRXUE5feWRLLWEtZGljRmRnRDZvQldXQmR0a1NET3RCSnNuVUdGc0RCUThORk9ITFJya2tfekJFQ2EtLUpyTjViZEhzOTJj?oc=5",
+    "source": "Hindustan Times",
+    "published": "2017-05-07",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
   },
   {
     "headline": "Rare Egyptian vulture rescued from Delhi",
@@ -7209,6 +7416,15 @@
     "lon": 92.9376
   },
   {
+    "headline": "Madhya Pradesh cabinet reshuffle: Home minister Babulal Gaur, PWD minister Sartaj Singh dropped on grounds of advanced age",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbzZ0RF9tXzRaaWFYajBZWmVDTWh6Skl6Tk1lRE55NjVkYTlCQ1NvdGo2YVJFaEZ3Uk5CNE9EWk93ZFczTzBYTHRES0gxUnJsRG9TZDk3ejNNVEJyaWc3TXBSRWw2SjloQTAwVXFaU1ZIMHMxZEtlNWVfa1p5RWZ5bjA5UzZnbVBaNVdhbGdlZzFmS3JkSndqQ2NSUkt3S3dKdUFXX2kwandyVTdjaEFiNGphWEo1bUk3dWVxdmlJVmNxUUJYSERFbUJzY2tNZ19NVnp1VkE3NGV2VTVmRmJsakx3?oc=5",
+    "source": "India Today",
+    "published": "2016-06-30",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
+  },
+  {
     "headline": "Uttarakhand forest fires spread to 13 districts | India News",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNajFJdFFCTHhLVzRWYVhtbFJwbVQtQzdDZDV4MTB3aERlUHhSWF9lSDBsYWVxaUxjUW9rRjlXQTMtTWpkYW83c2d6dFp5MkxrbFlGRUgtRlFkQkNISFd3U2FlRHR0RWJuOVRNcFljNVV2WmZRYnRib25HY1FCNDN3bHhmMjlMSDdHWDFGRkc3MC05bGJvMGVrcjdZWVN2WlZzSmhseUdDT0dfYVFBR0g2eDRDc1pZNlFDSnF0VnMwQjh0Uk9iNTN3RdIBzgFBVV95cUxOSXFlNG5SSU5GSTA1N1hrWTRXaUVoVXlUVGxMaEdpMTN1RF9qcmhIT0ZRZEVvemQ0dHpmLV9Fb1pIX2N1anpPOVMwcnZGbzBkaTVhcEF4bjBhTHR4czI5NXFmb3ducElwNmd1MTU4VDNFRGFDWFYxazZ2c3h0VGc2ZHFDdFhEX3E4Rnlqb2MxaDlpeUJOUlA5MVFYV3FzMmExeXpHRkxSM0I0aThnMmRoQk1CT3pLQ2R6MzNSUXQxXzY1Z3o0NnBhXzZfdDVJdw?oc=5",
     "source": "Hindustan Times",
@@ -7225,6 +7441,15 @@
     "place_name": "Uttarakhand",
     "lat": 30.0668,
     "lon": 79.0193
+  },
+  {
+    "headline": "Madhya Pradesh Minister Babulal Gaur's 'Pat' On Woman's Back Becomes Controversial",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPellWcDI5MkZkdTU1NVpnUjFGbXotUDJDaFlvX1lveWwxMkZGbHdTelZwd3BnN1FaTnljYjFPVWVDdTc4Q3pFNkROSVZab1lxakFsQ1k2Sng1Vi12T184QmtnQ0xnT09VUTEyQVF0SnJDWVUydlBLaEdOLURpd21nS2lkOGdncnp6NC02di1Lc3RYUU1Gd3BnaUtiQlBTQ2lhSFBQYUp6YnlVeXhDeXNBRVU2TGZCYnFqNFE?oc=5",
+    "source": "NDTV",
+    "published": "2016-04-21",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
   },
   {
     "headline": "Snow leopards make presence felt in Uttarakhand",
