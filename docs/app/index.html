@@ -61,6 +61,16 @@
   <!-- Map -->
   <main id="map" aria-label="Interactive wildlife news map of India"></main>
 
+  <!-- Hotspot card -->
+  <div id="hotspot-card" hidden aria-live="polite">
+    <div id="hotspot-header">
+      <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Hotspot
+    </div>
+    <div id="hotspot-place"></div>
+    <div id="hotspot-count"></div>
+  </div>
+
   <!-- Article count badge -->
   <div id="count-badge" aria-live="polite" aria-atomic="true"></div>
 
@@ -87,6 +97,7 @@
   <!-- Filter sheet -->
   <div id="filter-sheet" role="dialog" aria-modal="true" aria-label="Filters" aria-hidden="true">
     <div class="sheet-handle" aria-hidden="true"></div>
+    <div id="week-stats" aria-live="polite"></div>
     <div class="sheet-head">
       <span class="sheet-title">Filters</span>
       <button class="sheet-close" aria-label="Close filters">

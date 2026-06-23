@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
 
-  <link rel="stylesheet" href="style.css?v=6" />
+  <link rel="stylesheet" href="style.css?v=7" />
   <link rel="manifest" href="/manifest.json" />
   <link rel="icon" href="/icons/icon.svg" type="image/svg+xml" />
 </head>
@@ -169,6 +169,7 @@
     <!-- Footer -->
     <div id="panel-footer">
       <div id="stats" aria-live="polite"></div>
+      <div id="week-stats" aria-live="polite"></div>
       <div id="history-bar"></div>
       <button id="reset-btn">
         <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -189,6 +190,16 @@
     </div>
 
   </aside>
+
+  <!-- ── Hotspot card ──────────────────────────────────────────────────── -->
+  <div id="hotspot-card" hidden aria-live="polite">
+    <div id="hotspot-header">
+      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Hotspot · This week
+    </div>
+    <div id="hotspot-place"></div>
+    <div id="hotspot-count"></div>
+  </div>
 
   <!-- ── Source info popover ──────────────────────────────────────────── -->
   <div id="src-popover" hidden role="tooltip" aria-live="polite"></div>
@@ -213,7 +224,7 @@
   <!-- Scripts -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-  <script src="map.js?v=5"></script>
+  <script src="map.js?v=6"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {

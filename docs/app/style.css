@@ -11,6 +11,7 @@
   --text-primary:   #f0f0f0;
   --text-secondary: #aaaaaa;
   --text-muted:     #666666;
+  --text-faint:     #444444;
   --border:      rgba(255,255,255,0.07);
   --border-mid:  rgba(255,255,255,0.12);
   --r-sm:   8px;
@@ -239,6 +240,38 @@ a { color: inherit; text-decoration: none; }
   background: rgba(255,255,255,0.14);
   border-radius: 2px;
   margin: 10px auto 14px;
+}
+
+#week-stats {
+  font-size: 11px;
+  color: var(--text-faint);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0 4px;
+  padding: 8px 0 14px;
+  min-height: 12px;
+  letter-spacing: 0.01em;
+}
+.week-pill {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #060c06;
+  background: var(--text-faint);
+  border-radius: 9999px;
+  padding: 1px 6px;
+  margin-right: 3px;
+  flex-shrink: 0;
+}
+.week-top { color: var(--text-secondary); font-weight: 500; }
+
+.cat-chip-count {
+  font-size: 10px;
+  font-weight: 700;
+  opacity: 0.7;
+  margin-left: 2px;
 }
 
 .sheet-head {
@@ -585,4 +618,46 @@ a { color: inherit; text-decoration: none; }
   #bottom-bar { flex-direction: row; align-items: center; }
   #cat-strip { flex: 1; }
   #bottom-actions { flex-shrink: 0; }
+}
+
+/* ── Hotspot card ────────────────────────────────────────────────────────────── */
+#hotspot-card {
+  position: fixed;
+  top: calc(var(--safe-top) + 72px);
+  right: calc(var(--safe-rgt) + 10px);
+  z-index: 90;
+  background: rgba(10,20,10,0.88);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 12px;
+  padding: 8px 12px;
+  min-width: 130px;
+  max-width: 180px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  pointer-events: none;
+}
+#hotspot-card[hidden] { display: none; }
+#hotspot-header {
+  font-size: 8.5px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 4px;
+}
+#hotspot-place {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#hotspot-count {
+  font-size: 10.5px;
+  color: var(--text-muted);
+  margin-top: 1px;
 }

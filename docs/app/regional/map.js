@@ -139,6 +139,52 @@ function applyFilters() {
   filtered.forEach(({ marker }) => clusters.addLayer(marker));
   updateCountBadge(filtered.length, allArticles.length);
   updateHistoryBar();
+  updateLangCounters(filtered);
+}
+
+// ── Weekly stats + hotspot ────────────────────────────────────────────────────
+function computeWeeklyStats(articles) {
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - 7);
+  const cutoffStr = cutoff.toISOString().slice(0, 10);
+  const recent = articles.filter(a => a.published >= cutoffStr);
+  const bar = document.getElementById('week-stats');
+  if (!bar) return;
+  if (!recent.length) { bar.innerHTML = ''; return; }
+  const places = new Set(recent.map(a => a.place_name).filter(Boolean));
+  const langs  = new Set(recent.map(a => a.lang).filter(Boolean));
+  bar.innerHTML = `<span class="week-pill">7 days</span>${recent.length} articles · ${langs.size} language${langs.size !== 1 ? 's' : ''} · ${places.size} places`;
+}
+
+function computeHotspot(articles) {
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - 7);
+  const cutoffStr = cutoff.toISOString().slice(0, 10);
+  const recent = articles.filter(a => a.published >= cutoffStr && a.place_name);
+  const counts = {};
+  recent.forEach(a => { counts[a.place_name]=(counts[a.place_name]||0)+1; });
+  const top = Object.entries(counts).sort((a,b) => b[1]-a[1])[0];
+  const card = document.getElementById('hotspot-card');
+  if (!card) return;
+  if (!top || top[1] < 2) { card.setAttribute('hidden',''); return; }
+  card.removeAttribute('hidden');
+  document.getElementById('hotspot-place').textContent = top[0];
+  document.getElementById('hotspot-count').textContent = `${top[1]} articles`;
+}
+
+function updateLangCounters(filtered) {
+  const counts = {};
+  filtered.forEach(({article:a}) => { const l = a.lang||'Other'; counts[l]=(counts[l]||0)+1; });
+  document.querySelectorAll('#lang-chips .lang-chip').forEach(chip => {
+    const lang = chip.dataset.lang;
+    let el = chip.querySelector('.cat-chip-count');
+    if (!el) {
+      el = document.createElement('span');
+      el.className = 'cat-chip-count';
+      chip.appendChild(el);
+    }
+    el.textContent = counts[lang] || 0;
+  });
 }
 
 // ── History bar ───────────────────────────────────────────────────────────────
@@ -423,6 +469,8 @@ fetch('../../regional/news.json')
 
     buildSourceFilters(articles);
     setDefaultDates();
+    computeWeeklyStats(articles);
+    computeHotspot(articles);
     applyFilters();
   })
   .catch(err => {
