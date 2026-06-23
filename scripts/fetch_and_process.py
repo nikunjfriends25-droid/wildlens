@@ -719,6 +719,9 @@ EXCLUDE_KEYWORDS = [
     'army operation', 'security forces', 'paramilitary', 'naxal', 'maoist', 'insurgent',
     'drone strike', 'airstrike', 'gunfight', 'firing', 'crpf', 'bsf',
     'bunker', 'hideout', 'hideouts', 'smuggler', 'smugglers',
+    'lone-wolf', 'lone wolf',  # terror attack terminology — not the animal
+    # Awards / prizes that share animal/ecology words
+    'wolf prize',  # physics/mathematics prize — not the animal
     # Politics / government
     'election', 'constituency', 'mla', 'mp ', ' mp,', 'cabinet approves',
     'union cabinet', 'lok sabha', 'rajya sabha', 'parliament',
