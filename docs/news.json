@@ -45,6 +45,51 @@
     "lon": 77.1734
   },
   {
+    "headline": "Kerala govt plans multi-layer defence against human-wildlife conflict: Forest Minister",
+    "url": "https://www.thehindu.com/news/national/kerala/kerala-govt-plans-multi-layer-defence-against-human-wildlife-conflict-forest-minister/article71141197.ece",
+    "source": "The Hindu",
+    "published": "2026-06-24",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
+    "headline": "Dolphin Conservation in Gujarat",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMllkNklzVXFnUFl6MjN2aWdHQnRaakwzcVlPZ0FjekVKV201aDVvN1AxdzNzbWJyN3pTaFFnYUwtYXZMWUtyUHkzaTFVYUFicDdseGppdXVfelBRMmpmR3hObGVoNWpvRF9KODhMWEl6eXpqc09JWUxZd05VanpEcUxEQ29Gb1MyUEJ6QkRlZXRJTFo3anpn?oc=5",
+    "source": "Drishti IAS",
+    "published": "2026-06-24",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
+  },
+  {
+    "headline": "Hindustan Copper receives forest clearance for Chandmari copper mine in Rajasthan",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWkVkM0dTSVFUcGZIZHFUbzZpN2NPNEVxQ2Nrc3YyLWtZZEpOdTFtaGY1c1FHTGZGYWVEbTlsMlNKb0ZNQ3ZwY2RTYzJ5bC1pU19YUkRnRzl4WmJPRzdFeS02RmZoWWFMcnVFemNwZG5HTE5IZGRZSDZRdlB2d2Z0TXRORmRrSFZDUGlBTXdBRWo3VnU5bEFsNUNVR3V6cGpyYzNVcHJmQjM1M3JQbzI1dkVhTVPSAcIBQVVfeXFMT1k1MnpzekVRTUxsSS0zRlY0cDNPeE90TkRKZGh1N3F4QU5FU2JCQlhJZ1Rwd1JjbkNwcG81bmVWSVFmNlYtUUxVUWRCUlk5dUg4aVg3Y3FiaDNROFNIQ2RhcFpPYjNZWHZWbV9WQ2p0bTNGOVo2ek1MWjJibElnckV3bjJkM2duZ2pfVGJKaVVUbnhkM1VaZzUyTHVoeU43TmxDYkFWYm15a2ZLT01uMDFOZ0xsQTdkeEhQSkJKdHNXbmc?oc=5",
+    "source": "PSU Watch",
+    "published": "2026-06-24",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "From Melghat to Ranthambore: Captive-bred vulture flies over 3,300 km across India",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWHNJMXZIaVN2a2E1VkhkTElHX3BkUVN4eDZ2aXVEX09DdWd6anVCVUQybS1OdGtGV01ucWNRYlVFUGgxNUNOMzRMWFJrM0tKMjFodk5PZ0lid0lTM1piai1XY3lIT25UYU9STkh5S1BwNHYzeDNua3g5T090NkMwVFFVN2U4VUNVMUZ0bnF4bEtGMnNxYXFza0JkX0pLbWVfaGRWUkNwTHM3ZXhqdnVtZDlCZw?oc=5",
+    "source": "The Indian Express",
+    "published": "2026-06-24",
+    "place_name": "Melghat",
+    "lat": 21.5,
+    "lon": 77.0
+  },
+  {
+    "headline": "Captive-Bred Vulture Soars 3,334 Km From Maharashtra To Ranthambore",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNV1puZVFSZGs4WDgwd1J2WllXQmpDZF9QX09mUnltUTFfVnczTkJTeDhuS3MzdlZmbXkxZlI4enFUTHpPTU5zODZEVFpXcW0tZTFFZ1dGaFl0OGZNcllZd2JGU2pwcFJ1NC1sczVCLWtkUVZPZ2dCTjhMVW0zSWNiWURLYmhzbkhadjRNaDBfR0U2c1dCVlBvWWRBRUgxMGvSAaMBQVVfeXFMTTktdVdnR0otT3dRZU41SktKX0RDdWZteENGRFBwUHE2WHVwSzJvcElqaWdSZVFYMUFpTGpZQXFuSF9IWjE3Ry1TZnBRdExUd2Q1TndDaXdNazhycEZVSEl2Z1l5Ykk0WnVCRHVJS2NVdktadDJhUm5UUVRSeVc3YlNVQWpYeFdlNFYtSlNaaWFWVXFwSmMwU084amtuY0hrZVo2Yw?oc=5",
+    "source": "Daily Excelsior",
+    "published": "2026-06-24",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
     "headline": "Polluted creek water entering DPS Flamingo Lake is threat to Navi Mumbai’s wetlands: study",
     "url": "https://www.thehindu.com/news/cities/mumbai/polluted-creek-water-enteringdps-flamingo-lake-is-threat-to-navi-mumbais-wetlands-study/article71133346.ece",
     "source": "The Hindu",
@@ -4770,6 +4815,15 @@
     "lon": 79.1003
   },
   {
+    "headline": "NICRA-TDC Project launched at Cyclone-affected Samsernagar Village of Sundarbans of West Bengal",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1ZU1hRODdZVUtVdDE0dEhSNjBSd3MtWmhuckRMUTBsZkczLXVFTFN0VS02dkVmOGJ2VW56Q3lUek0yaTlrWGc?oc=5",
+    "source": "Indian Council Of Agricultural Research",
+    "published": "2025-06-07",
+    "place_name": "West Bengal",
+    "lat": 22.9868,
+    "lon": 87.855
+  },
+  {
     "headline": "Farmer Trampled To Death As Wild Elephant Threat Escalates In Chittoor",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbkZ1Wkx1OTNzMzIwVUxfdko2V2JtVWpiOEZiWjI5Q2JYbWVscDlVV2g4SzNXMjVZbHRuT3ZOMEJHZ3A4RE00dl9EalJ5ZG9uQzRYNmE0czh6WlRjT2o2V2NYVVAySjRTNktRRU9zTXVpWFhJZkgwWlpjTVRzMlNhTWROU1owOExSR0ZJODhzNjI4bm9lczFiOXY4M1phUUQ2RzJIRmE5ZVVDVGRqeWl4aXVuOVk3b2lyRVJWV182aXNCaklqcVpaYnpiSEhUTWl0a3haLTFldWPSAd4BQVVfeXFMTWlJZWdWeGQwQ2Fxc1drTWl6Ump3blZkQkM4THFZeXozdGRRZ0RsRTNzOFlGUlQwNTF4aU13d0pfVVZjam81akFtOUl6M283aGtYdk1ZWHdhb3htVk56MTNMUG9makxoX2t3cm9JMEhSRkJiQUFuZkRpQ2pFeW1GSHRIcGx2Q3NRVG1XRnkzWlBYd2s4OWhDcnBjUzZZTTA3T0hsZnZ5aW5jSEY2MTNnN3BrREtzeTFJSTRnalBaQkpiZ2l4aXNILVhTYXZIRGdYa3ZtLWJGb0x5cWVubTJn?oc=5",
     "source": "Deccan Chronicle",
@@ -4777,6 +4831,15 @@
     "place_name": "Chittoor",
     "lat": 13.2172,
     "lon": 79.1003
+  },
+  {
+    "headline": "West Bengal's Sundarbans Have Been Shut To Tourists For Three Months, Here's Why",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTWVmS1B1aUxJSlJONXVna1ByWGhKSUdGM1Zjb2gyZm5zRjJjNG96NTBFTFBBNHVNV3VkTFJHVlVvUmlVQnBTeTJaczBodVAtdlRmLTFFbUoyR2lXN1NnR3lwMjhtNmZoWVV6Rlk3UGxIM2lTWnltWW8zdXJNcGpXUENZT1B5b29RbThoOXlxNk8xUl9QZnZORGphSzBRUmdHalVmVnRiaXRjOFYyWGZxa1NDOGlVTjNFZ0t4NmJpNnlsQk1QSkExRWktbkczM2RjY3Nz0gHYAUFVX3lxTE1jbzBEOFVrR183cVdCaWFXM1JTSXBFWXR3QWhVUnY5eldadk5QVHBqVzVNRUM4RmMtNXdheWZ4cFFUTVQyTEh5ZWJtTTVfNEtTSmxDeHZKN1pVaFIyMWU0ZmI4MGRGM3Q3WXNDOXVURXFPb1FEZmd4YkhuaVJhcmtXZXlWYXY5bmJOYmNGUG9ja1JvbFJHakl2V2FzXzNPcUxuVlg0MllkLURqbU9qcDI4U2NZRFI5b2RKVVJDSURPYXBKM3FhQmhBSkliTWVlX3dPYkxBUkJfSA?oc=5",
+    "source": "Moneycontrol.com",
+    "published": "2025-06-04",
+    "place_name": "West Bengal",
+    "lat": 22.9868,
+    "lon": 87.855
   },
   {
     "headline": "Why Kaziranga National Park In Assam Saw A Record Number Of Tourists This Year",
@@ -5625,6 +5688,24 @@
     "lon": 82.7128
   },
   {
+    "headline": "7 Must-Visit National Parks In West Bengal",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMDlNSHJMWUItZmtFVnhfb1NmT2YtbUFFM0VhckQ3alpqaE5fX3ZhOTRVbkcwbXZOYVhOd0FmMC1HWHRrUWktVDduZVc0T1dXTlVVWlNySVJzM1dxYnFJTnBKaXNmdjJxUzE0X0EwaXNYUW44dlpQTHNwWVI1QTltZjI3Wmk0TEdhVF9pdFpVNjAyYml0LW1mZjJBRDFyVDZ1SjZJY1NtRDAyUHdfaXB2UENiTUJxNVHSAbcBQVVfeXFMTjA5TUhyTFlCLWZrRVZ4X29TZk9mLW1BRTNFYXJEN2paamhOX192YTk0VW5HMG12TmFYTndBZjAtR1h0a1FpLVQ3bmVXNE9XV05VVVpTcklSczNXcWJxSU5wSmlzZnYycVMxNF9BMGlzWFFuOHZaUExzcFlSNUE5bWYyN1ppNExHYVRfaXRaVTYwMmJpdC1tZmYyQUQxclQ2dUo2SWNTbUQwMlB3X2lwdlBDYk1CcTVR?oc=5",
+    "source": "Travel and Leisure Asia",
+    "published": "2024-10-18",
+    "place_name": "West Bengal",
+    "lat": 22.9868,
+    "lon": 87.855
+  },
+  {
+    "headline": "West Bengal’s Sundarbans Affairs Minister faces heat from locals over river embankment breach issues",
+    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPVE1WLW1DNFZlOUlEWDY0b1BEbUN3X3pONWVvYnFLNXhETTBtRHkzdnQ3TFl5eHlLX05UeWdMMlVZUW1FNFVnNWk4amNEQ09KM1dwZ1JtZThFYnhTYk1kdmoydEt2N180dEZWQlgyZ1Y3bUY1UWMyelIyWDJPdjh4Q1V2SEZJUzNCYXM1RFlhWEdXVVpPWVNkTGdOdTh3eDRZQWU3WUFHdGk5TkJKcll3MjdjNzNNZlgtai1iM0FOSFgzY0RnN2pLWjVFUGpTcnNsajlRUlMtWDVvd0pCQXVHbFk4R1ZRaWNaeDFHQlpoNjNodXdtVGdCbEkyM2k2U3fSAYYCQVVfeXFMT2JqSkVhRVBESjNiUlhsdFpyY2YxVXRoZkwzWWh0WEtyMXRnZUpzUlBSSTVJTjdQTkVWMF9XQTlDWW95N2E1VTdlSFgzTktqbXE3Zmd0T2F0RUJSNmRCdmxZbTVoel9xbktPcDl2LVdFc1hvU1RVR3ZuQ0tGNVhIT3FHcFZLa25ZRlNld3pnVjJoZEJCeXQyalg0UE1sNUtmS2xDVGZTYWR6dWd3UkxXeC1QS2RTdnlydlhKV0tXd0l6REtaYkUwbUJveEF6UElFeW1idTZBdGoyQ19GTG04bFZEajFnelhWZzhxcHBZdDJBM2pJREM3ZDQ1TWtGU3lxeEloMUpSUQ?oc=5",
+    "source": "The Hindu",
+    "published": "2024-10-17",
+    "place_name": "West Bengal",
+    "lat": 22.9868,
+    "lon": 87.855
+  },
+  {
     "headline": "Elephants trample man to death in Andhra Pradesh",
     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdUdra1VyWTNJQkJpbi1BbmxNMGpET255LXQ4UHMxRnVhY0wyaGV4MUtNLTB0Mm1JRzR5bTRHWlFSbjZVSzgyNGlTaVAyZDBpc2Nra3N3SUZvWFhBdEZLYU1zSFVkN1c1U05leENaTXNKUGw1NlhqWi1VaWk5M2YxQ2x2ZlJaejJhZ0RkN2tYYUZXSFBSYUt4SE53R21nalN6Y1dOZ2tXVlNjaE51MHdyNFBiSGpVR2huVTRzOVNhS1pmV1dOZGp0alRKelNKQWx6d3JPR3JrajdwOFdNUEowa3BrZF91VkxneFHSAe8BQVVfeXFMT3VoVWZmTDE3a2dUbUhRLTlzTmRBYTctUnBfN09lb1BNclFBT1hHa29JQ2N2SjhWVmVmMzdJM2VNSENZOEF0VGNxSnRNZUJSZWp0N2FzVkJ6TDhQclpxRUFBNVJRQUY2SXdVU2JubVJEZmJJVll1UzFIejNwZDA4c3JvYWFQb0dSZU51amlwZk1JTmNuVTlzNTJvcDdlTmZFeFBpRGlrdnNQLVRsWFdreEUxNG02RGJOT2RjRkxLV3NycnVDeWhrWGVZb0pkUUpTTkgzNi0zMlVqSkFDeVlQUWdxb21oeXhiSFB1YUtFUjA?oc=5",
     "source": "India Today",
@@ -5947,6 +6028,15 @@
     "place_name": "Ladakh",
     "lat": 34.2268,
     "lon": 77.5619
+  },
+  {
+    "headline": "Scheduled Tribes panel issues notices to Centre, West Bengal over plight of tribals in Sundarbans",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUk5wVGhvVUkxdVZRT0dBSUdIMTBrSjBzRGh4Z25CellFd1d3cUI2RnlrWlRROFBURXFpdllQSi1aU3ZUck5fck5tZmNPOWVlNDh2NTFvMzNFUVUxbWxIWWtadGtHMGVDVTdPc0VYVzREdWpEQjFHSm0zcDZwdW1wclZzZXBCY2ZKV1EzdE1vQmNPd21fQTBkQ3RSSjYzdDVDZmxfU2FBWlQ0TXVLOG9ySUQwM2NtT3BVOVp1RlROVG5pUW9JOFdtcFNkbmxUdG5wMzFqSTJn?oc=5",
+    "source": "Deccan Herald",
+    "published": "2024-02-26",
+    "place_name": "West Bengal",
+    "lat": 22.9868,
+    "lon": 87.855
   },
   {
     "headline": "Madhya Pradesh's barasingha and gaur populations soar thanks to conservation efforts",
