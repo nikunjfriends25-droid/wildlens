@@ -74,10 +74,16 @@ const SOURCE_META = {
   'Sangbad Pratidin':    { region: 'West Bengal',   lang: 'Bengali',   desc: 'Bengali daily with coverage of Sundarbans biosphere, migratory birds & North Bengal forests.' },
   'Loksatta':            { region: 'Maharashtra',   lang: 'Marathi',   desc: 'Maharashtra\'s leading Marathi paper. Covers Tadoba, Melghat & Sahyadri wildlife & leopard conflict.' },
   'Maharashtra Times':   { region: 'Maharashtra',   lang: 'Marathi',   desc: 'Marathi daily covering Vidarbha tiger reserves, forest dept news & human-wildlife conflict in Maharashtra.' },
+  'Sakal':               { region: 'Maharashtra',   lang: 'Marathi',   desc: 'Pune-based Marathi daily covering Sahyadri forests, Tadoba & human-elephant conflict in Vidarbha.' },
+  'Marathi News':        { region: 'Maharashtra',   lang: 'Marathi',   desc: 'Aggregated Marathi-language wildlife coverage from across Maharashtra publications.' },
   'Dinamalar':           { region: 'Tamil Nadu',    lang: 'Tamil',     desc: 'Tamil Nadu\'s largest-circulated Tamil newspaper. Covers Mudumalai, Anamalai & Western Ghats wildlife.' },
-  'Dinamani':            { region: 'Tamil Nadu',    lang: 'Tamil',     desc: 'Tamil daily covering wildlife crime, Nilgiris biosphere & elephant management in Tamil Nadu.' },
+  'Dinakaran':           { region: 'Tamil Nadu',    lang: 'Tamil',     desc: 'Tamil daily with strong coverage of Nilgiris biosphere, elephant corridors & coastal ecology.' },
+  'Tamil News':          { region: 'Tamil Nadu',    lang: 'Tamil',     desc: 'Aggregated Tamil-language wildlife coverage from across Tamil Nadu publications.' },
+  'Telugu News':         { region: 'AP/Telangana',  lang: 'Telugu',    desc: 'Aggregated Telugu-language wildlife coverage from Andhra Pradesh and Telangana publications.' },
+  'Dainik Bhaskar':      { region: 'MP/Rajasthan',  lang: 'Hindi',     desc: 'Major Hindi daily covering Kanha, Bandhavgarh, Ranthambore & Gujarat wildlife stories.' },
   'Divya Bhaskar':       { region: 'Gujarat',       lang: 'Gujarati',  desc: 'Gujarat\'s biggest Gujarati daily. Covers Gir lion census, Little Rann wild ass & Great Indian Bustard.' },
   'Gujarat Samachar':    { region: 'Gujarat',       lang: 'Gujarati',  desc: 'Top Gujarati newspaper covering Marine National Park (Jamnagar), Asiatic lion & mangrove conservation.' },
+  'Gujarati News':       { region: 'Gujarat',       lang: 'Gujarati',  desc: 'Aggregated Gujarati-language wildlife coverage from across Gujarat publications.' },
 };
 
 // Order matters — first match wins. conservation is the fallback.

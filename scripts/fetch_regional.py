@@ -21,7 +21,7 @@ import logging
 import os
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import feedparser
 from dateutil import parser as dateparser
@@ -79,6 +79,14 @@ REGIONAL_SOURCES = [
         'lang': 'Hindi',
         'lang_code': 'hi',
     },
+    # Dainik Bhaskar — large Hindi daily covering MP, Rajasthan, Gujarat
+    {
+        'url': ('https://news.google.com/rss/search?q=wildlife+forest+tiger+elephant'
+                '+sanctuary+site:bhaskar.com&hl=hi-IN&gl=IN&ceid=IN:hi'),
+        'source': 'Dainik Bhaskar',
+        'lang': 'Hindi',
+        'lang_code': 'hi',
+    },
     # Patrika — direct RSS broken (invalid XML); GN hi proxy (59 entries)
     {
         'url': ('https://news.google.com/rss/search?q=wildlife+forest+tiger+elephant'
@@ -113,12 +121,20 @@ REGIONAL_SOURCES = [
         'lang': 'Telugu',
         'lang_code': 'te',
     },
-    # Eenadu via Google News — te-IN gives 21 entries vs 1 with en-IN
+    # Eenadu via Google News — te-IN gives more results than en-IN
     {
         'url': ('https://news.google.com/rss/search?q=wildlife+forest+tiger'
                 '+elephant+sanctuary+site:eenadu.net'
                 '&hl=te-IN&gl=IN&ceid=IN:te'),
         'source': 'Eenadu',
+        'lang': 'Telugu',
+        'lang_code': 'te',
+    },
+    # Telugu catch-all — native terms (వన్యప్రాణి=wildlife, పులి=tiger, ఏనుగు=elephant, అడవి=forest)
+    {
+        'url': ('https://news.google.com/rss/search?q=%E0%B0%B5%E0%B0%A8%E0%B1%8D%E0%B0%AF%E0%B0%AA%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%A3%E0%B0%BF+%E0%B0%AA%E0%B1%81%E0%B0%B2%E0%B0%BF+%E0%B0%8F%E0%B0%A8%E0%B1%81%E0%B0%97%E0%B1%81'
+                '&hl=te-IN&gl=IN&ceid=IN:te'),
+        'source': 'Telugu News',
         'lang': 'Telugu',
         'lang_code': 'te',
     },
@@ -180,7 +196,7 @@ REGIONAL_SOURCES = [
     },
 
     # ── Marathi (Maharashtra) ─────────────────────────────────────────────────
-    # Loksatta — en-IN returned 0; mr-IN gives 71 entries
+    # Loksatta — site-specific query was returning 0; native-term catch-all works better
     {
         'url': ('https://news.google.com/rss/search?q=wildlife+forest+tiger'
                 '+elephant+poaching+sanctuary+site:loksatta.com'
@@ -189,7 +205,7 @@ REGIONAL_SOURCES = [
         'lang': 'Marathi',
         'lang_code': 'mr',
     },
-    # Maharashtra Times — mr-IN gives consistent regional results
+    # Maharashtra Times
     {
         'url': ('https://news.google.com/rss/search?q=wildlife+forest+tiger'
                 '+elephant+sanctuary+site:maharashtratimes.com'
@@ -198,9 +214,25 @@ REGIONAL_SOURCES = [
         'lang': 'Marathi',
         'lang_code': 'mr',
     },
+    # Sakal — direct RSS working
+    {
+        'url': 'https://www.sakal.com/feed/',
+        'source': 'Sakal',
+        'lang': 'Marathi',
+        'lang_code': 'mr',
+    },
+    # Marathi catch-all — native-language terms (वन्यजीव=wildlife, वाघ=tiger, हत्ती=elephant, अभयारण्य=sanctuary)
+    # No site: restriction so it pulls from any indexed Marathi source
+    {
+        'url': ('https://news.google.com/rss/search?q=%E0%A4%B5%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%9C%E0%A5%80%E0%A4%B5+%E0%A4%B5%E0%A4%BE%E0%A4%98+%E0%A4%B9%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80+%E0%A4%85%E0%A4%AD%E0%A4%AF%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%8D%E0%A4%AF'
+                '&hl=mr-IN&gl=IN&ceid=IN:mr'),
+        'source': 'Marathi News',
+        'lang': 'Marathi',
+        'lang_code': 'mr',
+    },
 
     # ── Tamil (Tamil Nadu / Puducherry) ───────────────────────────────────────
-    # Dinamalar — en-IN returned 0; ta-IN gives 5 entries
+    # Dinamalar
     {
         'url': ('https://news.google.com/rss/search?q=wildlife+forest+tiger'
                 '+elephant+poaching+sanctuary+site:dinamalar.com'
@@ -209,18 +241,27 @@ REGIONAL_SOURCES = [
         'lang': 'Tamil',
         'lang_code': 'ta',
     },
-    # Dinamani — ta-IN gives 0 but correct approach; may improve as GN index updates
+    # Dinakaran — separate Tamil daily, South TN coverage
     {
         'url': ('https://news.google.com/rss/search?q=wildlife+forest+tiger'
-                '+elephant+sanctuary+site:dinamani.com'
+                '+elephant+sanctuary+site:dinakaran.com'
                 '&hl=ta-IN&gl=IN&ceid=IN:ta'),
-        'source': 'Dinamani',
+        'source': 'Dinakaran',
+        'lang': 'Tamil',
+        'lang_code': 'ta',
+    },
+    # Tamil catch-all — native terms (வனவிலங்கு=wildlife, புலி=tiger, யானை=elephant, காடு=forest)
+    # Pulls from any indexed Tamil source
+    {
+        'url': ('https://news.google.com/rss/search?q=%E0%AE%B5%E0%AE%A9%E0%AE%B5%E0%AE%BF%E0%AE%B2%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AF%81+%E0%AE%AA%E0%AF%81%E0%AE%B2%E0%AE%BF+%E0%AE%AF%E0%AE%BE%E0%AE%A9%E0%AF%88+%E0%AE%95%E0%AE%BE%E0%AE%9F%E0%AF%81'
+                '&hl=ta-IN&gl=IN&ceid=IN:ta'),
+        'source': 'Tamil News',
         'lang': 'Tamil',
         'lang_code': 'ta',
     },
 
     # ── Gujarati (Gujarat) ────────────────────────────────────────────────────
-    # Divya Bhaskar — en-IN returned 0; gu-IN gives 12 entries
+    # Divya Bhaskar — gu-IN locale
     {
         'url': ('https://news.google.com/rss/search?q=wildlife+forest+lion'
                 '+elephant+poaching+sanctuary+site:divyabhaskar.co.in'
@@ -229,12 +270,20 @@ REGIONAL_SOURCES = [
         'lang': 'Gujarati',
         'lang_code': 'gu',
     },
-    # Gujarat Samachar — en-IN gives 3 entries (better than gu-IN which gives 1)
+    # Gujarat Samachar
     {
         'url': ('https://news.google.com/rss/search?q=wildlife+forest+lion'
                 '+elephant+sanctuary+site:gujaratsamachar.com'
-                '&hl=en-IN&gl=IN&ceid=IN:en'),
+                '&hl=gu-IN&gl=IN&ceid=IN:gu'),
         'source': 'Gujarat Samachar',
+        'lang': 'Gujarati',
+        'lang_code': 'gu',
+    },
+    # Gujarati catch-all — native terms (વન્યજીવ=wildlife, સિંહ=lion, હાથી=elephant, ગીર=Gir)
+    {
+        'url': ('https://news.google.com/rss/search?q=%E0%AA%B5%E0%AA%A8%E0%AB%8D%E0%AA%AF%E0%AA%9C%E0%AB%80%E0%AA%B5+%E0%AA%B8%E0%AA%BF%E0%AA%82%E0%AA%B9+%E0%AA%B9%E0%AA%BE%E0%AA%A5%E0%AB%80+%E0%AA%97%E0%AB%80%E0%AA%B0'
+                '&hl=gu-IN&gl=IN&ceid=IN:gu'),
+        'source': 'Gujarati News',
         'lang': 'Gujarati',
         'lang_code': 'gu',
     },
@@ -394,6 +443,15 @@ def main():
 
     merged = existing + new_articles
     merged.sort(key=lambda a: a.get('published', ''), reverse=True)
+
+    # Prune articles older than 90 days
+    RETAIN_DAYS = 90
+    cutoff = (datetime.now(timezone.utc).date() -
+              timedelta(days=RETAIN_DAYS)).isoformat()
+    before_prune = len(merged)
+    merged = [a for a in merged if a.get('published', '') >= cutoff]
+    if before_prune - len(merged):
+        logger.info(f'Pruned {before_prune - len(merged)} articles older than {RETAIN_DAYS} days')
 
     if existing and len(merged) < len(existing) * 0.80:
         raise RuntimeError(
