@@ -195,10 +195,13 @@ with st.sidebar:
 
     st.divider()
 
-    n_validated = (df["valid_wildlife_article"].str.strip() != "").sum()
-    n_total     = len(df)
-    st.metric("Progress", f"{n_validated} / {n_total} validated")
-    st.progress(int(n_validated) / max(int(n_total), 1))
+    # New batch = GS181 onwards (rows 180+)
+    new_batch   = df.iloc[180:]
+    n_new_done  = (new_batch["valid_wildlife_article"].str.strip() != "").sum()
+    n_new_total = len(new_batch)
+    st.metric("New batch progress", f"{n_new_done} / {n_new_total} labeled")
+    st.progress(int(n_new_done) / max(int(n_new_total), 1))
+    st.caption("GS001–GS180 are pre-validated original gold standard rows.")
 
     # Jump-to input
     if total > 0:
