@@ -9,7 +9,6 @@ Install:
 """
 
 import html
-import json
 import time
 from pathlib import Path
 
@@ -21,7 +20,6 @@ import trafilatura
 # ─── Paths ────────────────────────────────────────────────────────────────────
 BASE      = Path(__file__).resolve().parent.parent.parent
 CSV_PATH  = BASE / "v2" / "data" / "gold_standard_annotations.csv"
-NEWS_JSON = BASE / "docs" / "news.json"
 GAZETTEER = BASE / "data" / "india_pa_gazetteer.csv"
 
 # ─── Constants ────────────────────────────────────────────────────────────────
@@ -52,41 +50,6 @@ def load_csv() -> pd.DataFrame:
 def save_csv(df: pd.DataFrame) -> None:
     df.to_csv(CSV_PATH, index=False)
 
-
-def sync_news_json(df: pd.DataFrame) -> tuple[pd.DataFrame, int]:
-    """Append articles from news.json not already in the CSV (matched by URL)."""
-    with open(NEWS_JSON, encoding="utf-8") as f:
-        articles = json.load(f)
-
-    existing_urls = set(df["url"].str.strip())
-    new_rows: list[dict] = []
-    next_n = len(df) + 1
-
-    for art in articles:
-        url = (art.get("url") or "").strip()
-        if not url or url in existing_urls:
-            continue
-        row = {c: "" for c in CSV_COLS}
-        row.update({
-            "event_id":      f"GS{next_n:03d}",
-            "headline":      art.get("headline", ""),
-            "url":           url,
-            "source":        art.get("source", ""),
-            "published":     art.get("published", ""),
-            "v1_place_name": art.get("place_name", ""),
-            "v1_lat":        str(art.get("lat", "")),
-            "v1_lon":        str(art.get("lon", "")),
-        })
-        new_rows.append(row)
-        existing_urls.add(url)
-        next_n += 1
-
-    if new_rows:
-        new_df = pd.DataFrame(new_rows, columns=CSV_COLS)
-        df = pd.concat([df, new_df], ignore_index=True)
-        save_csv(df)
-
-    return df, len(new_rows)
 
 
 @st.cache_data(show_spinner=False)
@@ -190,10 +153,7 @@ st.markdown("""
 # ─── Bootstrap session state ──────────────────────────────────────────────────
 
 if "initialized" not in st.session_state:
-    with st.spinner("Loading CSV and syncing news.json…"):
-        df, added = sync_news_json(load_csv())
-    st.session_state.df           = df
-    st.session_state.added_count  = added
+    st.session_state.df           = load_csv()
     st.session_state.pos          = 0
     st.session_state.show         = "Unvalidated"
     st.session_state.article_cache: dict[str, tuple[str, bool]] = {}
@@ -216,9 +176,6 @@ def get_indices(show: str) -> list[int]:
 
 with st.sidebar:
     st.title("🦁 WildLens Validator")
-
-    if st.session_state.added_count:
-        st.success(f"Added {st.session_state.added_count} new articles from news.json")
 
     show = st.radio(
         "Show",
