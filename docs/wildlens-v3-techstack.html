@@ -169,6 +169,14 @@
       <div class="card-desc">Fast PDF text extraction for NGT orders and court judgments. Better than pdfplumber for large multi-page legal PDFs. Extract text, then run spaCy NLP for location/species/outcome.</div>
     </div>
 
+    <div class="card c-purple">
+      <span class="badge pink">Wildlife Crime</span>
+      <div class="card-tool">TRAFFIC Wildlife Trade Portal</div>
+      <div class="card-install">wildlifetradeportal.org — register (free, immediate access)</div>
+      <div class="card-desc">Seizure data for India + focal species. Filter by country + species → export CSV. Build a CSV loader, NOT an API connector (no public API). Fields: species, product_type, seizure_location, date, transport_method, criminal_justice_outcome. Load into <code>traffic_seizures</code> table. Use seizure locations as occurrence points for wildlife smuggling corridor SDM only — separate model pipeline.</div>
+      <div class="card-note">C4ADS CWT-ID, Tigernet, WCCB: post-publication only — require formal data agreements. Do not build connectors for these now.</div>
+    </div>
+
   </div>
 
   <div class="sep"></div>
@@ -233,6 +241,89 @@
       <div class="card-tool">scipy.stats</div>
       <div class="card-install">pip install scipy</div>
       <div class="card-desc">Spearman rank correlation between specialist:generalist ratio and GFW forest loss / PARIVESH clearance count / WildLens event density — per PA per year. Non-parametric, handles non-normal distributions.</div>
+    </div>
+
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ── TRACK 3B: FIRE INTELLIGENCE ──────────────────────────────────── -->
+  <div class="section-label">Track 3B — Fire Intelligence (Five-Layer Classification)</div>
+  <div class="grid">
+
+    <div class="card c-red">
+      <span class="badge orange">Active Fire Detection</span>
+      <div class="card-tool">NASA FIRMS API</div>
+      <div class="card-install">firms.modaps.eosdis.nasa.gov/api — free MAP_KEY</div>
+      <div class="card-desc">Active fire alerts within 3–6 hours. MODIS + VIIRS sensors. GET request returns CSV of fire detections within India bounding box for last N days. Each detection: lat, lon, acq_date, confidence. Run five-layer classification on each point immediately on receipt.</div>
+      <div class="card-note">pip install requests — no special library. Register at earthdata.nasa.gov then request FIRMS MAP_KEY separately.</div>
+    </div>
+
+    <div class="card c-red">
+      <span class="badge orange">Burned Area (Monthly)</span>
+      <div class="card-tool">MODIS MCD64A1 + VIIRS VNP64A1</div>
+      <div class="card-install">NASA Earthdata — free account</div>
+      <div class="card-desc">Monthly burned area products. MCD64A1 at 500m (MODIS), VNP64A1 at 375m (VIIRS — better for smaller fires). Returns burned area polygons per month. Use to confirm FIRMS active fire detections and compute burned_area_ha for forest_fire_events table.</div>
+      <div class="card-note">Small fires (&lt;1 ha): Sentinel-2 at 10m required — flag detection_limit in output metadata when area &lt;25 ha.</div>
+    </div>
+
+    <div class="card c-red">
+      <span class="badge orange">Biomass Loss</span>
+      <div class="card-tool">ESA CCI Biomass / Spawn et al. 2020</div>
+      <div class="card-install">climate.esa.int/en/projects/biomass/ — free</div>
+      <div class="card-desc">Above-ground biomass raster at 100m (ESA CCI v5) or 300m (Spawn et al. 2020). Intersect with burned area polygon → biomass_lost_tonnes = burned_area_ha × mean biomass density. Store in forest_fire_events.biomass_lost_tonnes.</div>
+      <div class="card-note">pip install rasterio — rasterio.mask.mask() clips raster to burned polygon.</div>
+    </div>
+
+    <div class="card c-red">
+      <span class="badge orange">Five-Layer Classifier</span>
+      <div class="card-tool">PostGIS + Python</div>
+      <div class="card-install">ST_Intersects queries — no new library</div>
+      <div class="card-desc">Classification order: L1 FSI forest cover → FOREST_FIRE · L2 ONE boundary → ONE_FIRE · L3 Agriculture (seasonal filter) → STUBBLE / SUSPICIOUS · L4 Wasteland Atlas → cross-check L5 · L5 IUCN range → WASTELAND_IN_RANGE or OUT. Only FOREST_FIRE, ONE_FIRE, AGRICULTURAL_SUSPICIOUS, WASTELAND_IN_RANGE enter the intelligence pipeline. Others logged only.</div>
+    </div>
+
+    <div class="card c-red">
+      <span class="badge orange">Temporal Pattern</span>
+      <div class="card-tool">SQLAlchemy + pandas</div>
+      <div class="card-install">pip install sqlalchemy pandas</div>
+      <div class="card-desc">Pixel-wise fire frequency: query forest_fire_events for same location fires across years. Same pixel ≥2 consecutive years outside agriculture season = encroachment_pattern=True. Combine with PARIVESH applications in same buffer (ST_DWithin) to signal arson-for-land-clearing.</div>
+    </div>
+
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ── SDM ───────────────────────────────────────────────────────────── -->
+  <div class="section-label">SDM — Conflict Risk Models (Phase 4 · biomd2 R)</div>
+  <div class="grid">
+
+    <div class="card c-purple">
+      <span class="badge pink">★ Ensemble SDM</span>
+      <div class="card-tool">biomd2 (R package)</div>
+      <div class="card-install">install.packages("biomod2") — R 4.x</div>
+      <div class="card-desc">Standard ensemble SDM framework for all 10 algorithms: MaxEnt, Random Forest, GBM, GLM, GAM, BRT, CART, FDA, SRE, MARS. Runs all algorithms in one call, produces ensemble weighted mean probability surface. Ensemble weighting by TSS score per algorithm. k=5 cross-validation built in. One biomd2 run per species per season (8 independent pipelines).</div>
+      <div class="card-note">Target TSS &gt; 0.7 per species before accepting output. Variable importance scores averaged across all 10 algorithms.</div>
+    </div>
+
+    <div class="card c-purple">
+      <span class="badge pink">Time Calibration</span>
+      <div class="card-tool">rasterio + pandas</div>
+      <div class="card-install">pip install rasterio pandas</div>
+      <div class="card-desc">Match each occurrence point to environmental predictors from its specific season + year (Kitratporn &amp; Takeuchi 2020). EVI and KBDI extracted from the month matching the event date. Produces time-independent models comparable across years. Extract predictor stack per occurrence point → CSV input for biomd2.</div>
+    </div>
+
+    <div class="card c-purple">
+      <span class="badge pink">Bias Correction</span>
+      <div class="card-tool">scipy.stats + numpy</div>
+      <div class="card-install">pip install scipy numpy</div>
+      <div class="card-desc">Gaussian kernel density of occurrence locations weighted by deduplicated report count per location → rescale 1–20 → use as background point sampling weight. Sample 10,000 background points per species using KDE-weighted sampling. Corrects for reporting effort bias in news-derived occurrence data.</div>
+    </div>
+
+    <div class="card c-purple">
+      <span class="badge pink">Two-Axis Output</span>
+      <div class="card-tool">rasterio + matplotlib</div>
+      <div class="card-install">pip install rasterio matplotlib</div>
+      <div class="card-desc">Project ensemble probability surface onto all predictor years → pixel-wise linear regression → slope (rate of change) + intercept (baseline). RGB composite: Red=decreasing conflict probability, Green=stable, Blue=increasing. Output: "conflict expanding / stable / contracting" per corridor per species.</div>
     </div>
 
   </div>
@@ -360,18 +451,27 @@
   <div class="grid">
 
     <div class="card c-red">
-      <span class="badge red">Local LLM</span>
+      <span class="badge red">LLM — Dev &amp; Research</span>
+      <div class="card-tool">Groq API</div>
+      <div class="card-install">pip install groq &nbsp;·&nbsp; console.groq.com — free key</div>
+      <div class="card-desc">Llama 3.1 70B free of charge. ~14,400 requests/day — more than a research tool needs. Significantly more capable than a 7B model on a small server. RAG mode only — NOT trained or fine-tuned. Retrieves events from pgvector, synthesises cited plain-English reports. Add retry with exponential backoff for rate limit errors.</div>
+      <div class="card-note">Data leaves your machine. Fine for public wildlife news. Switch to Ollama only if rate limits hit or data becomes sensitive.</div>
+    </div>
+
+    <div class="card c-red">
+      <span class="badge red">LLM — Self-Hosted Option</span>
       <div class="card-tool">Ollama</div>
-      <div class="card-install">ollama.com — free, runs locally</div>
-      <div class="card-desc">Run open-source LLMs locally. Zero API cost. Recommended models: Mistral 7B (fast, good reasoning) or Llama 3.1 8B (strong instruction following). Powers natural language report generation.</div>
-      <div class="card-note">GPU recommended but runs on CPU. 8GB RAM minimum for 7B models.</div>
+      <div class="card-install">ollama.com — free · ollama pull llama3.1</div>
+      <div class="card-desc">Run LLM locally on Hetzner CX32 (8GB RAM). Llama 3.1 8B comfortably fits in 8GB. Zero API calls, no rate limits. Trade-off: smaller model than Groq 70B. Use on paid server tier when you want fully self-contained deployment.</div>
+      <div class="card-note">Only use Ollama on Hetzner CX32+. CX22 (4GB) cannot run any useful model — use Groq API instead.</div>
     </div>
 
     <div class="card c-red">
       <span class="badge red">RAG Framework</span>
-      <div class="card-tool">LlamaIndex</div>
-      <div class="card-install">pip install llama-index llama-index-vector-stores-postgres</div>
-      <div class="card-desc">Orchestrates retrieval-augmented generation. Query → retrieve relevant events from pgvector → pass as context to Ollama LLM → return cited plain-English report. Supports structured filter + semantic search hybrid.</div>
+      <div class="card-tool">pgvector + psycopg2</div>
+      <div class="card-install">pip install psycopg2-binary</div>
+      <div class="card-desc">Retrieval from PostgreSQL pgvector directly — no separate framework needed. Query: structured filters (event_type, PA, date) + cosine similarity on embedding column. Pass retrieved events as context to Groq/Ollama. Keeps everything in one database, avoids LlamaIndex overhead.</div>
+      <div class="card-note">LlamaIndex is an alternative if query complexity grows. Start with direct psycopg2 + pgvector queries.</div>
     </div>
 
     <div class="card c-red">

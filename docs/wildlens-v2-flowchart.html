@@ -9,26 +9,24 @@
   body { font-family: 'Segoe UI', Arial, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 32px 24px; }
   h1 { text-align: center; font-size: 22px; font-weight: 700; color: #4ade80; letter-spacing: 1px; margin-bottom: 6px; }
   .subtitle { text-align: center; font-size: 13px; color: #64748b; margin-bottom: 40px; }
-  .flowchart { max-width: 960px; margin: 0 auto; }
+  .flowchart { max-width: 1060px; margin: 0 auto; }
 
-  /* Phase headers */
   .phase-label { font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #475569; margin-bottom: 10px; padding-left: 4px; }
 
-  /* Horizontal row of boxes */
   .row { display: flex; gap: 12px; margin-bottom: 6px; align-items: stretch; }
   .row.centered { justify-content: center; }
 
-  /* Box */
   .box { flex: 1; min-width: 0; border-radius: 10px; padding: 14px 16px; position: relative; }
-  .box.sm { flex: 0 0 auto; min-width: 200px; max-width: 240px; }
-  .box.md { flex: 0 0 auto; min-width: 240px; max-width: 300px; }
+  .box.sm { flex: 0 0 auto; min-width: 180px; max-width: 220px; }
+  .box.md { flex: 0 0 auto; min-width: 220px; max-width: 280px; }
   .box.wide { flex: 1; }
+  .box.full { flex: 1 1 100%; }
 
   .box-title { font-size: 13px; font-weight: 700; margin-bottom: 5px; }
   .box-body { font-size: 11.5px; line-height: 1.55; color: #cbd5e1; }
   .box-body li { list-style: disc; margin-left: 14px; margin-bottom: 2px; }
+  .box-body ul { margin-bottom: 4px; }
 
-  /* Colour themes */
   .phase-0 { background: rgba(139,92,246,0.15); border: 1.5px solid #7c3aed; }
   .phase-0 .box-title { color: #a78bfa; }
   .phase-1 { background: rgba(59,130,246,0.14); border: 1.5px solid #2563eb; }
@@ -41,582 +39,821 @@
   .phase-4 .box-title { color: #f87171; }
   .phase-5 { background: rgba(74,222,128,0.12); border: 1.5px solid #16a34a; }
   .phase-5 .box-title { color: #4ade80; }
-  .novel { background: rgba(251,191,36,0.1); border: 1.5px dashed #d97706; }
+  .novel { background: rgba(251,191,36,0.10); border: 1.5px dashed #d97706; }
   .novel .box-title { color: #fbbf24; }
   .novel::after { content: '★ NOVEL'; font-size: 9px; font-weight: 700; color: #d97706; position: absolute; top: 8px; right: 10px; }
+  .fire { background: rgba(249,115,22,0.13); border: 1.5px solid #c2410c; }
+  .fire .box-title { color: #fb923c; }
+  .crime { background: rgba(168,85,247,0.12); border: 1.5px solid #7e22ce; }
+  .crime .box-title { color: #c084fc; }
+  .domain-card { background: rgba(15,23,42,0.6); border: 1.5px solid #1e293b; border-radius: 12px; padding: 12px 14px; margin-bottom: 6px; }
 
-  /* Arrow */
-  .arrow { text-align: center; font-size: 20px; color: #334155; margin: 2px 0 2px 0; }
-  .arrow-row { display: flex; gap: 12px; justify-content: space-around; margin: 2px 0; }
-  .arrow-row span { font-size: 20px; color: #334155; }
-
-  /* Separator */
+  .arrow { text-align: center; font-size: 20px; color: #334155; margin: 4px 0; }
+  .arrow-row { display: flex; gap: 12px; justify-content: space-around; margin: 4px 0; }
+  .arrow-row span { font-size: 20px; color: #334155; flex: 1; text-align: center; }
   .sep { height: 1px; background: #1e293b; margin: 22px 0 18px 0; }
 
-  /* Badge */
   .badge { display: inline-block; font-size: 9.5px; font-weight: 700; letter-spacing: 0.5px; padding: 1px 7px; border-radius: 20px; margin-bottom: 6px; }
-  .badge.blue { background: #1e3a5f; color: #60a5fa; }
-  .badge.green { background: #14432a; color: #4ade80; }
+  .badge.blue   { background: #1e3a5f; color: #60a5fa; }
+  .badge.green  { background: #14432a; color: #4ade80; }
   .badge.yellow { background: #44320c; color: #fbbf24; }
-  .badge.red { background: #4a1a1a; color: #f87171; }
-  .badge.teal { background: #0d2d2b; color: #2dd4bf; }
+  .badge.red    { background: #4a1a1a; color: #f87171; }
+  .badge.teal   { background: #0d2d2b; color: #2dd4bf; }
   .badge.purple { background: #2d1b69; color: #a78bfa; }
+  .badge.orange { background: #431407; color: #fb923c; }
+  .badge.pink   { background: #3b0764; color: #c084fc; }
+  .badge.gray   { background: #1e293b; color: #94a3b8; }
 
   .note { font-size: 10.5px; color: #475569; margin-top: 8px; font-style: italic; }
+  .tag-row { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+  .tag { font-size: 9.5px; font-weight: 600; padding: 1px 6px; border-radius: 4px; background: #1e293b; color: #94a3b8; }
+  .tag.alert { background: #450a0a; color: #f87171; }
+  .tag.novel { background: #44320c; color: #fbbf24; }
+  .tag.gate { background: #14432a; color: #4ade80; }
+  .tag.defer { background: #1e293b; color: #64748b; font-style: italic; }
 
-  /* Publication section — same colour as novel but no auto ★ NOVEL watermark (badge text already labels them) */
-  .pub-novel { background: rgba(251,191,36,0.1); border: 1.5px dashed #d97706; }
-  .pub-novel .box-title { color: #fbbf24; }
+  .layer-row { display: flex; align-items: baseline; gap: 8px; margin-bottom: 3px; }
+  .layer-num { font-size: 10px; font-weight: 700; color: #64748b; min-width: 18px; }
+  .layer-name { font-size: 11.5px; font-weight: 600; }
+  .layer-out { font-size: 10.5px; color: #64748b; margin-left: auto; }
+
+  h3.domain-heading { font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #334155; margin: 18px 0 8px 0; }
 
   @media print {
     body { background: white; color: #111; padding: 16px; }
-    .box-body, .box { color: #222 !important; }
-    .box-body li { color: #333 !important; }
+    .box-body, .box, .note { color: #222 !important; }
     h1 { color: #166534; }
+    .box-title { color: #111 !important; }
   }
 </style>
 </head>
 <body>
 
 <h1>WildLens v2 — Ecological Intelligence System</h1>
-<p class="subtitle">Architecture flowchart &nbsp;·&nbsp; Phase 0–5 &nbsp;·&nbsp; Print: Ctrl+P → Save as PDF</p>
+<p class="subtitle">Five intelligence domains &nbsp;·&nbsp; Three-layer gap analysis &nbsp;·&nbsp; Phase 0–5 &nbsp;·&nbsp; Print: Ctrl+P → Save as PDF</p>
 
 <div class="flowchart">
 
-  <!-- PHASE 0 -->
-  <div class="phase-label">Phase 0 — Foundation (Before building anything)</div>
-  <div class="row">
-    <div class="box phase-0 md">
-      <span class="badge purple">Gold Standard Dataset</span>
-      <div class="box-title">200–300 Annotated Articles</div>
-      <div class="box-body">
-        <ul>
-          <li>Start from V1 news.json articles</li>
-          <li>Claude pre-annotates; Nikunj validates</li>
-          <li>Labels: event_type, species, correct_location, is_false_positive, duplicate_cluster</li>
-        </ul>
-        <p class="note">Use these to measure every pipeline stage</p>
-      </div>
-    </div>
-    <div class="box phase-0 md">
-      <span class="badge purple">Event Schema</span>
-      <div class="box-title">Data Model for Wildlife Events</div>
-      <div class="box-body">
-        <ul>
-          <li>event_id, event_type, species[], location{}, temporal{}</li>
-          <li>Ecological context: PA, corridor, habitat</li>
-          <li>Source articles[] with deduplication link</li>
-          <li>Confidence scores at every field</li>
-        </ul>
-        <p class="note">Schema drives all downstream design</p>
-      </div>
-    </div>
-    <div class="box phase-0 wide">
-      <span class="badge purple">Spatial Datasets</span>
-      <div class="box-title">Reference Data Assembly (load once into PostGIS)</div>
-      <div class="box-body">
-        <ul>
-          <li><strong style="color:#a78bfa">Elephant Corridor Data</strong> — 3 public PDFs: MoEF 2023 corridor report, WTI "Right of Passage" 2005, WII Tiger Status 2022. Two-track extraction: (1) pdfplumber → structured table rows (name, state, status, width, connecting PAs) into PostgreSQL; (2) corridor polygons approximated as WDPA convex hull between connecting PA pairs for Phase 1 — replaced by manual QGIS digitizing in Phase 2. PDFs also indexed into pgvector for RAG queries.</li>
-          <li><strong style="color:#a78bfa">WDPA</strong> — World Database of Protected Areas. All Indian PA boundaries. REST API + monthly shapefile. Free.</li>
-          <li><strong style="color:#a78bfa">IUCN range maps</strong> — tiger, elephant, lion, leopard, rhino, gharial, vulture…</li>
-          <li><strong style="color:#a78bfa">Key Biodiversity Areas (KBA)</strong> — ~900+ sites in India identifying locations critical for global biodiversity persistence. Managed by BirdLife International / IUCN KBA Partnership. <em style="color:#f87171;">⚠ Pending: request updated shapefile + data agreement from BirdLife International (kba.iucnredlist.org).</em></li>
-          <li>Admin boundaries: state + district + village shapefiles from censusindia.gov.in · Forest cover raster (FSI)</li>
-        </ul>
-        <p class="note">Stored as PostGIS layers. Corridor data is fully sourced from public government PDFs — no shapefile request to WTI needed. KBA data agreement with BirdLife International is pending.</p>
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!-- PHASE 0 — FOUNDATION -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<div class="phase-label">Phase 0 — Foundation &nbsp;·&nbsp; CURRENT PHASE &nbsp;·&nbsp; Must complete before building anything</div>
+<div class="row">
+
+  <div class="box phase-0 md">
+    <span class="badge purple">Gold Standard Dataset</span>
+    <div class="box-title">Annotated Article Corpus</div>
+    <div class="box-body">
+      <ul>
+        <li>180 rows exist (GS001–GS180) from V1 news.json</li>
+        <li>Target: <strong style="color:#a78bfa">800+ rows</strong> before training — 50 per class minimum</li>
+        <li>Expand via GDELT active learning: seed model → pre-label → correct</li>
+        <li>Each row: event_type, species[], correct_location, is_false_positive, duplicate_cluster</li>
+      </ul>
+      <div class="tag-row">
+        <span class="tag gate">Gate: 800 rows before Phase 1</span>
+        <span class="tag gate">50 per class minimum</span>
       </div>
     </div>
   </div>
 
-  <div class="arrow">▼</div>
-  <div class="sep"></div>
-
-  <!-- THREE PARALLEL DATA TRACKS -->
-  <div class="phase-label">Three Parallel Data Tracks — all feed into the same Event Store</div>
-  <div class="row">
-    <div class="box phase-1 wide">
-      <span class="badge blue">Track 1 — News (Reactive)</span>
-      <div class="box-title">RSS + Historical Sources → NLP Pipeline</div>
-      <div class="box-body">
-        <ul>
-          <li><strong style="color:#60a5fa">Live RSS</strong> — Same sources as V1 + regional feeds (ongoing)</li>
-          <li><strong style="color:#60a5fa">GDELT</strong> — Global event database, ENV_WILDLIFE / ENV_POACHING themes. BigQuery free. 2013–present. ~50k–200k India wildlife URLs. Location pre-tagged (re-run WildLens NLP for accuracy).</li>
-          <li><strong style="color:#60a5fa">Wayback Machine CDX</strong> — Full historical URL inventory for DTE, Mongabay, The Hindu, The Wire via free CDX API. Fetch live articles. 2003–present per site.</li>
-          <li><strong style="color:#60a5fa">Kalpavriksh PAU</strong> — Protected Area Update PDFs, expert-curated, 2000–2024. OCR → same NLP. Lowest false positive rate of all sources.</li>
-          <li>All sources → same NLP pipeline: species extraction → species-constrained toponym disambiguation → event classification</li>
-          <li>Deduplication: same incident → one event record</li>
-        </ul>
-        <p class="note">Combined coverage: <strong>2003–present</strong> (free). <strong>2000–2024</strong> with PAU. Pre-2003 via Factiva/LexisNexis if institutional access available. Tells you what was <strong style="color:#60a5fa">REPORTED</strong> — Layer 2.</p>
-      </div>
-    </div>
-    <div class="box phase-3 wide">
-      <span class="badge yellow">Track 2 — Regulatory (Predictive)</span>
-      <div class="box-title">Court Cases · Forest Clearances · NGT Verdicts</div>
-      <div class="box-body">
-        <ul>
-          <li><strong style="color:#fbbf24">PARIVESH</strong> — forest clearance applications &amp; decisions (data.gov.in API, 50k+ records)</li>
-          <li><strong style="color:#fbbf24">NGT</strong> — National Green Tribunal orders (ecourts library, High Courts)</li>
-          <li><strong style="color:#fbbf24">E-Courts India</strong> — District + High Court judgments pan-India (Akshit's API, free non-commercial)</li>
-          <li><strong style="color:#fbbf24">WCCB</strong> — Wildlife Crime Control Bureau seizure data</li>
-          <li>Structured parse: case_number, case_status, forest_area_ha, clearance_type, verdict_summary, project_location</li>
-        </ul>
-        <p class="note">Tells you what was <strong style="color:#fbbf24">AUTHORISED</strong> — Layer 1. Key: clearances filed months before news coverage or satellite detection.</p>
-      </div>
-    </div>
-    <div class="box phase-2 wide">
-      <span class="badge teal">Track 3 — Spatial / Remote Sensing (Continuous)</span>
-      <div class="box-title">Forest Cover Change · GFW</div>
-      <div class="box-body">
-        <ul>
-          <li><strong style="color:#2dd4bf">Global Forest Watch</strong> — primary spatial source (REST API, free)</li>
-          <li>Annual tree cover loss 2001–2024 (30m, UMD/Hansen)</li>
-          <li>Near-real-time deforestation alerts: GLAD-L, GLAD-S2, RADD (weekly, 10–30m)</li>
-          <li>Loss by driver: agriculture / fire / urbanization / forestry</li>
-          <li>Corridor width &amp; fragmentation from GeoTIFF raster (rasterio/scipy)</li>
-          <li>Secondary: FSI ISFR (official GoI numbers), LULC via Bhuvan WMS</li>
-        </ul>
-        <p class="note">Tells you what <strong style="color:#2dd4bf">ACTUALLY HAPPENED</strong> — Layer 3. Ground truth.</p>
-      </div>
+  <div class="box phase-0 md">
+    <span class="badge purple">Event Schema</span>
+    <div class="box-title">16 Event Types</div>
+    <div class="box-body">
+      <ul>
+        <li>poaching · hwc · mortality · sighting</li>
+        <li>species-discovery · conservation-action</li>
+        <li>habitat-threat · policy · research</li>
+        <li>rescue · disease · flood-displacement</li>
+        <li><strong style="color:#fb923c">fire</strong> · wildlife-crime · wildlife-crime-corridor</li>
+        <li>coexistence · other</li>
+      </ul>
+      <p class="note">v2/schema/event_schema.json is master doc</p>
     </div>
   </div>
 
-  <!-- TRACK 4 — BIOLOGICAL INDICATORS (PLANNED) -->
-  <div class="row" style="margin-top:6px;">
-    <div class="box phase-2 wide" style="border: 1.5px dashed #6366f1; opacity: 0.85;">
-      <span class="badge purple">Track 4 — Biological Indicators (Planned)</span>
-      <div class="box-title">eBird Specialist : Generalist Bird Ratio</div>
-      <div class="box-body">
+  <div class="box phase-0 wide">
+    <span class="badge purple">Spatial Reference Data (load once → PostGIS)</span>
+    <div class="box-title">Reference Layers</div>
+    <div class="box-body" style="columns: 2; gap: 16px;">
+      <div>
         <ul>
-          <li><strong style="color:#a78bfa">eBird API</strong> — Cornell Lab of Ornithology. Structured checklists with date, location, observer effort. Rich India coverage.</li>
-          <li>Classify species: forest <em>specialists</em> (Great Hornbill, pittas, flycatchers) vs habitat <em>generalists</em> (House Crow, Common Myna)</li>
-          <li>Compute specialist : generalist ratio per PA / corridor over time — declining ratio = degrading habitat quality</li>
-          <li>Correlate with: PARIVESH clearances in area (Track 2), GFW forest loss (Track 3), HWC/poaching events (Track 1)</li>
-        </ul>
-        <p class="note">Adds a <strong style="color:#a78bfa">biological signal</strong> to the regulatory + satellite + news triangle. Key caveat: eBird coverage is sparser in remote forest interiors — account for observer effort. Defer to after Tracks 1–3 are operational.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="arrow">▼</div>
-
-  <!-- THREE-LAYER GAP ANALYSIS -->
-  <div class="row">
-    <div class="box novel wide">
-      <span class="badge yellow">★ Core Analytical Framework</span>
-      <div class="box-title">Three-Layer Gap Analysis — Where the Intelligence Lives</div>
-      <div class="box-body" style="columns: 2; gap: 24px;">
-        <div>
-          <strong style="color:#fbbf24">The Three Layers</strong>
-          <ul>
-            <li><strong>L1 Regulatory</strong> — what was authorised (PARIVESH/NGT/courts)</li>
-            <li><strong>L2 Events</strong> — what was reported (news + court coverage)</li>
-            <li><strong>L3 Ground truth</strong> — what satellite shows happened (GFW)</li>
-          </ul>
-        </div>
-        <div>
-          <strong style="color:#fbbf24">The Gaps = Intelligence</strong>
-          <ul>
-            <li><strong style="color:#f87171">L3 loss + no L1</strong> → ILLEGAL ENCROACHMENT — cleared with no permit ever filed</li>
-            <li><strong style="color:#f87171">L3 loss + no L2</strong> → UNDERREPORTED DEGRADATION — satellite saw it, no news article ever wrote about it</li>
-            <li><strong style="color:#fbbf24">L1 exists + no L3</strong> → Clearance granted but not yet acted on — keep monitoring</li>
-            <li><strong style="color:#4ade80">L2 + L3 confirm</strong> → High-confidence validated event</li>
-          </ul>
-        </div>
-      </div>
-      <p class="note">Example lifecycle: PARIVESH clearance filed (L1) → news reports protest (L2) → GFW detects 80ha loss 6 months later (L3) → all three linked by location + project name → complete picture</p>
-    </div>
-  </div>
-
-  <div class="arrow">▼</div>
-  <div class="sep"></div>
-
-  <!-- PHASE 1 -->
-  <div class="phase-label">Phase 1 — Article Ingestion &amp; Filtering (Track 1 detail)</div>
-  <div class="row">
-    <div class="box phase-1">
-      <span class="badge blue">Input</span>
-      <div class="box-title">RSS Feed Fetch</div>
-      <div class="box-body">
-        <ul>
-          <li>Same sources as V1 (+ regional feeds)</li>
-          <li>Deduplicate by URL before processing</li>
-          <li>Store raw article text, not just title</li>
+          <li><strong style="color:#a78bfa">WDPA</strong> — All India PA boundaries. REST API + monthly shapefile. Free.</li>
+          <li><strong style="color:#a78bfa">IUCN range maps</strong> — Tiger, elephant, lion, leopard, rhino, gharial, vultures, GIB, blackbuck, wolf, florican</li>
+          <li><strong style="color:#a78bfa">KBA shapefile</strong> — ~900+ Key Biodiversity Areas. <em style="color:#f87171">⚠ Pending BirdLife International data agreement</em></li>
+          <li><strong style="color:#a78bfa">FSI ISFR</strong> — Official forest cover boundary (authoritative GoI forest layer)</li>
+          <li><strong style="color:#fb923c">ONE boundary</strong> — Open Natural Ecosystems (grassland, savanna, shola, scrubland). <em style="color:#f87171">⚠ Email NCF + ATREE (Abi Vanak). Interim: MODIS MCD12Q1 grassland+savanna+shrubland minus revenue forest</em></li>
         </ul>
       </div>
-    </div>
-    <div class="box phase-1">
-      <span class="badge blue">Filter</span>
-      <div class="box-title">Relevance Classification</div>
-      <div class="box-body">
+      <div>
         <ul>
-          <li>Keyword pre-filter (same as V1)</li>
-          <li>ML classifier trained on gold standard</li>
-          <li>Removes: lone-wolf terrorism, disease outbreaks, urban infra, plantation drives</li>
-          <li>Output: is_wildlife_relevant score</li>
+          <li><strong style="color:#a78bfa">Wasteland Atlas 2019</strong> — NRSC. Free shapefile. Cross-check IUCN ranges before downgrading priority.</li>
+          <li><strong style="color:#a78bfa">Agriculture extent</strong> — ISRO Bhuvan crop extent + MODIS MCD12Q1 cropland class</li>
+          <li><strong style="color:#a78bfa">Above-ground biomass</strong> — ESA CCI Biomass (100m) or Spawn et al. 2020</li>
+          <li><strong style="color:#a78bfa">Admin boundaries</strong> — State + district + village from censusindia.gov.in</li>
+          <li><strong style="color:#a78bfa">Corridor metadata</strong> — 3 PDFs: MoEF 2023, WTI 2005 "Right of Passage", WII Tiger Status 2022. pdfplumber → PostgreSQL table. WDPA convex hull for Phase 1 polygons.</li>
+          <li><strong style="color:#a78bfa">WorldPop</strong> — India population grid (100m). worldpop.org, free.</li>
         </ul>
-      </div>
-    </div>
-    <div class="box phase-1">
-      <span class="badge blue">Text Extraction</span>
-      <div class="box-title">Full Article Fetch</div>
-      <div class="box-body">
-        <ul>
-          <li>Fetch full article body (not just RSS excerpt)</li>
-          <li>Strip HTML, keep first 2000 chars</li>
-          <li>Store headline + body + date + source</li>
-        </ul>
-        <p class="note">Full text is needed for accurate NER &amp; species extraction</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="arrow">▼</div>
-  <div class="sep"></div>
-
-  <!-- PHASE 2 -->
-  <div class="phase-label">Phase 2 — Event Extraction (the hard part)</div>
-  <div class="row">
-    <div class="box phase-2">
-      <span class="badge teal">NER</span>
-      <div class="box-title">Species Extraction</div>
-      <div class="box-body">
-        <ul>
-          <li>spaCy + custom species gazetteer</li>
-          <li>Maps common names → scientific names</li>
-          <li>Looks up IUCN status from pre-loaded table</li>
-          <li>Handles: "big cat", "pachyderm", "great apes" → species</li>
-        </ul>
-      </div>
-    </div>
-    <div class="box phase-2 novel">
-      <span class="badge teal">Location</span>
-      <div class="box-title">Species-Constrained Toponym Disambiguation</div>
-      <div class="box-body">
-        <ul>
-          <li>Extract all GPE/LOC candidates via NER</li>
-          <li>For each candidate: geocode → check overlap with IUCN range map</li>
-          <li>Score = geographic plausibility × species range overlap</li>
-          <li>Select highest-scoring candidate</li>
-          <li>Fallback: gazetteer → geocoder (V1 logic)</li>
-        </ul>
-        <p class="note">Example: "tiger" → reject Rajasthan desert, prefer Sundarbans/Corbett</p>
-      </div>
-    </div>
-    <div class="box phase-2">
-      <span class="badge teal">Classification</span>
-      <div class="box-title">Event Type + Outcome</div>
-      <div class="box-body">
-        <ul>
-          <li>Types: poaching · hwc · mortality · sighting · discovery · conservation_action · habitat_threat · policy · research · rescue · disease · flood_displacement · wildlife_crime · fire · coexistence · other</li>
-          <li>Extracts: casualties (human/animal), severity, outcome summary</li>
-          <li>Classifier trained on gold standard labels</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="arrow">▼</div>
-
-  <!-- PHASE 2B -->
-  <div class="row">
-    <div class="box phase-2 novel">
-      <span class="badge teal">Deduplication</span>
-      <div class="box-title">Event Clustering (Same Incident → One Event)</div>
-      <div class="box-body">
-        <ul>
-          <li>Sentence embeddings (sentence-transformers) for semantic similarity</li>
-          <li>Cluster articles: same location + same species + same time window + high similarity → one event</li>
-          <li>Example: 8 articles about Rajouri forest fires → 1 event with 8 source_articles</li>
-          <li>Select canonical article (highest info density) as primary</li>
-        </ul>
-        <p class="note">Key metric: how many V1 duplicate pins does this eliminate?</p>
-      </div>
-    </div>
-    <div class="box phase-2">
-      <span class="badge teal">Ecological Enrichment</span>
-      <div class="box-title">Spatial Join with Reference Data</div>
-      <div class="box-body">
-        <ul>
-          <li>Point-in-polygon: is location inside a PA? Which one?</li>
-          <li>Buffer 5km: nearest PA name + distance</li>
-          <li>Corridor membership check</li>
-          <li>Habitat type from forest cover raster</li>
-          <li>State + district from admin boundaries</li>
-        </ul>
-        <p class="note">All done with PostGIS ST_Within, ST_DWithin queries</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="arrow">▼</div>
-  <div class="sep"></div>
-
-  <!-- PHASE 3 -->
-  <div class="phase-label">Phase 3 — Event Store (PostgreSQL + PostGIS)</div>
-  <div class="row">
-    <div class="box phase-3 wide">
-      <span class="badge yellow">Storage</span>
-      <div class="box-title">Structured Event Database (all three tracks unified)</div>
-      <div class="box-body" style="columns: 2; gap: 20px;">
-        <div>
-          <strong style="color:#fbbf24">events table</strong>
-          <ul>
-            <li>event_id (UUID)</li>
-            <li>event_type, event_subtype</li>
-            <li>source_track (news / regulatory / satellite)</li>
-            <li>location (PostGIS POINT)</li>
-            <li>inside_pa, pa_name, corridor_name</li>
-            <li>event_date, reported_date</li>
-            <li>severity, outcome_summary</li>
-          </ul>
-          <strong style="color:#fbbf24">regulatory table</strong>
-          <ul>
-            <li>case_number, case_status</li>
-            <li>forest_area_ha, clearance_type</li>
-            <li>verdict_summary, project_name</li>
-          </ul>
-        </div>
-        <div>
-          <strong style="color:#fbbf24">forest_cover table</strong>
-          <ul>
-            <li>polygon_id (PA or corridor)</li>
-            <li>year, loss_ha, loss_driver</li>
-            <li>corridor_width_m, fragmentation_index</li>
-            <li>alert_type (GLAD/RADD)</li>
-          </ul>
-          <strong style="color:#fbbf24">event_species table</strong>
-          <ul>
-            <li>event_id, species_common, scientific_name, iucn_status, count</li>
-          </ul>
-          <strong style="color:#fbbf24">event_articles table</strong>
-          <ul>
-            <li>event_id, url, headline, source, published</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="box phase-3 novel md">
-      <span class="badge yellow">Analytics</span>
-      <div class="box-title">Corridor Stress Index + Corridor Integrity Index</div>
-      <div class="box-body">
-        <ul>
-          <li><strong style="color:#fbbf24">Stress index</strong> — events/month per corridor (from news track)</li>
-          <li><strong style="color:#fbbf24">Integrity index</strong> — corridor width + connectivity trend (from GFW track)</li>
-          <li>Combined: high stress + declining integrity = corridor in active collapse</li>
-          <li>High stress + stable integrity = pressure but still intact</li>
-          <li>Low stress + declining integrity = underreported degradation</li>
-        </ul>
-        <p class="note">"Panna–Bandhavgarh: elevated HWC + 12% width loss this year = active collapse"</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="arrow">▼</div>
-  <div class="sep"></div>
-
-  <!-- PHASE 4 -->
-  <div class="phase-label">Phase 4 — Intelligence Layer</div>
-  <div class="row">
-    <div class="box phase-4 novel">
-      <span class="badge red">RAG Engine</span>
-      <div class="box-title">Natural Language Reports</div>
-      <div class="box-body">
-        <ul>
-          <li>Query the event store with structured filters</li>
-          <li>Retrieve relevant events as context</li>
-          <li>LLM synthesises into plain-English report</li>
-          <li>Example: "Summarise elephant HWC in Kerala in 2026"</li>
-          <li>Cites source articles</li>
-        </ul>
-        <p class="note">Uses local/open-source LLM to keep cost = zero</p>
-      </div>
-    </div>
-    <div class="box phase-4">
-      <span class="badge red">Query API</span>
-      <div class="box-title">Advanced Search Interface</div>
-      <div class="box-body">
-        <ul>
-          <li>Natural language: "all tiger incidents in Madhya Pradesh 2025"</li>
-          <li>Structured: filter by species / event_type / PA / date range / severity</li>
-          <li>Spatial: "events within 50km of Kaziranga"</li>
-          <li>Export: CSV / GeoJSON</li>
-        </ul>
-      </div>
-    </div>
-    <div class="box phase-4">
-      <span class="badge red">Alerts</span>
-      <div class="box-title">Threshold Monitoring</div>
-      <div class="box-body">
-        <ul>
-          <li>Poaching spike in a PA → flag</li>
-          <li>Same species, multiple deaths, same area &lt; 30 days → flag</li>
-          <li>Corridor stress index threshold breach → flag</li>
-          <li><strong style="color:#f87171">GFW deforestation alert fires in PA buffer → cross-check PARIVESH</strong> — no clearance found = illegal encroachment alert</li>
-          <li><strong style="color:#f87171">L3 satellite loss with no L2 news coverage</strong> → underreported degradation flag</li>
-          <li><strong style="color:#f87171">PARIVESH clearance granted in wildlife corridor</strong> → predictive threat alert before any news</li>
-          <li>Weekly digest email (optional)</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <!-- PHASE 4B — SDM -->
-  <div class="row" style="margin-top:6px;">
-    <div class="box phase-4 novel wide">
-      <span class="badge red">★ Conflict Risk SDM</span>
-      <div class="box-title">Species Distribution Modelling — Predictive Conflict &amp; Crime Hotspot Maps</div>
-      <div class="box-body" style="columns: 2; gap: 24px;">
-        <div>
-          <strong style="color:#f87171">Method (from Kitratporn &amp; Takeuchi 2020)</strong>
-          <ul>
-            <li>Treat geocoded conflict incidents (from Event Store) as <em>occurrence data</em> — same principle used in species range modelling</li>
-            <li>Fit MaxEnt model per species × conflict type × season using environmental predictors</li>
-            <li>Output: continuous conflict probability surface → discretised to 4 risk zones per 5km grid cell</li>
-            <li>Re-run quarterly: wet season vs dry season patterns captured</li>
-          </ul>
-          <strong style="color:#f87171">Two-Axis Classification</strong>
-          <ul>
-            <li><strong>Axis 1 — Resource Suitability:</strong> IUCN species range overlap + GFW forest cover density + distance to PA boundary + habitat type</li>
-            <li><strong>Axis 2 — Human Pressure:</strong> population density (census) + road proximity + agricultural land fraction + settlement density (night-lights proxy)</li>
-            <li>High suitability + High pressure → <strong style="color:#f87171">HIGH CONFLICT</strong></li>
-            <li>High suitability + Low pressure → <strong style="color:#fbbf24">LIKELY CONFLICT</strong></li>
-            <li>Low suitability + High pressure → <strong style="color:#60a5fa">LOW CONFLICT</strong></li>
-            <li>Low suitability + Low pressure → <strong style="color:#4ade80">RARE / SAFE</strong></li>
-          </ul>
-        </div>
-        <div>
-          <strong style="color:#f87171">Applied Conflict Types (all species where applicable)</strong>
-          <ul>
-            <li><strong style="color:#f87171">Elephant HWC</strong> — crop raid corridors, village encroachment into range</li>
-            <li><strong style="color:#f87171">Tiger HWC</strong> — livestock kills, human attacks near forest edges</li>
-            <li><strong style="color:#f87171">Leopard HWC</strong> — periurban fringe risk zones, scrub-forest boundaries</li>
-            <li><strong style="color:#f87171">Bear / Gaur / Other HWC</strong> — wherever ≥10 events exist in event store</li>
-            <li><strong style="color:#f87171">Poaching hotspots</strong> — treat poaching events as occurrence points; human pressure axis = road access + ranger station proximity</li>
-            <li><strong style="color:#f87171">Wildlife crime / smuggling</strong> — seizure locations as occurrences; pressure axis = border proximity + transit routes + demand centres</li>
-          </ul>
-          <strong style="color:#f87171">Data inputs</strong>
-          <ul>
-            <li>Occurrence: events table (event_type ∈ hwc, poaching, wildlife_crime), deduplicated, date-matched to season</li>
-            <li>Resource suitability: IUCN range maps + GFW forest cover (both already in Phase 0 / Track 3)</li>
-            <li>Human pressure: <em>new layers to load</em> — WorldPop India population grid (100m, free), OSM road network (download.geofabrik.de), MODIS nighttime lights (NASA Earthdata, free)</li>
-            <li>Seasonal split: wet (Jun–Sep) / dry (Oct–May) per Maharashtra paper approach; or quarterly for finer resolution</li>
-          </ul>
-          <p class="note">Advantage over original paper: WildLens occurrence data is curated (NLP-classified, deduped) vs raw Google News — higher occurrence quality → better SDM accuracy. India-wide multi-species coverage is a first.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="arrow">▼</div>
-  <div class="sep"></div>
-
-  <!-- PHASE 5 -->
-  <div class="phase-label">Phase 5 — Interface</div>
-  <div class="row">
-    <div class="box phase-5 md">
-      <span class="badge green">Map</span>
-      <div class="box-title">Event Map (V2 Edition)</div>
-      <div class="box-body">
-        <ul>
-          <li>One pin per event (not per article)</li>
-          <li>Pin colour = event_type</li>
-          <li>Cluster heatmap for high-density areas</li>
-          <li>PA boundaries overlay</li>
-          <li>Corridor stress heat layer</li>
-          <li><strong style="color:#f87171">Conflict risk overlay</strong> — species-selectable SDM zone map (High / Likely / Low / Rare) toggleable per species (elephant, tiger, leopard, poaching, etc.)</li>
-          <li><strong style="color:#f87171">Seasonal toggle</strong> — wet vs dry season risk zones</li>
-        </ul>
-      </div>
-    </div>
-    <div class="box phase-5 md">
-      <span class="badge green">Dashboard</span>
-      <div class="box-title">Analytics Dashboard</div>
-      <div class="box-body">
-        <ul>
-          <li>Top species by event count</li>
-          <li>Top PAs by event count</li>
-          <li>HWC trend by state</li>
-          <li>New species discoveries timeline</li>
-          <li>Corridor stress index panel</li>
-        </ul>
-      </div>
-    </div>
-    <div class="box phase-5 wide">
-      <span class="badge green">Chat Interface</span>
-      <div class="box-title">Ask WildLens v2</div>
-      <div class="box-body">
-        <ul>
-          <li>"How many elephant deaths in Assam this year?"</li>
-          <li>"Which PA had the most poaching events in 2025?"</li>
-          <li>"Give me a report on tiger conservation in MP"</li>
-          <li>"Which corridors are under highest stress?"</li>
-        </ul>
-        <p class="note">Powered by RAG engine (Phase 4) — not keyword search like V1</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="sep"></div>
-
-  <!-- Publication -->
-  <div class="phase-label">Publication &amp; IP Strategy</div>
-  <div class="row">
-    <div class="box pub-novel">
-      <span class="badge yellow">★ Patent Candidate 1</span>
-      <div class="box-title">Species-Constrained Toponym Disambiguation</div>
-      <div class="box-body">
-        Score NER location candidates by IUCN range map overlap as ecological plausibility prior. No prior NLP system uses species ranges to disambiguate place names.
-        <p class="note">Consult Indian patent attorney after paper acceptance.</p>
-      </div>
-    </div>
-    <div class="box pub-novel">
-      <span class="badge yellow">★ Novel Contribution 2</span>
-      <div class="box-title">Three-Layer Ecological Gap Analysis</div>
-      <div class="box-body">
-        Cross-referencing regulatory (L1: PARIVESH/NGT/courts) + news events (L2) + satellite forest cover (L3: GFW) to surface illegal encroachment and underreported degradation. Gaps between layers = intelligence no single source can provide.
-        <p class="note">First system to unify all three data streams for Indian wildlife.</p>
-      </div>
-    </div>
-    <div class="box pub-novel">
-      <span class="badge yellow">★ Novel Contribution 3</span>
-      <div class="box-title">Biological Indicator Correlation (eBird)</div>
-      <div class="box-body">
-        Specialist:generalist bird ratio as habitat quality proxy, correlated with PARIVESH clearances + GFW forest loss + news events across the same PAs and corridors. No prior system links regulatory + satellite + biological signals for Indian wildlife.
-        <p class="note">Sufficient for a standalone paper independent of Contributions 1 &amp; 2.</p>
-      </div>
-    </div>
-  </div>
-  <div class="row" style="margin-top:6px;">
-    <div class="box pub-novel wide">
-      <span class="badge yellow">★ Novel Contribution 4</span>
-      <div class="box-title">Multi-Species Conflict SDM from Curated News Occurrence Data</div>
-      <div class="box-body">
-        Extends Kitratporn &amp; Takeuchi (2020) — which applied MaxEnt SDM to a single species (elephant) in a single country (Thailand) using raw Google News scrapes — to a multi-species, all-India system using NLP-curated, deduplicated, ecologically validated occurrence data. Two-axis classification (resource suitability × human pressure) produces seasonal conflict risk zone maps for elephant HWC, tiger HWC, leopard HWC, poaching hotspots, and wildlife crime corridors simultaneously. First system to apply SDM-style conflict modelling across multiple human-wildlife conflict types at national scale.
-        <p class="note">Key differentiator: occurrence data quality. WildLens occurrence points are NLP-classified (not keyword-matched), species-constrained (IUCN range validated), and deduplicated — substantially higher quality than the raw news scrapes used in the original paper, leading to more reliable SDM outputs.</p>
-      </div>
-    </div>
-  </div>
-  <div class="row" style="margin-top: 6px;">
-    <div class="box phase-0">
-      <span class="badge purple">Publication Target</span>
-      <div class="box-title">Methods in Ecology and Evolution</div>
-      <div class="box-body">
-        Framing: domain-expert-driven pipeline where ecological knowledge (range maps, PA topology, corridor stress, regulatory data) constrains every stage. Three data tracks + gap analysis = ecological intelligence, not generic NLP. Evaluated against gold standard dataset (Phase 0).
-      </div>
-    </div>
-    <div class="box phase-0">
-      <span class="badge purple">V1 stays untouched</span>
-      <div class="box-title">V1 / V2 Separation</div>
-      <div class="box-body">
-        V1 at wildlens.in serves journalists and general public. V2 is a parallel research system — separate codebase, separate database, separate URL. Share only the spatial reference datasets.
       </div>
     </div>
   </div>
 
 </div>
 
-<p style="text-align:center; margin-top:40px; font-size:11px; color:#334155">
-  WildLens v2 — Internal planning document &nbsp;·&nbsp; ★ = novel contribution &nbsp;·&nbsp; dashed border = potentially patentable method
-</p>
+<div class="arrow">▼</div>
+<div class="sep"></div>
 
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!-- THREE DATA TRACKS -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<div class="phase-label">Three Parallel Data Tracks — all feed the same Event Store</div>
+<div class="row">
+
+  <div class="box phase-1 wide">
+    <span class="badge blue">Track 1 — News (Reactive, Layer 2)</span>
+    <div class="box-title">RSS + Historical Sources → NLP Pipeline</div>
+    <div class="box-body">
+      <ul>
+        <li><strong style="color:#60a5fa">Live RSS</strong> — V1 sources + 10 regional language feeds (ongoing). V1 runs every 6h.</li>
+        <li><strong style="color:#60a5fa">GDELT</strong> — BigQuery free tier (1TB/month). Themes: ENV_WILDLIFE, ENV_POACHING, ENV_DEFORESTATION. ~50k–200k India wildlife URLs, 2013–present.</li>
+        <li><strong style="color:#60a5fa">Wayback CDX API</strong> — Full historical URL inventory per site (DTE, Mongabay, The Hindu, The Wire). 2003–present. Free REST API.</li>
+        <li><strong style="color:#60a5fa">Kalpavriksh PAU</strong> — Protected Area Update PDFs 2000–2024. Lowest false positive rate. pdfplumber + pytesseract.</li>
+        <li><strong style="color:#60a5fa">Factiva/LexisNexis</strong> — Pre-2003 if institutional access. The Hindu from 1990, ToI from 1991.</li>
+      </ul>
+      <p class="note">Layer 2: what was REPORTED. Coverage: dense 2010–present · moderate 2003–2009 · sparse pre-2003. Regional language: near-zero before 2015.</p>
+    </div>
+  </div>
+
+  <div class="box phase-3 wide">
+    <span class="badge yellow">Track 2 — Regulatory (Predictive, Layer 1)</span>
+    <div class="box-title">Clearances · Courts · Seizure Data</div>
+    <div class="box-body">
+      <ul>
+        <li><strong style="color:#fbbf24">PARIVESH</strong> — 50k+ forest clearance records (datagovindia pip pkg). Filed months before news. Highest priority regulatory source.</li>
+        <li><strong style="color:#fbbf24">NGT + High Courts</strong> — ecourts pip package (GPL-3.0)</li>
+        <li><strong style="color:#fbbf24">District Courts</strong> — Akshit eCourts API (free non-commercial)</li>
+        <li><strong style="color:#c084fc">TRAFFIC Wildlife Trade Portal</strong> — wildlifetradeportal.org (register → immediate access). India + focal species filter. CSV export → traffic_seizures table. No API — CSV loader only. Fields: species, product, seizure location, date, transport route, criminal justice outcome.</li>
+      </ul>
+      <p class="note">Layer 1: what was AUTHORISED. Key signal: clearance filed → monitor buffer for satellite loss.</p>
+    </div>
+  </div>
+
+  <div class="box phase-2 wide">
+    <span class="badge teal">Track 3 — Satellite (Continuous, Layer 3)</span>
+    <div class="box-title">Forest Cover · Active Fire · Deforestation Alerts</div>
+    <div class="box-body">
+      <ul>
+        <li><strong style="color:#2dd4bf">Global Forest Watch</strong> — Annual tree cover loss 2001–2024 (30m, UMD/Hansen). Loss by driver: agriculture / fire / urbanisation / forestry. Corridor width + fragmentation via rasterio/scipy.</li>
+        <li><strong style="color:#2dd4bf">GLAD-L / GLAD-S2 / RADD</strong> — Near-real-time weekly deforestation alerts (10–30m)</li>
+        <li><strong style="color:#fb923c">NASA FIRMS API</strong> — Active fire alerts within 3–6 hours. MODIS + VIIRS. Free.</li>
+        <li><strong style="color:#fb923c">MODIS MCD64A1</strong> — Monthly burned area (500m). VIIRS VNP64A1 (375m) for better resolution.</li>
+        <li><strong style="color:#fb923c">ESA CCI Biomass</strong> — Above-ground biomass raster (100m). Biomass loss = burned area (ha) × density (t/ha).</li>
+      </ul>
+      <p class="note">Layer 3: what ACTUALLY HAPPENED on the ground. Ground truth for gap analysis.</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- Track 4 — Biological (deferred) -->
+<div class="row" style="margin-top: 6px;">
+  <div class="box phase-2 full" style="border: 1.5px dashed #6366f1; opacity: 0.8;">
+    <span class="badge purple">Track 4 — Biological Indicators (DEFERRED — after Tracks 1–3 operational)</span>
+    <div class="box-title">eBird Specialist : Generalist Bird Ratio</div>
+    <div class="box-body">
+      <ul>
+        <li>Forest specialists (Great Hornbill, pittas, flycatchers) decline with habitat degradation. Generalists (House Crow, Common Myna) increase. Ratio = habitat quality signal.</li>
+        <li>Compute ratio per PA / corridor per year. Correlate with PARIVESH clearances (L1), GFW forest loss (L3), HWC/poaching events (L2).</li>
+        <li>Key caveat: eBird coverage sparse in remote forest interiors. Must correct for observer effort. Define specialist/generalist list (~50 species) before coding — no standard published list exists.</li>
+      </ul>
+      <p class="note">Novel: no prior system correlates eBird ratio change with regulatory + satellite + news for India. Standalone paper candidate.</p>
+    </div>
+  </div>
+</div>
+
+<div class="arrow">▼</div>
+
+<!-- THREE-LAYER GAP ANALYSIS -->
+<div class="row">
+  <div class="box novel full">
+    <span class="badge yellow">★ Core Intelligence Framework</span>
+    <div class="box-title">Three-Layer Gap Analysis — The gaps are the signal</div>
+    <div class="box-body" style="columns: 3; gap: 20px;">
+      <div>
+        <strong style="color:#fbbf24">The Three Layers</strong>
+        <ul>
+          <li><strong>L1 Regulatory</strong> — what was authorised (PARIVESH / NGT / courts)</li>
+          <li><strong>L2 Reported</strong> — what appeared in news / court coverage</li>
+          <li><strong>L3 Satellite</strong> — what GFW/FIRMS shows happened on the ground</li>
+        </ul>
+      </div>
+      <div>
+        <strong style="color:#f87171">Gap Signals = Intelligence</strong>
+        <ul>
+          <li><strong style="color:#f87171">L3 loss + no L1</strong> → ILLEGAL ENCROACHMENT — cleared with no permit</li>
+          <li><strong style="color:#f87171">L3 loss + no L2</strong> → UNDERREPORTED DEGRADATION — satellite saw it, no news</li>
+          <li><strong style="color:#fbbf24">L1 + no L3</strong> → Clearance not yet executed — keep monitoring buffer</li>
+          <li><strong style="color:#4ade80">L2 + L3 confirm</strong> → High-confidence validated event</li>
+        </ul>
+      </div>
+      <div>
+        <strong style="color:#4ade80">Fire-Specific Signals</strong>
+        <ul>
+          <li><strong style="color:#fb923c">Fire L3 + PARIVESH L1 nearby</strong> → Arson for land clearing — documented encroachment tactic in Northeast + Central India</li>
+          <li><strong style="color:#fb923c">Same pixel fires ≥2 consecutive years, outside agriculture season</strong> → Encroachment pattern flag</li>
+          <li><strong style="color:#fb923c">Fire in ONE + L1 clearance</strong> → Land conversion signal</li>
+        </ul>
+        <p class="note">Example: PARIVESH clearance filed (L1) → protest news (L2) → GFW 80ha loss 6 months later (L3) → linked by location + project → complete picture</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="arrow">▼</div>
+<div class="sep"></div>
+
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!-- PHASE 1 — NLP PIPELINE -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<div class="phase-label">Phase 1 — NLP Pipeline &nbsp;·&nbsp; Gate: F1 > 0.75 per class required to proceed</div>
+<div class="row">
+
+  <div class="box phase-1">
+    <span class="badge blue">Step 1</span>
+    <div class="box-title">Relevance Classifier</div>
+    <div class="box-body">
+      <ul>
+        <li>Keyword pre-filter (V1 KEYWORDS / EXCLUDE_KEYWORDS)</li>
+        <li>scikit-learn LogisticRegression + TF-IDF trained on gold standard</li>
+        <li>Removes: lone-wolf attacks, Wolf Prize, plantation drives, urban infra</li>
+        <li>Output: is_wildlife_relevant score</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="box phase-1">
+    <span class="badge blue">Step 2</span>
+    <div class="box-title">Species Extraction</div>
+    <div class="box-body">
+      <ul>
+        <li>spaCy NER + custom wildlife entity ruler</li>
+        <li>Maps common names → scientific names</li>
+        <li>IUCN status lookup from pre-loaded table</li>
+        <li>Handles: "big cat", "pachyderm" → species</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="box phase-1 novel">
+    <span class="badge blue">Step 3 ★</span>
+    <div class="box-title">Species-Constrained Toponym Disambiguation</div>
+    <div class="box-body">
+      <ul>
+        <li>Extract all GPE/LOC candidates via NER</li>
+        <li>For each candidate: geocode → PostGIS ST_Intersects with IUCN range map</li>
+        <li>Score = geographic plausibility × species range overlap</li>
+        <li>Highest-scoring candidate wins</li>
+        <li>Fallback: PA gazetteer → Nominatim (V1 logic)</li>
+      </ul>
+      <p class="note">Patent candidate. "tiger attack" → reject Rajasthan desert, prefer Sundarbans.</p>
+    </div>
+  </div>
+
+  <div class="box phase-1">
+    <span class="badge blue">Step 4</span>
+    <div class="box-title">Event Classifier</div>
+    <div class="box-body">
+      <ul>
+        <li>scikit-learn baseline. Upgrade to fine-tuned DistilBERT if F1 &lt; 0.75</li>
+        <li>16 event types from gold standard</li>
+        <li>Extracts: casualties, severity, outcome summary</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="box phase-1 novel">
+    <span class="badge blue">Step 5 ★</span>
+    <div class="box-title">Semantic Deduplication</div>
+    <div class="box-body">
+      <ul>
+        <li>sentence-transformers/all-MiniLM-L6-v2 (384-dim)</li>
+        <li>Cluster: same location + species + time window + cosine &gt; 0.85 → one event</li>
+        <li>Select canonical article (highest info density) as primary</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="box phase-1">
+    <span class="badge blue">Step 6</span>
+    <div class="box-title">Ecological Enrichment</div>
+    <div class="box-body">
+      <ul>
+        <li>PostGIS ST_Within → inside_pa, pa_name</li>
+        <li>ST_DWithin(5km) → nearest PA + distance</li>
+        <li>Corridor membership check</li>
+        <li>Habitat type from forest cover raster</li>
+        <li>State + district from admin boundaries</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div class="arrow">▼</div>
+<div class="sep"></div>
+
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!-- PHASE 3 — EVENT STORE -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<div class="phase-label">Phase 3 — Event Store &nbsp;·&nbsp; PostgreSQL + PostGIS + pgvector</div>
+<div class="row">
+
+  <div class="box phase-3">
+    <span class="badge yellow">Core Tables</span>
+    <div class="box-title">events + species + articles</div>
+    <div class="box-body">
+      <ul>
+        <li>event_id (UUID PK)</li>
+        <li>event_type, event_subtype</li>
+        <li>source_track: news / regulatory / satellite</li>
+        <li>location GEOMETRY(POINT, 4326)</li>
+        <li>inside_pa, pa_name, corridor_name</li>
+        <li>event_date, reported_date</li>
+        <li>severity, outcome_summary</li>
+        <li>embedding VECTOR(384)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="box phase-3">
+    <span class="badge yellow">Regulatory Table</span>
+    <div class="box-title">regulatory</div>
+    <div class="box-body">
+      <ul>
+        <li>case_number, case_status</li>
+        <li>forest_area_ha, clearance_type</li>
+        <li>verdict_summary, project_name</li>
+        <li>location GEOMETRY</li>
+        <li>Source: PARIVESH · NGT · eCourts</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="box phase-3">
+    <span class="badge yellow">Forest Cover Table</span>
+    <div class="box-title">forest_cover</div>
+    <div class="box-body">
+      <ul>
+        <li>polygon_id, year</li>
+        <li>loss_ha, loss_driver</li>
+        <li>corridor_width_m</li>
+        <li>fragmentation_index</li>
+        <li>alert_type (GLAD / RADD)</li>
+        <li>Source: GFW REST API</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="box fire">
+    <span class="badge orange">Fire Events Table</span>
+    <div class="box-title">forest_fire_events</div>
+    <div class="box-body">
+      <ul>
+        <li>fire_id (UUID), detection_date</li>
+        <li>location GEOMETRY(POINT)</li>
+        <li>burned_area_ha, biomass_lost_tonnes</li>
+        <li>classification: FOREST_FIRE · ONE_FIRE · AGRICULTURAL_STUBBLE · AGRICULTURAL_SUSPICIOUS · WASTELAND_IN_RANGE · WASTELAND_OUT_OF_RANGE · UNCLASSIFIED</li>
+        <li>fire_source: MODIS · VIIRS · Sentinel2</li>
+        <li>confidence: high · nominal · low</li>
+        <li>inside_pa, corridor_name</li>
+        <li>iucn_species_overlap TEXT[]</li>
+        <li>parivesh_clearance_nearby BOOLEAN</li>
+        <li>encroachment_pattern BOOLEAN</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="box crime">
+    <span class="badge pink">Wildlife Crime Table</span>
+    <div class="box-title">traffic_seizures</div>
+    <div class="box-body">
+      <ul>
+        <li>Source: TRAFFIC Wildlife Trade Portal (CSV)</li>
+        <li>species, product_type</li>
+        <li>seizure_location GEOMETRY</li>
+        <li>date, transport_method</li>
+        <li>criminal_justice_outcome</li>
+        <li>Used for: smuggling corridor SDM occurrence points only</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="box phase-3" style="border-style: dashed; opacity: 0.85;">
+    <span class="badge yellow">Research Papers (Phase 3 extension)</span>
+    <div class="box-title">research_papers</div>
+    <div class="box-body">
+      <ul>
+        <li>paper_id (UUID), title, doi, year</li>
+        <li>species_tags TEXT[]</li>
+        <li>spatial_extent GEOMETRY</li>
+        <li>document_type: paper · report · policy</li>
+        <li>embedding VECTOR(384) — same pgvector table</li>
+        <li><em style="color:#64748b">Gate: Phase 1 F1 &gt; 0.75 before building</em></li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div class="arrow">▼</div>
+<div class="sep"></div>
+
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!-- PHASE 4 — FIVE INTELLIGENCE DOMAINS -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<div class="phase-label">Phase 4 — Five Intelligence Domains</div>
+
+<!-- DOMAIN 1: HWC SDM -->
+<h3 class="domain-heading">① Human-Wildlife Conflict SDM (Novel ★)</h3>
+<div class="row">
+  <div class="box phase-4 novel">
+    <span class="badge red">Coverage Audit First</span>
+    <div class="box-title">Mandatory Gate Before SDM Build</div>
+    <div class="box-body">
+      <ul>
+        <li>Plot occurrence density per species per state from full 25-year corpus</li>
+        <li>Table: articles per language per state per species</li>
+        <li>Flag states with &lt;10 incidents/species/decade = unreliable baseline (Chhattisgarh, Jharkhand, Arunachal, Nagaland, Mizoram at risk)</li>
+        <li>Validate against WII HWC survey data for Kerala, Karnataka, Assam</li>
+        <li>Quantify % incidents captured only in regional language press — key differentiator</li>
+      </ul>
+      <div class="tag-row"><span class="tag gate">Output: coverage_audit.md in v2/docs/</span></div>
+    </div>
+  </div>
+
+  <div class="box phase-4 novel wide">
+    <span class="badge red">★ Multi-Species Conflict Risk SDM</span>
+    <div class="box-title">10-Algorithm Ensemble · Two-Axis Classification · Time-Calibrated</div>
+    <div class="box-body" style="columns: 2; gap: 16px;">
+      <div>
+        <strong style="color:#f87171">8 Independent Pipelines</strong>
+        <ul>
+          <li>Elephant HWC (crop raid, human fatality, property damage)</li>
+          <li>Tiger HWC (livestock kill, human attack near forest edges)</li>
+          <li>Leopard HWC (periurban fringe, scrub-forest)</li>
+          <li>Sloth bear HWC (Northeast + Central India)</li>
+          <li>Himalayan black bear HWC (HP, Uttarakhand, J&amp;K)</li>
+          <li>Sun bear HWC (Northeast — only if &gt;30 occurrences/season)</li>
+          <li>Poaching hotspots (road access + ranger proximity)</li>
+          <li>Wildlife smuggling corridors (TRAFFIC seizure locations)</li>
+        </ul>
+        <p class="note">Each species: separate occurrence dataset, separate predictor extraction, separate biomod2 run, separate output rasters. No combined models. Ever.</p>
+      </div>
+      <div>
+        <strong style="color:#f87171">Two-Axis Classification</strong>
+        <ul>
+          <li><strong>Axis 1 — Resource Suitability:</strong> IUCN range overlap + GFW forest cover + PA proximity + EVI (MODIS MOD09A1) + KBDI drought index</li>
+          <li><strong>Axis 2 — Human Pressure:</strong> WorldPop population + OSM road proximity + MODIS night-lights (DMSP/VIIRS intercalibrated) + PA distance</li>
+          <li>Output: High / Likely / Low / Rare / Avoided zones</li>
+        </ul>
+        <strong style="color:#f87171">10-Algorithm Ensemble (biomd2 R)</strong>
+        <ul>
+          <li>MaxEnt · Random Forest · GBM · GLM · GAM · BRT · CART · FDA · SRE · MARS</li>
+          <li>Ensemble weighting by TSS. k=5 cross-validation. Gate: TSS &gt; 0.7</li>
+          <li>Time calibration: each occurrence matched to predictors from its specific season + year (Kitratporn &amp; Takeuchi 2020)</li>
+          <li>4 ensembles per species: resource suitability/wet + /dry, human pressure/wet + /dry</li>
+          <li>Bias correction: Gaussian kernel density → 10,000 background points</li>
+          <li>Schedule: full rebuild annually · seasonal projection quarterly</li>
+        </ul>
+        <p class="note">Extends Kitratporn &amp; Takeuchi 2020 + Chester Zoo/Oxford/WTI 2025 to all-India multi-species NLP-curated system.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- DOMAIN 2: ILLEGAL ENCROACHMENT -->
+<h3 class="domain-heading">② Illegal Encroachment Detection</h3>
+<div class="row">
+  <div class="box phase-4 novel">
+    <span class="badge red">★ Three-Layer Gap Engine</span>
+    <div class="box-title">L3 Forest Loss × L1 Regulatory × L2 News</div>
+    <div class="box-body">
+      <ul>
+        <li>For each GFW loss polygon: spatial join with PARIVESH buffer (L1) and news events (L2)</li>
+        <li>L3 + no L1 within 30-day window + 5km buffer → ILLEGAL ENCROACHMENT ALERT</li>
+        <li>L3 + no L2 within 90 days → UNDERREPORTED DEGRADATION FLAG</li>
+        <li>L1 present + no L3 after 12 months → Clearance not acted on — continue monitoring</li>
+        <li>Alert: GFW loss in PA buffer + no PARIVESH clearance = strongest signal</li>
+        <li>PARIVESH clearance in wildlife corridor = predictive threat alert before any loss</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- DOMAIN 3: CORRIDOR STRESS/INTEGRITY -->
+<h3 class="domain-heading">③ Corridor Stress + Integrity Index</h3>
+<div class="row">
+  <div class="box phase-4">
+    <span class="badge red">Corridor Stress Index</span>
+    <div class="box-title">News-derived signal</div>
+    <div class="box-body">
+      <ul>
+        <li>Events per month per corridor (from news track)</li>
+        <li>Types that raise stress: poaching, hwc, habitat-threat, wildlife-crime</li>
+        <li>Output: stress score per corridor, trend direction</li>
+      </ul>
+    </div>
+  </div>
+  <div class="box phase-4">
+    <span class="badge red">Corridor Integrity Index</span>
+    <div class="box-title">Satellite-derived signal</div>
+    <div class="box-body">
+      <ul>
+        <li>Corridor width + fragmentation index over time (GFW rasterio/scipy)</li>
+        <li>Annual tree cover loss within corridor buffer</li>
+        <li>Output: integrity score per corridor, trend direction</li>
+      </ul>
+    </div>
+  </div>
+  <div class="box phase-4 novel">
+    <span class="badge red">★ Combined Signal</span>
+    <div class="box-title">Stress × Integrity Matrix</div>
+    <div class="box-body">
+      <ul>
+        <li><strong style="color:#f87171">High stress + declining integrity</strong> → ACTIVE COLLAPSE — most urgent</li>
+        <li>High stress + stable integrity → Incident-heavy but not yet degraded</li>
+        <li>Low stress + declining integrity → Silent degradation — check for underreporting</li>
+        <li>Low stress + stable integrity → Healthy corridor</li>
+      </ul>
+      <p class="note">Distinguishes corridors that appear on news vs corridors that are actually degrading.</p>
+    </div>
+  </div>
+</div>
+
+<!-- DOMAIN 4: WILDLIFE CRIME -->
+<h3 class="domain-heading">④ Wildlife Crime Intelligence</h3>
+<div class="row">
+  <div class="box crime">
+    <span class="badge pink">Wildlife Crime Domain</span>
+    <div class="box-title">Seizure Data + Courts + News → Smuggling SDM</div>
+    <div class="box-body" style="columns: 2; gap: 16px;">
+      <div>
+        <strong style="color:#c084fc">Data Sources</strong>
+        <ul>
+          <li>TRAFFIC seizures (wildlifetradeportal.org) — CSV → traffic_seizures table</li>
+          <li>eCourts wildlife crime cases (wildlife_crime event type in events table)</li>
+          <li>WCCB seizure data (pending data agreement — POST-PUBLICATION)</li>
+          <li>C4ADS CWT-ID, Tigernet (NTCA) — POST-PUBLICATION, require formal agreements</li>
+        </ul>
+      </div>
+      <div>
+        <strong style="color:#c084fc">Smuggling Corridor SDM</strong>
+        <ul>
+          <li>Occurrence = TRAFFIC seizure locations</li>
+          <li>Pressure axis = border proximity + transit route density + demand centre proximity</li>
+          <li>Completely separate model pipeline from HWC SDMs</li>
+          <li>NOT combined with any other SDM model</li>
+        </ul>
+        <div class="tag-row"><span class="tag defer">C4ADS / Tigernet / WCCB: post-publication only</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- DOMAIN 5: FOREST FIRE -->
+<h3 class="domain-heading">⑤ Forest Fire Intelligence</h3>
+<div class="row">
+  <div class="box fire">
+    <span class="badge orange">Active Detection</span>
+    <div class="box-title">NASA FIRMS → Real-time Alerts</div>
+    <div class="box-body">
+      <ul>
+        <li>NASA FIRMS API — MODIS + VIIRS, active fire alerts within 3–6 hours</li>
+        <li>For each active fire alert: immediate classification through 5 reference layers</li>
+        <li>FOREST_FIRE or ONE_FIRE → trigger alert pipeline immediately</li>
+        <li>Biomass loss: burned area (MODIS MCD64A1 / VIIRS VNP64A1) × ESA CCI Biomass density</li>
+      </ul>
+    </div>
+  </div>
+  <div class="box fire wide">
+    <span class="badge orange">5-Layer Classification Pipeline (CRITICAL)</span>
+    <div class="box-title">Never treat all fires as equivalent</div>
+    <div class="box-body">
+      <div class="layer-row">
+        <span class="layer-num">L1</span>
+        <span class="layer-name" style="color:#fb923c">FSI Forest Cover Boundary</span>
+        <span class="layer-out" style="color:#4ade80">→ FOREST_FIRE · flag + biomass calc</span>
+      </div>
+      <div class="layer-row">
+        <span class="layer-num">L2</span>
+        <span class="layer-name" style="color:#fb923c">ONE Boundary (grassland / savanna / shola / scrubland)</span>
+        <span class="layer-out" style="color:#4ade80">→ ONE_FIRE · cross-check IUCN ranges for GIB, blackbuck, wolf, florican</span>
+      </div>
+      <div class="layer-row">
+        <span class="layer-num">L3</span>
+        <span class="layer-name" style="color:#fbbf24">Agriculture Extent (ISRO Bhuvan / MODIS cropland)</span>
+        <span class="layer-out" style="color:#94a3b8">→ Oct–Nov in IGP = AGRICULTURAL_STUBBLE (exclude) · off-season = AGRICULTURAL_SUSPICIOUS</span>
+      </div>
+      <div class="layer-row">
+        <span class="layer-num">L4</span>
+        <span class="layer-name" style="color:#94a3b8">Wasteland Atlas 2019 (NRSC)</span>
+        <span class="layer-out" style="color:#94a3b8">→ Do NOT dismiss. Many pristine habitats are legally "wasteland". Cross-check IUCN ranges.</span>
+      </div>
+      <div class="layer-row">
+        <span class="layer-num">L5</span>
+        <span class="layer-name" style="color:#c084fc">IUCN Range Map Cross-check (applies to L2 + L4)</span>
+        <span class="layer-out" style="color:#4ade80">→ Inside range → WASTELAND_IN_RANGE (high priority) · outside → WASTELAND_OUT_OF_RANGE</span>
+      </div>
+      <p class="note">Only FOREST_FIRE, ONE_FIRE, AGRICULTURAL_SUSPICIOUS, WASTELAND_IN_RANGE enter the intelligence system. Others logged only.</p>
+    </div>
+  </div>
+  <div class="box fire">
+    <span class="badge orange">Temporal Pattern</span>
+    <div class="box-title">Encroachment Pattern Detection</div>
+    <div class="box-body">
+      <ul>
+        <li>Pixel-wise fire frequency: same location fire ≥2 consecutive years outside agricultural season = encroachment pattern flag</li>
+        <li>Combine with: PARIVESH applications in same buffer, GFW forest loss, news land-conflict reports in same area</li>
+        <li>Fire + PARIVESH clearance in same ONE = strong land conversion signal</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- RAG ENGINE -->
+<div class="arrow">▼</div>
+<div class="row">
+  <div class="box phase-4 full">
+    <span class="badge red">RAG Intelligence Engine</span>
+    <div class="box-title">Query Event Store → Retrieve Context → LLM Synthesis</div>
+    <div class="box-body" style="columns: 3; gap: 16px;">
+      <div>
+        <strong style="color:#f87171">Alert Rules</strong>
+        <ul>
+          <li>Poaching spike in PA (3+ events / 30 days)</li>
+          <li>Same species, multiple deaths, same area &lt;30 days</li>
+          <li>GFW alert in PA buffer + no PARIVESH clearance</li>
+          <li>L3 loss + no L2 news (90-day window)</li>
+          <li>PARIVESH clearance in corridor buffer</li>
+          <li>Fire or ONE fire + adjacent PARIVESH clearance</li>
+          <li>Repeated fire in same pixel, non-agricultural season</li>
+          <li>SDM conflict zone expansion (pixel slope &gt; threshold)</li>
+        </ul>
+      </div>
+      <div>
+        <strong style="color:#f87171">LLM Layer</strong>
+        <ul>
+          <li>Groq free tier (Llama 3.1 70B) during dev</li>
+          <li>RAG mode only — NOT fine-tuned</li>
+          <li>Retrieves events from pgvector by cosine similarity</li>
+          <li>Synthesises plain-English report with source citations</li>
+          <li>Research papers (Phase 3 ext.) feed same RAG pipeline</li>
+        </ul>
+      </div>
+      <div>
+        <strong style="color:#f87171">What gets trained on gold standard</strong>
+        <ul>
+          <li>scikit-learn relevance classifier</li>
+          <li>scikit-learn event type classifier (→ DistilBERT if F1 &lt; 0.75)</li>
+          <li>LLM is not trained. It is a retrieval + synthesis tool.</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag gate">Gate: F1 &gt; 0.75 per class before Phase 4</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="arrow">▼</div>
+<div class="sep"></div>
+
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!-- PHASE 5 — USER INTERFACES -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<div class="phase-label">Phase 5 — User Interfaces</div>
+<div class="row">
+  <div class="box phase-5">
+    <span class="badge green">Map</span>
+    <div class="box-title">Interactive Intelligence Map</div>
+    <div class="box-body">
+      <ul>
+        <li>One pin per event (PA boundaries overlay)</li>
+        <li>Corridor stress heat layer</li>
+        <li>SDM conflict risk overlay — species-selectable, seasonal toggle</li>
+        <li>Fire classification layer (FOREST_FIRE / ONE_FIRE / etc.)</li>
+        <li>Three-layer gap indicators on PA/corridor polygons</li>
+      </ul>
+    </div>
+  </div>
+  <div class="box phase-5">
+    <span class="badge green">Dashboard</span>
+    <div class="box-title">Analytics Panels</div>
+    <div class="box-body">
+      <ul>
+        <li>Top species / PAs by event count</li>
+        <li>HWC trend by state (temporal line charts)</li>
+        <li>Corridor stress + integrity panel</li>
+        <li>Fire intelligence: monthly burned area by classification</li>
+        <li>SDM probability surface by species + season</li>
+      </ul>
+    </div>
+  </div>
+  <div class="box phase-5">
+    <span class="badge green">Chat — Ask WildLens v2</span>
+    <div class="box-title">RAG-powered (not keyword search)</div>
+    <div class="box-body">
+      <ul>
+        <li>"What is happening in Kaziranga this month?"</li>
+        <li>"Show me all encroachment alerts near elephant corridors in Assam"</li>
+        <li>"What does the satellite data say about Melghat this year?"</li>
+        <li>Grounded in event store + research papers</li>
+      </ul>
+    </div>
+  </div>
+  <div class="box phase-5">
+    <span class="badge green">Export</span>
+    <div class="box-title">Data Output</div>
+    <div class="box-body">
+      <ul>
+        <li>CSV / GeoJSON per query</li>
+        <li>SDM probability rasters (GeoTIFF)</li>
+        <li>Corridor stress/integrity time-series</li>
+        <li>Alert log with evidence chain (L1 + L2 + L3 citations)</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="sep"></div>
+
+<!-- TECH + HOSTING -->
+<div class="phase-label">Stack &amp; Hosting</div>
+<div class="row">
+  <div class="box phase-0">
+    <span class="badge purple">Storage</span>
+    <div class="box-title">Database</div>
+    <div class="box-body">
+      <ul>
+        <li>PostgreSQL 16 + PostGIS + pgvector</li>
+        <li>Local dev: Windows, pgAdmin 4. DB: <strong>wildlens</strong></li>
+        <li>Free tier: Supabase (managed PostgreSQL + PostGIS)</li>
+        <li>Prod: Hetzner CX32 (~€7.50/month, 8GB RAM)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="box phase-1">
+    <span class="badge blue">NLP</span>
+    <div class="box-title">Text Processing</div>
+    <div class="box-body">
+      <ul>
+        <li>spaCy en_core_web_trf (NER)</li>
+        <li>sentence-transformers/all-MiniLM-L6-v2 (384-dim embeddings)</li>
+        <li>scikit-learn classifiers (relevance + event type)</li>
+        <li>trafilatura (full article fetch)</li>
+        <li>deep-translator (regional pipeline)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="box phase-2">
+    <span class="badge teal">Spatial</span>
+    <div class="box-title">GIS Processing</div>
+    <div class="box-body">
+      <ul>
+        <li>PostGIS (spatial joins, ST_Intersects, ST_DWithin)</li>
+        <li>rasterio + scipy (GeoTIFF corridor analysis)</li>
+        <li>biomd2 R package (10-algorithm SDM ensemble)</li>
+        <li>QGIS (corridor polygon digitizing — Phase 2)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="box phase-4">
+    <span class="badge red">LLM / API</span>
+    <div class="box-title">Intelligence Layer</div>
+    <div class="box-body">
+      <ul>
+        <li>Groq free tier — Llama 3.1 70B (RAG only, not trained)</li>
+        <li>FastAPI (API layer)</li>
+        <li>Render free tier (API hosting during dev)</li>
+        <li>api.wildlens.in → one A record in GoDaddy</li>
+      </ul>
+    </div>
+  </div>
+  <div class="box phase-5">
+    <span class="badge green">Publication</span>
+    <div class="box-title">Targets</div>
+    <div class="box-body">
+      <ul>
+        <li>Primary: Methods in Ecology and Evolution</li>
+        <li>Framing: domain-expert pipeline where ecological knowledge constrains every stage</li>
+        <li>Patent after acceptance: species-constrained toponym disambiguation</li>
+        <li>NOT modelled as SDM: snakebite (public health metric, not HWC)</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</div><!-- /flowchart -->
 </body>
 </html>

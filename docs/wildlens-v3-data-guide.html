@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WildLens v2 — Spatial Data Guide</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 32px 24px; }
+  h1 { text-align: center; font-size: 22px; font-weight: 700; color: #4ade80; letter-spacing: 1px; margin-bottom: 6px; }
+  .subtitle { text-align: center; font-size: 13px; color: #64748b; margin-bottom: 40px; }
+  .page { max-width: 1000px; margin: 0 auto; }
+
+  .section-label { font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #475569; margin-bottom: 12px; padding-left: 4px; margin-top: 32px; }
+
+  /* Dataset card */
+  .dataset { border-radius: 12px; padding: 20px 22px; margin-bottom: 14px; }
+  .dataset-header { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 14px; }
+  .dataset-num { font-size: 22px; font-weight: 800; min-width: 32px; line-height: 1; }
+  .dataset-meta { flex: 1; }
+  .dataset-name { font-size: 15px; font-weight: 700; margin-bottom: 2px; }
+  .dataset-why { font-size: 11.5px; color: #94a3b8; line-height: 1.5; }
+
+  /* Badges */
+  .badge { display: inline-block; font-size: 9.5px; font-weight: 700; letter-spacing: 0.5px; padding: 2px 8px; border-radius: 20px; margin-right: 5px; margin-bottom: 4px; }
+  .badge.green  { background: #14432a; color: #4ade80; }
+  .badge.yellow { background: #44320c; color: #fbbf24; }
+  .badge.red    { background: #4a1a1a; color: #f87171; }
+  .badge.teal   { background: #0d2d2b; color: #2dd4bf; }
+  .badge.purple { background: #2d1b69; color: #a78bfa; }
+  .badge.blue   { background: #1e3a5f; color: #60a5fa; }
+  .badge.grey   { background: #1e293b; color: #64748b; }
+
+  /* Steps within a dataset */
+  .steps { display: flex; flex-direction: column; gap: 10px; }
+  .step { background: rgba(0,0,0,0.25); border-radius: 8px; padding: 12px 16px; }
+  .step-label { font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 7px; }
+  .step-body { font-size: 12px; line-height: 1.65; color: #cbd5e1; }
+  .step-body a { color: #60a5fa; text-decoration: none; }
+  .step-body ul { margin-left: 16px; margin-top: 4px; }
+  .step-body li { margin-bottom: 3px; }
+
+  /* Code blocks */
+  code, pre { font-family: 'Consolas', 'Courier New', monospace; }
+  pre { background: rgba(0,0,0,0.4); border: 1px solid #1e293b; border-radius: 6px; padding: 12px 14px; font-size: 11.5px; color: #e2e8f0; overflow-x: auto; margin-top: 8px; line-height: 1.7; white-space: pre; }
+  code { background: rgba(0,0,0,0.3); padding: 1px 5px; border-radius: 3px; font-size: 11px; color: #94a3b8; }
+
+  .inline-note { font-size: 10.5px; color: #475569; font-style: italic; margin-top: 6px; }
+
+  /* Key columns table */
+  .cols-table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 11.5px; }
+  .cols-table th { text-align: left; color: #475569; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; padding: 4px 8px; border-bottom: 1px solid #1e293b; }
+  .cols-table td { padding: 5px 8px; color: #94a3b8; border-bottom: 1px solid #0f172a; vertical-align: top; }
+  .cols-table td:first-child { color: #e2e8f0; font-family: 'Consolas', monospace; font-size: 11px; }
+
+  /* Status pills */
+  .status { display: inline-block; font-size: 9px; font-weight: 700; padding: 2px 7px; border-radius: 20px; }
+  .status.free    { background: #14432a; color: #4ade80; }
+  .status.contact { background: #44320c; color: #fbbf24; }
+  .status.register{ background: #1e3a5f; color: #60a5fa; }
+
+  /* Colour themes for dataset cards */
+  .c-teal   { background: rgba(20,184,166,0.08); border: 1.5px solid #0d9488; }
+  .c-teal   .dataset-num, .c-teal .dataset-name { color: #2dd4bf; }
+  .c-blue   { background: rgba(59,130,246,0.08); border: 1.5px solid #2563eb; }
+  .c-blue   .dataset-num, .c-blue .dataset-name { color: #60a5fa; }
+  .c-yellow { background: rgba(234,179,8,0.08); border: 1.5px solid #b45309; }
+  .c-yellow .dataset-num, .c-yellow .dataset-name { color: #fbbf24; }
+  .c-purple { background: rgba(139,92,246,0.08); border: 1.5px solid #7c3aed; }
+  .c-purple .dataset-num, .c-purple .dataset-name { color: #a78bfa; }
+  .c-red    { background: rgba(239,68,68,0.08); border: 1.5px solid #b91c1c; }
+  .c-red    .dataset-num, .c-red .dataset-name { color: #f87171; }
+
+  .sep { height: 1px; background: #1e293b; margin: 32px 0; }
+
+  @media print {
+    body { background: white; color: #111; }
+    pre, code { background: #f1f5f9; color: #333; border-color: #ccc; }
+    .step, .dataset { border-color: #ccc !important; background: #f8fafc !important; }
+    h1 { color: #166534; }
+  }
+</style>
+</head>
+<body>
+
+<h1>WildLens v2 — Spatial Data Guide</h1>
+<p class="subtitle">What to download · Where to get it · How to load into PostGIS &nbsp;·&nbsp; Print: Ctrl+P → Save as PDF</p>
+
+<div class="page">
+
+  <!-- ── PREREQUISITES ─────────────────────────────────────────────────── -->
+  <div class="section-label">Step 0 — Prerequisites (Do This Once)</div>
+
+  <div class="dataset c-teal">
+    <div class="dataset-header">
+      <div class="dataset-num">0a</div>
+      <div class="dataset-meta">
+        <div class="dataset-name">Find the PostGIS Shapefile Loader (already installed with PostGIS)</div>
+        <div class="dataset-why">Since you already have PostgreSQL + PostGIS installed, the Shapefile Loader GUI is already on your machine. This is what you will use to upload all shapefiles — no command line needed.</div>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-label" style="color:#2dd4bf;">Locate the Shapefile Loader on Windows</div>
+        <div class="step-body">
+          Click <strong>Start Menu</strong> → search for <strong>"PostGIS Shapefile"</strong> → open <strong>PostGIS Shapefile and DBF Loader Exporter</strong>.<br><br>
+          If it does not appear in Start Menu, find it at:<br>
+          <code>C:\Program Files\PostgreSQL\16\bin\postgisgui\shp2pgsql-gui.exe</code><br>
+          (replace <code>16</code> with your installed PostgreSQL version number — check Start Menu → PostgreSQL folder to see your version)
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#2dd4bf;">Connect the Loader to your wildlens database</div>
+        <div class="step-body">
+          1. In the Shapefile Loader window, click <strong>"View connection details…"</strong> at the top<br>
+          2. Fill in the fields exactly:
+          <ul>
+            <li><strong>Username:</strong> postgres</li>
+            <li><strong>Password:</strong> [your postgres password]</li>
+            <li><strong>Server Host:</strong> localhost &nbsp; Port: 5432</li>
+            <li><strong>Database:</strong> wildlens</li>
+          </ul>
+          3. Click <strong>OK</strong><br>
+          4. You will see "Connection succeeded" in the log at the bottom — if not, check that PostgreSQL is running (Start Menu → Services or pgAdmin sidebar should show it active)
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dataset c-teal">
+    <div class="dataset-header">
+      <div class="dataset-num">0b</div>
+      <div class="dataset-meta">
+        <div class="dataset-name">Create the database and enable extensions</div>
+        <div class="dataset-why">PostGIS adds geometry types. pgvector adds vector embedding support for RAG. Both must be enabled before loading any spatial data.</div>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-label" style="color:#2dd4bf;">Where to run these commands — pgAdmin 4 Query Tool</div>
+        <div class="step-body">
+          Open <strong>pgAdmin 4</strong> (Start Menu → pgAdmin 4).<br>
+          In the left panel, expand <strong>Servers → PostgreSQL → Databases</strong>.<br>
+          Right-click <strong>postgres</strong> (the default database) → click <strong>"Query Tool"</strong>.<br>
+          Paste the commands below into the Query Tool editor and press <strong>F5</strong> to run.
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#2dd4bf;">Step 1 — Create the wildlens database</div>
+        <div class="step-body">
+          Paste this into the Query Tool and press <strong>F5</strong>:
+<pre>CREATE DATABASE wildlens;</pre>
+          After it runs, you will see <code>CREATE DATABASE</code> in the Messages tab at the bottom.<br><br>
+          Now in the left panel, right-click <strong>Databases</strong> → <strong>Refresh</strong>. You will see <strong>wildlens</strong> appear. Click it → right-click → <strong>Query Tool</strong> to open a new query window connected to the wildlens database.
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#2dd4bf;">Step 2 — Enable extensions (run inside the wildlens Query Tool)</div>
+        <div class="step-body">
+          Make sure the Query Tool tab says <strong>wildlens/postgres@PostgreSQL</strong> in its title. Then paste and press <strong>F5</strong>:
+<pre>CREATE EXTENSION postgis;
+CREATE EXTENSION postgis_topology;
+CREATE EXTENSION vector;</pre>
+          Each line returns <code>CREATE EXTENSION</code> in the Messages tab.
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#2dd4bf;">Step 3 — Verify extensions are active</div>
+        <div class="step-body">
+          In the same wildlens Query Tool, paste and press <strong>F5</strong>:
+<pre>SELECT PostGIS_version();
+SELECT extname FROM pg_extension WHERE extname = 'vector';</pre>
+          First query returns a string like <code>3.4 USE_GEOS=1 USE_PROJ=1 ...</code> — that means PostGIS is working.<br>
+          Second query returns one row with <code>vector</code> — that means pgvector is active.<br><br>
+          <div class="inline-note">If the vector extension is missing: download pgvector for Windows from github.com/pgvector/pgvector → follow the Windows install instructions for your PostgreSQL version. Then re-run <code>CREATE EXTENSION vector;</code>.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ── DATASETS ──────────────────────────────────────────────────────── -->
+  <div class="section-label">Spatial Datasets — In Order of Priority</div>
+
+  <!-- 1. India Admin Boundaries -->
+  <div class="dataset c-blue">
+    <div class="dataset-header">
+      <div class="dataset-num">1</div>
+      <div class="dataset-meta">
+        <div class="dataset-name">India Administrative Boundaries — States, Districts &amp; Villages</div>
+        <div class="dataset-why">Used for: enriching every event with stateProvince, county, and locality. Village-level gives the finest administrative resolution for pinpointing events inside forests where there may be no PA or corridor. Source: Census of India 2011 shapefiles — the authoritative legal administrative boundary dataset.</div>
+        <span class="status free">FREE — Census of India</span>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-label" style="color:#60a5fa;">Download — Census of India website</div>
+        <div class="step-body">
+          1. Go to <strong>censusindia.gov.in</strong> → Census 2011 → Maps → GIS Files (or navigate to the Census GIS portal directly)<br>
+          2. Download three separate shapefile ZIPs:
+          <ul>
+            <li><code>STATE.zip</code> — State boundaries (36 states + UTs)</li>
+            <li><code>DISTRICT.zip</code> — District boundaries (~640 districts)</li>
+            <li><code>VILLAGE.zip</code> — Village/Town boundaries (~640,000 polygons — large file, ~500MB zipped)</li>
+          </ul>
+          3. Unzip each. Each ZIP contains <code>.shp</code>, <code>.dbf</code>, <code>.shx</code>, <code>.prj</code> files — keep them all in the same folder.<br><br>
+          <strong>Note on projection:</strong> Census shapefiles are usually in <strong>WGS84 (EPSG:4326)</strong> already, but always check the <code>.prj</code> file. If it says "GCS_WGS_1984" you are fine. If it says something else (e.g. Everest / Polyconic), add <code>-s_srs EPSG:XXXX</code> to the ogr2ogr command to re-project.
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#60a5fa;">Load into PostGIS — using the Shapefile Loader GUI (repeat for each of the 3 files)</div>
+        <div class="step-body">
+          Do this once for STATE.shp, once for DISTRICT.shp, once for VILLAGE.shp. The steps are identical each time — only the filename and table name change.<br><br>
+          <strong>In the PostGIS Shapefile and DBF Loader window</strong> (opened and connected in Step 0a):<br><br>
+          1. Click <strong>"Add File"</strong> → browse to the folder where you unzipped the Census files → select <code>STATE.shp</code> → click Open<br>
+          2. The file appears as a row in the table. Edit the row:
+          <ul>
+            <li><strong>Schema:</strong> public</li>
+            <li><strong>Table:</strong> type <code>india_states</code> (overwrite the auto-filled name)</li>
+            <li><strong>Geo Column:</strong> wkb_geometry (leave default)</li>
+            <li><strong>SRID:</strong> type <code>4326</code></li>
+            <li><strong>Mode:</strong> Create</li>
+          </ul>
+          3. Click <strong>"Import"</strong>. Watch the Log window at the bottom — it will say <code>Shapefile type: Polygon</code> then <code>Done adding rows</code> when finished.<br><br>
+          4. Repeat for DISTRICT.shp → table name <code>india_districts</code> → Mode: Create<br>
+          5. Repeat for VILLAGE.shp → table name <code>india_villages</code> → Mode: Create<br><br>
+          <div class="inline-note">Village import will take 10–20 minutes — 640,000 polygons. The Log window stays active while it runs. Do not close the Loader. You can open pgAdmin separately and run <code>SELECT COUNT(*) FROM india_villages;</code> to watch the row count climb.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#60a5fa;">Create spatial indexes — WHERE: pgAdmin 4 → wildlens Query Tool</div>
+        <div class="step-body">
+          Open pgAdmin 4. In the left panel expand <strong>Databases → wildlens</strong> → right-click → <strong>Query Tool</strong>. Paste the following and press <strong>F5</strong>:
+<pre>CREATE INDEX idx_india_states_geom    ON india_states    USING GIST (wkb_geometry);
+CREATE INDEX idx_india_districts_geom ON india_districts USING GIST (wkb_geometry);
+CREATE INDEX idx_india_villages_geom  ON india_villages  USING GIST (wkb_geometry);
+
+CREATE INDEX idx_india_states_name    ON india_states    ("ST_NM");
+CREATE INDEX idx_india_districts_name ON india_districts ("DISTRICT");
+CREATE INDEX idx_india_villages_name  ON india_villages  ("VILLAGE");</pre>
+          Each statement returns <code>CREATE INDEX</code> in the Messages tab. The village geometry index takes a few minutes — that is normal. Do not skip it — without GIST index, spatial queries on 640k polygons will be very slow.
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#60a5fa;">Verify — WHERE: pgAdmin 4 → wildlens Query Tool</div>
+        <div class="step-body">
+          In the same Query Tool, paste and press <strong>F5</strong>:
+<pre>-- Row counts (states ~36, districts ~640, villages ~640000)
+SELECT 'states' AS layer, COUNT(*) FROM india_states
+UNION ALL SELECT 'districts', COUNT(*) FROM india_districts
+UNION ALL SELECT 'villages',  COUNT(*) FROM india_villages;
+
+-- Spot check: should return Karnataka, Bangalore Urban, and a ward name
+SELECT "ST_NM" FROM india_states    WHERE ST_Within(ST_SetSRID(ST_MakePoint(77.59, 12.97), 4326), wkb_geometry);
+SELECT "DISTRICT" FROM india_districts WHERE ST_Within(ST_SetSRID(ST_MakePoint(77.59, 12.97), 4326), wkb_geometry);
+SELECT "VILLAGE" FROM india_villages   WHERE ST_Within(ST_SetSRID(ST_MakePoint(77.59, 12.97), 4326), wkb_geometry);</pre>
+          Results appear in the <strong>Data Output</strong> tab below the editor.
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#60a5fa;">Key columns in Census shapefiles</div>
+        <div class="step-body">
+          <table class="cols-table">
+            <tr><th>Column</th><th>Table</th><th>What it is</th><th>Maps to event schema field</th></tr>
+            <tr><td>ST_NM</td><td>all three</td><td>State name</td><td>stateProvince</td></tr>
+            <tr><td>ST_CD</td><td>all three</td><td>State census code</td><td>Reference / join key</td></tr>
+            <tr><td>DISTRICT</td><td>districts, villages</td><td>District name</td><td>county</td></tr>
+            <tr><td>DT_CD</td><td>districts, villages</td><td>District census code</td><td>Reference / join key</td></tr>
+            <tr><td>SUBDIST</td><td>villages</td><td>Sub-district / Tehsil / Taluk name</td><td>municipality (if needed)</td></tr>
+            <tr><td>VILLAGE</td><td>villages</td><td>Village or Census Town name</td><td>locality</td></tr>
+            <tr><td>VCT_NO / VILLGCD</td><td>villages</td><td>Village census code</td><td>Reference / join key</td></tr>
+            <tr><td>wkb_geometry</td><td>all three</td><td>PostGIS geometry (polygon)</td><td>All ST_Within queries</td></tr>
+          </table>
+          <div class="inline-note">Column names may vary slightly by Census release year. Run <code>ogrinfo -al -so STATE.shp</code> before loading to check the actual column names in your downloaded file.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. WDPA -->
+  <div class="dataset c-teal">
+    <div class="dataset-header">
+      <div class="dataset-num">2</div>
+      <div class="dataset-meta">
+        <div class="dataset-name">WDPA — World Database of Protected Areas (India)</div>
+        <div class="dataset-why">Used for: PA membership queries (is this event inside a PA?), nearestPA lookup, corridor connecting-PA attributes. Covers all 900+ Indian PAs with boundary polygons.</div>
+        <span class="status register">FREE — registration required</span>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-label" style="color:#2dd4bf;">Download</div>
+        <div class="step-body">
+          1. Go to <strong>protectedplanet.net/en/thematic-areas/wdpa</strong><br>
+          2. Click "Download" → select country "India" → download as Shapefile<br>
+          3. You get a ZIP with three folders: <code>_0</code>, <code>_1</code>, <code>_2</code> (the data is split across them)<br>
+          4. Each folder contains both polygon (<code>-polygons.shp</code>) and point (<code>-points.shp</code>) files<br><br>
+          You want the <strong>polygon file</strong> from all three folders — most PAs have polygon boundaries. Points are used for PAs where only centroid is available.
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#2dd4bf;">Load into PostGIS — using the Shapefile Loader GUI (3 imports, all into the same table)</div>
+        <div class="step-body">
+          The WDPA download gives you three folders: <code>_shp_0</code>, <code>_shp_1</code>, <code>_shp_2</code>. Each folder has a <code>-polygons.shp</code> file. You load all three into the same table — first one creates the table, the next two append to it.<br><br>
+          <strong>Import 1 — creates the table:</strong><br>
+          1. In the Shapefile Loader, click <strong>Add File</strong> → go into the <code>_shp_0</code> folder → select the file ending in <code>-polygons.shp</code> → Open<br>
+          2. Set the row: <strong>Table:</strong> <code>wdpa_polygons</code> &nbsp;|&nbsp; <strong>SRID:</strong> <code>4326</code> &nbsp;|&nbsp; <strong>Mode: Create</strong><br>
+          3. Click <strong>Import</strong> — wait for "Done adding rows" in the Log<br><br>
+          <strong>Import 2 — appends to the same table:</strong><br>
+          1. Click <strong>Add File</strong> → go into the <code>_shp_1</code> folder → select the <code>-polygons.shp</code> file → Open<br>
+          2. Set: <strong>Table:</strong> <code>wdpa_polygons</code> &nbsp;|&nbsp; <strong>SRID:</strong> <code>4326</code> &nbsp;|&nbsp; <strong>Mode: Append</strong> ← important, must be Append not Create<br>
+          3. Click <strong>Import</strong><br><br>
+          <strong>Import 3 — appends again:</strong><br>
+          Same as Import 2 but using the <code>_shp_2</code> folder's <code>-polygons.shp</code> file. Mode: <strong>Append</strong>.
+          <div class="inline-note">India-only WDPA is ~30 MB across all three folders. Each import is fast (under a minute).</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#2dd4bf;">Create spatial index + verify — WHERE: pgAdmin 4 → wildlens Query Tool</div>
+        <div class="step-body">
+          Open pgAdmin 4 → wildlens database → Query Tool. Paste and press <strong>F5</strong>:
+<pre>CREATE INDEX idx_wdpa_geom ON wdpa_polygons USING GIST (wkb_geometry);
+CREATE INDEX idx_wdpa_name ON wdpa_polygons (name);
+
+-- Row count: expect ~900–1000 for India
+SELECT COUNT(*) FROM wdpa_polygons;
+
+-- Spot check: should return Kaziranga National Park
+SELECT name, iucn_cat, gis_area FROM wdpa_polygons
+WHERE ST_Within(ST_SetSRID(ST_MakePoint(93.36, 26.57), 4326), wkb_geometry);</pre>
+          Results appear in the <strong>Data Output</strong> tab.
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#2dd4bf;">Key columns</div>
+        <div class="step-body">
+          <table class="cols-table">
+            <tr><th>Column</th><th>What it is</th><th>Used for</th></tr>
+            <tr><td>name</td><td>PA official name</td><td>wildlens:paName in event schema</td></tr>
+            <tr><td>desig</td><td>Designation type (National Park / Wildlife Sanctuary / Tiger Reserve…)</td><td>wildlens:paType</td></tr>
+            <tr><td>iucn_cat</td><td>IUCN category (II, IV, VI…)</td><td>Conservation context</td></tr>
+            <tr><td>gis_area</td><td>Area in km²</td><td>Reference</td></tr>
+            <tr><td>status</td><td>Designated / Proposed / Inscribed</td><td>Filter to Designated only</td></tr>
+            <tr><td>wkb_geometry</td><td>PostGIS geometry (polygon)</td><td>All spatial queries</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. IUCN Range Maps -->
+  <div class="dataset c-yellow">
+    <div class="dataset-header">
+      <div class="dataset-num">3</div>
+      <div class="dataset-meta">
+        <div class="dataset-name">IUCN Red List — Species Range Maps</div>
+        <div class="dataset-why">Used for: species-constrained toponym disambiguation (★ novel contribution). When NER extracts two location candidates, score each by overlap with the species IUCN range. Higher overlap = more ecologically plausible location.</div>
+        <span class="status register">FREE — registration required</span>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-label" style="color:#fbbf24;">Download</div>
+        <div class="step-body">
+          1. Go to <strong>iucnredlist.org/resources/spatial-data-download</strong><br>
+          2. Register / log in (free)<br>
+          3. Download the <strong>Terrestrial Mammals</strong> shapefile (~500MB ZIP)<br>
+          4. Also download <strong>Freshwater Reptiles</strong> (for Gharial) and <strong>Birds</strong> (for vulture species)<br><br>
+          <strong>Species you need range maps for (17 species across 3 use cases):</strong><br><br>
+          <strong style="color:#fbbf24;">Toponym disambiguation (NLP):</strong>
+          <ul>
+            <li>Panthera tigris (Tiger)</li>
+            <li>Elephas maximus (Asian Elephant)</li>
+            <li>Panthera leo persica (Asiatic Lion)</li>
+            <li>Panthera pardus (Leopard)</li>
+            <li>Rhinoceros unicornis (Greater One-horned Rhinoceros)</li>
+            <li>Gavialis gangeticus (Gharial)</li>
+            <li>Gyps bengalensis, Gyps indicus, Gyps tenuirostris (Vultures)</li>
+            <li>Platanista gangetica (Ganges River Dolphin)</li>
+          </ul>
+          <strong style="color:#fb923c;">SDM species (HWC conflict models):</strong>
+          <ul>
+            <li>Melursus ursinus (Sloth Bear)</li>
+            <li>Ursus thibetanus (Himalayan Black Bear)</li>
+            <li>Helarctos malayanus (Sun Bear — Northeast India SDM, if occurrences &gt; 30)</li>
+          </ul>
+          <strong style="color:#f87171;">Fire/ONE classification cross-check (Layer 2 + Layer 4):</strong>
+          <ul>
+            <li>Ardeotis nigriceps (Great Indian Bustard) — grassland specialist, critically endangered</li>
+            <li>Antilope cervicapra (Blackbuck) — grassland specialist</li>
+            <li>Canis lupus pallipes (Indian Wolf) — grassland/scrub specialist</li>
+            <li>Sypheotides indicus (Lesser Florican) — grassland specialist</li>
+            <li>Houbaropsis bengalensis (Bengal Florican) — wet grassland specialist</li>
+          </ul>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#fbbf24;">Load into PostGIS — using the Shapefile Loader GUI (upload full file, then delete unused species)</div>
+        <div class="step-body">
+          <strong>Import 1 — Terrestrial Mammals (creates the table):</strong><br>
+          1. In the Shapefile Loader, click <strong>Add File</strong> → browse to the unzipped IUCN folder → select <code>MAMMALS_TERRESTRIAL_ONLY.shp</code> → Open<br>
+          2. Set: <strong>Table:</strong> <code>iucn_ranges</code> &nbsp;|&nbsp; <strong>SRID:</strong> <code>4326</code> &nbsp;|&nbsp; <strong>Mode: Create</strong><br>
+          3. Click <strong>Import</strong>. This file is ~500 MB so the import will take several minutes. Wait for "Done adding rows" in the Log.<br><br>
+          <strong>Import 2 — Freshwater Reptiles (for Gharial, appends to same table):</strong><br>
+          1. Click <strong>Add File</strong> → select <code>FRESHWATER_REPTILES.shp</code> → Open<br>
+          2. Set: <strong>Table:</strong> <code>iucn_ranges</code> &nbsp;|&nbsp; <strong>SRID:</strong> <code>4326</code> &nbsp;|&nbsp; <strong>Mode: Append</strong><br>
+          3. Click <strong>Import</strong><br><br>
+          <strong>After both imports — delete the species you do not need:</strong><br>
+          Open pgAdmin 4 → wildlens Query Tool, paste and press <strong>F5</strong>:
+<pre>-- Keep only the 19 species needed for WildLens
+-- (disambiguation + SDM + fire/ONE classification)
+-- Reduces table from ~500MB to a few MB
+DELETE FROM iucn_ranges
+WHERE sci_name NOT IN (
+  -- Toponym disambiguation
+  'Panthera tigris',
+  'Elephas maximus',
+  'Panthera leo persica',
+  'Panthera pardus',
+  'Rhinoceros unicornis',
+  'Platanista gangetica',
+  'Gavialis gangeticus',
+  'Crocodylus palustris',
+  'Gyps bengalensis',
+  'Gyps indicus',
+  'Gyps tenuirostris',
+  -- SDM models
+  'Melursus ursinus',
+  'Ursus thibetanus',
+  'Helarctos malayanus',
+  -- Fire/ONE classification cross-check
+  'Ardeotis nigriceps',
+  'Antilope cervicapra',
+  'Canis lupus pallipes',
+  'Sypheotides indicus',
+  'Houbaropsis bengalensis'
+);
+
+-- Reclaim disk space after the large delete
+VACUUM ANALYZE iucn_ranges;</pre>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#fbbf24;">Create spatial index + verify — WHERE: pgAdmin 4 → wildlens Query Tool</div>
+        <div class="step-body">
+          In the same Query Tool, paste and press <strong>F5</strong>:
+<pre>CREATE INDEX idx_iucn_geom ON iucn_ranges USING GIST (wkb_geometry);
+CREATE INDEX idx_iucn_sci  ON iucn_ranges (sci_name);
+
+-- Species count — should show 9–11 species, each with 1–3 range polygons
+SELECT sci_name, COUNT(*) FROM iucn_ranges GROUP BY sci_name ORDER BY sci_name;
+
+-- Spot check: Tiger range should cover Jim Corbett (78.77, 29.53)
+SELECT sci_name FROM iucn_ranges
+WHERE sci_name = 'Panthera tigris'
+AND ST_Within(ST_SetSRID(ST_MakePoint(78.77, 29.53), 4326), wkb_geometry);</pre>
+          Results appear in the <strong>Data Output</strong> tab.
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#fbbf24;">Key columns</div>
+        <div class="step-body">
+          <table class="cols-table">
+            <tr><th>Column</th><th>What it is</th><th>Used for</th></tr>
+            <tr><td>sci_name</td><td>Binomial scientific name</td><td>Join to extracted species in event</td></tr>
+            <tr><td>presence</td><td>1=Extant, 2=Probably Extant, 3=Possibly Extant, 4=Possibly Extinct, 5=Extinct, 6=Presence Uncertain</td><td>Filter to presence=1 for disambiguation</td></tr>
+            <tr><td>origin</td><td>1=Native, 2=Reintroduced, 3=Introduced…</td><td>Filter to origin=1 (Native)</td></tr>
+            <tr><td>seasonal</td><td>1=Resident, 2=Breeding, 3=Non-breeding, 4=Passage</td><td>Use all seasons for India</td></tr>
+            <tr><td>wkb_geometry</td><td>PostGIS geometry (polygon)</td><td>ST_Intersects with geocoded candidate point</td></tr>
+          </table>
+          <div class="inline-note">For disambiguation: filter WHERE presence=1 AND origin=1 to get extant native range only.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. Corridor Metadata (3 Public PDFs) -->
+  <div class="dataset c-yellow">
+    <div class="dataset-header">
+      <div class="dataset-num">4</div>
+      <div class="dataset-meta">
+        <div class="dataset-name">Corridor Metadata — 3 Public Government PDFs (no shapefile request needed)</div>
+        <div class="dataset-why">Used for: corridor membership (wildlens:corridorName), corridor stress index, pinch-point analysis. All three source documents are publicly available. Two-track approach: (1) structured text extraction → PostgreSQL metadata table; (2) Phase 1 polygon geometry = WDPA convex hull between connecting PA pairs; Phase 2 = manual QGIS digitizing.</div>
+        <span class="status free">FREE — 3 public PDFs, no data agreement needed</span>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-label" style="color:#fbbf24;">Source documents</div>
+        <div class="step-body">
+          Download all three — all publicly available from government/NGO websites:<br><br>
+          1. <strong>MoEF 2023 Elephant Corridor Report</strong> — moef.gov.in (search "elephant corridor 2023"). 101 corridors with names, states, status, connecting PAs, threat assessment.<br><br>
+          2. <strong>WTI "Right of Passage" 2005</strong> — wti.org.in (publications section). Corridor polygons described as WDPA polygon pairs. Corridor status, width at narrowest, species using corridor.<br><br>
+          3. <strong>WII Tiger Status &amp; Co-Predators Report 2022</strong> — v1.wii.gov.in. Tiger corridor linkages between reserves; overlaps significantly with elephant corridors.
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#fbbf24;">Track 1 — Extract structured metadata with pdfplumber</div>
+        <div class="step-body">
+          <strong>Goal:</strong> Pull corridor name, state, width, connecting PAs, threat status into a PostgreSQL table.<br><br>
+<pre>import pdfplumber
+
+def extract_corridor_table(pdf_path):
+    rows = []
+    with pdfplumber.open(pdf_path) as pdf:
+        for page in pdf.pages:
+            tables = page.extract_tables()
+            for table in tables:
+                for row in table:
+                    if row and len(row) >= 4:
+                        rows.append(row)
+    return rows</pre>
+          <div class="inline-note">Not all content is in tables — some corridors described in prose. Use regex fallback to extract corridor names from text paragraphs: <code>r'(?:corridor|passage)[:\s]+([A-Z][a-z ]+(?:–[A-Z][a-z ]+)?)'</code>. After extraction, create <code>corridors</code> table: corridor_id, name, state, width_m, status, connecting_pa_1, connecting_pa_2, threat_description, source_doc.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#fbbf24;">Track 2 — Phase 1 geometry: WDPA convex hull between connecting PA pairs</div>
+        <div class="step-body">
+          Once corridor metadata table is populated with connecting_pa_1 and connecting_pa_2, generate Phase 1 geometry automatically:<br><br>
+<pre>-- Phase 1: approximate corridor geometry from WDPA polygon pair convex hull
+-- Replace manually later in Phase 2 with QGIS-digitized polygons
+INSERT INTO corridor_geometries (corridor_id, geom, method)
+SELECT
+  c.corridor_id,
+  ST_ConvexHull(ST_Union(w1.wkb_geometry, w2.wkb_geometry)) AS geom,
+  'wdpa_convex_hull' AS method
+FROM corridors c
+JOIN wdpa_polygons w1 ON w1.name ILIKE '%' || c.connecting_pa_1 || '%'
+JOIN wdpa_polygons w2 ON w2.name ILIKE '%' || c.connecting_pa_2 || '%';</pre>
+          <div class="inline-note">Convex hull between two PA polygons overestimates corridor area — it includes land between the PAs regardless of actual connectivity. Acceptable for Phase 1 membership queries. Replace with hand-digitized polygon in Phase 2 using QGIS.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#fbbf24;">Track 3 — Index PDFs into pgvector for RAG queries</div>
+        <div class="step-body">
+<pre>import pdfplumber
+from sentence_transformers import SentenceTransformer
+
+model = SentenceTransformer('all-MiniLM-L6-v2')
+
+def index_pdf_for_rag(pdf_path, source_doc):
+    chunks = []
+    with pdfplumber.open(pdf_path) as pdf:
+        text = ' '.join(p.extract_text() or '' for p in pdf.pages)
+    # Chunk by ~500 chars at sentence boundaries
+    sentences = text.split('. ')
+    chunk = ''
+    for s in sentences:
+        if len(chunk) + len(s) > 500:
+            chunks.append(chunk.strip())
+            chunk = s
+        else:
+            chunk += '. ' + s
+    if chunk:
+        chunks.append(chunk.strip())
+    embeddings = model.encode(chunks)
+    return list(zip(chunks, embeddings))</pre>
+          Store results in the <code>research_papers</code> table (document_type='report').
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#fbbf24;">Verify — WHERE: pgAdmin 4 → wildlens Query Tool</div>
+        <div class="step-body">
+<pre>-- Row count: expect 88–101 corridors across all three PDFs
+SELECT COUNT(*) FROM corridors;
+
+-- Spot check: find corridor for a point in Nilgiris
+SELECT c.name, c.state, c.status
+FROM corridors c
+JOIN corridor_geometries cg ON cg.corridor_id = c.corridor_id
+WHERE ST_Within(ST_SetSRID(ST_MakePoint(76.5, 11.5), 4326), cg.geom);</pre>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#fbbf24;">Expected columns in corridors table</div>
+        <div class="step-body">
+          <table class="cols-table">
+            <tr><th>Column</th><th>What it is</th><th>Used for</th></tr>
+            <tr><td>corridor_id</td><td>UUID primary key</td><td>Join to corridor_geometries</td></tr>
+            <tr><td>name</td><td>Named corridor (e.g. "Sigur")</td><td>wildlens:corridorName in event</td></tr>
+            <tr><td>state</td><td>State(s) corridor passes through</td><td>Reference</td></tr>
+            <tr><td>connecting_pa_1/2</td><td>Two PAs the corridor links</td><td>WDPA convex hull generation</td></tr>
+            <tr><td>width_m</td><td>Width at narrowest point (metres)</td><td>Corridor integrity index baseline</td></tr>
+            <tr><td>status</td><td>Open / Partially obstructed / Obstructed / Closed</td><td>Integrity tracking</td></tr>
+            <tr><td>source_doc</td><td>MoEF2023 / WTI2005 / WII2022</td><td>Provenance tracking</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PLACEHOLDER removed — corridor extraction replaces WTI contact -->
+  <div style="background:rgba(251,191,36,0.07); border:1.5px dashed #b45309; border-radius:10px; padding:14px 18px; margin-bottom:14px; font-size:12px; line-height:1.7; color:#94a3b8;">
+    <strong style="color:#fbbf24;">Phase 2 — Manual digitizing (after publication draft is done):</strong> Load corridor_geometries into QGIS alongside WDPA polygons and satellite imagery. Trace actual corridor boundaries by hand. Update method='qgis_manual'. This is the publication-grade layer — the Phase 1 convex hull is a functional approximation.
+  </div>
+
+  <!-- 5. GFW Raster -->
+  <div class="dataset c-purple">
+    <div class="dataset-header">
+      <div class="dataset-num">5</div>
+      <div class="dataset-meta">
+        <div class="dataset-name">GFW — Global Forest Watch Forest Cover &amp; Alerts</div>
+        <div class="dataset-why">Used for: annual forest cover loss per PA/corridor, deforestation alerts (GLAD/RADD), loss by driver, corridor width computation. This is raster data — not loaded into PostGIS as polygons. Queried via GFW REST API or downloaded as GeoTIFF.</div>
+        <span class="status register">FREE — register at globalforestwatch.org</span>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-label" style="color:#a78bfa;">Two ways to use GFW — choose based on what you need</div>
+        <div class="step-body">
+          <strong>Option A — GFW REST API (recommended for annual summaries):</strong><br>
+          POST your PA/corridor polygon as GeoJSON → get back annual loss data as JSON. No file download needed. Results stored in PostgreSQL as a time series per polygon.<br><br>
+          <strong>Option B — GeoTIFF download (needed for corridor width computation):</strong><br>
+          Download the Hansen tree cover loss raster tile for India (30m resolution) → analyse locally with rasterio → compute patch statistics.
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#a78bfa;">Option A — GFW API setup</div>
+        <div class="step-body">
+          1. Register at <strong>globalforestwatch.org</strong> → API key (free, annual renewal)<br>
+          2. Set key as environment variable: <code>GFW_API_KEY=your_key</code><br>
+          3. For each PA polygon in wdpa_polygons, POST to GFW and store result:
+<pre>import requests, json
+
+def query_gfw(geojson_polygon, api_key):
+    url = "https://data-api.globalforestwatch.org/dataset/umd_tree_cover_loss/latest/query"
+    payload = {
+        "geometry": geojson_polygon,
+        "sql": """SELECT umd_tree_cover_loss__year,
+                         SUM(area__ha) AS loss_ha,
+                         SUM(umd_tree_cover_loss__year) AS count
+                  FROM data
+                  WHERE umd_tree_cover_density_2000__threshold = 30
+                  GROUP BY umd_tree_cover_loss__year
+                  ORDER BY umd_tree_cover_loss__year"""
+    }
+    r = requests.post(url, json=payload,
+                      headers={"x-api-key": api_key})
+    return r.json()["data"]</pre>
+          Results go into the <code>forest_cover</code> table in PostgreSQL (polygon_id, year, loss_ha).
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#a78bfa;">Option B — GeoTIFF download for raster analysis</div>
+        <div class="step-body">
+          1. Go to <strong>earthenginepartners.appspot.com/science-2013-global-forest</strong> → Download tiles<br>
+          2. India spans tiles: <code>20N_080E</code>, <code>20N_070E</code>, <code>30N_080E</code>, <code>30N_070E</code>, <code>10N_080E</code>, <code>10N_070E</code><br>
+          3. Download the <code>lossyear</code> band GeoTIFF for each tile (~200MB each)<br>
+          4. Merge tiles with GDAL:
+<pre>gdal_merge.py -o india_lossyear.tif \
+  Hansen_GFC-2023-v1.11_lossyear_20N_080E.tif \
+  Hansen_GFC-2023-v1.11_lossyear_20N_070E.tif \
+  Hansen_GFC-2023-v1.11_lossyear_30N_080E.tif \
+  Hansen_GFC-2023-v1.11_lossyear_30N_070E.tif \
+  Hansen_GFC-2023-v1.11_lossyear_10N_080E.tif \
+  Hansen_GFC-2023-v1.11_lossyear_10N_070E.tif</pre>
+          5. Keep the merged GeoTIFF as a file — analyse with rasterio (clip to corridor polygon, compute width). Do NOT load into PostGIS unless you need spatial queries on the raster.
+          <div class="inline-note">Merged India raster is ~1.2GB. Keep as a file on your local machine — do not load into PostgreSQL.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. FSI Forest Cover -->
+  <div class="dataset c-red">
+    <div class="dataset-header">
+      <div class="dataset-num">6</div>
+      <div class="dataset-meta">
+        <div class="dataset-name">FSI Forest Cover Boundary — Fire Classification Layer 1</div>
+        <div class="dataset-why">Used for: five-layer fire classification (Layer 1). Any fire inside this boundary → FOREST_FIRE. The authoritative government definition of forest cover in India. Must use FSI ISFR, not GFW, for the L1 classification — GFW uses a different tree cover definition.</div>
+        <span class="status free">FREE — FSI Website</span>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-label" style="color:#f87171;">Download</div>
+        <div class="step-body">
+          1. Go to <strong>fsi.nic.in</strong> → Publications → India State of Forests Report (ISFR 2021 or latest)<br>
+          2. GIS data link is usually on the ISFR page — download the forest cover shapefile (two density classes: Very Dense Forest + Moderately Dense Forest + Open Forest)<br>
+          3. If FSI shapefile link is unavailable, use <strong>ISRO Bhuvan</strong> (bhuvan.nrsc.gov.in) → Thematic Services → Vegetation/Land Cover → National Forest Cover<br>
+          4. For fire classification: use Very Dense + Moderately Dense + Open Forest classes combined as a single forest cover mask
+          <div class="inline-note">⚠ FSI updates ISFR every 2 years. Always use the most recent edition. Note the survey year so fire events can be matched to the correct cover version.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#f87171;">Load into PostGIS</div>
+        <div class="step-body">
+          In the Shapefile Loader: <strong>Table:</strong> <code>fsi_forest_cover</code> &nbsp;|&nbsp; <strong>SRID:</strong> <code>4326</code> &nbsp;|&nbsp; <strong>Mode: Create</strong><br><br>
+          After loading:
+<pre>CREATE INDEX idx_fsi_geom ON fsi_forest_cover USING GIST (wkb_geometry);
+
+-- Fire in forest? (Layer 1 check)
+SELECT COUNT(*) FROM fsi_forest_cover
+WHERE ST_Intersects(
+  ST_SetSRID(ST_MakePoint(:fire_lon, :fire_lat), 4326),
+  wkb_geometry
+);</pre>
+          If count > 0 → classify as FOREST_FIRE. Stop classification — do not check further layers.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7. ONE Boundary -->
+  <div class="dataset c-red">
+    <div class="dataset-header">
+      <div class="dataset-num">7</div>
+      <div class="dataset-meta">
+        <div class="dataset-name">Open Natural Ecosystems (ONE) Boundary — Fire Classification Layer 2</div>
+        <div class="dataset-why">Used for: fire classification Layer 2 (ONE_FIRE). Grasslands, savannas, shola edges, scrublands, rocky outcrops. These are ecologically primary habitats — NOT wastelands. Fires in ONE are routinely set for land conversion (solar farms, plantations). Cross-check IUCN ranges for GIB, blackbuck, wolf, florican.</div>
+        <span class="status contact">Email NCF / ATREE — pending data agreement</span>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-label" style="color:#f87171;">How to get the shapefile</div>
+        <div class="step-body">
+          <strong>Primary source (email both):</strong><br>
+          1. <strong>Nature Conservation Foundation (NCF)</strong> — ncf-india.org. Ask for the ONE/open ecosystem boundary shapefile. Abi Vanak's group has published extensively on this.<br>
+          2. <strong>ATREE</strong> (Ashoka Trust for Research in Ecology and the Environment) — atree.org. Abi Vanak's lab directly. Reference: Vanak et al. publications on open natural ecosystems in India.<br><br>
+          <strong>Interim approach while waiting for NCF/ATREE:</strong><br>
+          Derive from MODIS MCD12Q1 (annual land cover, free NASA Earthdata):
+<pre># Combine MODIS classes that approximate ONE extent
+# Class 8 = Woody Savanna, 9 = Savanna, 10 = Grassland
+# 12 = Cropland excluded, 14 = Cropland/Natural Vegetation mosaic excluded
+# Then subtract FSI forest cover boundary
+# Result = approximate ONE extent
+
+import rasterio
+import numpy as np
+
+with rasterio.open('MCD12Q1.A2022001.india.tif') as src:
+    lc = src.read(1)
+    # ONE proxy: savanna + grassland classes
+    one_mask = np.isin(lc, [8, 9, 10])
+    profile = src.profile</pre>
+          <div class="inline-note">MODIS-derived ONE is approximate — it misclassifies some shola edges and scrublands. Use as interim only. NCF/ATREE shapefile is the publication-grade layer.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#f87171;">Load and query</div>
+        <div class="step-body">
+<pre>-- Load when received: table = one_boundary, SRID = 4326
+CREATE INDEX idx_one_geom ON one_boundary USING GIST (wkb_geometry);
+
+-- Layer 2 check (only reached if L1 = no forest cover)
+SELECT COUNT(*) FROM one_boundary
+WHERE ST_Intersects(
+  ST_SetSRID(ST_MakePoint(:fire_lon, :fire_lat), 4326),
+  wkb_geometry
+);
+-- If count > 0 → ONE_FIRE. Then cross-check IUCN ranges for GIB/blackbuck/wolf/florican.</pre>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 8. Agriculture Extent -->
+  <div class="dataset c-red">
+    <div class="dataset-header">
+      <div class="dataset-num">8</div>
+      <div class="dataset-meta">
+        <div class="dataset-name">Agriculture Extent — Fire Classification Layer 3</div>
+        <div class="dataset-why">Used for: fire classification Layer 3. Oct–Nov fires in Indo-Gangetic Plain = AGRICULTURAL_STUBBLE (exclude from system). Off-season fires in agricultural land = AGRICULTURAL_SUSPICIOUS (retain). Seasonal filter is critical — October–November IGP fires are one of the most common false positive triggers.</div>
+        <span class="status free">FREE — ISRO Bhuvan + MODIS</span>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-label" style="color:#f87171;">Data sources</div>
+        <div class="step-body">
+          <strong>Option A (best spatial resolution):</strong> ISRO Bhuvan → bhuvan.nrsc.gov.in → Thematic Services → Crop/Agriculture layer. WMS service — can query per point without downloading full raster.<br><br>
+          <strong>Option B (easiest for Python):</strong> MODIS MCD12Q1 annual land cover (free from NASA Earthdata). Class 12 = Cropland, Class 14 = Cropland/Natural Vegetation mosaic. Download the India tile, load as raster.<br><br>
+          <strong>Seasonal filter logic:</strong>
+<pre># Apply to every fire before classifying as agricultural
+def is_stubble_burning(fire_date, fire_lat, fire_lon, igp_polygon):
+    """
+    Oct 1 - Nov 30 + inside Indo-Gangetic Plain = stubble burning
+    IGP approximate bbox: lat 20–32, lon 72–89
+    """
+    month = fire_date.month
+    in_igp = igp_polygon.contains(Point(fire_lon, fire_lat))
+    return month in [10, 11] and in_igp</pre>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 9. Wasteland Atlas -->
+  <div class="dataset c-red">
+    <div class="dataset-header">
+      <div class="dataset-num">9</div>
+      <div class="dataset-meta">
+        <div class="dataset-name">NRSC Wasteland Atlas 2019 — Fire Classification Layer 4</div>
+        <div class="dataset-why">Used for: fire classification Layer 4 cross-check. Many ecologically significant habitats (grasslands, scrublands, wetland margins, shola edges) are legally classified as "wasteland" in India. Do NOT dismiss fires in wasteland as low priority without first cross-checking IUCN ranges. If inside any species range → treat same as ONE_FIRE.</div>
+        <span class="status free">FREE — NRSC Website</span>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-label" style="color:#f87171;">Download</div>
+        <div class="step-body">
+          1. Go to <strong>nrsc.gov.in</strong> → Products → Land Use Land Cover → Wasteland Atlas 2019<br>
+          2. Download the district-level shapefile ZIP (~50MB)<br>
+          3. Unzip and load into PostGIS using Shapefile Loader: <strong>Table:</strong> <code>wasteland_2019</code> &nbsp;|&nbsp; <strong>SRID:</strong> <code>4326</code><br><br>
+<pre>CREATE INDEX idx_wasteland_geom ON wasteland_2019 USING GIST (wkb_geometry);
+
+-- Layer 4 check (only reached if L1 + L2 + L3 = no match)
+-- If inside wasteland → check IUCN ranges (Layer 5)
+SELECT wl_type FROM wasteland_2019
+WHERE ST_Intersects(
+  ST_SetSRID(ST_MakePoint(:fire_lon, :fire_lat), 4326),
+  wkb_geometry
+);</pre>
+          <div class="inline-note">Wasteland Atlas uses ~23 land type categories. All categories can contain significant habitat — the legal classification does not reflect ecological value. Always run Layer 5 (IUCN range) check before deciding priority.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 10. ESA CCI Biomass -->
+  <div class="dataset c-red">
+    <div class="dataset-header">
+      <div class="dataset-num">10</div>
+      <div class="dataset-meta">
+        <div class="dataset-name">ESA CCI Biomass — Above-Ground Biomass for Fire Loss Calculation</div>
+        <div class="dataset-why">Used for: calculating biomass lost in FOREST_FIRE and ONE_FIRE events. Formula: burned area (ha) × biomass density at that location (t/ha) = biomass lost (tonnes). This is the novel quantitative output for fire events — "Fire at [location] destroyed approximately X ha, estimated Y tonnes biomass lost."</div>
+        <span class="status free">FREE — ESA Climate Change Initiative</span>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-label" style="color:#f87171;">Download</div>
+        <div class="step-body">
+          1. Go to <strong>climate.esa.int/en/projects/biomass/</strong> → Data → Download<br>
+          2. Select: <strong>ESA CCI Biomass Version 5 — Above-Ground Biomass</strong> (100m resolution, global)<br>
+          3. Download the South Asia tiles covering India (~2GB total)<br><br>
+          <strong>Alternative — Spawn et al. 2020:</strong> "Harmonized global maps of above and belowground biomass carbon density" — available via NASA EarthData at 300m resolution. Smaller download, slightly coarser.
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#f87171;">Usage — biomass loss calculation</div>
+        <div class="step-body">
+<pre>import rasterio
+from rasterio.mask import mask
+from shapely.geometry import mapping
+import numpy as np
+
+def calc_biomass_loss(burned_polygon, biomass_raster_path):
+    """
+    burned_polygon: Shapely polygon of burned area (from MODIS MCD64A1)
+    Returns: biomass lost in tonnes
+    """
+    with rasterio.open(biomass_raster_path) as src:
+        out_image, _ = mask(src, [mapping(burned_polygon)], crop=True)
+        # Pixel values = above-ground biomass in tonnes/ha
+        biomass_density = out_image[0]
+        biomass_density[biomass_density < 0] = 0  # no-data mask
+
+    pixel_area_ha = (src.res[0] * 111320) ** 2 / 10000  # degrees to ha at India latitude
+    total_biomass = np.sum(biomass_density) * pixel_area_ha
+    return round(total_biomass, 1)</pre>
+          Store result in <code>forest_fire_events.biomass_lost_tonnes</code>.
+          <div class="inline-note">Sentinel-2 burned area required for fires &lt;1 ha — MODIS MCD64A1 (500m) cannot detect small fires. Flag limitation in output metadata when fire area is &lt;25 ha.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 11. NASA FIRMS -->
+  <div class="dataset c-red">
+    <div class="dataset-header">
+      <div class="dataset-num">11</div>
+      <div class="dataset-meta">
+        <div class="dataset-name">NASA FIRMS — Active Fire Alerts (Real-Time)</div>
+        <div class="dataset-why">Used for: detecting active fires within 3–6 hours of occurrence. MODIS + VIIRS sensors. For each active fire alert: run through the five-layer classification pipeline immediately. FOREST_FIRE and ONE_FIRE trigger alert emails. Feeds forest_fire_events table in real time.</div>
+        <span class="status free">FREE — NASA Earthdata account required</span>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-label" style="color:#f87171;">Setup</div>
+        <div class="step-body">
+          1. Register at <strong>earthdata.nasa.gov</strong> → free account<br>
+          2. Go to <strong>firms.modaps.eosdis.nasa.gov/api</strong> → register for a FIRMS MAP_KEY (also free)<br>
+          3. Install: <code>pip install requests</code>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#f87171;">Polling active fires for India</div>
+        <div class="step-body">
+<pre>import requests
+
+FIRMS_KEY = "your_map_key"
+INDIA_BBOX = "68,6,98,37"  # lon_min,lat_min,lon_max,lat_max
+
+def get_active_fires(days=1, source='VIIRS_SNPP_NRT'):
+    """Get active fire detections for India in last N days"""
+    url = (f"https://firms.modaps.eosdis.nasa.gov/api/area/csv/"
+           f"{FIRMS_KEY}/{source}/{INDIA_BBOX}/{days}")
+    resp = requests.get(url, timeout=30)
+    lines = resp.text.strip().split('\n')
+    if len(lines) < 2:
+        return []
+    header = lines[0].split(',')
+    fires = []
+    for line in lines[1:]:
+        row = dict(zip(header, line.split(',')))
+        fires.append({
+            'lat': float(row['latitude']),
+            'lon': float(row['longitude']),
+            'acq_date': row['acq_date'],
+            'confidence': row['confidence'],
+            'bright_t31': float(row.get('bright_t31', 0)),
+            'source': source
+        })
+    return fires
+
+# Run classification pipeline on each fire point
+for fire in get_active_fires(days=1):
+    classify_fire(fire['lat'], fire['lon'], fire['acq_date'])</pre>
+          Run this as a scheduled GitHub Actions workflow (daily or 6-hourly). Classify each fire through the 5-layer pipeline and insert into <code>forest_fire_events</code> table.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 12. SDM Predictors -->
+  <div class="dataset c-purple">
+    <div class="dataset-header">
+      <div class="dataset-num">12</div>
+      <div class="dataset-meta">
+        <div class="dataset-name">SDM Environmental Predictors — WorldPop · OSM · MODIS Night-Lights · KBDI</div>
+        <div class="dataset-why">Used for: Conflict Risk SDM (Phase 4). Two-axis classification: Axis 1 Resource Suitability (IUCN range + GFW + PA proximity + EVI + KBDI drought) × Axis 2 Human Pressure (WorldPop + OSM roads + night-lights + PA distance). All layers needed before running biomd2 ensemble.</div>
+        <span class="status free">FREE — multiple sources</span>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-label" style="color:#a78bfa;">WorldPop India population grid (100m)</div>
+        <div class="step-body">
+          1. Go to <strong>worldpop.org</strong> → Data → Population → India → 100m resolution → 2020 (or latest year)<br>
+          2. Download India_ppp_2020_constrained.tif (~200MB)<br>
+          3. Keep as GeoTIFF file — do not load into PostgreSQL. Query per SDM occurrence point with rasterio.<br>
+          4. For SDM: extract population density value at each occurrence point (elephant HWC, etc.) as Axis 2 predictor.
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#a78bfa;">OSM road network (geofabrik.de)</div>
+        <div class="step-body">
+          1. Go to <strong>download.geofabrik.de</strong> → Asia → India → india-latest.osm.pbf<br>
+          2. Extract roads with osmium: <code>osmium tags-filter india-latest.osm.pbf w/highway -o india_roads.osm.pbf</code><br>
+          3. Convert to shapefile: <code>ogr2ogr -f "ESRI Shapefile" india_roads.shp india_roads.osm.pbf lines</code><br>
+          4. Load into PostGIS: <strong>Table:</strong> <code>osm_roads</code> &nbsp;|&nbsp; SRID: 4326<br>
+          5. For SDM: compute <code>ST_Distance</code> from each occurrence point to nearest road (Axis 2 — Human Pressure predictor).
+<pre>CREATE INDEX idx_osm_roads_geom ON osm_roads USING GIST (wkb_geometry);
+
+-- Distance to nearest road (metres)
+SELECT ST_Distance(
+  wkb_geometry::geography,
+  ST_SetSRID(ST_MakePoint(:lon, :lat), 4326)::geography
+) AS dist_m
+FROM osm_roads
+ORDER BY wkb_geometry &lt;-> ST_SetSRID(ST_MakePoint(:lon, :lat), 4326)
+LIMIT 1;</pre>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#a78bfa;">MODIS nighttime lights (DMSP + VIIRS intercalibrated)</div>
+        <div class="step-body">
+          1. Download <strong>VIIRS Night-Time Lights</strong> (VNP46A2) from NASA Earthdata — Monthly composite, 500m<br>
+          2. DMSP-OLS historical (pre-2012) — available from NOAA National Centers for Environmental Information<br>
+          3. For continuous 2000–present time series: use Shao et al. 2014 or Li et al. 2017 intercalibrated DMSP+VIIRS dataset (check latest intercalibration publication)<br>
+          4. Keep as annual GeoTIFF — extract per occurrence point with rasterio (Axis 2 — Human Pressure proxy for market access / demand centres).
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#a78bfa;">EVI from MODIS MOD09A1 (vegetation index — resource suitability)</div>
+        <div class="step-body">
+          1. Use <strong>Google Earth Engine</strong> (free tier) to export monthly EVI composites for India 2000–present<br>
+          2. Or download MODIS MOD09A1 tiles from NASA Earthdata and compute EVI: <code>EVI = 2.5 × (NIR - Red) / (NIR + 6×Red - 7.5×Blue + 1)</code><br>
+          3. Compute monthly median, gap-fill with 10-year climatological average for each pixel<br>
+          4. Match each occurrence point to EVI value from same month + year (time-calibration as per Kitratporn &amp; Takeuchi 2020 — Axis 1 predictor).
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ── POSTGIS SPATIAL QUERIES ───────────────────────────────────────── -->
+  <div class="section-label">Core PostGIS Queries Used by the Pipeline</div>
+
+  <div class="dataset c-teal">
+    <div class="dataset-header">
+      <div class="dataset-num">Q</div>
+      <div class="dataset-meta">
+        <div class="dataset-name">Queries the pipeline runs automatically against these layers</div>
+        <div class="dataset-why">Every event that enters the system gets enriched by these queries. These are reference queries — the Python pipeline will run them programmatically. You can test any of them manually in pgAdmin 4 → wildlens Query Tool by replacing :lat/:lon with real coordinates and pressing F5.</div>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-label" style="color:#2dd4bf;">1 — Is the event inside a PA? Which one?</div>
+        <div class="step-body">
+<pre>SELECT name, desig, gis_area
+FROM wdpa_polygons
+WHERE ST_Within(
+  ST_SetSRID(ST_MakePoint(:lon, :lat), 4326),
+  wkb_geometry
+)
+LIMIT 1;</pre>
+          Returns <code>wildlens:paName</code> and <code>wildlens:paType</code>. If no result: event is outside a PA.
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#2dd4bf;">2 — Nearest PA within 5km (for events just outside PA boundary)</div>
+        <div class="step-body">
+<pre>SELECT name, desig,
+       ST_Distance(wkb_geometry::geography,
+                   ST_SetSRID(ST_MakePoint(:lon, :lat), 4326)::geography) / 1000 AS dist_km
+FROM wdpa_polygons
+ORDER BY wkb_geometry &lt;-> ST_SetSRID(ST_MakePoint(:lon, :lat), 4326)
+LIMIT 1;</pre>
+          Returns <code>wildlens:nearestPAName</code> and <code>wildlens:nearestPADistKm</code>.
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#2dd4bf;">3 — Which corridor does the event fall in?</div>
+        <div class="step-body">
+<pre>SELECT corridor_name, state, status, intensity_of_use
+FROM wti_corridors
+WHERE ST_Within(
+  ST_SetSRID(ST_MakePoint(:lon, :lat), 4326),
+  wkb_geometry
+)
+LIMIT 1;</pre>
+          Returns <code>wildlens:corridorName</code>. Null if event is not inside a mapped corridor.
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#2dd4bf;">4 — State, district and village enrichment (Census columns)</div>
+        <div class="step-body">
+<pre>-- State → stateProvince
+SELECT "ST_NM" AS state FROM india_states
+WHERE ST_Within(ST_SetSRID(ST_MakePoint(:lon, :lat), 4326), wkb_geometry);
+
+-- District → county
+SELECT "DISTRICT" AS district, "ST_NM" AS state FROM india_districts
+WHERE ST_Within(ST_SetSRID(ST_MakePoint(:lon, :lat), 4326), wkb_geometry);
+
+-- Village → locality (finest resolution — useful inside forest areas)
+SELECT "VILLAGE" AS village, "SUBDIST" AS subdistrict,
+       "DISTRICT" AS district FROM india_villages
+WHERE ST_Within(ST_SetSRID(ST_MakePoint(:lon, :lat), 4326), wkb_geometry);</pre>
+          Returns <code>stateProvince</code>, <code>county</code>, and <code>locality</code> for the event schema. Village query may return null for uninhabited forest areas — that is expected and fine.
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-label" style="color:#2dd4bf;">5 — Toponym disambiguation: does location overlap species range?</div>
+        <div class="step-body">
+<pre>-- Score two candidate locations for a tiger article
+-- Higher intersection area = more ecologically plausible location
+SELECT sci_name,
+       ST_Area(ST_Intersection(
+         wkb_geometry,
+         ST_Buffer(ST_SetSRID(ST_MakePoint(:lon, :lat), 4326)::geography, 50000)::geometry
+       )) AS overlap_score
+FROM iucn_ranges
+WHERE sci_name = :species_sci_name
+AND presence = 1
+AND origin = 1
+AND ST_DWithin(wkb_geometry::geography,
+               ST_SetSRID(ST_MakePoint(:lon, :lat), 4326)::geography,
+               50000);</pre>
+          Run this for each NER candidate location. Pick the candidate with highest <code>overlap_score</code>.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sep"></div>
+
+  <!-- ── SUMMARY TABLE ─────────────────────────────────────────────────── -->
+  <div class="section-label">Summary — All Datasets at a Glance</div>
+
+  <div style="background:rgba(15,23,42,0.8); border:1.5px solid #1e293b; border-radius:10px; padding:4px 0; overflow:hidden;">
+    <table style="width:100%; border-collapse:collapse; font-size:12px;">
+      <thead>
+        <tr style="border-bottom:1px solid #1e293b;">
+          <th style="text-align:left; padding:10px 16px; color:#475569; font-size:10px; letter-spacing:1px; text-transform:uppercase;">#</th>
+          <th style="text-align:left; padding:10px 16px; color:#475569; font-size:10px; letter-spacing:1px; text-transform:uppercase;">Dataset</th>
+          <th style="text-align:left; padding:10px 16px; color:#475569; font-size:10px; letter-spacing:1px; text-transform:uppercase;">Source</th>
+          <th style="text-align:left; padding:10px 16px; color:#475569; font-size:10px; letter-spacing:1px; text-transform:uppercase;">Access</th>
+          <th style="text-align:left; padding:10px 16px; color:#475569; font-size:10px; letter-spacing:1px; text-transform:uppercase;">PostGIS table</th>
+          <th style="text-align:left; padding:10px 16px; color:#475569; font-size:10px; letter-spacing:1px; text-transform:uppercase;">Est. size</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:1px solid #0f172a;">
+          <td style="padding:10px 16px; color:#60a5fa; font-weight:700;">1</td>
+          <td style="padding:10px 16px; color:#e2e8f0;">India Admin Boundaries<br><span style="font-size:10px;color:#475569;">States · Districts · Villages</span></td>
+          <td style="padding:10px 16px; color:#64748b;">censusindia.gov.in</td>
+          <td style="padding:10px 16px;"><span class="status free">Free</span></td>
+          <td style="padding:10px 16px; font-family:monospace; color:#94a3b8; font-size:11px;">india_states<br>india_districts<br>india_villages</td>
+          <td style="padding:10px 16px; color:#64748b;">~500 MB (villages large)</td>
+        </tr>
+        <tr style="border-bottom:1px solid #0f172a;">
+          <td style="padding:10px 16px; color:#2dd4bf; font-weight:700;">2</td>
+          <td style="padding:10px 16px; color:#e2e8f0;">WDPA — PA Boundaries</td>
+          <td style="padding:10px 16px; color:#64748b;">protectedplanet.net</td>
+          <td style="padding:10px 16px;"><span class="status register">Register</span></td>
+          <td style="padding:10px 16px; font-family:monospace; color:#94a3b8; font-size:11px;">wdpa_polygons</td>
+          <td style="padding:10px 16px; color:#64748b;">~30 MB</td>
+        </tr>
+        <tr style="border-bottom:1px solid #0f172a;">
+          <td style="padding:10px 16px; color:#fbbf24; font-weight:700;">3</td>
+          <td style="padding:10px 16px; color:#e2e8f0;">IUCN Species Ranges</td>
+          <td style="padding:10px 16px; color:#64748b;">iucnredlist.org</td>
+          <td style="padding:10px 16px;"><span class="status register">Register</span></td>
+          <td style="padding:10px 16px; font-family:monospace; color:#94a3b8; font-size:11px;">iucn_ranges</td>
+          <td style="padding:10px 16px; color:#64748b;">~5 MB (filtered)</td>
+        </tr>
+        <tr style="border-bottom:1px solid #0f172a;">
+          <td style="padding:10px 16px; color:#fbbf24; font-weight:700;">4</td>
+          <td style="padding:10px 16px; color:#e2e8f0;">WTI Elephant Corridors</td>
+          <td style="padding:10px 16px; color:#64748b;">WTI (contact required)</td>
+          <td style="padding:10px 16px;"><span class="status contact">Contact WTI</span></td>
+          <td style="padding:10px 16px; font-family:monospace; color:#94a3b8; font-size:11px;">wti_corridors</td>
+          <td style="padding:10px 16px; color:#64748b;">~1 MB</td>
+        </tr>
+        <tr>
+          <td style="padding:10px 16px; color:#a78bfa; font-weight:700;">5</td>
+          <td style="padding:10px 16px; color:#e2e8f0;">GFW Forest Cover (raster)</td>
+          <td style="padding:10px 16px; color:#64748b;">globalforestwatch.org</td>
+          <td style="padding:10px 16px;"><span class="status register">Register</span></td>
+          <td style="padding:10px 16px; font-family:monospace; color:#94a3b8; font-size:11px;">forest_cover (results)<br>GeoTIFF kept as file</td>
+          <td style="padding:10px 16px; color:#64748b;">~1.2 GB (tiles)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div style="background:rgba(20,184,166,0.07); border:1.5px solid #0d9488; border-radius:10px; padding:14px 18px; margin-top:14px; font-size:12px; color:#94a3b8; line-height:1.7;">
+    <span style="color:#2dd4bf; font-weight:700;">Order to load:</span> 1 → 2 → 3 → 4 (when available) → 5 (API calls run automatically by pipeline).<br>
+    Datasets 1–3 can be loaded in under an hour. Dataset 4 is blocked on WTI contact. Dataset 5 (GFW API) is called by the pipeline automatically — no manual load needed for the summary stats. GeoTIFF download is only needed if you want to run corridor width computation locally.
+  </div>
+
+</div>
+
+<p style="text-align:center; margin-top:48px; font-size:11px; color:#334155">
+  WildLens v2 — Spatial Data Guide &nbsp;·&nbsp; Print: Ctrl+P → Save as PDF
+</p>
+
+</body>
+</html>
