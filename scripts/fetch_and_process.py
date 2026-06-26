@@ -722,6 +722,7 @@ EXCLUDE_KEYWORDS = [
     'lone-wolf', 'lone wolf',  # terror attack terminology — not the animal
     # Awards / prizes that share animal/ecology words
     'wolf prize',  # physics/mathematics prize — not the animal
+    'operation tiger',  # political codename used by Maharashtra BJP — not the animal
     # Politics / government
     'election', 'constituency', 'mla', 'mp ', ' mp,', 'cabinet approves',
     'union cabinet', 'lok sabha', 'rajya sabha', 'parliament',
