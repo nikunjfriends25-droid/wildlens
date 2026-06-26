@@ -61,8 +61,7 @@ Steps:
      b. Run geocoder.py to get lat/lon
      c. Skip article if geocoding returns None
   5. Merge new results with existing news.json
-  6. Keep only articles from last 30 days (prune older ones)
-  7. Write final array to docs/news.json
+  6. Write final array to docs/news.json
 
 ### scripts/extractor.py
 Two-pass location extraction. No API calls whatsoever.
