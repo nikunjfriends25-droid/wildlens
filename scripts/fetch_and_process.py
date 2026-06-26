@@ -65,6 +65,13 @@ SOURCES = [
     'https://nenow.in/environment/feed',
     # EastMojo — dedicated environment section; covers NE wildlife, species discoveries, conservation
     'https://eastmojo.com/environment/feed/',
+    # India Today — GN site search; 12/100 wildlife-relevant; covers national HWC, rescue, elephant stories
+    {
+        'url': ('https://news.google.com/rss/search?q=site:indiatoday.in+wildlife+OR+elephant'
+                '+OR+tiger+OR+leopard+OR+poaching+OR+sanctuary+OR+forest+OR+conservation'
+                '&hl=en-IN&gl=IN&ceid=IN:en'),
+        'source': 'India Today',
+    },
 
     # ── J&K & Ladakh ──────────────────────────────────────────────────────────
     # Greater Kashmir — J&K's largest English daily; Dachigam, Hangul, snow leopard
@@ -893,6 +900,7 @@ def source_name(url: str) -> str:
         'nature.com':         'Nature India',
         'assamtribune.com':    'Assam Tribune',
         'nenow.in':            'Northeast Now',
+        'indiatoday.in':       'India Today',
         'eastmojo.com':        'EastMojo',
         'greaterkashmir.com':  'Greater Kashmir',
         'risingkashmir.com':   'Rising Kashmir',
