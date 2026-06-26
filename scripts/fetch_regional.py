@@ -453,10 +453,13 @@ def main():
     if before_prune - len(merged):
         logger.info(f'Pruned {before_prune - len(merged)} articles older than {RETAIN_DAYS} days')
 
-    if existing and len(merged) < len(existing) * 0.80:
+    # Safety check: compare post-prune merged against post-prune existing so that
+    # legitimate age-out of old articles does not trigger a false abort.
+    existing_after_prune = [a for a in existing if a.get('published', '') >= cutoff]
+    if existing_after_prune and len(merged) < len(existing_after_prune) * 0.80:
         raise RuntimeError(
             f'SAFETY ABORT: merged count {len(merged)} is more than 20% below '
-            f'existing count {len(existing)}. Not writing regional/news.json.'
+            f'pruned existing count {len(existing_after_prune)}. Not writing regional/news.json.'
         )
 
     os.makedirs(os.path.dirname(REGIONAL_JSON), exist_ok=True)
