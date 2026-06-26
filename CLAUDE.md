@@ -172,6 +172,9 @@ WII, WWF, WTI, forest department
 - No backend server or serverless functions
 - Nominatim: always 1 second sleep between calls, always add ", India"
 - Never re-process an article URL already in news.json
+- Never delete or prune articles from news.json or regional/news.json —
+  articles stay forever. The frontend 60-day toggle controls visibility.
+  Do NOT add any time-based pruning to either pipeline.
 - GitHub Actions free tier limit: 2000 min/month —
   spaCy model download is the heavy step, cache it with
   actions/cache@v4 keyed on requirements.txt hash
