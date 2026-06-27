@@ -45,6 +45,33 @@
     "lon": 89.65
   },
   {
+    "headline": "Radio-collared elephant found dead in Kerala forest",
+    "url": "https://www.thehindu.com/news/national/kerala/radio-collared-elephant-found-dead-in-kerala-forest/article71153891.ece",
+    "source": "The Hindu",
+    "published": "2026-06-27",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
+    "headline": "Freshwater Turtle Survey Undertaken At Keoladeo Ghana National Park In Rajasthan",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYWU3WGwzT01KUElwY1QwSHFFUkRvR0xxbG9lUktLd2doeUtDVm5sNVVWend2ekc3OXZDSVp0dV9XYTN0MmVSMzUtNThFWk16STBpTmVXdmY1LW5DN0lvZnVpNklmV1UzMU5GWnhCNHVZUnk1S2JBWG9TcmF6SEJoMkltSlFuTEhtZDN2VV9KdGZLVExJREsxampPLWRxMW9GdF9EX3BQTGRoWVNqNHktbVJqbHA5S0VhLUM4azRfeV91MkRhWHRIdjJNY0h0cDdtZi1NY1NueFQySEnSAeABQVVfeXFMTm9NZER1X2NZVVpNcTFPZGphUWZaMUl1ekQtLU9qeXZhUkpVd0JyRERJeUZLS2JJVEVUVE40OVBFTk5obkN6NEZINXNTdGdGTlY0Q3VBZTBaMGI1bFUtSUdEcGp1dWpmOTVEYTBVUWpOaExYallnTGxnNm5qNmROeVNqU1NaRWRJWUZ2UVBic2l1RDNLWU9VQ05LV0VTZW5reGZkRTkxSEpMbzNtazhmdG9IeUZka3FKWHV6REUwVjNCX25FYndpVGhMUFZlT0NvSXVmR2FhU1MzeWZ5TnQzMFA?oc=5",
+    "source": "ETV Bharat",
+    "published": "2026-06-27",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "Buxa Tiger Reserve Closed Till September 15: New Travel Restrictions Explained",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVXBkUDM4MVlKVDZVZGR5bTlDN3FBenFqVGtWaEdmWmJZTXdxMGRiRTJjQjVDZk0zUVY5aXc0elc0bFV5WXVxUGJIbmhjYTV2eWtIaG9IWnZ6Mk5peVhicU04Vl9hMkFUWVRIS0I3RWpvamtnSDNzcWtkTkxaMG1mQS1iTXd5b1pyZHN5VG1tUHF6UFdGdlhMZE43V1NGUjVpLTFrSThpYl9kQTVIRWw3V0twSVlrd3NC0gG4AUFVX3lxTE1VcGRQMzgxWUpUNlVkZHltOUM3cUF6cWpUa1ZoR2ZaYllNd3EwZGJFMmNCNUNmTTNRVjlpdzR6VzRsVXlZdXFQYkhuaGNhNXZ5a0hob0hadnoyTml5WGJxTThWX2EyQVRZVEhLQjdFam9qa2dIM3Nxa2ROTFowbWZBLWJNd3lvWnJkc3lUbW1QcXpQV0Z2WExkTjdXU0ZSNWktMWtJOGliX2RBNUhFbDdXS3BJWWt3c0I?oc=5",
+    "source": "curlytales.com",
+    "published": "2026-06-27",
+    "place_name": "Buxa Tiger Reserve",
+    "lat": 26.75,
+    "lon": 89.65
+  },
+  {
     "headline": "Why elephant chasers of Chalakudy in Kerala are on constant vigil to avoid a ‘conflict’",
     "url": "https://www.thehindu.com/news/national/kerala/elephant-chasers-of-chalakudy-are-on-constant-vigil-to-avoid-a-conflict/article71145803.ece",
     "source": "The Hindu",
@@ -160,6 +187,15 @@
     "place_name": "Gir",
     "lat": 21.1239,
     "lon": 70.798
+  },
+  {
+    "headline": "International Tiger Week 2026 begins today at Rajasthan's Ranthambore; legendary tigers to be honoured",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNbHlNMjN6NUV0aDhHa2xncG0xYTVzR0RVYlFOMUpYWm5GSmRVeGs1UWdGSF8yV2dac1Jvc2pFRDRjeHN0U2ZhU2J1QkctZ0doRkIyTXVvNFhIZnY4UXI5NE9LMllNTTdSbGhFc2cwWTBuRy1hYkFtT2VKVmNLRWJUYTE3cUJuR3RSNk8xTVBRSmxpZmZHU19GV3ZJQ0c4cnVyT1gzNHRoOFlMV0FjM3ZCdlBuMmxfUEt0cktLcjFzd19WU3MtZUF1T3p2WERzbm5oT2hiN0sydEpteGpKcjJfU1dJTWY0Rzl3NXlVRERR0gHzAUFVX3lxTFBYYmZXQWlWUjFZQkNyZ2JoY2g4bWE2V2tJVmlJNEtRLXlhT2xucVFZUWJUZ1hMNU85RDllT0xnaXhQVF9mOHRCNkwzcndiSERNZVlpUllxXzZET0tCSU13MGtIc0VqQmd3clRrYXFnblRKbjZVc1I5WXdaOUhZMUFjMmlfay1WTUtkRG5IN3p6VFlEWVVpMy0zMVgzRDJtUndybDNMQnpEM2wtYlJqUEJ3VzZvWlNhUzRwUXFPOTRZMW0tdmJid1ZhMmdJRDJkNXNOaWlHS0c4emswaTZDQ1k4UFJ1Vjk3VFQxQ0NTYVdmOFc5OA?oc=5",
+    "source": "Moneycontrol.com",
+    "published": "2026-06-26",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
   },
   {
     "headline": "The Women Who Still Know the Forest",
@@ -592,6 +628,15 @@
     "place_name": "Sundarbans",
     "lat": 21.9497,
     "lon": 88.8806
+  },
+  {
+    "headline": "Aravalli Biodiversity Park helps Delhi retain 3 million litres of rainwater: Reseachers",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQblY2dzNwcEY3cG9vLUlON3d5X0ZYU1ZWUmFZZG1JdU1RUVg2aDNZdloxYnpLbW9zb3ptZVNFY0w1c1RvVEJQSEVmRHRmZnFseWVoM25LcmlRZ0ZRLTZtUHRnbUkyam1YdDk1bHV5T2N6YWd0TFAyRS1QOEdvWkFCNGdoajkzY1pQWnZGamhiZXp0Q0lkVGp4SW9nbzFBNFNMaE1nOUVhSXdLRkt0a2tZVmNMSGpSQWJJZHF6dXd4blZ0UmRPV0puSGJiZzk5anltWlpqREtLV0RDUnU5VldRRTYtTG1PaWlBQ2fSAe8BQVVfeXFMUHdoN0dhZk9vZ3A3R0otc0pFM21ObDVrTFA5cmtJQVRtdUUwcFdIWDRMM19UUTJJNTd6SFJTbHFIUHBCS080WEFucTl1Nmo3UGhNdXEtS1JrVTBnbjI4Z2M5ZndqNmdHNi0yVUR6X1V2bjRMWmxZMUVUeXVrNFExZG5nSzdValN5cnJQOTI4NmFLOXJaZmlqSl9RTmpSR2xvSjlVY0RkSnlob2E3czk0SWhQU1hjdXREQWJsZW4yanMzNlNjcFc1VTI1YlVkWndyaUpJU2dlSWU3S3Zsb2hnQzM2emZjUTZEZjZFb1FDOHc?oc=5",
+    "source": "India Today",
+    "published": "2026-06-22",
+    "place_name": "Delhi",
+    "lat": 28.7041,
+    "lon": 77.1025
   },
   {
     "headline": "The Illusion of Mitigation: Translocating Corals Around Great Nicobar Island Will Kill Them",
@@ -4422,6 +4467,15 @@
     "headline": "Abhishek Banerjee extends support to same-sex couple who married in the Sundarbans",
     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPdHhzRUU1dzlmWERnUFRnTVNjSWZPZTFGQW4ycXNXQmdIOV9scmNpQlh1cGs0Tzhsa3oybllSQjltT2llQjZCcmxraUdEd2dZSnZNdURPOGlWMU5UbmRDbXJRYm1GdGt3eWxFVU1mUlJHQzVILVE5MDExazA5LTFUUDJ5bG9rZHZ6a3NMazNEOVFhRUVmREhLbXE1cU1rYXZ5WEFVSzNCYkhFOUNUeFl1Rnp6S0V1LVJHNGRfajNrQVJXUGkyc2dOV0VZZktpOERjRU13TnkzREpNVzdtb3FVSHpuaV9zTTZsemxONXhIWEhjTnp5UXRuVlZmN3pQUlU5dzc2YUktaUwzR0lHY3fSAZQCQVVfeXFMT2gzcFVBcG1SYUZjQVAxSHhGRG13LXJ4NlFqRXNpeExUWlJjcFo3WjNUMmlsMmsyYVVMS0U2eUU0c1E0NjlVRUFDd3RiVVllVHhPUWVfNzJlbnN4RXl0N0syazc1cm9zZTRjaHBwZFR3ZGplemFmaWN4Ul9RX0htX2lxdDZSWUZqUUI1OEpKLUZDcVRPVUl1aGVSYWY3N3phR3ZaQzJzenRuUmxBNy1sM0VEWldncTZWSkp6a2FLdW9hcmFaSTJkSEtyVHV5eXBHWlhGZDF6ZUtNY1lleU5Cb2lxdkpzZGhCZ3ZQWGFFaHp2VUVRZ0hQaENuakxiZjIyRE5MS3ZDR1E1enVzOUxGbTdSV1Mw?oc=5",
     "source": "The Hindu",
+    "published": "2025-11-11",
+    "place_name": "Sundarbans",
+    "lat": 21.9497,
+    "lon": 88.8806
+  },
+  {
+    "headline": "Abhishek Banerjee Lauds Same-Sex Marriage In Sundarbans, Calls It ‘Moment Of Pride’",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUjZudlphVDRwM1RJSlU5endCeDZfZjNsOEd3MXJmSklYcEhWOEswYkl5eUdlQ1J3ZmFITDdjb3dBakRGLUpXOTR2aWpmUU5RNWtRUTJHeGlXZzdiWmM2Qm8yRGNDQVUyN1JQNE9GT3FhMFBlX3VNQUFNZDl2eWE0M2llUHE1ajdfYzF3TlhWVXlodk01bllycFI2TmJHeWdGVXVvSExIOEo3cEQxVHlaU1JzVlRmRTVpSkFPRnZkcjc1WjQtSUlBREdOemlkOVVmSEHSAdcBQVVfeXFMTmxDU1F1RFJqLWw4amVRLVUxRTgzSzZVUlozdmNwTVJQbUxoTnZhcWNYS0NTcGJDNGJjdEZPNVRDMGpCR3VYcUNWakItWlJJYVVRbzRDOThZMjRBZ1FjLTZxN0dKY3c4ZWVQY3NCd0pnX0FnMi1uUEtsa1lVdEZYdUpzd0h2T2tHVlplNFFGNW56eG81eU9Yd29DZ0t6T040cnJMY2g1bURMQTJpOGJNMkZKVE9KbXdhZlQ2R1VadGF2TS1rTXRUTEpjUmZwbjQwY3FuU2poeW8?oc=5",
+    "source": "ABP Live English",
     "published": "2025-11-11",
     "place_name": "Sundarbans",
     "lat": 21.9497,
