@@ -1,5 +1,14 @@
 [
   {
+    "headline": "GPS-tagged vulture from Shuklaphanta flies 520 km to India’s Himachal Pradesh",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOUk3cUNMb2QyX3RvamI1Y1ZhZU5xZUJlTFI0emZXelZSclRTOVJoR3FFc2ZYUlFZX3ZZa3I1MnJuQ1pwZEhkUUJRMHZ4ZF9Nd2QtQzhTQ1FJVHJEckVFS1M0VS1qTUxXNUFNa203cG5Vbm92VmVMdHF0TzJza1drTXdMMU1JUUFHRU8taEVXNVdqSlZUZzRMVTEzRkhPNXhtZXoyNk41cU43U3p5YXNiYjRMRm9KVFh1OXpnZXBYbVZUdlk3TTMyZlJjUHk0d2lyb0E?oc=5",
+    "source": "The Kathmandu Post",
+    "published": "2026-06-28",
+    "place_name": "Himachal Pradesh",
+    "lat": 31.1048,
+    "lon": 77.1734
+  },
+  {
     "headline": "Madhya Pradesh forest official suspended for feeding ‘poha’  to sambar deer",
     "url": "https://indianexpress.com/article/india/madhya-pradesh-forest-official-suspended-for-feeding-poha-to-sambar-deer-10759580/",
     "source": "Indian Express",
@@ -2896,6 +2905,15 @@
     "place_name": "Chennai",
     "lat": 13.0827,
     "lon": 80.2707
+  },
+  {
+    "headline": "Raging fires engulf Pithoragarh forests, Askot Sanctuary hit",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUWZxa3dDbTFrWDE5dkFnd2NzQTRyV0luWlBReWozS3Z4OXRhYlNPM0VUUjJZVmYzaGFCSUsyeHBDall1TWhXM1ZuWFA5RjJ1cFZ1Z3hnQ0gxSnJCYmxvNThfV0gyNk5fX1laaEpzMnU4UVk0RGFibHJnYUUzUGZzRGR6d010U25seHQw?oc=5",
+    "source": "Garhwal Post",
+    "published": "2026-04-26",
+    "place_name": "Pithoragarh",
+    "lat": 29.583,
+    "lon": 80.2174
   },
   {
     "headline": "Tagged Olive Ridley turtles from Tamil Nadu reach Sri Lanka Dome, reveal migration patterns",
