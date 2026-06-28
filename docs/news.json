@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Off-roading is off limits: In a first, Ladakh fines tourists for driving into lake, chasing gazelle",
+    "url": "https://timesofindia.indiatimes.com/india/off-roading-is-off-limits-in-a-first-ladakh-fines-tourists-for-driving-into-lake-chasing-gazelle/articleshow/132057530.cms",
+    "source": "Times of India",
+    "published": "2026-06-29",
+    "place_name": "Ladakh",
+    "lat": 34.2268,
+    "lon": 77.5619
+  },
+  {
     "headline": "GPS-tagged vulture from Shuklaphanta flies 520 km to India’s Himachal Pradesh",
     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOUk3cUNMb2QyX3RvamI1Y1ZhZU5xZUJlTFI0emZXelZSclRTOVJoR3FFc2ZYUlFZX3ZZa3I1MnJuQ1pwZEhkUUJRMHZ4ZF9Nd2QtQzhTQ1FJVHJEckVFS1M0VS1qTUxXNUFNa203cG5Vbm92VmVMdHF0TzJza1drTXdMMU1JUUFHRU8taEVXNVdqSlZUZzRMVTEzRkhPNXhtZXoyNk41cU43U3p5YXNiYjRMRm9KVFh1OXpnZXBYbVZUdlk3TTMyZlJjUHk0d2lyb0E?oc=5",
     "source": "The Kathmandu Post",
@@ -34,6 +43,51 @@
     "place_name": "Rajasthan",
     "lat": 27.0238,
     "lon": 74.2179
+  },
+  {
+    "headline": "Forest department takes over 42.72 hectares of land from private estate in Kolukkumalai",
+    "url": "https://www.thehindu.com/news/national/kerala/forest-department-takes-over-4272-hectors-of-land-from-private-estate-in-kolukkumalai/article71157976.ece",
+    "source": "The Hindu",
+    "published": "2026-06-28",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
+    "headline": "Elephant killings continue in death zone of Kerala",
+    "url": "https://www.thehindu.com/news/national/kerala/elephant-killings-continue-in-death-zone-of-kerala/article71157966.ece",
+    "source": "The Hindu",
+    "published": "2026-06-28",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
+    "headline": "Shri Bhupender Yadav inaugurates National Workshop on Tiger Re-introduction at Alwar, Rajasthan",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56WDAxeEs3aWpGeE9BRDZTT2F1OTlLSnBhSVlxanhHMVVSRVItYTJmc0dJZjFGZnU1RmtmTFg2V1Rpd20tdmZ5T0hRQ3R6TGZ4SU5TWHp1c2NjdmlIZWw5dndUTmxLdnBJ?oc=5",
+    "source": "PIB",
+    "published": "2026-06-28",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "National workshop on tiger reintroduction in Rajasthan",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTlNRdDJRQ0daUVA3aG1ERzVYZ0pZV2NZOWNJbGdsbjhSSnJPT2pLVk95YlNzaXJJTERqV2RjSmtwNF9nUndNanRidXpCemg4Q2pPeUZCRThjVjNZSFBxYVRvd0o1NXZQRHZEWk12LVE5T3YwV2V4NU9kZ3FIeDNhZ2d1RC1HX3VxZkRQZldfY0ZtUG4wQWNBQnk5YjZPLWc3TVJEY2xzR0VSWlBiYkh4b2NNcE45d1hEOTZPVHBDYldjRXBzdl9LVDB0LXc?oc=5",
+    "source": "The News Mill",
+    "published": "2026-06-28",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "Tiger sighted on Telangana–Andhra border; forest staff alert villagers",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcXd2eFk2ZTUtamN4aV9NRWQ4QmJBQ1lJOHQ2cTRvTDJvZWxPc3RiNkNPUWYwVHVrWHNvVkJjbk5lYUpndU1VU2xYa3kySGVqTVd5VlF4ZGgwMEludFd3ZndoaTViSVBOTkFuSTRYa1lLWlZfd2J6N3ZyandGWFVNTGZGNWNPSnptYURKOVFEdmNFVk5CVHhCekwtb3o?oc=5",
+    "source": "Telangana Today",
+    "published": "2026-06-28",
+    "place_name": "Telangana",
+    "lat": 18.1124,
+    "lon": 79.0193
   },
   {
     "headline": "Madhya Pradesh forest official suspended for feeding ‘poha’  to sambar deer",
@@ -4437,6 +4491,15 @@
     "lon": 74.124
   },
   {
+    "headline": "Video | Tiger Blocks Road In Maharashtra's Tadoba, Halts Traffic For Hours",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNajFvdVNUVEFqMUJsb0toQ1RWM21vV3dmSF9LbWVwSHVyeWhXM3R4M25BSU1vTjd3N1VLNjkyaHRDVWJFbWxfeFlCYzZSbFh0NGZzRXVKSVhvMlFhNGIwSkNGVFk4OTBKWHMyMC1IUTAycnc2bXJNcDl0WVZqRmh0SkdpTU5wWHJpUTNlOGRWbGFnQmVyUlFVU2FPdXpCVlJ3M2c?oc=5",
+    "source": "NDTV",
+    "published": "2025-11-29",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
     "headline": "Video: Tiger Blocks Road, Halts Traffic For Hours In Maharashtra's Tadoba",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPa2x6bUs5dlhnTlZoT0F5NkpJNldHc3ROZlNMYnpBWDFEa0lSOE4ySzFOcVNjbjR2cWZnV1h3dzN1N0dYckhXTUJpdjdtU1hGbHlqVFE1ZlNtYldvT0JtaXBFLXU3Z0RzRGZ3NGJnOGlBLXJFQlpDV05sb1kyVzNvdHpQSnlzRXhZTmFtTXNhSjgxRHE0eVEwbVdqMk5maGNaZFlmOEh2RV9vY2kzSjZKVQ?oc=5",
     "source": "NDTV",
@@ -6561,6 +6624,15 @@
     "lon": 85.0985
   },
   {
+    "headline": "Wild elephants create havoc in Andhra’s Vizianagaram district",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeXBFNFJxX1ZXN0xoSG51QjFOdWNlTTVSSms5OG0yVFcxUUUxTUN0RkJrUGlXdVhSMHpaWFAtRUJNODBiYjJLaEROZElOTUhiYkZEeld1V1JZQ203cDZqcjg5eWU3SXduc3p1clIwRXBsLU4yVnVUaVZoZmhRS1BRMVF5NXNvT3VfZHlDa3FDVjE?oc=5",
+    "source": "Telangana Today",
+    "published": "2024-08-12",
+    "place_name": "Vizianagaram",
+    "lat": 18.1066,
+    "lon": 83.3956
+  },
+  {
     "headline": "Census in South Reveals Andhra Pradesh Has 142–148 Elephants",
     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTUk4Mi1GQTAzM0hZMmViWGdQb2FGV1RJNVZjZk9kaHhxM3ZSMFpkNV9XSDcwQ2RiQ1F1dFVJZmlCRmlVNWU3TzNKd0tPZWxubnMySk5hZXdINUJRekV6R191UDdsTG5ad3FzTWFWQmJBdVJUa1ZoUHFPc0ZwTVlMYkw1dVZ6RHA1R1g4TEV3dXlDTTJsVUFpM28wdEZLNWhZUnVNRnFPcUlQODAzZnM1clZtdXNYbTAxTThxYnlJUl9vWC1ocUJKS3Bn0gHPAUFVX3lxTE5ieElyQVJRMGxLcGdaLXQ3YlNFbVN5UmlLT2Y4MXlMMFE2S0duR2M2RkNOR0RUYUtpMDhYRjdRYlJDcEtaNHNsMTVFejRvOS1DajJNdVE3eFRIVVlzcTk5WEd4R1VYVDZtalJKN0dPRVNXcHlfTHY0YW8xVEdRM2VreEEzLTNtTW05aENhUDFzS1cwSktFYVNPMHNDUDNHZ3Z5eU1aYnpIM2Z5bHVmZndIMU5nSG1lZlpDT2NfX1ZaLUQ5WXlZYUJmT29oNElCSQ?oc=5",
     "source": "Deccan Chronicle",
@@ -6946,6 +7018,15 @@
     "place_name": "Simlipal",
     "lat": 21.8,
     "lon": 86.4
+  },
+  {
+    "headline": "Home to 2nd Largest Snow Leopard Population | Uttarakhand | 01 Feb 2024",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ubWVZQ3JmSW1hMTBzOTZkdmQzT2tYbndOM0RpSUJjNFVhRi1JbHBIOFR1QTk0dEFBSWxkMVJHM0lERkljMUh0REFhWGR1TThJXy1fVEs5UC1vV2dQU0xWeFdyVkRuekFjZWNjeHlvNTdKdw?oc=5",
+    "source": "Drishti IAS",
+    "published": "2024-01-02",
+    "place_name": "Uttarakhand",
+    "lat": 30.0668,
+    "lon": 79.0193
   },
   {
     "headline": "Adventure Awaits in Hemis National Park: Track the Snow Leopard",
@@ -9142,6 +9223,15 @@
     "place_name": "Sundarbans",
     "lat": 21.9497,
     "lon": 88.8806
+  },
+  {
+    "headline": "Two minors killed in fresh leopard attacks in Dehradun",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbTQ3cmhDS3JUeHRuemI5ZmMzZmpCYmo1M3ZFS3dpbXkzQVlHV0RJOWVUNlZOaFQ4QzZvRFBDMzdlYWdna2p0VjV6S3B5aDJIYm5xMUQtV1ZNWTF3RkowLVJFRE9aaVpLM0dCclYzblNnZlV1MVlHU29CYjJFMGNONENEQS1sNmM1YVU3WnBsXzJjUzdkWlRtYm4zYy13a24xWG5YWmcybEZhVUZ0bVU0?oc=5",
+    "source": "India Today",
+    "published": "2015-01-18",
+    "place_name": "Dehradun",
+    "lat": 30.3165,
+    "lon": 78.0322
   },
   {
     "headline": "Nagpur birder sights rare king vulture in Bor Reserve",
