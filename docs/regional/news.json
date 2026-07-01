@@ -1,5 +1,38 @@
 [
   {
+    "headline": "Maharashtra: विदेशी हथियारों के साथ पंजाब के दो युवक गिरफ्तार; दो पाइप के बीच फंसे जंगली गौर का सफल रेस्क्यू",
+    "headline_en": "Maharashtra: Two youths from Punjab arrested with foreign weapons; Successful rescue of wild Gaur trapped between two pipes",
+    "url": "https://www.amarujala.com/india-news/maharashtra-updates-mumbai-nagpur-pune-thane-education-politics-crime-and-other-hindi-news-2026-07-01",
+    "source": "Amar Ujala",
+    "lang": "Hindi",
+    "published": "2026-07-01",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
+    "headline": "ದಾಂಡೇಲಿ ನಗರಸಭೆಯಲ್ಲಿ ಬಿ.ಎಲ್.ಓ ಸೇವಾ ಕೇಂದ್ರಕ್ಕೆ ಚಾಲನೆ",
+    "headline_en": "Drive to BLO service center in Dandeli Municipal Council",
+    "url": "https://www.prajavani.net/district/uttara-kannada/dandeli-voter-list-revision-blo-service-center-launched-4094357",
+    "source": "Prajavani",
+    "lang": "Kannada",
+    "published": "2026-07-01",
+    "place_name": "Dandeli",
+    "lat": 15.25,
+    "lon": 74.65
+  },
+  {
+    "headline": "ನೇಕಾರರ ಸಮ್ಮಾನ್ ಯೋಜನೆಯಡಿ ಅರ್ಜಿ ಆಹ್ವಾನ, 5 ಸಾವಿರ ಸಹಾಯಧನ",
+    "headline_en": "Application invitation under Weaver Samman scheme, 5 thousand subsidy",
+    "url": "https://www.prajavani.net/district/hasana/hassan-weavers-samman-scheme-application-invitation-4094244",
+    "source": "Prajavani",
+    "lang": "Kannada",
+    "published": "2026-07-01",
+    "place_name": "Hassan",
+    "lat": 13.0068,
+    "lon": 76.1004
+  },
+  {
     "headline": "ಅರಣ್ಯ ಇಲಾಖೆ ಭ್ರಷ್ಟಾಚಾರ ವಿರುದ್ಧ ಬಹುಜನ ಸಮೈಖ್ಯ ಸಮಿತಿ ಪ್ರತಿಭಟನೆ",
     "headline_en": "Bahujan Samaikhya Samiti protests against forest department corruption",
     "url": "https://www.prajavani.net/district/kolar/kolar-forest-department-corruption-protest-bahujan-4091846",
@@ -53,6 +86,17 @@
     "place_name": "Pilibhit Tiger Reserve",
     "lat": 28.6333,
     "lon": 80.1667
+  },
+  {
+    "headline": "दुधवा नेशनल पार्क का पर्यटन सत्र संपन्न: 75,615 पर्यटक पहुंचे, 2.97 करोड़ का आया राजस्व; बाघ-भालू ने लोगों ... - Dainik Bhaskar",
+    "headline_en": "Tourism season of Dudhwa National Park concluded: 75,615 tourists arrived, revenue of Rs 2.97 crore; Tiger-bear killed people... - Dainik Bhaskar",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRzdQbXFuX3k3LVpyQ2JxT050OUhFeG9zY3Z0Z3BOZUFQdUtPMTRxbkl0cTZicm14THBYSnVCZzlTSmNSYXVVUUVfY01OZ25raFdJVzlRZVVWTGw2ZXNkbGdkTTVZT2VaVDZ2TVZuaFRZbHlyRE5TbWdyczJERzlIXzNoQ0NZbnFaU0xNY3pFV2ZSOG0yQ2VhRGlWbWMzd2k0ZlVJTjhpUURqLXozZnVpQXpfaEFJS1hvcW9sR0FIRWg2NTBEYzFOMjI4bE1aRmvSAdQBQVVfeXFMTzRvS0tTYlB2RHVnemFkdktjR2EtTk5OenZmeUhNNUZxRDZESHVqS1VCZGhCZEkzZGFhZXRVNmFRSEdLRDY4ZWpxOVM0dGdhNVNieDdQTjYydG93eHZ0cHpBY2dGVkNiVFMwR1drc1R6SjhGNGFpU05HUWVOSC1hODdSRGFYcDk3RDNwZEJDY1A0bXBsSFMtRnRsaDI0STlzTzNFTGNEcTF6amJxVFgtOHpwWXNYdG94UnBPTXZqdzBxQUtPSThMcm9DU0t5T293ZVY3cEI?oc=5",
+    "source": "Dainik Bhaskar",
+    "lang": "Hindi",
+    "published": "2026-06-30",
+    "place_name": "Dudhwa National Park",
+    "lat": 28.5333,
+    "lon": 80.6667
   },
   {
     "headline": "ବିବାହିତା ମହିଳାଙ୍କ ସନ୍ଦେହଜନକ ମୃତ୍ୟୁ: ମହୁଲ ଗଛରେ ଝୁଲୁଛି…",
@@ -1230,6 +1274,17 @@
     "place_name": "Masinagudi",
     "lat": 11.5667,
     "lon": 76.6333
+  },
+  {
+    "headline": "अब सुबह 6 बजे से देख सकेंगे 'टाइगर': पीलीभीत टाइगर रिजर्व में बदल गया पर्यटन का समय, चेक करें पूरी डिटेल्स - Jagran",
+    "headline_en": "Now you can see 'Tiger' from 6 am: Tourism timings changed in Pilibhit Tiger Reserve, check complete details - Jagran",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeldUUFhmOTNnLU03dG9zakpmRzlneUtYZjZYWnVPM1QyZWpFaVJxSGJsVXdBYWhwRFV0bGd2WTI3UXRPTjVJbTZRZ1UzSGYxanJVSzkyNUZWSkwtdWRPOXpvS0ltUEFkb0EtVE41QnctWHE0ZVB4UFlaMEFabGNlYXpIaGlJam50YWhrUFFoa1YweUQzb3pWb2lISmwwX3lmMnJHa1doWQ?oc=5",
+    "source": "Dainik Jagran",
+    "lang": "Hindi",
+    "published": "2026-04-02",
+    "place_name": "Pilibhit Tiger Reserve",
+    "lat": 28.6333,
+    "lon": 80.1667
   },
   {
     "headline": "Andhra Pradesh - Geography: ఆంధ్రప్రదేశ్‌ అడవులు వన్యప్రాణి సంరక్షణ - eenadu pratibha",
@@ -3155,6 +3210,17 @@
     "place_name": "Uttarakhand",
     "lat": 30.0668,
     "lon": 79.0193
+  },
+  {
+    "headline": "राजस्थान के चौथे टाइगर रिजर्व में बाघिन टी-102 शिफ्ट: अगले माह तक एक और बाघिन आएगी, अक्टूबर तक टूरिज्म शुरू... - Dainik Bhaskar",
+    "headline_en": "Tigress T-102 shift in the fourth Tiger Reserve of Rajasthan: Another tigress will arrive by next month, tourism will start by October... - Dainik Bhaskar",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQMVk4ZVVRQWhmZlotS0NfYTJtMnRyZzMwNFlMUlg1cDZpQjhRc1dRSko1SGo4RXR4eGRLNUR0WmhMYmNYOGFHemR5ZHpmX1NyUHlTY1pDekN0el9vbzFDRmZXWFFnT2hQVFpmc0pCREo0ZDNKcW40LXRCTXo0Zm0wclRKT1czVV90XzRBbjlOMVl6RTRscWk4cE1LMGJURm9wbXNKVHBXUTRYVXN1LWFPTmZtbE02d0c2N29sNHpDcTlfcHRJaWhCX29LeUVYMHBkMDR2M2o4TFdXaVEy0gHiAUFVX3lxTE8yMnBlOXhyV2hXYnhTRWdrSDdpZFpMV2JCWkNTSE5jN1VOOGtLQURua0xhSkdQUTlUUkJfWGdQSW9BbkF4Z1BILU05WkZQWFlKa09TbmFHT3hKei1wb0NUMlhqd0dUS05sN2NhdlJpUjZGQUEyeXRMcmVvUUZvakFTMF9mVWlESlc0VWMyLWc4WHRsR3FLRnl1UUdjNnFUQU9LdS10STN6eGVhaHRCM0lCUHpnaDZWTlF3aGFuYnpCQVUxdlEwSXVYV2hWeE1BRHlkU19KQVBnak1ESFJTRVBtZ0E?oc=5",
+    "source": "Dainik Bhaskar",
+    "lang": "Hindi",
+    "published": "2022-07-16",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
   },
   {
     "headline": "वन विहार में उम्रकैद: देशभर में चर्चित रही कान्हा की ‘सुंदरी’ को वन विहार में मिली उम्रकैद, अब यहां बाघों क... - Dainik Bhaskar",
