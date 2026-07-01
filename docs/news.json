@@ -1,5 +1,14 @@
 [
   {
+    "headline": "T.N. govt. gives nod for acquiring reserve forest land to build small dam in Vellore",
+    "url": "https://www.thehindu.com/news/national/tamil-nadu/tn-govt-gives-nod-for-acquiring-reserve-forest-land-to-build-small-dam-in-vellore/article71166379.ece",
+    "source": "The Hindu",
+    "published": "2026-07-02",
+    "place_name": "Vellore",
+    "lat": 12.9165,
+    "lon": 79.1325
+  },
+  {
     "headline": "India's Longest 8 Lane Wildlife Tunnel Beneath Rajasthan Tiger Reserve to Open in August",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdmk1YmI5RVhnMkpUZkN1Z2ZQWHBwaC1XQnpGajNyWENGZTVSWFVMUkZfZFM0Mlg0eFRqSUFoRDZZRGNNN2M3Z0QzdWtNT2F2MVg0dDZmYlJlYmczRVZxa282VjJiRm9LU2g4TXd4Qm4tWXN0X2hOTEZkR0ZHUHViVjhyWXpmNVE4SjZYamd2RmxXNHpoLU9EV0FFUDhWRXlreGdKekFNZmNxV3AyWDE3ZHpwUmJ5Z3JxOFl0V2pvU2xRTGZK?oc=5",
     "source": "The Morning Voice",
@@ -79,6 +88,51 @@
     "place_name": "Chhattisgarh",
     "lat": 21.2787,
     "lon": 81.8661
+  },
+  {
+    "headline": "Forest official injured in wild elephant attack in Periyar Tiger Reserve",
+    "url": "https://www.thehindu.com/news/national/kerala/forest-official-injured-in-wild-elephant-attack-in-periyar-tiger-reserve/article71170886.ece",
+    "source": "The Hindu",
+    "published": "2026-07-01",
+    "place_name": "Periyar Tiger Reserve",
+    "lat": 9.4667,
+    "lon": 77.15
+  },
+  {
+    "headline": "Forest Beat Officer arrested for ‘extorting’ money from farmers in Adilabad district",
+    "url": "https://www.thehindu.com/news/national/telangana/forest-beat-officer-arrested-for-extorting-money-from-farmers-in-adilabad-district/article71170595.ece",
+    "source": "The Hindu",
+    "published": "2026-07-01",
+    "place_name": "Adilabad",
+    "lat": 19.6641,
+    "lon": 78.532
+  },
+  {
+    "headline": "Eurasian lynx photographed for the first time in Sikkim, Representing only 2nd photographic record of species in the eastern Himalayan region",
+    "url": "https://timesofindia.indiatimes.com/india/eurasian-lynx-photographed-for-the-first-time-in-sikkim-representing-only-2nd-photographic-record-of-species-in-the-eastern-himalayan-region/articleshow/132116953.cms",
+    "source": "Times of India",
+    "published": "2026-07-01",
+    "place_name": "Sikkim",
+    "lat": 27.533,
+    "lon": 88.5122
+  },
+  {
+    "headline": "Rajasthan Records Historic 61.99 Million Tourist Arrivals in Q1 2026 as Pilgrimage, Heritage Tourism and Wildlife Travel Drive Unprecedented Growth Across India’s Leading Cultural Destination",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zVVRWVFZLaUFQSEJXTmlWZUpXVHNSdENZYVdDTXRkSnJNOFJRSDYxbkt5NlZDd2dSZ1g4a0pHaHE1bF9fWHpsdmZWUmR4bktQaWNYbHZLNzUtb2oyVVNJT2FTQm9nUWdPZnN2TlJn?oc=5",
+    "source": "Travel And Tour World",
+    "published": "2026-07-01",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "From Forest Fires To Carbon Credits: How Himachal’s New Biochar Plant Plans To Solve Two Problems At Once",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSHAyUDdERGJHenZEWEhhTUtXMmc2R2owSU1vSlkxUHlPaVhBVU02cXRCbWQ5SFNoVzk0bmx2dTlRQ01jWUFrNkh0bk5Vbl9CbkZjVzJSMElCcEw4WWxRa0NHMzRyM3p5N0dlSFBrWGpsOEZtcjV4NzRNY2lSaXk0aXV2aTJuOEg1YTEyYXpYU0tneUt6dVhKNnlOUVRCcUJLTC15YWoxTXZ1RmtXYlZJVmVOYjFva19IZkJYUHl4N1RDN3RES0dHRGNWcTMteXdVSTE4ddIB5AFBVV95cUxOUG1sLVpQSXZVeEdGQm5sNDdJZFU1NnVWSlozdTBfTW4wcWtxWjFVLVVjWXRCaTFRU1NNYXMtenYweUcxaVV4MlBPRzZ6VDhFQ0FWLWotblBlUEdyNXZtZEY0TlRGejhNemNoWmEtQUxZdmNkc2J3RUxveHlPVkEwQWNzR2ZydW85U05ib1NpMWkyc1VfX3JCRWlMaDI4S2FKVVV5cUlPc2JIREk5UUZkenROUEpOV2lUZWNXZjU5d0E2djdseGVEbWsxV3Uxam43YV9YODE3YkxkU3N1dmdkSkZNT2w?oc=5",
+    "source": "Swarajyamag",
+    "published": "2026-07-01",
+    "place_name": "Himachal",
+    "lat": 31.1048,
+    "lon": 77.1734
   },
   {
     "headline": "Wildlife documentary ‘Wild Tamil Nadu’ to release soon on YouTube",
@@ -1393,6 +1447,15 @@
     "place_name": "Rajasthan",
     "lat": 27.0238,
     "lon": 74.2179
+  },
+  {
+    "headline": "Madhya Pradesh accepts Andhra’s request for two tigers, bisons: Mohan Yadav | Hindustan Times",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVDEwd3ZvWHpSOE5YM0dXN01BODllVnBkTzRZamhheDBrRE1aTTlhemJJZFN4TmtHYlJBZm8xT0RkX1lLNkhqRG5mMGN4b2hacll0SDBNX1diUnNnTUNfYmFJSjhTQjlNdGJGTTlBdXJQNTF3ZmlyaGpKYXZCVFh1Yk5fVkw0bkNkNGNXemViYXlldERJYVFwMGNpSUE0ZFdvVjNKbU5tSW81V0ItWjZOLTRzQ1pva3lKN0kxYWEwejVaVGpuYUNVX0I1NUNQX1I0MDdKWl9OdXU4OGFo0gHiAUFVX3lxTE9HaTNxVHFjWGk4LTdjRHlvLXhsSXB3dnNfWkpRVGlqOExwdzRiZUs5UFFXWTJySzZxeGh6S1hPWlFHc3gzcFVWYzJBM2hSNTRSWVZWX05CenFNa2ZGWE1kTHptWGlGV3hURFdNWFVtMmY5RUxPVmpwUmJ0aDR0dWl3UC15MmdENU9oTTdfVWF2UmZON2pYVExfdWVpV1dzeFQ5bTgwRVNmV21hbHV3UUg5YW9GbnFYMHpiYml5aHRpY3RJM0xLcXl1aXZYX2ZMZkk4S1c1UEhHLWlxN3pEWDI5dnc?oc=5",
+    "source": "Hindustan Times",
+    "published": "2026-06-19",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
   },
   {
     "headline": "How two Maharashtra MPs’ refusal to sign halts Operation Tiger",
