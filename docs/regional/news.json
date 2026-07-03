@@ -1,5 +1,38 @@
 [
   {
+    "headline": "ಹಟ್ಟಿ ಚಿನ್ನದ ಗಣಿ ವಾಲ್ಮೀಕಿ ನಗರದಲ್ಲಿ ರಸ್ತೆ ದುರಸ್ತಿಗೆ ಆಗ್ರಹಿಸಿ ಪ್ರತಿಭಟನೆ",
+    "headline_en": "Protest demanding road repair in Valmiki city of Hatti gold mine",
+    "url": "https://www.prajavani.net/district/raichur/hatti-gold-mine-valmiki-nagar-road-repair-protest-4098749",
+    "source": "Prajavani",
+    "lang": "Kannada",
+    "published": "2026-07-03",
+    "place_name": "Valmiki",
+    "lat": 27.25,
+    "lon": 84.15
+  },
+  {
+    "headline": "ಕಾಡಾನೆ ದಾಳಿ– ಕೃಷಿ ನಾಶ: ಪರಿಹಾರ ನೀಡಲು ಕೃಷ್ಣೇಗೌಡ ಆಗ್ರಹ",
+    "headline_en": "Deforestation – destruction of agriculture: Krishna Gowda demands compensation",
+    "url": "https://www.prajavani.net/district/chikkamagaluru/chikkamagaluru-wild-elephant-attack-crop-damage-relief-4098565",
+    "source": "Prajavani",
+    "lang": "Kannada",
+    "published": "2026-07-03",
+    "place_name": "Jaipur",
+    "lat": 26.9124,
+    "lon": 75.7873
+  },
+  {
+    "headline": "ಮೇಕೆದಾಟು ಯೋಜನೆಗೆ ರಾಷ್ಟ್ರೀಯ ವನ್ಯಜೀವಿ ಮಂಡಳಿ ಅನುಮೋದನೆ ಶಿಫಾರಸು",
+    "headline_en": "National Wildlife Board recommends approval for goat hunting project",
+    "url": "https://www.prajavani.net/district/bengaluru-city/mekedatu-project-wildlife-board-approval-recommendation-4098479",
+    "source": "Prajavani",
+    "lang": "Kannada",
+    "published": "2026-07-03",
+    "place_name": "Delhi",
+    "lat": 28.7041,
+    "lon": 77.1025
+  },
+  {
     "headline": "ಶರಾವತಿ ಅಭಯಾರಣ್ಯ ಬಳಿ ಆಮೆ ಸಾಗಿಸುತ್ತಿದ್ದ ವ್ಯಕ್ತಿ ಬಂಧನ",
     "headline_en": "A man was arrested for carrying a turtle near Sharavati sanctuary",
     "url": "https://www.prajavani.net/district/shivamogga/uttara-kannada-turtle-trafficking-sharavathi-sanctuary-arrest-4096744",
@@ -119,6 +152,17 @@
     "place_name": "Bhiwani",
     "lat": 28.7975,
     "lon": 76.1322
+  },
+  {
+    "headline": "राजस्थान के सरिस्का में दिखा सफेद मोर: सोने की तरह चमकता 'गोल्डन सांभर'; प्रदेश में पहली बार देखे गए - Alwar News - Dainik Bhaskar",
+    "headline_en": "White peacock seen in Sariska, Rajasthan: 'Golden Sambhar' shining like gold; Seen for the first time in the state - Alwar News - Dainik Bhaskar",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUG0xSHRBcFVmU3hjZmNrSWNoUEpUWmhZSmhCTG1FU0VVdmtZdF90aWJMV0NONzlWajE5MVJUSERyM1hsdGExR21ZMU9YUHVsQjdyV2g0ZlNIYml3RnNQZXBzZV9nQmRjaDVadmNfeTNHTEx3R0ZhUG1hOE5uTy02a2hsRzdXejNwd2ZJa2RuUjhkRlh4Q2dHRHkyV2VKS3lHQml3Q0dQNXo2R3F5Q2xvT1RpWThsTE1YRTlyd0hGYzZ3Q29PSHgwWWR0am9UajlraHc?oc=5",
+    "source": "Dainik Bhaskar",
+    "lang": "Hindi",
+    "published": "2026-07-02",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
   },
   {
     "headline": "Maharashtra: विदेशी हथियारों के साथ पंजाब के दो युवक गिरफ्तार; दो पाइप के बीच फंसे जंगली गौर का सफल रेस्क्यू",
@@ -1375,6 +1419,17 @@
     "lon": 80.1667
   },
   {
+    "headline": "पीलीभीत टाइगर रिजर्व में थमने लगा बाघों का खौफ! जानें कैसे 1,710 लाइटों ने बचाई इंसानों की जान - Jagran",
+    "headline_en": "The fear of tigers has started to stop in Pilibhit Tiger Reserve! Know how 1,710 lights saved human lives - Jagran",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWXllQ0xHYzNlc0lPNUdHZFQ3TmgxbGdUZzFDQ2lpZVNzN0ZJRHU4NExqSC1qUkoxLWs4MWlIUXlVN3JXTUM5alFPR3E5UXdsU1lBMVJlU0YzVm1kcENFbmJtVHp0NFhKcVJjYk05ZkFraWwyZWx4eEVub1Znb3JSelRaSHgtN1VKNDN3WVVUbUdiaHEta1h2ZEZCR3hrWjFYMjNUXzd5bFFBNGpialNpTUd1b21lM0xnUnJnZlVtSWhfamUyUUxTRklackRRMFMzb0ZETGxiNA?oc=5",
+    "source": "Dainik Jagran",
+    "lang": "Hindi",
+    "published": "2026-05-07",
+    "place_name": "Pilibhit Tiger Reserve",
+    "lat": 28.6333,
+    "lon": 80.1667
+  },
+  {
     "headline": "उत्तराखंड में वन्यजीव हमलों से दहशत, बाघ-गुलदार और हाथियों के हमलों में लगातार मौत - Jagran",
     "headline_en": "Panic due to wildlife attacks in Uttarakhand, frequent deaths due to attacks by tigers, leopards and elephants - Jagran",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPd3NjOTR2TkJXTnU4YW5ra2duNDdxdW9kU0NYZURCYzk3MkhFLWhoZ1p2aThKckVXX3hJQUN4TEZES0J1d1JINnA1Ti1SZFp2cjI1S2RlQ1BpSDhGWlI0WFdfQzlLZEhiZFhrUDc2aGNlUFhCV2szRkY5aFd4VEE1cTVjUzVDQl9iQ2lWVGpEMzRnajR4ai10a3RQcVp2Xy1JMGtDUEV3UmU0NGtQcUZFbWNucEltNk5GV0NhWjdHSQ?oc=5",
@@ -1945,6 +2000,17 @@
     "place_name": "Ratapani Tiger Reserve",
     "lat": 22.9333,
     "lon": 77.6167
+  },
+  {
+    "headline": "678-ല്‍ നിന്ന് 217-ലേക്ക്; കണക്കെടുപ്പില്‍ ഝാര്‍ഖണ്ഡിലെ കാട്ടാനകളുടെ എണ്ണത്തില്‍ വലിയ ഇടിവ് - Mathrubhumi",
+    "headline_en": "678 to 217; Big decline in Jharkhand's wild elephant population in census - Mathrubhumi",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZU5sWXQwUzVubW1sMWh6dndzaUR1ZExIelNGY0ZXWHg2TjFTZ29hS3Vwd3lORHZxQUNEeVdQWFIwckt1T3dJcUxsc0V4U1dmXzBIMk9XUVd4aUlaTDFrcC1MNC1Mdm1DT1drR2lHRS1FQ19ITnk3Q18yZmdFbFZrRUtmeXllZ1pXMG43OXBDRzB4MjhndjJtYTZtN3dvNzIweHB5Q3BJM0tzRHVha1BtSdIBtgFBVV95cUxOUW9fMXJockZtcEI5b0hRZ05wNXc5YVBsTmljNnhhc3dzY0NQaFJJdExxTU81ZVpOVTV4cG9qLUx0TC01Vk9vakk0THpPRVRWQ0lPWXludVpmQlFYTGozaEpkQUNGb2JZNVJDQ3d0WFlZWl9CaVdoOVdxOW5YMHlGakRhUTl5NUQ1OVhDenc4cE1uczkxSjM5SGlQdGt2cG1EZlZJQWRqeUtkeGM2U0tlMlJMaHhJdw?oc=5",
+    "source": "Mathrubhumi",
+    "lang": "Malayalam",
+    "published": "2025-10-22",
+    "place_name": "Jharkhand",
+    "lat": 23.6102,
+    "lon": 85.2799
   },
   {
     "headline": "जगह कम…बाघ ज्यादा, टेरिटरी की लड़ाई: छोटा पड़ने लगा कान्हा टाइगर रिजर्व, एक ही दिन में 3 बाघों की मौत; एक्सपर... - Dainik Bhaskar",
@@ -3309,6 +3375,17 @@
     "place_name": "Satpura Tiger Reserve",
     "lat": 22.5167,
     "lon": 78.2167
+  },
+  {
+    "headline": "30 टाइगर्स की गुर्राहट से फिर होगा स्वागत: एक साल बाद पर्यटकों के लिए खुली बहराइच की कतर्निया घाट सेंचुरी - Dainik Bhaskar",
+    "headline_en": "You will be welcomed again with the roar of 30 tigers: Bahraich's Katarnia Ghat Century opened for tourists after a year - Dainik Bhaskar",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOX05mbHdIcVF0N2g3MGdXTVFOcW5yVlFtN2daN3lKOFFDZ3BTZ2RUWVZJc3lDbHpRYVV1ZlU3UktsNXdScUd5ajVKcjNaSjNIUUtzTjM1ZU9HcUZIY2gwMVRJSGJ1eFQ1MTlUeWpIa24zcnRSZ2NLcFlwVzNTYVBrZE5Ibi1DR0RSMWl1cmc3VEtlT0sza3Z0QndzNThuaDBFX0tDV09MN1TSAa4BQVVfeXFMTVZMazVsazk0RFlLVjg5REF5VFJqUVFMYmlQUG9Hd20zaEczb2wzeG9nTmlUZVlNNHNybTUzNW5TemdYSjB6a2hPNl8yYjJWV0FMZ2VZR1I2VjNVR2ZmM0pnS3hfTktpZ1g3VW5IMHU3Q0Jua1NSbWV4NUZ0Tnl3RlgwRGN0LXRjWHJCbHZVVFdNOE1YR20zMWE3Q3dYUjVSTU1vcjFnSWt2U3Y0eHV3?oc=5",
+    "source": "Dainik Bhaskar",
+    "lang": "Hindi",
+    "published": "2022-11-14",
+    "place_name": "Bahraich",
+    "lat": 27.5744,
+    "lon": 81.5987
   },
   {
     "headline": "Pilibhit Tiger Reserve के जंगल में दुनिया का सबसे निडर वन्यजीव, बाघ और तेंदुआ भी नहीं जाते इसके करीब - Jagran",
