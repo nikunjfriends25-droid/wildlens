@@ -90,6 +90,42 @@
     "lon": 94.7278
   },
   {
+    "headline": "As monsoon rains falter, Wayanad farmers in Kerala fear poor harvest",
+    "url": "https://www.thehindu.com/news/national/kerala/as-monsoon-rains-falter-wayanad-farmers-in-kerala-fear-poor-harvest/article71182300.ece",
+    "source": "The Hindu",
+    "published": "2026-07-04",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
+    "headline": "Kozhikode school’s mini forest brings students closer to nature",
+    "url": "https://www.thehindu.com/news/national/kerala/kozhikode-schools-mini-forest-brings-students-closer-to-nature/article71182694.ece",
+    "source": "The Hindu",
+    "published": "2026-07-04",
+    "place_name": "Kozhikode",
+    "lat": 11.2588,
+    "lon": 75.7804
+  },
+  {
+    "headline": "Tiger dies in illegal live wire trap in Madhya Pradesh, buried in forest; 2 arrested",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMzlHbW9rZl9PYkxqbnUxYTRxSV9aVG8yMkppWTVUUmxsLTYyQkZlRFVQUnQwVC1oUHpaYmNqZzJSQ3NHS2NqaEItWDdoLUZEczdzMTRNS21RWnZaeUV2TVUtSGxsWjF5MTJtVzZyTEphdF83V1BZTXJnZV9JcG10N1RYbFEzeldVTzdELXZCMkMydk1DbnFTRGNDOE5qMUJNQlZQZ3VoelBDV3BxRXBnV1BWaXVyWnFL0gG-AUFVX3lxTFBNRkJRVVZWV0tHb2RxTDBXaDJJRUpXam5SQ2NZbDVaTUs5VHpFWGtHXy11RTQwQlR0RXA5YW9BMnJSV0c2N045V1lmU3ZqWjc3LUU3UXZjaHdKYUVvQ3MxMlFqUkFIOXpzczdVN0tvNmY5U21uWnpib0tYV3pPeWp6TnFLVmRHaWlYekE2NGxxQktjMVVVSFJrbXFiTnVBRzVJQjAtZEh0WFBWN01pQ19IQm43eEt4LVFUMTNuWlE?oc=5",
+    "source": "India Today",
+    "published": "2026-07-04",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
+  },
+  {
+    "headline": "#sundarbans#westbengal #southbengal#heavyrain #thunderstorm#",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQT1gzMlJNLUNGMlZJUTUyTW14XzBxVUZnQV9sME80NmtYT0JNN2tES2tOSjl3cVVMVXFUeGwwQlk4VFN5dkJMTWxKOEc3TXg5VkNhRnEyTUlFdjhkdUp6SkE4M19VZThIRV90YmI0c1RGS1AzWnk5UExKcUtLVnFTWElDaHJDV28?oc=5",
+    "source": "AIMA Media",
+    "published": "2026-07-04",
+    "place_name": "Sundarbans",
+    "lat": 21.9497,
+    "lon": 88.8806
+  },
+  {
     "headline": "In Chhattisgarh’s dense Hasdeo forests, environmental nod granted for mining in Kente extension coal block",
     "url": "https://indianexpress.com/article/india/in-chhattisgarhs-dense-hasdeo-forests-environmental-nod-granted-for-mining-in-kente-extension-coal-block-10768918/",
     "source": "Indian Express",
@@ -196,6 +232,15 @@
     "place_name": "Andhra Pradesh",
     "lat": 15.9129,
     "lon": 79.74
+  },
+  {
+    "headline": "Itc hotels expands presence in maharashtra with fortune select nashik and fortune jungle resort tadoba",
+    "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQMDBmVGY1YWJTOTIyb01CXzIwV01vcXU3VTNfbzhCZDhyYnd0RUZ0MVZiZ04yVk5ZWHg4X0djeUxPWVVEeW9NV09BdDhZR0VxV1RnRlg5TmRnR3NfY3VGOHVKODc4dkRrdGhqV0dSMEwxOF8xVEk1bTlPaXlNZFIwYjFlQUZTUzllSVhrNnM5dzJZVEVhT0ZRUEowOEVsQTVQYnlmcFNkMEN2NktKdllQX25xVGxpdl81VXdkUVlwRlZpamdfYXAtY3dPci1FNHlqOF9BQmR5V3h3aDlOcWJ6TUtZbTFQM1BIU0kwM0xkZFN6a25SZm9peTk0ckxQTG40WFA4Z0xnNUVoSHln?oc=5",
+    "source": "ET TravelWorld",
+    "published": "2026-07-03",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
   },
   {
     "headline": "T.N. govt. gives nod for acquiring reserve forest land to build small dam in Vellore",
@@ -8903,6 +8948,15 @@
   {
     "headline": "Olive Ridley protection and rehabilitation Centre to come up in Chennai",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUmtVVElJQ3VEbHRsY0I4RlZhUjdGbXZBNHFRS1NPeHA4V19WNGRBZVNUOXlDdjBvZFQxXzhqV2hKeWNpZnM3a2pod3VXQ2l5SVdFakVYdnFyN2xaNHIxTU8zY3FHckp1M2VhcTlsQ2I5ZUpFb3JqZ0c5TnczdkVJNVhfOWFuN3o5MFJEUkRldlRjaHdWSk5hU2t3V0h3RDV1U3ZaT0t0M0I4MVdPNFdxUVNyZDQxOHZKU3l1clJOZlBMMVRMWExHTjBNeldYejhtcG1JYmhxQzjSAd8BQVVfeXFMTWZMWXZDZE9LeF8ybEQ1dldveUtMYUQ5b0VuTEpkalpUT25hZTNRUlpTQTk5Tk10NDFrX0FjN1JieEVKcURlcVE0UE1YUzhONllvR25kcHhsdlhWOVJQYmUyb2VJaGwxd3dYT0h3Nzl0M3dCd1g3MThVSVJtX0l5UDV6ZmdIX0wxWFItSkNpVUIwU2JmbWhDeEhuQzBRTmJnbmh3WHk5OFdqYjU4bFdDNkRlU05sSWczbFpJQlR0OFdtaTBrZTZUcHZoTlJSOXFKU3FxXzVIYUlmVFRDTHlqWQ?oc=5",
+    "source": "The Hindu",
+    "published": "2022-04-25",
+    "place_name": "Chennai",
+    "lat": 13.0827,
+    "lon": 80.2707
+  },
+  {
+    "headline": "Olive Ridley protection and rehabilitation Centre to come up in Chennai",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUmtVVElJQ3VEbHRsY0I4RlZhUjdGbXZBNHFRS1NPeHA4V19WNGRBZVNUOXlDdjBvZFQxXzhqV2hKeWNpZnM3a2pod3VXQ2l5SVdFakVYdnFyN2xaNHIxTU8zY3FHckp1M2VhcTlsQ2I5ZUpFb3JqZ0c5TnczdkVJNVhfOWFuN3o5MFJEUkRldlRjaHdWSk5hU2t3V0h3RDV1U3ZaT0t0M0I4MVdPNFdxUVNyZDQxOHZKU3l1clJOZlBMMVRMWExHTjBNeldYejhtcG1JYmhxQzg?oc=5",
     "source": "The Hindu",
     "published": "2022-04-25",
     "place_name": "Chennai",
