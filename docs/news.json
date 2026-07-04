@@ -36,6 +36,60 @@
     "lon": 76.2711
   },
   {
+    "headline": "Ahmedabad bullet train station to be developed as a multimodal transport hub with kite-inspired design",
+    "url": "https://indianexpress.com/article/india/ahmedabad-bullet-train-station-multimodal-transport-hub-kite-inspired-design-10771194/",
+    "source": "Indian Express",
+    "published": "2026-07-04",
+    "place_name": "Ahmedabad",
+    "lat": 23.0225,
+    "lon": 72.5714
+  },
+  {
+    "headline": "Assam documents butterflies of Bodoland Territorial Region",
+    "url": "https://www.thehindu.com/news/national/assam/assam-documents-butterflies-of-bodoland-territorial-region/article71182421.ece",
+    "source": "The Hindu",
+    "published": "2026-07-04",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "As monsoon rains falter, Wayanad farmers in Kerala fear poor harvest",
+    "url": "https://www.thehindu.com/news/national/kerala/article71182300.ece",
+    "source": "The Hindu",
+    "published": "2026-07-04",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
+    "headline": "SOP implemented in four trekking trails in Kudremukh Wildlife Division in Karnataka",
+    "url": "https://www.thehindu.com/news/national/karnataka/forest-department-implements-sop-in-four-trekking-trails-in-kudremukh-wildlife-division-in-karnataka/article71182030.ece",
+    "source": "The Hindu",
+    "published": "2026-07-04",
+    "place_name": "Karnataka",
+    "lat": 15.3173,
+    "lon": 75.7139
+  },
+  {
+    "headline": "DA hike, bonus, minimum wage increase — Here's what Himachal Pradesh State Forest Development Corporation staff will get",
+    "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPRWNoWXhyWmdnN1FhQk9rblhOZk1KY2g2SDFGNUFKZWR1QlZCZVpld1dvTlhzeU5ZcWdLdkE4bTVrY0pUelNYaUVKek9rRzZNR0hnYnd2dG5SeTJlT1NWd3ExUWVBQnNyZnZhRE84OGhqX3VzZkQzOEIzMmNWVkdEeEdjSEVkY1NZN2dNZC05UVJNWDJ5a3NiZXpJdVUxQVI2Zk9HRXhmUUNLYTFFaHhDLXFwajVZRGxKa0g4bGhPeExEODNzZHR6NkZUUkUzRXVydzI0NUM1NG51MzNaMkpIdkhVTVFocDRvUDBzVUxmNFlSazVhQVRYVDctblhkSC11ajQxQUIxc3NLLXhzM1BtN0NjSHRTS1HSAZwCQVVfeXFMTndXb1FJT0JKcVozcEtmMi1hY2hGWDQ1NThGZVBGTHB1TmItMzYzTUZ4Q1l4UDRWOXRJRFU0Ty1jZ0stVmFvNWNVVHM1RlBoV1FlRXNFUjNKT3BDOXB5Um9QRnFlbnZNMU5xdFc2Q1lrMTVweW1SMUpfVkpfelR2WEhqMzY2RGgwYzktWTAtUThDQlF0YkR0bVRkYWJOMmZZWmhrcjN6dHdRdmdHX056Nm9CSy1Tc1U3QTU5VGdXb3VCTm5GUExzd0pTYjFFYjJjcDI1T1Q5SFNUbjE0V2dIRjJva2JPa0lxamtjbHRMZ1BoUDhkcXZwUDhGY3ZzZEs4RlM2YzRRVTl3eTJpMDF2SEZxRE1OMVhaRDBWc0U?oc=5",
+    "source": "livemint.com",
+    "published": "2026-07-04",
+    "place_name": "Himachal Pradesh",
+    "lat": 31.1048,
+    "lon": 77.1734
+  },
+  {
+    "headline": "Record 22.9 Kg Golden Mahseer Caught And Released In Arunachal Pradesh’s Kameng River",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSUYtZG54alZKRko2X3V3a2g2MGF5RldWcmhsZy1mTU5qckNqNmtzS19qT1BTOHNUem1CR2dKZUZEemtFMjk1U2hUSDRJQXpWeGM5SHFXZFlDRTRMZ2tGaWtSRVNHQXYtWjdfUF9maWhFd3V0eGtVRU9yYjFuUTdvS2hTRVZIYkxWaVhHX3R3ZER5QUFWaWl0bG8wamJjMmltZG0wby1Ic29MRjU0VVJNWThvckcyVnlTU3BYYTBJLV9LZjFBZzhxYXF2NUNkSWJLbW9DdHNR?oc=5",
+    "source": "Northeast Today",
+    "published": "2026-07-04",
+    "place_name": "Arunachal Pradesh",
+    "lat": 28.218,
+    "lon": 94.7278
+  },
+  {
     "headline": "In Chhattisgarh’s dense Hasdeo forests, environmental nod granted for mining in Kente extension coal block",
     "url": "https://indianexpress.com/article/india/in-chhattisgarhs-dense-hasdeo-forests-environmental-nod-granted-for-mining-in-kente-extension-coal-block-10768918/",
     "source": "Indian Express",
@@ -7311,6 +7365,15 @@
     "headline": "Odisha: Are Some Poachers Turning Leopard-Eaters in Nuapada District?",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON0FoVFkwQ3lrdG9SbDBRUVA0U2Rfd001Z18wYmtYUUJ1MjBBa0h6OEt5VlZXZWNfX1JMZDh2SmRyRTNDdjdLUjBWcXV5TVF1NnJwOU9QTFAwUU1lSGtzMGVaYmV3UXdtcjBpOEpPcVJicjRiSUd6UDZUdmFHVmdGbkFsZmo3Nmc1NzBfYks1WXM1NjTSAZgBQVVfeXFMTi1MUng0WWdNWFJTdV96X1U1YXB2N2hhcW5SX00yaFR1aFRpSERNVjJsWklkLUt0OUttTHFLTHFyQW5QUFhFdVZLTTlqUXJ5ZWwyWUVpTl93cGlOeUJJTW5LdWl4NnNPdURQNVowQ3MtUUttckJQd0Y3NjgzSloxUG9CNlZ4ME9nbE14SmpGMHVHWjhDb0xQczk?oc=5",
     "source": "newsclick.in",
+    "published": "2024-11-26",
+    "place_name": "Nuapada",
+    "lat": 20.8148,
+    "lon": 82.5347
+  },
+  {
+    "headline": "Odisha: Are Some Poachers Turning Leopard-Eaters in Nuapada District?",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON0FoVFkwQ3lrdG9SbDBRUVA0U2Rfd001Z18wYmtYUUJ1MjBBa0h6OEt5VlZXZWNfX1JMZDh2SmRyRTNDdjdLUjBWcXV5TVF1NnJwOU9QTFAwUU1lSGtzMGVaYmV3UXdtcjBpOEpPcVJicjRiSUd6UDZUdmFHVmdGbkFsZmo3Nmc1NzBfYks1WXM1NjQ?oc=5",
+    "source": "NewsClick",
     "published": "2024-11-26",
     "place_name": "Nuapada",
     "lat": 20.8148,
