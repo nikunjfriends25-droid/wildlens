@@ -1,5 +1,32 @@
 [
   {
+    "headline": "Assam gets ‘Pokkhi’, a first-of-its-kind digital archive of the state’s bird species",
+    "url": "https://nenow.in/environment/assam-gets-pokkhi-a-first-of-its-kind-digital-archive-of-the-states-bird-species.html",
+    "source": "Northeast Now",
+    "published": "2026-07-05",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Manipur village bans hunting of endangered hog deer, imposes Rs 5 lakh penalty",
+    "url": "https://nenow.in/environment/manipur-village-bans-hunting-of-endangered-hog-deer-imposes-rs-5-lakh-penalty.html",
+    "source": "Northeast Now",
+    "published": "2026-07-05",
+    "place_name": "Manipur",
+    "lat": 24.6637,
+    "lon": 93.9063
+  },
+  {
+    "headline": "Assam: End of an era as Kaziranga’s legendary patrol elephant Joymala dies at 66",
+    "url": "https://nenow.in/environment/assam-end-of-an-era-as-kazirangas-legendary-patrol-elephant-joymala-dies-at-66.html",
+    "source": "Northeast Now",
+    "published": "2026-07-05",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
     "headline": "Lethal fishing nets and vessel traffic devastate Karnataka's dolphins and other marine life",
     "url": "https://researchmatters.in/news/lethal-fishing-nets-and-vessel-traffic-devastate-karnatakas-dolphins-and-other-marine-life",
     "source": "Research Matters",
@@ -4545,6 +4572,15 @@
     "lon": 75.7139
   },
   {
+    "headline": "A.P. transfers key forest officers amid Kolleru Lake flashpoint",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaWt6VkcyWnV4V2dOOGhzUVFDWGZJRmgtWFJMdjdNbnhvUEpPQnFuMXV1VzYyM2VrTGI5eVFlRzRPcWRBUjJrN213R1JsZncyVFhtZ3dyQ0lBdnZIdGxudzRoZDFVVlp0QkZyVXh5T2prdTQ2NXp3QXV1U0NBS3gtMG9JVU5Cb2NHblNkTTFLUUwtUjVTTWdyTkFQN0hWTUx0SlNDQ1dHQzFSaWMxTmFxd2FxMURiMWhUODdoWHdPY3RGYm5nbkh3MHVrUGlJNHhk0gHXAUFVX3lxTE5RNUJwZldVaVYtZTEweV9OUk5hRDl5aVpMWkJJUVlhUlJJeHVKSkxsNEVJanJvdTlUUHZyS2NjWS1GWmNqMHRhQ2xIZUtzSDhKbVFQMy1MMWhLbU1aQTBRRjAxUXlDRDBLWE5SVVRqZ1FQUzNtNGVhSldVaXVyalAyT21uX0ZVM1h5UkE4WEhlYTlKZVAtVXFoT1l4OGRxM2VVME5TZHJBTWU4RUpMWWt5YnBmS2YySGwwMzR5M0RKQUxDTEJEendod19nM2tCczlNcHdGSnl3?oc=5",
+    "source": "The Hindu",
+    "published": "2026-02-10",
+    "place_name": "Kolleru",
+    "lat": 16.6,
+    "lon": 81.2
+  },
+  {
     "headline": "BNHS rewilding efforts attract Himalayan griffon vulture spotted in Maharashtra",
     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVlBNWVlwMUlaSjVZMXdSMDRqeFdNemdhVHdHbHFtYnhQWEFzUXpsX1IxMTFXYkxoaGtCLWNYQ1Y5R21VdDRzalM1ZWFDMl9OcFA0WV9fdFZ1cllrSlVJcWthTjNVeDRtbnlEYU50WTBGWktLT0JyaW52TnVNVWR5a3JaSVBKbzB2bU5ZTWF6ZzFyVk9MYjRWT1R3ZlpudGJPd0dkTkI0cXpnSXZpSXFjVXY2SkFqS0FnaV9zRGFxVEFmLUd1NUs1VEFHY3ZPVWM?oc=5",
     "source": "Deccan Herald",
@@ -4831,6 +4867,15 @@
     "place_name": "Tadoba Andhari Tiger Reserve",
     "lat": 20.2167,
     "lon": 79.3167
+  },
+  {
+    "headline": "Endangered white-rumped vulture rescued in USTR after 400-km flight from Maharashtra",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOc1U5RGZOOTJ6M3pzRFZ1MXFQTkJldm1KOFltYXdQLXMtVUhOTlZkTFdlRGRpejluVW52ZmJGYi1xVVRuRUx3S3hqN013S05JcDFPRmp5ejhCZHhBUWhvOFV5WWY5dzRDRUJiMVZpNUVpZFV4MVFPNG9wRFplcW1MRmdJREh6WGZLdFRSY0ZJUnZnUmxUUWN1SFg2VjQ3WmpMajEzSjdvSjdDZXNPTDdERURNN3B4aTN0ay1CM3BuV1AxYWVyeGo3anhMaXphSHRJOUdQZEVhSE9WVUF3X2hFLXdMamFfdXZkT0dZUWQ3d9IB9AFBVV95cUxPS0NDVWViaVoyellldVVOd2FobWVaaTlib2lrUW9zNnJIREl3Tk1BRWQtVTRDMkd6YjU3RVMzX0NOWXIzVHVGaUZHSkFsSTA2Y0xVOGlBZThzbW1mZmthaFBTemtpMG9zU2ZBdFh0Y0tvSFc2eVcySTRuVnl6eEhqUHNXMExfRl9lZGxESzRLQnoxeHZiWS1xbGdnd0VGMnRuaXFKNVA1ZlJ3M3NBV1F1bUw3N0ctWTNYRElvSmNybHhQemt2UnlUVGlmVEpjMWFmcGZDOFZIV1k3NDNiXy1vZHlCVi1HekhEeGk4NjdiYU15MnVu?oc=5",
+    "source": "The Times of India",
+    "published": "2026-01-22",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
   },
   {
     "headline": "New Ginger Species Discovered in Arunachal Pradesh’s Siang Valley",
@@ -5292,6 +5337,15 @@
     "lon": 88.5122
   },
   {
+    "headline": "Tigers from Maharashtra move in Mancherial forests possibly for territory and partners",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMnVkMThGb3ZmS1U1dFBBUTZmYjVpdVhLNURzS01ITzJSMm8yU2hZMmVJTUFoWXY1T2tXTTktVDlTeE5kQW15bzFEWDlhUTBkT2dzWTdzQ3JIQXRVdW9IeWdNSGJ2VHBibDh2NGgtcjBEY2wwQ0E2cTFtam1tYXZBNUNVTjlkTXlEUjJVUjBtZUloMHk1c0ZkSGpzMnlTTVZTbm9haW9Dek5UeE1HTUtyeVdjZw?oc=5",
+    "source": "Telangana Today",
+    "published": "2025-12-05",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
     "headline": "Three elephants found dead in private forest in Vellore; Exact cause of death unidentified",
     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSElYdDlzWk9tWG5NQWc5dnNUTnpzaVpzVVJwdkFGNVdleWZwUkJLdFg3aHRxeDdNR3VyeWljRnJ0TDM4X3pNN1VsQXRCRjd0V3JHQy03akxlTHVJRDRneXRMbFEza011R3EzX3RlVVhIUUdtX01XUkNXcVFESUtlRlN1UU5YdGloTi14bkI4ZzJxNFZTWjlGVWVwSEZHTDhIYjM2UE4takxjenFxeVVfMFhHSldjRGlQeGJsYUIxc0I0WXdfT1FnUWdzME9CNmd1Vi1QcnhWREpldVBvTDhHcGFSTjZDaTDSAfQBQVVfeXFMTldGQTRnM2o2Q25qeFh0S3lMSGNHZ0pWMkg5cmhsNUNfRGtieFJJSXJGdkRyd0NPS0s0YlFNdnBBS3h4a2dMaDRqVWRpc0lJM1NvQlV0SU9WbFUyOGxEZEZsZkFVM2V3WHowM1RHaDh6Y3lVMXRfd0d1c1ZZMF9DanRfT1dtX2NkQk9yTVEtSUF2Z2RBZUVaRFIxSjdyOUd1RmNabFdKWHY1SW9aYnhzWGdJdy1SR1RkUERPbHhNQ0k5dU81cy1sQWVoWEJXQzlGVnc1b0sybWh3UmoxNWd1blJlWDBObVFoNk9YTVU5SzBzR285Sg?oc=5",
     "source": "The New Indian Express",
@@ -5535,6 +5589,15 @@
     "lon": 79.74
   },
   {
+    "headline": "After spike in leopard attacks, Maha to seek milder wildlife protection rules | Mumbai news",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOQmNxdjlQRVhLUHExOE1FdzRxWGpYb1pHaGFGYkZRVG4zNWZ3UmlPR2tmSEN1SFZwM1JRVVZZRlJjU1g4M0pDdldIR3hBeXQ5VE94TlZqWFFncVc1NGR6RWhUQXBUWFIzUTRMM2Q4Q2I0Z0tOY3pQS3pSbnJlQWFzOWluVDFUYmNoR3RfWXdnVUViV3NTZ21wTGtkZUZjbVI2NmRWSk9mZ2U4cnhRS3ZMZ3dzTlQyTEp6NTIzeFJKVXVMVm14b3ozd09pZWRtYWJFV1NOcWUtMFBPVU1lcHFLQtIB5gFBVV95cUxPTXVBV2FoaElwTDJ1Y2pOcS1pQlhBeXRyMExqNHJ0NDlkdGcxemRBRG84ZXBYbHE0ME9FTGRpY0xUcHZNdEhIM18xcXlNanJDeUtTVlEyNUlpRFVtcXBLNlJUQVFaZ1ZFTXR2X2lhZWJ6eUU0Wl8zbXQ3X09WZGxLSnVmVTNmVnBhemxxTTNjelk2N1Z6Q2dlaHUtaTloOEd2ZUs2aklyMEEwNnYzM3Z0OVdZTGlrNmxKUzZ0a3dfbXhoVTJHd3NzRk5YQWhqaGI1UnlmY0dJaFdlWUNEZjVxaTJJenJ2Zw?oc=5",
+    "source": "Hindustan Times",
+    "published": "2025-11-19",
+    "place_name": "Mumbai",
+    "lat": 19.076,
+    "lon": 72.8777
+  },
+  {
     "headline": "Karnataka adopts Sundarbans-style backward masks to curb rising man-tiger conflict",
     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRkoyMGFzdXBhaXI4dzZJTEx6eFNDNFdoVVd6a3lURGxBUnVwbk9RUmNkbW9Ic1dtWFo4MnNTOHhYeHJvdlZ0dEFJbVRIMXItbzFQTXpCQlFuNllOV2s4TkszTDVhOFAtbnp6TFVvcmtOdGI1WEtSVUtwd3Z5ZVFSNFZmTkZFQkMzQmd2MWVNejNCY0lnVy00RkxKRFpBTGl4dk5CTDZXSWRMT1h3MFVJNndDSElLYlFRV2ZraDVFMzU5UkZwb3BKMEdkMHRuMFhDQVRqUDBvUHBCR2M50gHqAUFVX3lxTFAtajBLcEJZN08xVnBoWEdCOEhTakx4V1hqMUp1VzRPNF9OZ3ZYUnI4blh2VkpUMnl2SGw3NVlqcW02WW10eVA4b3NyQXl6RnBYN2RMd09EbVR1SktwekZkMEJFNV9Yd2Q3NThkZm9VZG9mdUxURE9KSFBTY3QySmd5aTMxbTVsMnliMVMzVFo0dnVrR2NKZDExTDhxcHZ5TGFsaXI4U05DRkJHcTJfRnQydVNWWjNIVlRLUjNJMG9iSlYtU3ZMbkFmYzZUWGpyY0xBV0tPVW14cXNWZW1jbUMwVE5sVHdLYjB5QQ?oc=5",
     "source": "The New Indian Express",
@@ -5722,6 +5785,15 @@
     "place_name": "Goa",
     "lat": 15.2993,
     "lon": 74.124
+  },
+  {
+    "headline": "Jungle's beautiful love story: When a tiger travelled from Maharashtra to Telangana in search of his soul",
+    "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNOUpWOXRJSTk3X2E2blZPUVJkS21PS0wxMHNTYVRNVzVJTGNBZzZUOGluRzhjb19DaUQyRWN2VTJIX295YzdGOV9OZWRsdk9jajR6V2tLb29aa1NERW9uWm9NMTBmeFkzdURCSER3VXUzVmY5RUJwX0NyOGFUdVhud05LRFN6QmV5VWJrdnBKb20zNGVXYWFzYnRsdk1hR2F4Tk1hWDJiS0pNZTRYTzVXelBRYkVza19IOG1lVTkxWUhMSVRVV3NIbGhOb3o0SG5pQzBoZDdQM3lMUlpXY1p1eE5xMGMwdWFuR3pCajV1QmVJb0xQY0V2ZjV5YkNPRF93YUhsdkRsWW5PWlVHM0HSAZMCQVVfeXFMTktFdU90Y081RVVNRHhYanh3WldweHBORHZRbEZrcFJlLXZyTUY1SWxLLW9WeHJLYzRhWXlsMXNTblg5bjBzTWJOczBzM25oOHlxUFl1amc4Q2dldmt6ZjFqcGtXX3U4Z212YzBaZG5IU2dtNnZRU01ZNGpBbFMwc3dGSkNZVmRfWTVaRzFSMXZ4d29aa0x3THpyS0wtN3hLMEw4Z2lSQUdiN3Q4Y0Y5SExGUlQ0UkRBNUxwUlprTVdJeGdCSXlMZExDbGo0TXVfajRiS1V6VEhIZEtSU2dMaWc1WlhmUG1MQjgxekhBNm5qd0gtb0N0TnBOVkcwY0JPR3N2azVldVA5elFoUm1FaVhMN1k?oc=5",
+    "source": "The Times of India",
+    "published": "2025-10-27",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
   },
   {
     "headline": "Translocation of 50 Gaurs from Madhya Pradesh to Palamu Tiger Reserve: A Genetic Recovery Initiative",
@@ -5947,6 +6019,15 @@
     "place_name": "Chittoor",
     "lat": 13.2172,
     "lon": 79.1003
+  },
+  {
+    "headline": "Human-wildlife conflict escalates in Chandrapur as five more fall victim to big cats",
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPMnVkX04yRjItYVpqeDg5OFVKMHJzWVhrakpleHFnRVBGSUlCMkEta3Zld3VudWN3eGpydVh0V0FMdXZGQ2tSUVRtTzQwYTY2SzFtdU1Zbjl5aE93dHJ2Ui14aGFjMXdnNFM5MVVGSkZCcFNObzR6NDNEVGpCd2x3MXFwb0tPX0VqYkxrRmliVXNTanNvSzB6d2x5bHZ6MU5oZnFCZHl6ZVo3TTk2OC1DS2hZTW5QR0ZqbHBkOVNMcG1zZ3VjMjlFVDFwRGxWeHRXeGdSOGkwTDhKLVREQlctRndtSlk0VlNIQUZN0gHyAUFVX3lxTE42cHQ5U2xlNE5Od0JLcExIQWZlT1liME1RVDBUVlZwYVczT2hDQTRWNkRBa3pXdTZIVk5tLUFyZFE0cjFfa2pqOTZCVU9TSU02QzQzQUZvYThfak1UZkI0U3NQWk1DTVQxb3ExU2F2VjRpOF84WEh6c0w3UXhDY1ltNk9CSzV0a1d6YTdUNk5palVEbnhsSXpHUnA1Z0pGYjkwUU1uTkxfbmd0ZVRNaFdSRjl1emNYVlJRZGtmTHRWSEQ1SVBjWnZ5MC16RkczaDhHSW5qQnVuMWRRZHVwcU5pOWJnSDFpQmNwZHdtaC1KY3VB?oc=5",
+    "source": "The Hindu",
+    "published": "2025-09-19",
+    "place_name": "Chandrapur",
+    "lat": 19.9615,
+    "lon": 79.2961
   },
   {
     "headline": "West Bengal: Mamata govt faces scrutiny after Sundarbans village allegedly issued 3,500 fake birth certificates",
@@ -8953,6 +9034,15 @@
     "place_name": "Katarniaghat Wildlife Sanctuary",
     "lat": 28.1,
     "lon": 81.3
+  },
+  {
+    "headline": "Andhra farmer trampled to death by elephants in Chittoor",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQVl1am5IUGd1REk4QUF3My1PZFQzQU02cmtma2xEdUdSUXVJMV9pelJlR1hJd2tvaVZ0bTVtM2tEbEhJaDRNQjlCdGhyWVJyV2FwVm13NjZQUHVrS0R2R18yY3pSa1l6QUxnakV3MmhBSVk0Z3FReV9kQXAxVXBsSGR1NUtVa0YxSDZyaXBfWEdLYmdPeU1pc3ItZnpRdTI10gGuAUFVX3lxTFBvNk1KR3Awd0YxYTJFRkt4RF9BX3ZodV9QNkhOcWpJaWlRZlRBM0REYV9xa2MwOFkyT29WcUlTZVd0VmVYRVVvNVl1WW9hUjZTT1BCSFhWUDJrQ2tOd0h3THBJdGFJMVVhMzBpaG9ZUzM3Y2dJU2djaHlIRFRnSmtObV8xOTJaa1RaZVNlbFQyVU51aDFOWGE1c1BSbXJKdDRHWWgtekU2Q2Y4T3VNZw?oc=5",
+    "source": "The News Minute",
+    "published": "2022-05-25",
+    "place_name": "Chittoor",
+    "lat": 13.2172,
+    "lon": 79.1003
   },
   {
     "headline": "Sundarban tigers travelling to West Bengal in search of mates",
