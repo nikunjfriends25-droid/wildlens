@@ -1,5 +1,68 @@
 [
   {
+    "headline": "Warming lake threatens fish habitats and the wetland economy",
+    "url": "https://india.mongabay.com/2026/07/warming-lake-threatens-fish-habitats-and-the-wetland-economy/",
+    "source": "Mongabay India",
+    "published": "2026-07-07",
+    "place_name": "Northeast India",
+    "lat": 25.2744,
+    "lon": 92.9376
+  },
+  {
+    "headline": "1 dead in Wayanad twin-tunnel landslide in Kerala, 7 missing",
+    "url": "https://indianexpress.com/article/india/kerala-wayanad-landslide-kalladi-tunnel-project-site-several-trapped-rescue-operations-10775185/",
+    "source": "Indian Express",
+    "published": "2026-07-07",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
+    "headline": "Assam: Doomdooma Forest Division launches probe after wild elephant carcass found in Tinsukia",
+    "url": "https://nenow.in/north-east-news/assam/assam-doomdooma-forest-division-launches-probe-after-wild-elephant-carcass-found-in-tinsukia.html",
+    "source": "Northeast Now",
+    "published": "2026-07-07",
+    "place_name": "Tinsukia",
+    "lat": 27.4892,
+    "lon": 95.3564
+  },
+  {
+    "headline": "Lion attacks man in Gujarat, pins him down, then crowd steps in. Video is viral",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaDhkTFJsdmEzLW5ZaGZ4ZUJZRnhCeEpubkVqT1ZvMU0tcHB3VHZtM3c0YWZ1cHJ2VnJCSlRDanA2UElTZjVGdE80cC0zQWZDeEt2cTlmSnJHUHBIU05OMFNlWFplWUNrNzhsb21MRDJ0eDNNYzFzaFFXREFtYTZuLWlMWGpMcVU3LW1WRGNhSWhVQ2tyUWlnaG83VzZNVzN1UnZDQUFJYS1WM3Z2aEdoazNGZ2JkM2pmMHpvTVl2Q2M0NFZMV1c2MjQyRdIB0AFBVV95cUxNSkVueHRZWUV2bXgyLVNZTTFPbmpBOXk1WjBNRW5XU3hDOVlYZExXdHJMdEd6SFhjaTJyeFlOcjhHNk9fazVKaUFjSGhHVFM1V0NaVGhZRHh2YmpOZVd5VEJ5VnpFQkl4NFpGX09FZkxnZGVBYU53dXJBWGhaak9KQjMxNGlNVXBRSVVjTUdVQ3U1VzQ2VlZXLTczZ251Mlg0b1NlVkZDZ0E3ckJhTDVaYVFkWVZXb3V4QWQ4X0otOWNIaHU3UDEwQUY4OGpGbWU3?oc=5",
+    "source": "India Today",
+    "published": "2026-07-07",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
+  },
+  {
+    "headline": "Red alert issued in Kerala's Wayanad as landslide kills one amid heavy rain",
+    "url": "https://www.hindustantimes.com/india-news/red-alert-issued-in-keralas-wayanad-as-landslide-kills-one-amid-heavy-rain-101783413396053.html",
+    "source": "Hindustan Times",
+    "published": "2026-07-07",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
+    "headline": "One dead, 7 missing after landslide hits Kerala's Wayanad tunnel project",
+    "url": "https://www.hindustantimes.com/india-news/wayanad-landslide-rescue-operation-tunnel-project-collapse-kerala-news-ndrf-several-trapped-toll-101783406609974.html",
+    "source": "Hindustan Times",
+    "published": "2026-07-07",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
+    "headline": "Rajasthan man's rat trap catches cobra instead of a rodent; forest officials rescue snake: Case highlight",
+    "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNN1J0TlRpai1XX3JXeHJoXzloOGZWX2VZcy1VbHl2cVVaRmJtNVJqdy1pWldoVE5BS3MtVzkzeHM5RGRiUWl1MGppbkw4dktxVHdiTUJRT253VTUyV096OXhWQ3VOcjkyZWU1Nk43SnNDd0w3VmhjR0o0SDNzdl9hdHVmR0RlbmVkMkJNMThMUDJKRlVDcEViRnNxY0Uyb19FaVVmLTJDOURuZEktaUlxTkIxUkRmTUdKRzZpNDNrMVVmQnk5YU5HVnRTbnZEZFFFWDdxWUd3REdxb05QUUlPODgwM1h1OGk4bXM5N0hNb1BLTk1PakZxdk5PR1psUXpYMHhkd1otUkE3d0VUeFdHR2UyTUd1aDNWQ3V3amw5Qy1vWnNEX1gycE1IR3Y4MW5ydzhrcWJZR2ttWWlFQm5qRWFEU1V0Ul81aFNXY1M4UVJNZ9IB1wJBVV95cUxNYWwwX201OS0xY2NGVkI5UTBFaVFqaGdYV3RWUFRJYmJnNl9BMzhuQmxycjU4RzE0ZWdrekFPNlJwb3dtaTMxUldSNGlqQkNnZENJekQya0NlYVpDZkJYbkI4VExfV0s3MUFrb1Mza3IwTlg4c1JfVnhxN2ZhNnRWWnhoZU1lUjFNNzBkRWtnNS1MQlFfd1JWWmVkWFF1eGdweHliTy05ZnlOTEVrbUtZQm5ySVNFV3l4OW9HNENRbUIwd3R4Vi1CWGZvTjN1OFJIOXp0ak84eGhJdm5aMDF2U3g3ZXRnUkdsV3FfYXFWR25tOFduMmFmX01ZazBfbk9qUFFJT0dodEVBbWcwbGpyYUtxVWZYV1dOSXdTdnQ3bDFqNFg1aE5UdG1KMVkyNWhlOXZheUw5ZVZpYTNNZ0hsR3dFSjJkUHhzcXZIUko3TWc0Ui00V0RF?oc=5",
+    "source": "The Times of India",
+    "published": "2026-07-07",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
     "headline": "Lioness attacks cattle keeper outside Gujarat home; sparks concern over human-lion conflict",
     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQd05XdWVIcmg3ZWx3LUxCMUNwRWI5VUxsc2J2di13QTdrSlVLcG1XcE1ZRjcxajVvcXJtQ0U0Nmpuc2ViVW5mRkhvVWJvTE1ydTVpclJhZ2Y1MTdXWXBNNzUzTTU3d1l0bU1sMnhRNF9zVkdFSmwwVWRFNjVCS2l2TU9SUzhPTENVbEV5aU1lSEJFT0pUYnZLa1BURmpOekpFQnVvX1UwbzhpdEplUWhfZUdvUURLaWtjWF82QnNpSWwyRENPOTh4SkhUMWtsWUhkMHAzakV6TUdtYzlyenk1VGpHRjZFNXFRQjlrVWxERkVBUdIB8gFBVV95cUxQd05XdWVIcmg3ZWx3LUxCMUNwRWI5VUxsc2J2di13QTdrSlVLcG1XcE1ZRjcxajVvcXJtQ0U0Nmpuc2ViVW5mRkhvVWJvTE1ydTVpclJhZ2Y1MTdXWXBNNzUzTTU3d1l0bU1sMnhRNF9zVkdFSmwwVWRFNjVCS2l2TU9SUzhPTENVbEV5aU1lSEJFT0pUYnZLa1BURmpOekpFQnVvX1UwbzhpdEplUWhfZUdvUURLaWtjWF82QnNpSWwyRENPOTh4SkhUMWtsWUhkMHAzakV6TUdtYzlyenk1VGpHRjZFNXFRQjlrVWxERkVBUQ?oc=5",
     "source": "The New Indian Express",
@@ -250,6 +313,15 @@
     "place_name": "Madhya Pradesh",
     "lat": 22.9734,
     "lon": 78.6569
+  },
+  {
+    "headline": "#sundarbans#westbengal #southbengal#heavyrain #thunderstorm#",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVkFmRFp0aFJ4X0xkRWo4SmlTbmZFTC1fWkt1Skg5dElvR1JUeTVFUTEyclBWYzFVXzRiLTdUNVNVejh5MHBySkFGQlY1Q0dkQzZkVzJUbGMyNE01Nk9yYmEtX1BSelRYazJKa2ZRNy1GZEJRSGE5R0dOY01aX253ODIyeWtSekl4czg2ak5mWUN0dw?oc=5",
+    "source": "AIMA Media",
+    "published": "2026-07-04",
+    "place_name": "Sundarbans",
+    "lat": 21.9497,
+    "lon": 88.8806
   },
   {
     "headline": "In Chhattisgarh’s dense Hasdeo forests, environmental nod granted for mining in Kente extension coal block",
