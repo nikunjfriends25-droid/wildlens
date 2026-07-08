@@ -1,5 +1,14 @@
 [
   {
+    "headline": "13 deer found dead in a well in Madhya Pradesh, area cordoned off, inquiry underway",
+    "url": "https://indianexpress.com/article/india/13-deer-found-dead-in-a-well-in-madhya-pradesh-area-cordoned-off-inquiry-underway-10776318/",
+    "source": "Indian Express",
+    "published": "2026-07-08",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
+  },
+  {
     "headline": "Warming lake threatens fish habitats and the wetland economy",
     "url": "https://india.mongabay.com/2026/07/warming-lake-threatens-fish-habitats-and-the-wetland-economy/",
     "source": "Mongabay India",
@@ -178,6 +187,15 @@
     "place_name": "Indore",
     "lat": 22.7196,
     "lon": 75.8577
+  },
+  {
+    "headline": "Understanding the disappearance of Egyptian Vulture in Tamil Nadu",
+    "url": "https://www.thehindu.com/sci-tech/energy-and-environment/understanding-the-disappearance-of-egyptian-vulture-in-tamil-nadu/article71193097.ece",
+    "source": "The Hindu",
+    "published": "2026-07-07",
+    "place_name": "Tamil Nadu",
+    "lat": 11.1271,
+    "lon": 78.6569
   },
   {
     "headline": "Lioness attacks cattle keeper outside Gujarat home; sparks concern over human-lion conflict",
