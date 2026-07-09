@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Kerala govt orders probe into Wayanad mudslide, halts tunnel work",
+    "url": "https://www.hindustantimes.com/india-news/kerala-govt-orders-probe-into-wayanad-mudslide-halts-tunnel-work-101783540050844.html",
+    "source": "Hindustan Times",
+    "published": "2026-07-09",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
     "headline": "13 deer found dead in a well in Madhya Pradesh, area cordoned off, inquiry underway",
     "url": "https://indianexpress.com/article/india/13-deer-found-dead-in-a-well-in-madhya-pradesh-area-cordoned-off-inquiry-underway-10776318/",
     "source": "Indian Express",
@@ -142,6 +151,15 @@
     "place_name": "Himachal",
     "lat": 31.1048,
     "lon": 77.1734
+  },
+  {
+    "headline": "Suspected leopard attack leaves 9-year-old dead in Gujarat",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRHBUWEFFa1F1cnlpOWJReEZubC10Tm5ueUNseEpmRWhDZ1luME56V1dSMU9tTWUzTS05LW1ibUw5eU8yZm01SGJnX25uN0pPY3hmR18tanBhV2hVMlFaSUU2U0cwM3VXWnFSY21EYUpBRl9SaXlpYU1pVjhmUG9EWmdDelQydzU4ck4xeE5GTGV6XzFtaDhzZ3lfd2VOdEMwLWfSAacBQVVfeXFMTU1naDdXNmxKQk9BS0VhaVRleHpZSkMwcTlYTDZKa1IxVlZzSnQ0VzhGbFJ0dzVOOW1zYnBTNFNxeWRBRnpGRzZLaThlU1M2eFNEeGJpVGFFNzEwdmpZb1ZGWVpzd3g5MVhlQ0tOVWJZS3FSOWFPTU1lbmpVVzROMDdXdkhUTkczR2tZUUNRRXFFVFVQNWd1TVFBTlF2V2ZKVmltMXFhZDg?oc=5",
+    "source": "The Assam Tribune",
+    "published": "2026-07-08",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
   },
   {
     "headline": "Warming lake threatens fish habitats and the wetland economy",
@@ -587,6 +605,15 @@
   {
     "headline": "#sundarbans#westbengal #southbengal#heavyrain #thunderstorm#",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVkFmRFp0aFJ4X0xkRWo4SmlTbmZFTC1fWkt1Skg5dElvR1JUeTVFUTEyclBWYzFVXzRiLTdUNVNVejh5MHBySkFGQlY1Q0dkQzZkVzJUbGMyNE01Nk9yYmEtX1BSelRYazJKa2ZRNy1GZEJRSGE5R0dOY01aX253ODIyeWtSekl4czg2ak5mWUN0dw?oc=5",
+    "source": "AIMA Media",
+    "published": "2026-07-04",
+    "place_name": "Sundarbans",
+    "lat": 21.9497,
+    "lon": 88.8806
+  },
+  {
+    "headline": "#sundarbans#westbengal #southbengal#heavyrain #thunderstorm#",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1DY2JGSkxhWkdPeG83czFVV3RTN18xeWV5djZRSmRCenk0dnI1a0d1MldZUXZDeVh3b0JtcEx1cGV6amxKNHVNcEswLVJhSnhsV2VhdGtIUS1TdjF4bUxmbg?oc=5",
     "source": "AIMA Media",
     "published": "2026-07-04",
     "place_name": "Sundarbans",
@@ -5877,6 +5904,15 @@
     "lon": 75.7139
   },
   {
+    "headline": "3 Elephants Found Dead In Tamil Nadu Private Forest; 6 Deaths In 3 Months",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOV3B0MDU0NEhTT21RbTFmUXprVHNEZk9KU18tcnllWTRhUXhLVC00cmRRY0ppdTVsWFZGTkNKT1hfbU5UdkVvUXRhMTBVYXVEVmcxdU5MelNYRTNYQ3BxREVvWEpQZHQ5WjFLWWQ4a0ZaLWwxbF94QUxvcXRqUk5UX2JCOG51R1NIVmltR3plZXRFQS1oLThzeXNFZm5wcF95MmVzSGo3amlYRVlqXzhGZkxn0gG6AUFVX3lxTFBDaWZycTZaZXgxMDF5U0NDR2ZWdzRRWUxERUpNWUZhMVZ4V3RoN1RxVWxGOElSWkRzdzlHQ3ZCbDc4b3hkNkZQUDY2UEh5WTJaczBNazBibWJOdEdKM3ZSa3pJYUlFMGRONlRQQ0p2RDh1eU1IajRVTl83VFhJVzY1NWdfLW1OZzhsSXdHdHVKVXRTUS1SdHV5U0d3dnRqZUlKZVh3Zi1KOEUtb3pBaW9UR1NqckNCMGg2UQ?oc=5",
+    "source": "NDTV",
+    "published": "2025-12-05",
+    "place_name": "Tamil Nadu",
+    "lat": 11.1271,
+    "lon": 78.6569
+  },
+  {
     "headline": "Three elephants found dead in private forest in Vellore; Exact cause of death unidentified",
     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSElYdDlzWk9tWG5NQWc5dnNUTnpzaVpzVVJwdkFGNVdleWZwUkJLdFg3aHRxeDdNR3VyeWljRnJ0TDM4X3pNN1VsQXRCRjd0V3JHQy03akxlTHVJRDRneXRMbFEza011R3EzX3RlVVhIUUdtX01XUkNXcVFESUtlRlN1UU5YdGloTi14bkI4ZzJxNFZTWjlGVWVwSEZHTDhIYjM2UE4takxjenFxeVVfMFhHSldjRGlQeGJsYUIxc0I0WXdfT1FnUWdzME9CNmd1Vi1QcnhWREpldVBvTDhHcGFSTjZDaTDSAfQBQVVfeXFMTldGQTRnM2o2Q25qeFh0S3lMSGNHZ0pWMkg5cmhsNUNfRGtieFJJSXJGdkRyd0NPS0s0YlFNdnBBS3h4a2dMaDRqVWRpc0lJM1NvQlV0SU9WbFUyOGxEZEZsZkFVM2V3WHowM1RHaDh6Y3lVMXRfd0d1c1ZZMF9DanRfT1dtX2NkQk9yTVEtSUF2Z2RBZUVaRFIxSjdyOUd1RmNabFdKWHY1SW9aYnhzWGdJdy1SR1RkUERPbHhNQ0k5dU81cy1sQWVoWEJXQzlGVnc1b0sybWh3UmoxNWd1blJlWDBObVFoNk9YTVU5SzBzR285Sg?oc=5",
     "source": "The New Indian Express",
@@ -7049,6 +7085,15 @@
   {
     "headline": "Local Hero Rescues Olive Ridley Turtles on Vagator Beach in Goa",
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFByVDFYYjNVTXZrZENsa0tld2ZOalBTY0JvMVY4dTRUT3c2cUp3ZG5ocTZoTVZnUEFCbEpKbDBCeDh3RXE0RnFHY3BqbGJpbVRIWkFKeU14R3UyNHF4WERIeEJOaUxEcHJ2ZXRLN2RGN0Z1bmhLQnVQcWs5MNIBf0FVX3lxTE9iR1MzS2dScWE3TmdsT1ZyNlZ6VGlKUkFiYU1kZEQ3dW1uOEVXMVZZTGJkMGxERG9xMllQeWE5LWU3ODlpcGJra09ZYzJ5TzhlRUo0LXpRMlJuNlBZaFM5eExDQ2hTQ0FSbi1ZMjQ4bnQ4VU0tNmlXbjVZeXZXUWs?oc=5",
+    "source": "The Better India",
+    "published": "2025-06-23",
+    "place_name": "Goa",
+    "lat": 15.2993,
+    "lon": 74.124
+  },
+  {
+    "headline": "How a Quiet Morning Walk Turned a Man from Goa Into a Hero for Olive Ridley Turtles",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFByVDFYYjNVTXZrZENsa0tld2ZOalBTY0JvMVY4dTRUT3c2cUp3ZG5ocTZoTVZnUEFCbEpKbDBCeDh3RXE0RnFHY3BqbGJpbVRIWkFKeU14R3UyNHF4WERIeEJOaUxEcHJ2ZXRLN2RGN0Z1bmhLQnVQcWs5MA?oc=5",
     "source": "The Better India",
     "published": "2025-06-23",
     "place_name": "Goa",
