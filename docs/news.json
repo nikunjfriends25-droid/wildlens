@@ -45,6 +45,96 @@
     "lon": 78.6569
   },
   {
+    "headline": "Conservationists Decry National Board for Wildlife, Court Gives Govt 4 Weeks to Reply",
+    "url": "https://thewire.in/environment/conservationists-decry-national-board-for-wildlife-court-gives-govt-4-weeks-to-reply",
+    "source": "The Wire",
+    "published": "2026-07-11",
+    "place_name": "Delhi",
+    "lat": 28.7041,
+    "lon": 77.1025
+  },
+  {
+    "headline": "Lion kills 11-year-old boy on Girnar Hill in Gujarat",
+    "url": "https://www.thehindu.com/news/national/gujarat/lion-kills-11-year-old-boy-on-girnar-hill-in-gujarat/article71209952.ece",
+    "source": "The Hindu",
+    "published": "2026-07-11",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
+  },
+  {
+    "headline": "Karnataka Minister Eshwar Khandre defends HMT land action, says forest land cannot be diverted",
+    "url": "https://www.thehindu.com/news/national/karnataka/karnataka-minister-eshwar-khandre-defends-hmt-land-action-says-forest-land-cannot-be-diverted/article71210024.ece",
+    "source": "The Hindu",
+    "published": "2026-07-11",
+    "place_name": "Karnataka",
+    "lat": 15.3173,
+    "lon": 75.7139
+  },
+  {
+    "headline": "Over 300 employees hit as ecosystem company Talrop shuts offices across Kerala",
+    "url": "https://www.thehindu.com/news/national/kerala/over-300-employees-hit-as-ecosystem-company-talrop-shuts-offices-across-kerala/article71209740.ece",
+    "source": "The Hindu",
+    "published": "2026-07-11",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
+    "headline": "Wayanad debris slip: Kerala constitutes expert panel to study cause of accident; report to be submitted in a month",
+    "url": "https://www.thehindu.com/news/national/kerala/wayanad-debris-slip-kerala-constitutes-expert-panel-to-study-cause-of-accident-report-to-be-submitted-in-a-month/article71209659.ece",
+    "source": "The Hindu",
+    "published": "2026-07-11",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
+    "headline": "PIL in Delhi HC challenges NBWL over 97% project approvals in protected forests",
+    "url": "https://nenow.in/environment/pil-in-delhi-hc-challenges-nbwl-over-97-project-approvals-in-protected-forests.html",
+    "source": "Northeast Now",
+    "published": "2026-07-11",
+    "place_name": "Delhi",
+    "lat": 28.7041,
+    "lon": 77.1025
+  },
+  {
+    "headline": "Two killed in elephant attacks in Chhattisgarh's Raigarh; toll reaches 3 this week",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVkdYRDRWaHQ0ekhsaHoyRnBYbVF1YmIxYmxEYWZqOEY3ZXFJQWNXSlY5bmxBS1hPYmZwSVNQc3hPUE01NkVNYzNvX0RNUzVDc1hUM1JiVkl3aVZhOTR0eGgtWDlSZ2xwVzZIdnFLTWdWVERIdXFBQ2R1bzU0a1ZiRUhEcUllX2IxRFlhRXh4OUxycnp1UlpMblcxZ2haRGF6TFk5OVVBajZTOHhSakNvMUctYmhyMTdXMnBiT3pyX3J0Zk5ZSGpxMXE1SWx3dmdwUU11YnQ4U0d6WmVBNXfSAeMBQVVfeXFMUGNuUkJseTRVMV9tMGxoYUc3dWJ0b1hrZWdVRXV5VkY3ck1sSUI3bVI5dzB4cFlhLTJQdjlIWHcwaGY1dlF2RDUwUmt5S1B6Yl84TEU3OTMzT3NiM19yT3BZTFdDRjQ5Y3c2aTlHNE9DWGFMcDRaLVcwb0FKeUJsRHNmZWFtZklaZm5EMWNlck40VGRNSmdMTG1lRU5GR041VnZfREpIbXRBb3dCdWdOcE96SFM0dDJDSjBhT1BRSU9hVlJOT0VJZW1FRFQ1ZUd4dnpQeWxRZVVEbjhTX2lZWGFYbk0?oc=5",
+    "source": "India Today",
+    "published": "2026-07-11",
+    "place_name": "Chhattisgarh",
+    "lat": 21.2787,
+    "lon": 81.8661
+  },
+  {
+    "headline": "Elephant attacks claim two more lives in Chhattisgarh, panic grips villages",
+    "url": "https://www.hindustantimes.com/india-news/elephant-attacks-claim-two-more-lives-in-chhattisgarh-panic-grips-villages-101783757794688.html",
+    "source": "Hindustan Times",
+    "published": "2026-07-11",
+    "place_name": "Chhattisgarh",
+    "lat": 21.2787,
+    "lon": 81.8661
+  },
+  {
+    "headline": "Cobra Enters Rajasthan Classroom; Snake Brought to Hospital in Separate Incident",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRDBUd2RXdUxfQi12Q3U2VkI0RnpyUlRaYUdPMXR0ckZmVUZOTzF0T3Axb3gyb2E3NU5fSHV6bmkybmxuRjgzc1hhWFM3bHpPUmlvb3VrR2FScFRUSWZ2eEctYV9LaUZoQUdqdml3QzlJLXlMNkxUd1hhcnlISi1NUFQybTQzRWRmcXpMMmJUQ2U3WUw5TVNjZXJtS3JnQUJQeEFUV0xNX1JJcm5kdTc4T0hvSld1QQ?oc=5",
+    "source": "NDTV",
+    "published": "2026-07-11",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "Wayanad landslide: Search on for missing Himachal Pradesh native",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQa2V2cE80M2FaQ19OU01hbDQ2LU9aM3AteC1aSDFqRTl4bHFWSHFma0o1d0J0UG56cldjTVlTTXlqMWdSOVZrRlhHS2xQcEZTc05Zd25RVVhVeDFHTEhab3l5clJYbFFfekZ0eVUzY0tSQ0NucU5QbXJTX2d3RkRsMHhpbGpzcTV3Y2tMNkZ5b2gzSE1CQWZvZjNZWXR6VUdh0gGuAUFVX3lxTE44dG5GWnVucVNXR0RVMEZ0SXYyQ3lKTmRUdFpFMXRTc2t5VFp5VVRFQmtGZTJfX0NaUENTS2pQMWJSZEFRRjdieXZSanhjRnpUTk9QdDhFTnFqOXdlSDQ1V1ozOUppOXpERlRDMldPWXZYTXRDVnhORFJ3TERYZ21NSklUWG55Q2l5SHZSekQ0dGIzTEhuc3hJekQ2dDFjQ2g2dVVXc1VEVkh5MTM4UQ?oc=5",
+    "source": "DT Next",
+    "published": "2026-07-11",
+    "place_name": "Himachal Pradesh",
+    "lat": 31.1048,
+    "lon": 77.1734
+  },
+  {
     "headline": "Rescue mission enters final phase in Wayanad; three more bodies recovered",
     "url": "https://www.thehindu.com/news/national/kerala/rescue-mission-enters-final-phase-in-wayanad-three-more-bodies-recovered/article71202595.ece",
     "source": "The Hindu",
@@ -9853,6 +9943,15 @@
     "place_name": "Andhra Pradesh",
     "lat": 15.9129,
     "lon": 79.74
+  },
+  {
+    "headline": "Multiple signs of poaching show all is not well in Odisha’s reserves | India News",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVHdURlJuVnhSc3NKNUV6R1FObGZLN1JhcHJXLWhyYkVYakduMzlOTW5oTi14cXJUXzFaY2J1M0FZNHBtamcxQUtDemQ2TGJGaHQ5ZF9TcXZFV0pZS1I5cHR5Z25zRlRsRW1Fd21wTUhDWnljU2Q1U3ozS3NMUlF1Zk5IYVdaY0ZkSXJNai1RaVhuM0FrSFpOejVlNTV2ajJhY0JZWHlVc0FtU1hsWnNzTk1FYUdPWVFtTlNvaXMtcVo3TW9HVjd4NWRGUdIB0AFBVV95cUxPU1VEZmROYW9hTW5MRDBMNVprNV9yMVZLM195QTJHMXkxS0x4a2RVa0phVDEwYXB4dzNOOU1aQWtsWlRCcWlfZzBUWTJsZ0ZqOTI1Q05ob2lLaVRqeUlieXE5LWRrT1lRY1NfMHplWjJSMFg1eDBraWFVTFRORngtaGpsd2NYUVVndHVRdE5wQ2pWRkZqN09UaTdFcW8xZXFXTDJZS1RxRm5hRTVmTWctYjRtNFdkV2VOdkFHV1ZtUUM0SExEN0FUdUNmNnl0d1NT?oc=5",
+    "source": "Hindustan Times",
+    "published": "2022-12-21",
+    "place_name": "Odisha",
+    "lat": 20.9517,
+    "lon": 85.0985
   },
   {
     "headline": "Wild elephant electrocuted near Chittoor in Andhra Pradesh after it bites live cables",
