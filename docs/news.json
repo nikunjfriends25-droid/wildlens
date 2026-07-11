@@ -9,6 +9,42 @@
     "lon": 76.9558
   },
   {
+    "headline": "3 tiger skins in a week: Alarm bells in Chhattisgarh after probe links 2 cops to poachers",
+    "url": "https://indianexpress.com/article/india/3-tiger-skins-in-a-week-alarm-bells-in-chhattisgarh-after-probe-links-2-cops-to-poachers-10781228/",
+    "source": "Indian Express",
+    "published": "2026-07-11",
+    "place_name": "Chhattisgarh",
+    "lat": 21.2787,
+    "lon": 81.8661
+  },
+  {
+    "headline": "14 invasive plants behind grassland loss in one of India’s first tiger reserves",
+    "url": "https://www.thehindu.com/news/national/assam/14-invasive-plants-behind-grassland-loss-in-one-of-indias-first-tiger-reserves/article71209522.ece",
+    "source": "The Hindu",
+    "published": "2026-07-11",
+    "place_name": "Manas Tiger Reserve",
+    "lat": 26.65,
+    "lon": 91.0
+  },
+  {
+    "headline": "Wayanad debris slip: search intensified for lone missing project manager",
+    "url": "https://www.thehindu.com/news/national/kerala/wayanad-debris-slip-search-intensified-for-lone-missing-project-manager/article71209573.ece",
+    "source": "The Hindu",
+    "published": "2026-07-11",
+    "place_name": "Himachal Pradesh",
+    "lat": 31.1048,
+    "lon": 77.1734
+  },
+  {
+    "headline": "M.P. High Court seeks report on State’s tiger reserves amid canine distemper virus deaths",
+    "url": "https://www.thehindu.com/news/national/madhya-pradesh/mp-high-court-seeks-report-on-states-tiger-reserves-amid-canine-distemper-virus-deaths/article71207535.ece",
+    "source": "The Hindu",
+    "published": "2026-07-11",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
+  },
+  {
     "headline": "Rescue mission enters final phase in Wayanad; three more bodies recovered",
     "url": "https://www.thehindu.com/news/national/kerala/rescue-mission-enters-final-phase-in-wayanad-three-more-bodies-recovered/article71202595.ece",
     "source": "The Hindu",
@@ -8370,6 +8406,15 @@
     "lon": 85.3637
   },
   {
+    "headline": "Hazaribagh's Hornbill: The Bird With Two Beaks And A Clean Nesting Habit",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcDlBZUxPZ0xwaUFzVjM4XzEwM2lEM3UyeHdfZm92cWl2U21ILTU0dGc1ZXo1RG1DWmdYaWJLQk1DbkZtaWlpS0toNEp6QV9UbnJ3Q3pTMVBaNUZMdUxYR0ZwbENaQnFqaWp0ZXYxRWlKeXN2RGtHWTBKZVpOelJLS0VJVG84bUpxVEVqNTgwbC1lQmw4WTRERkRPRWVRbWRHWXN4SjIyZkxyYkRlaTJ2Yjl0WndQUGJFekhPRHFVU1A?oc=5",
+    "source": "ETV Bharat",
+    "published": "2024-12-23",
+    "place_name": "Hazaribagh",
+    "lat": 23.9925,
+    "lon": 85.3637
+  },
+  {
     "headline": "Forest dept to launch ‘Turtle Walk’ app; 1,100 eggs secured in Tamil Nadu's Pulicat",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeU9FbVdvOGh2T2I5b2s5amVqSzJyVTh1TXNnME5hV1U5eEoyMFVwOE9zWEJBRGpTc0FwMDdpWDRTLTUxbFoyV3VyeTBPbWtvU1pPZHN1VW82Mkl6ODdwN1kwSkdHWVJ6bVJweVh2b0pGZTFzX2tNUW40aFZ1Rnh0UDNoa3BuWjhQdGN0dE5kUVA5d1U2VVZjczY3TzkyTGVYUXpHeDVhT3ptQXI4dmhxWm92c2ZUWW1vT1hBUUdmdTdRaW80ZVFlZXFVSUNPOURLQ1lBc0ZXdDDSAeYBQVVfeXFMTnJZY3RObm9XVjkzaXNRMnUzN0pBVGpvWDV0QWlnbjcwaVQ5MGd5VndmUVRvaHkwQ3Q2NzVab2plWjcyeDBrZWhaNDQ3M3VES2ZlWE1yRWk5Tm44LTFHbWdXdndDZ0V2TzNSemh1QzBFUEkwUEF6bjVaVWlqWklIaXpGQWVkSHJfNFp2dTlRM3BEV2NxdFFKdHBPd20tdTJ2RVpta0JVQmhNRzBfT0RVbDM2VE94US10bEs0LS1rSkFpZzUzYVo3XzVXT1Ztd1RLdE16UEJ4NzdGM1FGWEVPT3RYMzAyZXc?oc=5",
     "source": "The New Indian Express",
@@ -8563,6 +8608,15 @@
     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQY1NZTXN6TEd5S3pvS1cya0NNMWxPUnZpRGQ0YzFfOHBQNlBZd3UwU3I0b1dIMjhsajI1R3dMcDRrLXlGeFNnY1Z3WGR5dUk3c1V4YUhZbVU4M1NlQ3V6RVBBZGlWLWFWakQybDBhQktrbU9ZZnBXMFZld2NzM0RTdXpUVl8tREstN3dMTnZCb0lLbjNSYnFoWUVwenNVWjlFbWhNRHhJR0pHR2hyWXgxbW13SDNVN29ydGZ5NFNMMldnOFh2VElHcTREeFNVcU0tMHNwbGxqeDUxZzQwVlBLLXJPYnp6UzQxbk83dk1XQXI0YzF5Y0pud3JmdWhWZ9IBhAJBVV95cUxPbXEwbXUtZThJdE5JREJWeHI5VnRlOGFBX0t4aWlWUE5TQzBsazgtd0hxN3lqWFRwUDFYRGE1ZnVtQm1fS2RTSjBXcmVWS0w2RVdLNmE2aWZBenRqd1NJclFQVTFWekJQRk1TcllVVGIwcnoxTjJkQnkzYUlHUkdSVFcwOU4tdDRadUs0aThpb2YteDZ2UUdCekhZSkN2aUo0RmpJalBPM3RGVzU3LUlrVF9LSmQ0VFh2X2NkNy1ILXIxWGRYWlJQX0VnVEYwaHQyRkUwek54Y0dmU3lnOXlMSS1ieklFVTdfVkVLM3FsbkZLQTBwRnZVQ0xkQ25ZRHdFWEwtMw?oc=5",
     "source": "The Hindu",
     "published": "2024-10-27",
+    "place_name": "Andhra Pradesh",
+    "lat": 15.9129,
+    "lon": 79.74
+  },
+  {
+    "headline": "Andhra Pradesh: Elephants trample 74 year old farmer to death",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdzROTkF3YU1QRmhlS3VBYWZZMWxxMG8xbjJnZGt5OFFYQXpFZlBKQVk2eFAwOTlDQnlhUHZkVlhheHZkLTROQ2drY2wyQnNwUWVGZlNGV240bTYtU09tTjgxVDYzZjg3cnYzZlFFZjRTSjA5YkdaSWw5c09RZl9YNlF0UjlHcnVxbU15b25vSVRrQUdkMllmT0FDOFNyV2ZCOXJpRDNEM3VIVGPSAbABQVVfeXFMTlM4VDFSZ29CZ3daQklzNTJzaHVTLWRLY1kxaEpVS1ZMTDgtVERxd2tOUVhBVFBhRkstczZ6bjlBb2NNcGx4LVVVem9kTFZ2TzVfdHVzMDZzSS1KMFZDdXdubmZjdjg3UGhRbndHX3N4R09qS3JpQVZyN2NrRERHcEc1WklIYzEyVnNCLTlmV01KcXJ3QVljSmJ1b3BiRllUaXBiRk1GaW8ycWRsRDBzNG0?oc=5",
+    "source": "Deccan Chronicle",
+    "published": "2024-10-25",
     "place_name": "Andhra Pradesh",
     "lat": 15.9129,
     "lon": 79.74
