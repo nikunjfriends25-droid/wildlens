@@ -80,6 +80,8 @@ const SOURCE_META = {
   'Dinakaran':           { region: 'Tamil Nadu',    lang: 'Tamil',     desc: 'Tamil daily with strong coverage of Nilgiris biosphere, elephant corridors & coastal ecology.' },
   'Tamil News':          { region: 'Tamil Nadu',    lang: 'Tamil',     desc: 'Aggregated Tamil-language wildlife coverage from across Tamil Nadu publications.' },
   'Telugu News':         { region: 'AP/Telangana',  lang: 'Telugu',    desc: 'Aggregated Telugu-language wildlife coverage from Andhra Pradesh and Telangana publications.' },
+  'Malayalam News':      { region: 'Kerala',        lang: 'Malayalam', desc: 'Aggregated Malayalam-language wildlife coverage from across Kerala publications.' },
+  'Bengali News':        { region: 'West Bengal',   lang: 'Bengali',   desc: 'Aggregated Bengali-language wildlife coverage from across West Bengal publications.' },
   'Dainik Bhaskar':      { region: 'MP/Rajasthan',  lang: 'Hindi',     desc: 'Major Hindi daily covering Kanha, Bandhavgarh, Ranthambore & Gujarat wildlife stories.' },
   'Divya Bhaskar':       { region: 'Gujarat',       lang: 'Gujarati',  desc: 'Gujarat\'s biggest Gujarati daily. Covers Gir lion census, Little Rann wild ass & Great Indian Bustard.' },
   'Gujarat Samachar':    { region: 'Gujarat',       lang: 'Gujarati',  desc: 'Top Gujarati newspaper covering Marine National Park (Jamnagar), Asiatic lion & mangrove conservation.' },
@@ -354,6 +356,8 @@ function buildLangFilters(articles) {
   const langs = [...new Set(articles.map(a => a.lang).filter(Boolean))].sort();
   langs.forEach(l => activeLangs.add(l));
 
+  const counts = articles.reduce((m, a) => { if (a.lang) m[a.lang] = (m[a.lang]||0)+1; return m; }, {});
+
   const container = document.getElementById('lang-filters');
   container.innerHTML = '';
 
@@ -372,6 +376,7 @@ function buildLangFilters(articles) {
       <span class="chip-dot" style="background:${color}" aria-hidden="true"></span>
       <span class="chip-label">${escapeHtml(lang)}</span>
       <span class="chip-label-native" aria-hidden="true">${escapeHtml(disp)}</span>
+      <span class="chip-count">${counts[lang] || 0}</span>
       <span class="chip-check">
         <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
       </span>`;

@@ -62,6 +62,16 @@ REGIONAL_SOURCES = [
         'lang': 'Malayalam',
         'lang_code': 'ml',
     },
+    # Malayalam catch-all — native terms (വന്യജീവി=wildlife, വനം=forest)
+    # Keep to 2 broad terms: GN AND-s query words, so 4 specific terms killed all
+    # recent hits (13 total / 0 within 60d). Two broad terms → 55 total / 17 recent.
+    {
+        'url': ('https://news.google.com/rss/search?q=%E0%B4%B5%E0%B4%A8%E0%B5%8D%E0%B4%AF%E0%B4%9C%E0%B5%80%E0%B4%B5%E0%B4%BF+%E0%B4%B5%E0%B4%A8%E0%B4%82'
+                '&hl=ml-IN&gl=IN&ceid=IN:ml'),
+        'source': 'Malayalam News',
+        'lang': 'Malayalam',
+        'lang_code': 'ml',
+    },
 
     # ── Hindi (UP, MP, Uttarakhand, HP, Bihar, Rajasthan) ──────────────────
     # Dainik Jagran — direct RSS returns HTML (Cloudflare blocked); GN hi proxy (100 entries)
@@ -130,9 +140,10 @@ REGIONAL_SOURCES = [
         'lang': 'Telugu',
         'lang_code': 'te',
     },
-    # Telugu catch-all — native terms (వన్యప్రాణి=wildlife, పులి=tiger, ఏనుగు=elephant, అడవి=forest)
+    # Telugu catch-all — 2 broad native terms (వన్యప్రాణి=wildlife, అడవి=forest)
+    # 3-term version gave 27/7 recent; 2 broad terms → 55/15. GN AND-s terms.
     {
-        'url': ('https://news.google.com/rss/search?q=%E0%B0%B5%E0%B0%A8%E0%B1%8D%E0%B0%AF%E0%B0%AA%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%A3%E0%B0%BF+%E0%B0%AA%E0%B1%81%E0%B0%B2%E0%B0%BF+%E0%B0%8F%E0%B0%A8%E0%B1%81%E0%B0%97%E0%B1%81'
+        'url': ('https://news.google.com/rss/search?q=%E0%B0%B5%E0%B0%A8%E0%B1%8D%E0%B0%AF%E0%B0%AA%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%A3%E0%B0%BF+%E0%B0%85%E0%B0%A1%E0%B0%B5%E0%B0%BF'
                 '&hl=te-IN&gl=IN&ceid=IN:te'),
         'source': 'Telugu News',
         'lang': 'Telugu',
@@ -250,10 +261,10 @@ REGIONAL_SOURCES = [
         'lang': 'Tamil',
         'lang_code': 'ta',
     },
-    # Tamil catch-all — native terms (வனவிலங்கு=wildlife, புலி=tiger, யானை=elephant, காடு=forest)
-    # Pulls from any indexed Tamil source
+    # Tamil catch-all — 2 broad native terms (வனவிலங்கு=wildlife, காடு=forest)
+    # 4-term version gave 43 total but only 1 recent; 2 broad terms → 77/6. GN AND-s terms.
     {
-        'url': ('https://news.google.com/rss/search?q=%E0%AE%B5%E0%AE%A9%E0%AE%B5%E0%AE%BF%E0%AE%B2%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AF%81+%E0%AE%AA%E0%AF%81%E0%AE%B2%E0%AE%BF+%E0%AE%AF%E0%AE%BE%E0%AE%A9%E0%AF%88+%E0%AE%95%E0%AE%BE%E0%AE%9F%E0%AF%81'
+        'url': ('https://news.google.com/rss/search?q=%E0%AE%B5%E0%AE%A9%E0%AE%B5%E0%AE%BF%E0%AE%B2%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AF%81+%E0%AE%95%E0%AE%BE%E0%AE%9F%E0%AF%81'
                 '&hl=ta-IN&gl=IN&ceid=IN:ta'),
         'source': 'Tamil News',
         'lang': 'Tamil',
@@ -279,13 +290,23 @@ REGIONAL_SOURCES = [
         'lang': 'Gujarati',
         'lang_code': 'gu',
     },
-    # Gujarati catch-all — native terms (વન્યજીવ=wildlife, સિંહ=lion, હાથી=elephant, ગીર=Gir)
+    # Gujarati catch-all — 2 broad native terms (વન્યજીવ=wildlife, જંગલ=forest)
+    # 4-term version gave only 3 total; 2 broad terms → 59/21. GN AND-s terms.
     {
-        'url': ('https://news.google.com/rss/search?q=%E0%AA%B5%E0%AA%A8%E0%AB%8D%E0%AA%AF%E0%AA%9C%E0%AB%80%E0%AA%B5+%E0%AA%B8%E0%AA%BF%E0%AA%82%E0%AA%B9+%E0%AA%B9%E0%AA%BE%E0%AA%A5%E0%AB%80+%E0%AA%97%E0%AB%80%E0%AA%B0'
+        'url': ('https://news.google.com/rss/search?q=%E0%AA%B5%E0%AA%A8%E0%AB%8D%E0%AA%AF%E0%AA%9C%E0%AB%80%E0%AA%B5+%E0%AA%9C%E0%AA%82%E0%AA%97%E0%AA%B2'
                 '&hl=gu-IN&gl=IN&ceid=IN:gu'),
         'source': 'Gujarati News',
         'lang': 'Gujarati',
         'lang_code': 'gu',
+    },
+    # Bengali catch-all — 2 broad native terms (বন্যপ্রাণী=wildlife, বন=forest)
+    # Bengali had no native catch-all before (site queries only); 2 broad terms → 96/39.
+    {
+        'url': ('https://news.google.com/rss/search?q=%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A3%E0%A7%80+%E0%A6%AC%E0%A6%A8'
+                '&hl=bn-IN&gl=IN&ceid=IN:bn'),
+        'source': 'Bengali News',
+        'lang': 'Bengali',
+        'lang_code': 'bn',
     },
 ]
 
