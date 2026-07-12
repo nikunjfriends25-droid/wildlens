@@ -9,7 +9,8 @@ local.properties
 build/
 app/build/
 
-# Signing key — NEVER commit to a public repo
+# Signing key + credentials — NEVER commit to a public repo
 android.keystore
 *.keystore
 *.jks
+keystore.properties

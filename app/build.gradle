@@ -20,6 +20,14 @@ plugins {
     id 'com.android.application'
 }
 
+// Signing credentials live in an untracked keystore.properties (never committed).
+// Copy keystore.properties.example to keystore.properties and fill in real values.
+def keystoreProps = new Properties()
+def keystorePropsFile = rootProject.file('keystore.properties')
+if (keystorePropsFile.exists()) {
+    keystoreProps.load(new FileInputStream(keystorePropsFile))
+}
+
 def twaManifest = [
     applicationId: 'in.wildlens.app',
     hostName: 'wildlens.in', // The domain being opened in the TWA.
@@ -149,10 +157,10 @@ android {
     }
     signingConfigs {
         release {
-            storeFile file(KEYSTORE_PATH)
-            storePassword KEY_STORE_PASSWORD
-            keyAlias KEYSTORE_ALIAS
-            keyPassword KEY_PASSWORD
+            storeFile file(keystoreProps['KEYSTORE_PATH'] ?: '../android.keystore')
+            storePassword keystoreProps['KEY_STORE_PASSWORD']
+            keyAlias keystoreProps['KEYSTORE_ALIAS']
+            keyPassword keystoreProps['KEY_PASSWORD']
         }
     }
     buildTypes {
