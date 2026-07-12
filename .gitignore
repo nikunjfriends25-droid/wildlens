@@ -14,3 +14,10 @@ android.keystore
 *.keystore
 *.jks
 keystore.properties
+
+# Local / bulky files not meant for the public repo
+.claude/
+New folder/
+Papers/
+backups/
+manifest-checksum.txt

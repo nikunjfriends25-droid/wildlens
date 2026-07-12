@@ -230,8 +230,8 @@ Gap signals:
 Status: Gold standard CSV exists (180 rows). Validation in progress.
 
 **Gold standard validation rules:**
-- 16 event types: poaching, human-wildlife-conflict, mortality, sighting,
-  species-discovery, conservation-action, habitat-threat, policy, research,
+- 17 event types: poaching, human-wildlife-conflict, mortality, sighting,
+  species-discovery, conservation-action, habitat-threat, mining, policy, research,
   rescue, disease, flood-displacement, wildlife-crime, wildlife-crime-corridor,
   fire, coexistence, other
 - Each row needs: event_type, species[], correct_location, is_false_positive,
@@ -245,9 +245,9 @@ Status: Gold standard CSV exists (180 rows). Validation in progress.
 **Validation assistant prompt (use this when working through CSV rows):**
 ```
 You are helping validate a gold standard CSV for a wildlife news event
-classifier for India. The 16 event types are:
+classifier for India. The 17 event types are:
 poaching, human-wildlife-conflict, mortality, sighting, species-discovery,
-conservation-action, habitat-threat, policy, research, rescue, disease,
+conservation-action, habitat-threat, mining, policy, research, rescue, disease,
 flood-displacement, wildlife-crime, wildlife-crime-corridor, fire,
 coexistence, other
 

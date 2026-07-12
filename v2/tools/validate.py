@@ -25,7 +25,7 @@ GAZETTEER = BASE / "data" / "india_pa_gazetteer.csv"
 # ─── Constants ────────────────────────────────────────────────────────────────
 EVENT_TYPES = [
     "poaching", "hwc", "mortality", "sighting", "species-discovery",
-    "conservation-action", "habitat-threat", "policy", "research",
+    "conservation-action", "habitat-threat", "mining", "policy", "research",
     "rescue", "disease", "flood-displacement", "wildlife-crime",
     "wildlife-crime-corridor", "fire", "coexistence", "other",
 ]
@@ -159,6 +159,7 @@ if "initialized" not in st.session_state:
     st.session_state.article_cache: dict[str, tuple[str, bool]] = {}
     st.session_state.nom_results: list[dict] = []
     st.session_state.prev_row_idx = -1
+    st.session_state.nav_history  = []   # stack of df row indices visited
     st.session_state.initialized  = True
 
 df = st.session_state.df
@@ -195,13 +196,11 @@ with st.sidebar:
 
     st.divider()
 
-    # New batch = GS181 onwards (rows 180+)
-    new_batch   = df.iloc[180:]
-    n_new_done  = (new_batch["valid_wildlife_article"].str.strip() != "").sum()
-    n_new_total = len(new_batch)
-    st.metric("New batch progress", f"{n_new_done} / {n_new_total} labeled")
-    st.progress(int(n_new_done) / max(int(n_new_total), 1))
-    st.caption("GS001–GS180 are pre-validated original gold standard rows.")
+    # Progress across all rows
+    n_done  = (df["valid_wildlife_article"].str.strip() != "").sum()
+    n_total = len(df)
+    st.metric("Progress", f"{n_done} / {n_total} validated")
+    st.progress(int(n_done) / max(int(n_total), 1))
 
     # Jump-to input
     if total > 0:
@@ -262,7 +261,8 @@ left, right = st.columns([4, 6])
 # LEFT COLUMN — validation controls
 # ════════════════════════════════════════════════════════════════════════════════
 with left:
-    st.markdown(f"### {row['event_id']} &nbsp;·&nbsp; Article {pos + 1} of {total}", unsafe_allow_html=True)
+    n_done = (df["valid_wildlife_article"].str.strip() != "").sum()
+    st.markdown(f"### {row['event_id']} &nbsp;·&nbsp; #{idx + 1} of {len(df)} &nbsp;·&nbsp; {n_done} validated", unsafe_allow_html=True)
     st.caption(f"**{row['source']}** · {row['published']}")
     st.markdown(f"**{row['headline']}**")
 
@@ -310,6 +310,19 @@ with left:
     def_lat   = row["correct_lat"]   or row["v1_lat"]   or ""
     def_lon   = row["correct_lon"]   or row["v1_lon"]   or ""
 
+    # Override values set by "Use" buttons — read before widgets are instantiated.
+    # Must also delete the widget's existing session_state key so Streamlit
+    # respects the new value= parameter rather than ignoring it.
+    if f"place_{idx}_pending" in st.session_state:
+        def_place = st.session_state.pop(f"place_{idx}_pending")
+        st.session_state.pop(f"place_{idx}", None)
+    if f"lat_{idx}_pending" in st.session_state:
+        def_lat = st.session_state.pop(f"lat_{idx}_pending")
+        st.session_state.pop(f"lat_{idx}", None)
+    if f"lon_{idx}_pending" in st.session_state:
+        def_lon = st.session_state.pop(f"lon_{idx}_pending")
+        st.session_state.pop(f"lon_{idx}", None)
+
     place_name = st.text_input(
         "Correct place name", value=def_place,
         key=f"place_{idx}",
@@ -334,9 +347,9 @@ with left:
                     st.markdown(f"`{gr['name']}` — *{gr.get('type', '')}*")
                 with gb:
                     if st.button("Use", key=f"guz_{idx}_{gr['name']}"):
-                        st.session_state[f"place_{idx}"] = gr["name"]
-                        st.session_state[f"lat_{idx}"]   = str(gr["lat"])
-                        st.session_state[f"lon_{idx}"]   = str(gr["lon"])
+                        st.session_state[f"place_{idx}_pending"] = gr["name"]
+                        st.session_state[f"lat_{idx}_pending"]   = str(gr["lat"])
+                        st.session_state[f"lon_{idx}_pending"]   = str(gr["lon"])
                         st.rerun()
 
     # ── Nominatim search ──────────────────────────────────────────────────────
@@ -361,9 +374,9 @@ with left:
             with nb:
                 if st.button("Use", key=f"nom_{idx}_{i}"):
                     short = res["name"].split(",")[0].strip()
-                    st.session_state[f"place_{idx}"] = short
-                    st.session_state[f"lat_{idx}"]   = f"{res['lat']:.5f}"
-                    st.session_state[f"lon_{idx}"]   = f"{res['lon']:.5f}"
+                    st.session_state[f"place_{idx}_pending"] = short
+                    st.session_state[f"lat_{idx}_pending"]   = f"{res['lat']:.5f}"
+                    st.session_state[f"lon_{idx}_pending"]   = f"{res['lon']:.5f}"
                     st.session_state.nom_results = []
                     st.rerun()
 
@@ -420,11 +433,18 @@ with left:
     # ── Action buttons ────────────────────────────────────────────────────────
     b1, b2, b3, b4 = st.columns(4)
     with b1:
-        if st.button("← Prev", use_container_width=True, disabled=(pos == 0)):
-            st.session_state.pos = pos - 1
+        has_history = len(st.session_state.nav_history) > 0
+        if st.button("← Prev", use_container_width=True, disabled=not has_history):
+            target_idx = st.session_state.nav_history.pop()
+            # Find target in the full "All" index list so we never lose it
+            all_indices = list(df.index)
+            if target_idx in all_indices:
+                st.session_state.show = "All"
+                st.session_state.pos  = all_indices.index(target_idx)
             st.rerun()
     with b2:
         if st.button("Skip →", use_container_width=True, disabled=(pos >= total - 1)):
+            st.session_state.nav_history.append(idx)
             st.session_state.pos = pos + 1
             st.rerun()
     with b3:
@@ -433,8 +453,12 @@ with left:
             st.toast("Saved!", icon="✅")
     with b4:
         if st.button("Save & Next", type="primary", use_container_width=True):
+            st.session_state.nav_history.append(idx)
             collect_and_save()
-            if pos < total - 1:
+            # In "Unvalidated" view, the saved article drops out of the list
+            # automatically — pos already points to the next one. Only increment
+            # pos in "All" view where the article stays in the list.
+            if st.session_state.show == "All" and pos < total - 1:
                 st.session_state.pos = pos + 1
             st.rerun()
 
