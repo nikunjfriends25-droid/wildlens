@@ -2,3 +2,14 @@ __pycache__/
 *.pyc
 *.pyo
 .env
+
+# Android build (machine-specific / generated)
+local.properties
+.gradle/
+build/
+app/build/
+
+# Signing key — NEVER commit to a public repo
+android.keystore
+*.keystore
+*.jks
