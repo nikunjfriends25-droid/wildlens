@@ -1,5 +1,23 @@
 [
   {
+    "headline": "J&K’s Mansbal lake starts hosting migratory birds again",
+    "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/jksmansballake-starts-hosting-migratory-birds-again/article71233500.ece",
+    "source": "The Hindu",
+    "published": "2026-07-18",
+    "place_name": "J&K",
+    "lat": 33.7782,
+    "lon": 76.5762
+  },
+  {
+    "headline": "Malabar pied hornbills sighted in Kannur",
+    "url": "https://www.thehindu.com/news/national/kerala/malabar-pied-hornbills-sighted-in-kannur/article71234311.ece",
+    "source": "The Hindu",
+    "published": "2026-07-18",
+    "place_name": "Kannur",
+    "lat": 11.8745,
+    "lon": 75.3704
+  },
+  {
     "headline": "J&K Government Revokes Blacklist of NGO Wildlife Trust of India",
     "url": "https://thewire.in/environment/jk-government-revokes-blacklist-of-ngo-wildlife-trust-of-india",
     "source": "The Wire",
@@ -88,6 +106,15 @@
     "place_name": "Andhra Pradesh",
     "lat": 15.9129,
     "lon": 79.74
+  },
+  {
+    "headline": "Lion attacks leave villagers on edge as Gujarat's big cat population grows",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQclVzZEZUR0Q2eERGRTdzY1J4RnRCUkRldXhsbTVRdXU3Mi1zVEZvdmtualllanQ2TlNzbzQyQk5XVWdOYWZzTDJFcDdxMGJnUVV5RXItVUhiNDQzcmpvNGZaQ2w4RFBDd2ZncUNUeHZoZzgtNjFsdnZsTkpsNjRUOEhaTTBfZjJjN2tMTzM5YTRfNkQ1TVdzeTJwSXRrMWE5aUFIcU8zUFpwVnN1OHA4TG5KMjZDdm5XNzBkUllDTUxjU1VVT185Y05B0gHPAUFVX3lxTE5YbXZQUnJYbjJQa1NDY2JuWEZmbm5BWklVVk9QNGFZaGhtWm1KeVZpX3BNU3FNMWxTQlp4TnhjenFUWTlEWkdqcjRVYUY0ZjlRTzdHd05SRlNVM2J6ZTlzSFpvOXFhWDZZbUh3OS1waTJTNTY1N3lkSm1DWjluMWdaY1J4Z0ZadXVJbTBiVHlqRDhJZXRCMmREREl2aDVMRDM5ek5zT09YU1lLeHpOemRpek1RVzZReGhBdFlkelZrbnJXc0dseDZsNWRrQzFvdw?oc=5",
+    "source": "India Today",
+    "published": "2026-07-17",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
   },
   {
     "headline": "Supreme Court clears road for country’s first night safari in Lucknow’s Kukrail Reserve Forest",
