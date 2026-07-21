@@ -99,6 +99,51 @@
     "lon": 74.2179
   },
   {
+    "headline": "Local bodies identified as human-wildlife conflict zones in Kerala under risk assessment",
+    "url": "https://www.thehindu.com/news/national/kerala/local-bodies-identified-as-human-wildlife-conflict-zones-in-kerala-under-risk-assessment/article71250307.ece",
+    "source": "The Hindu",
+    "published": "2026-07-21",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
+    "headline": "Farmer dies in Indian gaur attack in Chikkamagaluru; second death this month",
+    "url": "https://www.thehindu.com/news/national/karnataka/farmer-dies-in-indian-gaur-attack-in-chikkamagaluru-second-death-this-month/article71249311.ece",
+    "source": "The Hindu",
+    "published": "2026-07-21",
+    "place_name": "Chikkamagaluru",
+    "lat": 13.3161,
+    "lon": 75.772
+  },
+  {
+    "headline": "Kumkis to be deployed to reduce elephant-human conflict in Manyam",
+    "url": "https://www.thehindu.com/news/national/andhra-pradesh/two-kumkis-to-check-jumbo-incursions-in-parvathipuram-manyam-district/article71249835.ece",
+    "source": "The Hindu",
+    "published": "2026-07-21",
+    "place_name": "Andhra Pradesh",
+    "lat": 15.9129,
+    "lon": 79.74
+  },
+  {
+    "headline": "Why are more temples choosing robotic elephants over captive elephants in Kerala?",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObkhLNDRiT2NMUVpEbW9zak5jaEFyeVE4U3h2TDJ2aWtkOVpWM3VQLU4yOTZBWjRfZHpsalpWd05GMlQzeGpPcWoweGhxM1ZKWWhjNzdsYXUwNmxfWS1OZ3VDOGdoazdrX1pPbTRraEgxSDRLRm01UWJ5RS1CWHZ3aTBPOE9BTkZJakNDQ1VjU3NabWJvTjh3S0tCbXBqd0VKQXBWaEt6ZmtYVm5VR2RRN1JkekxJMHhGTnpqSGo1VGdGdGVJTXFJcVpWenVTR2Fyd1Qta2lVczBEZUhiTDk00gHkAUFVX3lxTE4xNVZHUGdVS0FpeGpBYUVjbjRUMnpHdDJaRU9NaUw3Z0dHaENwWklZTnM0dDd6ZXJVSTBfLXIzcEpNMWhRRWlOOHY5bU1kb01fQzRiMUZQamdENWZoMmp6aGotaE14ZEZPOE91Y1RBNDRidjdxZWxrbi1RTEZTa0FadDVOWkFfMjFTdWxmLW9iMTNJT0NPX2tMdWdSVWhNcFlkdmRKbXVXTjZLaWctQ000TjZHZ2hfbzRfRE83RnVaRzRveHVvQ29JNktEQzdVemVhREhrcnRRNE9EYWU1bkE1Rjk2eg?oc=5",
+    "source": "India Today",
+    "published": "2026-07-21",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
+    "headline": "Andhra Pradesh: 2 Kumki Elephants To Be Deployed In Manyam To Tackle Wild Elephant Menace",
+    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdUZUbW1MbURBM1pPZ2ZLVVZRNkkzZWNnRUptSGJtOUFBNjk4Y0FwS2NVbTA5S3hLN2t6cnBYclRVNmNBaXFLZ3pIeEpLQzhMbWthU081RWRWaFJDdlo5REdNelpkWFFoOTlpLVBqc3FkRG5lYS05Y0dtQXJHNTEtVTdZT29GTW5ZanNiQWNqUmRiVFdGdDhTekxGdzZySjhCbFhYLWxUUGdWWlNFSlJxYWFzSngyYVdVVzlWczV6a0g5RGNvM0FZWFBOOWRsU25lWkZseHZPRzNGd0tRWGw3OF82R1pZS1ZPTDJoWGxvRG7SAfYBQVVfeXFMUFpmaFVtcUFIeWROV0FGbndxSHpSX3hqclBrOUtGcldWWGw0dklGWkQ4WV9SelZiSWRkNGNTd0JBT3V1U1JoYnN2UC1QQ3lXR1pnWXR6Tl9aOGg5Yi1RRy1mWEpFTFdOWm5hRTZkRWZ3S1JId180RGFMN0VTM0xmQ3dtMDFwLVlNeWRydW9NWkJMUTJHMzRnUFpDaHJnRlNHZFR2MHlfcENlVW1pWGladWhaY0h1YkJnaEpYdTRqWW5WMW96cUYyS2NTWWl1Y3B3OHpMd1gwdlhTWTc3NVc3VlU0eHp2NXJpcl9Nc0Z6LU5iRUdwRGxn?oc=5",
+    "source": "Deccan Chronicle",
+    "published": "2026-07-21",
+    "place_name": "Andhra Pradesh",
+    "lat": 15.9129,
+    "lon": 79.74
+  },
+  {
     "headline": "Panel to consider two complaints on leasing and illegal diversion of forest land in Kerala",
     "url": "https://www.thehindu.com/news/national/kerala/panel-to-consider-two-complaints-on-leasing-and-illegal-diversion-of-forest-land-in-kerala/article71242073.ece",
     "source": "The Hindu",
@@ -210,6 +255,15 @@
     "headline": "Rajasthan: Three injured as leopard enters liquor shop in Tonk",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaFMtamwyNWNWaUVyc1pYUWZiaXA0SVctTF9JTnk5QXdZSFNqcWlFYktsUFVkdk51R05KamdYWTFjSWZIRmsxUjBDVzlCVlBMR2ZEUkFuQmZXelpiS2pYTHk5Z3JkQ3hxb05OSFRJeTFDMzZURk1teVNJZVhkWV9VWXJZX3RSRFRk?oc=5",
     "source": "tennews.in",
+    "published": "2026-07-20",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "Caught on CCTV: Leopard storms Rajasthan liquor shop, mauls 2 men",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTWN4cTF0c295TUR4VmRBTTFtNWZtZkpJVWU5eFNYTm1OMmFhalNYOTJVeUlrZDJvbHFRQkVVWS1uU1NWQVY1a3BmajRHbDFqUlJFQm05Zk92N0hKR0xCYWRTTUI4Znh2d3VUbjg3LTFoYUg2OUpLekJ0ZjRiaFMyVUZJeG1CSV82dHJ4Zl80MkI2QnAwR0xGN2JHZktER19rTnVUdlExUkRMSXNpRHctZXlZSm8zRmJoaFpLS2oyWUp1RnZTNFM5cnhSMDgweS1oajIw0gHYAUFVX3lxTE00dGRjUTZnT0QxS3p3eW03SEFlb18xX2ZaVmVSY1dhTUZudDFDbk42bmp5M19BOXJHZFNyYTA3aGR4LVlUXzBhUFI4NDRnbTY3RWFXV2Y5SVctODRyR3E5Nmp0XzZDNjNid0p1R1BicDV4b3RWWlZtWFlwUUQ0Y3AwZmVvZDkwVVJGNjlzMjNabHdtWmw2dlZlRENHV1Nlb3M5NDZpSXM5OGl1ZURMZXFwd3RTVzZ6SFdycjAyVGh2ZVdwTFd0RTY5LU5MRDFOa1ItRFBUdmZsMg?oc=5",
+    "source": "The Times of India",
     "published": "2026-07-20",
     "place_name": "Rajasthan",
     "lat": 27.0238,
@@ -7362,6 +7416,15 @@
     "lon": 79.0193
   },
   {
+    "headline": "Villagers in Uttarakhand hold forest officials hostage after series of leopard attacks on livestock",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWDgwZnVKWmZCa0VaU1BkbEV2RUlfTUt3MU5zUTFudnV5WE5zWDUtLWFENWgxNV9wc3NuRzc4aFhhN1I4RDVxcXVJVnBjcXRsaVJRUTYzNy1tT19EOWMxNkNaWnA2RzJJQncteFpRS2VCRkxVaU9TQzVkemhhbUo2MkpPYnBDTmtRbEZUS0lONGpOQ0RXNGVhNHk4UExqYlZKMkp6VHZ3Sk5GbFE0TkdpSUoyZmsteWdjNUJHNDhxODNLQm5YVFBmU1JBUHY4d2t2MEl1Q3NCN2wyVm9xaENBNnZtQjA?oc=5",
+    "source": "The New Indian Express",
+    "published": "2026-01-02",
+    "place_name": "Uttarakhand",
+    "lat": 30.0668,
+    "lon": 79.0193
+  },
+  {
     "headline": "'Pathashree- Rastashree' reaches Sundarbans through Bonbibir Pala: Folk performances used to explain rural ...",
     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPV3VXZVIyeTRVR0ZwLWhjUG5BTGFyZWQ3ckhHbFoxcjQ5QVI2ZHdyTXM0WXFXU3ctdU9nNnJObDQzWUZqWnpHbDFqQWRrZDE0T2psVnJUUS1MNm1IVy1JajVHWVZQYk9NcENlcDc2SC1zdlRycW1PQ05UTEhsWW5sUTNfNG5rUFV6TlViZllST19TNXZ4dW02TGs3VmRLSnltWERLbEZzeEFRc0toVFNXUE0tcFltZHUxNVdoenZUbEV2NFNkd0ZlbjVZakhDZ2VJbll3bHIyNmFyeFlvWFZKNXBJS3ZZaFpfb1dqX0NBRmxuQdIB9wFBVV95cUxQUUlSZ1hkOV9EQU9hTThwY3NKMFByajNXWVRWd3h4QW5vNDlDdndZTmZPb3VnbkNGNlJXSDZkY3JaYV9XNGtrSi0wbV9NcjJYUjR1R3libV9UU1VUb2VSU1hmZ0M5NnZzSmFOUFZKUjVYcDZTZFluelBGSGdNMWhoN2kySm9EQlU2c1EwSG01THhPdC1lVjJra3AyNTl2ZEpZWkxMTVhBYllzUEdpbUFhanhPUHUzWnBjUEQ5NUhPSVpid01PZzZ0YjlOenNycFFxMTV5akRhd3hVSXp6R3FYcjVKSFJsTmdQRW5HeWZHRHFPSWJNdXRR?oc=5",
     "source": "Bhaskar English",
@@ -7815,6 +7878,15 @@
     "headline": "Sundarbans tiger census begins; more than 1,400 cameras to be installed for scientific count",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUzdTY3Qwa2MyNjlOR2xnOUU0ZTBwNktRMmVkb3k1QXdvSmR2TlBCVjNrOGlYWjRUWVhxN1lLb2VmOGtsRnFMdVdNZUg4bVdySGR0Mk1lMnZ4X2hKZTNSSjlqejRxakdJZkhWOWd3TG1BT1Y3d3V5ZmhkTDhoc1pjOWFtUEtnQlU1cFBQMnFwWGljS244Y0tYNFVTOGZzSm9XMTN2d1ZKMkxXVllGWDhYc1RMdllTeWdQZTdIbA?oc=5",
     "source": "MorungExpress",
+    "published": "2025-11-27",
+    "place_name": "Sundarbans",
+    "lat": 21.9497,
+    "lon": 88.8806
+  },
+  {
+    "headline": "Sundarbans tiger census begins; 1,400+ cameras set for scientific count",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTGZOOXpHZmFHZGJaSGRGa3ptOGczem4xbDF2SXBOWElac2xvRWtoWm1sTEg3ZTJLRW5XSjI4cGdDUmVMcVgyckZsSXJmcTFMbzNVSjhIbW9lMkpZb05XT1NKQmhqdVNGSHh0YjVPaDVhc2dNMTRtZTVxaVdZeUZyNFlzc2M0TmdOU2ZaemlqdWVFUVRiSmtBTHNKZmNSbmwxSzdrZ1o2YlZMRjNaV29n0gG0AUFVX3lxTE9MN05QMXdwdVREZl9hOG9pNkMtWFhFUHpiaUxlYlF1T0VZWndnR250XzRXZy03b3BacE1SMHlUblh3WVNoQWhIOHJvb0hiR0RtVno2Wm9jRmZYS00teTB5dFZjaURrSmVwLU91SWNOVE1FZWtGOWdKaU9GM1ZJX1BqZmFVeF9uODkxQWh2eGhMSENuVkhnTUVfU2RuS2JLTFpPUEtzZjBVeTZnenM5eEVGOUtlbw?oc=5",
+    "source": "The Assam Tribune",
     "published": "2025-11-27",
     "place_name": "Sundarbans",
     "lat": 21.9497,
@@ -10006,6 +10078,15 @@
     "place_name": "Andhra Pradesh",
     "lat": 15.9129,
     "lon": 79.74
+  },
+  {
+    "headline": "British High Commissioner Lindy Cameron attends Hornbill Fest in Kohima",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQLWRfZkdYWWVPajg0Y3NKS0p6SDZqa24yQ1VhdTRqbUcwVGNhNGtFTGVaQWNGdlpsb2FQSENYMFVpemNGbTE1OWROT2xPUjFIczkzSllhQW5WUGNrM21fQkZDdmI0cTNlSFBwbk1SRlZEZkpZVFVpVVRxXzBOVVhPSTRuTEptbDlONTlFcWZxRkI3ZmxhOThocjB1TzZSV1Y2dzlDRmo4U0ctc3RqU3dBbEhtaHhJd9IBuwFBVV95cUxPanVsaXhYSDcxTkdEMDFZclE2WGlBOENJTTdseXBmQUNPbzhFLXBRaVUxR19MM1BMY2RLdTVjQ0VMNVpGYVM1YXF5Y09DYW5PTEctaFJ5c2hjQmVTLTJuYnI0YVo4dzk4aEtqU2xmLVR5cUxMZHZMNFdyY21sbUJsVlhVbzl5YlpmQ3BmbnZMSjBLNThfRWZJLU1abEMyQmJaMDkxT0g3NTBqLU1lZERRU24zbnRmdUZYOTc0?oc=5",
+    "source": "The Assam Tribune",
+    "published": "2024-12-08",
+    "place_name": "Kohima",
+    "lat": 25.6751,
+    "lon": 94.1086
   },
   {
     "headline": "Two Kumki elephants to be brought from Karnataka to control wild elephants in Parvatipuram-Manyam district",
