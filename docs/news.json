@@ -1,5 +1,50 @@
 [
   {
+    "headline": "A lone moth leads the discovery of a new genus",
+    "url": "https://india.mongabay.com/short-article/2026/07/a-lone-moth-leads-the-discovery-of-a-new-genus/",
+    "source": "Mongabay India",
+    "published": "2026-07-22",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
+    "headline": "Three months after tusks sawn off, Assam elephant Mangal Singh awaits specialised care",
+    "url": "https://nenow.in/environment/three-months-after-tusks-sawn-off-assam-elephant-mangal-singh-awaits-specialised-care.html",
+    "source": "Northeast Now",
+    "published": "2026-07-22",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Leopard caught on camera storming into a store in Rajasthan, India",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNN2ZhdUZSQlpPNjFBcXpleUZGZlpXT1JqbFgzQmhYMFlydW9TTWduUUdPZUFneENLNTlyajVLakx4SVNBd3lRazQ3ai1sN25WeUFoc180NlhTN0ZQTXpic2lWS1NqQ0V6MlFNOEtGQWhzcXdESFlpVnljc2ZBLVhwclFnTE1NWEh3MllhRU9GMlRSVVZJay1fbGp6a1JxT2VaT1llZGl3ZlV0UFNaU0k3d3EtaG5sSnfSAbwBQVVfeXFMT1hQLVFHUmZtc0FqYkYwbXVwNEhscFNtelZ2YllXQi00T0poSEJGMWtMRHBrb2N1OUVSOW5iM1VTdmtuLWlOSFJ2ajdqNHNMSjFGd09TNjRfRnFfSWlabFdKRE43QlJpYi00ZldfQm1KcGtqQWNpNXliNlo1OU9RQkxBclU1RllVejFuNHhjeFdhWm5XanRoclBwY3NlWE9jNEZVTUR4UDZZUlczU1RQeGVna1lxS0tLOE1QT28?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-07-22",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "Andhra to deploy 2 kumki elephants to curb man-animal conflict near Odisha border",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdVd0WjdXbGtiSFFCT3NScVhOOTZja2tjVUFEN1BZMmZaTS1fQXJzblpTVmlZYUFCUVJsdktsVUFPdDdORTF0clZxZDBjRXJaSTlPWUFqMFBRNHhmaHFpOGNXLTJsRUxXcXZDUDNLRXBtZ3BFcUdPeERnTW95OTBkUkxlYUE1bnRWT01yZE43ZmNmcEJiLTN3MGxZdjZHT3FIOU1BalBTaFc4dFJV?oc=5",
+    "source": "Telangana Today",
+    "published": "2026-07-22",
+    "place_name": "Odisha",
+    "lat": 20.9517,
+    "lon": 85.0985
+  },
+  {
+    "headline": "Wild Elephant Herd Enters Vizianagaram from Manyam",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOODBNb0xwTlVyRDZieFZMMVplZkVpa1YyT18xNFU1MlVSVFpnUTluMXJJT0UzN05oSFZKamlrRUhLQVRBTEhGT2NFWEp3OEpwU1pDMnhKbXVhSXR1c19OelBpVTUtTXlZbkZJV1BzTEUzbzRLLXprelNkVHR5Yzg1RFFwZmNrUkpNRFI3b3RMVTFvZUxjeGM0MkhUMnE5cjBzQ0tQY1daVmVwajd3azVRM2FHUzFCS3VoVDlDWmhB0gHDAUFVX3lxTE9RekNDWUljSlVCNURuLVZCamQ3bE5xY090MW5XWmxBNlFTSmlsdzZXWUQ5czItTHYybDVuTFprenlhclZhUXRsbjFyRU1vWEhEaEhTX0F6cDRkaFJrTWVUczN5VGowNlRYWVUyb20zcWhFMkJ1OHMzOTI0NEE3QUJUTDN0bTA3RzBlZXpUdnBNMWVFSGFNNGl5TG83b2ZVcmJQVTJuMUFsQWFET1lhaUJWYzNtY3ZHUjVUN25MdlU5SmR1NA?oc=5",
+    "source": "Deccan Chronicle",
+    "published": "2026-07-22",
+    "place_name": "Vizianagaram",
+    "lat": 18.1066,
+    "lon": 83.3956
+  },
+  {
     "headline": "Kerala’s Wayanad reports fresh shigellosis case as college student tests positive",
     "url": "https://www.thehindu.com/news/national/kerala/keralas-wayanad-reports-fresh-shigellosis-case-as-college-student-tests-positive/article71248419.ece",
     "source": "The Hindu",
@@ -7389,6 +7434,15 @@
     "lon": 87.855
   },
   {
+    "headline": "Watch: Olive Ridley turtles begin laying eggs on Chennai's Marina beach",
+    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZVN4SnJHaHdXcVhQdzJXNENKRXh1RG1UUW1mblhsWWs4LWtYempYcTBzVmQ0SWQ1eU83MFVjRHY3cmIyQ2xXVFJ1VFRCRnpBVEFjWllGNEtmT1Q4VVdRRFh3QlFCOEk2bkhNUDdDdV9VdzZfRExUMXdMck9QN1JCemJYM1FsQ0pjUDRITmRuYV80MTVKTVlwMVRBWm9tQ2V1OC0wR1pXeXNfemFDdHFNb0Fwcm1EQWZTTkdGZy1MdVo1aGV4bEhDOGxrcEV4VGVRUkxrbkFKd0twZnVmOXc3SHVEaVJRTWdHcEZVcXhHN1DSAfYBQVVfeXFMTkdmQS1UQUtoRGxWNHMyQmxfdWwxQVcxUkNQbjBzRjdZUDB0Ym5yaXRIbE9mTFpXeEtiUTE2NXVmNGZBLWJUbThXQUYxZkpjU2pjT0pfS0ttc20yM2NmYnA4dXdtdFhPSW5YcjJJa21wTk1mSzJxbEkzTUxsSnRtMDZIWVg1ek13RlN2T1M4Y0ZROV9reXp5Q1oyblJIRFJoSE9zM0tOUnVQYUx2VktoQzgwajJpMFFsZHdQWHN0NXlPZmdLMmFLNzdWMVhZMFZ1Um1rbFE4SHVtSE9QMlo3XzdnZHZTVExNSjByN3FPTEotUVVHZmln?oc=5",
+    "source": "India Today",
+    "published": "2026-01-05",
+    "place_name": "Chennai",
+    "lat": 13.0827,
+    "lon": 80.2707
+  },
+  {
     "headline": "Chennai: Hatchery for Olive Ridley nesting set up at Besant Nagar beach",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcjFoZW5BelVJY2tncFFTbnREWEpSYUd0VXpHcTdmRVBJd1haOUR5M3ExeHJEc0pBVV9YemZJNEpRSlZrR09Gam5CLTlkZGNqb2U2LVZVeE96dkR4bEZJSm5SMHlUSU8xcmZXWGJTOGpabXlGU1ZERmlQRmtSMW9LTjVzTUpoRzhqZHZ2QVpIaDZ4dW03WnBadHJuRVdzYlVwWkc3MjRmNjl5OHlhZ2NHUkdzMEE3UXRXT1VkS1lvbXBpWXViY1HSAcwBQVVfeXFMT0M0NjhLUGtKam9vb0JDdEhlS0JXSDRMTVBfOWdmRUpHNjE5dld0R3YzUDlEOGFPOTFTaWRQang3YVN4NHBlNXF5WklVRktJYWZYWDZNYzc0QXpaM3JESDhQSUdFVXRpN0JXcU5SUkRucWV5c09WdmlnUzBTLXhxYndNcW9seEJUTFo2Qml4a2xfZm9OTk95X3I2ZjROWjIxeDhDTlVFeE43cUJScHJXVWRLYWRLQ24yb2gtWS1ZSnRDN2JhUTZvaU8teXpw?oc=5",
     "source": "The Hindu",
@@ -13171,6 +13225,15 @@
     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeW4yb2Y1ZUpVV0dmQTZ6aFJadVU0MWlHTVM5UXk1LWF6ZFFEVTJOeldwU0xTOEVJMnc2dERreUh1MjlneXY2VzV3WVo1Y0ZIVUZ3X3Jyb3gxZ3pTNTJFekp2RUI1cDB3MnlkdF82TUJZSlBaNWV2clBVekFGaHoxMzFFUGdRa3VHYXgyWlVrdlVCOTdVQmVPemN6MzhBYm1zaUVNcDR0OWpwWU82M1gzb1h4RERMS0cxMWdKc2pzeDBsN1JCNi1GR0FCMS3SAdIBQVVfeXFMT2Jld1dGUlY3WlZXUUVCTHRrTE9RSVNTaVhQeXhQSElzemVLWDVmanlkUzBxZUliZTM4RTRsdWRwQmVfcUNYc1JCY0RzeFkyeFZHeUZzSjZkT1RQSEtDSXQ5UzJ1cEVrSWEwMmY1V3BDY09KaEFObVFuYVUzd09wcnBaSkVNdkp0Zklnd01fc3BSeXdoS0ZLR3hQQ2tKQ3E4QmVVenVmS0xuTWhqdnFsNGw2MmRmZUN3ZUJla1JSY0pzZVRvYU95ZnV1T2ZhRUlqcVRR?oc=5",
     "source": "The Times of India",
     "published": "2019-05-22",
+    "place_name": "Goa",
+    "lat": 15.2993,
+    "lon": 74.124
+  },
+  {
+    "headline": "Goa’s new visitor: Big cat at Molem national park",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVXFZdHFRbmd3T05sdjFUOTFucTFWT0lNWUsySG1QVWhEUDV4Z0RENkNiVkNVZlhYTHU2ZVpVQ0VRd2xxMjJvY3p4R2RrTnBTSUtwb055NGJIZVhIRlJxZDF0am93ZmxCMlFOT3V1V0txdGRGTE1aNVFKLXV1YzVVcEtRQXVuZVFvRFhCV0FwRXJvOTBHemliT1hrdVBzLTVSbjBmSmJZT01xbWg2LTh0R1dkSFlHY1p3QUZFVHZR0gHDAUFVX3lxTFBuSS1EVlNKWlgxcHlaR0Y3Uk9RTktFYUpDTTRabVM5Z0Zac08xNDljeDVaMzFlaElET1BiWEFZcDNNZVZvNlBEVmptRkNtcEpEWDdRT2pWQllxQ1VuWVBZOGRYUWJVbFZWNXU2WFVUcjNGYmNTNWlqQlRQSnBudnpDa25yOUJUVEZoeWQ0aFhEM0lReWVJeU0yeFotdFlld2NFaWlVeElSenByMEdTb3dsa2NsQnllMVh2MmJSOVVYT2ZWRQ?oc=5",
+    "source": "The Times of India",
+    "published": "2019-05-19",
     "place_name": "Goa",
     "lat": 15.2993,
     "lon": 74.124

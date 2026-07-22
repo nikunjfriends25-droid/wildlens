@@ -1,5 +1,27 @@
 [
   {
+    "headline": "ক্ৰমাৎ জটিল হৈ পৰিছে কাজিৰঙাৰ বান পৰিস্থিতি...",
+    "headline_en": "There are 1000+ people in the Kaziranga National Park.",
+    "url": "https://www.asomiyapratidin.in/homepage/the-flood-situation-in-kaziranga-is-gradually-getting-worse-12186338",
+    "source": "Asomiya Pratidin",
+    "lang": "Assamese",
+    "published": "2026-07-22",
+    "place_name": "Kaziranga National Park",
+    "lat": 26.5775,
+    "lon": 93.1711
+  },
+  {
+    "headline": "ಕೋಲಾರ ಕುಡಿಯುವ ನೀರಿನ ಶುದ್ಧ ಘಟಕದಲ್ಲಿ ಹಲ್ಲಿ, ಕಸದ ರಾಶಿ",
+    "headline_en": "Lizard, pile of garbage in Kolar drinking water purification plant",
+    "url": "https://www.prajavani.net/district/kolar/kolar-drinking-water-unit-contamination-villagers-protest-4140958",
+    "source": "Prajavani",
+    "lang": "Kannada",
+    "published": "2026-07-22",
+    "place_name": "Kolar",
+    "lat": 13.136,
+    "lon": 78.1294
+  },
+  {
     "headline": "গোৱালপাৰাত বন্যহস্তীৰ উপদ্ৰৱ",
     "headline_en": "Wild elephants in Goalpara",
     "url": "https://www.asomiyapratidin.in/homepage/wild-elephants-causing-trouble-in-goalpara-12183398",
@@ -3100,6 +3122,17 @@
     "place_name": "Pilibhit",
     "lat": 28.6412,
     "lon": 79.8046
+  },
+  {
+    "headline": "कॉर्बेट नेशनल पार्क में मुसीबत में 'फंसा' जंगल का राजा, बचाने आए गजराज - Jagran",
+    "headline_en": "King of the jungle 'trapped' in trouble in Corbett National Park, Gajraj came to save him - Jagran",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQkZFMXNlcEJ3LU5kOUVZeUh5cGpfeEFVVFFWOWZ1ekdnOUczV0pIWXhtaHg5UXBYT0VnX2lmaWU1WEVIRk1wOUVFQUpELUR5TF9NbTZobUlPQUx2aHVSYldBN1pyYWVxcHJfYmN0QWlxU1d6dm9zRmpSaUNpVzU5bE5yZ0E4MUpaRC1odlJHUDBqdE1yY0k0X2NhN2hHMU1DWG1ZekV5ZTJLRnVocU9GT1h0ckZ3QWVtc2wxYWcyN3ZMLWVUMXdTRXZpaXZWd3JjTUR5bUhfYzhzZw?oc=5",
+    "source": "Dainik Jagran",
+    "lang": "Hindi",
+    "published": "2026-05-18",
+    "place_name": "Corbett National Park",
+    "lat": 29.53,
+    "lon": 78.7747
   },
   {
     "headline": "कार्बेट टाइगर रिजर्व में हथिनी ने दिया जुड़वा बच्चों को जन्म, वन्यजीव प्रेमियों में खुशी की लहर - Jagran",
