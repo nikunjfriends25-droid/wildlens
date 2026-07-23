@@ -1,5 +1,23 @@
 [
   {
+    "headline": "A. Udhayan appointed Tamil Nadu’s new Head of Forest Force",
+    "url": "https://www.thehindu.com/news/national/tamil-nadu/a-udhayan-appointed-tamil-nadus-new-head-of-forest-force/article71256752.ece",
+    "source": "The Hindu",
+    "published": "2026-07-23",
+    "place_name": "Tamil Nadu",
+    "lat": 11.1271,
+    "lon": 78.6569
+  },
+  {
+    "headline": "Karnataka rain: Holiday declared in Joida, Dandeli taluks",
+    "url": "https://www.thehindu.com/news/national/karnataka/karnataka-rain-holiday-declared-in-joida-dandeli-taluks/article71256759.ece",
+    "source": "The Hindu",
+    "published": "2026-07-23",
+    "place_name": "Karnataka",
+    "lat": 15.3173,
+    "lon": 75.7139
+  },
+  {
     "headline": "A lone moth leads the discovery of a new genus",
     "url": "https://india.mongabay.com/short-article/2026/07/a-lone-moth-leads-the-discovery-of-a-new-genus/",
     "source": "Mongabay India",
@@ -70,6 +88,15 @@
     "place_name": "Rajasthan",
     "lat": 27.0238,
     "lon": 74.2179
+  },
+  {
+    "headline": "Andhra to deploy 2 kumki elephants to curb man-animal conflict near Odisha border",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUXpKdUl0RFFEak1CenpEcEo4LWhrNjVJcW9EcmlmNjFjUEtia0k4UzZNeDAtbl8wVXVOaWhOb25haTJhWGk2emxFQXd1ZkNuYTZMaE9yNERMbGo2Ykl4cEN6QjNMdHNGX2RsdmFfSE04cmZRWldva2VfRkl0dHNFNlNETE1uMU1DM08wS2s2eXlzajR5UXRIdVZpT0lKTTRtR094U0lIMUU2Z3Mxc2x2VVpsZnNObU3SAbwBQVVfeXFMTXlEdmJvb1RUZzhRcnFnLVc1LVI2RXZjb2lDU2pwd1hTVzd6RzFFajgxOUljYnVjSW9IVHZheGpvM0ZhQjk0UHo0Sl9wSnE1MWZ3LTAxUnJHYUc5TmxzNFhyRkJRc1U2UTlfUnFyZjVaYjUyRm83SHg3S21aVlN6ekRnejZsdjB4Sm90OWRhamNEZkdxZ0FLam9nYmJLZ0hDLUMyd3JtZHFRd1lVMzk2RVlZR1VDSU0xUmhMaFI?oc=5",
+    "source": "ThePrint",
+    "published": "2026-07-22",
+    "place_name": "Odisha",
+    "lat": 20.9517,
+    "lon": 85.0985
   },
   {
     "headline": "Kerala’s Wayanad reports fresh shigellosis case as college student tests positive",
