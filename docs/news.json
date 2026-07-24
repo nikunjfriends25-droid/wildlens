@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Five forest staff suspended in Tirupattur over red sanders theft",
+    "url": "https://www.thehindu.com/news/national/tamil-nadu/five-forest-staff-suspended-in-tirupattur-over-red-sanders-theft/article71258450.ece",
+    "source": "The Hindu",
+    "published": "2026-07-24",
+    "place_name": "Tirupattur",
+    "lat": 12.4963,
+    "lon": 78.5719
+  },
+  {
     "headline": "A. Udhayan appointed Tamil Nadu’s new Head of Forest Force",
     "url": "https://www.thehindu.com/news/national/tamil-nadu/a-udhayan-appointed-tamil-nadus-new-head-of-forest-force/article71256752.ece",
     "source": "The Hindu",
@@ -214,6 +223,15 @@
     "place_name": "Odisha",
     "lat": 20.9517,
     "lon": 85.0985
+  },
+  {
+    "headline": "Video: Leopard sneaks into Rajasthan liquor shop, pounces on shopkeeper - embed.indiatoday.in",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HTkprZzNVVkhZcmJmdWRIUExObS1fMEV6N2dkVXdnOUJqeGxFQzBVeEdVdzh3UnV6RXllZkNxbnh4QmZmVEotdXlBY2xkci14cDJ4ai1oVXM3Q1RkYnRrdQ?oc=5",
+    "source": "India Today",
+    "published": "2026-07-22",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
   },
   {
     "headline": "Kerala’s Wayanad reports fresh shigellosis case as college student tests positive",
@@ -1816,6 +1834,15 @@
     "place_name": "Tadoba",
     "lat": 20.2333,
     "lon": 79.3833
+  },
+  {
+    "headline": "Gujarat youth killed in lion attack during alleged illegal lion-watching; two detained",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVHhLNHpHQXE3UmI3MXZSeU5NN085emdKTnltYjMxTnZ2N280MFdJMjl4aTdnSTlEbFkwM1MyZDRHVDA3UHkxSzJOaVYzRGlGZjZtRzg5X2pxWG1Kb3JDR3B5elVHLW9SYkNYU3hNMVZtYjFpeXQ2WElUb3BkM0drWjUwbVM1dUJCX3Q1cE1PeDluMHJac3R5QVlONm1Hb01sU0J6V25LYXZnSV9KcmtzYUM2YlZnVXFFbmVidmppOGszQ29yYXFBUWdNMzhncmMzNlV5QVdhQWRqTjBKN1HSAesBQVVfeXFMUFBNcjVBcGVEaUtxNk5WZE55MHI5UWpfeHNnbzUyZU9Vd1l2aThoTUtzNHVCSGo1N09KV1R6MmVaNEdOZjFPbV9Qb01QSlNWNkh2Q05hVmE3UU42cnNlclFHS2dmVUJjZGN2RkdmWmJfX1FIUHAwdnUtMlhRUkVLTUdNaGpyLXRYVnFnb0tETElPY0I3emgySnlGMFBRUkpxeVpuZHVvUG8tZFExUEdOb2hKUk95WjV3RnF0UEJ1QTFrNlhSZ0FmWC1kZnZqN1RnSFRGcTRYUGFIYW96VkIxN29MckZQWG9QMDVmSQ?oc=5",
+    "source": "The New Indian Express",
+    "published": "2026-07-09",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
   },
   {
     "headline": "13 deer found dead in a well in Madhya Pradesh, area cordoned off, inquiry underway",
@@ -4003,6 +4030,15 @@
     "place_name": "Jaldapara",
     "lat": 26.7,
     "lon": 89.65
+  },
+  {
+    "headline": "Study uncovers hidden bee diversity across Arunachal Pradesh",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZ25kam85dVpGeUNaZm03MDQ1aS1FektBWEJKVElXdVlJZzhFQXpydGhvU3ZLU0UwQ2d4VzRDY1pDbFFRMmQ5Um5rMjlkZjAtYUt2UWtYejVBR2dLRVdMOFEwZlhDNnAwRjUtWVRPaGRHX0h4LWs5N2JLSlYwQkYyOWw4UWVVRXZxUmZmR1FtdVBsWGFDeGlBZGhLLVNyQkFSc19KR0xLRDRmQ2RYNmVhYw?oc=5",
+    "source": "EastMojo",
+    "published": "2026-06-21",
+    "place_name": "Arunachal Pradesh",
+    "lat": 28.218,
+    "lon": 94.7278
   },
   {
     "headline": "Terror support network busted in Jammu &amp; Kashmir’s Kishtwar, government staffer among 2 OGWs held",
@@ -9178,6 +9214,15 @@
     "place_name": "Assam",
     "lat": 26.2006,
     "lon": 92.9376
+  },
+  {
+    "headline": "Andhra Pradesh's Prakasam village in grip of fear after tiger attacks",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSGsxc1lDZktBZWFNclhEdDdVei1wYVN6andxMjRNTWExV0JFbG9Eem85OThOWFdGQXNwaW1neWtMaHFKY3pWME9McTNOMU85YUhXSURxYVppM2E2TVR6MnVYal8wRzhPQWczTlZGeHhGWkNaU3Brc3I5QjQwTGZaVkRlZjFfS0hFTUV2NXRYY182X3hQQ1RWcGFfbFJRTEdBSC0zN0dWUjd3MGV2NllBQ2I3b0hUZlp6WEFfM1VKOUc2dnN5S1Q3U2huQmpEUFFq0gHeAUFVX3lxTFBrMjY5cHdWUzljMlhOQ3BtWVpyR2tsNmVoeEoxSFNHMmtYcGxpbU1QakdWX3BjeUNadmpUUE5iSTNMS1ZEUUp3dVRPWEJySi1UaG5pcVBjdHgxa19YY1Z6dmdIc0RiMGYxMm9idEIyY2xXSUZ5UUF2bElyb0hROUhBMG15MUxQNkhMQWd0eV9xTzhoVF9pX0dJc3NTZGlMeV8tZ1hwUDY0WEx6OVZlTW5weGZYSWphd2tSTGhPLXFFQ1hsQ1ZxTWdhcmozY1lKdnV3VzEzQ3ZxMXJmZy1TZw?oc=5",
+    "source": "The New Indian Express",
+    "published": "2025-06-30",
+    "place_name": "Andhra Pradesh",
+    "lat": 15.9129,
+    "lon": 79.74
   },
   {
     "headline": "How Goa’s Mollem National Park is Conserving Biodiversity",
