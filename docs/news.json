@@ -108,6 +108,51 @@
     "lon": 77.1734
   },
   {
+    "headline": "Three arrested for poaching in Vellore",
+    "url": "https://www.thehindu.com/news/national/tamil-nadu/three-arrested-for-poaching-in-vellore/article71282162.ece",
+    "source": "The Hindu",
+    "published": "2026-07-29",
+    "place_name": "Vellore",
+    "lat": 12.9165,
+    "lon": 79.1325
+  },
+  {
+    "headline": "Holiday for educational institutions in Kerala’s Wayanad",
+    "url": "https://www.thehindu.com/news/national/kerala/holiday-for-educational-institutions-in-keralas-wayanad/article71281992.ece",
+    "source": "The Hindu",
+    "published": "2026-07-29",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
+    "headline": "World Tiger Day observed with schoolchildren in Chikkamagaluru",
+    "url": "https://www.thehindu.com/news/national/karnataka/world-tiger-day-observed-with-schoolchildren-in-chikkamagaluru/article71281860.ece",
+    "source": "The Hindu",
+    "published": "2026-07-29",
+    "place_name": "Chikkamagaluru",
+    "lat": 13.3161,
+    "lon": 75.772
+  },
+  {
+    "headline": "Crocodiles Spotted Strolling Road Near Rajasthan's Ranthambore After Flash Floods Hit Jhareti Stream",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPX01ETVZyMnNGRlZRbk04OTB3cEVxRGttdzhJU0FaZGUtMV9Mc0ZhQ1pHNVJHb0hfTFZXMEgtbHQ1YTBXWlZsWEN5SVFtTmFqbHE0Sm1mTFc4M3gwZ1NfTXgtejFxNG9LUVAtWDBseGc2UEx5VzZQUGZwX01FNTNnclBMOUtuUkM4TVh3OTJIdGRNQTZnNTlJM3NHTkt0anowa0xVaFJVYTVKUWh3NWtPSVNqay1DMHV1WlQ4OEN0OG81cVFKdHAwdC14NGk1OUFGTVA3bjRfZ2R2a3BybGtLd3Qxc9IB6AFBVV95cUxNMDN2N1FsUTZTX3dDeTlpTGU1bGx2aDNGcVlsZy1EUEhwNFVfQm1qLUtKaW1TOU9JZmlnWXBKVlEzUnUtSzAyRUQ4bVpacmdseF9qdjBBRGJmN2lqSWJra1BfakhXc0ItcmhLUmRVQ0pDb3JIQThJVWI4SlZ5ZHpPanpYV0QzZVNjNzhDeVVCcEM1X2xhMFJLOGRyNVEyczFSNHQ5VFpoYldOeGNXdlNDclJoSWN1N2pHSkJMd0dTNmU4VV9janJDMkR4Yy1wSXdZWm5EUEIzM1JhMmdDejd5b0FGbVBkVXpL?oc=5",
+    "source": "ETV Bharat",
+    "published": "2026-07-29",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "Rajasthan woman reunites with family after treatment at White Doves",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVmRiTWJ0VzdseWFaRXVHUWc3aVdsb18zcXpWQmJDT1J5bHJjWW1MS191S21aRk00XzdWdW5ZZEtFeW5pemtyY1hWU0VHMU8xVkVubDl6MDVmX2c2MmVLRGpxb1BKb2Y3U0RzT0dQdV9aelY4VUhLbjFEZ2Itb3ZLdWxyMm55WUxwWnRYdzNZZ1NPNDFWbFM5TDEtenJaY01yT1BsV2tjc0R4dzJEeE5yejNCNWFwdlNjN0RNLXhyS21BVUNwY3UyS0JuWlJvQ3pUa0pYamd6aWlab1RK0gHiAUFVX3lxTE5kNUQ4Z3hfVk85X0FQZ3QxNkZ2Y3lldFdDQ1NuTDRoblNlaHFBdmtQUUVMNVJFUzVwTEE1ZGNoTTBQeGtGQmJuMkZyZVdDMGVyNlFLWHJPNWNvSEpaNnJqNzJ2dXlHVVY1TXR4ZXV0MFFsTVJYaGk5ZDNPcFhLeWdGZDdqbUdWdGRQbWRlcTBfN29admV4WkFCZ1IycVlZQmVnM2VyTkt2SksxRTRVZDQ3b1RnLVoxTVVDaHdKTjNTeU44RmJDMW9sb1k0S0ZNUG1sQk5vS0hackVYQkJmdkpBVGc?oc=5",
+    "source": "The Times of India",
+    "published": "2026-07-29",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
     "headline": "New-to-science spider highlights importance of open natural ecosystems",
     "url": "https://india.mongabay.com/2026/07/new-to-science-spider-highlights-importance-of-open-natural-ecosystems/",
     "source": "Mongabay India",
@@ -8514,6 +8559,15 @@
     "lon": 88.8806
   },
   {
+    "headline": "Watch: Saving Olive Ridley turtles: On patrol with Chennai’s Marine Elite Force",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNGpNRi01ODVKUHJMdjdEaXA2MGxYbXBVUHlBYzk5STNyT29aVXpTeUlYMGV3NVdWN0QxZ3BjYVNGWGFfUjZXS2JOYnBiTkt2U0kzQ0Flc2lCRlF2YlVzb2dObS1Icl9LWHB5RWNrZDVwUkZYYmh2Zjg0WWd0OWxDRGlGa1FuX2ljNmNtcWZNb1FONUw4QUZqcGc4dGYwYlhHc2ZBd1YwLTdNSFoycExaOVBRUk1Rd3o3eDk5MEhWdkRLbkFDRW4w0gHOAUFVX3lxTE9XaDRsaktpUXM5cVJvWWpSd2FNREswaHRWRW9ISE5YOEM2THF3b2F3NVBhem82ZzhVRVpRN1d5bE9MRUsyb25DejVfYmZPTVpLOVYtVkVBT25xRG90eEZfYTgzWHZUaXFOR2kyNHlqbDNPZG1kSnM5U2NoVDB0Wl82VGUwb1JENmZLeXk3V3N5SUkyQjhaTFcyUlpkVC1lTGpwZTY1VDRZeU00T2ZBMzNnZTQ4b2kxc3BVTGxPdmxKTFpLb1FnaEllT0VhTEFR?oc=5",
+    "source": "The Hindu",
+    "published": "2026-01-07",
+    "place_name": "Chennai",
+    "lat": 13.0827,
+    "lon": 80.2707
+  },
+  {
     "headline": "Human casualties by tigers go alarmingly up in Maharashtra’s Chandrapur",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeXR6cV8zdHRZdlQtX2hIR3ZPQUhSbFlFMGEybUFJVHZPb2VhbzNNUmVDN1VYQncwZ3J3aG1SNWJCWXJGbzNaMUhsTTY1WjhqaHVNX1JHTnBEM2pCUnZzRGZnN2F3a1lfc3JwSllnajBuZEMwYkE0dVdJVG1JNFZKUFEyelZVU0t0VGdYM1h3bGUwbTNoMmNKWng0eDFMdw?oc=5",
     "source": "Telangana Today",
@@ -11266,6 +11320,15 @@
     "place_name": "Karnataka",
     "lat": 15.3173,
     "lon": 75.7139
+  },
+  {
+    "headline": "23,910 visitors, global dignitaries attend opening day of 25th Hornbill Festival in Nagaland",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSC1MazRxZTVhU0k5ckRJS01LeWFiR250bjVmUXVrQkctZUVpa0FySXljYVBLWGxsd2lUOTFuQjNVQkF5cGRjZmZsTjRzcmFrWk9BVmt2YlB1a29ybVMtYm0yQVZDdmk4Zm5TM0dSQVlxaEtPMjNDZXlCYnBnRmttQ1U4Um9rMmFEcWxZaThHanBvSm9KTklIVDAzc2ZtM3JiYndtZGJyLXFKcGU2RGJya2lzMENDRW5QNnRPLWFEbFFia0dSNUthM2FmM2E5Z0nSAdQBQVVfeXFMTjRDWEZ0LXhXMWcxUHM5OWVzT1BSdUNXRGdWajA5WmRyNjR4WmkyTktsNUx4ODdSLVZfcnFQeU14RkxHU0hjbF9EdFN5c0pVbEZkdlFzMTFHTHhnV3RRV2JibDd3eWJLOHFIX0ROd0FSYkhZR1pCTjd4X3lHUENNLVAxT0tnNkVzUmYwRzJUYXFkVFVEdURUanJEVDc2OGs1NjJNVTNJLUpPT0d5WkdjZU1mRUxqa25OSk1QVFotMk9IejhpS1p0SjZmUl9nc2thQ1ZxT28?oc=5",
+    "source": "The Assam Tribune",
+    "published": "2024-12-01",
+    "place_name": "Nagaland",
+    "lat": 26.1584,
+    "lon": 94.5624
   },
   {
     "headline": "Odisha: Are Some Poachers Turning Leopard-Eaters in Nuapada District?",
