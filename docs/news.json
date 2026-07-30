@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Tiger found dead in Nagarjunasagar Srisailam Tiger Reserve of A.P.",
+    "url": "https://www.thehindu.com/news/national/andhra-pradesh/tiger-found-dead-in-nagarjunasagar-srisailam-tiger-reserve-of-ap/article71286622.ece",
+    "source": "The Hindu",
+    "published": "2026-07-31",
+    "place_name": "Nagarjunasagar Srisailam Tiger Reserve",
+    "lat": 16.5,
+    "lon": 79.3167
+  },
+  {
     "headline": "Gaur kills 68-year-old at Kulathupuzha in Kerala",
     "url": "https://www.thehindu.com/news/national/kerala/bison-kills-68-year-old-at-kulathupuzha-in-kerala/article71284823.ece",
     "source": "The Hindu",
@@ -106,6 +115,33 @@
     "place_name": "Sundarbans",
     "lat": 21.9497,
     "lon": 88.8806
+  },
+  {
+    "headline": "SHRC orders strict enforcement of rules for protection of mangroves, wetlands in Kannur",
+    "url": "https://www.thehindu.com/news/national/kerala/shrc-orders-strict-enforcement-of-rules-for-protection-of-mangroves-wetlands-in-kannur/article71286084.ece",
+    "source": "The Hindu",
+    "published": "2026-07-30",
+    "place_name": "Kannur",
+    "lat": 11.8745,
+    "lon": 75.3704
+  },
+  {
+    "headline": "12-ft gharial rescued in Rajasthan after 5-month hunt, brought to Chhatbir Zoo",
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQjNHUUxfaFU1SVY0WlJBa2ZtRDhSR19fNnpibVVDd3hnc2hTdTduLUozckxkbVNWYk9tV2JiQ0JsZFlkWFV4YzJFc1RCRENLUWxfNUVCMzVZSl94UXVRVURhM01nVnk0T2l2bU9aSEs3Y3dzUkFFUnRPQnhyREJxUExDWnFmcHBmbGZ5MTV3bU45akdlZzJsQnRtOWx5YzE1al8yeVNYRnp5MDJMbU5aR3ZfMFZORGdmY0FZWm1MU0s5b1JGNUFxQmlLeUVwcDRVTmxQUVotUDBVLS00Z1JxM1d4MDc4OVpKeWpF0gHwAUFVX3lxTE93cFdRVlRYeUljbi0yaDNaMXZTYThIeDhwU1dWdTFnbjNmN1FiUmxOdnJnUTU3S0RISkZyY3Y4clZsc3RKU2ZCa1A1NTVKWkdlWllyZ1dZeFRIczVuQWphUFRUanVKOHA2SEdMV2J6MURkXzREeDZsRnlFS1VubXVRX3RsMFAyTXBSZkdXNFNGY0REYzQ0bm9yQktIQThxR1Q2RVprVklhRHhVR2k3Sk9JOUQxVWcwTm1uU05TTEdMcWE1ZDZWRnVjbThlVUJLbkJ4cFBoaUF1c1VLNVlrTXFrU1NWZDF3V2RXd2xaVHlVOA?oc=5",
+    "source": "The Times of India",
+    "published": "2026-07-30",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "Adult gharial rescued from Rajasthan canal, set for release in Punjab’s Beas river",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV1Y0N2ZEb3Y0UWo0d2xpN01kcmdoR2FlWTZoMGhuemFlSEZReXJxOGN4UmtDbm01UmtPN1ZXMlYzckF0ejdVVXpFNWVwY1JldFVDdE45WlBXNWVmcDVtaWhlZU5TTF8xbGw4TTRtU05zUjY2bXpKeldaclp6VU9iLWVmMEh4X1p5ZVFmWjgwUWZONm9SQ0JhVkNSQTA5TU45MGloVC1oTDd3eWNPRUdMM1daNE01cWFPbmtHajU3b9IBwwFBVV95cUxQLVVBMm1nSzRBYTl5eVlfS0tuQ3JjUVR3M3UxUUotejl1dTVhejFVVUF3ZmViNlhhdmtua1FnX1M1cm1oMGJyUkRidUZvakx0a3ppMlZVNkRLbnVFWTdnYl9IMGtPeTg5RWdBajdVYmRLSUtYY1RNS3ZHRG1FSGZrSGNyTzVSNmo2cVBFU3VWNHBiMW1ELTNhS3JZV1UwU1NiczBZbkZIMFZ0YlZyOUpJZFNob2hocWR5Y21Bd2ZEVmZub2c?oc=5",
+    "source": "The Tribune",
+    "published": "2026-07-30",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
   },
   {
     "headline": "Eco tourism-based livelihood opportunities, the only way forward for tiger conservation in Telangana, say experts",
@@ -11761,6 +11797,15 @@
     "place_name": "Andhra Pradesh",
     "lat": 15.9129,
     "lon": 79.74
+  },
+  {
+    "headline": "Another Dead Tiger In Madhya Pradesh, With Four Likely Bullets Wounds In Skull",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSVh2TTI1SkFtdlRIdEpSRUxxaWh5MV80bEJHbER4a19ubHYydHprS2tBQkdBdEViUEtqdUlTLUltaFZXX0dvZXpLeEs5SHJkNlFqSVU0YTZXMVhSV2RzSVdUT2pKZXBiM2dUQ0g5SFdlTzVFWFFqdUdyUXhnLVhEUjdSMjhEYlRaYmFjYkdLY0ZEX3c0QWdEQ1Ywa1NiaTZqWGFzZl9CdWhsTVR2ZGhfZENVUGdiRjVabGVJOEhFOEtvTUFLTkVUUTBBTUlnd0dmeFNhSEpzeU9HOGo1YnfSAeYBQVVfeXFMT2NmS1RranVKcmkxVWQ4b2tfdnliOW5tOVJSREh0ZGJ3dXpjdkVuTUY1SXJuS0FmTzh4elBjNUpXZWt0cTZHX01XWG1jRnctX0tDcjlwOHFjUUxjaDVmb25kV0IwT0ljQ19kdUJmWEFjMnhHZnBfWWJ0bUo0c3hoZHdUSkMtZVpOdlpmSmZhZUkyandUS2J6VzAyVmxSOElUSU5PcnNEZzZqQlduclpaZlVMOE5vb0lJNHpXZ29QSWZFYzJaVHdpNV9uMDVJSUNFVlRtN0NnSTRnTy1yV0RQYVNLMGFsSWc?oc=5",
+    "source": "NDTV",
+    "published": "2024-08-09",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
   },
   {
     "headline": "Pawan Kalyan requests Karnataka to send some kumki elephants to Andhra Pradesh",
