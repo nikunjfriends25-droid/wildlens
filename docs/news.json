@@ -18,6 +18,69 @@
     "lon": 75.5
   },
   {
+    "headline": "A newly-described fish sheds light on a biodiversity blind spot",
+    "url": "https://india.mongabay.com/2026/07/a-newly-described-fish-sheds-light-on-a-biodiversity-blind-spot/",
+    "source": "Mongabay India",
+    "published": "2026-07-31",
+    "place_name": "Nagaland",
+    "lat": 26.1584,
+    "lon": 94.5624
+  },
+  {
+    "headline": "New species of Indian dory fish found in the Lakshadweep Sea’s twilight zone",
+    "url": "https://researchmatters.in/news/new-species-indian-dory-fish-found-lakshadweep-seas-twilight-zone",
+    "source": "Research Matters",
+    "published": "2026-07-31",
+    "place_name": "Lakshadweep",
+    "lat": 10.5626,
+    "lon": 72.6369
+  },
+  {
+    "headline": "Animal adoptions rise at Visakhapatnam zoo as families celebrate birthdays with wildlife",
+    "url": "https://www.thehindu.com/news/cities/Visakhapatnam/animal-adoptions-rise-at-visakhapatnam-zoo-as-families-celebrate-birthdays-with-wildlife/article71256566.ece",
+    "source": "The Hindu",
+    "published": "2026-07-31",
+    "place_name": "Visakhapatnam",
+    "lat": 17.6868,
+    "lon": 83.2185
+  },
+  {
+    "headline": "Headless leopard carcass found in Madhya Pradesh forest, poaching suspected",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOU0xWR2o2alNacDFIQmZwQlpYZ2tQcVlkZWdwX1V1OE9mai14Y0xuS3lDYmVNY2Z6bVY2VlZxUnRNc1Q2VUVDeEw5RFdGdUJuNHZfZ01LTjVESGRObXNaQ3kyb1Z6c25VOW9Lek5KWVczWm01OXI4eGtPZm5lYkZBb29PQW9ubGI2RmhoWEdfR293YS1wQVFrd1JVTTFLSnVMMkswajlBbUQ2U1ZLcndsblNadFh3Y3JQQVZFS291R2xCeEl4X3p6MWs2V2YyRFM3MmtscmNYYnN4b210VXBiS3ZvTG7SAeQBQVVfeXFMTlNMVkdqNmpTWnAxSEJmcEJaWGdrUHFZZGVncF9VdThPZmoteGNMbkt5Q2JlTWNmem1WNlZWcVJ0TXNUNlVFQ3hMOURXRnVCbjR2X2dNS041REhkTm1zWkN5Mm9WenNuVTlvS3pOSllXM1ptNTlyOHhrT2ZuZWJGQW9vT0FvbmxiNkZoaFhHX0dvd2EtcEFRa3dSVU0xS0p1TDJLMGo5QW1ENlNWS3J3bG5TWnRYd2NyUEFWRUtvdUdsQnhJeF96ejFrNldmMkRTNzJrbHJjWGJzeG9tdFVwYkt2b0xu?oc=5",
+    "source": "India Today",
+    "published": "2026-07-31",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
+  },
+  {
+    "headline": "Gujarat man opens bathroom door late at night, finds 7-foot crocodile inside",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQYXBMeE9YSFMyWF9LMGd2NjRFemxTT2g3QmdqYklxb083Sl84YnQ0Tk9ISXg4bk5zWTZnUmRlT0E0Z0hmNnBjcWpKNTJhZkNDUTJWZmNhSnp0dkRpV25QbjlGWFVRX2NSYVZNZHJNSGRXS2xNUHY5NTFhakkwYzJRUFNuYUdxTGl1cUtHM3JHT2Y5ZHhKaTBrekg5OG9NRk9GMkRqckxmVXlKaXp2UGZ1Ri1qOGo4cF8xN0laaEZCUm9HVWtKOFl0MkI1SDhXOW5hM09zQVhmUdIB3AFBVV95cUxObWNMQW5PaWpXc1ZYYmxXeEsxUC03OHdhMzNzSHppSXNQMjZ3dTJ2NkE1QUFWUXIxcEpjZUV1UjBnVEhScVQ1X1pLQVZMU2pLSThxS29HMmJ3b0c1ZmZxWFZNMF9yTzkyTTltaHRxTjA2Ym5nZ0lpMVFyQXhYdGtaV1dXLTc0WmhtSDZiUllTRHl4NnlJSHdDYmVZUS1ycVNnT0FERWY4LV9yU1RtT1VCYnJfQmxtMkxVb2tYQmZ4clZTMWVhQnJ6ZjZuX0NXdWk0NUt5Q0ZvNUZnRkg0?oc=5",
+    "source": "India Today",
+    "published": "2026-07-31",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
+  },
+  {
+    "headline": "Tribals in Madhya Pradesh’s Dindori earn  ₹42 lakh by collecting borer beetles to protect forests",
+    "url": "https://www.hindustantimes.com/india-news/tribals-in-madhya-pradesh-s-dindori-earn-42-lakh-by-collecting-borer-beetles-to-protect-forests-101785462131236.html",
+    "source": "Hindustan Times",
+    "published": "2026-07-31",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
+  },
+  {
+    "headline": "Punjab gharial rescued after straying into Rajasthan canal | Hindustan Times",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYXlhTS14ZW5rZFBFbVQ0NlozTjVrMUlXdnkzbDRtbnJwcTRDWWpKSHoyQ1lDS3VKZ0d2MTZYejhXem9xWllrLXljaXNsOEFxUVk2dGc0RUp5V3FRc296d0lJamtfaXU0SDFoSENkZ0RsWmM2YXNRTEh4dm4wZWVsNVBtVkVGTkZ3QnduYlFfalQxdVFQLUlvQ1VGWnozQXBZaVV0OUhoajA3Mm9GTXZ1c1VBYmN4TXh1X1E5eEhFRUZiNHRxRVV5WmdaMmEwd9IB0wFBVV95cUxPdmZLVjY1Z2VLVWk0U1VFYjZYZnV5d1dfcmo5QnloeTQyN05Ia1hLVTZVUHRmOFJnNUFJTEM5ZnNMVW5zT1ZPMzc3NkhEVW9sQl9YbmlhVURqOXpYQ0tiNGxSQW1aX0VNRnJONXJaeFc2dnIxWlFHTWw0MjE1bEExNHdIUjRsT0lmZkNhdmExR2hlcnNxcWdidEdHUEtxSGVfTTA5NC1nZXJwNDFmUG1xeXhuOVBlWDdxWXdqRFZCNVNPLXB2dHdBV04yVnhNWDY3Rm9J?oc=5",
+    "source": "Hindustan Times",
+    "published": "2026-07-31",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
     "headline": "Gaur kills 68-year-old at Kulathupuzha in Kerala",
     "url": "https://www.thehindu.com/news/national/kerala/bison-kills-68-year-old-at-kulathupuzha-in-kerala/article71284823.ece",
     "source": "The Hindu",
@@ -2311,6 +2374,15 @@
     "place_name": "Arunachal Pradesh",
     "lat": 28.218,
     "lon": 94.7278
+  },
+  {
+    "headline": "Gujarat Tightens Safety Measures at Girnar Wildlife Sanctuary | Akashvani News",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOTRhQlcxQkxkc0RjaGZlRjhFMmszbjZuU0hQUVhjLUhMaFpGTDNwTF82OUtaaGVJb3NIRkQzVWV1NGNCZHh2MTFSQlhiNnhxcXZMYk5rc2g0anFmUGJGdXFadDZnUHBLWTZyWk0yZjZ0ZjhzZE9tR0x4clVHbWdJYzlTZk1uVGNfckp6Qm84UGE?oc=5",
+    "source": "News On AIR",
+    "published": "2026-07-13",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
   },
   {
     "headline": "11-year-old boy killed in lion attack during Girnar pilgrimage in Gujarat",
