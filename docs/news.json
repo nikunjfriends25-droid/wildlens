@@ -36,6 +36,33 @@
     "lon": 77.1734
   },
   {
+    "headline": "Tiger kills calf, sparks fear among villagers in Eluru district",
+    "url": "https://www.thehindu.com/news/national/andhra-pradesh/tiger-kills-calf-sparks-fear-among-villagers-in-eluru-district/article71295481.ece",
+    "source": "The Hindu",
+    "published": "2026-08-01",
+    "place_name": "Eluru",
+    "lat": 16.7107,
+    "lon": 81.0952
+  },
+  {
+    "headline": "Bengaluru’s land mafia and land sharks get laws bent to serve their interests: Karnataka High Court",
+    "url": "https://www.thehindu.com/news/national/karnataka/bengalurus-land-mafia-and-land-sharks-get-laws-bent-to-serve-their-interests-karnataka-high-court/article71295231.ece",
+    "source": "The Hindu",
+    "published": "2026-08-01",
+    "place_name": "Karnataka",
+    "lat": 15.3173,
+    "lon": 75.7139
+  },
+  {
+    "headline": "Heavy rain batters Kerala’s Wayanad, forcing evacuations",
+    "url": "https://www.thehindu.com/news/national/kerala/heavy-rain-batters-keralas-wayanad-forcing-evacuations/article71294875.ece",
+    "source": "The Hindu",
+    "published": "2026-08-01",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
     "headline": "Tiger found dead in Nagarjunasagar Srisailam Tiger Reserve of A.P.",
     "url": "https://www.thehindu.com/news/national/andhra-pradesh/tiger-found-dead-in-nagarjunasagar-srisailam-tiger-reserve-of-ap/article71286622.ece",
     "source": "The Hindu",
@@ -232,6 +259,15 @@
     "place_name": "Kannur",
     "lat": 11.8745,
     "lon": 75.3704
+  },
+  {
+    "headline": "Headless leopard carcass found in Madhya Pradesh forest, poaching suspected",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMUFoOXlQaUExSmJTN0s5ZkxaYjNQZ3p0cTg3b1Z1RW5BWElXSXlrSDMwMUx2UUhzUHJVUHRvWkdwNzhrdE9xZDA0NW95clVqQy1pMnlaMW45OWJSTEl2dldTNldEbGlJenBPT3BEd3MwR3VkT0gzcFN2aXhXbWtPSEd4ejJId0pzRHpyM0oxcG03YmR3Nm5zWE41RVRzdHNqWHlMeEdzZlNpcUlrSmsxLThJQUFuZEdGWkJyRllQVXpqdW5XQzkxbDFDUDdndmkyT3FlNVB3cDFtYTNKOFlB0gHkAUFVX3lxTE5TTFZHajZqU1pwMUhCZnBCWlhna1BxWWRlZ3BfVXU4T2ZqLXhjTG5LeUNiZU1jZnptVjZWVnFSdE1zVDZVRUN4TDlEV0Z1Qm40dl9nTUtONURIZE5tc1pDeTJvVnpzblU5b0t6TkpZVzNabTU5cjh4a09mbmViRkFvb09Bb25sYjZGaGhYR19Hb3dhLXBBUWt3UlVNMUtKdUwySzBqOUFtRDZTVktyd2xuU1p0WHdjclBBVkVLb3VHbEJ4SXhfenoxazZXZjJEUzcya2xyY1hic3hvbXRVcGJLdm9Mbg?oc=5",
+    "source": "India Today",
+    "published": "2026-07-31",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
   },
   {
     "headline": "Gaur kills 68-year-old at Kulathupuzha in Kerala",
