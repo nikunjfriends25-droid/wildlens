@@ -1,5 +1,14 @@
 [
   {
+    "headline": "India’s first high-altitude wildlife safari to come up in Ladakh",
+    "url": "https://timesofindia.indiatimes.com/india/indias-first-high-altitude-wildlife-safari-to-come-up-in-ladakh/articleshow/133014355.cms",
+    "source": "Times of India",
+    "published": "2026-08-07",
+    "place_name": "Ladakh",
+    "lat": 34.2268,
+    "lon": 77.5619
+  },
+  {
     "headline": "Sloth bears are unlikely seed dispersers shaping forests",
     "url": "https://india.mongabay.com/2026/08/sloth-bears-shape-forests-as-unlikely-seed-dispersers/",
     "source": "Mongabay India",
@@ -70,6 +79,33 @@
     "place_name": "Himachal Pradesh",
     "lat": 31.1048,
     "lon": 77.1734
+  },
+  {
+    "headline": "Karnataka government gives NOC for Bairakuppa bridge connecting Wayanad and Kodagu",
+    "url": "https://www.thehindu.com/news/national/kerala/karnataka-government-gives-noc-for-bairakuppa-bridge-connecting-wayanad-and-kodagu/article71310211.ece",
+    "source": "The Hindu",
+    "published": "2026-08-06",
+    "place_name": "Karnataka",
+    "lat": 15.3173,
+    "lon": 75.7139
+  },
+  {
+    "headline": "Asiatic lions enter Gujarat’s mangrove habitat",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTTdydVVXWHhTZ1VLNDNaNWFDTlI2b25ETnkwb1pJVmJBeno1d0Vscy1MYUFhTVgtWDhBX0c1Z0QyTF8wLW1fUHJhaDMwR0REZzhWQVpuOU5FcEllNmVlQndDTzRnMkE3T3RHSExtYzRQMlktWWY2eGFubVpHZ1BqMjJSbGRTTlBTOTJuVFVCNmwwR1V5QldoYnl2dHBESE9MQVB0T1BLTWVITEkyNElISnh5bFlZd3lrOE9tS01NSdIBxAFBVV95cUxNbV9ROVhhUDRNZGVUQi1oS0dyWVZ5SWF0aF93OFhBVEVkcUVFdzZEZ0xEYUVNeHFPNHRRUERPOHRIZEhqbTV4eVphWW41YVF2bGpPRjRxRHZxcWdKeFZEYWwySlpFQzRGMS1wT1pRNzBoZWpraW5jWDA3b1dGcmlnOF93Ym9EWkFvVnJyODUxbkFhbzFiZEJHajRfdkdqRFNPVFBGVk4wSXJrRndIQnJSYklpVFFTWEgtdkZBdjkzZ3VmbTBO?oc=5",
+    "source": "The Times of India",
+    "published": "2026-08-06",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
+  },
+  {
+    "headline": "Goa Monsoon Magic: Rain Transforms Beaches and Forests Into a Green Paradise",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMHVHQUFCOFdJbGRVbWNSS1BuemJTbVpiUElEUXRwd1NlTWRvdF96MnNPMmtlT2J0T3RsNjNKWWx0ak4xN1hpSjc1THVjYzhfb2k0OXdqbTV4LVFmLTNGV1RCNEtwUzlIbnpWUlpSS1VHN2J1QTBteDU3MjBTcTFvZw?oc=5",
+    "source": "Nomad Lawyer",
+    "published": "2026-08-06",
+    "place_name": "Goa",
+    "lat": 15.2993,
+    "lon": 74.124
   },
   {
     "headline": "New seahorse species identified by Kerala researchers",
@@ -15649,6 +15685,15 @@
     "place_name": "Odisha",
     "lat": 20.9517,
     "lon": 85.0985
+  },
+  {
+    "headline": "Indian pangolin rescued from house in Odisha's Cuttack",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcFM4ZFgtdmlZblNhNFRQTXRmOVdyb3NQUl9WZllIY3lEUENWMnBOYTg1OS1La3JHWnFZQWJZaHh3ajl1eE9LckpWX2xkSGdKWHVjV1U4RkEzQ2U1NnpXUHpDdTdFZGoxWHBqS3A5Y2FycFJaNkF4ODE2MmRJNEtMaDZEeXBaZ0paMkdiOWtxMlk4WTlrdVI4UDdEMmV1ZTTSAaQBQVVfeXFMTWVIc20zb3U5M0dQczZ2QXFIQUNlODZUdXNqbmxSYTNYMWNmNjlHWU04UndqNXZic05ud1R2cnJKbDFWdDQ3NXRROW9vX1hIdkVZcXBMcjZqemNtaVh1cXBaVFI3RlpXU2l1Q3dXcGM0Q21FOC1DY2FYWFhZVkE4cExRaVBPbjBSUmdMLWJVNDQyMkt1QkhlQzRMZE13OHNiQVZMb1g?oc=5",
+    "source": "Zee News",
+    "published": "2019-08-31",
+    "place_name": "Cuttack",
+    "lat": 20.4625,
+    "lon": 85.883
   },
   {
     "headline": "Odisha: Pangolin Rescued From House In Athagarh Village",
