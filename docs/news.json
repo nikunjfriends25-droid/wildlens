@@ -54,6 +54,51 @@
     "lon": 78.6569
   },
   {
+    "headline": "T.N. to file review petition against eviction of people from Megamalai region",
+    "url": "https://www.thehindu.com/news/national/tamil-nadu/tn-to-file-review-petition-against-eviction-of-people-from-megamalai-region/article71357586.ece",
+    "source": "The Hindu",
+    "published": "2026-08-17",
+    "place_name": "Megamalai",
+    "lat": 9.8,
+    "lon": 77.5
+  },
+  {
+    "headline": "Cutting monkeys to size, zipline style in Kerala",
+    "url": "https://www.thehindu.com/news/national/kerala/cutting-monkeys-to-size-zipline-style-in-kerala/article71356292.ece",
+    "source": "The Hindu",
+    "published": "2026-08-17",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
+    "headline": "EAGLE seizes six kg ganja concealed in auto’s speaker in Hyderabad, five arrested",
+    "url": "https://www.thehindu.com/news/national/telangana/eagle-seizes-six-kg-ganja-concealed-in-autos-speaker-in-hyderabad-five-arrested/article71356603.ece",
+    "source": "The Hindu",
+    "published": "2026-08-17",
+    "place_name": "Hyderabad",
+    "lat": 17.385,
+    "lon": 78.4867
+  },
+  {
+    "headline": "'No one will be spared': Maharashtra FDA chief warns after notice to SRK, Ajay Devgn, Tiger",
+    "url": "https://timesofindia.indiatimes.com/india/no-one-will-be-spared-maharashtra-fda-chief-warns-after-notice-to-srk-ajay-devgn-tiger/articleshow/133298789.cms",
+    "source": "Times of India",
+    "published": "2026-08-17",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
+    "headline": "Khagi turns forest resource into sustainable livelihood in Arunachal Pradesh",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMldUMTk5alMyZHhLdUNTVTJqYjdOTE94VXJpUXdhSHU1TTdoeUwzWi1ON2x2ZzlDLVphcERhbzR6RTZNMlgxcnJ6Yjc1LXZMSkNLeUduQ1h4aG5vVDBlb0tnb0ktd0VvVFk1SnRNMFNhNlVEOWtuRmVYU1dVRDcyNFdoXzNvWkRWcHhNcG1LWlA0V0NCQVpDWVJYYjJpQ3cw?oc=5",
+    "source": "Hub News",
+    "published": "2026-08-17",
+    "place_name": "Arunachal Pradesh",
+    "lat": 28.218,
+    "lon": 94.7278
+  },
+  {
     "headline": "Shah Rukh, Ajay Devgn, Tiger Shroff now get notice from FDA's Tukaram Mundhe over Vimal ad: 'Explain in 15 days'",
     "url": "https://www.hindustantimes.com/india-news/shah-rukh-ajay-devgn-tiger-shroff-now-get-notice-from-fdas-tukaram-mundhe-over-vimal-ad-explain-in-15-days-101786858164467.html",
     "source": "Hindustan Times",
@@ -9315,6 +9360,15 @@
     "lon": 88.8806
   },
   {
+    "headline": "Day After Tourist's Death, Elephant That Trampled On Her Dies In Karnataka",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPSGtYek0tXzVOclpDc0oxbV8tUDhWcUFnVUEwRjAyVjNtNVlVSF92djRJYUdBcFk3WmJOVlZMRDdyQUlPRVFJV3RvQ1NYOHBMQmVGTHhDcS15MTg3VENPUExYVlpDMHB0UklMY2xnU1ZjSV9jS2lfUlplODhVZ0gydXJhbjJPRUp0UGRPempEdDJVR0hoREtxNnluTUNSS1dTTlB6YzA1SkZ2NEQ1UkVrZGRRa0gyZ3NDa3UxSzRNUzhMY0VUTS1LeTF3bVR1NElnSGRVYVNXNlJITUM4Q1lHSEo0M2dSQVBkczJuZTZXRFBkUdIB-gFBVV95cUxPT2lOUDBCVFdBb3lDOTk3aUJhY1RuZEJkVFp1UlNsZEw0TWI0S0RpazR6dzN4WkxaYUpsNEliSVpUdGNZblVTRWhVY19rWmMzcEstY180MUdld2NUYW1LallfZG42TWRVSHJxMzNPZmo4ZjE0SGtvMWVLdU5kVXh1bjFIWExQTWlYMFNhWS1WQUIzVnE0V2Fwd1o4Zkd5ZHh4TDYwcWJqS3k0cTdzdzdPWEltU1N4cXRlQ0cxOExWb0VBel9aUGVjaUI4R0pBNUxhR1o1UmZFQktZZmJSaGJsUUxYNzgzOW9kV0ZpZ2RydjhheWdhUXlUZlRB?oc=5",
+    "source": "NDTV",
+    "published": "2026-05-19",
+    "place_name": "Karnataka",
+    "lat": 15.3173,
+    "lon": 75.7139
+  },
+  {
     "headline": "Assam school students learn hands-on water quality testing",
     "url": "https://www.thehindu.com/news/national/assam/assam-school-students-learn-hands-on-water-quality-testing/article70990189.ece",
     "source": "The Hindu",
@@ -16567,6 +16621,15 @@
     "place_name": "Madhya Pradesh",
     "lat": 22.9734,
     "lon": 78.6569
+  },
+  {
+    "headline": "Four elephants die within 11 days in Odisha's Karlapat Wildlife Sanctuary",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRERIeVJDM0VyWlJJRXp1VktXSGg0cG5sWldKVzdFTjVPcjNPWUpYRDFDZGtoUWJ0eWNYZERveGpFbFNRVmdNeWlQZGg2OTdPeGRHUTg2cXR0ejhzZmo1VjM5MEZkUHdNcnRURTR3dE5haGFuZjl0SWl1QXlnbkJMVXluNVZyNERqTlhoTFNZT2d4dHV1LUdrSHVMOC1mTjdjazEtN0VIMXItWDJORjJ2eUFJSFp2bmhrc1lZ?oc=5",
+    "source": "Deccan Herald",
+    "published": "2021-02-12",
+    "place_name": "Odisha",
+    "lat": 20.9517,
+    "lon": 85.0985
   },
   {
     "headline": "On the ground with Chennai’s Olive Ridley turtle troops",
