@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Seven held with elephant tusk in Malappuram",
+    "url": "https://www.thehindu.com/news/national/kerala/seven-held-with-elephant-tusk-in-malappuram/article71357055.ece",
+    "source": "The Hindu",
+    "published": "2026-08-18",
+    "place_name": "Malappuram",
+    "lat": 11.051,
+    "lon": 76.0711
+  },
+  {
     "headline": "Bihar tiger attack: Farmer killed near Valmiki reserve, mob assaults forest staff",
     "url": "https://www.hindustantimes.com/india-news/bihar-tiger-attack-farmer-killed-near-valmiki-reserve-mob-assaults-forest-staff-101786942262628.html",
     "source": "Hindustan Times",
@@ -1728,6 +1737,15 @@
     "lon": 79.74
   },
   {
+    "headline": "Tadoba tiger ‘Explorer’ returns to Andhra Pradesh in search of mate, territory",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQmJXeVVWaTY3UHJLSUJBZk1HTGxlM011elpjWE5XQ29MdzB0YThRUVJlcE1BVi1jWXA4MThveHRKSDMxZjhYbzk1TlJpTGdEejBwVUdUc0VFZk1UalQxdlIwSUpQZXFTMHhzc2ppa05WaFBUcDZSVmFrM3dPUDFqUy15ckhfZi1sMDdLRkFUV0tFdXViNFVRWlpMdXVhNFRmWlcteWlpMGFVYUh0ZFZMS0hNRVgyXzRzbUdHb3VVQjdwQVBoWTlDNnRUamQwNWo1b1lpWHBESHRPVWU0VWpVS2tQb9IB6gFBVV95cUxQUXBDazRMV0dlZ09kYVRSTXB2NzlvMnhWLUZmeTliMVh6SUdnaWdWU2FacG5tMzFyV292a2hVbU5UbXA4alF0eGt3dGg0YWd6bFpmOG5VbkdtN2dCQVdxZVJFV2lSYm05LWVDMDlJVUpscGlsOVJOakF4M1dnMzBGcmR1VnJoTHl2aWxnVS1LekJZWURSNWRvVUhhMGtSVDZRS1ZIZ19IYkNZYXFoWUdfdTY2ZWlqejRWY0k2bzY4eWp4UjBUWEtzTE91ZjJEbGZGb1ZxMWY1X2hJcEpSODRxb1pHc0hJdlV0aFE?oc=5",
+    "source": "The Hindu",
+    "published": "2026-08-03",
+    "place_name": "Andhra Pradesh",
+    "lat": 15.9129,
+    "lon": 79.74
+  },
+  {
     "headline": "J&K speeds up FRA implementation; warns Forest Dept. against eviction notices",
     "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/jk-speeds-up-fra-implementation-warns-forest-dept-against-eviction-notices/article71295725.ece",
     "source": "The Hindu",
@@ -1874,6 +1892,15 @@
   {
     "headline": "Licensable picture: Mangrove Forests Along The Matla River In West Bengal",
     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNR1V0UmdFUlk2WExjNUdnb0EwMWJveUVtNlhicEZDZEk3Z0xRbGJRWWI3UEtUTHctbGFyNGFqbkx4U3VTdk5wUmF0RVY0ZXdtZ3RlUklQcnBWbDM5OWNEZHBZMmFuRmdOSmhVWTBrRUExekR0X0hEdW5oR0pQWkxRRkJtWWlyaXYyQkREWDhPNUNOd3ZWbXI3YW5QcUR6VUQ2bDFuOGZhTVF0aERzc1l2SGx6UldnVmdna2VyRG1JMHRzWkZNcjFuQVVGZjRKTXk1eUVmSnRoYnNrdHhSb1d2anRCNGdYdkU?oc=5",
+    "source": "reutersconnect.com",
+    "published": "2026-08-02",
+    "place_name": "West Bengal",
+    "lat": 22.9868,
+    "lon": 87.855
+  },
+  {
+    "headline": "Licensable picture: Mangrove Forests Along The Matla River In West Bengal",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOYnRUb1pnQmJGdXFFOEJhRkFnN3VmMkwxcTg2ZjA5VEtjbi0wQlJWS25leENEenpFTDdxc0NYRExtOGNCbTQyMHRFSnBILUJtY0ExMEdxS0ZkV0Rrb3VPSE8za1FzLVJMOWtlTXRXcjJNaDNEM0VkWWxJb3FfTk9EcGl5bjk2c1VrY2tocGVqMmllOUZPczFjS18zNEZLSXp4NzU1dklXRDgxTGl1MzVZTTNBalhRSDlwNVZfcVB3NGhxZ09SRTVHTXJ6emhUTXRzR3BWSEFXR1ZzUkJlU18xVnpac05tQmM?oc=5",
     "source": "reutersconnect.com",
     "published": "2026-08-02",
     "place_name": "West Bengal",
@@ -15244,6 +15271,15 @@
     "place_name": "Goa",
     "lat": 15.2993,
     "lon": 74.124
+  },
+  {
+    "headline": "Sathyamangalam tiger reserve - deccanherald.com",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MZHBzS1RMXzdjeEFzb1FEVldUbzBEY2tJMC1PVmlGTkQ4UGg2MmlwSVZUTzNPd0dDem1jU3VtdnQzU3UyV3I5T0tDLW9GMmQzWHAxeXd2UlR0RlVpaUVDdjZCR1Q4cFF2VmJlYWs2UQ?oc=5",
+    "source": "Deccan Herald",
+    "published": "2023-08-06",
+    "place_name": "Sathyamangalam Tiger Reserve",
+    "lat": 11.5,
+    "lon": 77.2333
   },
   {
     "headline": "Why Goa govt is opposing tiger reserve tag for Mhadei Wildlife Sanctuary",
