@@ -81,6 +81,42 @@
     "lon": 89.65
   },
   {
+    "headline": "Fresh drawing of State-AP border based on 1896 forest map sought",
+    "url": "https://www.thehindu.com/news/national/karnataka/fresh-drawing-of-state-ap-border-based-on-1896-forest-map-sought/article71360904.ece",
+    "source": "The Hindu",
+    "published": "2026-08-18",
+    "place_name": "Ballari",
+    "lat": 15.1394,
+    "lon": 76.9214
+  },
+  {
+    "headline": "Abhimanyu: From wild elephant taskmaster to Dasara’s golden howdah bearer",
+    "url": "https://www.thehindu.com/news/national/karnataka/abhimanyu-from-wild-elephant-taskmaster-to-dasaras-golden-howdah-bearer/article71361032.ece",
+    "source": "The Hindu",
+    "published": "2026-08-18",
+    "place_name": "Mysuru",
+    "lat": 12.2958,
+    "lon": 76.6394
+  },
+  {
+    "headline": "Two elephants found dead in Mudumalai Tiger Reserve",
+    "url": "https://www.thehindu.com/news/cities/Coimbatore/two-elephants-found-dead-in-mudumalai-tiger-reserve/article71360887.ece",
+    "source": "The Hindu",
+    "published": "2026-08-18",
+    "place_name": "Mudumalai Tiger Reserve",
+    "lat": 11.55,
+    "lon": 76.6167
+  },
+  {
+    "headline": "Massive crocodile enters Goa home: How the giant reptile was rescued from a Khandepar house",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa0Vra2FXek1kbGZDTkxCdC1BRlhDRGRnN295WVB0RzI1Y3JnQ0U4a0ota0ZtRzVOMzRDcFdNVk9vQUdHMnFFNER4WHBsSWNKaE9ZcFB0N1pIVVZvalEySC1lbTc1bkY0b3pRc3JFbGJsQnFfdXhaUGI0Z1hyRC1acW1wcWphd2lZZV9RVlN2TEgxNW9yNnlNTkRLM0NwemVZUG1keWlRWE8tLW1ab0VlRkFfd2VxNk9wX29IV0pQQkNJQQ?oc=5",
+    "source": "Open Magazine",
+    "published": "2026-08-18",
+    "place_name": "Goa",
+    "lat": 15.2993,
+    "lon": 74.124
+  },
+  {
     "headline": "Bihar tiger attack: Farmer killed near Valmiki reserve, mob assaults forest staff",
     "url": "https://www.hindustantimes.com/india-news/bihar-tiger-attack-farmer-killed-near-valmiki-reserve-mob-assaults-forest-staff-101786942262628.html",
     "source": "Hindustan Times",
@@ -349,6 +385,15 @@
     "place_name": "Deccan",
     "lat": 17.5,
     "lon": 76.0
+  },
+  {
+    "headline": "Man trampled to death by wild elephant while grazing cattle in Chhattisgarh",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPV2xzLWZmZWNpMFl1VjU2MjZuVjVWWDVXVTFPWjkzUlB6R3l2azU1MVlzTWZmaXdHLWtnMHZrMnJJazZaTHRfeHZzUWJOZ3BVbmwteU5lVTlXbVRLS2hCQ1B1U1FGWDYwRnFRSjM1U21RVEEzc1NnN2lWZW90OUpXX0tTY0dsOXZ6b2lEMlBmcXdSUG80eEotM0w3SHJiZ0VmM0E5T1doN293aENHakdTME5ab0c1VFc2aVA5X0wzRE5reUdRYWg1N0tNaHZ1OTF0cXRv0gHYAUFVX3lxTE5vYkc0WTBSTV9TbFd3cEMwNXZ5a2tNRmJLcmtXV0xnd1FGU2dBV0tFYjVsT0NtNWtUUnA3el9mdTNEd0tMRE01Tl9LYW1vVzJxUmJLb2tGR0E2LTNyMFpwZWRpMi1hNW1Dd19LenVVV1VxZk5kZzAwSjRvd0xGYjhLSlc2MGRHU3hpYkoxM1Z6NFFFNlZwZXRqTHZnTTRDdmxBQmJxbHZjLUE2aWtXVGJacnNVbGZfWTdRdUVNYlJ0OExzSGhIdjdYWktrVV9PUFczb3JCSUR3dw?oc=5",
+    "source": "India Today",
+    "published": "2026-08-16",
+    "place_name": "Chhattisgarh",
+    "lat": 21.2787,
+    "lon": 81.8661
   },
   {
     "headline": "Death of wild boars raises concerns in Kerala’s Kasaragod",
@@ -853,6 +898,15 @@
     "place_name": "Assam",
     "lat": 26.2006,
     "lon": 92.9376
+  },
+  {
+    "headline": "Why are elephants entering villages? Shrinking habitat fuels man-animal conflict in Odisha",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd2ZOazNYNm9ybFZSSFc2dWhLRHJ3OEdYNGZLM1ZYb0JaVzQ0Um9veDBhb2ZYSVRQTTk0aDBEWExXcnlabGtDT2JyNlFiMTJyVDByVDZKNWpnVmdlZmFwd1NXdDFocXdReFFXUXdYRWNVV3cxX2RtR0RSd25nbFdlMnJMVXN5LUhvbDRwWXJZQlpwelBUU3RvZHNHcmhVZE9LWlQ5dENPTUhkeDVWT04tVkhFQjUySmc4VlU1bDZnbXpnMknSAcgBQVVfeXFMTWM0RWdVTS1qWVplUVlrdUpJX0t3bGlZUFdvOG5FelJPUWlQcmE5bW41T19pa2xLV1N5VXRxY2JEbjFvbDRkN215cWF3cnBLY1ZTUjhPcmhaM1A0VDZwUlVkMml5OHAzeDhFVTBZdUxCa19UaUJVQnlTdDFmWE0yYU9IWHA4T0FMUVMyNi1RaVozZ1I3c2Y2T3dGM082dzZEUm5hdnFpZWVRUUVuN2VCQllmMHlHMW5PRlFiZkwyNHhDZnVqNkxkZGI?oc=5",
+    "source": "Odisha TV",
+    "published": "2026-08-12",
+    "place_name": "Odisha",
+    "lat": 20.9517,
+    "lon": 85.0985
   },
   {
     "headline": "Safari in snow leopard home? Conservationists say Ladakh is no Kaziranga",
@@ -8908,6 +8962,15 @@
     "place_name": "Tirupati",
     "lat": 13.6288,
     "lon": 79.4192
+  },
+  {
+    "headline": "Heat, not disease, caused deaths of 8 lion cubs in Gir forest",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWHJ5bzJESWxCcDJnYnI2cUM5QWRfRHU5SWQ2V0RhS0lheWNETG5zWTZ5UGRYanZyZUJCcENYUTVmdmQ5WExWTEtrVEFvYjkyY3NNc01EX0R0LVBBQ1p4Mi1EbWQ1RlVPNDgzeWVoVkFQaGhPS3Q2cFcxS3JCdWd0LVJXTGk2ZUpBdUFmSDhBWTZXZm1vMjUyOTBaNm5YUk5aSGo5ZEsxcFFTRjNLZnVDQWItREEySFY3UkxYc0lGVnlhc1Y40gHLAUFVX3lxTE8zRkw5T2d3TUtQRDVDTXBIbFBIdUdkaTZwV1FTM2lPUjItSFhnUGE1cm9PR204T2VITlZsbkQ1VkZrekxTRldBZnpkamxzVWY5Yk9KVXJXYWZWWFR5RFdSVDZ4Y3U4OXhoMXFvNS11Rjhza04yRmw1Uk85djh2TjlaMkRZTUphMW5BNWhxcmxnMW5OZUd6aTQ4Y0tlNnVvUXZTdDVDVTBEdEI5RURYdGFxYkZWd1dqTGZqSHVfVzNpZ1hQTjVnSUlPOXA4?oc=5",
+    "source": "The Hindu",
+    "published": "2026-06-06",
+    "place_name": "Gir",
+    "lat": 21.1239,
+    "lon": 70.798
   },
   {
     "headline": "Communities rally to conserve marbled cat",
