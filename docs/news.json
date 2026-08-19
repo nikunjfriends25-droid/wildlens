@@ -63,6 +63,69 @@
     "lon": 71.1924
   },
   {
+    "headline": "Karnataka State Human Rights Commission team visits Hanur to probe death of three suspected poachers",
+    "url": "https://www.thehindu.com/news/national/karnataka/karnataka-state-human-rights-commission-team-visits-hanur-to-probe-death-of-three-suspected-poachers/article71365431.ece",
+    "source": "The Hindu",
+    "published": "2026-08-19",
+    "place_name": "Karnataka",
+    "lat": 15.3173,
+    "lon": 75.7139
+  },
+  {
+    "headline": "Lion cubs Simba, Suri moved to open enclosure in Thiruvananthapuram zoo for public viewing",
+    "url": "https://www.thehindu.com/news/national/kerala/lion-cubs-simba-suri-moved-to-open-enclosure-in-thiruvananthapuram-zoo-for-public-viewing/article71365276.ece",
+    "source": "The Hindu",
+    "published": "2026-08-19",
+    "place_name": "Thiruvananthapuram",
+    "lat": 8.5241,
+    "lon": 76.9366
+  },
+  {
+    "headline": "Six arrested for hunting blackbuck in Bidar forests",
+    "url": "https://www.thehindu.com/news/national/karnataka/six-arrested-for-hunting-blackbuck-in-bidar-forests/article71365703.ece",
+    "source": "The Hindu",
+    "published": "2026-08-19",
+    "place_name": "Bidar",
+    "lat": 17.9104,
+    "lon": 77.5199
+  },
+  {
+    "headline": "Himanta Sarma shares video of forest staff stopping train for elephant herd in Assam",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOM0FzT0xPNFZWQ2RNRDkwdDZRSlRaMUlsUDNVM2E0TnpyNWZlYUJaNEw0M0s1bFlwMlpTVWE5eWRjUGQ3UlQ2VDE5WG9qNTBsRXRtS2JhY1NZWEF3ekhVby1MNDRXc3dGYV9hQzBoSlFfeEJOdzNPdlFOVVZmQ2pjZEFHMWs5VXg5bUNIZkZMYUVoeHVFRlpMWUVFWG1BSzEzQWRSWUtEYUFienJaQ05TRlA1QjZiUVM4Uk9JenhkSDdUbURYRngzaEd4czNKZzY5N2xKNlRsRGZnZ1hXdkNSYVh5b9IB6AFBVV95cUxOYUxxVWo0dVpTZlpEMDJVTDJKSDFhYVExRU9hZVNYRHBxaXkyR3JVcHU0TU9xUTg5TmNoQm5Lb0ttY2drSFpKbHRwdGlmMWR0WkFSenhXZ0F5VFNEQlJNS2JVbmJRbzUzcDk0dVlHS3lWU2l6TDF5OUZJTURsTDZ4VnF4VEQxaEt3MDRydlJOc0t0MncyOFp2UXc3U1M4X2c1cVNmaWx6Rm1XRUp2dkR2SVRmdERLdGhMY0hMMWVzdERtU0pOZVBqQkloY09zdUppSHRoQjdfdTFpMjEzT2JnbW5Nay1paGJI?oc=5",
+    "source": "India Today",
+    "published": "2026-08-19",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Nirmal Purja's legacy takes root with a new Himalayan plant species. Here's how",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZ1VKRDdIYzRtSXdHdDdGV1A5Vndjbl90TDFkM0V1S0VITTh3R056bzF0VmRhU0pfdGlzYWQ0cDBwMFBNNjJxRDM2NklxZFNldmxzaFlvN0hXLUNLajB1R1gtTGdtMUp1SWJJUXVwb00zYllKaFlqcXUzYlFMcGg3anNxTTE4ZWxMQ0dVcHZGdWJ2ckhVTVVGek11T21KLTFxQzZ3eGh0eTV1TjVEWXkwSjRnTnBMNXJPWElBMnNFek9McU1D0gHEAUFVX3lxTE5nVUpEN0hjNG1Jd0d0N0ZXUDlWd2NuX3RMMWQzRXVLRUhNOHdHTnpvMXRWZGFTSl90aXNhZDRwMHAwUE02MnFEMzY2SXFkU2V2bHNoWW83SFctQ0tqMHVHWC1MZ20xSnVJYklRdXBvTTNiWUpoWWpxdTNiUUxwaDdqc3FNMThlbExDR1VwdkZ1YnZySFVNVUZ6TXVPbUotMXFDNnd4aHR5NXVONURZeTBKNGdOcEw1ck9YSUEyc0V6T0xxTUM?oc=5",
+    "source": "India Today",
+    "published": "2026-08-19",
+    "place_name": "Nirmal",
+    "lat": 19.0982,
+    "lon": 78.3498
+  },
+  {
+    "headline": "Himachal High Court puts forest land diversion proposals for roads in abeyance",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNVpwR2ZqeHNiWE1wV2h3eU8zTXF1Nk01c05oMkNNSVNZdk9aTHlnUW0tUXllUG9jS2l6YjJhWlhzNGxaVkFfeG9Pb2k1NHZnNDdLeXN5RGRlX1dqRXZHM1V5UDlldy1yUWd2SURGOVNDaVNkeDJsX0E3Qzg3aEtzOEsxU0ZIRENTMlJsSzFHSlJRV3JmV21hazExNTRDODQ2bjQtdERNNkROZEJFZWlGVlA2U1NEaGNSVXhv0gHCAUFVX3lxTFBydEFHSUEtcjVVTnNocHZna3prWTZPOUdmRGcya2JXOWFjS3pEdHFiS0haQW1LSk5qaFlKaF9HeTdHc3FHY04zNVdvaExpQUcwWmE0ekIxTUhEODN3dV9NVm1GMzMzdHJxYmdNd3BhMGJwQ3gtcTJHVEw0OVQ2b0VrRmxIa0lqQTkwTXBUX0ozZGhTVWxEZFJHMFB3ZW0welZ5QXBWSXJVUS1GeFFsTlBxRkE4bVZaOW5oUmZuOFNBTlFB?oc=5",
+    "source": "The Indian Express",
+    "published": "2026-08-19",
+    "place_name": "Himachal",
+    "lat": 31.1048,
+    "lon": 77.1734
+  },
+  {
+    "headline": "Assam: Organisations hail move to reduce width of Kaziranga’s eco-sensitive zone",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRHdxM3NRc3FyeHdkbkF1WTdWdXRHQ0pUeXNJMDA5aDl5enUySnp6UERzTEV3cGs2amZtdHVjNWRBdjlUYmh2Y29VckJnSFlyMnppeVJCMTVoSkQ2SmktVGxmYjRpWlJuSXpROS1WeGw3WU5laWNVNm1iUnVETWNhYndLWnJYcG1mckRmS1ZObDZ4SG9uVDNIQTZjNVF2eTluOWhOTW1EbVQwZkRnYUJNT25BajI0N3JkR3FHSmdydjU0YnQ0MHVON2FOREo1SVR4MG5NX1JMcXjSAeYBQVVfeXFMT1I2WTVubnN5bDByNEZ6ZUpVTnVrdTFDcFRkWkNaN1NPSS1hQUV4WjBZRTdCODhMYno3QjRmNnBka0Q4YzV4eTRNTkxGNm0yR29VMTNJQ2xZVTZLMTZNcXJNdGlKbUJ0OXRua0FMZHFCS1dSOEJRYWdUMWlBSXBlb3JyekJrRS0teHV4MzFzWXk1TTNyYTE5V2JlWFROU1lhbzFPeC1FaEpvU180SDdZTzB1NXp5ZW55cFhzczllZTVueWJwYk9IODJ0REpQNlZyU3dEcUIxdGdTU3Y3UzRlOUhobmZBZUE?oc=5",
+    "source": "The Sentinel - of this Land, for its People",
+    "published": "2026-08-19",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
     "headline": "Seven held with elephant tusk in Malappuram",
     "url": "https://www.thehindu.com/news/national/kerala/seven-held-with-elephant-tusk-in-malappuram/article71357055.ece",
     "source": "The Hindu",
@@ -3456,6 +3519,24 @@
     "lon": 79.74
   },
   {
+    "headline": "The Economic Eruption: Andhra Pradesh Deploys Kumki Elephants to Shield Crops - Balance Sheet Strength",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRm02MmFRaVczamhLdGY4UW84NEkyeGQ5RWFWQXlnV2ZZM1cxak9Pc3N2N19McHdiOEFZWVBOQVZtbkxJa3ctLXR0UFJaRThKTGJlVzc1aloza0oyTkZESEFycjJRUE8tZ1lGV3lIYmZkZERuaGU3VXNzd0RmdVIxeWM5NFdsMDE4YkZUTHdPLWhKYnJrbVYtUTZDWXlnYW9XVzIybE01U2wwd29XSzczQ29EQW0zeVJlb2c?oc=5",
+    "source": "Vinanet",
+    "published": "2026-07-24",
+    "place_name": "Andhra Pradesh",
+    "lat": 15.9129,
+    "lon": 79.74
+  },
+  {
+    "headline": "Kumki Elephants: A Novel Approach to Crop Protection in Andhra Pradesh Farmlands - Earnings Per Share",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYlVaT19hZUUwV3BGdHJHUlBUT21jVjVuMjFnT3RfblgxVlVlZTJ0QUMtNGNRNWRVTlpQVmFXNDhRRHNnSWs5ODhwemp1a0lrNEw5dUlUTm1vaVdIZy13UnVrM3NFSEd2YkttaUlfOFQ2U1BhVmd6eGd6VWZTd1JtYzFLdy1YNHRBOHJzN29HY2JjejJ0aXV3c1FaS2ZZdU9tR3EtenNUYm5tYWxtenNEcXFmbHdKcGJyR0lZckhn?oc=5",
+    "source": "Vinanet",
+    "published": "2026-07-24",
+    "place_name": "Andhra Pradesh",
+    "lat": 15.9129,
+    "lon": 79.74
+  },
+  {
     "headline": "A. Udhayan appointed Tamil Nadu’s new Head of Forest Force",
     "url": "https://www.thehindu.com/news/national/tamil-nadu/a-udhayan-appointed-tamil-nadus-new-head-of-forest-force/article71256752.ece",
     "source": "The Hindu",
@@ -5391,6 +5472,15 @@
     "lon": 71.1924
   },
   {
+    "headline": "Forest department launches operation to capture and train wild elephant in Chittoor",
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZVVwVUh1T3ozZF9rMkVabXU1LWhWZVpuQ2s1UWdQV2tOUlZSSHBONUJmYUg3bU10VHZjZkduVWhudldRUEh5ekQ0LTEyT253Sm1TNVI4QnVPczBiYXVHLXAxTjNDMlV0czFQQjdxbEUxZ1J4MVhIQ1dLSElxMVgxOUtWR2MxLXktSHlZRTFmWUtEWUNaaWlOaEFlMXpyWXNFMi1uTzFudHJidEZFZUs1eTVrRVhGM2RPNUY5WG9mQXJFWEZtV1gyY1lvbVdmLVJiRHE1SUE4ODRGU3NHbGJ4THQwU3B0cmlYVDlN0gHyAUFVX3lxTE44ZmFPemR6LWlYaHRpb3U2ZWNoajlxY0lfX1JsMlJ6c2ZpeWdSaTNNSXRwcWZwcnp3cXRRT01yc1ZLSVBVeEJKbkVzX3hTSS1JUFI5cW9iUDVLZzZSSEcxV0NpRjlEN2FMbGVDbWRzVHRMUlJUWHVldXhsZ3BtWDZCenN1dkRPdlBmdGtVNUlqSERhT01fOV90c2lmSnBXSldHdVl6RnVldnNMUHVsdVRiRTI0TmdoenhOeDBnOHlRRmVWYWNKd0toQU1GcU9Pa0xqTVdXSVE4WVpza20xRkgycWJXTmg1SjBVbjFsbGRzUnpn?oc=5",
+    "source": "The Hindu",
+    "published": "2026-07-09",
+    "place_name": "Chittoor",
+    "lat": 13.2172,
+    "lon": 79.1003
+  },
+  {
     "headline": "13 deer found dead in a well in Madhya Pradesh, area cordoned off, inquiry underway",
     "url": "https://indianexpress.com/article/india/13-deer-found-dead-in-a-well-in-madhya-pradesh-area-cordoned-off-inquiry-underway-10776318/",
     "source": "Indian Express",
@@ -6766,6 +6856,15 @@
     "place_name": "Telangana",
     "lat": 18.1124,
     "lon": 79.0193
+  },
+  {
+    "headline": "Madhya Pradesh Forest Officer Suspended For Feeding Poha To Sambar Deer",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMWQ2cW9oRVFpYWdJRUJpd3NhZlNLczFYR2o1TjZ2TFhUTjlmcmR6ODdLQVFPbDc0b1pFRHlSQ2FaRHZEQVcyZVM5dGRKZ0FOa2w2TVlaUTVlSXd0NTNPaDV5aW1OQVFDcXRFRHhoZ2ZjTHc1NVVrOHd2Q3Bmb1ZZdUhvcXE4a0I0WXlzUFRfSEwyd2VUampyZDFTSWVaSFpkb1piQW5vMGZFTGpZRGpPQjVn0gG6AUFVX3lxTE9mZWgyTmdFNF82LVRJc1BNcm5PWEVnbFdzclJjN0o4eEQzU3gwZ2tJME5oM05KSVRhQVV1UGpEdW14cm10MTg2eG9rMjR6enk1R2E4MmUydTZxMm9uZ3RvM0tIWHE4bUw4RU9NU3ZNUEtnQ3VqdDVhLVJWR1lINGdWMS0xcjlVTjZRWDBSMzd4Qm0wMFFaOVRfcTJYaDVQREd1SENJQlBMWkV0b1cydjFZU0NyTHhnSXZYZw?oc=5",
+    "source": "NDTV",
+    "published": "2026-06-28",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
   },
   {
     "headline": "Madhya Pradesh forest official suspended for feeding ‘poha’  to sambar deer",
