@@ -1,5 +1,77 @@
 [
   {
+    "headline": "At least 10 injured as crane topples in Mumbai’s Kurla",
+    "url": "https://www.thehindu.com/news/cities/mumbai/several-injured-as-crane-topples-onto-houses-in-mumbais-kurla-updates/article71372115.ece",
+    "source": "The Hindu",
+    "published": "2026-08-21",
+    "place_name": "Mumbai",
+    "lat": 19.076,
+    "lon": 72.8777
+  },
+  {
+    "headline": "Why has Maharashtra FDA issued notices to Shah Rukh Khan, Ajay Devgn and Tiger Shroff? | Explained",
+    "url": "https://www.thehindu.com/news/national/maharashtra/why-has-maharashtra-fda-issued-notices-to-shah-rukh-khan-ajay-devgn-and-tiger-shroff-explainer/article71355172.ece",
+    "source": "The Hindu",
+    "published": "2026-08-21",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
+    "headline": "Legislature panel suggests Singapore’s Mandai Wildlife Reserve model for developement of Tirupati, Vizag zoo parks",
+    "url": "https://www.thehindu.com/news/national/andhra-pradesh/legislature-panel-suggests-singapores-mandai-wildlife-reserve-model-for-developement-of-tirupati-vizag-zoo-parks/article71370541.ece",
+    "source": "The Hindu",
+    "published": "2026-08-21",
+    "place_name": "Tirupati",
+    "lat": 13.6288,
+    "lon": 79.4192
+  },
+  {
+    "headline": "Telangana: Two big cats from Maharashtra cross rivers to enter Adilabad forests",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWmliTDNsSFJCcmV3aGwzX1VNRzBRSW1LVzlBSlJwUWpfQmRYOEo4blB0WE9KYlRmUzREVFpDb2cxQWtDdW8zYUpybDNPNDJtMlNnRm43TFplNmtCUVdpemtRVzFvRlJNal9BWEY3cjRnZjdpQ0FQSmQzblpHWEliTXg5Wi1sek1WamhRVDZaQm9VMFV2aEhNcXdncFZ6VFktSE1OWGdQbUtjOU5NZW5BXzRHRTVET2xnMGlxTmg5UDdKWjVWN3lfZGNVQTVKU2x0UUFrMlNOOW5kYzhLYURaT29zbmnSAeQBQVVfeXFMUFppYkwzbEhSQnJld2hsM19VTUcwUUltS1c5QUpScFFqX0JkWDhKOG5QdFhPSmJUZlM0RFRaQ29nMUFrQ3VvM2FKcmwzTzQybTJTZ0ZuN0xaZTZrQlFXaXprUVcxb0ZSTWpfQVhGN3I0Z2Y3aUNBUEpkM25aR1hJYk14OVotbHpNVmpoUVQ2WkJvVTBVdmhITXF3Z3BWelRZLUhNTlhnUG1LYzlOTWVuQV80R0U1RE9sZzBpcU5oOVA3Slo1Vjd5X2RjVUE1SlNsdFFBazJTTjluZGM4S2FEWk9vc25p?oc=5",
+    "source": "The New Indian Express",
+    "published": "2026-08-21",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
+    "headline": "Jaipur Diary | Elephant steals the show with Rs 62L royal jewellery",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbUdINUxvR0w5UVp4c0llX3lGVTE4b3hCb3ZSSHNmLU5hZDBnSE8zUjhvUHE4RG4yX1VmMkUtTWM5T3dlUmFPS0xLaUxsRVZRNXEwRkJ3ZC1TcXVtcnpxcHRFNVMxLUpYdFo4TmFmeFFUcVhZdm5LVGdzX05xRXM5MzFhM05FYVBPOHNycWhrOFNUTDlQNUpDX3dTbkRSWHo2S1lCNkx3ZFBtYXd0X3haem9JSTBycFXSAcQBQVVfeXFMT1h3dkpRTVFieThhakR0a1lMTi1YZGYyUGREVXpPWlZzWU1HNl9jdnhVU0ZyWnBfTXBPMVVyY0o4OEFmMGhGbTRTT2NBdGlDdGduS3ZaOTM4dFY0YV9yUGF0blVRdFRVcjU2WWphS1JWX0xQcDdrdE1HX250UXBJbTRYa1NzemZJTGdWOFR4ZUNFYjJtSUQwYzUxOVV3RVNMRUU5dlhFSVBOelNDZEpsLUdPQ004MWZmUEdNR1pRV1NMaW9IQw?oc=5",
+    "source": "The New Indian Express",
+    "published": "2026-08-21",
+    "place_name": "Jaipur",
+    "lat": 26.9124,
+    "lon": 75.7873
+  },
+  {
+    "headline": "Leopard Attack in Rajasthan’s Sawai Madhopur: Child Killed, Villagers Protest Against Forest Department",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQc2MtY2ZySWswQ3hxUnNzc3ZwMWNuZHBrTlJvY3FZM1ZaajFLUDlJUGQwSUpPc3lPWTFBUGxHLWlsNFlkYVU2MVRYSTJtZFBhaVR3Y1Fla3UxaWc3TzNhdmRTVEl3V1hMMWxsS2xDM29CX0RWNEoxb1B4UGt6MTRHNjBHcFhReTN5eGFGLUx1anhfUGNNVnFYZlMzZm55dEZqOXI3ZldfSjBTaHNRMjI3TXBIV1p3WVlndVljbXpVQ2d4Z2lvZVphSzVEX1MtTFVjRUFkcdIB2gFBVV95cUxOV012dGNDaVRDN2EzdkVKa1hTVHkxR25nXzRUa1hvMzRlS3lzSGlwSFdmNHYxMF9fel9WTUcteGloSjJFeWRvLUR1ZjE4VF8wUDEyY0RxdXFGUG1UbHdEanUyU3FxWS1aTy1tejQ5ekNSSDRDSUtKMVhrZmZfLUF4VWxtWS1YYzZvdXp1S3BBUXA2TFMyQXVMZHI4c2NJbVlfVDRIbmNpMVpRRlJJdktWaG44T1h3YmVlUXAwN3VxUWJRTlloNmtZRDdEbE9WdUZCbWNZMUxuUTZpZw?oc=5",
+    "source": "Sangri Today",
+    "published": "2026-08-21",
+    "place_name": "Sawai Madhopur",
+    "lat": 26.0211,
+    "lon": 76.3564
+  },
+  {
+    "headline": "Himachal Pradesh signs MoU with ISB to develop Rs 22,600 crore forest economy",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaEhrUWYxazk2MTMzRUNYSkhOZk1pVWJhbG5SNDhrRWgyMHZ2OW83VXluNzlkU1JENE5iSUlRWV96WExiMWJJRzVpWEVzeE55RnVsVzZyZTFrM2VROUxMUzZTRUw1TDlTZDJIZjVlZTg1X1ZzOEZhaDJkN3liWHk3T2g0NmdfOXowUjdVU1lDWTR1bVo5OHZqbFp0MUNlTU5fUHpTemtwaldlTmM0Vmc?oc=5",
+    "source": "The News Mill",
+    "published": "2026-08-21",
+    "place_name": "Himachal Pradesh",
+    "lat": 31.1048,
+    "lon": 77.1734
+  },
+  {
+    "headline": "Himachal Pradesh Signs MoU with ISB for Forest Economy",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWEs1MzlCTzJSVVpmaEF3eXJYbmFRU1VkaXloTUFGWHV2RjBhV2RaczFIUnNJNjg5RElycnVOOVpaODFwU0hUT2x0VmcyVzhVQ1E3bjRncEdJemhTQVp5WnVJQUhkcDdEMEhCZ0NfdHZhSU5xNDltbjY3VmZrQXh3aEp5UC0?oc=5",
+    "source": "GK Today",
+    "published": "2026-08-21",
+    "place_name": "Himachal Pradesh",
+    "lat": 31.1048,
+    "lon": 77.1734
+  },
+  {
     "headline": "FDA suspends license of Mumbai's Otters Club over analogue paneer; Crackdown on several other establishments across Maharashtra",
     "url": "https://www.thehindu.com/news/cities/mumbai/fda-suspends-license-of-mumbais-otters-club-over-analogue-paneer-crackdown-on-several-other-establishments-across-maharashtra/article71365259.ece",
     "source": "The Hindu",
@@ -151,6 +223,24 @@
     "place_name": "Himachal Pradesh",
     "lat": 31.1048,
     "lon": 77.1734
+  },
+  {
+    "headline": "Kerala Forest department begins a podcast series to provide awareness about environment",
+    "url": "https://www.thehindu.com/news/national/kerala/kerala-forest-department-begins-a-podcast-series-to-provide-awareness-about-environment/article71369580.ece",
+    "source": "The Hindu",
+    "published": "2026-08-20",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
+    "headline": "Gadchiroli mining project: Bombay HC asks petitioner to approach National Tiger Conservation Authority",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMERXY2dGXzQtVUJGNWhkQUVFQ0Nxc0dxdGhtWkVNd0hyZllFZE85T1gzYXlZY0Eta3NVZ1NNVnpFYXhlcHA3NjVreGg2cjh6TmxwNl9aTTBUTTl2aXVYdzB0X0xoWEd3MkRITXdqZFU2WDROTjExTDQ1MGdZUEJXdDRmWHdoVWNGUnRybWo0bmpHVkxUcHhzaXUyRzVaSjhMRmhpU3E5cEVHSHZaQVhyOHR5UjdQaXZ1a28yY3pGTTNPVEwxeWtKZnQxSmpKdEJrdUpZUC1jSF9ZMVQtb2RBZTB5RdIB4wFBVV95cUxNMERXY2dGXzQtVUJGNWhkQUVFQ0Nxc0dxdGhtWkVNd0hyZllFZE85T1gzYXlZY0Eta3NVZ1NNVnpFYXhlcHA3NjVreGg2cjh6TmxwNl9aTTBUTTl2aXVYdzB0X0xoWEd3MkRITXdqZFU2WDROTjExTDQ1MGdZUEJXdDRmWHdoVWNGUnRybWo0bmpHVkxUcHhzaXUyRzVaSjhMRmhpU3E5cEVHSHZaQVhyOHR5UjdQaXZ1a28yY3pGTTNPVEwxeWtKZnQxSmpKdEJrdUpZUC1jSF9ZMVQtb2RBZTB5RQ?oc=5",
+    "source": "The Hindu",
+    "published": "2026-08-20",
+    "place_name": "Gadchiroli",
+    "lat": 20.1809,
+    "lon": 80.0059
   },
   {
     "headline": "Commercial films, serials cannot be shot in wildlife sanctuaries: Kerala High Court",
