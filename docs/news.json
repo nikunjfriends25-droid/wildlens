@@ -27,6 +27,33 @@
     "lon": 94.7278
   },
   {
+    "headline": "Karnataka: Tiger sighted in forest area in Kishkindha hills of Koppal after nearly five decades",
+    "url": "https://www.thehindu.com/news/national/karnataka/karnataka-tiger-sighted-in-forest-area-in-kishkindha-hills-of-koppal-after-nearly-five-decades/article71384016.ece",
+    "source": "The Hindu",
+    "published": "2026-08-24",
+    "place_name": "Karnataka",
+    "lat": 15.3173,
+    "lon": 75.7139
+  },
+  {
+    "headline": "SC Bars Construction Within 100 Metres Of Jojari River In Rajasthan To Protect Ecosystem",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeDBncVVMTkpYSFJZQk1NZkk5dmlndHRHQjM0NnYxYnZONjk4UUNURnBmTThUT1I1bXFpR21SLWZpVFRDUlhPNEl2SW5hbDI4MlJXTEkzUjlubjhFaW9SbWR1QVZGYlZHaGpvX1NMaUVKUWl0TXRRNmtIa05OdFZtcEZqYTcxTTkyZl9TaEQxZXlYV3ptZG81Rjk1MnRVbVZYWFJiYV96WDM3TldqYlg3alphY193ZW9Sc1hHOVE4bF9JTGU0OVBlQkN2TGbSAdIBQVVfeXFMUEJ1LTVWUGcyeGNtMk9kWUxFdjIzeEFVeFd1dWh4UGEwTXF1TDBfd3NPU0lvSWxTbm9uYmxYTm5zYnEwYWl5QUk5RlVZYmZoSTdMcld6R282VmNlYW1CcDA5b0xyQmVnajU2R1BKYVZTUlpzUkRKV084aW1SVnNwX3N5TG9kX1lZWFVKWDJGcjJtZF9GOHppSzlablhYMlFZb2c5aXM5SDdtU3JfYlZyS01QYUs3elBkSGo2aERYWVBLM3IyYjctUURHdEpnaF9ZT3h3?oc=5",
+    "source": "ETV Bharat",
+    "published": "2026-08-24",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "Tiger returns to Karnataka's Gangavathi-Hampi region after five decades",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSHdJazBaVUlXanJUYUpMb1RGbjhDNTRBWXF2VmVmNzZVY0s2VnV6MFlsTC1KZzZaT2dMWDB0dGlnZ25JTi1BYzJKdUJUaFhOenRjN1dWN241YUw3RFVzTFVoR256clZZVTlzdWo0UUU3UXZObEljZkY3VUhnY0p4VW9Ra3diMVhETE5mS0ltckNQR21yc1BuZ3BLQjJWZGJiakIwSkxlYlJSaDJqdFpPYjlpNmRrdmh5aDlGS3RobFE?oc=5",
+    "source": "Deccan Herald",
+    "published": "2026-08-24",
+    "place_name": "Karnataka",
+    "lat": 15.3173,
+    "lon": 75.7139
+  },
+  {
     "headline": "Fishes of Chennai explores city’s native freshwater fish, explores its cultural connection",
     "url": "https://www.thehindu.com/news/national/tamil-nadu/fishes-of-chennai-explores-citys-native-freshwater-fish-explores-its-cultural-connection/article71376936.ece",
     "source": "The Hindu",
@@ -394,6 +421,15 @@
     "place_name": "Andhra Pradesh",
     "lat": 15.9129,
     "lon": 79.74
+  },
+  {
+    "headline": "Telangana: Two big cats from Maharashtra cross rivers to enter Adilabad forests",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTTVrS2Z6dUF4T0I4a2lxNHZCVTFESUpOdno3cndKYUxJU2xpZkdYd21mcS1aam9MRzlHSHVDRFZBR25lQUVMbWpJTzRWNkNDYzVRaWs5OVZYRlRHYkdydG9jOXl3OTMwV2FNcEZHeUJGVnRiVUp3LVBBc3FHM0p5V0Y1WW5rMzhHRlcwejU5bC0tdElma2g5MHlXbUdnNzMwTTFVVGR4VUU2UnhZblVUbnZVcUQ1Um91amI0Q1pvZUJQWjNCcDJuc19qNnktc2V6dzA1c01sQdIB5AFBVV95cUxQWmliTDNsSFJCcmV3aGwzX1VNRzBRSW1LVzlBSlJwUWpfQmRYOEo4blB0WE9KYlRmUzREVFpDb2cxQWtDdW8zYUpybDNPNDJtMlNnRm43TFplNmtCUVdpemtRVzFvRlJNal9BWEY3cjRnZjdpQ0FQSmQzblpHWEliTXg5Wi1sek1WamhRVDZaQm9VMFV2aEhNcXdncFZ6VFktSE1OWGdQbUtjOU5NZW5BXzRHRTVET2xnMGlxTmg5UDdKWjVWN3lfZGNVQTVKU2x0UUFrMlNOOW5kYzhLYURaT29zbmk?oc=5",
+    "source": "The New Indian Express",
+    "published": "2026-08-21",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
   },
   {
     "headline": "FDA suspends license of Mumbai's Otters Club over analogue paneer; Crackdown on several other establishments across Maharashtra",
@@ -9702,6 +9738,15 @@
     "lon": 81.8661
   },
   {
+    "headline": "Balaghat’s Tiger Rise Shows Wildlife Thrives Beyond Reserves",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb3g3c2lkZ1FJTHVUd2RyMDhHMmxSeEkwX3lMaXpBU2pydVBBRUY4NDc2TW9wc1M4NVNDNXJtSmlDa2ZJcjQ3OUJGdm9fZTNoYUUzZVRYNkNuN09LbkctOTBZQ1VWR0FtNEk3NFh3MVpHaF9ZWGozbzhYaUVIZTlhMWZMeVcwN05TcWt4bGFSWDFHbmRTZFRMM0RQdGZVWjI3NkU4?oc=5",
+    "source": "Ground Report",
+    "published": "2026-06-08",
+    "place_name": "Balaghat",
+    "lat": 21.8132,
+    "lon": 80.186
+  },
+  {
     "headline": "Goa Forest Official submits police complaint against Minister over soil transportation from forest",
     "url": "https://www.thehindu.com/news/national/goa/goa-forest-official-submits-police-complaint-against-minister-over-soil-transportation-from-forest/article71072494.ece",
     "source": "The Hindu",
@@ -13995,6 +14040,15 @@
     "lon": 78.6569
   },
   {
+    "headline": "Tiger Warnings, Using AI: Maharashtra Reserve Deploys New Tech To Save Lives",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMkVVRFJkWi1ITGh1WTViR2MxaWR5RTRUU19LdXBLbVZBLXEtQVdfVl83ZGZrbndGUDA2WFJfZWFqUG5UbldCRUQwUGJObFRwNVFWWDlIdFVJS1FRWkphZXRJMHNWY1hzcUs1dlBxb3ZieXoyUlJ1WF9QZ0I3bi1mZkFaVjVoTW45Z05JYjk0QVlKX1gzSUhJb2RaaWU5Z3JSVUF3LVdsdzFFRHNScklGRUVmd9IBuwFBVV95cUxOUWtBRnVsZFV2cnROcHpDcUl2RGxjSWdBSHRvM2hUajBYbU83Y1VtRkg4dWJoTTRhWEUwUUQ4UngyNk1XWGlIcWhBUlBBVENrT3JzbVFuWW9WVUJZdkJFdWRiRzRjcnhhWGdCbU5CUENpRHgybDZ4NnNEQk1WMTJMQ2lDWjJvbVU3UUtPWjZ5d09Tb0J1ZHVFWXZfNjFlQ3FHelFPeEppQVhEMWt0eTlBYkFDX3ZDZWxubVpV?oc=5",
+    "source": "NDTV",
+    "published": "2025-07-15",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
     "headline": "Tiger count rises in Orang; Assam govt plans park expansion, tourism boost - The Assam Tribune",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmk0SUdHRmZRX2MxejRaX254WUNzUUtheDFHOHZnYTVTWk53Rnh0YUFKOW5EMFFNWGU2d19EM2ZwUjFTRnBaeGxIeVMyTVRwWlBFZjVVemxRN2JqRXZvVEdHSDhmTDRKREo5cUl4Mm84d01meldOcmczVjlBOTFmWXNrX285U3d6TG9GSnVhb0xET2RvRVFzNWl3TEVLN1hNSW9wd0JEVy11RXJaclp2a9IBtgFBVV95cUxNUE5xaUlkS1NpUnNFWGZRYzJOZU9Wc2xFVzVfZXhKRnVnQUk2c1QyOTN0LVM5Y1Z1VFdCWUlkbEdEaERyYU54NmVFTnBCSjlYZW5wNDgxd0dkeE1hRGRGQ2pzUTd4bkh1QXAwYTBkcTNFSU15VERqMjQ2Rkp6TE5aS0FLVmQ2ZGdtbjh5N3BIUGYzRHliTHJWNUNldlN1Q0hTY0FqbG9sNW9iODFqbXVvajNsd1E0QQ?oc=5",
     "source": "Assam Tribune",
@@ -14769,6 +14823,24 @@
     "lon": 80.2707
   },
   {
+    "headline": "The best places to stay in Tadoba",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5rUnc3SWFqLWxCQWpsbTM2ZkNTSFRDVUZxMy1RUDc4VWVBOEMwc3ltYlVXMEk4amUzMEZGMXBRT3lWOWZ2OWFaUFhoU1RTXzZRT2hFZTlLWWFyaXZRMERta0J5Y0laSE9wRzI4?oc=5",
+    "source": "Condé Nast Traveller India",
+    "published": "2025-04-10",
+    "place_name": "Tadoba",
+    "lat": 20.2333,
+    "lon": 79.3833
+  },
+  {
+    "headline": "Mumbai to Tadoba and back via Samruddhi Mahamarg: Mini travelogue",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxON05GMzNUNjl5eERzT2gxREpyaEYwczZWaVJZOHgzVm5MM3hJQTJnZTFWeEw5X01KWWRucFUxWk1GWWZyNE9OZlZ3aHR0TzhPLTRObDBha0toaUFGOWZNUk8xMklFRkRrMHplajFMdmpBUF9RYXhzUVdBNzYzWWVpb21oYXFMMjYtQUlEYVlpdljSAZYBQVVfeXFMT1VWRkZWTjc5S3JtMW9pMnNMT0JNVWkwQjZjakk2c3VtVDY5dVVaRnMzUU9oQ3hDMHMwbk9laEFiU1c1dWNGNzZJdzlDLURPdE4wX25CYnRXdFlVV2xLazc3SVM5V3o5ZVBsS1BpdjhUSzN5VWhlX3pJSGpIcGFPLWR6SEI0RkdmcnV3bjQybjFnbHFMdlFR?oc=5",
+    "source": "Team-BHP",
+    "published": "2025-04-08",
+    "place_name": "Mumbai",
+    "lat": 19.076,
+    "lon": 72.8777
+  },
+  {
     "headline": "10 exotic animals to spot in Pench National Park, Madhya Pradesh",
     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQLXZiMzlZODRxenhES3p1eXZ1R2xhQVEyQUZQZ2o5cjFKelRsaGZ4YktSbFdnYzJMN2hTN2ZLdkpuZ1JBcXJhZGtvYTZZMC1vd2MwRWxoOGUzMGFfbHpjaFpQVXg2NUczQ09ickFNVDNJWXRLZjRocFdJWU1fTTZfcVk3TllVREc0REtsVDc5azRCS0ZVdTlPSFJMSGhOc3RfYy1EMnoyV045UlZ6SXhiclZYMkZsMnJPQXFFM1ZkaURWZmxsNVFOcjZBZ0MySHRUZk83Mk9BZVV1Yk3SAdsBQVVfeXFMUC12YjM5WTg0cXp4REt6dXl2dUdsYUFRMkFGUGdqOXIxSnpUbGhmeGJLUmxXZ2MyTDdoUzdmS3ZKbmdSQXFyYWRrb2E2WTAtb3djMEVsaDhlMzBhX2x6Y2haUFV4NjVHM0NPYnJBTVQzSVl0S2Y0aHBXSVlNX002X3FZN05ZVURHNERLbFQ3OWs0QktGVXU5T0hSTEhoTnN0X2MtRDJ6MldOOVJWekl4YnJWWDJGbDJyT0FxRTNWZGlEVmZsbDVRTnI2QWdDMkh0VGZPNzJPQWVVdWJN?oc=5",
     "source": "The Times of India",
@@ -15219,6 +15291,15 @@
     "lon": 80.2707
   },
   {
+    "headline": "After safari tourists block way of tigress and cubs, Maharashtra bans mobile phones in all reserved forests",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWC1NUFlxSk1zUWRQSUc5SVRaaU1GTFhnQ2dFWGdHb0pjUEhocXB2YnV4RzhHRFlpWGUxNFB6OUlZcEdlU2xVNEUwVGQwY1Q4TDJyRm82bThQcGQ3OW5PanByLUtDMUtjRVBYdXViRVZZZUZiYk43eC1Rc0lqZFhEbkx0R1AwdTMtZDNROTRBcDJickNldXlQYk80UlFNQzZyV0sw0gGqAUFVX3lxTE1JMWVmTXdNRWdWOXpZb3BhVV9HVzRlRFBXdlRqUW9sbWZDa2FCRDlpZjdMZjU1alZTQmpRYmFnRVZHRHZrR3RaMVJDcXYzTC1uR0FEQlJzRGlMRGF4eEVueTV6b2JIbEZGZkx6NnMxcVdNUG9CY2h4WmxiMGV0LWVuWnlhNDJvOEVobHV1VC1GelZuRjdRNmVCejhkXzU5ZFdpQXR3Mm03WVdB?oc=5",
+    "source": "The Indian Express",
+    "published": "2025-01-16",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
     "headline": "Restoring Mangroves in Non-protected Areas of the Sundarbans, India",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNekNmQjctbVNsOVZLbHV0STVCZVNnZXlEc215blc3T3FmWXk0c2tjWDhBWFhJS2NMam5PNXVLWmpJSUliZ29uOE5lYk9tMkt6LUctUmlVYzVUMXBzSHVac0dsSDh2U0dyZnYwcWM5NTBJbDhrUG5GWFEwWDdBeUwtX1RxUXM2ckx5eVNLU2M3VDVjdm1oOXRFSGtlaDN6Tk4tZ19rYg?oc=5",
     "source": "The Nature Conservancy",
@@ -15271,6 +15352,15 @@
     "place_name": "Sundarbans",
     "lat": 21.9497,
     "lon": 88.8806
+  },
+  {
+    "headline": "Telangana Forest Officials express concern over tiger captured in Maharashtra",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc3JsUG1SaE4xeFNrUHpPaWZ1Tm1hZzVrbVkzRmpiWnI4a0w5NUxJeEdGVVZiYjV3YlNEOEc2X1NDZGc4NWxGSGg5bGFxTV9kTF8xWVo2Vk9ZM212WTRBcm5fWHlFQXhHSzZaV1laLVRkSzA0TlBra3Y3VV9WLVM0TGRDcjNpV25OUUs2RUd5X3lFUHcyVjMyTWpMZmw1MUhQQ0ZUVE5IUQ?oc=5",
+    "source": "Telangana Today",
+    "published": "2025-01-02",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
   },
   {
     "headline": "Forest dept in spot over missing tusks from elephant skeleton in Bhadra Tiger Reserve",
@@ -15471,6 +15561,15 @@
     "lon": 85.0985
   },
   {
+    "headline": "Maharashtra’s Johnny travelled 300 km for love. Now, a Telangana tiger reserve has its fingers crossed",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRHhySHczbEpLZlItclFrb2RiOE05Z2x1MXlneDlGd2Z6cXBycnJvTHdkNFg0S3lESjE5S0F6ZWtpdnZCWTdtNUs1dWNhN1JmMkJkb3VlT3FzTGNyeEFEdk11QmJkSDN6RDFZSmJqUFhURVdvWUI5TTBCSkpnLThheW45OWxFQWJhLWN1Tzd1dmhLblJHMnVVUXRZVmk3a3dTX25ZZHQ4Rmh4RWh5M3MtQl9jc3BHeXd4bW1YT0pHVEFwejFYTnRBYVkwRnk1ZHBndnJWdnFLRdIB3AFBVV95cUxOaWVtMkxMZHZzanFuUkd0U2Jtdno0b01Lb2k5Qlk3alZXUUFKbDlOa0QwQU11enFuVk04bG9BbFFMR1k3WjRsbm9vOElwMXQzWkhXdWJ2bzMtMkthdEJnclBwZnpOWUJFRkNBMTl5WW1DbkdxNGlIaTlnR1gwblVJcWlwUTIwRXo1QTlZRlQwT3JOSEVSWFpSWFJLMWEza2FuQlowajFJWHVVaXptem1OaDRCUGNWNi1KdnFRYkI5cTVtc1NKOXlVSzI0dTJuQzlzaE1OcWxsMEVEdjIw?oc=5",
+    "source": "ThePrint",
+    "published": "2024-11-20",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
     "headline": "Sariska Tiger That Strayed Into Haryana Relocated To Ramgarh",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOURUYy1IM0V3d1V3QjlibHlCNDZZZzZUS0RRMTJJSldNR2xmazc0VjhtX09tTnhUeHhHZ09ja3pnVk5FakZZbnVyVE1lSTJ2dDM2dk50STlGanhDQ0FMN3htUTYwaEZWVEdWbGdGSk9vVVZ5QU0wSDd5ck9KQkV2YmhtWlpHRzNCclFTYTRTX0dFcm5BYWxqcnF6WGlPMmpsNjdpZkVtSzBRM3lPNkEzV9IBtgFBVV95cUxNXzFUankxSTgta3g0aEVaNzVjYmw1RHZCWmI3M1lad3BfcXBZOEZ1NzBsVlZrS2VfUnhPS1N6MXY3LUpyT0JhN2hkVVZSYVVoN0lERi1PNm42TUVOcVV3ekJTOWU0eDdGdVNFeTh5d1FnQjU2VGZIa2VXeHNCa25IM05mbWJMQVRMZ1hwZEdSaDFFcnNDSFpjZXgzSHpoOGhUal8zVG1wM1lhRlZGaVRWSDJnQnNkZw?oc=5",
     "source": "ETV Bharat",
@@ -15478,6 +15577,15 @@
     "place_name": "Ramgarh",
     "lat": 23.6358,
     "lon": 85.5028
+  },
+  {
+    "headline": "Ministry asks Maharashtra to address forced eviction concerns of 33 families in Tadoba-Andhari Reserve",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSE9lYzVIOUNRZE1pN20tYXNYNVAzQmJabExCX1N2UGZzdi1CRkdYc0VuRWdsNk5NSDFYUHl1OUpyb29TT1NSYm1UME5sZk43THBEbzV1UmhwLWZWUXl1VnJTaEUzSUVCX2R6ZHpLR1o2dV9qekJ6akprbHhyc3RDOEZnUDd5MXNzN3dQN05XanJsWmJNY1BtVHQ4R09RYjI4bC1Dc0p1LW9Na29HV2pBcTUzZ1lMNEU5SWE0eXlHUzFBWGRxdjRUQUJudmtaZkF1MWxSM3FrbGFzOHQzWlVCN21YNTlEOEd1X3fSAfABQVVfeXFMT3h0OVlZY0ItSERtakFhanJJdzdVTFRkYk53Q0V4OEo3RHJ5Q0VHT3FFZm03MzhDeXRTQWtlSjBmbnJwVDNEMDhVWGI1ZEdZMEdwOTdoOW1meFkwaHF2TGRsWnpHdVZpdjVYRnpKNXk3OHNGSEF0ajR5ZzFlNnV0QzA5cEt6TWJ0Y2NDMDdQbU1ORS1yZndkRVNXSXdYeDgzUW9tZlZZRVVpU3ZPZDgtbEtNTE9DeXg5WG83YW9yQmRJSXlKOFFJeUMxVFJUOFJZN0FCZU9HeGtyU29MQjc5dFQ0MVUzWEhibk1FdFdlR2Ix?oc=5",
+    "source": "The Indian Express",
+    "published": "2024-11-09",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
   },
   {
     "headline": "Andhra Pradesh: Elephant shelter proposed in Manyam dist",
@@ -15606,6 +15714,15 @@
     "lon": 88.8806
   },
   {
+    "headline": "Telangana: Kawal Tiger Reserve hopes for tigers from Maharashtra",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQlFqWXJ6YnBOVDJ3UWxCclhWZU9EdG9rWnFZMFJWdGM0Q0l4MjNralY4WjNjdmZMUGZKenk4QmswdVF2dHhldEFEeVFGVWFsdVhlWTFpUTgzN2w1MEdzZldNQVk4MUgtZzhhSG5QLUYxWXJiWGNoTmI3LWdXQktTSUY1bUg2ZUNGZTRVbi1rRkU5V2kw?oc=5",
+    "source": "Telangana Today",
+    "published": "2024-10-13",
+    "place_name": "Kawal Tiger Reserve",
+    "lat": 18.8,
+    "lon": 79.0
+  },
+  {
     "headline": "Climate Crisis In The Sundarbans Makes Women Vulnerable To Trafficking",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQlhtdTloNjRXZWZZZWVZSnBWUkRod2NVdjluMjNaaFV1X0UwSExhdnlfLVN6OHRKV3dMNkJ5WDZKbjY1OVdXMmo0aHk2OGU1dXRFaXlRMHREZGJIT3QySV82S3RfOTBaYlNCTzV0cHpCaUgzZVE1RjFVeXdvN0FFVWVTU2VMVmVjX1R4ZDdTTWFBam1oSFYzbkdUN0dKVVE3b3N4TkY4U0pCZFlKYWV4dTRzYlNpdUFFSDlv?oc=5",
     "source": "Indiaspend",
@@ -15676,6 +15793,15 @@
     "place_name": "Bahraich",
     "lat": 27.5744,
     "lon": 81.5987
+  },
+  {
+    "headline": "Forests in Maharashtra, Top 10, List, Types, Famous Forests",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBBODU1Q2VHMXR6VkJRTXJIdi1TcThmM081TURWb1ItdEN2M01USzMwUjJVVGw5QmtwYkdZNHFwMjJyNWJ3ZVNlQ05PLWhQUWI4aUJ2R2lYOTVwUVNOMUIxc3dBTXFwdTZ1ZVNFY3VuMTNidw?oc=5",
+    "source": "PW",
+    "published": "2024-09-11",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
   },
   {
     "headline": "Wildlife Smuggling Thwarted: Nabarangapur Forest Team Rescues Live Pangolin",
@@ -16002,6 +16128,24 @@
     "lon": 74.2179
   },
   {
+    "headline": "Killer tiger tranquilised, rescued in Maharashtra's Tadoba Andhari Reserve",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZmxteS1iOTZvVVJmbWJxYUIxV0RCOThmajlfZ0l4el9tYk9EMW5qeU8wblh0MTBRNkhmbXJvSENnWURxT3NmZDVpajBIdjRLZ3BxSUlXdkN2eENmLUZIVXd4dW5aSjhnX1NFMnBvNGdGRlRZLTBOUWsxSkhraEhTMUkwQkVTSzBYNFhSb2F3T28xMVVsaHRHYmRWVXlZU0JHRU92d1I3YlgxcklFYnByR2FPVUpnM2ZCdkp2Ql80SDJhcVlNVTRFSA?oc=5",
+    "source": "Deccan Herald",
+    "published": "2024-05-18",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
+    "headline": "Three deaths in leopard attacks force Junnar forest division to propose declaring Maharashtra taluka as ‘disaster area’",
+    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQT3R4Z0ZQZTFHWXhZd2UtQWswc2tlbVcwZU9RM0ozWm1WS2YtUjd6NGVvUGxPNGpvWFkzZkwzMlZFVzVOc2tLS05KLVkzQTNWS0dzZkJ6dW9UV1VDazEyUVlOLVdnbEdYOUtuZnJYSjJDb2MyT3gwMXVuSk5LZkRWNTRRbGxONFZUakhham9pQ2VCM0ctTTFlcG1DdUdCdXUtTENVaEZMQWlEbkVmTXhOejVBcmExRjJ2VU81cy05c0JZY3FucUp6YTZ5TkNpa3MydFA0akRReVNsMm40b2U4S1RCRlN1bE13eXlMWC02RzJRbW8tdzVJaXoySENOSnpTNUhDdF8zb1XSAZYCQVVfeXFMTWoxWDhpZS1kWkxaQXFmU2RRRTI5aUxZM3hmQWxneWRISnJYRkdRRzUzOWRYRUlOSlFxc1g4dUd6OG8yVlZVeWc0WWdsbUdVZ1FxQXBpNmZib01RUUhvMTJ2WmdRaU9waEl2SU15bDMwRVlfdll4VDFlMHc5SVVQWkJkWHlxSlhRVGl3VlhERHR4YXBsSC1ZbExkYTEwUkZtdTNkV3k0N2k2WVFZcVMzdnhKQk16RXBCalZ5bGVSd3JjOFdmUjdxVnBsLVhBLTFFVV9sTS14QWtTd0h1MUZ6RWlEYjNnTWNrRUFSczNWWEJ1TTdwRGNGRW1SMm5wTFBma0F0djQ4Y1hhSkxTVWpIR05iWHdXRFE?oc=5",
+    "source": "Down To Earth",
+    "published": "2024-05-12",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
     "headline": "Female elephant mahout Parbati Barua from Assam conferred with Padma Shri - The Assam Tribune",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT0ZWUW5hLUVjVllkMDZYVUVWQ3QyZVU3R19vYk1JNnpqTjRHVWNtZFN5LU4xREZYNngxSnR5OFFuS2NWVUMzc21rY0FDZmhvU1lYdWxuVmRNSUp2bndESUNHN1ZPb0JxYmJfQmYtT2hRZ3c4bEEwMWRyM3FLS0dOWjJvdFJ2cjYySFRHTWExdUNlbEs4UWt4N1pUU2hxaGVjeW1reUZJUkItYl9oNEZ4UjVR0gG3AUFVX3lxTE5jd1IyajNIMkRWT015MnpQalNwQ1hmbjdYcnprMHVwZE53b1hnYUhYYm1XX2xucG8xV2o5cURNSGtOcjNBeXRiN2MzWGVLb01LTzhXSEpvaXZPa1JDdnJYNDVSSHBwYnVXeHlTV1hhRW9OSkFTdFFNRHQxTGpqTzVGZnVTeFlIazB6Yy1ZaUxzQ2lRRUhlWWVwUnJ3VjdGelpzTThlenRJeldyQXpJYnZvX3lWNWRYTQ?oc=5",
     "source": "Assam Tribune",
@@ -16155,6 +16299,15 @@
     "lon": 76.1349
   },
   {
+    "headline": "Maharashtra Forest Department Pens 'Bharat Mata' With 65,724 Saplings",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPblNGeW1TemRvQS1iMTgzX09VQU5aN0hRc3pHcEZRZUp3VUo1SnNNLUVUeWZEekM5VUt5YVZYMEliYjJhOTdIeG5RUHphaTlVWEVsa1B6ZDFLcFk1WGRiY1NPVG8ySldUbWtmN2pNQjVvNWVxM0owSWV2ZzU0WnFOYlZKZXBjdThfejFnc3VrWHlob01yVHloUkJfUWpIYldGMHVMMmNjU0FUZ2V1b0Y3dHU0eE54ZlVFQXpEONIBxAFBVV95cUxQRnZqTzhnSzdfdkluSzdSTXZacnlqZzZzRnF4bndYc3RmSk5Hc0E2WTdpMGNhblUzNUhwTjBKanpzZkJzSWczdnV6SThBak1jQ19OcDBpODg1YXZPSVdlc1hzNVVrZXl0UThVUmNScG9YU3ZyQ19RVnR4YnVIVmFWb3lrbUdpTFA1dmptVnRiczBOLVZ2Zk5NSHd6alZWTWpiRE5aR2o4RVZuTlpNbU5iUUFnNF9ydmZmMTUtWUxjLWZwSlpw?oc=5",
+    "source": "NDTV",
+    "published": "2024-03-03",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
     "headline": "Scheduled Tribes panel issues notices to Centre, West Bengal over plight of tribals in Sundarbans",
     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUk5wVGhvVUkxdVZRT0dBSUdIMTBrSjBzRGh4Z25CellFd1d3cUI2RnlrWlRROFBURXFpdllQSi1aU3ZUck5fck5tZmNPOWVlNDh2NTFvMzNFUVUxbWxIWWtadGtHMGVDVTdPc0VYVzREdWpEQjFHSm0zcDZwdW1wclZzZXBCY2ZKV1EzdE1vQmNPd21fQTBkQ3RSSjYzdDVDZmxfU2FBWlQ0TXVLOG9ySUQwM2NtT3BVOVp1RlROVG5pUW9JOFdtcFNkbmxUdG5wMzFqSTJn?oc=5",
     "source": "Deccan Herald",
@@ -16180,6 +16333,15 @@
     "place_name": "Tamil Nadu",
     "lat": 11.1271,
     "lon": 78.6569
+  },
+  {
+    "headline": "From biggest to smallest - 6 national parks in Maharashtra",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSWlpS1BobkNjT3E2TnBnQU5UTWF4dDZUS0tkekMwS1RIOXgzY0l2VXN5NkVTRnNVYU5jd3dsd3U1MXNKSVU0MVpwdi11VFg1THRzSkp2ZmRIR2Z6M05zRkpRV1VRUXc5dXpQem9MSG5yUkU5cUJWdHhSSXZnaDN5REY5LXQwUjA3bTlmajFMcjU2RFRJYU9rQVJ5UE1HN0QyWGxOS2pQOFBNcWNGUkt3RGhKNjZsMFBZZ1BET0JTcXE2Q1BJYlVMNDZfMExLMzFWQzlwatIB2gFBVV95cUxOSEFjcVQ1SWhzb2FtaUtDV2M1eXlrNGc0TGpyWTR6dGtRTFFjWFVwVVlIWENzdVR1WExvMlZqYmkyRUVEVFVrVklfVGdRZHRQMW8xNlJ0NXJSeU5tMExvM0dUMzl1WkExZmVsSmc2d2FqUEZIYnZBeXdmVzNZSTN3a05acC02aWY5aVVYVWltNWdVby0tdXJnOHYzc1A2QXhvOFZtSW5PMm1YdFMxV2lpaE9aSDNHZndjN0tRZ09WSFpXeHZkSUc4QzFiZWQ0a2dYMl9iMFNtN2V0UQ?oc=5",
+    "source": "The Times of India",
+    "published": "2024-02-16",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
   },
   {
     "headline": "The Dubious Business of Trading Carbon and Its Stakes For India’s People and Forests",
@@ -16227,6 +16389,24 @@
     "lon": 88.8806
   },
   {
+    "headline": "Maharashtra: Tadoba tiger turns cannibal, consumes flesh of another",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTHFmMklvX3Nra3l1MldPaTk1NXppMjNhUW55UUtDcEczUDkxVUtDSUpDWTNtaG9lc2xGclBrclVtQmJBaVNjNDl4VHA2cGU5WUlrdlhmWmxlMC0zSE14czJMbnlqdHNkU0ctMEMydllsZWdKdi1hc002X3VqWmZSMXk3SHRTS0JkTmYxZEJPZGpyQUZQZEpvZjJjWUtuTmQ2UEdYNGFwdXc1aEh4NENEeHF6OHZFSDRlcTRwOEJXOHJFbFZCeVHSAcsBQVVfeXFMUHpINGVBc2g2X1RZSkZIRHAwZDlGR001b09RdVBhTlFjaW9BS0EyOVR6YVZzaHR2UjIyeHRrN0RQOFljYmhZXzRLZTR3NGJCdTFJWGdueVRWczMwV2JxdV9ETElic0dOS1V1NHU5NjgyUjByclQ3MVZkaHNkYktSMnk2N2h5b1hfZzdDWFRBY2hvTVZycHdOTnBJcWFkRnhqNUVzVE5HalRYV1I2UkN1Umc2MEtxWTBPM3NQaE5uV3ctLUw1OFdNMnJtTEk?oc=5",
+    "source": "The Times of India",
+    "published": "2024-01-24",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
+    "headline": "2 Tiger Bodies Found In Maharashtra Reserve, \"Territorial Fight\" Suspected",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT0F2SlNDQWZtOHhud1FWMGVxZFo4TlVYNTJ4aklyaWZzYkVNRDNBUVN4UXdkWmRjVTBhN296cGlCc1phdjFFNFJONTBnZHR5Z252eHlBdVJDQm5VTE0xdS1RQjQxZUpEOEhhWUFoVlBpeFUtdEc2WWM2ZHZZTmFnVTNlRFpLd0tYN3I2RjBHOER4MkpoZnRrRjJmZnoxX05JenpMeFJlem56TFNYTWfSAbYBQVVfeXFMTXhRSVlDUlJJdVBkX2ZiVXNqaWVzY21DNVJ2a3IwZVFBNzFQeGRwdEFOWTREUm5TclRYQzVMRUR5VzVCTXpVem96UmViNk9VOW9PYzdrem53M2xmS2VQT01ab1haTmFZelhYY3FpSHF4a1BBZk5jMkZwdDZRZ3dTMjZOSTViQ2s0Q0dLTUJtd3NNcl9LV2ZpU1BqVUVnNTZzdVJGcUtpb3VGTW9zSlVGcF9zZFZtLXc?oc=5",
+    "source": "NDTV",
+    "published": "2024-01-22",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
     "headline": "Anti poaching teams of CG, Odisha rescue pangolin",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRVJJOG1lb2pjOERmT1JsSXpydXE2VHRnZ0syTzNPNkpsNVU0aXMyQVg5QTJFb1BTODVkVUR1Sm83TlhtaVNJSXlzRTJkeU9hSzJ5SHlkYTBTeUpJNmk2dkZEYmNaSUNVYmxLNF8wbUpYdTFZcjlnaG91ZVh1VHFxOWJNa285OFlLZnFmV0oydmJnWFZubXlMVWhacHoyRENXdmdndXhXeG1Hc0lPdTAxTmMwT2cxUXZtRC1NdlV1QW5qOFhL0gHKAUFVX3lxTFAxaC1EZXA3c2RXNGNhdTYzeUg0bHEzRDNBV1dKbktpODR1dHZQejQ3VlBXUHJzMk1kUzJ4VlJ6OUtVZGs4SFFnY2RKV1VXSTMtWnMtb2VZS2F1NHo4TjUwczNSUW1DRW02Z0RUY0JQenVRWERIOU9FTEE2MjVGTmlfemJDUFNvR3h4RWFYZGVCM0FUNUF5ZDhkRzJKWFd3OUpsSnlzY1V4S0xhSlF3YWd6OVJJUWtLVGs5UTlRODB2TXZqd1EwWDRCWGc?oc=5",
     "source": "The Times of India",
@@ -16252,6 +16432,15 @@
     "place_name": "Thane",
     "lat": 19.2183,
     "lon": 72.9781
+  },
+  {
+    "headline": "Maharashtra: 62 'man-eater' tigers captured from Chandrapur, Gadchiroli districts in last 10 years",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPeVFLS2hnNlFSM25QSlh5b0tUdmpoSDFIRjhFUVJCaDQ2R0phOWl3cXd5Z1d6UnF0c0JQZjh5dzIwZ2I2YURJaFIzM0QzNzNzN0QwLWR5WkwwTXpvNkpZeUgwOWI3MEllcWtVS3VMQWlCSmNMNUZQSzFGRDE1V0dSNDI5OVRCaFpQYVVJQUsxVkJaR3hvT052eVRYdlY1ODY5T3FXNUg1UXR0TTBfdV9uNkRjS010RzY3RGxxRnE3VW5qY25FZi1ZU3VBVHdta1J1R1JfWGhsMFVrTWZWSGNvQTl6VU53aXkyZE5MT3h0Yw?oc=5",
+    "source": "ANI News",
+    "published": "2024-01-14",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
   },
   {
     "headline": "Annual Olive Ridley nesting season begins along Chennai coast",
@@ -16324,6 +16513,15 @@
     "place_name": "Madhya Pradesh",
     "lat": 22.9734,
     "lon": 78.6569
+  },
+  {
+    "headline": "Maharashtra: Carcass found in Tadoba not Maya’s",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQN3N3S0NoZGx6UDBVR0Zka01DZjQ3S3V5ZWxSc281aHE4NmFubDhqd1VzNUtXWmlwZXhKYWVJSml2MzhIZmpxTE9iVU12djlmTUVXdFhwODhUXzM0blBjZkZMaVBwcmFNYmdKV2ZEUVBQRm9aUXloR1pmMWQ1VjBDZ2dkQ1A4RS05SGxXbzNxdkM0MXpvUUlMajlzdkxOaGJKeFZlSk9HQmzSAa4BQVVfeXFMTWRWX2dwNHRiaTBHcGRZazJqT3hMQjZtbFpuSWdDZXp6YVplekt0NWcyM1VpYjBqb0FONHAyYmV3UDNpVmFZNFJFREZiMDNVOWFNa0NNYkx6aGtFWjVYd0RiVXlwLTRJa2RSR0dEWUJWRThTZFZpZ0p0OWt3NFFZVGs0QmFKaE9xNFdOMFJ6YTM2bXlqMEtNbnFzNjRtSlZpSFQzMDk2YTlUeVVwVGZn?oc=5",
+    "source": "Mid-Day",
+    "published": "2023-12-25",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
   },
   {
     "headline": "Odisha STF rescues live pangolin, one held",
@@ -16407,6 +16605,24 @@
     "lon": 78.7747
   },
   {
+    "headline": "Maharashtra: Tadoba reserve officials, 'Can’t say Maya is dead just yet’",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTUZwNXFIbzJZdUNmT0RvXy1PWWR0eElkOU0tbFZLYWNqTFp0aThxd1Y4TEtCZU5pUzlBU1dyUDZlR2FUWExIMFdUVmhuRXVQeWp6NXlNMGpzWFdISVZWQzl5OXR0dDMxWTVacHJSN0VSVjBCa3NfOUFZQWVGbmpIY0FDQTdnN1RPeUFTT0FOcFJRMzY1VllCcW91eU1CaDF1MHRESFVEWUVlSjJTV0kxVWtMb3NGaEswNU9vWkIydE0zME50T3fSAcsBQVVfeXFMTjVLLXVoRHdZXzVvNmN6YlpKdlhKSVc1a0Q4VzdLQWwtUVRXMFlIb3JLci14U1RHR2c1b2dMbGlLZ0RxbEg0bldqNFJTNEQzdFEtMWRsQ3VCOHpjZVRyQllkY0g0LU10WEN6NGVxUV9YbEVTU3VIWEhVMGJOVzlFWVZMWWhZejEzN0xyd05MXzl2RVlXYVBuNTdjVlB1dVVicGtlU0l4SUhkSmE0aTA1cEd0N19UMVVPSUdKaTBtSkVMbHZJZkxFY0h3RVk?oc=5",
+    "source": "Mid-Day",
+    "published": "2023-11-22",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
+    "headline": "Maharashtra: Tadoba Tiger Reserve officials begin 3-day foot patrolling for Maya",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPLUlRY1hXYmJKV1FhanR3YnFzUmVXNXhTV0VSWFJnek5jVVhvWDdiTkwwSEdUcnAybXYxbjNCby1hcUpENDMtSjVTMHF2MC1wOW80bTdSSGprNWx2MUNQUWQ1dXY4ZmR3aktpS3I2SURJLXZaeVBHZ0IyaE5tbVh5QjA2Tm9ZNjVrVjhwSWxFOGV5YVE5S3hsUXNHMnJMclJjOHk0dkpLanFTdWhCR1F2dnkyd3pRemNZc0NOcU4zaS1MOGNQcWwxM0hpVDBXYmNRdmV4MTZn0gHbAUFVX3lxTFBhSWJGZnJ4UFBZblRtTFp1T1dvQ0Jmc29xeWRDcUtRWFNKampWd21DN0FHaGtncHAxeGJDNE5KcFpZNzlCTkswaDFJYlAxSDUybEVpSHhtMHViQXF6bExPcmJiMDduN3FXbVpxeHNYbWwzQmpWekRFWG1aRUg4RmFLQkZQOV9fR3lfYnJ2OW5HS0hYNHZiNmxoYXRsd1RuQVZ4c28zQnFQV2ljMHp1VTBveHNYbGJEZjBSWmF3Zkp5QXcxR1FIUEpPcG55T2RtRk1xdzhaV001Q25ycw?oc=5",
+    "source": "Mid-Day",
+    "published": "2023-11-18",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
     "headline": "Explore the 7 Tiger Reserves in Madhya Pradesh with Beautiful Maps",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJNUdyV0ZPb2Y1ZzBIWDJkdUtQZkFuSl9kdnRhWEwya0ZzVk5lajVpWm4xVnV4VUlUVEQteDBFaVhoeUV1MlNWcGVJRFFNZUgyd1YzUzRiSW1LMTFwV2J2V2pBUUpYcjNlMUFKUUJ0Z3RRUQ?oc=5",
     "source": "UPSC Colorfull notes",
@@ -16414,6 +16630,15 @@
     "place_name": "Madhya Pradesh",
     "lat": 22.9734,
     "lon": 78.6569
+  },
+  {
+    "headline": "Maharashtra: Net widened in search for Maya, Tadoba’s tigress",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMUYteEpZVW5pQ0R2c3VIUDhYYlhtN01lNWtsZzUzeF9abzdlLWxWS0hkNzJrRUsxdmw2aXY3UFotQmZIM0pCUDRqdlNKTUNvR1Z0VWRZdU91RUFObHpuaGVfZHgxY2M4Y29NTEFfbkZ5NjR6eTMzMzJFUmRXVzVJVmVUM2RfeE5GTlJiZjFJYlFXQUwyZFQtQ3JJcnRhMGNHUmEySE4zVl9jaWltWWtKRm4zSklYRnBUR1HSAb8BQVVfeXFMUGZkcjZIZzJVX1VPcGZQa2phTVNMNWloT21YZE92Um9Vdl9EbDc3SDNIU282ZHdZY0NvcnMwRWxFMlNuTVduY21vdEFDc2pfTUxGcUkwQmloUF9VdGRib0JqMEVhaDdjdk4tbHBvYWh6X2JQdTkyZTJLVzN3eFhpaXFKNHNFNWlDY2pmOHc5ZkVsX2tqSDB1NEd6eGtlU3RiTDF0LVRkT1BiX1BkNy1Mb0U4SkNGeEVfRDl0NlZUY2M?oc=5",
+    "source": "Mid-Day",
+    "published": "2023-11-01",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
   },
   {
     "headline": "Why the Goa government is in the dock over notifying a tiger reserve",
@@ -16866,6 +17091,15 @@
     "lon": 88.8806
   },
   {
+    "headline": "In Maharashtra, Adivasis relocated for tiger conservation have been left to fend for themselves",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWGFzZ0JEb3ZKM3E1UU82S0VrMUhURThHcndWT1VtODJhV3d2dDVGSUVZUk51UXhJLXNmaG82VUtGcjlpQUpoRm5uZUJUcVFBYjcwaDNWbV95dWxZTF9yXzBaeXN6djVKRV9vUHV1bXVuTTlhM0N3QklTRTE3djdSS3ZEOFNTRTJ1ckFQdy1rMjhkUDExZXpkU1dYelotd0FUalFYWFQ3UTdmdEFNNDBudDRaa3B0RDBWM3Q2N0lxUmQtMkM3eWpn0gHMAUFVX3lxTFB3QXZrcVNPZEhIbWxYZXpaMENsbG9UMDVlTTJwNHhoOGRfN1RkYzNXV2V2S1FtQjRhaFNEZTlYNXZWM0RtQkJKaV9WYnZzTmlyVGFCZUlmclVhZkVfSi1Db0MzSWtLZEE4VU9uOFRZcTJPb2R0Q0JrRXJhajBtd0l4bmcyWWJFNzdrM01oaktFTUJwUmhNUzdVb3NuU3piNW9hdkJ4QWxkaHd2ZVFfQ19KdlM4NWpWTU4tUm5OX0FkdlFJQWNLUUhJZ05mdQ?oc=5",
+    "source": "Scroll.in",
+    "published": "2023-03-18",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
     "headline": "245 elephant deaths in Odisha in 3 years",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdHdtZGQwNmVndTcyS0xuLTRZdGdWRXRJbjFNZm9FX2t0YkRzWFZmVHVZMzViVFNHalVfbEctTTBjaUZERHNLVkw3S2F4ZVRmNjA1STFrRFptWktpMHVNbEx3RzMxOWdCRVd6cXRUNndNenJGNUtINXRxTWs3UGNmS21Vai12T1RTdmlIaDN6d2l3eUXSAZgBQVVfeXFMTUNoaWJnTmExcmJjMmZhQ0ZjZzNNSWhtZ1Z6bjRod2NwR0NoN0NyX1FObGw5NWI0VG9XOXUyNlhjOGRKNDVqc2R1UzZkTlU2Nkp1T3BoYXNMbEFicjlrQTFJY3ZCaWJ5NnlybllPcEx5cGFmLU1WY1FlVjVNeHltUGhPNVhmVUZ5R2dwcGpnelQwcWpTeEUwZlQ?oc=5",
     "source": "Telegraph India",
@@ -16965,6 +17199,15 @@
     "lon": 79.0193
   },
   {
+    "headline": "Tamil Nadu sets up first center to conserve, rehabilitate turtles",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc1laZVhFamhpdWRzcVBxTjNOUHlOMDU5MVNWZ2E3LTk5Q1FlZ19Rc0F3bmo5WGJhU0VPWmljRC1MOE5sbkZyVjlZTmh4Q0VzZERmcWhDV3UwSG1XLVpJYXNxWlNPLUliNFpnaXpTYTZCMWc5VkdfcE9VQzZkQ1U5Y2pkTm5iODJXdFBQYUxXUDdZLWxJOHpXemF0dVRYZWdqWGhEZXJwQjB2OG1UalVqX1dR?oc=5",
+    "source": "Deccan Herald",
+    "published": "2023-01-21",
+    "place_name": "Tamil Nadu",
+    "lat": 11.1271,
+    "lon": 78.6569
+  },
+  {
     "headline": "How Sikkim is giving citizens a say in forest conservation",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRi1UM3hiTkdCcUFZajlhTVRVZnVFTEtFcE9HWFdUTEpELV94OC15VUpRYmViQzNpbFg5ZEt4SkwyTTZvWktuZTZleHpzQ0pRdGxCWWRlQUVwbFR0TzQ0NEhXTVlCUF9WWkV5Z0g5WE1HOHdqZmtQOWIySmJkd2RYSWJVb3M5UndBR2hFZkV2Zy1fY3NncllTaUdrOWdVek1EVzk4WTh0WWFsNFZvY3k5VEVOdHlLMGJYWW96UlZSZ0NXWkNwZU82OdIBzgFBVV95cUxQUWVwdC0tSDV6ZkwyT2h2QWNBdzBhdE5pQW5FTXdOQTNKRm1xYU5WR2FvRTRpZTJ2bE1VcWVFZTFyZ2tkVzNmYzJkVk9uc2dvNWtrYzVkT0V1RWlnTEp3UDlhSnZhT3d3dzdLUGNPMEZhY0wyR0oySVQ3V2lITEVmN05WT3MtRUwtczFmWEQwUUFad2FlVFBud1JKdjYyaHRhbUYweW9KRGZBTVRqR19wZ2RYMWY2RFo1SDlpQV84dklHRHoxT2R2bXBaOVl4UQ?oc=5",
     "source": "India Today",
@@ -16981,6 +17224,15 @@
     "place_name": "Andhra Pradesh",
     "lat": 15.9129,
     "lon": 79.74
+  },
+  {
+    "headline": "Forest officials halt traffic to let tigers cross road in Maharashtra’s Tadoba National Park. Watch video",
+    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSzhEZTVwdzFjcURoWS1OTWFtSllPQ2ptZU00ZTRjQU9vSzJhOXAzaUZLdTBCZ3VsbjBWRDduVk5YSHBhZTVhX2ZZcjhSQ0tQbERJX2h1eDhlMFVpemFIOFhkWEJoSEtyclh1d3QyN2ZSVi16QThOdnhaUXFfVnJvS1ozY2xCNFpHdDRNU2ZObkZsZE43TzBSeU9QeHlUTlZ3Um1BdUhxcTFZSUplNG4zeDJwenZBQkwwYXhhXzgwbG5iV3ZGcmU3MlVaeVloVUNHRHNCUFZENGNUcTlYU1h4LS1ORjZ5QmozbkJIVHBOU3NVQknSAfoBQVVfeXFMTUxnQnZBZFhELXowRUd3YzQ0YXJvWnRfd2RsLU9rN1VwUktJNXpaSWVYUTRwMGg2Mm5BS1FJTUtUX3BXWVF4TEIxWVMyTmNueUJoQUYyaDFSOTBjeDhIelYwMHJUOVhNTE1jZDF6Sm5IZE1kSGJ6d0hyc0FvTHdqNVluZ1FwX05URWtOY2Fva3o4YVM1QlMwbnFxOTNVZ1BDdDBEcG81Q2h4WjYxNWFfVjBXTzdCOWptTXRpMUlVQ2tpTmhNal9VVnVVYXRrSVd1Vmh1dTUzRmVHclJRaDBlbWI1T01QdmF3RHRNbWw2eV81OWpfRE1KX3RhZw?oc=5",
+    "source": "The Indian Express",
+    "published": "2023-01-04",
+    "place_name": "Tadoba National Park",
+    "lat": 20.2167,
+    "lon": 79.3167
   },
   {
     "headline": "Multiple signs of poaching show all is not well in Odisha’s reserves | India News",
@@ -17012,6 +17264,15 @@
   {
     "headline": "2 Tigers Found Dead In 24 Hours In Maharashtra's Tadoba Andhari Reserve",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOS2dqeUhESUYxcjgwQS1yZURfU0ZkVEdzT3Job3RKb2ZzVTIzSnNwSi1MUXpDY2pwMHhJLVpZZXpGczR3Ym9xYnUzX3d3Z215SDRtY3gzSzRMckZBMDU0dGlub21ZUEs0V1o4Um9leWVKRU1SbXk0SEgya2pkSHF0Q2dXUVMyVE5ZcEdodUJjQUFuWDlWV1NIWnFlZHFiZmxKSnBDbXVrWm9JRTNQR0tKaDBhZDU2YUXSAbcBQVVfeXFMTktnanlIRElGMXI4MEEtcmVEX1NGZFRHc09yaG90Sm9mc1UyM0pzcEotTFF6Q2NqcDB4SS1aWWV6RnM0d2JvcWJ1M193d2dteUg0bWN4M0s0THJGQTA1NHRpbm9tWVBLNFdaOFJvZXllSkVNUm15NEhIMmtqZEhxdENnV1FTMlROWXBHaHVCY0FBblg5VldTSFpxZWRxYmZsSkpwQ211a1pvSUUzUEdLSmgwYWQ1NmFF?oc=5",
+    "source": "NDTV",
+    "published": "2022-12-01",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
+    "headline": "2 Tigers Found Dead In 24 Hours In Maharashtra's Tadoba Andhari Reserve",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNd2h1TURDSGVKblZPWDh2ajRaX1FsZENrWjdOZEVJZFp6WnZVMjh5ekpoeFRZeWl1d0ZYRkt0Y2NlYzVXV1ZqZnZBWl9Fb2xka2dXa3NJZm5FT2ZEdXdSNTNBT216RDg0Y3RKX2Vvam5xUDJ5eG14QWNhcUJqamFER25BSFl1cnMyWmI4MVo4QS1pS2VlNzhLWGdaT05QTmprLUlvT2g0VTVNQkdMNGc40gG3AUFVX3lxTE5LZ2p5SERJRjFyODBBLXJlRF9TRmRUR3NPcmhvdEpvZnNVMjNKc3BKLUxRekNjanAweEktWlllekZzNHdib3FidTNfd3dnbXlING1jeDNLNExyRkEwNTR0aW5vbVlQSzRXWjhSb2V5ZUpFTVJteTRISDJramRIcXRDZ1dRUzJUTllwR2h1QmNBQW5YOVZXU0hacWVkcWJmbEpKcENtdWtab0lFM1BHS0poMGFkNTZhRQ?oc=5",
     "source": "NDTV",
     "published": "2022-12-01",
     "place_name": "Maharashtra",
@@ -17235,6 +17496,15 @@
     "lon": 75.7139
   },
   {
+    "headline": "Tadoba Tiger Reserve, Maharashtra plays host for National Global Tiger Day Celebrations 2022",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZjlRb2dBa2p4dnlBcHJxUWhqbzhNa1ZXeUM0QUpXSk9MUmRaMzVqZU44RzdWVGg1SHJmQWNOYXVoc0xWcElZclVNYUpCZzNoelJNS1VRU2NqZXlRLVByM2NLODJCZmdTNkpTZHpqbGh6Z29rMHFJUG84cUpYTnB4NUNYaW1KRDNCLVF3WmpJeHBXUEJaWUd0czA5SDN1bEdMVlhSUGgwMWlxQlJnaUFfVFpHUDQ3cnlrNHZR?oc=5",
+    "source": "Sarkaritel.com",
+    "published": "2022-07-29",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
     "headline": "Done With Goa's Nightlife? Go On A Date With Nature At These National Parks In Goa",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZUVEMDBvdkU5ZXc2dzUtSHMwclcxSktnMkFRSEpqRmFLTVR0YlNrYTVEbEpFd1I4eTF6MHFMVGNNemlmcEhqQzlPU2pTcU5kVmdMd2p3WDBUcFdSdWotSWRLWEg3aWNaMjNtWmljSEQwUDdqWUpOVzgyMXRUdy1VeFZRZmFCZEE00gGOAUFVX3lxTE4xQjhfazJXU1E1WC1fMWNEcndMeUhpanlxWlJPcDB2Yms0ZkF1bUNrTWpDODRWMVk4YkFpNTl4ZFJmRXo0cVJPc2t5OFRtR3hvcE5VZVhqWmJUU2VpbVdvMExLTDZkcnBFVTJKUVFPbFBFZ3c1OXd6Smd5cU5pNzFaUUw3VkpPQkdQZEpFM3c?oc=5",
     "source": "Travel and Leisure Asia",
@@ -17323,6 +17593,15 @@
     "place_name": "Chittoor",
     "lat": 13.2172,
     "lon": 79.1003
+  },
+  {
+    "headline": "Oldest Tiger Of Maharashtra Reserve Found Dead",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWDE4THJGT2pyVGJNQXpZMnA2WE9LeTVZSVo5VWQyM19uMlZETWVrcnhYWUxwN3ZIZVNTcnRSZmlzT2FKRm5KMWJCWEllY1dUTHlobi1VNG81aWZfMDJocm5BWDBjcl96RDNvUjdUcW00MTJqV0NSSUJiUkhudjJPRFVpNlE4eWhlWDRnMFVVMA?oc=5",
+    "source": "NDTV",
+    "published": "2022-05-23",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
   },
   {
     "headline": "Sundarban tigers travelling to West Bengal in search of mates",
@@ -17505,6 +17784,15 @@
     "lon": 79.74
   },
   {
+    "headline": "Elephantine journey: Maharashtra's elephant corridor bodes well for conservation efforts",
+    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOM0pSZFAweHlVMW9EeVMyRnZwYVBBYWYzVW5Ka1VsUDZPRmlpc0kxZ01OTF9xTFZNcDNPTDFyQVZsVVl0SUZpbFprTDB5ZjlaOE10RUVKb0pYclVlN2luZThfTUhKemtmUW1hdFNkbTY2UGlwMDNuUzBhTVJRUU1vWHVkMGF4YU5pUkJOS1hPUUtYRDgzZzBUeXNSdE9ZZlBWS2tJQkZpNFl4aGpVT25IZDJhelQ3X21wNjMyS19XRVJEaFpkLV9CX05haW04ay0tQU1xblpMVXNBLVFjRjJMVlVxU25hT2xyZmdBMkozWjJjWTjSAfoBQVVfeXFMT0t6TUo0WlZ3ZzFYVXJnYXowOU14TEJyYVFNV2I5NmtfRzI1b3N1Um16Z3F4amJ5bXVrNmZmUzBfSEtmUUJsaFdaYVY4Qjg0UmRPaDJVeXN2cFlRUEhySU11LUVPN0xpbE13VUMtZU1qekJiVkh6R3BPRWkzUHB0eld6UjBDcWg2cW9KU2NYTG40TkY4M09qeFBzRlZFU0k0aHMtRkV1aC0zWXhfQi1NSThiaEtfUElMbkVEaWxyQUFkcXJ0dmpIM0pHdDZJRmZXVGxRUlRXZ0FUeFBybV9ZQWVjekFTSE5YSzlfeWtCVjNiVTY4eFZnNzhNUQ?oc=5",
+    "source": "Frontline Magazine",
+    "published": "2022-01-21",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
     "headline": "Only 1 rhino poaching case in Assam in 2021, lowest in 21 years",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPazlabzZ3RTNjcjJLUGxEUUw1aXVtWndST0hHei00ZEpVM25BbDBFa0lpWk4wUTBqQlhqN05ndlFSSkd2cFVvVU5LbU9NUE15WFI4dWtPVFZ5RDJZTU9GQWp4OXoyejBLbnlqbkJiUnREZW41SFI5d0hwWUFvOXRUbnZSZHFXUlpmQWdhM3dJVE5ydHBIMFh4cFl3LWpockxIem9oZHRR0gGrAUFVX3lxTE1vS211ZTl6d0tGQU9UclRrR1NNRkZoeVpqdmhmWURYWTdxQ2RIcnVudHBJdFFZd2FScUwwU190WG54Z0V6YTlfUXpGcTVSVW5SNjlHT2pPZ1hGY052VGpUZlNnM25URVFwZENPeFcwOWtlZUZabGM4QmdwUXYzWmVkUHg4NENIdEFNUDYtTzhEdWN0SW9RaURHTnFOT3ZTZ3JBVk9OOWVYM01Gcw?oc=5",
     "source": "India Today",
@@ -17665,6 +17953,15 @@
     "place_name": "Sundarbans",
     "lat": 21.9497,
     "lon": 88.8806
+  },
+  {
+    "headline": "Maharashtra: Adult male tiger rescued from well in Chandrapur",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdWhtNEMzRURfZWVkM1dHOG5sMHZSMVRpRkczYWc3THRPOVVlUVVRaXhINWtFNEJUR3JZcjFTeWdSZnRZSDhFeEU3RVgtY2hlZXdBWEJOdjBnZ3NmcVNjT28wQmJYSWJjOVJUTFlfbFVvRFIySDlWTzIza3JkTUd4LUxvNnhES0VTT01mam81dEFyWHVwcXBwejd4U3dod2lLSENoM09SQlF2Y1pETVJKRXRkUFBVcERm?oc=5",
+    "source": "The Indian Express",
+    "published": "2021-11-08",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
   },
   {
     "headline": "Pangolin rescued, 1 arrested in Bargarh district",
