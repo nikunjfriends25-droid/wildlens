@@ -63,6 +63,51 @@
     "lon": 74.2179
   },
   {
+    "headline": "Months after poachers hacked off its tusks, Assam elephant undergoes critical dental procedure",
+    "url": "https://www.thehindu.com/news/national/assam/months-after-poachers-hacked-off-its-tusks-assam-elephant-undergoes-critical-dental-procedure/article71392359.ece",
+    "source": "The Hindu",
+    "published": "2026-08-26",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Tension prevails at Nagarjunasagar as A.P. draws water unilaterally, TG retaliates",
+    "url": "https://www.thehindu.com/news/national/telangana/tension-prevails-at-nagarjunsagar-as-ap-draws-water-unilaterally-tg-retaliates/article71393550.ece",
+    "source": "The Hindu",
+    "published": "2026-08-26",
+    "place_name": "Nagarjunasagar",
+    "lat": 16.15,
+    "lon": 79.3
+  },
+  {
+    "headline": "Prioritise afforestation, increasing green cover in Bidar, says Minister",
+    "url": "https://www.thehindu.com/news/national/karnataka/prioritise-afforestation-increasing-green-cover-in-bidar-says-minister/article71393084.ece",
+    "source": "The Hindu",
+    "published": "2026-08-26",
+    "place_name": "Bidar",
+    "lat": 17.9104,
+    "lon": 77.5199
+  },
+  {
+    "headline": "Kaziranga’s flood paradox: The floods Assam fears are the floods it needs - The Assam Tribune",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbi1xRlFKTU9oVzNnWk1yZnFyYi0zbWhkLUIwNFBscGtYal9zZzVlMFc4X3BqRDdRcTJmVVZ1WmZpY1Jycm1zdG8xdjRTMVhmS01uM3h3TmxqUW9HSThJVjJxOWVSLXhlRVhrOTZuVnZmTzZwNTNEd2pycmJPdGFRUHVBemJWaWcxOTFBM1BNWHRGNHQwb0VUakw5M1hKVXdPc0F3QkxsMlF2RUFHUDM1T0VHdE3SAbQBQVVfeXFMT24tcUZRSk1PaFczZ1pNcmZxcmItM21oZC1CMDRQbHBrWGpfc2c1ZTBXOF9wakQ3UXEyZlVWdVpmaWNScnJtc3RvMXY0UzFYZktNbjN4d05salFvR0k4SVYycTllUi14ZUVYazk2blZ2Zk82cDUzRHdqcnJiT3RhUVB1QXpiVmlnMTkxQTNQTVh0RjR0MG9FVGpMOTNYSlV3T3NBd0JMbDJRdkVBR1AzNU9FR3RN?oc=5",
+    "source": "Assam Tribune",
+    "published": "2026-08-26",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Injured tiger rescued from Uttarakhand’s Terai West forest dies during treatment",
+    "url": "https://www.hindustantimes.com/india-news/injured-tiger-rescued-from-uttarakhand-s-terai-west-forest-dies-during-treatment-101787748885190.html",
+    "source": "Hindustan Times",
+    "published": "2026-08-26",
+    "place_name": "Uttarakhand",
+    "lat": 30.0668,
+    "lon": 79.0193
+  },
+  {
     "headline": "'Public Utility' No Licence To Override Forest, Wildlife Laws: Rajasthan High Court Quashes NHAI...",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSmkyTThDUG9OdWZ0NzhjVjhqczhwMzlaZEVJX1hINzI3LUR3UFljS185RkN2Q0pCWWQ1dVlsZkNYTUM5UXJXM0VIVktDTWtxM0V2b3hGd2duaUpzTzY1ZUl2eUJReGctRThNc0NYOEI5ZFBadUxPT0d3U0pQc2F3cHY2QjRWdXAzZmhiZzVJV1RaazM1bVdKX2s5a0NBU0lxZE5BaVBsV0FHR1ViLTdFYV9GYTZaUUFYdy1oSXVlM3V6LTNw0gHKAUFVX3lxTE1pZnFDekVfNmlzMFpOanM5OW1UYjNTTHJVMm04TFVKendlUXVEVmFXMUNlaXFWQzJYVkxIUjJqRERFb0x0M3BselBNRnFld3h5MXNOWnExZmxrajE1ZGpCM0NackVVZUNwOXRJUHBoTkhHV0s1XzVocFBiQU9CNFpfeDN3cV9BeU9RLXMwUEt2dVFHMW5kUFEtclNDMy05YmMxd2M1bE44Xy1aOG95aTJLSTVwcnVmT0RxOWZrUEkwcmNsMHZEd2RkZFE?oc=5",
     "source": "Live Law",
@@ -20133,6 +20178,15 @@
     "lon": 79.0193
   },
   {
+    "headline": "Uttarakhand Forest Fires: Facts You Should Know",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNR2N5bzJrbFhwX3pGT25kR1FhR25SMWFwSEtQSDdnWllPMmliZlBrMVpSUEFEM2xOR051QjVhWTNtY1ViRHFhc3ZnU1c4TnJsd0t5alkwVThFUjR4SklYdGpUQkdEcnA4bVAxQ2MzRGRDVm9pNWNWbGNfSkRPRlZDQ0ZXMDljUFVtcS1tX2ZwWnBLckU?oc=5",
+    "source": "Maps of India",
+    "published": "2016-05-01",
+    "place_name": "Uttarakhand forest",
+    "lat": 30.0668,
+    "lon": 79.0193
+  },
+  {
     "headline": "Uttarakhand forest fires spread to 13 districts | India News",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNajFJdFFCTHhLVzRWYVhtbFJwbVQtQzdDZDV4MTB3aERlUHhSWF9lSDBsYWVxaUxjUW9rRjlXQTMtTWpkYW83c2d6dFp5MkxrbFlGRUgtRlFkQkNISFd3U2FlRHR0RWJuOVRNcFljNVV2WmZRYnRib25HY1FCNDN3bHhmMjlMSDdHWDFGRkc3MC05bGJvMGVrcjdZWVN2WlZzSmhseUdDT0dfYVFBR0g2eDRDc1pZNlFDSnF0VnMwQjh0Uk9iNTN3RdIBzgFBVV95cUxOSXFlNG5SSU5GSTA1N1hrWTRXaUVoVXlUVGxMaEdpMTN1RF9qcmhIT0ZRZEVvemQ0dHpmLV9Fb1pIX2N1anpPOVMwcnZGbzBkaTVhcEF4bjBhTHR4czI5NXFmb3ducElwNmd1MTU4VDNFRGFDWFYxazZ2c3h0VGc2ZHFDdFhEX3E4Rnlqb2MxaDlpeUJOUlA5MVFYV3FzMmExeXpHRkxSM0I0aThnMmRoQk1CT3pLQ2R6MzNSUXQxXzY1Z3o0NnBhXzZfdDVJdw?oc=5",
     "source": "Hindustan Times",
@@ -20239,6 +20293,15 @@
     "place_name": "Sundarbans",
     "lat": 21.9497,
     "lon": 88.8806
+  },
+  {
+    "headline": "Death in the city: How a lack of vultures threatens Mumbai's 'Towers of Silence'",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSXJ5YjQ4UDBkU2hSLXQ5V01tcUNhQ3hHcGo1eWxtSGtqS0RrNWo0M2RPcjlMVFIycURQaDM5NTVXZTFXY3czLXptQzAwaFhzSmZRNWdSdzlQcU9sUGxDMVVVdkhfVDVGeXFsTklUUzZwSmprcWRpbFdCQmhtb21sOHVLZ05XRHU2TjNzSDBGUkpJRTYyVThlY3BWczk0WjVWeFJzM1FFZ3dZZw?oc=5",
+    "source": "The Guardian",
+    "published": "2015-01-26",
+    "place_name": "Mumbai",
+    "lat": 19.076,
+    "lon": 72.8777
   },
   {
     "headline": "Two minors killed in fresh leopard attacks in Dehradun",
