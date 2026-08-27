@@ -1,5 +1,50 @@
 [
   {
+    "headline": "Spoon-tailed duskhawker: Arunachal find fattens India’s dragonfly list",
+    "url": "https://www.thehindu.com/sci-tech/energy-and-environment/spoon-tailed-duskhawker-arunachal-find-fattens-indias-dragonfly-list/article71395615.ece",
+    "source": "The Hindu",
+    "published": "2026-08-27",
+    "place_name": "Namdapha National Park",
+    "lat": 27.5333,
+    "lon": 96.3833
+  },
+  {
+    "headline": "Assam: Elephant Mangal Singh undergoes dental procedure; delay in ivory recovery raises questions",
+    "url": "https://nenow.in/environment/assam-elephant-mangal-singh-undergoes-dental-procedure-delay-in-ivory-recovery-raises-questions.html",
+    "source": "Northeast Now",
+    "published": "2026-08-27",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Three held in Chhattisgarh after Instagram video shows monitor lizard hunt, eaten",
+    "url": "https://www.hindustantimes.com/india-news/three-held-in-chhattisgarh-after-instagram-video-shows-monitor-lizard-hunt-eaten-101787829443274.html",
+    "source": "Hindustan Times",
+    "published": "2026-08-27",
+    "place_name": "Chhattisgarh",
+    "lat": 21.2787,
+    "lon": 81.8661
+  },
+  {
+    "headline": "SC to hear plea on sand mining in Ken River with Chambal Gharial Sanctuary case",
+    "url": "https://www.hindustantimes.com/india-news/sc-to-hear-plea-on-sand-mining-in-ken-river-with-chambal-gharial-sanctuary-case-101787816957216.html",
+    "source": "Hindustan Times",
+    "published": "2026-08-27",
+    "place_name": "Panna Tiger Reserve",
+    "lat": 24.7333,
+    "lon": 80.0
+  },
+  {
+    "headline": "216 Trafficked Star Tortoises Relocated to Tadoba",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE55RkdKMWFQamZfZEZrOElfSXpDYlhMMkhya056dmpHdHNrQkNjZGNmN0czYXBiM3V3SmtoUW83UkRvZGV3V1FqUmpSMWxNRnJCVHgxS2gtTWQyWkhESnVwVFdWMjRYZGMzWFdiQzFFSVF2dUpPaVd0WGFTS2pVUQ?oc=5",
+    "source": "GK Today",
+    "published": "2026-08-27",
+    "place_name": "Tadoba",
+    "lat": 20.2333,
+    "lon": 79.3833
+  },
+  {
     "headline": "The largest living sea turtle",
     "url": "https://india.mongabay.com/short-article/2026/08/the-largest-living-sea-turtle/",
     "source": "Mongabay India",
@@ -106,6 +151,15 @@
     "place_name": "Uttarakhand",
     "lat": 30.0668,
     "lon": 79.0193
+  },
+  {
+    "headline": "Taj Tadoba Resort & Spa Opens Near Tadoba-Andhari Tiger Reserve",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5SSWpXNXZvbHdENUxRMDFTRjJvV2tqaWpUTm8yNnJheDFTVnpQRzFxcU9rZWRuc1RTcnFueVg0OGt0bDVlMlFfVlB5MHlXbmt6VGVWWGxDTW94M3p5ektWcE5n?oc=5",
+    "source": "Hotel News Resource",
+    "published": "2026-08-26",
+    "place_name": "Tadoba",
+    "lat": 20.2333,
+    "lon": 79.3833
   },
   {
     "headline": "'Public Utility' No Licence To Override Forest, Wildlife Laws: Rajasthan High Court Quashes NHAI...",
@@ -16909,6 +16963,15 @@
     "place_name": "Odisha",
     "lat": 20.9517,
     "lon": 85.0985
+  },
+  {
+    "headline": "How Nagaland’s youngest tribe, the Tikhirs, are celebrating Hornbill Festival",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUDJyNEJFem5aNklIZE5UTkcwdXJYWTIxVlRub1F1TkVGa2MzdkRCWWJpdEFYZFQyZnBheEFqT2Q0am1jVVBGbW1jc0lZQ0R6VkF0dWM4Rld5aXFNTUFiLWhvckF4MHlNZjhOX1BRenQ1LVpyLTlUaEJ3Wmt4QnN3TGhCMzRjSk91TGpjZTFVeVpUTnZ5MWlIQUctbnUyNkd3VG93SmdpdG56SkhwajlmVHRCcmFPZ0U?oc=5",
+    "source": "EastMojo",
+    "published": "2023-12-07",
+    "place_name": "Nagaland",
+    "lat": 26.1584,
+    "lon": 94.5624
   },
   {
     "headline": "Top 10 Wildlife Sanctuaries You Must Visit In Uttarakhand",
