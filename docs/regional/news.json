@@ -1,5 +1,38 @@
 [
   {
+    "headline": "ದಾಂಡೇಲಿಯಲ್ಲಿ ಸೆ.3ರಂದು ತಾಲ್ಲೂಕುಮಟ್ಟದ ದಸರಾ ಕ್ರೀಡಾಕೂಟ ಆಯೋಜನೆ",
+    "headline_en": "Dasara sports event organized by talukumatta on September 3 in Dandeli",
+    "url": "https://www.prajavani.net/district/uttara-kannada/dandeli-dasara-sports-meet-september-3-uttara-kannada-4224812",
+    "source": "Prajavani",
+    "lang": "Kannada",
+    "published": "2026-08-28",
+    "place_name": "Dandeli",
+    "lat": 15.25,
+    "lon": 74.65
+  },
+  {
+    "headline": "‘ಕರುನಾಡ ಸವಿಯೂಟ’ ಸ್ಪರ್ಧೆ ಆ.29ರಂದು ಲಯನ್ಸ್ ಕ್ಲಬ್ ಸಭಾಂಗಣದಲ್ಲಿ",
+    "headline_en": "'Karunada Saviyuta' competition on August 29 at Lions Club hall",
+    "url": "https://www.prajavani.net/district/dakshina-kannada/mangaluru-karunada-saviyoota-cooking-competition-aug29-2-4224733",
+    "source": "Prajavani",
+    "lang": "Kannada",
+    "published": "2026-08-28",
+    "place_name": "Deccan",
+    "lat": 17.5,
+    "lon": 76.0
+  },
+  {
+    "headline": "ವಾಲ್ಮೀಕಿ ಸಮಾಜಕ್ಕೆ ಶೇ 7.5 ಮೀಸಲಾತಿಗೆ ಸಂಘಟಿತ ಹೋರಾಟ ಅಗತ್ಯ",
+    "headline_en": "A concerted struggle for 7.5% reservation is necessary for the Valmiki community",
+    "url": "https://www.prajavani.net/district/raichur/raichur-valmiki-community-7-5-reservation-protest-4224567",
+    "source": "Prajavani",
+    "lang": "Kannada",
+    "published": "2026-08-28",
+    "place_name": "Valmiki",
+    "lat": 27.25,
+    "lon": 84.15
+  },
+  {
     "headline": "ಪೊಲೀಸ್, ಅರಣ್ಯ, ಅಗ್ನಿಶಾಮಕ ದಳದವರಿಗೆ ಕಲಬುರಗಿಯಲ್ಲಿ ಓಟದ ಸ್ಪರ್ಧೆ",
     "headline_en": "Race for police, forest, fire brigade in Kalaburagi",
     "url": "https://www.prajavani.net/district/kalaburagi/kalaburagi-athletics-police-forest-fire-running-competition-4222658",
@@ -8369,6 +8402,17 @@
     "place_name": "Tamil Nadu",
     "lat": 11.1271,
     "lon": 78.6569
+  },
+  {
+    "headline": "ঘূর্ণিঝড় রিমাল: সুন্দরবনে ক্রমাগত বাড়ছে মৃত প্রাণীর সংখ্যা - VOA বাংলা",
+    "headline_en": "Cyclone Rimal: Death toll continues to rise in Sundarbans - VOA Bangla",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE90UDVPYkVaamJ0R1VETExSMXZBalgzblJoM3VMdGs4bE9aTjRJdzU0VndjTWU4NXpzOWtxRDBzZVk4Y2FHaUJMNUhlSEh5bnJWdnfSAVRBVV95cUxQUm5aUUEzbU1LRFFYNENtOVJ5eWVLVHN2TkVibk01MEVONWx1ak1GOExvTFZNaHlkWnB3bW9yUWY5OU9sSDJpUWFuTlYteGg2ZkNuU0g?oc=5",
+    "source": "Bengali News",
+    "lang": "Bengali",
+    "published": "2024-06-01",
+    "place_name": "Sundarbans",
+    "lat": 21.9497,
+    "lon": 88.8806
   },
   {
     "headline": "लखनऊ चिड़ियाघर में 'शेर खान' के लिए लगा कूलर: चीता, मंकी, उल्लू ले रहे ठंडी हवा; गर्मी में भालू सुषमा खा रही... - Dainik Bhaskar",
