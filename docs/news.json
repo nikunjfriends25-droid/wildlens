@@ -1,5 +1,59 @@
 [
   {
+    "headline": "Western Ghats frogs sort by size to coexist, study finds",
+    "url": "https://india.mongabay.com/short-article/2026/08/western-ghats-frogs-sort-by-size-to-coexist-study-finds/",
+    "source": "Mongabay India",
+    "published": "2026-08-28",
+    "place_name": "Western Ghats",
+    "lat": 13.0,
+    "lon": 75.5
+  },
+  {
+    "headline": "Assam’s CWRC marks 25 years of wildlife conservation",
+    "url": "https://www.thehindu.com/news/national/assam/assams-cwrc-marks-25-years-of-wildlife-conservation/article71400399.ece",
+    "source": "The Hindu",
+    "published": "2026-08-28",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Dasara elephants accorded grand ceremonial welcome at Mysuru Palace",
+    "url": "https://www.thehindu.com/news/national/karnataka/dasara-elephants-accorded-grand-ceremonial-welcome-at-mysuru-palace/article71400056.ece",
+    "source": "The Hindu",
+    "published": "2026-08-28",
+    "place_name": "Mysuru",
+    "lat": 12.2958,
+    "lon": 76.6394
+  },
+  {
+    "headline": "EAGLE signs MoU with IRCS to check drug abuse in Andhra Pradesh",
+    "url": "https://www.thehindu.com/news/national/andhra-pradesh/eagle-signs-mou-with-ircs-to-check-drug-abuse-in-andhra-pradesh/article71401201.ece",
+    "source": "The Hindu",
+    "published": "2026-08-28",
+    "place_name": "Andhra Pradesh",
+    "lat": 15.9129,
+    "lon": 79.74
+  },
+  {
+    "headline": "Tamil Nadu notifies three new elephant corridors",
+    "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-notifies-three-new-elephant-corridors/article71397810.ece",
+    "source": "The Hindu",
+    "published": "2026-08-28",
+    "place_name": "Tamil Nadu",
+    "lat": 11.1271,
+    "lon": 78.6569
+  },
+  {
+    "headline": "RFP - for the Biodiversity status and Repeat assessment in non-protected areas of Sundarbans, TNC -Nature Conservancy India Solutions Private Limited (NCIS), Sundarbans, West Bengal",
+    "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOWnVEMHBSTUlpSm9NdmxKTnE3YVBaNTFWaElsNHRKb1pNX2hNSHBWUWxycm1aRjFybHlZNFA0cXh5b0ptNS1iQ0VyQS1mYl90U3BCNjFrR0FKcmc4RThYdHJBVlBMbTV6cURVMS1QWFRTUnkyb01XN1BxZGtoRFVPVDR5bG1ZQi1uUm9Rb0Vhb0U4OHB6M1V1R1JTOGo3Wl9aMnlBQ25jMTFlT011X19NN0JickdGWnFrejRhXzlXODFLbVdQQTdEUzAtcVpiMjBlRHNPd01mNURXVEpOVVhNdE1IYkpXdEE2SmwycFZmZHRjQW1ER2NMeFJOTTlJSnZaV3NqanpPSHk1b3FMUWhsbVd5aGZSUkdTYXNxTVhfWE12amJyZUd2ZW4taVZ3SjRQYkJaQmp2QmsxQlc1eXZyeXFqM1ExbXlVNGxVMnp6TdIBzwJBVV95cUxOWnVEMHBSTUlpSm9NdmxKTnE3YVBaNTFWaElsNHRKb1pNX2hNSHBWUWxycm1aRjFybHlZNFA0cXh5b0ptNS1iQ0VyQS1mYl90U3BCNjFrR0FKcmc4RThYdHJBVlBMbTV6cURVMS1QWFRTUnkyb01XN1BxZGtoRFVPVDR5bG1ZQi1uUm9Rb0Vhb0U4OHB6M1V1R1JTOGo3Wl9aMnlBQ25jMTFlT011X19NN0JickdGWnFrejRhXzlXODFLbVdQQTdEUzAtcVpiMjBlRHNPd01mNURXVEpOVVhNdE1IYkpXdEE2SmwycFZmZHRjQW1ER2NMeFJOTTlJSnZaV3NqanpPSHk1b3FMUWhsbVd5aGZSUkdTYXNxTVhfWE12amJyZUd2ZW4taVZ3SjRQYkJaQmp2QmsxQlc1eXZyeXFqM1ExbXlVNGxVMnp6TQ?oc=5",
+    "source": "India Water Portal",
+    "published": "2026-08-28",
+    "place_name": "West Bengal",
+    "lat": 22.9868,
+    "lon": 87.855
+  },
+  {
     "headline": "Spoon-tailed duskhawker: Arunachal find fattens India’s dragonfly list",
     "url": "https://www.thehindu.com/sci-tech/energy-and-environment/spoon-tailed-duskhawker-arunachal-find-fattens-indias-dragonfly-list/article71395615.ece",
     "source": "The Hindu",
@@ -12096,6 +12150,15 @@
     "lon": 87.855
   },
   {
+    "headline": "Operation Stripes: Adult male tiger released in Papikonda National Park",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPS3U1bHdGTGQwN19fa29HOHdTUGdpUFk4S2x4dFVGS2s3OUxxbE01aW5QLWNJWVplNHdTVldqVjJ5b0FZLTFKWlpLZW1POVNxUElKYm8talJZV1pYM01xM1V6OTZGMjdMWE5GRXR3VmNHWUQ5NF9fOTA2VGFfWWZaWm1zVHkySzJaVHgxSTBwX2lGZEVGeWNKaHVZWFc4Z0VDZjl1T3pwNWFZMDI1Qy16WTgzYnZRMUN6MDlOclNWNGdyWmVa0gHLAUFVX3lxTE5lcFp0NnpDNU5qaER1QWFVSjMwN2FYVGNtbW5NaUJMN0IyeWM0STAwa3VzOS12c2hNWTB4cDdEUnpRcV85SUJHelM2M041ZVduRk9SNk51NTBSMVpqSmJsYVhjd2wyQ1VaTHAwcDlDNlQ1clJWNTFOMDhzTW92T01OcTNTYXBmTzFqT3BDMXNWbk02NFQtY3ZiU3NELTRKeUJGQzBpM0dvR250S1FWM3VBVlFNMzQ2WTY5cmU2b1NRUHd2MVN0cDZ3aHM4?oc=5",
+    "source": "The Hindu",
+    "published": "2026-02-14",
+    "place_name": "Papikonda National Park",
+    "lat": 17.1833,
+    "lon": 81.6667
+  },
+  {
     "headline": "From Tadoba to Konaseema: A young tiger’s 650-km odyssey across 3 states",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVDdBOGpaZnowdmwtcHprclB2cHlCRllZMDJsNTAwVmhqYmhtdktnTGxSV2dSUmI5MVBRS19PaFkxNS11ZVpHRXhnRnNEVjVTcmtJOUJ0MzhSZFdKV1ZCNFBHNEJwckpoNTludnJUTDI3a3JxUk11STl5b3VPY2Z5NEJISEZWTzJYaG5wYjNJeEpEdGplSUMzWk5XYUE4TlpEUC1oWUNBenRmTS1YS0JreDFUVWV6WTkwQ1NDMkN3a9IBzAFBVV95cUxPUHNEbUVSRXlISmFDQlVFeEx2Y3czcVpQYjNoZ3pUZEVFeWpTR01fQzJZTURWOVdOWWc5TndPR3hYMThiU3RJUDdZelRPX0ZUOFVpWTQyNjI0N2RicXdWT05SakRHWHozeVNNblJaajlmUlB5NHlORFIzRktaUm01a2VzelM5R2FadkdJR09UeHpGbHE2a3ZXSlZRWUIzN24tYUNMVzlnc1QzdVd1ZUVnX044QXJBTDE1U09zR3FmSzVGTmQwZ0gzOXJSMlg?oc=5",
     "source": "The New Indian Express",
@@ -13912,6 +13975,15 @@
     "place_name": "Madhya Pradesh",
     "lat": 22.9734,
     "lon": 78.6569
+  },
+  {
+    "headline": "Mutilated carcass of tiger in Karnatakas MM Hills Wildlife Sanctuary - The Tribune",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWnNGRjBJRnNYbnRNcjFXNzhaV1hqQnFxa3JnWWl0c1EwbHgyYUFRVmVoNm9QV2NETTF6SEo0TGRseF9NdzB0RkFMbWs1UjhVTUxQLVFDSWJ4bWFsSVhkeXczeGUyVVFkT3J2Y3BGNUpzSjI1Z2RaWXBIQThVYUVvYk5ZVW8wb3hDSVlQS3JOVEIzc3p0a2xXb2wwMGdjS3Mxb2w2SVpPRVUwTk5CWXfSAbIBQVVfeXFMTU51Z1RtZ2dScnlHek9pd2p0cmdPMGJUZnlYRG1OY0FBN1VMRDhSejhWcWxjMmN4cTlaMy0tbDZGM2JBdkJWbW8yYXRWQ1NxNGUzR3FLWUJodWlmaFk3a3Bid2x3bHY1dEplOTFSRVAwdms0NWVpQ2Q1SFFVTTdVeEpJeDdDU1l2WENib2FHYk4wTkFPYnNEaTNOVEo1ZE1TVXg5ZVYyNjlGLXB4VVFQNVlLdw?oc=5",
+    "source": "Tribune India",
+    "published": "2025-10-04",
+    "place_name": "MM Hills Wildlife Sanctuary",
+    "lat": 11.9667,
+    "lon": 77.1667
   },
   {
     "headline": "Madhya Pradesh's Kanha Tiger Reserve Loses 1 Tiger, 2 Female Cubs In 24 Hours",
@@ -17676,6 +17748,15 @@
     "lon": 93.1711
   },
   {
+    "headline": "Four tiger cubs die in Maharashtra",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMFdwM043OG5XZC03dzBheW9YSUZqSkVXMGI4OVR4Smd1N3dBNzNjNEZBN1FMVEJucnZBdjZBaXFtR2tKb05IWTdXUFBWNEtfTE5UNi01djBta3h4MVY1XzZ4T3FfSVpBbnY2UXB2TDhyQUtTaGlvRDctRXQyZU4yUUNjemlXNGtBaU5N0gGQAUFVX3lxTE5PbUlBTF94TkYxZjFaYzRaX3BPRm92V3duZW5vZXBLLUpMdDVIQkF5NjJ1RElXR09RRnpYV2lnVEdfc0NBTWNXdHYyUnBBTG5VNENoQjdUaFp1N2FVYTAtaVhweFdGM0JmYzVvXzRRTEo5Q2dFZ0xiOFktLTlWQkZHQTZZOXV1cWROZ2NMbW1Edg?oc=5",
+    "source": "Telegraph India",
+    "published": "2022-12-04",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
     "headline": "2 Tigers Found Dead In 24 Hours In Maharashtra's Tadoba Andhari Reserve",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOS2dqeUhESUYxcjgwQS1yZURfU0ZkVEdzT3Job3RKb2ZzVTIzSnNwSi1MUXpDY2pwMHhJLVpZZXpGczR3Ym9xYnUzX3d3Z215SDRtY3gzSzRMckZBMDU0dGlub21ZUEs0V1o4Um9leWVKRU1SbXk0SEgya2pkSHF0Q2dXUVMyVE5ZcEdodUJjQUFuWDlWV1NIWnFlZHFiZmxKSnBDbXVrWm9JRTNQR0tKaDBhZDU2YUXSAbcBQVVfeXFMTktnanlIRElGMXI4MEEtcmVEX1NGZFRHc09yaG90Sm9mc1UyM0pzcEotTFF6Q2NqcDB4SS1aWWV6RnM0d2JvcWJ1M193d2dteUg0bWN4M0s0THJGQTA1NHRpbm9tWVBLNFdaOFJvZXllSkVNUm15NEhIMmtqZEhxdENnV1FTMlROWXBHaHVCY0FBblg5VldTSFpxZWRxYmZsSkpwQ211a1pvSUUzUEdLSmgwYWQ1NmFF?oc=5",
     "source": "NDTV",
@@ -19483,6 +19564,15 @@
     "place_name": "West Bengal",
     "lat": 22.9868,
     "lon": 87.855
+  },
+  {
+    "headline": "Village Residents Allege Forecefull Relocation from Tadoba Tiger Reserve in Maharashtra",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbDFGMWo1dDc3YTV2ck85NzY3aUx3bUxiaDB0Mm5QNHZiQkg5aWVpRnNQd0U4QVNhRURINU1YbUVFTUxYWTk0UFgyNzdzSlpEQm1HOE96QU9JWHdWZ2pydU9BdzhfODdKYnNaaVhLWkNrTy11NXdESm1MLUJ2MXFUc0lEbUlzNkxWLUVZWkp5cEc0Rjl5em9MZWxzSHJhSmU3UW1BU2V4NzdPYnZSakpidnV0NXdWRUhQT0tQdzRKZTBEOG5Pd2FyRk1XVQ?oc=5",
+    "source": "Land Conflict Watch",
+    "published": "2019-11-03",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
   },
   {
     "headline": "Pangolin rescued from forest in Odisha's Boudh",
