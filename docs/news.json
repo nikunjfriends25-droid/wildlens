@@ -9,6 +9,51 @@
     "lon": 75.772
   },
   {
+    "headline": "New species of stingless bee discovered in Nagaland",
+    "url": "https://researchmatters.in/news/new-species-stingless-bee-discovered-nagaland",
+    "source": "Research Matters",
+    "published": "2026-08-31",
+    "place_name": "Nagaland",
+    "lat": 26.1584,
+    "lon": 94.5624
+  },
+  {
+    "headline": "Blackbuck reserve to be developed in Indi in Vijayapura district of Karnataka",
+    "url": "https://www.thehindu.com/news/national/karnataka/blackbuck-reserve-to-be-developed-in-indi-in-vijayapura-district-of-karnataka/article71408170.ece",
+    "source": "The Hindu",
+    "published": "2026-08-31",
+    "place_name": "Vijayapura",
+    "lat": 16.8302,
+    "lon": 75.71
+  },
+  {
+    "headline": "This Tamil restaurant in Chandigarh refuses to sweeten its sambar",
+    "url": "https://www.thehindu.com/food/features/this-tamil-restaurant-in-chandigarh-refuses-to-sweeten-its-sambar/article71364943.ece",
+    "source": "The Hindu",
+    "published": "2026-08-31",
+    "place_name": "Chandigarh",
+    "lat": 30.7333,
+    "lon": 76.7794
+  },
+  {
+    "headline": "Hissing from bathroom leads Gurugram family to discover cobra under toilet seat",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOWEdVaEdJaVp3NnpiYk5sa3RPcTM4Z2h3b1E5dUZON0pmSlJtcFRWSW1kQjQxalgxcHNXQkNDa24teFpZUHA5UFk3dkR0TjMyUVF3R1FFQmJnMXlZWjlwY2pWSTNvVDJTXzN0UmRKejcwZUZoUzhoeVR1NFV0QVgyVVk5cGlJM1EySVhUQXpzNmNaY1EtTkJmVGFVclJ4bk5IQ0s5Z2wzLXpJSkRxaUVLOHgwWUlOZGNxd0NrNUZIeE1aRXJnd3NuNE1uX1IzLXdrNFFmR3B0dlplN3JrUWfSAeMBQVVfeXFMUHl6VnhlZ1c1Q1Q0cUxOS0k1RkZGV3N0SEdSdkRjUEl6ZVpLdWxmVC1CTmpQN0UyQlpDSzcyaE8wXzlCUXh4OGRfbE1CN2wyRVNZY2xVMFoyUlpUTDh3ZnNyR3VPZHV4cWJtQUpoRTc1eUpqeW4ySURFeDFOdVRFTWFncmRaTlBZWjg2cm1fbHB1aVBUZy1qSjJmRHlLMXJpUzJ1eE5GUy1QRGkxMzFNVXhJTkFTWmlnZE5zVWw3S0FINmFqR1lYS3lTUk1MSG0wNnFnVS1BTEJoQ1ZCZ0w3LVdsYUU?oc=5",
+    "source": "India Today",
+    "published": "2026-08-31",
+    "place_name": "Gurugram",
+    "lat": 28.4595,
+    "lon": 77.0266
+  },
+  {
+    "headline": "Crane overturns, bursts into flames at Mumbai port; dramatic visuals show black smoke",
+    "url": "https://www.hindustantimes.com/india-news/crane-overturns-bursts-into-flames-at-mumbai-port-dramatic-visuals-show-black-smoke-101788149092381.html",
+    "source": "Hindustan Times",
+    "published": "2026-08-31",
+    "place_name": "Mumbai",
+    "lat": 19.076,
+    "lon": 72.8777
+  },
+  {
     "headline": "Assam: CWRC rescues 10,000 wildlife in 25 yrs, 68 pc of animals released in forests",
     "url": "https://www.hindustantimes.com/india-news/assam-cwrc-rescues-10-000-wildlife-in-25-yrs-68-pc-of-animals-released-in-forests-101788078194016.html",
     "source": "Hindustan Times",
@@ -9720,6 +9765,15 @@
     "lon": 85.78
   },
   {
+    "headline": "Tamil Nadu: Elderly farmer injured in elephant attack in Krishnagiri, villagers stage road blockade",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcGJwcU9qNWNsR0VQVmNERFc4czEyQUdaMWkzNzMxN2tKbWlkc0kwM3g4d2Fnc3o0U083U1FTdjBDcVRHMG56WkhXcnZoWmQ2dnRORmFYMkJrYkxfRC1HYTZuMWNraHRib0FMaURSOV9DWXpvTUdqUUMxSmFUMzhtMkx3TzdqTmNaV2xsWVBSd3MtN0t3RUs5d2tXcUY4d1Y3ckUzQXFNMUhzdHhpUlZSYklDS1pibnFmSTBsNTJ1VlljNHJxemNkVGh0YkktVEpoY3pKZkI5LUM?oc=5",
+    "source": "indiagazette.com",
+    "published": "2026-06-14",
+    "place_name": "Krishnagiri",
+    "lat": 12.5266,
+    "lon": 78.2137
+  },
+  {
     "headline": "New 'western trickle frog' discovered from the Garo and Khasi hills in Meghalaya",
     "url": "https://researchmatters.in/news/new-western-trickle-frog-discovered-garo-and-khasi-hills-meghalaya",
     "source": "Research Matters",
@@ -11113,6 +11167,15 @@
     "place_name": "Nagaland",
     "lat": 26.1584,
     "lon": 94.5624
+  },
+  {
+    "headline": "Why India needs Barda Wildlife Sanctuary to save Asiatic lions as Gir fills up",
+    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSTdBVVE0ZnpseE5jUGN4TWUxTzZ6UDlSZGxkSW0yVmNqME4wdXhUS3RaZUFDT19sZ0RZMHljYTlIWjBKU05rMXQzVWR0cTJidFhFVzY1STV2LWpOcFA0b1BuckpiNW5DYlFfMTZRdmZGZlRPV3NLR2szQVJiOF90NWlKY1RGcGl3TUxQbVJIX0JYWS10ckxoUnNkWG1XUE42eE1TaFcxZ0FTYXRpZXNKeHoyQm45NXd2WEN0QlJ6LTNZM1dLTUFXZlJ6ZjNPVnhSUWo3NWpEbUNQeU1LNmNGazJrdWZmcHFCSWpnWW41cExNTm_SAfgBQVVfeXFMT25SOGFwWExjbzJDUlh5TVRzRjhzNmtUVGlRUk1NTjdRYjcwanhRT3RJLUVaWUtINUF1eDdkdEdrNkNnN0RYY2FQM3ROcFNpVVRZaUNnWXdERnFpcEFYNEcwWlRPcFVkdWYxTm1WRENxdFc4dXkyWV9ibEE4dlZoNDJISFBlNTR3dEp3MU9pY1dSd1NiVnl3dWdLcTBxM2NRWHE0QzZUc1dkZDVCcXF1VFJVZkpvZ2JpQm1MOFE2NnhGVlZrSkp0QzdKd3NiVmVmMVdxY0sycldOSjRldnlROGFqc3dRV1U0Y2F5Q3JZSkk1QXUxQmhyZks?oc=5",
+    "source": "India Today",
+    "published": "2026-05-16",
+    "place_name": "Barda Wildlife Sanctuary",
+    "lat": 21.9,
+    "lon": 70.0
   },
   {
     "headline": "Arunachal Pradesh: Rs 1.2 Cr Rhino Horn Seized In Papum Pare; Four Arrested In Wildlife Trafficking Case",
@@ -18882,6 +18945,15 @@
     "lon": 85.0985
   },
   {
+    "headline": "Tamil Nadu: Wounded wild elephant released back into forests after 3 months of treatment, training",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNaTJwY3p3MEtDa19xdmZmTDlFRTk5R1JmaHJzRVpyQ2Z5dEZ4RXFxc3VFSnNHT2d0ZjIwTWdmVW9yekFJMExpZnV2M1V6cHU1SFUyVFk2TGw4eGpfZXVEYnU1TnJqdnQ3ZFNkVWJ6NzZkRm9adFpNMGFxY0Y3M19OVnV1Tnh1ZHhaUmdXLUhjbWNZS0dOeU1RZEpZd0M5YmxsVVA0TDdRRk5VNnRUYjgwZS12RkYtUHo1UklaUDVDU0h1VTJ4WDBCWVVlQ2x0dmFneFF5bEhYMFhJdHZjSFdMaXB1QllwUzMz0gHuAUFVX3lxTE4tRHliZ1VFMzl4a3pzdU1HT1FlSUdZbDlzcnBnVDJWbE1YWERLV2EwS21LNElkV3F6SVlMcndaRGpjcWdhTTBKX2cza2RTd0JmNVQ2SnYyUlZIZnNRZXh5aWxkNVh2MEgtTG9TZ0NaemF6VlhsZGVVMFZVU2JyY3p6UmNkM1pDMkNONkRzWTBQMWdWbkJubFZYSzJRdHNNczJlSFFRbHMzVjNqTGMweEQ2NVo3YkhzaU5ZdnZnaG5WMEptUjc3bTg2YnlfYXdYNHRxTC1LZmMxMktWdDU3U1lySVNPR1l6ZGtYU3FKZEE?oc=5",
+    "source": "India Today",
+    "published": "2021-08-03",
+    "place_name": "Tamil Nadu",
+    "lat": 11.1271,
+    "lon": 78.6569
+  },
+  {
     "headline": "Two held with 14.2 kg Pangolin scales by WCCB, Odisha team",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRzVBQ1NmWHJBdnRldW50UzJUUlNMS0pGQnc4LVRGdERZQzRMdm5BbDZ2elctX0xCZEZ1VTJuSDdzd0R4THdrVmlOcHpJbTNxT0VPY2t5U1RVN2tDZ2xhNEhNUkdDVEpxWUpWd2ZiUXY0NHpnZGNFb2N2NW5FM2l1bmtPQ3Z1Ym9LN2lzcjdiYUlIczNqZ3VKcF8yaUNJWFdudWRyeFJ2RjBrUQ?oc=5",
     "source": "thehitavada.com",
@@ -20140,6 +20212,15 @@
     "place_name": "Goa",
     "lat": 15.2993,
     "lon": 74.124
+  },
+  {
+    "headline": "Celebrity elephant stirs Pooram controversy in Kerala",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQllMUFJQOVJ3Si1WQW5UZjR1dTl5cUNYdzBuSDVEMkpGb2JwOTdvSkplWFBnNVdfOHVLdGJxbE5zT1lLWDVQT0hEcG1pLUV2Qjc1cWpsaG1nMGxKQnRmSUduS29VNmtkWlhBYjNUcjBsSTRJaDdWN2NlT3RkYXBJYkUxRTd0RzU1Y0J5TEU5aDFjY2ZBb0poZ2ZYVmJiVmdrTXpfa1hCUTVnQzjSAbABQVVfeXFMTmFNeXFDcnczaE1ySjlPZTlYaGs5aWJzQjRGV3doVHc0bjQwM0UySDB1TmNDZ1MzNFdUT0VpRG5XaUhtRGNRLS1ZN2wxTWZZYVdleXMyRnRJb3ljWm8yVkVPVlQxZ3haRHZld01Iajg4bFRHcFJNakI5dTI2WE5qLWl4M0RQOGVQN3IyanJvdWtwS0ZsaG1oVllRZXdud3lsbnI3S3NDekRMSU5zZWV0dnE?oc=5",
+    "source": "India Today",
+    "published": "2019-05-10",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
   },
   {
     "headline": "The forests that glow in the dark are Goa’s best kept secret",
