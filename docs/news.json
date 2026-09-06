@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Documentary on wildlife in Tamil Nadu to be screened from Monday",
+    "url": "https://www.thehindu.com/news/national/tamil-nadu/documentary-on-wildlife-in-tamil-nadu-to-be-screened-from-monday/article71432552.ece",
+    "source": "The Hindu",
+    "published": "2026-09-06",
+    "place_name": "Tamil Nadu",
+    "lat": 11.1271,
+    "lon": 78.6569
+  },
+  {
     "headline": "Odisha watchman bitten by krait, cycles to hospital with snake in bag; critical",
     "url": "https://www.hindustantimes.com/india-news/odisha-watchman-bitten-by-krait-cycles-to-hospital-with-snake-in-bag-critical-101788598183106.html",
     "source": "Hindustan Times",
@@ -2001,6 +2010,15 @@
     "headline": "Pilgrim safety: Drones to keep track of lions on Shatrunjaya hill in Gujarat",
     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYlJrSUpkQUcxQU90ODVVRjhsSFpUR0hQWW9QaHBSZXBBbVhZMHdVbms5TTBkN25sb3I2aVl4emVYQm5wOVpKVzA1Q0Q4aUU1RlBxeXdUYllreU80T01mM3QwcmY2N2MwNUVjOFRNbnZlUFZkakRkS0xmN3IwalM1VS10VXY2NE5GaUJEcXR5dFVOOFJRS2hMcnI4X1k4Y0NVb2FOLVFtd2lFTWNPbm9pWHRMWnJQNUVwbXJEMXpLT3dFQnUyZWtSRGRSTWpXbE9MY1lUS29kSmpqS2R0UG5hV0ZxdHhLdDTSAewBQVVfeXFMT05TSUhIM2I5RlJuUHVKOUxQRUoyS1JNTkozRXNMQlB5LTlGb2hGZWhOTk9CM2dFSm9ueHNOVnFEV1ZfWGRkeVZaRlFfaWJ5LWlXU2QyMHhidDNNVkhRcnR5VXBxN3h5QzJTVDVjU3FwZkJMdlZvRWpQSWFhNU1ad1ZaV3RjV2NqcHVmX3JIRjB2empHUUhPaUNGdTBTQkw0dy1lblg3VW9JNUxKaXRDYWpLbkFaczFRUEZFYlZaeW8zMGtaOE84U0wzZThjcUR6bUVvQTJlM3h0V2lBWkFZZzBRNEhTbGxNOWVEQ0I?oc=5",
     "source": "The Times of India",
+    "published": "2026-08-18",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
+  },
+  {
+    "headline": "Gujarat to deploy drones, watch towers to ensure pilgrim safety at Palitana amid recent lion sightings",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPOWxKaDg2b1poWDZaY1VWdk8tN19PQWg4emdCWEJRV19vd0hFUnpfRzdpaS0zcHlzdXIzZWhjNVFXZW1obzdBakMtNHhTWkd3eVVtajlfRjdwYnhPRG1KNVFOLVBHcEtUb0hseTFST2RMU2xFNkFrWlgxY2I5cFF3T3hzZ2lkWktUVGNHRXktTFpoY25jMU1zV1ZKN3BQSFozZGVzOGtyZ282TEVHT0RnNFJhQmRTVWxrYnZzMTNKRkZnYmZYQmxjcHQyUVZRN1NfZzlycVMzdUhkcENYVThsT29wSHJGYkVtVmZBX09fcXBxeGlFTVVlbA?oc=5",
+    "source": "ANI News",
     "published": "2026-08-18",
     "place_name": "Gujarat",
     "lat": 22.2587,
@@ -19969,6 +19987,15 @@
     "place_name": "Maharashtra",
     "lat": 19.7515,
     "lon": 75.7139
+  },
+  {
+    "headline": "Live Pangolin Seized, 2 Arrested In Odisha’s Gajapati",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNlItWEZablNCZWdMcE5taEZDM0trWWlQcWNtOVZGcnNtNVFpMTk3RVAwd3FtRENsNEVYd2kxMUJqbzBYWG5NMGtEbVR5V2owcU1uQ3p0ckVMaTFpUkpHOEYyUXdyRUxPTmswUk41T1BQQWs3N1Jpckkyc3Q2cGg2LWtR0gGHAUFVX3lxTE04aUo3WklQc1ZNak5mZTZiR0FscVZPQW9jVHg4ejE4R3dNd2lyR1pVc1gwcEFHb2NGdXJEZWJaUHYydXdjRUE5ZHF5Z09CWmRhcEtUNUl3WEZTTHpydF9kek1FeU9LcTIta3hSMnlUT25SeExlUFdaaFZXbnFmbjN1cm80VHNUYw?oc=5",
+    "source": "OdishaBytes",
+    "published": "2021-11-27",
+    "place_name": "Odisha",
+    "lat": 20.9517,
+    "lon": 85.0985
   },
   {
     "headline": "‘Maya’ kills forest guard in Maharashtra's Tadoba core zone",
