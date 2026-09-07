@@ -63,6 +63,24 @@
     "lon": 85.2799
   },
   {
+    "headline": "Wildlife Week photography contest at Mysuru zoo",
+    "url": "https://www.thehindu.com/news/national/karnataka//article71438843.ece",
+    "source": "The Hindu",
+    "published": "2026-09-07",
+    "place_name": "Mysuru",
+    "lat": 12.2958,
+    "lon": 76.6394
+  },
+  {
+    "headline": "Amravati tigress that killed four captured after days-long forest operation",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSTdnaU1WM3hIOFlDMXB4OXpjUGtaN1RPdl9ja2tyOGp2RlM4dFQ2dFYwdV9aWl8wUU8xNUtrSkZEYWRTRmxZMU9rZ1UyQUcxZnIyWmtqUE43UEZYc3FwUWkxcGUwZG0tbHhUYVlpVVQ3WDZ2T3hfZTBkQTlzM3pBWDB6UlFHa2dZWVY1RUREMFlwTWdiNkh6QkhROWFaaUx3d2pVUTBsT1dHYllhbFY3MU1YTXR1bnFsbzRseE1oNUJJd9IBxwFBVV95cUxOWjZzWW82aUN0ZnA4S2tZRm8wM2MyQ0h4Y1h6bzRSV1JCWldmQnhYcFp4NlZhLVd3VDBzSkZvdjk1cmMyTkVqZE02U1hTLWtIQktPYmxDWkNTYjBTcl9SQW41Q0ZKOWdfMUttcDFwUEZNeHJZeUhTSW5LVnhTbHRoRzJUNC1ZX1dGbzZpdlVISGpTYXlJVE4wc1lBQWtHQWtpckFVS2tzbEktT3NYZW1GNUlibmNia0FwQXBWSzVmQTMzTlZOcDN3?oc=5",
+    "source": "India Today",
+    "published": "2026-09-07",
+    "place_name": "Amravati",
+    "lat": 20.932,
+    "lon": 77.7523
+  },
+  {
     "headline": "Documentary on wildlife in Tamil Nadu to be screened from Monday",
     "url": "https://www.thehindu.com/news/national/tamil-nadu/documentary-on-wildlife-in-tamil-nadu-to-be-screened-from-monday/article71432552.ece",
     "source": "The Hindu",
@@ -259,6 +277,15 @@
     "place_name": "Desert National Park",
     "lat": 26.9333,
     "lon": 70.8667
+  },
+  {
+    "headline": "Elephant calf stumbles into open well in Odisha, rescue team rushes to save her",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdzJybFhlZUQyMHhUN3pSSVpUN1NxcHdxY3lpeGI1R2NQT015Nm9aWDVfNko2YjhlQmljcEdneUFkUGNiVWhLYXRVTnF5ak9OTjAtRVF3Z3pKM3NoS0U5WDVJUmxaVEhiNUN3Zk1aeTVEdXpKV2lXLVE0TG5LSy00eUtxaloxTGN2Zi1zeDVPT3QzWDJ3MldMaDFhT0pkbWwzOGpyZUt1MWhFajhXdTdNM2VJUkItVVEzd1RUYkh3UTIwaEVYWkRIWGFjaWU1UnRlUS14d0NPR1V5NnfSAeABQVVfeXFMT0RLYzMxUnJVa005NTRPSWJvV29pRXFtcThFakRWdWU5a2RFX0VEcFpPUVNZbHJ2VHhIWnozaXQxTy1qOUh2elg4Ql9haG1GYnhWMW05NWh4MEFiUEU4UzlkM2RUVXViWWw2YmFqYmx1VVd3VjRvaS1RVlhjOUd6YkVuRlB2ZHZxa081Yzl6bDJGeUJ1NkFOY00wT3FRN2tlWDlWX2dHN3ZlOHdLeHVpNkFTdUhvaGtZNW1ubXZ0SmgyZXhNZzQtQndpWVVNU1NoQ2dLV0hoNlRQblB0ZEZFcDI?oc=5",
+    "source": "India Today",
+    "published": "2026-09-03",
+    "place_name": "Odisha",
+    "lat": 20.9517,
+    "lon": 85.0985
   },
   {
     "headline": "Seven teams deployed to put out forest fire in Erode’s Kadambur Hills",
@@ -4624,6 +4651,15 @@
     "place_name": "Maharashtra",
     "lat": 19.7515,
     "lon": 75.7139
+  },
+  {
+    "headline": "A.P. to get four female tigers from Maharashtra and Madhya Pradesh soon",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZEZ1MTNtQjd0bThCOFFXM1dNSjVkR0RpVjlkck5mY21UR0xseHVJaVRYa3Z0X1ZJZk81OWkySlNSejZGbFBDd0lWMGw1RTM1YnZqQUFfRVFBdk5aSGpiTFZpRWs0Yl8xTTZLRVh0dEhCZklsZHBWVWEzLWZtcmhMbG80VkZ6NDdlVzVNWl9TZTdLQTk0MzNfUmFkYkt5TV80c3Q2andMX0M5WllWMkphcTR0dm9UV3lwMHRiQzExbUJmOXlDZWRSbnlMUGc0cmVteGVscVNHMUVXUjjSAeIBQVVfeXFMTU0tR3hrZXVpMUk2aHBwenNjdlNQNnlqNzViY2o4YzdaRk9YMGhyaUJlYWhIbC1pQ0hhUnlvLW05VVYtZ3BHd0tVb0wwOHlHZGZmWVE2c3I1RW9aYVJBZlBmX1VuRV9hQndKY2NCYlJLRUhkbVFvMi1USG9tSVJJS0NjYkdEQ0V1dmRSS1VuMmlxdUVLdzdGYmxTMEtpTkVnRGJldEFUNDZNV2dtTWhXZ2pFSDd5Qm9NVENDVVF6VnNScVZramIwMS1BRC1udmYxdUJMY1dFOHNVb1V5NmxwQXNtQQ?oc=5",
+    "source": "The Hindu",
+    "published": "2026-07-30",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
   },
   {
     "headline": "Eco tourism-based livelihood opportunities, the only way forward for tiger conservation in Telangana, say experts",
@@ -13356,6 +13392,15 @@
     "lon": 79.0193
   },
   {
+    "headline": "Six Arrested In Kuldiha Wildlife Trafficking Case; Govt School Teacher Among Accused | Odisha",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQjhFYm5TZDkzZ20tUmhtSGVCUTBTQjZoQUluOHR3b3pzdktrY3hjVUUtam5ENy1wOERiZ0paMDJ2YVdrWlpLcVA5QWhvXzFSc2J4U3ltblVTbFpRMUoxdXMtcFJTTUpYZklOU3J0Vm9haTBJUXBGLWlfR3ZXeTMtNXFBbnBRUW9fQVYtcmtoeDF3b1JVbHNuczFCYWgycmhqcUpPSG1WRzZCcWFTck96anlxaDN5ZGtUdmpj?oc=5",
+    "source": "Ommcom News",
+    "published": "2026-02-05",
+    "place_name": "Odisha",
+    "lat": 20.9517,
+    "lon": 85.0985
+  },
+  {
     "headline": "Arunachal Pradesh policeman killed in tiger attack",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVWpLdHZtcmdkanotSU9tajZ2akZkaTlveXVpVm1uRm1WVm02S3M4UE9LcmY2enAwY2E2dDdJbFhzQmVBekFsWGdmTlpuRDduTm9OQ1h1bERjSDd5UGxzZDkxQk9vR2x1NTJ3R3RzUGhQb3NoWS1vbjc1SnZIQW42S2hiSFRxTFA0M2xCcklWanVFdUpzbGxWTkJIWldyd25xWTE2blRsMl93eUJqaGNFS19hZUVsbWdKZkpiZUxlZ0c3QkVwYkHSAcwBQVVfeXFMTzJBSFQtYndxVEVsbld2VjNSNV9jT212VlIxb29sc3lMbVBzOHltT0kzOGcxX1Q5UWl1V2tPYnQyZUM0RWc3TDhjd3R4S1k3ck5tR1VkY3lyMHhKWjRLbEMwb0JxS3VIWGE1eDNPc0FwOHVlSG1udzlmQWxwem9NQkNQMmlOTWk0d2ZCVG5yVHRkX0dpNzRvSXRQYXVJejhSOVY5aFA4ZWZSdkQtcERJUlYtT0s5dEc5UFJpclNDbVBhdVdlaVU4cUcyekZu?oc=5",
     "source": "The Hindu",
@@ -14263,6 +14308,15 @@
     "place_name": "Tamil Nadu",
     "lat": 11.1271,
     "lon": 78.6569
+  },
+  {
+    "headline": "Scindia unveils Rs 646-Cr projects in Nagaland, joins Hornbill stone pulling ceremony",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOV3NKRjlTQmVxdGtJcmpHLW8tX0tnXzFjSXhSNDNaU2lKenphVXRKdjc4cmNiR0kxVm1NS0tfNm5COGp3R2lMVWRlS2hMV0RkMmtLc3o2NDdOMW5CRDQzcThZdUJ3Z1o4UVFIMXhPaVlhaER5Rk5BOGlZQ0xBeVBpLUl5SUp1RXUzZDRITTZwcmg2aWh0bWFBT0xjNnBiSGdRTFZqUFpTOENzSkI5YnJzZXk3TmpYVVhSLU1md3ZzN1V5QzRmNFdz0gHMAUFVX3lxTE1naW9zRWFkajV5MDg1QXRLMWpfOVBXUGxSc1lheGQ1VThJcDdXUGZyQnRFLWhTVThmdmd0OXJsYjJHMXNRUUFjR3JvS2s0ZkVaRTZhRjZaQXdBRU1XYUhqbktFQkxkSGw4QWtYZWVibjc1LW1yMlpFajBkY3JLckhyZG95X1pscXdXaXZjYTVMNVl5SU1UZENPM0E4NmJPdWdlczJvbHhraEVVaC1UZGd5dXo4bkttS0pwc0JCTW5JVmtGMlQ1a3BBSXUzVQ?oc=5",
+    "source": "The Assam Tribune",
+    "published": "2025-12-05",
+    "place_name": "Nagaland",
+    "lat": 26.1584,
+    "lon": 94.5624
   },
   {
     "headline": "Three elephants found dead in private forest in Vellore; Exact cause of death unidentified",
@@ -17667,6 +17721,15 @@
     "lon": 85.0985
   },
   {
+    "headline": "Gujarat: Four arrested for illegal wildlife trade; sea fans, corals, porcupine quills seized",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeFNBYWtaOGtOR0VoWlUyay0yTHkwWHBUcDhKYzQzd0hiS2l0U0p1NDdkQkpXaDhXVHRmT2N3ZzhEM2J6SHNqUmJ2ak9uSzExelhRZFp3UTR6Z2dlTHo2a1RmU0s1SG9kLTBjLTFFQXlpaW9URDI0RjVLUzFCcFlPeU1rd3AyQ2NDd1NFZjNtRlRXWXhTUVdOUXNsOS1UdWJ1VEk1b2F6SzZzT2xYMTZZVzM1UDVuSVlMZ3dacnhOcTd5UUtvTnZCTW9Qd2FrX1c4X0hwbi1ScnPSAeYBQVVfeXFMT05sQnBpMEVEdXk0YmZnVTc0MnBNdnFDZjlIODI4S1dOUC1hVDBxMU1Dd0xYYUVQV0p4TWZrMXFmbklPZ0doVXQ1TjNPaTI2ZnZRR0FxMDhjd0xXWTVXUVZGVTA5OThHUVdFLTRoNUdSUGJDb2RLTTVwaEdncXBlZ0lRRW92M0xJNEZMaUJNWS1WaXNVUlZJYkxKOWpFdUJ4bGZOTUlzS2FrNHlfaFlGMHA5OENkZl96cnhXNFhVOGFuVWFJbTNXWnBvQUdCYks4Y0xCVkRXODNSX0lpN2NUTDdyMlB3Y0E?oc=5",
+    "source": "Down To Earth",
+    "published": "2024-08-14",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
+  },
+  {
     "headline": "Odisha STF gets 100 percent conviction rate in wildlife cases, check details",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOalNUV05kOVR6bDd6ZjZSZnF3cEh1amRXLTA1bVlESzFwalE5X3ZUSzBuOVFnMGpnX21ySll6SkFkVmVrZXAza3R6VmtKcGlyaVRIdlZubHZHTFVhRjNSQ0g3aXZnbUhyTzdYcVV5REZWTVRwSFRkbUR3eUVrTDBraEpmbnVpOHN2U3lJNEw2aDF2TUVENy11MlFraVh0SWU0YVhjTkNNZDE?oc=5",
     "source": "KalingaTV",
@@ -19512,6 +19575,15 @@
     "lon": 78.2167
   },
   {
+    "headline": "Need for further research and monitoring of Amur Falcon in Tamenglong District",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQakp0Z3ZiM2dNNmpFaDlEVlNPUVNuYzMyeWk5azVtQ0hLbUxqU1ZfcG5WZ25UekNLNFBBbDQ4V3hRc3p2ZWJrUEVBZDFKRTBmUVhlVzJ2VEpYTDZuX2ZZM1k0bUVyR19UdjlmTWNZRlNDTlZoZ2JDeDBZZy1JdGN6bkV3Rm40YlFlbERGdk1KZXNfdnBlNjY1RkZrT1hzNmVWWW1ORkwzbHBrTFpROWo0WS0xSVB5Y19OY0pMZWUzVG1ra1FWYjJwclAtbFV1RkhTNkJOSXVobU92MFA5ejg4a0trT2Rqc2M?oc=5",
+    "source": "e-pao.net",
+    "published": "2022-10-11",
+    "place_name": "Tamenglong",
+    "lat": 24.9791,
+    "lon": 93.5065
+  },
+  {
     "headline": "Ambedkar & Periyar Respected Leaders, No Objection On Installing Their Statues In Tamil Nadu: High Court",
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOR2NNMmVZVDZlbGgzNk9la3VxZ0l0azBRelhuTnQ1OXdNLXlabjdoUDVsZEp1UGg1TVdlQUtQZVJPZlZYZ09hcS12Y2loUmlQZmxmUmlfblc1ZTc4OVBmaThCeVFDSkp5QzhIX1dlOC1RZ3M2QmpBWnZjY2otYU1qc2NrQk4td2NWUmR5ckdNanFpV2hwSHFBZEVrY0V2MUV5dUx5dFZYTV9kRlBFZGNyZ01NWGdEYklEUmFhcGN4MnFsVU9GVElSSG5Lbm5fd9IB0wFBVV95cUxPZGVrSW9SYmNoRUNmZElCYlVrbThVMnBOT0U5WkZfTllfWEh2UGdQLUZ2Wnh4VVY3cFY4bUNQekRwajNDdjl2OWlGc2Yzb0tHdXBFS3ZrcXZINF9ibnl2OU9iZm1DRHZJOUlhbUZZVG45SGdRVDJOcXk5ZDRmRW5wcHNZWUNlSTF1bWZPY3BPTmxObV9mODFRc09pMW44LVdfSkgxYVExMFVMWnVCN1VLYmtYSGNfa0p5YjhYY3FWblE1aGI2NHdRdzIzR2Z1ZVhRSUVV?oc=5",
     "source": "Live Law",
@@ -19663,6 +19735,15 @@
     "place_name": "Maharashtra",
     "lat": 19.7515,
     "lon": 75.7139
+  },
+  {
+    "headline": "Gujarat: The unusual lion sightings on India's beaches",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02UEFfQVFDQmJFOU1YTUUtNDYwZENwUjU0SENDQmgzNFFFU0FMZG9uYktqemlYMU90MlBPQ0pCNWdSdTVNUE14NFVSaHNBOWVidWJ5MW1lckViNThnNXg4?oc=5",
+    "source": "BBC",
+    "published": "2022-07-11",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
   },
   {
     "headline": "Done With Goa's Nightlife? Go On A Date With Nature At These National Parks In Goa",
@@ -22174,6 +22255,15 @@
     "place_name": "Andhra Pradesh",
     "lat": 15.9129,
     "lon": 79.74
+  },
+  {
+    "headline": "Communities for Whale Shark Conservation - A success story from Gujarat, India",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeGV4UU5mckNMMm5JZ2RJREdNTC1nQUFkV3pSSHpJOU1IMjBFcEpLMjNYYUFiVlVCOXFfaW1kZ2ZMMmFuYURnTjM5X0wxYjZCVmlnOXdySzRNTHV4cVJYUzQxTXVuY1JzLWpGd0pLeWJqbXpEdTlWdW0wY3dzbU10WllJSVZDbHZRUHZnbGo5V1V6TlhFSWkxRnZKUWVLTzlUV0l1SEZ1RlpLT3RZY2s4SW8tZG40RzlQd3VnN3NPdUtleDZfOWpYZVZ3Um04LUhMVnRMeHhSeGc5cnBGTGc?oc=5",
+    "source": "International Union for Conservation of Nature",
+    "published": "2017-08-14",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
   },
   {
     "headline": "Over 130 Saplings Planted To Revive Forests in Uttarakhand",
