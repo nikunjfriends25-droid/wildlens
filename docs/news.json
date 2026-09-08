@@ -1,5 +1,77 @@
 [
   {
+    "headline": "The tiger reserve with abundant prey but no resident tigers",
+    "url": "https://india.mongabay.com/2026/09/the-tiger-reserve-with-abundant-prey-but-no-resident-tigers/",
+    "source": "Mongabay India",
+    "published": "2026-09-08",
+    "place_name": "Kawal Tiger Reserve",
+    "lat": 18.8,
+    "lon": 79.0
+  },
+  {
+    "headline": "Orangutans not native to India found in Odisha forest; Govt orders probe",
+    "url": "https://www.thehindu.com/news/national/odisha/orangutans-not-native-to-india-found-in-odisha-forest-govt-orders-probe/article71441927.ece",
+    "source": "The Hindu",
+    "published": "2026-09-08",
+    "place_name": "Odisha",
+    "lat": 20.9517,
+    "lon": 85.0985
+  },
+  {
+    "headline": "Gaurav Gogoi flags removal of gazette notification on Kaziranga animal corridors from Assam’s official website",
+    "url": "https://www.thehindu.com/news/national/assam/gaurav-gogoi-flags-removal-of-gazette-notification-on-kaziranga-animal-corridors-from-assams-official-website/article71441508.ece",
+    "source": "The Hindu",
+    "published": "2026-09-08",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Crocodile rescued, safely released at Tamil Nadu’s Kallanai",
+    "url": "https://www.thehindu.com/news/cities/Tiruchirapalli/crocodile-rescued-safely-released-at-kallanai/article71438826.ece",
+    "source": "The Hindu",
+    "published": "2026-09-08",
+    "place_name": "Tamil Nadu",
+    "lat": 11.1271,
+    "lon": 78.6569
+  },
+  {
+    "headline": "Watch: 5 Orangutans found in forests of Odisha's Baleshwar, smuggling suspected",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVWJDQk5QTVpMOFZST0ZEQks2aVM2R3dOZjJYRmlGLTk1MkYzNHlISTlzM05TMXN2c0RfcTdjeV9lSDhpSmcxYTN2N2hqMzhQckJwUzROaG0yRHVXTUpRMUplalNuMXFkM1RUYTRKQ0p5RWJ0aFJxMGRMNWdGcjdWMUdQVkJ3cFM1b3I0bWE4aVNid2ZZTG5kRmJfNVNQT2dxNUxUdnFqYzNaU3lfQ1Q2eVpJdjIwYjhoOEZJTtIBvAFBVV95cUxNVWJDQk5QTVpMOFZST0ZEQks2aVM2R3dOZjJYRmlGLTk1MkYzNHlISTlzM05TMXN2c0RfcTdjeV9lSDhpSmcxYTN2N2hqMzhQckJwUzROaG0yRHVXTUpRMUplalNuMXFkM1RUYTRKQ0p5RWJ0aFJxMGRMNWdGcjdWMUdQVkJ3cFM1b3I0bWE4aVNid2ZZTG5kRmJfNVNQT2dxNUxUdnFqYzNaU3lfQ1Q2eVpJdjIwYjhoOEZJTg?oc=5",
+    "source": "India Today",
+    "published": "2026-09-08",
+    "place_name": "Odisha",
+    "lat": 20.9517,
+    "lon": 85.0985
+  },
+  {
+    "headline": "Rajasthan High Court puts Jawai Leopard habitat under one kilometre construction watch",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPb2FVMTlnSVBkeFFlYWFkZ0lsMFhEYjZ0cjIxbldxOXd1eGNVRUJwbkpjeTJRcEFvRVhSSEVDb195S1ExbFpVeHFzZkEwWXJMdTdWS19sWGxqTWxkUFF0NmpyRDlvNng4NWJ1Q29hQzdFaUh2bmNSZE1MQk9vSzV5bTYydWRseHJranAtaGVzWmItMDY5QnBRZTJ3TkF6RngxOUd0eHZpOUx0bk84eHFJanlmZWI2eW1SYWtDVFNRWUVkMFdrTDZIcHVtc3ozdmRCemJWa0ljRkF3c3VKcHFOWEdzU3k?oc=5",
+    "source": "India Legal",
+    "published": "2026-09-08",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "Leopard strays into public garden in Rajasthan's Kota, rescued after 3-hour op | Hindustan Times",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNFJqMnZVRVF3Ujhxd2prOGIzRkJZQXU3aVVSRS1nTDJpQmotM2d2MmNHa0dQaE40czlsQlV1bXJoWUJxbGduYi1xWXg0YmQzbjVWeTBYaVNwRGd6ZC01MHh2U1J3NVcyOTdtSVhvZEFHY0JDWEpNWUszSWxLYTNYX3l3VUl1bDFqYTlyWGRWSnJwb1g0R2M4QUxMMGlSWjlPXzBsNFRtZEdHUjFHWS1jcjlHazliaUZNLXV6T0hsZW5iN1lkZHRnQWdXYnp6M2s0WVHSAdcBQVVfeXFMTzlaQ1JHYzZZRmlOMExtQ0hKUkJrVFBaRkl3Snl0TVFDMGlEdUdLcFJFV09KajM1b2JWZUxmcjhudDVLNE5XNDFVQjNFeFZLaFlCeVNpRktBSUp4Mml4b080TEJzcGYtejNHMVhNSl9udXoxN1lKZEpvT1psbEM0U2UwUEttRzhXdkpkNUh4N1U5SlJKWVNpM2Z6a2hmdHNrcWVVS2RZUlVCazJXZmFYdXB0NzFRMVhWa2NmbDQ4XzF0SEtpX29nVlRVZVVKTDV3V3NESHVoeU0?oc=5",
+    "source": "Hindustan Times",
+    "published": "2026-09-08",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "From MSMEs to traditional industries, Rajasthan’s enterprises seek stronger ecosystem to scale",
+    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOUFVxVmprdjFITEEySWp2b29SWVdKZHh6ZzBCdkN6LUlGRGRkYk5yN3VWQVl3SUN1RE0wWjBkNVFGNHo3UVI5TnRqbHFNWUdEbkUxS2VtdGkzbF9Ec2xHX2FMckoydGdiTkxnQW8zMVJnMVEwem5xeWl0TlpnQTJ2NW1TZzZkSGIxemxFcnRONDl3UmVVZndfUlNGNEpvOURYOXRiTW8xdkRUekxGa3c4V2tNTkVxMHgxWXBycUN2S2RySXphaGY0dEwyRVNqZGRRSDhVdXBjc0dGaUNQMEJnUW1yZmg2dDhhdU9rTVhCQ2tsQUVGVW9TNHpoVdIBgAJBVV95cUxPNnlyZFlzMGREUjZKQ284VGVGMlhkMGtfVzd0Yk9KeXdyNnBuaW5nTmRsREpISmRoT283WTY0a0pFUG1IWHR4MXVvdzZ1bV9mRU5OTjVYeUNQckJiVHRfaVFnSGNmRDY2TzF5V1BhZjE2bXJHZnNOX1hoWDA5M1hCbU9HV09FalNGX0tFRW1Tc21lckhGaU1QN1A4TmxJbU84dWNqVS0wdkhkYjlXWWVSQmZ4LVpCandUeTctYkFQNm9ZSU55d18yZ1YzZzdXbzlPQklla1Y5VDdDeFpTRFY0enBHcnJ4emJvMFAwVlhDcll1bFlheEdnbnlqeU1pWFVF?oc=5",
+    "source": "The Economic Times",
+    "published": "2026-09-08",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
     "headline": "Sloth bear trapped in oil palm fence rescued in Andhra’s Kakinada district, sent to Visakhapatnam zoo",
     "url": "https://www.thehindu.com/news/cities/Visakhapatnam/sloth-bear-trapped-in-oil-palm-fence-rescued-in-andhras-kakinada-district-sent-to-visakhapatnam-zoo/article71437837.ece",
     "source": "The Hindu",
@@ -9345,6 +9417,15 @@
     "headline": "Sacred Animals, Belief Systems, and Human-Wildlife Landscapes in Northeast India",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9mMFpQTEU1WGdkU014UzVlRndQeHF0VHlzSGg5TjcwOWZneUp4T19qYTFRV0J6anJRcWgzMlhYQ0hfYkUxU2h6Qnltd3NqOTJ2aGFpbHhNRUFlNlBXOHM0MGllem02OEpfeUhsNzVLQ1RVTnR0aXpiSmVB?oc=5",
     "source": "Mahabahu.com",
+    "published": "2026-06-25",
+    "place_name": "Northeast India",
+    "lat": 25.2744,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Sacred Animals, Belief Systems, and Human-Wildlife Landscapes in Northeast India - Mahabahu.com",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9mMFpQTEU1WGdkU014UzVlRndQeHF0VHlzSGg5TjcwOWZneUp4T19qYTFRV0J6anJRcWgzMlhYQ0hfYkUxU2h6Qnltd3NqOTJ2aGFpbHhNRUFlNlBXOHM0MGllem02OEpfeUhsNzVLQ1RVTnR0aXpiSmVB0gGCAUFVX3lxTE5nRTVzTkJ6ZjgtUFFCeV9EVjNpbTFxUE01UzV0Q2xRamhEYUcyS2x6enFUQXpSNjRWLTNrOHduUVZISzFNV0tScXRWVnlVTGdfSlJMaUV0dlZBTkVRVjNwVlBIOWZPQm8yWGcwb0hfWHNXbGlRRHo1YU11RlhBT0xGYWc?oc=5",
+    "source": "mahabahu.com",
     "published": "2026-06-25",
     "place_name": "Northeast India",
     "lat": 25.2744,
