@@ -1,5 +1,38 @@
 [
   {
+    "headline": "ಭದ್ರಾ ಮೇಲ್ದಂಡೆ ಯೋಜನೆ ನೀರಿಗಾಗಿ ಅಬ್ಬಿನಹೊಳಲು ಚಲೊ ಪ್ರತಿಭಟನೆ",
+    "headline_en": "Abbinahollu Chalo protest for Bhadra Upper Bank Project water",
+    "url": "https://www.prajavani.net/district/chikkamagaluru/kadur-farmers-protest-bhadra-water-abinaholalu-chalo-4250755",
+    "source": "Prajavani",
+    "lang": "Kannada",
+    "published": "2026-09-09",
+    "place_name": "Chitradurga",
+    "lat": 14.2251,
+    "lon": 76.3982
+  },
+  {
+    "headline": "ತ್ಯಾವರೆಕೊಪ್ಪ ಹುಲಿ ಸಿಂಹ ಧಾಮಕ್ಕೆ ತೋಳ, ಘರಿಯಾಲ್‌ ಸೇರ್ಪಡೆ",
+    "headline_en": "Addition of wolf, gharial to Tyawarekoppa tiger and lion sanctuary",
+    "url": "https://www.prajavani.net/district/shivamogga/shivamogga-tyavarekoppa-zoo-adds-wolves-gharials-4250851",
+    "source": "Prajavani",
+    "lang": "Kannada",
+    "published": "2026-09-09",
+    "place_name": "Patna",
+    "lat": 25.5941,
+    "lon": 85.1376
+  },
+  {
+    "headline": "ಬಯಲುಸೀಮೆಯ ನೆಲ ಸ್ಪರ್ಶಿಸಿದ ಭದ್ರಾ ನದಿ ನೀರು, ಜನರ ಸಂಭ್ರಮ",
+    "headline_en": "Bhadra river water touched the ground of the plains, people's celebration",
+    "url": "https://www.prajavani.net/district/chitradurga/chitradurga-bhadra-river-water-reaches-bayaluseeme-4250677",
+    "source": "Prajavani",
+    "lang": "Kannada",
+    "published": "2026-09-09",
+    "place_name": "Chitradurga",
+    "lat": 14.2251,
+    "lon": 76.3982
+  },
+  {
     "headline": "उज्जैन खड़े हनुमान जी: 40 घंटे लग गए लेकिन हनुमान जी को क्रेन भी नहीं हिला पाई! जानें क्यों",
     "headline_en": "Hanuman ji standing in Ujjain: It took 40 hours but even the crane could not move Hanuman ji! know why",
     "url": "https://www.amarujala.com/video/india-news/ujjain-khade-hanuman-temple-row-archaeological-dept-warning-2026-09-08",
@@ -64,6 +97,17 @@
     "place_name": "Sundarbans",
     "lat": 21.9497,
     "lon": 88.8806
+  },
+  {
+    "headline": "ବାଘ ଛାଲ ଡିଲ୍‌ ବେଳେ ମାଡ଼ି ବସିଲା ଗୁଜରାଟ ଟିମ୍‌",
+    "headline_en": "The Gujarat team sat down during the tiger skin deal",
+    "url": "https://www.dharitri.com/gujarat-team-gets-stuck-in-tiger-skin-deal/",
+    "source": "Dharitri",
+    "lang": "Odia",
+    "published": "2026-09-08",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
   },
   {
     "headline": "ନନ୍ଦନକାନନରେ ଖୁସି ଖବର: ପ୍ରଥମଥର ମା’ ହେଲା ସିଂହୀ ମାୟା, ଦୁଇ ଶାବକରୁ…",
@@ -240,6 +284,17 @@
     "place_name": "Indravati",
     "lat": 18.83,
     "lon": 81.67
+  },
+  {
+    "headline": "पीलीभीत में चौखट तक पहुंचे तेंदुए: गन्ने के खेतों में पानी भरा तो गांवों में बढ़ा खतरा, 12 फीट ऊंची फेंसिंग भी फेल - Jagran",
+    "headline_en": "Leopards reached the doorstep in Pilibhit: Danger increased in villages when sugarcane fields filled with water, 12 feet high fencing also failed - Jagran",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT2dMT2pqRGhVTzk4dUQwaGg2STNlaHJpblQ0TG5EVm5Wd0kzdEhOcnpZSkxvTW9JRzNvdVFWVTVmOWRpc1o0aEJSTzVucFZtWHdweEVVX2d2ME5LNFNTa1RCa2FXVFI3Q05vY1pvVFFXODVmN0E1WTBSTDBpZ1g3Y2JBdkdPejBEWkEwYkd2X0V5cEUxeXhRVm9HdVlBQnB5NEdNZnJzTkt0eXJ4WXgtWFZVemxLb0U?oc=5",
+    "source": "Dainik Jagran",
+    "lang": "Hindi",
+    "published": "2026-09-03",
+    "place_name": "Pilibhit",
+    "lat": 28.6412,
+    "lon": 79.8046
   },
   {
     "headline": "ବରଗଡ଼ରେ ଆତଙ୍କ: କୁକୁରକୁ ମାରି ଖାଇଲା ବାଘ, ସିସିଟିଭିରେ କଏଦ ଦୃଶ୍ୟରୁ…",
@@ -2924,6 +2979,17 @@
     "place_name": "Panna Tiger Reserve",
     "lat": 24.7333,
     "lon": 80.0
+  },
+  {
+    "headline": "Gir Somnath: માનવ-દીપડા સંઘર્ષ રોકવા માંડવીના જંગલમાં સાસણ ગીરથી લવાયા 50 ચિત્તલ | Gujarati News - sandesh.com",
+    "headline_en": "Gir Somnath: માનવ-દીપડા સંઘર્ષ રોકવા માંડવીના જંગલમાં સાસણ ગીરથી લવાયા 50 ચિત્તલ | Gujarati News - sandesh.com",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOeVhpd0tvRS1IVVFWMEo3UU5UV3hJQnNodjZHYUdoS2lqY0xKTklCcTJadG0wcWhpSnFDSzRnNnpJcHdqOGJrU0IyQUd0ZjAwdkVWLUpxeGUwWXZVeXZtMU1CUXdCRkxtZHNZSkU0cHdrT2VCdXUzeGJVQzJxRXFoWWw4b2dIZEthcXM2cEhYckFmNkZXcDRPRUhBalBkQ1BkcEtINE5IWFprOW9hdGxqTWtUZkJ0SzBoQm9GblF0a284bERDWUdINTM2NlJnU0lvTExiZ3dVM0ljT3JyMFE0Qjc3ZmZCandPcTRRa2tETQ?oc=5",
+    "source": "Gujarati News",
+    "lang": "Gujarati",
+    "published": "2026-07-19",
+    "place_name": "Gir",
+    "lat": 21.1239,
+    "lon": 70.798
   },
   {
     "headline": "ಸಕ್ರೆಬೈಲು ಆನೆ ಶಿಬಿರ ಆ.15ಕ್ಕೆ ಸಾರ್ವಜನಿಕರಿಗೆ ಮುಕ್ತ",
