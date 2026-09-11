@@ -81,6 +81,69 @@
     "lon": 85.78
   },
   {
+    "headline": "Ghost net kills another humpback dolphin on Kozhikode coast",
+    "url": "https://www.thehindu.com/news/national/kerala/ghost-net-kills-another-humpback-dolphin-on-kozhikode-coast/article71455900.ece",
+    "source": "The Hindu",
+    "published": "2026-09-11",
+    "place_name": "Kozhikode",
+    "lat": 11.2588,
+    "lon": 75.7804
+  },
+  {
+    "headline": "Forest Martyrs’ Day observed in Shivamogga",
+    "url": "https://www.thehindu.com/news/national/karnataka/forest-martyrs-day-observed-in-shivamogga/article71455512.ece",
+    "source": "The Hindu",
+    "published": "2026-09-11",
+    "place_name": "Shivamogga",
+    "lat": 13.9299,
+    "lon": 75.5681
+  },
+  {
+    "headline": "Drones deployed to monitor elusive leopards in A.P.’s Chittoor district",
+    "url": "https://www.thehindu.com/news/national/andhra-pradesh/drones-deployed-to-monitor-elusive-leopards-in-aps-chittoor-district/article71456232.ece",
+    "source": "The Hindu",
+    "published": "2026-09-11",
+    "place_name": "Chittoor",
+    "lat": 13.2172,
+    "lon": 79.1003
+  },
+  {
+    "headline": "Solar-powered charging stations installed in six villages around Mizoram’s Dampa Tiger Reserve",
+    "url": "https://nenow.in/environment/solar-powered-charging-stations-installed-in-six-villages-around-mizorams-dampa-tiger-reserve.html",
+    "source": "Northeast Now",
+    "published": "2026-09-11",
+    "place_name": "Dampa Tiger Reserve",
+    "lat": 23.5,
+    "lon": 92.5667
+  },
+  {
+    "headline": "Elephant spotted with tractor tyre stuck around neck in Assam, rescued after hours",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMEl5cFB2cy1SOVJZNW9nWEtZQllLb2NRN2pIZ2xTOTllZ1RFWmxtem1zdWhvUkJmamRHVWZWTlotN3R6ZWhwVGN1RkxVeFU1ZUFNUTh2V2s3NS1JOVBDMnNZYU0tazRKXzRfUjFmaXJMY1RMUnpfVk5zWnRYR3FaRUF3S085bDRYejFwV21WemthYnNiVm15OW9OeVNzcTBxY1hDbVZtU2p6TkZSci1zUW92NHJzeThsXzJuTmlWSTMxZnc1U1VkeVN3TDVkb1pWZi1LLU9YdF90eUJMMlpKM9IB4AFBVV95cUxNMEl5cFB2cy1SOVJZNW9nWEtZQllLb2NRN2pIZ2xTOTllZ1RFWmxtem1zdWhvUkJmamRHVWZWTlotN3R6ZWhwVGN1RkxVeFU1ZUFNUTh2V2s3NS1JOVBDMnNZYU0tazRKXzRfUjFmaXJMY1RMUnpfVk5zWnRYR3FaRUF3S085bDRYejFwV21WemthYnNiVm15OW9OeVNzcTBxY1hDbVZtU2p6TkZSci1zUW92NHJzeThsXzJuTmlWSTMxZnc1U1VkeVN3TDVkb1pWZi1LLU9YdF90eUJMMlpKMw?oc=5",
+    "source": "India Today",
+    "published": "2026-09-11",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Gujarat Honors Fallen Forest Heroes on National Forest Martyrs' Day",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQUsxSWxCd0VmNjhqMWw1R3lwUFRtaFVGWmZMTV92bHZwcmdPd3duQnkxTU1iV0VTYnhYbEhvVUozYlVpQ3hFV1gxMk1yT2JQX21raTBUZ1FQSVhKMllOTWZoSUN2X181Ylg3YV8zTW5KcGZ3aUQ0WlV6N1V1YWR3SXN2TmViU3h6MGJTUUtkT1lXQW84TjBMOUl1STdYTjRHNllwTng4M2VqWlVrOVVQZEIzaUpUMHRhMVVtVGZn0gHDAUFVX3lxTE9OM1dBdjNlbjlTczJ0akhSZy1vNVdqeWMyQ0RiU2VGcnpjbzRTdV9sZ0dMeWpESkhBbmF5aGsxMWh5R0hqRENYOXdqX1RwZ19vb0wzX1AwdzNPbE82dlZ4dEZRTVhYdm1JS2RKbkpYZmc5UW1CLS00TXdLaHFsMUtDTzJsQ2txekJzRXZRZkYwQXdhdXFuZEw1Uk5ZTkZ0NG5kZmc1Q1VPd0NoUXRMYUxMVlZVTkdxWnZydi1QTXczX2dIYw?oc=5",
+    "source": "devdiscourse.com",
+    "published": "2026-09-11",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
+  },
+  {
+    "headline": "Beheaded woman’s body found in Jharkhand forest, probe underway",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaEVNblNnN0hxSWU3LVBJclNqRDlYRkJOOTU1ZlRxaXpQUmlOZUZsZXE3MTRvcl9NVWhJdURGcUJKVlR5TUhJM0NUUkMwb21mREJHMklfNkRJUm5wNGFtWEx1eXd3R2tXWllxMkl6OEJDZDBrREVkNm1xd0M0UjhyV21mY2Q2Sm9RXy16bEVZanV2ZXZxcHg4dXFMdE91YjVPWC00MEZR0gGrAUFVX3lxTE15Z05HTFdpaUJ6UHV4ajc2R1hJb3JvaThGQmZwOFBfQjU3WjJpOE9lcDBrTmpZQlJCX1RwLTJrcF8xVWZWTGRBZkRicmF5VEo0UFdtVzA1ejlhNlgwOVltZWFYd0gzWDRzZlBJQTBJSGVSNnRBUzZqLTMzbVJCM2pka3E0NlB1WDFQUDV6aU5pRnFDYTllVHF5YTVGTVpxSU9WYnFWZHRmWDhpbw?oc=5",
+    "source": "assamtribune.com",
+    "published": "2026-09-11",
+    "place_name": "Jharkhand",
+    "lat": 23.6102,
+    "lon": 85.2799
+  },
+  {
     "headline": "Bamboo mass flowering and die-off can trigger ecological crisis and wildlife conflict, study warns",
     "url": "https://www.thehindu.com/sci-tech/energy-and-environment/bamboo-mass-flowering-and-die-off-can-trigger-ecological-crisis-and-wildlife-conflict-study-warns/article71450844.ece",
     "source": "The Hindu",
@@ -18416,6 +18479,15 @@
   {
     "headline": "Highest Number Of Sea Turtles Released Into Sea In Tamil Nadu",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdG1KV2NIN0RCeTdHbzFrQ3pFSlo5aWVtUGJLdjVEZ2k4ZlQwODV3RnVjeElScXl3N0RpajlCUkVUVzNzZms5SmdxcDFFQUhGcTdjc21jM19nUzF4cHJOSG1tandXdFh4UVN6RXoxdWx1U0NpUUNJNkxfMjFEZndKMnVXSzEtR29QRzV5NWxta0U5RENPTHpQQ092UEFoUWVZeTVZ0gGrAUFVX3lxTE1yd1JvNnBmcEN5Nkc0S2pBVk16SEhkd09zRGFuUXFyampRc3NnNU9ObU9ydVFZQjlOelNMNnVqR1V2dWVRZDRrYW9FYkl4YTVQQTRhSV8zNEMyTGQwU1RsN2tyNEhnM0xsRFo0ZE16eWxQZV9PVFJsdEF4RDRDZnZpblZocGdmMk5PMXpSSEotaVo2UUZMSVl6SkJUTlo4OFEtaURyTmxYWkR5QQ?oc=5",
+    "source": "NDTV",
+    "published": "2024-06-16",
+    "place_name": "Tamil Nadu",
+    "lat": 11.1271,
+    "lon": 78.6569
+  },
+  {
+    "headline": "Highest Number Of Sea Turtles Released Into Sea In Tamil Nadu",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdG1KV2NIN0RCeTdHbzFrQ3pFSlo5aWVtUGJLdjVEZ2k4ZlQwODV3RnVjeElScXl3N0RpajlCUkVUVzNzZms5SmdxcDFFQUhGcTdjc21jM19nUzF4cHJOSG1tandXdFh4UVN6RXoxdWx1U0NpUUNJNkxfMjFEZndKMnVXSzEtR29QRzV5NWxta0U5RENPTHpQQ092UEFoUWVZeTVZ?oc=5",
     "source": "NDTV",
     "published": "2024-06-16",
     "place_name": "Tamil Nadu",
