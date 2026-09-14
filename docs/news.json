@@ -1,5 +1,59 @@
 [
   {
+    "headline": "Researchers rediscover an endemic plant after 180 years",
+    "url": "https://india.mongabay.com/2026/09/researchers-rediscover-an-endemic-plant-in-assam-after-180-years/",
+    "source": "Mongabay India",
+    "published": "2026-09-14",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "One baby orangutan develops fever at Odisha's Nandankanan Zoo, under treatment",
+    "url": "https://www.thehindu.com/news/national/odisha/one-baby-orangutan-develops-fever-at-odishas-nandankanan-zoo-under-treatment/article71465790.ece",
+    "source": "The Hindu",
+    "published": "2026-09-14",
+    "place_name": "Nandankanan",
+    "lat": 20.38,
+    "lon": 85.78
+  },
+  {
+    "headline": "Nepal's wild elephants wreak havoc in Pilibhit villages, trample paddy and sugarcane crops",
+    "url": "https://www.hindustantimes.com/india-news/nepals-wild-elephants-wreak-havoc-in-pilibhit-villages-trample-paddy-and-sugarcane-crops-101789374471343.html",
+    "source": "Hindustan Times",
+    "published": "2026-09-14",
+    "place_name": "Pilibhit",
+    "lat": 28.6412,
+    "lon": 79.8046
+  },
+  {
+    "headline": "Seven arrested for alleged peacock hunting in Karnataka’s Yadgir",
+    "url": "https://www.hindustantimes.com/india-news/7-arrested-with-2-peacock-carcass-6-firearms-officials-101789328452555.html",
+    "source": "Hindustan Times",
+    "published": "2026-09-14",
+    "place_name": "Karnataka",
+    "lat": 15.3173,
+    "lon": 75.7139
+  },
+  {
+    "headline": "Massive Fire at Sariska Tiger Reserve | Wildlife at Risk in Rajasthan",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOb3oyVDRIb0JCNnhpUFFWS0NuVWRfV292eU5wUkRVeUVFN2JDYm92ZkJWY3V5bURKSHZSTE00azV3aGZJMjZqQ0JxWWNWVlVQOS12c1pJTmM3SXNobTN0TkY5S1B5Vmo0aFNsbmVBUGdYSWF0V2o5dEpGWlNpR3RPZFJMc0NQRnpGbE9DTXZYVVpSZHY2SXFROXRUN1NkVm1QbXhhS3RB?oc=5",
+    "source": "tatsatchronicle.com",
+    "published": "2026-09-14",
+    "place_name": "Sariska Tiger Reserve",
+    "lat": 27.25,
+    "lon": 76.3333
+  },
+  {
+    "headline": "Himachal CM Sukhu congratulates winners, participants of Forest Sports Meet",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbGM0Q05Ic1pUZDVxcHBsQUtwU2g3ZmIyRU5UUWlNYmRNZXQ2NlNkTVdOYTRmTUNEYnJ4cGwwT0hlWnJuS2hZNkJyMUhmWmx2SjIxVl9YUmxCWjFrOFp3Z2RxUGVxelphYzZGV3l3cEx6MnJlYTZkdVFycTJoSmRZaU5IaEpVNXAzNjJZSGdlOFRYSGcxTDBNSEhFZDdZN0NRSk9VRG5HV3I5VThoVlBUenFkRTQtOU9xX0htOHhSWlJoeTBBMDBleWtaY01vQkE5ZW9LdQ?oc=5",
+    "source": "ANI News",
+    "published": "2026-09-14",
+    "place_name": "Himachal",
+    "lat": 31.1048,
+    "lon": 77.1734
+  },
+  {
     "headline": "Young elephant ‘Durga’ from Assam to reach Madurai Meenakshi temple; activists raise concerns over transfer",
     "url": "https://www.thehindu.com/news/national/tamil-nadu/young-elephant-durga-from-assam-to-reach-madurai-meenakshi-temple-activists-raise-concerns-over-transfer/article71462945.ece",
     "source": "The Hindu",
@@ -412,6 +466,15 @@
     "place_name": "Gandhinagar",
     "lat": 23.2156,
     "lon": 72.6369
+  },
+  {
+    "headline": "CM Highlights Coastal Ecology, Security and Sustainability at Gujarat University",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZFRmeU9yOHFWT1VVUUM4UDgwNUprcmRncDVUS05hbVN3RExBTlNhTmVfQlUwVUR6cmN5U1hRbnZwUnN5UW82MzBFWEZvTFNhNVcyOHh3ZlZRcVYzYVlrZlhGZFlIbW1TMlZFVkpvMzR1Y0NKdW04LXIyWllCNl9VUTkwaE9OZ0h1NjhCYjhjZmp5N1duZlVYWmxmMmQyb1B1UGdzNDROMkRqZw?oc=5",
+    "source": "CMO Gujarat",
+    "published": "2026-09-11",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
   },
   {
     "headline": "Bamboo mass flowering and die-off can trigger ecological crisis and wildlife conflict, study warns",
