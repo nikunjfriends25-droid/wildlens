@@ -2,7 +2,7 @@
    GA4 sets cookies, so it loads ONLY after the visitor accepts.
    Cloudflare Web Analytics (cookieless) can be added separately without consent. */
 (function () {
-  var GA_ID = 'G-XF6F2RB8JM';
+  var GA_ID = 'G-JSB27C2K90';
   var KEY = 'wl_analytics_consent';   // 'granted' | 'denied'
 
   function loadGA() {
