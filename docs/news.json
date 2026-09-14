@@ -54,6 +54,69 @@
     "lon": 77.1734
   },
   {
+    "headline": "Delhi HC rejects Vimal Elaichi maker’s plea over notices to Shah Rukh Khan, Ajay Devgn, Tiger Shroff",
+    "url": "https://timesofindia.indiatimes.com/india/delhi-hc-rejects-vimal-elaichi-makers-plea-over-notices-to-shah-rukh-khan-ajay-devgn-tiger-shroff/articleshow/134239863.cms",
+    "source": "Times of India",
+    "published": "2026-09-14",
+    "place_name": "Delhi",
+    "lat": 28.7041,
+    "lon": 77.1025
+  },
+  {
+    "headline": "New frog species discovered on Mizoram University campus in Aizawl",
+    "url": "https://nenow.in/environment/new-frog-species-discovered-on-mizoram-university-campus-in-aizawl.html",
+    "source": "Northeast Now",
+    "published": "2026-09-14",
+    "place_name": "Mizoram",
+    "lat": 23.1645,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Assam: Four-month-old elephant calf found dead in Kamrup’s Singra forest range",
+    "url": "https://nenow.in/environment/assam-four-month-old-elephant-calf-found-dead-in-kamrups-singra-forest-range.html",
+    "source": "Northeast Now",
+    "published": "2026-09-14",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Delhi HC rejects Vimal Elaichi's plea over Maharashtra FDA notices to SRK, Ajay Devgn, Tiger Shroff",
+    "url": "https://www.hindustantimes.com/india-news/delhi-hc-rejects-vimal-elaichi-plea-over-maharashtra-fda-notices-to-srk-ajay-devgn-tiger-shroff-101789402087269.html",
+    "source": "Hindustan Times",
+    "published": "2026-09-14",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
+    "headline": "Why Delhi HC rejected Vimal Elaichi makers' plea over FDA notice to SRK, Ajay Devgn, Tiger Shroff",
+    "url": "https://www.hindustantimes.com/india-news/delhi-hc-rejects-vimal-elaichi-makers-plea-over-maharashtra-fda-notice-to-shah-rukh-khan-ajay-devgn-tiger-shroff-101789396450435.html",
+    "source": "Hindustan Times",
+    "published": "2026-09-14",
+    "place_name": "Delhi",
+    "lat": 28.7041,
+    "lon": 77.1025
+  },
+  {
+    "headline": "ICAR-CAZRI’s moth bean varieties survive 35-day dry spell in Rajasthan",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRHBpUW42X0ViNENzcHRBbmcwQ0NWZDVreHdmQXptaXV2cVc2V1dwSXBnQUtwb0d4NmNPai1WOTlYVjhBbUxzMWg3c2dta3YwM2R0Vk00WGc4U09OVWhKdjU4SUpqWFI2STF3a2hFVUdjb3Rhcy1HZWRjLTUzM3Nycl96c0QxU2h6WDBjSy1ITzdBMUdsZWFZOVVNclNHNDJ1R0RqMWF4NEU3WnFqTEhlZmIwcl9hTldXa1A0WURDTQ?oc=5",
+    "source": "Deccan Herald",
+    "published": "2026-09-14",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "Himachal Pradesh: 4 Devotees Rescued from Churdhar Forests",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOHFmckZmQS1lOUEyNERUaGVHaDFtYWhMNVJUSHU3RnpuNnhEV3FQREtta2QzN3NlXzNnSEpKTXV1TDFsU0hVSkJQUnJUcFlycEFnM1E1aER3Q1YySV8wTWtXeWNvQnVhRlJsTHh0WGNuSzlwNU9qeFBEbG81ZlRzQ29HaDBUMTdMMlRxN0JieGhIZ3l2ZDhWTHdkNnlpVTF3OHNWNks3cmFEbUhBYkNEeUhHZ3nSAbwBQVVfeXFMTzR4VG9vVVRHYm5XYjI5SFh6bXFMeHRnQlpsOFlhcWhGM2FVWnQzRVNiajNzaGRVamVfdWhyTGt1YlNqOXI3NTdhMUNJZml5Q1duRWtoOXlrb2dpSzJrQzBRRGJIcGJCY1JkMHJOTVE3aFkyVVphUnhNd3JQT3BxcHVFYldiblptcU5ONmNuQzJwY3RjWllUMUJSN2swYm5GQl8tZF9ReWlLZHJLQ1ZkU2pTZXd6N0psc1loVFI?oc=5",
+    "source": "The Chenab Times",
+    "published": "2026-09-14",
+    "place_name": "Himachal Pradesh",
+    "lat": 31.1048,
+    "lon": 77.1734
+  },
+  {
     "headline": "Young elephant ‘Durga’ from Assam to reach Madurai Meenakshi temple; activists raise concerns over transfer",
     "url": "https://www.thehindu.com/news/national/tamil-nadu/young-elephant-durga-from-assam-to-reach-madurai-meenakshi-temple-activists-raise-concerns-over-transfer/article71462945.ece",
     "source": "The Hindu",
@@ -12301,6 +12364,15 @@
     "place_name": "Majuli",
     "lat": 26.9533,
     "lon": 94.1622
+  },
+  {
+    "headline": "Monsoon break: Tourists to be banned in core areas of Tadoba tiger reserve for three months",
+    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWjVtOHpyWWx5X3IyUHhSWFNCempSM1ZhX3djcTdNeW9IZ09HLTQxTm9kOEpKc2p3MndudnV4aXp3MWZ6UVhRN09xTjVLVHlkcVc5MjN2d2M0TE51cmVvYXZxN25idDFrbUMtd09BZi1EbmdJeXZVQXlPTnhZOE1hQkN6RG5Sa2tJWTA4emNUcWlyWlVsMzd6UVc1b2tqMFVqRkdhbXRxMTgxUGIxSVNTRktpM0dGTU9raFJBTTRBVFBrZEpraE9kRl9wNHNxNU5ScDZHSnI5UXlUNkdCbGxTV1dZTl9xTjlEYlR1SGk1cEJMa3fSAfgBQVVfeXFMTTUzRWhsRmxJZ3hwY1FsM3lVT185OHRWS2pHZm9kd2FIY2VYS0VITWd1VWtab0cwN1FULXVNSXdJMEhaNUVfMXB4NXEyZF95ZHlHZnBpckVmdlc2NlhZQjc3QVFrcEhlcjdLdVJ1bFFSSUhFaHg2ZXc4RlA4bEIwQnRmM2hjeXcwRlZraXJaSWZNT28wamt5cl9RMld1ZDFwaW9ldHhOejFRZS1UMWZlZm5pTTJWQ2hvR2U1anJsSzlXVVlKcjlQMU05cjFWV3AyRzE5QWJoN2U0Nm9LM3k1aHN4dlpTdkZxRlpiMWdyVGtiZjFzVnZUUWY?oc=5",
+    "source": "mid-day.com",
+    "published": "2026-06-03",
+    "place_name": "Tadoba",
+    "lat": 20.2333,
+    "lon": 79.3833
   },
   {
     "headline": "Artificial light at night alters foraging behaviour in kites",
