@@ -36,6 +36,51 @@
     "lon": 71.1924
   },
   {
+    "headline": "Construction of rural district jail moves at a snail‘s pace in Kozhikode",
+    "url": "https://www.thehindu.com/news/national/kerala/construction-of-rural-district-jail-moves-at-a-snails-pace-in-kozhikode/article71475802.ece",
+    "source": "The Hindu",
+    "published": "2026-09-17",
+    "place_name": "Kozhikode",
+    "lat": 11.2588,
+    "lon": 75.7804
+  },
+  {
+    "headline": "NMDC recovers a 27.29-carat diamond from Panna mining project",
+    "url": "https://www.thehindu.com/news/national/nmdc-recovers-a-2729-carat-diamond-from-panna-mining-project/article71473145.ece",
+    "source": "The Hindu",
+    "published": "2026-09-17",
+    "place_name": "Panna",
+    "lat": 24.7181,
+    "lon": 80.1895
+  },
+  {
+    "headline": "Forest officer caught accepting ₹30,000 bribe in Ramanagara",
+    "url": "https://www.thehindu.com/news/national/karnataka/forest-officer-caught-accepting-30000-bribe-in-ramanagara/article71476182.ece",
+    "source": "The Hindu",
+    "published": "2026-09-17",
+    "place_name": "Ramanagara",
+    "lat": 12.7157,
+    "lon": 77.2801
+  },
+  {
+    "headline": "New ‘ghost flower’ orchid discovered in Arunachal Pradesh’s Keyi Panyor",
+    "url": "https://nenow.in/environment/new-ghost-flower-orchid-discovered-in-arunachal-pradeshs-keyi-panyor.html",
+    "source": "Northeast Now",
+    "published": "2026-09-17",
+    "place_name": "Arunachal Pradesh",
+    "lat": 28.218,
+    "lon": 94.7278
+  },
+  {
+    "headline": "Himachal Pradesh bats steadily",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUEhTOUlWOFZ0Rmx4ZTl5Z0E4RUhWT1hkdGlZTU9Fc1BEQ2praGJ5bDduNzRDRFhRUHR5Nk91a0xsRXFlb3RCLUhhcXFjc01DZGJ5eXFGTjV4ZEY2R3E0YmZqTXh3ZkxQNkhsUEh4WkU3RnQ2SEVCNEpycHotb1dxTFRjOThUNVHSAYcBQVVfeXFMT1BIUzlJVjhWdEZseGU5eWdBOEVIVk9YZHRpWU1PRXNQRENqa2hieWw3bjc0Q0RYUVB0eTZPdWtMbEVxZW90Qi1IYXFxY3NNQ2RieXlxRk41eGRGNkdxNGJmak14d2ZMUDZIbFBIeFpFN0Z0NkhFQjRKcnB6LW9XcUxUYzk4VDVR?oc=5",
+    "source": "Cricinfo",
+    "published": "2026-09-17",
+    "place_name": "Himachal Pradesh",
+    "lat": 31.1048,
+    "lon": 77.1734
+  },
+  {
     "headline": "59-year-old man injured in wild boar attack in Keralam’s Kozhikode",
     "url": "https://www.thehindu.com/news/national/kerala/59-year-old-man-injured-in-wild-boar-attack-in-keralams-kozhikode/article71471357.ece",
     "source": "The Hindu",
@@ -17838,6 +17883,15 @@
     "lon": 80.6167
   },
   {
+    "headline": "Seijosa entry gate of Pakke Tiger Reserve inaugurated, patrolling bikes flagged off - The Assam Tribune",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWlhvaUZLRXFfbEJMQ2M5em9BNTEwc25ESGVxY3NkQVlJV2M0bEVsNUF3ZmNla2lZMUtUZ1NBam16cTdOOHJwQzBreEhFQm1hckllbHc1UENQREtUMlE2NEFmZnRaSnVYNVA3UGRZNG1KVUxKY1k0c1ZwWE5Vd01jZERDdVJWZ3hhNlFJa3pYTmQxX2tzU1F1XzFHbUQxYVZSWDhrY1VBNnhyMzR1MzVFdWc2MU1kNjQ1M1ZmTFZn0gHDAUFVX3lxTFBkb0paOFg3bjg0TlYyN2RpNEVRYlpfeE9Wc0w0ZTlMZlk4UDdmaTNEcGpFR3lod0ltZG1Mb2lhUE9ndmF6bTFTdG1MVDBhOE1TVVpSNG5KV2VnZURqYVR0WU9aTm03b3MwUDhwcU1lOEZzX0gxX05jZmItQ1pzeXBoaGE4ck12V0tFSjN6NGVRSXJZVnNybmdWOWNQQlRodGoxZm1DQVhjRVp5WDNBMHpvR25fYldhcmV2UEZ0Z3FlYUd6Zw?oc=5",
+    "source": "Assam Tribune",
+    "published": "2025-04-19",
+    "place_name": "Pakke Tiger Reserve",
+    "lat": 27.0,
+    "lon": 93.75
+  },
+  {
     "headline": "Star Cement Unveils Plan to Rebuild Kaziranga’s Daflang and Mahimiri Watch Towers: A Rongali Bihu Gift to ... - The Assam Tribune",
     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWGkxR0dZSDNYX1hrTDRyYUxTRU9wUHYzVS1PZ0VyaTM1dGVpZ0Y1ZlJwa2NYZk01dTNmMmFueGswR01aa0tBSmR6UFota2hGaVQ2SDM3aGh4Zm1JZWY3eFBtMWQ3cnpyclVqc2Jtc0pwTGlKYTZpWkllV1NfaFhjUk12cEEtU2xXMFNnUjRKQmNTZ0VkVnZBQ0xjbEdEZ21aemVUdTRwMzI1eTBOSGZIWVMtcHBsM2R0T3hjRHFIbVA3YjlhNndTSWhMN2x1enVMMFRIRjBxN0RSMnJuZFppei130gHnAUFVX3lxTFBUekJodElLZ3pmMUhsVnhGaVJhcW9jOHBBU0F0U2dXbElNUm1GVHV3Z1dKRFB4U0lOS1dZTDc3d3VvRjdwQmh5em5DM2RsTXFabHVVcUpENWNGZjJNYm1sV3Z1RHc3SGdPZ0s5RGRuNnlQempnc1Itcko0NXFCSm5hXzE4blg2Y3lXUnBEMmFtTkFTVHVrcFpwYi13N0VLZUtMT2RZdXB2UGpuYTkyVzZmUGl6VzJDcTl2Q1FHcHN3aks2QmV0M0psa1dETHFnMkVxZk1ERjZGemMwMFRaMmZCNWRJTDR1OA?oc=5",
     "source": "Assam Tribune",
@@ -19465,6 +19519,15 @@
     "place_name": "Sundarbans",
     "lat": 21.9497,
     "lon": 88.8806
+  },
+  {
+    "headline": "Forest Officer Shares Pics Of Intruders Taken By AI Camera At Odisha Tiger Reserve",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb3duejRnQmF5ekVwU21tT3hfOGR6STZCTkFIanRwS3lHZ0tSMGl3R1FRUTZTRjl2anhOZ3VMcGVoMGpxYmw5SWRYUFpmVGViamtUR2VZOG9NTFU3c1lGWlhKRUg5ZTlpTXpIdzNQVExIOTVoVERPOXhoV0pCUDV4ZU9pOFRCdTlzYV8tRVpjSWxqOVFEUXR6QkljeFRVclRWYzhHbGpLdkRtUElHNXpySUptbXZOSk5kUlZV0gHDAUFVX3lxTE1Nc21NRHlBcmd6WXlkSVMxcUFnVlJYSmY3cUxwSG5kak5rVVlVaHFNMjYzYWtfN29oOWgzMzRUUDNRWEI4aFRTbkhmVmF3TmN0bVUyMTdhR3QxTUdSLThodGZWUUg2SlMxb1dsdllQZWlNQzFkejdMLVRJNzh3b1U0UVlvY2V2MkJsdmtiNGtZSmpDOVUyWFNRc3hFUGxqNklFTm9tUlY2cUotWU1NemtLUS0zNVFLcXdmeWZWS3hHUTlHaw?oc=5",
+    "source": "NDTV",
+    "published": "2024-05-22",
+    "place_name": "Odisha",
+    "lat": 20.9517,
+    "lon": 85.0985
   },
   {
     "headline": "Killer tiger tranquilised, rescued in Maharashtra's Tadoba Andhari Reserve",
