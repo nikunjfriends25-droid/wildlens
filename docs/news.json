@@ -1,5 +1,41 @@
 [
   {
+    "headline": "High-altitude bird hotspots remain outside protected areas",
+    "url": "https://india.mongabay.com/2026/09/high-altitude-bird-hotspots-remain-outside-protected-areas/",
+    "source": "Mongabay India",
+    "published": "2026-09-17",
+    "place_name": "Himachal Pradesh",
+    "lat": 31.1048,
+    "lon": 77.1734
+  },
+  {
+    "headline": "Wild elephants cause scare in Belagavi district, villagers complain of damage to crops",
+    "url": "https://www.thehindu.com/news/national/karnataka/wild-elephants-cause-scare-in-belagavi-district-villagers-complain-of-damage-to-crops/article71475476.ece",
+    "source": "The Hindu",
+    "published": "2026-09-17",
+    "place_name": "Belagavi",
+    "lat": 15.8497,
+    "lon": 74.4977
+  },
+  {
+    "headline": "4 bears attack 2 men collecting firewood in Chhattisgarh forest, 1 critical",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSjJ1Uy1IbDFEYzQ4dE1mT3pzdEd2N2d0Y21GN01helJBUXY5bjJjQVBESVNSdmVnREVrMTBGNGlPMDg0ZVI5UHZXQkcxLW50cmtkRThnNkQ5dlBIQVZZZGhONHZNR0l1YjhjYVBOMldLaGhmZWU5SVA3QldSTnh2R2xzaXlTVTZ2NTM1dWcyZFd6Y25PMlc4MEgwUDZSZ1hjb0M2ekxQZTA0TVhiY3ZGT3NGTm9kUlBScXZNMlM4V1ZXWWZNOWlYYWtpQ0hmZEFSdzJrZldR0gHbAUFVX3lxTE1lSk9vVVQxVW1pSGZhZUV3VkgzaldyWXFiclFfdFdLZU96b1RWTHJGanhxTTN0Sy10UWZjX1phMy1jTVRyMWVkWTQtMDhiSVpsMU41S25ObmsxZFlCenhrY0VhNXJIZENrVGx4WkI2Vmd2VzZMTmJCRVNZeVpvUEpNbTZHdEt2T3RlYnFsc3FEZUpKOEc0VVptMldYcDEyNnZtRzRiLWxaVGlIMDJYSmswRmdrSlA4RDBHNnNtX201b3htei1LWVNaaFhnWDhHMkxSMTN1YmZVOW43SQ?oc=5",
+    "source": "India Today",
+    "published": "2026-09-17",
+    "place_name": "Chhattisgarh",
+    "lat": 21.2787,
+    "lon": 81.8661
+  },
+  {
+    "headline": "Durga Puja, Hilsa Fish and Gujarat's Festive Gift to Bengal and Bangladesh",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYmpZSFQwZ25taUg3TkZ0VC1yaUFRX21NSm1ueldVa3hBNElFWTF4bUNjVWpnRW5tQ19FeUYyQ3pMQWZ2TlVHd3FWenNtLXRUVGFwVGx5WE5FRnBTSVZ4eEdlOUlvQ1JWMFZHcXhDTkEwVXlZdWlNTXRnTDg3OFdFVFlyekRlbHcxT2FkVDRFMHFFb0ROMzNHT255S1dlV1YxNDNBalByOFlwOGR0QlHSAbsBQVVfeXFMTkJ0ZXowd0RHSXA4UDRvWklGa0t1TS13TkpwTnI1eEJ4aDloVFgzZHpybUtaNzRFZE1URjZIcGxqaUJFVlpsZjJ4U1d0blJoMlBCYmZzaURBZ3ItVEVVb2diY3VvcFhOMHIyOU05WjFRTmJoUGhrbXV1TVRLWWNsSEJVbWRXcGI2anZ3V0l4UTVMZmFPZWdBQnBqa3hlblJpTTc5WDdUMFI2ZHBVR0swMzNCLUN5ZklrdmZPMA?oc=5",
+    "source": "outlookbusiness.com",
+    "published": "2026-09-17",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
+  },
+  {
     "headline": "59-year-old man injured in wild boar attack in Keralam’s Kozhikode",
     "url": "https://www.thehindu.com/news/national/kerala/59-year-old-man-injured-in-wild-boar-attack-in-keralams-kozhikode/article71471357.ece",
     "source": "The Hindu",
@@ -23254,6 +23290,15 @@
     "place_name": "Andhra Pradesh",
     "lat": 15.9129,
     "lon": 79.74
+  },
+  {
+    "headline": "Karnataka’s Sixth Tiger Reserve Is Emerging Where Dacoits Once Roamed - TheWire.in",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaExvMU5CUlpRU2RlclMxeDhQOW54ODhWeGxsdWhiTVlGdjd4ZVhGdXVXdGJyZU5GUGluVWd5cS0tWEdoTVpVaW9RdWZEbUUyVHRsbW5SV2dHVEI2U0VBNHhzOGpLOFZwdlNaVU4tWWhUekJibWJTN1NrazBxMDAzX3V4OHYxOUNaWk4zTjJyZDVzY19GMF96emVYdzE1dUdCWlE2aTVaQmZMZXUxcnfSAbMBQVVfeXFMT1NNSXdzYzVoVnltVDV5RWpGeE9BYmZuYjlCMkdSV2NmNS14Q19NaEQzVk9uLW12TlkxdnY2SFVkMy15V205ajlzemRQTjRjZFp6eklqa3ltd3hCLVVZblBIR1JMTGtQTG1sWXpPVkhVc1pvVl9sLWFwbVdRNnJUa0xnTm1PbFlsMjRCNW9RN29wRWZkSm1wdHBKRzRJVHpPN2pZVWNtaEp0TGtmQk8wZnRoU0U?oc=5",
+    "source": "The Wire",
+    "published": "2019-06-16",
+    "place_name": "Karnataka",
+    "lat": 15.3173,
+    "lon": 75.7139
   },
   {
     "headline": "Rajasthan's Sariska may become tiger-less again, fear experts, as male relocated to reserve dies; forest department sends SOS to NTCA",
