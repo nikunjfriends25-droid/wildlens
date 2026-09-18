@@ -1,5 +1,50 @@
 [
   {
+    "headline": "As tigers spill beyond reserves, India rethinks conservation",
+    "url": "https://india.mongabay.com/2026/09/as-tigers-spill-beyond-reserves-india-rethinks-conservation/",
+    "source": "Mongabay India",
+    "published": "2026-09-18",
+    "place_name": "Karnataka",
+    "lat": 15.3173,
+    "lon": 75.7139
+  },
+  {
+    "headline": "Tiger that killed two people in O’Valley in Gudalur captured",
+    "url": "https://www.thehindu.com/news/national/tamil-nadu/tiger-that-killed-two-people-in-ovalley-in-gudalur-captured/article71480122.ece",
+    "source": "The Hindu",
+    "published": "2026-09-18",
+    "place_name": "Chennai",
+    "lat": 13.0827,
+    "lon": 80.2707
+  },
+  {
+    "headline": "Delhi's artsy Lodhi Colony is getting a Miyawaki forest",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbktJbU1OUWxXc2dteWN3b3duU1Bvcm9JVUdFYlY1TFFQZjY5eER6Z01FQmQxMXROTVp1czZsZjU3dHhCMHZ4YVhVUEJORmFGRzdBbnkwcFhJZmZYZVgwRmRpaGZXcUpZOHQzQ00wYkpkejhwUWlEREFjMk95VHhLTlNwamQxVVJaV3gtZ29hbkhBcDU4T2RGV1duOGFkczI3MlQySl90dVlpNnRrTlQxU0VtZ180NHQ1UEZGMTczZHpta0J4THoyRHBaRdIB0AFBVV95cUxPSWt1TnVBc0Ryc2RHSW9LN3hXYUQzYmlvU21TMFVURTFtTDZIWC0tRGRJUnJneHMzSl8yT1JCaklVRUZwRmNRTFUtTGRONE5RS3dreUQzR3RraFpEQzZ5a0doM3BrQWVURkxNa1ducUNaZEZFVVNFQ3daUUNpNm55UWlySnE3Sm42SGN1N2dBZWdJRDRFTmxTdDEzQlljWXFPYVhMY2UzS21rdjg4S0VEcktCUFVsdFp2V3VxMUJiRlVMRzM5bnhtNDczc2RtM3lH?oc=5",
+    "source": "India Today",
+    "published": "2026-09-18",
+    "place_name": "Delhi",
+    "lat": 28.7041,
+    "lon": 77.1025
+  },
+  {
+    "headline": "Kuno cheetah KGP12 gives birth to four cubs, India’s cheetah count rises to 36",
+    "url": "https://www.hindustantimes.com/india-news/kuno-cheetah-kgp12-gives-birth-to-four-cubs-india-s-cheetah-count-rises-to-36-101789724148830.html",
+    "source": "Hindustan Times",
+    "published": "2026-09-18",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
+  },
+  {
+    "headline": "Forest dept to destroy seized animal parts on World Rhino Day, Gorumara officials compile list of items",
+    "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPaHhNc0RWVlZ5NmFOS1pURnotd192a0ZHTkF5VVVDUEEwMkl5dVBWUlVhZVI2b3R6dWZlMko0YzA1T3c2SlBZM2hHRi1wWlFsbm9tWFJxbDNTYTVnSUYwbGlhM0x1a2REbmVaUUJxMlFJeF9FMC1JMWhTcDVmanNsRy1PT2gtSWNXQ2pDWE1zZzJiQ1BLVlpFWjZZUHo1dWZPdHBXZDVhMEc4UDhmaUdNaG01Z21VbkdrMjRfblV1czhfRjB0X1FzS1gweG5tRThYc3VlY1RQN1ZCLWpFRHBNTjFjZlNwelNxUU0tVGZCNUdSaXBTVGdwLUZ5dVhFV1NkNzRSZmpXN3piNXFFZG1IelRKckFKZEtjTm5WNGp6M3R2NlcxUE05WWx30gGvAkFVX3lxTE1yODBicHl5QVpzRVpnNURlZ04zbGRWSkhVN2stcURsVVpmWUU0aG1NQVVBWFp1bjdWNnA4dUxyTjBQT05UcU1QNHE4Q1R1dVpMQ0hzdmY5V1UtcmRjX2lUcFZZRUZaSGFoUXBMMmZ1WWxIYlkxVWdubjlmRDBtQXZlNWlNeUFHdHpqLWswQlFYZFB6V01LNGhRcUNmRVJlZnE3aEdkTThWalk4TDJCenhOSk9MLUxRUmdhQTg4RG5DVzFfb0FRWXB6eDd5TmQySVdwcFhaTGpkVlJFampyazkyUGQwMGtrOXFKbG5uejBpaUp3TWQ1N0tYczZmNzhPVTdQOFExUFFSd1RJOFIzei1fNG5nMmF2Zlk3MXYyMnlZYTR3a0lQVWNOOWQ0VXNLaw?oc=5",
+    "source": "Telegraph India",
+    "published": "2026-09-18",
+    "place_name": "Gorumara",
+    "lat": 26.75,
+    "lon": 89.0
+  },
+  {
     "headline": "High-altitude bird hotspots remain outside protected areas",
     "url": "https://india.mongabay.com/2026/09/high-altitude-bird-hotspots-remain-outside-protected-areas/",
     "source": "Mongabay India",
@@ -700,6 +745,15 @@
     "place_name": "Golaghat",
     "lat": 26.5148,
     "lon": 93.969
+  },
+  {
+    "headline": "National conference on ‘Coastal Ecology, Security and Sustainability’ concludes at Gujarat University in presence of CM Bhupendra Patel",
+    "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPNUFpMG9jOUkxSFJSOUtFd1lwVWhpZTR3WjA0Tks0bXNic25uYWxJZkx4QjctZjJlaXJkZkZaODZNdFdSaVF2X2tPSlhBb2pWQ0FMdlZKQ2ZFZE91dlJBZ1cxNGNWLWo1UlVCOHYxbFhheGN1SmtMNmw0ZU5UeUN3cWVLbFgxYWlsNmJnRWZkbzE3eGpLUTJ3VmNxT2l4cWNDZ3hRdkIyN1FKaENueHlIS2x2cVUwdFR6S2FuT2puTWpxVjh6d2hFbnkwWkpMQi1lcDZNQkdqMDlmS2xOSjdKNEtZQWJYTWRtYXZLUm85NHhjWE0tWW5GaENLNWRJWTVab2l0aEEzNVRfd1EyODRXcHBoRUR3bWNTdTdzVFpjWmRObm9ENkVySzc4X2s?oc=5",
+    "source": "ANI News",
+    "published": "2026-09-12",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
   },
   {
     "headline": "Forest Minister inspects Pulicat bird sanctuary",
@@ -22386,6 +22440,15 @@
     "headline": "Odisha forest officer Sasmita Lenka to receive UN’s Asia Environmental Enforcement Award",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaG1lS1A4QlJEclNsWTktc0Mxc0pHSllaRmtHLWJ3SWE3Ykkyd2RzcWdCenkzMWxmRnhzc3kwaGtiRTlPbWdpam4zTGFHaGdqdjMxZkFoZEtOUG1MRGZ4akxONTZfQW5odlpveS1hdGRCRFJMV3dZTlc2MjNUWV9sR1ZQZmtXajNQa3BxbXhNcXhyYWlTeWFsOUxhNFVNTWhuVEwtbDVRWF9FaE9iR0hnb3JWYVE1Z9IBtgFBVV95cUxNaG1lS1A4QlJEclNsWTktc0Mxc0pHSllaRmtHLWJ3SWE3Ykkyd2RzcWdCenkzMWxmRnhzc3kwaGtiRTlPbWdpam4zTGFHaGdqdjMxZkFoZEtOUG1MRGZ4akxONTZfQW5odlpveS1hdGRCRFJMV3dZTlc2MjNUWV9sR1ZQZmtXajNQa3BxbXhNcXhyYWlTeWFsOUxhNFVNTWhuVEwtbDVRWF9FaE9iR0hnb3JWYVE1Zw?oc=5",
     "source": "orissapost.com",
+    "published": "2021-02-07",
+    "place_name": "Odisha",
+    "lat": 20.9517,
+    "lon": 85.0985
+  },
+  {
+    "headline": "In A First, Odisha Forest Officer Bags UN's Asia Environmental Enforcement Award",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbHFMZnFPcGFieTBGV1U5Q3JwSm1HWEJDbUIwMU9icDBJVGxJUW5OVXg4T2VJVkhqNmE4bEdUMHJYZm5UNm1pOU1WRVhPUWdMaUlkdHBMVWtBSER6MXplOHlqTEw1cjFJVGFPTkdURjRIeWk2UEh0QjlPUjBvNUoxZml1cDZ4bHNkcVBWVGpUQ3VNdWJUbmhtVlh2V2VwQTNrZ1lXOFZKTDFSQjUxd1FENzdjTFV4anZT0gG-AUFVX3lxTE02SDVGVGdhNzh0VnN1V0djWWJYNHdRSm1iRXJCNXYxRzM4bC1EMkxnY3VxWnlfcjZYQkNISW51eGRETjBXMUpEdFpVZ3FGM0xHMTAteUVoTXM1UnlQeGkzRlk0QWNkWDBQalM5dEg3bjRfdW5yazViZHBWMW53LVA5Y08xVDFIZ2l4bktRSnQ2a0Y2dmFvVjZZaGt4Yy1nNzFIX3B2SFkzT2tvaHQ4eFRjSVBwS3gzcnlVU29FZnc?oc=5",
+    "source": "Odisha TV",
     "published": "2021-02-07",
     "place_name": "Odisha",
     "lat": 20.9517,
