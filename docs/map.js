@@ -343,7 +343,7 @@ function buildPopup(a) {
         </div>
       </div>
       <div class="popup-footer">
-        <a class="popup-link" href="${a.url}" target="_blank" rel="noopener noreferrer">
+        <a class="popup-link" href="${a.url}" target="_blank" rel="noopener noreferrer" data-src="${escapeHtml(a.source)} · ${formatDate(a.published)}" onclick="return openArticle(this)">
           Read article
           <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
         </a>
@@ -354,6 +354,26 @@ function buildPopup(a) {
 function escapeHtml(str) {
   return (str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
+
+// ── In-portal article reader ────────────────────────────────────────────────
+function openArticle(el) {
+  var m = document.getElementById('article-modal');
+  if (!m) return true; // fall back to normal link if modal missing
+  document.getElementById('am-src').textContent = el.dataset.src || '';
+  document.getElementById('am-open').href = el.href;
+  document.getElementById('am-frame').src = el.href;
+  m.removeAttribute('hidden');
+  return false; // cancel new-tab navigation (ctrl/middle-click still opens a tab)
+}
+function closeArticle() {
+  var m = document.getElementById('article-modal');
+  if (!m) return;
+  m.setAttribute('hidden', '');
+  document.getElementById('am-frame').src = 'about:blank';
+}
+window.openArticle = openArticle;
+window.closeArticle = closeArticle;
+document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeArticle(); });
 
 // ── Render markers ────────────────────────────────────────────────────────────
 function renderMarkers(filtered) {

@@ -9,6 +9,9 @@
   <meta name="description" content="WildLens maps India's wildlife and environment news — tiger, elephant, leopard and rhino sightings, poaching, conservation and forest stories — as live pins on an interactive map. Free, updated every 6 hours, no sign-up." />
   <link rel="canonical" href="https://wildlens.in/" />
   <meta name="robots" content="index, follow" />
+  <meta name="author" content="Nikunj Jambu" />
+  <meta property="article:author" content="https://www.linkedin.com/in/nikunj-jambu-48271666/" />
+  <meta property="article:published_time" content="2026-06-16" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
@@ -36,6 +39,13 @@
     "url": "https://wildlens.in/",
     "description": "Interactive map of India's wildlife and environment news, aggregated from national and regional-language press and updated every 6 hours.",
     "inLanguage": "en-IN",
+    "datePublished": "2026-06-16",
+    "author": {
+      "@type": "Person",
+      "name": "Nikunj Jambu",
+      "url": "https://www.linkedin.com/in/nikunj-jambu-48271666/",
+      "sameAs": ["https://www.linkedin.com/in/nikunj-jambu-48271666/"]
+    },
     "publisher": {
       "@type": "Organization",
       "name": "WildLens",
@@ -255,7 +265,35 @@
       </div>
       <p>WildLens is an automated system that fetches wildlife and environment news from across India every 6 hours. No automated pipeline is perfect — articles may occasionally be missed or unrelated ones may slip through.</p>
       <p>Spotted a missed article or a false positive? Want to get in touch for anything else? Write to us at <a href="mailto:nikunj@wildlens.in">nikunj@wildlens.in</a></p>
+      <p id="about-credit">Built by <a href="https://www.linkedin.com/in/nikunj-jambu-48271666/" target="_blank" rel="noopener">Nikunj Jambu</a></p>
     </div>
+  </div>
+
+  <!-- ── Article reader modal ──────────────────────────────────────────── -->
+  <div id="article-modal" hidden role="dialog" aria-modal="true" aria-label="Article reader" onclick="if(event.target===this)closeArticle()">
+    <div class="am-box">
+      <div class="am-head">
+        <span class="am-src" id="am-src"></span>
+        <span class="am-actions">
+          <a class="am-open" id="am-open" href="#" target="_blank" rel="noopener noreferrer">Open in new tab ↗</a>
+          <button class="am-close" aria-label="Close" onclick="closeArticle()">✕</button>
+        </span>
+      </div>
+      <div class="am-hint">Some publishers block in-page viewing. If the article stays blank, use “Open in new tab”.</div>
+      <iframe class="am-frame" id="am-frame" title="Article" referrerpolicy="no-referrer" loading="lazy"></iframe>
+    </div>
+    <style>
+      #article-modal{position:fixed;inset:0;z-index:5000;background:rgba(0,0,0,.6);display:flex;align-items:center;justify-content:center;padding:16px}
+      #article-modal[hidden]{display:none}
+      #article-modal .am-box{width:min(920px,96vw);height:min(88vh,900px);background:#0d1410;border:1px solid #2f6b3f;border-radius:12px;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+      #article-modal .am-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 14px;background:#0d2413;border-bottom:1px solid #22402c}
+      #article-modal .am-src{color:#cfe8d6;font-size:13px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+      #article-modal .am-actions{display:flex;align-items:center;gap:12px;flex:0 0 auto}
+      #article-modal .am-open{color:#4ade80;font-size:13px;font-weight:600;text-decoration:none;white-space:nowrap}
+      #article-modal .am-close{cursor:pointer;background:transparent;border:0;color:#cfe8d6;font-size:17px;line-height:1;padding:2px 6px}
+      #article-modal .am-hint{padding:6px 14px;font-size:11.5px;color:#8aa895;background:#0b120d;border-bottom:1px solid #16241a}
+      #article-modal .am-frame{flex:1 1 auto;width:100%;border:0;background:#fff}
+    </style>
   </div>
 
   <!-- ── Map ────────────────────────────────────────────────────────────── -->
@@ -299,7 +337,7 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/driver.js@1.3.1/dist/driver.js.iife.js"></script>
-  <script src="map.js?v=28"></script>
+  <script src="map.js?v=29"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
