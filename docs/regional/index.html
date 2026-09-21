@@ -275,33 +275,6 @@
     </div>
   </div>
 
-  <!-- ── Article reader modal ──────────────────────────────────────────── -->
-  <div id="article-modal" hidden role="dialog" aria-modal="true" aria-label="Article reader" onclick="if(event.target===this)closeArticle()">
-    <div class="am-box">
-      <div class="am-head">
-        <span class="am-src" id="am-src"></span>
-        <span class="am-actions">
-          <a class="am-open" id="am-open" href="#" target="_blank" rel="noopener noreferrer">Open in new tab ↗</a>
-          <button class="am-close" aria-label="Close" onclick="closeArticle()">✕</button>
-        </span>
-      </div>
-      <div class="am-hint">Some publishers block in-page viewing. If the article stays blank, use “Open in new tab”.</div>
-      <iframe class="am-frame" id="am-frame" title="Article" referrerpolicy="no-referrer" loading="lazy"></iframe>
-    </div>
-    <style>
-      #article-modal{position:fixed;inset:0;z-index:5000;background:rgba(0,0,0,.6);display:flex;align-items:center;justify-content:center;padding:16px}
-      #article-modal[hidden]{display:none}
-      #article-modal .am-box{width:min(920px,96vw);height:min(88vh,900px);background:#0d1410;border:1px solid #2f6b3f;border-radius:12px;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.5)}
-      #article-modal .am-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 14px;background:#0d2413;border-bottom:1px solid #22402c}
-      #article-modal .am-src{color:#cfe8d6;font-size:13px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-      #article-modal .am-actions{display:flex;align-items:center;gap:12px;flex:0 0 auto}
-      #article-modal .am-open{color:#4ade80;font-size:13px;font-weight:600;text-decoration:none;white-space:nowrap}
-      #article-modal .am-close{cursor:pointer;background:transparent;border:0;color:#cfe8d6;font-size:17px;line-height:1;padding:2px 6px}
-      #article-modal .am-hint{padding:6px 14px;font-size:11.5px;color:#8aa895;background:#0b120d;border-bottom:1px solid #16241a}
-      #article-modal .am-frame{flex:1 1 auto;width:100%;border:0;background:#fff}
-    </style>
-  </div>
-
   <!-- ── Map ────────────────────────────────────────────────────────────── -->
   <main id="map" aria-label="WildLens Regional — Interactive wildlife news map of India"></main>
 
@@ -311,7 +284,7 @@
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "fc8014c3082f4cf7890be87bbedf0317"}'></script>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-  <script src="map.js?v=8"></script>
+  <script src="map.js?v=9"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
