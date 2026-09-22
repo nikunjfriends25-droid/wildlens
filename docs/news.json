@@ -1,5 +1,68 @@
 [
   {
+    "headline": "Community-based mangrove monitoring should compliment satellite data [Commentary]",
+    "url": "https://india.mongabay.com/2026/09/community-based-mangrove-monitoring-should-compliment-satellite-data-commentary/",
+    "source": "Mongabay India",
+    "published": "2026-09-22",
+    "place_name": "Cuddalore",
+    "lat": 11.748,
+    "lon": 79.7714
+  },
+  {
+    "headline": "Survey discovers six new species from Periyar Tiger Reserve in Keralam",
+    "url": "https://www.thehindu.com/sci-tech/energy-and-environment/survey-discovers-six-new-species-from-periyar-tiger-reserve-in-keralam/article71491878.ece",
+    "source": "The Hindu",
+    "published": "2026-09-22",
+    "place_name": "Periyar Tiger Reserve",
+    "lat": 9.4667,
+    "lon": 77.15
+  },
+  {
+    "headline": "Where Kolkata’s hilsa comes from and why its waters may shape its taste",
+    "url": "https://www.thehindu.com/life-and-style/where-kolkatas-hilsa-comes-from-and-why-its-waters-may-shape-its-taste/article71422675.ece",
+    "source": "The Hindu",
+    "published": "2026-09-22",
+    "place_name": "Kolkata",
+    "lat": 22.5726,
+    "lon": 88.3639
+  },
+  {
+    "headline": "91-year-old woman dies after monkey attack outside home in Karnataka's Koppal",
+    "url": "https://www.hindustantimes.com/india-news/koppal-monkey-attack-91-year-old-woman-najamunisa-begum-bt-patil-nagar-monkey-attacks-karnataka-101790069629111.html",
+    "source": "Hindustan Times",
+    "published": "2026-09-22",
+    "place_name": "Karnataka",
+    "lat": 15.3173,
+    "lon": 75.7139
+  },
+  {
+    "headline": "Taj Opens Luxury Resort Near Tadoba Tiger Reserve With 35 Villas; One-Night Stay Starts At ₹10,000",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdllSamtzdThiYlJ2YnNKZVFLOWI5bV9jVlJKN1VsMHJLUlBqWTh0UFoyUHI1OXROdEZRdUZONlRSVTJGTGhCSkd6TTJPNDZaZlNfODN2Qjh6WEhqOV9ZWUFUMGc5NkIzVTV5LVhXQ2VLR0pnTkZZUUNTMWVaMHFOMnhzREJqM0dYMUdBemtRYjU5RnVEWkpMeEJ4cUJKOThIcFFaV2FnZmg5SjRWWFZDdlQyWC03VW5OVGRHc3NoaFLSAcYBQVVfeXFMT3l4c2Roc3d5eWJ6NHJ2bWJrZjdzX2tqT3d2SzNjd0RIMzRuX0FIX2g0Xy1WRGphNkZxSGE4NndrTlc2U2VBTHU5OWIxOTVmeWFCRUdxS3Z0SG5oaG5SVXVrWDh1NEtlSWtlbXlSNGNXTlFVajBRTi1KR2stU2VRQkpmck9seTNXRmxSOVJWaHdvSEFxeHVnVEtiYjhpdHIzLUxQR25oVEhoc29iV0FnUlRROTloZVZCcVRub0xmVTZFUDJNeThn?oc=5",
+    "source": "curlytales.com",
+    "published": "2026-09-22",
+    "place_name": "Tadoba",
+    "lat": 20.2333,
+    "lon": 79.3833
+  },
+  {
+    "headline": "Rare female caracal radio-collared released into wild in Rajasthan's Jaisalmer",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZzdDQm5qWlpwd2J5SW56SXhGWlVDWmlLZDhHZkt4Z1dNUU1EVGNGZ1lBMmtEdFcxN25fcTVpdHhqMmR0eGk1WDJGeVRwT0FvZDFmVWd1RERGSXpZckJYc2R3WWZYLUpOTWFIMjQ5dXFaQTY2RzA2V1Jydm9YejlYY0luYm1zRGFaLTJCc1pJcm0wUHJHZXh4ZWxybVFBSjd1ZURJaTE0ZTNuZE5zbW03WU5ySEk4N1o2R1J1TENiMV96ZnpvOFZQeTIwcWZKSkVTdF9ldkRBYjgtQXVtbFRDZXRfZVU0QdIB6wFBVV95cUxNV09nZjdpQ09EX2dfVVRaLUZGTnBscXJSVFk2ZjhBMFpEUzVweTVZR203bUpnRUdPSTVQTzcta1RQampRNjU1QjhHaU9HSWI4Sjlra1FXM2xxcjN0YjcxcEpES015OTJjeTZBT045SnZPOENqQlg2aHhQV29ZdU1USURmeU4tOGY5bXJCVE15c2otMFNiSTBGZFBrM01BaDBXNzJDUUZVbWs0dkdPYUM3dGlLajNwa1VGWVZNRFdRZ3NhSWFNN3k1by1BbFphWFBkOEJXbjhnTVdHcGo4dHRtY0VSc292NllUY3Fn?oc=5",
+    "source": "timesofindia.indiatimes.com",
+    "published": "2026-09-22",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "Assam hosts 80 pc of world’s rhinos, zero poaching: Himanta Sarma",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR1pUM21QOFF4WldROHhiVEJpVG02X2Q1M2l2N1JucW9JQ20xb2VPUE1Zbi1fWjBHSDBxZXlTVzRUU3ItbmpHT0EyRFkwaUR5UzJSY2JqSVY1bEkwUXkySi1ZT3AwS0hJYTRhdHBOcnNONFBoSmJid3A5RUFRNnFSNTVrR3d6SmIyd0ZhLWg3M0lYOUU?oc=5",
+    "source": "Telangana Today",
+    "published": "2026-09-22",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
     "headline": "Sacred groves are better at growing future forests in the Western Ghats",
     "url": "https://india.mongabay.com/2026/09/sacred-groves-are-better-at-growing-future-forests-in-the-western-ghats/",
     "source": "Mongabay India",
@@ -24856,6 +24919,15 @@
     "place_name": "Sundarbans",
     "lat": 21.9497,
     "lon": 88.8806
+  },
+  {
+    "headline": "One day mega wildlife awareness campaign held in Tamenglong : 16th nov14",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44c1ZLVWdpb2QzZGZFQXNvX0hKUDhaM0JZQ014clVlZHhtYi1MV0l1R3ExWEF0RXNIdHpUdmpBSno3MkdDMDhpVkVlX3VoRjJnamR2OEZVTVVROFMyVk40?oc=5",
+    "source": "e-pao.net",
+    "published": "2014-11-15",
+    "place_name": "Tamenglong",
+    "lat": 24.9791,
+    "lon": 93.5065
   },
   {
     "headline": "This Uttarakhand woman got the better of leopard that attacked her - hillpost.in",
