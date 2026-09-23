@@ -54,6 +54,51 @@
     "lon": 74.2179
   },
   {
+    "headline": "Guwahati school students document 1,517 species in biodiversity survey",
+    "url": "https://www.thehindu.com/news/national/assam/guwahati-school-students-document-1517-species-in-biodiversity-survey/article71499424.ece",
+    "source": "The Hindu",
+    "published": "2026-09-23",
+    "place_name": "Guwahati",
+    "lat": 26.1445,
+    "lon": 91.7362
+  },
+  {
+    "headline": "Three people killed in as many conflicts with elephants in Assam",
+    "url": "https://www.thehindu.com/news/national/assam/three-people-killed-in-as-many-conflicts-with-elephants-in-assam/article71499260.ece",
+    "source": "The Hindu",
+    "published": "2026-09-23",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Telangana AI ecosystem will drive global products, IP and businesses, says Sanjay Jaju",
+    "url": "https://www.thehindu.com/news/national/telangana/telangana-ai-ecosystem-will-drive-global-products-ip-and-businesses-says-sanjay-jaju/article71500569.ece",
+    "source": "The Hindu",
+    "published": "2026-09-23",
+    "place_name": "Telangana",
+    "lat": 18.1124,
+    "lon": 79.0193
+  },
+  {
+    "headline": "Kuno Later, India Plans To Expand Project Cheetah To In Madhya Pradesh, Rajasthan And Gujarat",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUFVGekhkaWVhUVdpT0w3aWNXazBfTkxqUURhRENCZThQanlFNi1KbFhMTmNvVU9BM3J3QjdDZFVzZV9MVm1XMUVNNEg1c2lPX09ha2t1ZHlJOHNrdUxLTF9vbWxsTGNDa2EzeW1TbG5memtHczZJU3hEZXBVN3o5VUU5dV82U0JBb3I4bUpHT1FXWlFUT3dhbm9ObFJWeDNVc05aMnJraUhTcHk0VFY4UzVtQVdKelRORzBKNHhhR0c3NTlnTHo4TUYyd0ZIQ0dyRVlCNnZ3RndjQdIB3wFBVV95cUxQODNXdUF4cGhqVzhsUUdnaHdpdVZIN0VzZnZ1Y2NDbjJSTnFyQkZKM2Y5ekExMkpzX0FXRTBCUTFZOFNuandjOGtGZGxKdmdDU20xNHFXbDktYmg5RkZxTGI3cGptUTFFN1pTUGFuNjNvTmNZMFlVVmc3bUhmOEhia0JqUHJEYjVQd19OZDEyaExNWHRPVHJtamhWanBnbFNJdjFCNHc5ZW1CWlBrVUVoYk91Q2d3RVBMVTB3cUU5T3JCaWtVS3VsM243eGhVLVJoNHhkZEtFc0hTbFVyOG9Z?oc=5",
+    "source": "ETV Bharat",
+    "published": "2026-09-23",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
+  },
+  {
+    "headline": "Supreme Court seeks Rajasthan report on forest officer’s death during illegal mining crackdown",
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPUDNCeWwwVUlIZlhvQWx6bFBFaWdYc1RjNVJTRHBRbGt3VFcwSXljbExZd1l3N2EwcjFsN0V6aEJCWVFrVWFPM1JzY1Q5MW9seGVsT0Q5OTZGQTVORmFHcV82MHhwWGVrbUd1WU1lclhhbk9RUXhUUDdoeVl2aUxMNmMxS25VbmV0ZjhLWm9MSHBmcHRwZnBiNjhUOGtpZklLTV95LTZoWHdmX0NGT3BScTFfN21OOUIxOTMzdUVnYXdRWEVxTlBoUXk5SGdCMDZITXFscS11b1UtSGlaTTFKQm0wTzI5RUhmZ1Zv0gH4AUFVX3lxTE1CbGhoNm1Na2hHTFhBeXhiTGZyYV9lVDc4WDNGcjIwMlRBak93cGYxUkMzQTg0X25DaDNHNnA4TkozS1J1NUVnT3c0WHc4OUFPS1kyNFB6a19ySHdYSUNGbHkya3IxZmkxZnNpUld1ckJMa1JsWVpsRXlaUzlmdEFvQ1JHdWdidkFLczd0ZlhjS09wNGRWd2hrVVNGYlhSQ0hMcTJRc1JHTTBuTW1NMjZCakJNdTZoT2dibkJlc0w4WHdtaVNNUTJfR3pfc01nWHJiVzNUNC1DM0dGYnJ0Y3J2Wmg1c1AtSkhfN040ZGoyQ1c0cEo0ZlRH?oc=5",
+    "source": "newindianexpress.com",
+    "published": "2026-09-23",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
     "headline": "Community-based mangrove monitoring should compliment satellite data [Commentary]",
     "url": "https://india.mongabay.com/2026/09/community-based-mangrove-monitoring-should-compliment-satellite-data-commentary/",
     "source": "Mongabay India",
@@ -1100,6 +1145,15 @@
   {
     "headline": "Bengal bets on luxury eco-tourism to put Sundarbans on global map",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeW45c085VGlzY1R4ODFZZWFVSGVVaUROZjh0NUdHQ0lHQWhRdlV2ejZOVl83VlRkdkdUWjdpU3l2ZVp1MEM1R1E3YTdGTUI5MVhHcUlwQXQxZGEzak5XOTZLcUtuZHdoUk5jVjU0MzZCa0EwTG9POGo5bjBVNmtNTk5fMWJ6YjJNcFRCdjZ0elUzaU5PTEloc3lOSjNnRmJSSDd0WTB3MElsU194Qk5ieW1KYXFTT1Jn0gG-AUFVX3lxTE53Slc5UHJqbVE3NXAwcDJ6czVGZFoxbnVZVDhOdWhlTldKeTlFUW1nVUNKRndfWk9BQTJPWVB5dXdrQVZRYUpqaXFEdEJfQ1p0X2E5b00xQUZPejNYaW5nd2oyR1ZPejBhemVZN3FCX2xWNHBmWjZUNmd0RDVJT0JzSWMwemYxeGlRYlZIN2czT0IyRmdYRS0zSm9lNXlYM0NPLXZLS0ozUzFyNjctZXpvX1o5Wk0tLTFOeHpqS3c?oc=5",
+    "source": "theweek.in",
+    "published": "2026-09-14",
+    "place_name": "Sundarbans",
+    "lat": 21.9497,
+    "lon": 88.8806
+  },
+  {
+    "headline": "Bengal bets on luxury eco-tourism to put Sundarbans on global map",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeW45c085VGlzY1R4ODFZZWFVSGVVaUROZjh0NUdHQ0lHQWhRdlV2ejZOVl83VlRkdkdUWjdpU3l2ZVp1MEM1R1E3YTdGTUI5MVhHcUlwQXQxZGEzak5XOTZLcUtuZHdoUk5jVjU0MzZCa0EwTG9POGo5bjBVNmtNTk5fMWJ6YjJNcFRCdjZ0elUzaU5PTEloc3lOSjNnRmJSSDd0WTB3MElsU194Qk5ieW1KYXFTT1Jn?oc=5",
     "source": "theweek.in",
     "published": "2026-09-14",
     "place_name": "Sundarbans",
@@ -24613,6 +24667,15 @@
     "place_name": "Karnataka",
     "lat": 15.3173,
     "lon": 75.7139
+  },
+  {
+    "headline": "Is Bargarh forest new poaching hub of West Odisha?",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOS3A1NHZGVDJDSXNncmtwU2tLV2lGd0VXMUxDVlVrdHdLTUdMMDE0aklVNFllSjV1S2hMeEJINVVqVGhIZDhsc1FKUW9WRk91V1JKNUx2Q0xLeWdHbjVIYkdhdnZUdkhubnp1QWJSZGVjeTNTSUI4Q2tqbEdKRDlrUnVNcjFOQTh4V2NXajlMUms0bXpkVmg1MGk3TVBFVmpzbW5hRWxiOFVxVFBKck5BUGFRMjNPeU81S2RZNkdB0gHLAUFVX3lxTE1RNEJfcHlDUnhtNG5PTmNmVURwV1lpM01LYVpPcnAwblBGck1tT0Z0d0hMR2dnbENMWWlSR3haS213LU5WNnJLUlU3QjgxYU9RX3R5TnVwQ0JSYjN5ZDc1Z19iVGozaFBPaWp3c25YejdlSEhnSUR4el9sSnVadUU2ZEhlaEc5c0FubE5ZWUE0TUlzMkUyNm00NjBIbVNmbFExdFh2MmN3UGdsekt0MjhmY3N0Uzhvc2drN1NHMS1jUzk4cDdzUGN3Qktr?oc=5",
+    "source": "newindianexpress.com",
+    "published": "2017-07-13",
+    "place_name": "Bargarh",
+    "lat": 21.334,
+    "lon": 83.6169
   },
   {
     "headline": "Father and son arrested near Mumbai with star tortoises worth Rs20 lakh | Mumbai news",
