@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Tiruvannamalai Arunachaleswarar Temple receives eight-year-old elephant Hiralal from Assam",
+    "url": "https://www.thehindu.com/news/national/tamil-nadu/eight-year-old-elephant-hiralal-to-arrive-at-arunachaleswarar-temple-in-tiruvannamalai/article71504652.ece",
+    "source": "The Hindu",
+    "published": "2026-09-25",
+    "place_name": "Tiruvannamalai",
+    "lat": 12.2253,
+    "lon": 79.0747
+  },
+  {
     "headline": "Five orangutans found in Odisha forest face long road back home to Indonesia",
     "url": "https://india.mongabay.com/2026/09/five-orangutans-found-in-odisha-forest-face-long-road-back-home-to-indonesia/",
     "source": "Mongabay India",
@@ -61,6 +70,33 @@
     "place_name": "Arunachal Pradesh",
     "lat": 28.218,
     "lon": 94.7278
+  },
+  {
+    "headline": "Caught in kitchen garden net, rescued tiger cub returned to the wild in Assam",
+    "url": "https://www.thehindu.com/news/national/assam/caught-in-kitchen-garden-net-rescued-tiger-cub-returned-to-the-wild-in-assam/article71504362.ece",
+    "source": "The Hindu",
+    "published": "2026-09-24",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Gujarat: 290 fire personnel, 38 cranes deployed for Ganesh Visarjan in Ahmedabad",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR0ZHQkxoQkk3STZBMERadVE1WjBOZk14MEFTcUlRd1Z3NnhzS3lKa28wUDhTT1RfN0tmOVMtSml5X2xqWUZ6UnJrczlqTUlXR0hhU2FRU2w2Z0h3Ym5fcjc5R0dLbUh0YUgxenNRWnFteWFGRUlGWk5uNGxLMGljSTJKaFoycDA3MmR0MmlnRE1kSXRfYUZwaTVtQWFlN3Q2cEJxRm5TVjNhalVWdldUUjFB?oc=5",
+    "source": "FM Bharat",
+    "published": "2026-09-24",
+    "place_name": "Ahmedabad",
+    "lat": 23.0225,
+    "lon": 72.5714
+  },
+  {
+    "headline": "Leopard finds permanent address on Ahmedabad’s outskirts",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObW1pM3p5Y1kyVWJfWjJtanN1T25UVjdwQWo4RnFVMGZRM0hfMk9vR2liQ2llZ2VndGNTMkt1c1piZ1g4MUU0eFBCXzdFdjJQT1c1WUJvMkFDRGozTWJwY3p0am5YZHMyc1VKVTJRdldWMGM5M0QtTkRBVnR1WDNyNDNWeFItMEthRmdRY2hEeFNOei02b0NHQmhtNXRsSy1FbmZSZnl3cUx2QlVIUDNDQjZyUlpuamZkbDRwSUJmYkcySzlnZ2ZoTUxjQzPSAdIBQVVfeXFMTmx3YTdySEFLbFFWZGJ5NmR5RjlSNDlqLXdRZlpPcW5JVVN2ZHRVWHM5U25xU1Nib3MwclUyNW02SlZtcDM0dWVRb3JlNUFTbG1RMjhRanZ5VFplSld5VjZTaTJtZHNndi1nZFhDd2pVX3I5SEdHRE9tM2EyRUhwd2pNektLakZpXzc0UWZEV2hIYTVpd3ZFaEZaS3pDbWJyTVNvb3E2R2xuUnVyTW52bFJ1S2c4MWtxdVJEUGl6U0JMZjlhOU5WdGh5ejFmc2ZMMmdB?oc=5",
+    "source": "The Times of India",
+    "published": "2026-09-24",
+    "place_name": "Ahmedabad",
+    "lat": 23.0225,
+    "lon": 72.5714
   },
   {
     "headline": "World Rhino Day focus on India-Bhutan joint conservation",
@@ -19933,6 +19969,15 @@
     "place_name": "Sundarbans",
     "lat": 21.9497,
     "lon": 88.8806
+  },
+  {
+    "headline": "Kaziranga reopens to tourists, visitor spots tiger on season’s first jeep safari - The Assam Tribune",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOblREVkQ1Y0gtS2tVY3dVR3ctSXZLdS1nSTRMbW9kN0tFcFlWbERqNWI3bWdIWEVWNVhSd2thbXYwVFhTdnBzMWJ1aml3Q21zNmRRX2d0RHM0NEF5djM2bG9uQnIzejV2V3NhS0t2TTBDZlY1VFRBRlVlVldkSDlkaE9nUUhCOUctYVdfeVcwMi1UTVBtTXQ1emZ1dGZHRkxPTFJkZC1pVHdwWUdHN3V0N3gxRlJERzQ20gG-AUFVX3lxTE0yN3dLVGJ0OWFNckVWN084ZS1aUjZ6U2x2aVQ0b0p1ZVhJZVFmM2dPYnBWQUdBeEo5dWVBM3UxNmY5WkJVTFFma0l6S1A3Y010YU9SR3NXWkp6cEhRWHJYLTJpaVVyeERzSG1YNXBoOGtUY05QZWNlelJXVlNQNUFETXV5Sm5LdVBNSk9wVEduMEJoRWl1R0NsYnVnY2RqZUc5VzJ2ZjVNTGcyS3oxUjZSVkNuZGxCRk4xRVZxbUE?oc=5",
+    "source": "Assam Tribune",
+    "published": "2024-10-01",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
   },
   {
     "headline": "Andhra Pradesh, Karnataka sign MoU on forest preservation",
