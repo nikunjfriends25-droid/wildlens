@@ -1,5 +1,23 @@
 [
   {
+    "headline": "Five orangutans found in Odisha forest face long road back home to Indonesia",
+    "url": "https://india.mongabay.com/2026/09/five-orangutans-found-in-odisha-forest-face-long-road-back-home-to-indonesia/",
+    "source": "Mongabay India",
+    "published": "2026-09-24",
+    "place_name": "Odisha",
+    "lat": 20.9517,
+    "lon": 85.0985
+  },
+  {
+    "headline": "HOSPEX enters its sixth edition as Kerala’s healthcare ecosystem evolves",
+    "url": "https://timesofindia.indiatimes.com/india/hospex-enters-its-sixth-edition-as-keralas-healthcare-ecosystem-evolves/articleshow/134455422.cms",
+    "source": "Times of India",
+    "published": "2026-09-24",
+    "place_name": "Kerala",
+    "lat": 10.8505,
+    "lon": 76.2711
+  },
+  {
     "headline": "World Rhino Day focus on India-Bhutan joint conservation",
     "url": "https://www.thehindu.com/news/national/assam/world-rhino-day-focus-on-india-bhutan-joint-conservation/article71496029.ece",
     "source": "The Hindu",
@@ -124,6 +142,15 @@
     "place_name": "Kerala",
     "lat": 10.8505,
     "lon": 76.2711
+  },
+  {
+    "headline": "Supreme Court steps in after Rajasthan forest ranger mowed down by dumper truck",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ2k3TlVKZlNQM0Z0VzhacElkRXN3ZkVoOF9USkJmamFrWEs3REJJQUY4bGhNellIbnRsYUtwT1Zva2tYV18xQTB5T18zQTB3MndmSUVBdEg1M3g1WWZ4am1MRGZ2bXEyTF9rQ1k2S0VKVUE1UHE2VjhLTGUtX3lkSElILUFSblVQNjNyT2lHWW1KSmhyU1k5UmNERWs5NTTSAaYBQVVfeXFMTzZnWDhGT3pQRGVnVDlPbE03X0xjR1pWZmR5aEVJUFVSVVVXM2VxanZLcnhfSTU3NVBYMHRFelN6MHdfdHNGMm4yQlJVNjlZNmw3cXpSalFkVG1STUpiWkRhYjZFekRyNmJFQ0VGcXhuNTU4WGxHVnlBaE9CTEltamVaOTBsQVV5NzVkS2JVd3AyMkdpSld0NHYtOWYzc2FJOXU4T1hfUQ?oc=5",
+    "source": "The Indian Express",
+    "published": "2026-09-23",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
   },
   {
     "headline": "Community-based mangrove monitoring should compliment satellite data [Commentary]",
