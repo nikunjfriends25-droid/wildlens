@@ -45,6 +45,42 @@
     "lon": 74.2179
   },
   {
+    "headline": "Keralam researchers discover a new species of genus Begonia in Western Ghats",
+    "url": "https://www.thehindu.com/news/national/kerala/keralam-researchers-discover-a-new-species-of-genus-begonia-in-western-ghats/article71513107.ece",
+    "source": "The Hindu",
+    "published": "2026-09-27",
+    "place_name": "Western Ghats",
+    "lat": 13.0,
+    "lon": 75.5
+  },
+  {
+    "headline": "Four lion cubs die within a day of birth at Shivamogga Zoo",
+    "url": "https://www.thehindu.com/news/national/karnataka/four-lion-cubs-die-within-a-day-of-birth-at-shivamogga-zoo/article71516067.ece",
+    "source": "The Hindu",
+    "published": "2026-09-27",
+    "place_name": "Shivamogga",
+    "lat": 13.9299,
+    "lon": 75.5681
+  },
+  {
+    "headline": "71-yr-old Odisha woman swept by swollen river survives crocodile-infested waters",
+    "url": "https://www.hindustantimes.com/india-news/71yearold-woman-swept-22-km-by-swollen-river-survives-crocodile-infested-waters-101790522694795.html",
+    "source": "Hindustan Times",
+    "published": "2026-09-27",
+    "place_name": "Odisha",
+    "lat": 20.9517,
+    "lon": 85.0985
+  },
+  {
+    "headline": "Discovery of 3 Sistan sand boas in Rajasthan marks species’ first official record in India",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUzRqT0pNLVo2SGN6N3UxdXNwRkk0dkt2SktMWFMzajVhLTNPRGVNeWFuUjlzUl94aS05RjdsNUFjYW9LUG9aQUd2M05QUHFfNUVLZV91a3Y2NmF3ZUNzejI1WU5xSWJ4XzlqVlRhMHpXM0NoZEdkODFveFlyM080N2tsVk5tV1l5VEgzNGJhRzlnTXh0b0FDZHFFcDJ0VG1Qa2dwR21Tc3B3UkZ6OWUxQWpxTUVJM3hCakl4SFVfaW1IUdIBxwFBVV95cUxOT1AwSmp2ZmFFZ2tSSXpjcVRjWjdZSXdXN3VZc2pYaF9XMlQzeDRmT3hMVHhfT1N3VUM0Z2w0WTY3d2FWMjZNclVmbWZHVTRlX3pTTW1sV1dTek1KMXhjYXdZdWREZjl4U1BoLUNIZ3RiUDNDUDBFMTBzMVQtRUFCXzhURUFFcWVwZUNpVXJPZXhqcmM1MVVuUVlnODhJbElJOVh2ajM0cmZmVVV2X3lndVk5dWQzR0czVENubm5rSkdqdmQtWk5v?oc=5",
+    "source": "ThePrint",
+    "published": "2026-09-27",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
     "headline": "Vulture survey begins in Wayanad Wildlife Sanctuary",
     "url": "https://www.thehindu.com/news/national/kerala/vulture-survey-begins-in-wayanad-wildlife-sanctuary/article71512944.ece",
     "source": "The Hindu",
@@ -2131,6 +2167,15 @@
     "place_name": "Arunachal Pradesh",
     "lat": 28.218,
     "lon": 94.7278
+  },
+  {
+    "headline": "Sundarbans fisherman dies at SSKM after tiger attack, family donates his organs",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQ3M2SjF0cWlYY3BhSUliLUtTY203bU5CWWpiMFV0cFJUb0RJdGFYbnVNV3NNOFExZE9OcU5SeDJfbXF1MFNDNWQxNENrbEtpNFpkclZUTUdEaWhVZGxCZF9SM1dtMlR3SWh0RmZiZEU1SGxWcGt5U1JBdDZwUjV1OFFzZDFaeThHc1JfNzNZZDlJMlRyQWpoTmRmSVRHREhBY2ZQVFQ3SkwxM3hvc0J0WF9oem9JQzQxNXBhMzY0MnVoNVRUR3M5c0d1QzVaN19Xc3NnSkVxbHpMZnl0Zmk40gHkAUFVX3lxTE5PNExHUGJJbzN1WDRQaHUwYXdDZ09hWHA3UlY1c1dzWHFKY3ZScF9fUWxrc2ZFTDk5bDJKUko0RF9qLVRNM09qbVpBSVh3cVRIMGsyTXNNQzlFYmxMdEtiNFhuc3pMVzM2ZzdNMUlfTURaNTFTVTlxX1B3OTZ0MlZ6b21GYnhwWURHWVB2eEZ5bHlCMWJXSGxVRmNYaE5BVmNFRTgyRnB4QWUwWkdCY20wT0ZLZGVIYWVrUzhseDFKZFBtRmN5clRpTkYwUWtlWEh4bTY2emhHaEE3ZWpuakJrWEd5Uw?oc=5",
+    "source": "Telegraph India",
+    "published": "2026-09-09",
+    "place_name": "Sundarbans",
+    "lat": 21.9497,
+    "lon": 88.8806
   },
   {
     "headline": "The tiger reserve with abundant prey but no resident tigers",
@@ -17121,6 +17166,15 @@
     "headline": "SC-appointed panel asks Goa to notify tiger reserve in two phases | India News",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWGpEeFJrT2Z0NVBVMDNEQzFsdWIwbkt2aUVTcU5ydkZPSTdmdHNQa2pydHpVVXlmMzJkOTFBZERCNHllSXE0a2FVUmNzVVVLeHdacVlLRmx0YS1mMlI4N0VjMGVxNnRFMm43Vlh6RldkaVFqeUx5WDdhTkxtTG5QLTkxWElLcUZ2QzZYVEtPOUozLVdxRzg5MHZRdENnQ3A2NTlLWTZCRU4wcEUta1Q0dldfY2tfajZ5eDJWVXc4VV9VNUJtaGfSAcsBQVVfeXFMTU14VGpxWHBOdnppY0ZuZlJFN1dzYmVLUFZMTnV6UXZsVkxkbFdaTWxTSkpvMDBCWEpEYmdUS0w1VTdBZFd5bmt2QXJ1dFRpbXlWWVJmVXlrcmc5dFlDeUVqbFNJOEVTUXhpUkRrTFd2VHkwNmxLZFUtTUUzbmpLdXpYUGw5MkFHQWF1a0JsNlg4eHRjT2VPc05aSTJxR2xhSHpJcDBwMFlWZHRBbVhoZmhSQ0xhREp5dmQ5SDBrOXpNQlhOUWdxRDRneDQ?oc=5",
     "source": "Hindustan Times",
+    "published": "2025-11-25",
+    "place_name": "Goa",
+    "lat": 15.2993,
+    "lon": 74.124
+  },
+  {
+    "headline": "CEC Recommends Phased Notification of Goa Tiger Reserve, Netravali and Cotigao Lead First Phase",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaks5dERmN3lOOFNHRHozWFNqZUZPWVY3R2xXQTRkb3F1cDJMNlpIZnRud1R1c2pnQVRpMHpKN2hCYkVJNVNWaDNoV21CYnkzVy1IM1lsWUhsbDJUdFdybUllSzExa0M0bUZvc1ppdXJRbUNESGpLTU1GNFk0Y1ZKOUpuSjhVVWFSSXdWOE5DbmtEOGRpb3RYMmJVNkx6VzN2NDBxX2RPLUtmdzAzRlZIc1NEdzA5cVVhU1NpNDBOWWstdDBORkk5T3FJbVNaS1dkXy1fRg?oc=5",
+    "source": "Prudent Media Goa",
     "published": "2025-11-25",
     "place_name": "Goa",
     "lat": 15.2993,
