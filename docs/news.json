@@ -1,5 +1,41 @@
 [
   {
+    "headline": "Forest Minister Shibu Baby John to open conclave on human-wildlife conflict in Kozhikode",
+    "url": "https://www.thehindu.com/news/national/kerala/forest-minister-shibu-baby-john-to-open-conclave-on-human-wildlife-conflict-in-kozhikode/article71519535.ece",
+    "source": "The Hindu",
+    "published": "2026-09-28",
+    "place_name": "Kozhikode",
+    "lat": 11.2588,
+    "lon": 75.7804
+  },
+  {
+    "headline": "Karnataka Forest Minister orders removal of eucalyptus and acacia trees in research centres, forest in Bengaluru",
+    "url": "https://www.thehindu.com/news/national/karnataka/karnataka-forest-minister-orders-removal-of-eucalyptus-and-acacia-trees-in-research-centres-forests-in-bengaluru/article71520583.ece",
+    "source": "The Hindu",
+    "published": "2026-09-28",
+    "place_name": "Karnataka",
+    "lat": 15.3173,
+    "lon": 75.7139
+  },
+  {
+    "headline": "120-year-old Kyani cafe in Mumbai, Royal China under Maharashtra FDA's scanner; rat droppings, lizards found",
+    "url": "https://www.hindustantimes.com/india-news/irani-cafe-kyani-and-co-in-mumbai-licence-cancelled-maharashtra-fda-scanner-tukaram-mundhe-rat-droppings-lizards-found-101790609344402.html",
+    "source": "Hindustan Times",
+    "published": "2026-09-28",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
+    "headline": "BAGH shield from tiger attacks, SNU unveils protective gear for Sundarbans residents",
+    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaHpIRUM2ekctNHoybGJTZWctZVROdUstaVZFM0d3ZWQxUmZBeDVpZHA5NDV5WnpGS2h2LUtWQ3dNS2FWdjRyeVJ2ZVZ3NUZTc2lpUGVidHQ5Ymg2dXlXaWpOa24zMHdRNHJHWTlWQ2lxVUpIdUZlekJuMlFndHJhNkhSUDZ6NHl1UFlJR21PYW00bElka2RnaTV5U1JqUFhyaE8yalU1dFhMcUUwWXgtX2VPSUNjRVBUdllDNmM0ejVQRGZDUWhDcENNSU9manVCaXFDbTFHRHJHc2JSdjM0WVdtR2YyYnlCOGktdEozMlUxSVJPOEhkUFhn0gH_AUFVX3lxTE9GR1o4Q09SOGZOV0JsZzMzNkVIeEFiY1dSdU00djd3ZnZQWUZlSFRKbkRFMF9falRZNzl1R1R5UXNJTlliY2ZSS0F6U3cwV3poRW1VZDRDTTUzdGdDcGJTdHdZX3BNcE9QU19Tbkx0VGVvWmtPNHJLN2FHVzQ1ZC10VG04YkJDMm5BR1NCNGFUV3FDZkYwVVZ1N0pRSElYUkZxV2otR3F3cmYxcU11VXFrRUxHd2pNeWoxdEtib050LXZEaVd4cnZ6NzZSTWUtUUg3VGxTWkxVR2l5bkF2TFRKbVdGMVoydWpZV2xVQzJIRHhhRmxmcGtBMmViSHYxdw?oc=5",
+    "source": "Telegraph India",
+    "published": "2026-09-28",
+    "place_name": "Sundarbans",
+    "lat": 21.9497,
+    "lon": 88.8806
+  },
+  {
     "headline": "Tribals of Jawadhu Hills in Tiruvannamalai protest against delay in formation of new forest road",
     "url": "https://www.thehindu.com/news/national/tamil-nadu/tribals-of-jawadhu-hills-in-tiruvannamalai-protest-against-delay-in-formation-of-new-forest-road/article71512949.ece",
     "source": "The Hindu",
@@ -14272,6 +14308,15 @@
     "place_name": "Uttarakhand",
     "lat": 30.0668,
     "lon": 79.0193
+  },
+  {
+    "headline": "Four women killed in tiger attack in Maharashtra’s Chandrapur",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSzNtZEJKQUVuc0ZrWWlGMUNYcnVZc19NWkNtRVR3alhDZmh3bHg5RjhUVkFQRzdra0lRLVFoT3kzZjlxQ2U3UHZkUFFKV2k1M3hlT0dEM29SYTBMb2NLdVBLUFdJSE9XVGRfd2x6SVVyQTNuMDVHRXY0akVWU0RTc0NkS3hMbHVQNm1qd2V2RHprNi14bEJON2pIczRJTnFkaGRROTRmZFZleEh6aF9uaHh3?oc=5",
+    "source": "The Indian Express",
+    "published": "2026-05-22",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
   },
   {
     "headline": "Four women killed in tiger attack in Maharashtra’s Chandrapur district",
