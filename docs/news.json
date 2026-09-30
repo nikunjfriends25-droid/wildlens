@@ -1,5 +1,41 @@
 [
   {
+    "headline": "New toad species described in northeast mountain tops",
+    "url": "https://india.mongabay.com/short-article/2026/09/new-toad-species-described-in-northeastern-sky-islands/",
+    "source": "Mongabay India",
+    "published": "2026-09-30",
+    "place_name": "Northeast",
+    "lat": 25.2744,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Two Tirupati town planning officers suspended over crane accident that killed three",
+    "url": "https://www.thehindu.com/news/national/andhra-pradesh/two-tirupati-town-planning-officers-suspended-over-crane-accident-that-killed-three/article71527154.ece",
+    "source": "The Hindu",
+    "published": "2026-09-30",
+    "place_name": "Tirupati",
+    "lat": 13.6288,
+    "lon": 79.4192
+  },
+  {
+    "headline": "Watch: Massive fire destroys 8 houses, several cowsheds in J&amp;K's Kishtwar",
+    "url": "https://timesofindia.indiatimes.com/india/watch-massive-fire-destroys-8-houses-several-cowsheds-in-jks-kishtwar/articleshow/134582826.cms",
+    "source": "Times of India",
+    "published": "2026-09-30",
+    "place_name": "Kishtwar",
+    "lat": 33.3137,
+    "lon": 75.7706
+  },
+  {
+    "headline": "SRK, Ajay Devgn, Tiger Shroff responded, 2 of them sought hearing: Tukaram Mundhe on Vimal ad notice",
+    "url": "https://www.hindustantimes.com/india-news/shah-rukh-khan-ajay-devgn-tiger-shroff-responded-2-of-them-sought-hearing-tukaram-mundhe-on-vimal-ad-notice-101790737195825.html",
+    "source": "Hindustan Times",
+    "published": "2026-09-30",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
     "headline": "Pawan Kalyan orders watch on elephant herd in Chittoor, kumkis to drive it back; 10 aqua units get notices",
     "url": "https://www.thehindu.com/news/national/andhra-pradesh/pawan-kalyan-orders-watch-on-elephant-herd-in-chittoor-kumkis-to-drive-it-back-10-aqua-units-get-notices/article71520107.ece",
     "source": "The Hindu",
@@ -232,6 +268,15 @@
     "place_name": "Pulicat",
     "lat": 13.4,
     "lon": 80.3
+  },
+  {
+    "headline": "India’s river interlinks may carry invasive species farther",
+    "url": "https://www.thehindu.com/sci-tech/energy-and-environment/india-river-interlink-project-spread-invasive-species-ecologically-sensitive-basins/article71516506.ece",
+    "source": "The Hindu",
+    "published": "2026-09-27",
+    "place_name": "Mahanadi",
+    "lat": 20.45,
+    "lon": 84.0
   },
   {
     "headline": "Vulture survey begins in Wayanad Wildlife Sanctuary",
