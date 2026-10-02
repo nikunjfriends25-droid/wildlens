@@ -1,5 +1,68 @@
 [
   {
+    "headline": "Tigress released in Bengal’s Buxa Tiger Reserve; plans afoot for three more by end of year",
+    "url": "https://www.thehindu.com/news/national/west-bengal/tigress-released-in-bengals-buxa-tiger-reserve-plans-afoot-for-three-more-by-end-of-year/article71536359.ece",
+    "source": "The Hindu",
+    "published": "2026-10-02",
+    "place_name": "Buxa Tiger Reserve",
+    "lat": 26.75,
+    "lon": 89.65
+  },
+  {
+    "headline": "Wildlife photography exhibition to showcase Andhra Pradesh biodiversity in Vizag",
+    "url": "https://www.thehindu.com/news/cities/Visakhapatnam/wildlife-photography-exhibition-to-showcase-andhra-pradesh-biodiversity-in-vizag/article71531692.ece",
+    "source": "The Hindu",
+    "published": "2026-10-02",
+    "place_name": "Andhra Pradesh",
+    "lat": 15.9129,
+    "lon": 79.74
+  },
+  {
+    "headline": "DRI seizes four elephant tusks, ivory articles in Hyderabad’s Banjara Hills; three held",
+    "url": "https://www.thehindu.com/news/national/telangana/dri-seizes-four-elephant-tusks-ivory-articles-three-held/article71534095.ece",
+    "source": "The Hindu",
+    "published": "2026-10-02",
+    "place_name": "Hyderabad",
+    "lat": 17.385,
+    "lon": 78.4867
+  },
+  {
+    "headline": "Madras High Court dismisses case over transfer of five juvenile elephants from Assam to Tamil Nadu",
+    "url": "https://www.thehindu.com/news/national/tamil-nadu/madras-high-court-dismisses-case-over-transfer-of-five-juvenile-elephants-from-assam-to-tamil-nadu/article71533717.ece",
+    "source": "The Hindu",
+    "published": "2026-10-02",
+    "place_name": "Tamil Nadu",
+    "lat": 11.1271,
+    "lon": 78.6569
+  },
+  {
+    "headline": "Riding Elon Musk’s Falcon 9 to space, how a Made-in-Gujarat satellite will help India",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcWVqQ0VFWFVWQkFOZ2EtWjdYa295WG1saTFtYWpzcndvY3d5am05T0RkUjBrWl93cmtxZ052YUFsbTBBcFlhYW0wbFdwTmdVOGEtNXFRR1QtSGFwX3JmUW04SHFidWlFQkxfZjFKRzNnRktDR1pqOUhESXdITDZBZ1FFUE1xUGVraGx3c21Fb0tLc0xBRks0dEN6Zmx4YVRBMGtJTy04VHNGQndjNjFSMVRhc0HSAbsBQVVfeXFMTV9UZTZ4eUxjYWkyZENnSWczUW5lQ0d0SkM1UFdfQllMQ3dnNWlrWVlIRk11V0NZcmRzN3BINnA2NDNhTkpzOHFad3dnYUVjNDNZWkxZUWV4RWxtUkFIakdjUGZjeEdXWmZ2ZjllckhzMGNBZ251Z2gtRTdpREE1eDlRVkVka1FlMHpXaWpYX2VvUS1tVVFJV09oMGxPWG5IMXlmOEt1UE5oTVY4cTBDMHMzOW5kbWVOcEphUQ?oc=5",
+    "source": "indianexpress.com",
+    "published": "2026-10-02",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
+  },
+  {
+    "headline": "Tigress brought from Bihar for reintroduction in West Bengal’s Buxa Tiger Reserve",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSkNCVDJqZV9zTVdZU202Rjd2bGU2WVpqYTFEZ2Q4aGNmQ0lsRVFETkQ5bTBfTVg0RWlzVW1ZTEtsakZSZUVJSEdpZjhRb3RLeVROTFlxdUx2YVlIVDhtLUEwOWVzQ1Q3RHk2NjExemVMekQ1RjFLOTVZRnRVZmdGaG5OWElINmppcU5PMk1saThqMllELUMzeXhVZGlucG1ndGJldzRPN1NaY0Fva1R0d2hfNm52YkttZEdJeWh4U2xHcXlINldIUnNHV3UxZ9IB2wFBVV95cUxQT1RXNVdGQXluM2tUR0NJV2JqZHQzZzFiOWlKb2FqSDM2eXZHVThUckp0b0phUW54QWVuRmFRLWoyMGM3M095NUJRRF94T2pYTkpXRlZVdWo1MHhPYVlHaFZyZmZfN1pWTGQ2QkRmNWVlbVJHMFBRZHRtVDItOUFIV2U3SnhOdjN4aG5QZXpqdlEtQmctc2k0b002b3pwYXMteTkzNFAyUmJ4eTdKaFNjamM0OGEzZTdWUFhEbWRZWjFOV2pKX1N0MDVhN3FmdlFsWUEzOVdvblFLMTQ?oc=5",
+    "source": "Down To Earth",
+    "published": "2026-10-02",
+    "place_name": "Buxa Tiger Reserve",
+    "lat": 26.75,
+    "lon": 89.65
+  },
+  {
+    "headline": "Botanists discover new plant species in Arunachal Pradesh's Shi-Yomi",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNckdmQndpTm9FS2UzYTZNc2VYeG1KSEJKZDBBSVVaY2EtcXJRVE5CWVh1cE9HdjJnWHlqMWwzNktPSEdVc2k1RHp0SDNIMkFXWjdlMFAySTV3cWRJVE5XZTRmQ3Myajl3ZUFTdzNyamp1LUFQbU5XOUlZeVhCdmNiVXV2VmpwcDY1ZWpYZDRUYno4ZmtEd3dSZ29lQVJSMEZLbUVUVFltOWhiUHNaYXRoVDJtZ1h2U01VX2hCR3lfRk1JYXRrdlJweWlKRWhhcDlLcURRStIB2gFBVV95cUxOUUdEbHhWNHFMb003eno1X1B6eC00bmlvdndwZzBYaFE3UEoxMmFUVno5ck9oblZDaWZlZ2RMUVpVbHJRbXdKVXVLdXNlLXhTMEtZRlhZYi0tVXFORVJ1NXBvVDkxQ1BvdnM5TzBXaXdGaHItNkZSaFZRR2ZKV2JHdVB3RzRfUkNLVmo5S05tVHRyZDlJM0xVYi1COEVNR2Y5NkEtcjVBMGIwMm55OWNweWRvVlVlQkRFVm4tOV8xVTV5d3FPMzE4U1NGM3dfYjV5MkE5bHdyb0V3dw?oc=5",
+    "source": "Mid-Day",
+    "published": "2026-10-02",
+    "place_name": "Arunachal Pradesh",
+    "lat": 28.218,
+    "lon": 94.7278
+  },
+  {
     "headline": "Chita Andolan is back: Why are Madhya Pradesh's Panna villagers protesting against Ken-Betwa project",
     "url": "https://timesofindia.indiatimes.com/india/chita-andolan-is-back-why-are-madhya-pradeshs-panna-villagers-protesting-against-ken-betwa-project/articleshow/134611689.cms",
     "source": "Times of India",
