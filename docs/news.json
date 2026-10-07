@@ -1,5 +1,23 @@
 [
   {
+    "headline": "Two cheetahs released into tiger reserve, their third habitat in Madhya Pradesh",
+    "url": "https://www.thehindu.com/sci-tech/energy-and-environment/two-cheetahs-released-into-tiger-reserve-their-third-habitat-in-madhya-pradesh/article71556825.ece",
+    "source": "The Hindu",
+    "published": "2026-10-08",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
+  },
+  {
+    "headline": "India’s first high-altitude snow leopard safari flagged off in Ladakh",
+    "url": "https://timesofindia.indiatimes.com/india/indias-first-high-altitude-snow-leopard-safari-flagged-off-in-ladakh/articleshow/134774169.cms",
+    "source": "Times of India",
+    "published": "2026-10-08",
+    "place_name": "Ladakh",
+    "lat": 34.2268,
+    "lon": 77.5619
+  },
+  {
     "headline": "Forest Department destroys 125 illegal country-made guns in Tiruvannamalai",
     "url": "https://www.thehindu.com/news/national/tamil-nadu/forest-department-destroys-125-illegal-country-made-guns-in-tiruvannamalai/article71551290.ece",
     "source": "The Hindu",
@@ -43,6 +61,33 @@
     "place_name": "Rajasthan",
     "lat": 27.0238,
     "lon": 74.2179
+  },
+  {
+    "headline": "Centre tightens rules for elephant transfers amid Assam-Tamil Nadu elephant row",
+    "url": "https://nenow.in/environment/centre-tightens-rules-for-elephant-transfers-amid-assam-tamil-nadu-elephant-row.html",
+    "source": "Northeast Now",
+    "published": "2026-10-07",
+    "place_name": "Tamil Nadu",
+    "lat": 11.1271,
+    "lon": 78.6569
+  },
+  {
+    "headline": "‘Op Dolphin’s Nose’ in 2019 and now ‘Op Firewall’: How India is busting Pakistani spy rings",
+    "url": "https://www.hindustantimes.com/india-news/op-dolphin-s-nose-in-2019-and-now-op-firewall-how-india-is-busting-pakistani-spy-rings-101791379603652.html",
+    "source": "Hindustan Times",
+    "published": "2026-10-07",
+    "place_name": "Visakhapatnam",
+    "lat": 17.6868,
+    "lon": 83.2185
+  },
+  {
+    "headline": "National workshop on orchids of Arunachal Pradesh begins",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRVQ1MWJiSUdGTm42R2lCYmJwOVl4WXJ3bUlTZ3NRYXpyOGRDcW1HcGlCanRSeHNtRTR6Y19JV0xBaEJKRjhqeV95am54T0dFOEthZmtOa3pYYndGRXJkUFRNX29ZNk4wSDZFSVJETnN4NFVTdDRzTHBvN2tUYU5tYTI2NTBiNHVpRng1T2xKbklwVEZicTZvOTZn?oc=5",
+    "source": "The Arunachal Times",
+    "published": "2026-10-07",
+    "place_name": "Arunachal Pradesh",
+    "lat": 28.218,
+    "lon": 94.7278
   },
   {
     "headline": "Two captive-bred Great Indian Bustards released into wild in Rajasthan under conservation efforts",
@@ -673,6 +718,15 @@
     "place_name": "Rajasthan",
     "lat": 27.0238,
     "lon": 74.2179
+  },
+  {
+    "headline": "10-foot python slithers into girls' hostel bathroom in Madhya Pradesh, rescued",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNandyYnBOSHVjVDBYY1RTNzRyRDdOeG5Bc1hOVUt2d1RONnZYdGdKcW03OHVYWXEtWWlVb3E1OU5xUkozQWlwUlRRczBTMm1fR2lzREI5ajhiV2NFZU5xM0pwbGtFOVZkakExUnlEU2J2TlFXMDd2WGhPY3RtNnUxV2dFUUEzMm5WaHdIN0d6QU11b3ZoSExia1pKZU9jbFZSM3BJRmhXekJpcS04c3p4LWxKMVM2MGYydjFodTI1V1VCQlJKWTFFcTV5QWtoSE5EZGpqRTIyVzDSAd4BQVVfeXFMT3JaTmxwS29SeThHZ1pIVDhaWms1TTNyenJpN1MtUl93VG1fekhhUFppNDcwSmk0Z01ta0ZtSXZLQVJud0dHVm9uWGxVaEtvRFlVRWZXQUJyVU53SzlfWjJkdy1fMzVEbHpwelNZLVRQZUdBeXZ3ZzhkcFJKNzFGakNjVGo2U0c5aWJ6eXRhUnZ6QTlmbV9La1YycXF1XzhISi1vU2tUS004TzZYLTNmeGZ2RVFHS2JTbGVPcUFCRWhWTV9SSzFxOXFQbXNWSFhHSVpNYTRCWnhrMk9TY2pR?oc=5",
+    "source": "India Today",
+    "published": "2026-10-03",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
   },
   {
     "headline": "Tigress released in Bengal’s Buxa Tiger Reserve; plans afoot for three more by end of year",
