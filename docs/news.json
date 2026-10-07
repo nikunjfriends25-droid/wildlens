@@ -9,6 +9,42 @@
     "lon": 79.0747
   },
   {
+    "headline": "GPS study on elephant movements aims to mitigate conflicts in Assam",
+    "url": "https://www.thehindu.com/news/national/assam/gps-study-on-elephant-movements-aims-to-mitigate-conflicts-in-assam/article71551820.ece",
+    "source": "The Hindu",
+    "published": "2026-10-07",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Minister orders crackdown on illegal resorts and homestays in tiger reserves in Karnataka",
+    "url": "https://www.thehindu.com/news/national/karnataka/act-against-illegal-resorts-and-homestays-in-tiger-reserves-ramalinga-reddy/article71551839.ece",
+    "source": "The Hindu",
+    "published": "2026-10-07",
+    "place_name": "Karnataka",
+    "lat": 15.3173,
+    "lon": 75.7139
+  },
+  {
+    "headline": "Puri Jagannath airport gets final environmental clearance despite wildlife concerns",
+    "url": "https://www.hindustantimes.com/india-news/puri-jagannath-airport-gets-final-environmental-clearance-despite-wildlife-concerns-101791367359272.html",
+    "source": "Hindustan Times",
+    "published": "2026-10-07",
+    "place_name": "Puri",
+    "lat": 19.8133,
+    "lon": 85.8315
+  },
+  {
+    "headline": "127–key JW Marriott Ranthambore Resort & Spa opens in Rajasthan",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORXVtZnRhektzdkNnYzBreDBOS1ctRUNTRlM4WE5ySHlHaVE3dUFkajZpcHNjTXg3U2tjUlRxQ2VhRll2alNhNW5XalNUS1lrMDlpa21waXBXZjdxUEdQZjJUdXZOSWFaOHRycklwZmFYS1NtLS1DS1FyUnduY2xSX0ViYUx4MEJEWXZNRjNwanVJdw?oc=5",
+    "source": "Trav Talk",
+    "published": "2026-10-07",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
     "headline": "Two captive-bred Great Indian Bustards released into wild in Rajasthan under conservation efforts",
     "url": "https://www.thehindu.com/sci-tech/energy-and-environment/two-captive-bred-great-indian-bustards-released-into-wild-in-rajasthan-under-conservation-efforts/article71544023.ece",
     "source": "The Hindu",
@@ -745,6 +781,15 @@
     "place_name": "Buxa",
     "lat": 26.75,
     "lon": 89.6
+  },
+  {
+    "headline": "Botanists discover new plant species in Arunachal Pradesh's Shi-Yomi; know more about it",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOREFFdVpQaDM1NUk4MXE5Nk5CdFNvaGg2eHowUl9uZ09XNVQ2RF8xZGR4NjRGV04zbEdFcndaMjNES0g2Ml9aWWhWRHdpaTJkaXQxWHFwYjJlZkM3SXMxRGJZblE1dlZRekNsTG95QVVNcjJCNko0YzZ5LTBycWd4YmhBVFVFUUpselhOOWlLUUloSGZ3dVVtR0Z0VkJlZ1AxWmVmU0cwaUUwR0s0NllKNlhHUzBOMy1Xbm5TZVBPdFN5MFBUeFRoQTBWSlZ5V0E?oc=5",
+    "source": "Mid-Day",
+    "published": "2026-10-02",
+    "place_name": "Arunachal Pradesh",
+    "lat": 28.218,
+    "lon": 94.7278
   },
   {
     "headline": "Chita Andolan is back: Why are Madhya Pradesh's Panna villagers protesting against Ken-Betwa project",
@@ -3418,6 +3463,15 @@
     "place_name": "Karnataka",
     "lat": 15.3173,
     "lon": 75.7139
+  },
+  {
+    "headline": "Rare sighting: Two adult male elephants reunite in Gadchiroli after years apart",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPaTRZWE5GdVQ0emxpSWRSVTRvQUVUVHBDeFBIQ01DZktFYWpkbGVXNFBJN0VzdFBLbjY5Um1WUnYtX29lMXEtVjR5cWw0dThZZU82a0kydkRDRFFBcFJvbTMtWHg1WWRISHJ2NV9oU1laSm5vaFBEQVpuemJjWHR1S2FTN3NQN1JrV3RaZVFDYy1xWXl4NG5DUjNPUXhHeFpUWS1zdUhEQ0hkRU9yRXEtTUtTenptSzNNd1BUdnhudjJmQmtwdHhVWnMxY21vdW1FNWJQWnZsaUI3MXMtaDkxUQ?oc=5",
+    "source": "Mid-Day",
+    "published": "2026-09-08",
+    "place_name": "Gadchiroli",
+    "lat": 20.1809,
+    "lon": 80.0059
   },
   {
     "headline": "Sloth bear trapped in oil palm fence rescued in Andhra’s Kakinada district, sent to Visakhapatnam zoo",
@@ -24415,6 +24469,15 @@
     "place_name": "Pune",
     "lat": 18.5204,
     "lon": 73.8567
+  },
+  {
+    "headline": "New cicada species in Nagaland underscores need for conservation",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRTh1TFRLWlB0cWx3UlM1aFV5ekxvaWlsY1dBRl9NRWhoUV9hcWxOR2ZaNmhWM1VRa01ZdUJaU2FHTk5JQlhGbkd2RHAzeXFjSWdNcWpGeXUzS19MaDJxMV9udUlrYklwaElxRHRaSDlDdmN4dXFuZk5ySjYtdU1GZ2V2UWNYQm1WTERlTUlrTnN1NjM0YnFkZDhaZ0t2a3lPcmFUZVAzVXNRYVpwLS1YQlFodVNqUVplY3lRdmtNQWzSAc4BQVVfeXFMUFo3T1pUSW9rUkdhaGZtWDZDUEpHeFRpSm5FWGJsT1dOS05xYS11MEQxb0c1czhkZ3NfSVRkR3FlWWp2RV9tUkdHbzBGXzRiSWYtZmE3MlgtTFFmenZrVGtoNmZHN3d2QUJQX2dDTFE1OWFndWVYb3BkSl9hLWVNMWNTc1VneGhWSnZTQTktb19lNTNMTjFMQ1p3V3ZxZmdrbzdJZW9pcVpBYkppenZhYmgtWDBSUkl5WGdCVEF2cEhoN2ZpQnRPcnJMclp2TGc?oc=5",
+    "source": "Down To Earth",
+    "published": "2021-10-12",
+    "place_name": "Nagaland",
+    "lat": 26.1584,
+    "lon": 94.5624
   },
   {
     "headline": "Watch: Baby Elephant Reunited With Mother After Rescue In Tamil Nadu's Mudumalai National Park",
