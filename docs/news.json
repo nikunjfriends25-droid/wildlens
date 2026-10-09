@@ -1,5 +1,32 @@
 [
   {
+    "headline": "Environment protection versus strategic infrastructure: SC seeks Punjab plan on afforestation",
+    "url": "https://timesofindia.indiatimes.com/india/environment-protection-versus-strategic-infrastructure-sc-seeks-punjab-plan-on-afforestation/articleshow/134804670.cms",
+    "source": "Times of India",
+    "published": "2026-10-09",
+    "place_name": "Punjab",
+    "lat": 31.1471,
+    "lon": 75.3412
+  },
+  {
+    "headline": "Karnataka’s tiger count nears 700, up from 563",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX08xdTJlZGlJZm1Oa2tHVlFVMno5WWFFdHFwRTUza3lEbkk4MHR5eExZb004eUhLWHpPcEFpTTJja3k0OTBJc19hS0pITF9KTlpwOTZIQzc4X3dSOHp5YUxiUDZIODg4cUY0NXpwRlZsM1JrOXZmTG0tTlA5Wm5maW80b2YyTEZ0TnJoX3hGTnJSaFBfVVhqVzhPd05Kem9uNTBFZTZPYk91UdIBtwFBVV95cUxObUExTXZkNGhkRWVJMW54akFxYkl3VG1sWWVza2xuWkdmb3FhYzQ0NXVmY0pqcnNmNEg4cXViYmFicWVURjU1VUI5eDI0OGlMMURWTEZTZ09NdGduUmM0SVFha1dWZXktMGtFbzk3LXlHN3F5VlBjVngxX1ZQc1pLcWZGY1VESmpZa3Q3V2hub1RaWVQyM1hPbUc4MFZfSzFDUzc4YWhobUlFWHVYZ19jaXdlbGE2ckk?oc=5",
+    "source": "The New Indian Express",
+    "published": "2026-10-09",
+    "place_name": "Karnataka",
+    "lat": 15.3173,
+    "lon": 75.7139
+  },
+  {
+    "headline": "A first: Two shrike species spotted at Pong lake in Himachal | Hindustan Times",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUFlkNy1xZV9QY1ZUaG1KNmJpcXc1U09MSW9SOVpkRkFhUDRWRWJlY1ZMTnRMQWhOQzNqNmZoOVU4c2pkLVJwVXp4U2cyWjU2NGNocHkwVnpFdDdBc1k2Q2FrY0VFY2lvMkdFOVBBc1o5U1I5b2JvRFljd1FjaDhETjlaRVhtcktLN01EU0RQWVdhYkdwbWEyc0dtekV6RExtMHkyN3N2a29SQ1IzRHpEUTFjUU5UcVlCNVU0LV9KRTYxWlhDaFpub0IzNXZ6aEHSAdQBQVVfeXFMT2lhWmJLVW53WVB3Qi01ckxKU3RBT0JHalRBSkY1MldEeFMzZ0I5bzdCUlZsWnQxMHk3cUtRRnNMMTJhMVdabXptQ21BcU9UTUlVeTNueXVsRTYxZnF3MV9VT2hqNGM5Z0pJaDdSNUh6d1ZoV21HaERpaWhuVGtRZWxiUDZuVTJsQUZtRWN1TW0wQTl1SEQwbnZMVzg2V3RGbXp1QVllYUdMUEJGaEsyUGpIOFNlcUtCSHZDckNsQWIweFc1V0I0OVB6Y0RlR1Vkc0RuQ3I?oc=5",
+    "source": "Hindustan Times",
+    "published": "2026-10-09",
+    "place_name": "Himachal",
+    "lat": 31.1048,
+    "lon": 77.1734
+  },
+  {
     "headline": "Two cheetahs released into tiger reserve, their third habitat in Madhya Pradesh",
     "url": "https://www.thehindu.com/sci-tech/energy-and-environment/two-cheetahs-released-into-tiger-reserve-their-third-habitat-in-madhya-pradesh/article71556825.ece",
     "source": "The Hindu",
@@ -151,6 +178,15 @@
     "place_name": "Rajasthan",
     "lat": 27.0238,
     "lon": 74.2179
+  },
+  {
+    "headline": "CIPMC team checks Giant African snail spread in Malappuram’s Nannammukku",
+    "url": "https://www.thehindu.com/news/national/kerala/cipmc-team-checks-giant-african-snail-spread-in-malappurams-nannammukku/article71559770.ece",
+    "source": "The Hindu",
+    "published": "2026-10-08",
+    "place_name": "Malappuram",
+    "lat": 11.051,
+    "lon": 76.0711
   },
   {
     "headline": "Forest Department destroys 125 illegal country-made guns in Tiruvannamalai",
@@ -6759,6 +6795,15 @@
     "lon": 85.0985
   },
   {
+    "headline": "Rare Himalayan bee recorded in India for first time in Arunachal Pradesh",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMG5xWERIQmVLVXpXWmhTbDhyUVlYaVlKWTNFNU1hUjYyWkd0M3ozSWE3TkJSLWZBMUVoLTNrVnFmR2JyWThmU2o4aHhjanlnbVg0UDZrM0V4TVNvRXo3eUwtNGdpRUhyQmxWeU1ZaVpCc2wwMzVkT09BTjlNc0ZvS29oWFpMaGtjVkoxVTV1a2hYUk51Z0VZeDlNeWczVW1vdXNFUmhObUFSSVBJNEVld0E4UFpHN240NmNldDRjQzhDVGExNGxNeFlndEhnbTVHYXlVV1dVRGZjVllIblhJ0gHmAUFVX3lxTE9HYllDMGE1bEFISjNKbU4zemRjSHJnX0lKd0ZVZ1AtV2VHcWZKQlZZUEhJZFh5el9vcTlKbVlhLUpwOVFHTlNqeE92RWR2WC1WOTdSVDc2WlRxbkh2Mks2bHI3cFUtOXNlamlsajRZaUNCeEl4QVA3VE1EZFhoWmIxYmdKQzlNMTBJb3hGNHVCcVM4Rm9kZlBoYmdsUVlBYjMtcGt6RENDSWw2TkRrbzBhYmZnTXhYWkpSRThLd2IxV0ZPX3hMT0NLX2pVTE93VEUwRk1GcVlwa1prRDhpMkNMZUh2UW53?oc=5",
+    "source": "BusinessLine",
+    "published": "2026-08-12",
+    "place_name": "Arunachal Pradesh",
+    "lat": 28.218,
+    "lon": 94.7278
+  },
+  {
     "headline": "Safari in snow leopard home? Conservationists say Ladakh is no Kaziranga",
     "url": "https://timesofindia.indiatimes.com/india/safari-in-snow-leopard-home-conservationists-say-ladakh-is-no-kaziranga/articleshow/133132292.cms",
     "source": "Times of India",
@@ -7032,6 +7077,15 @@
     "headline": "Dhanya Venkatesh joins Jungle Camps India as lodge manager, based at Tadoba Jungle Camp",
     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMy1OY0FyVHNOUGd5ZjdEODB4WHpZYzh3a0h1VEVUMTZCZlA3LXNrRUpwcjcwTWJDbGFHNmFzaTZ6WmJXRks3bXVZZ2RFZHM5UjRsSWNjZThTdGo0QnNmT0FWa29VeWlqZDlFd0R6V2JjNEYzSVJTZXFfRXMwUFRQVWxHUzk4YmZycWoyYkZVZEtZSW9pSVRrYUhRUWM2T2RNVWU4YlNGbXNBWlVYUktBMF9BVjFFckFLTXI2Z2cwa3ZhR012YXlWQXViWXhQQlhRQTQ1cW5kNjZNdlJ5RDVFa2lXb0s5ZGtKU1VILWpn0gHzAUFVX3lxTE1qa2prY1lzallsUjdXYVR3UUJCYklkdXVVVFFXdXhVc05mekJvc05MMkN6SnphdWRtR3FBdE5ENDNVTnVQYzdMZ25Ganp1UU5mUzhPRTdUMXc5Tm1zTm5DVEVaekMtTTE4UnBnajgyVkRDVkVKQUVfRU16ZV92YzI1dkYxM0tjODZRR1Y4ZmNxUUVYbm5FOW5IWFBWUVVFazhQRlV4amFycG9KQWxvaWRSTkpROVJnTXNSS0tMbFdOVnp2d3owLU5UTmNJQzU0QklLbi1PeEhDTHpyQ0NlTUNLajBIXzVsVEV6M3NSWjdybm8wTQ?oc=5",
     "source": "ET Hospitality",
+    "published": "2026-08-10",
+    "place_name": "Tadoba",
+    "lat": 20.2333,
+    "lon": 79.3833
+  },
+  {
+    "headline": "Dhanya Venkatesh joins Jungle Camps India as lodge manager, based at Tadoba Jungle Camp",
+    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQMkVaNUdOYV9IMk10aGxOQ2ZNRlFqQWlmZHFLTGg5cHdIb2E2YzExakM1b1dOUnhJb1RIWkhENWZwamJNWjYxSG5IQmE2OTJSNDdJZkdSSHRObDduZEtCWHQ5Q0hQZVZtaDJKYlQ0dFlyaXFUV3Z3b1lMT2piSC1SZmpzSXBuNFRtZmVWaDJPRFp2eThRdlM1WTNMYXVGMU13U3ZBLWxJVzlhcFRzSmh4YWl1eU9WRDdkemJISW1lOU1kLXl0UDFoQndaa1V6XzhVS3lUM2txVk02STNPWkRidURDUjljeDJCVExZMtIB8gFBVV95cUxNYi1WNTByUHNrZE1rcUFuRU5LeFIyQVVBZUVFNHp0d3FqbVRQSDlJVFZieWNKREJwTVNvTC12V2o0YUVCVzhoRC05MGlqM1V3MjNfdTE2cHl2UlRNSmVxenktZ0oyWFV4U0w4Mng2WGh4ZUU0UFRPQ0xqNkw3QlZka185SzhtMm1fdjRDelFuQWd0aUdpZzJTNk5VR1cxRlcwNWdWTzFTbFpXUzlzaFhaemdLdWVwUTVXSlZXTl9uM0R3U1FvTTNWREdiTndZa1BPcjF5cFBpbDhtWWVRdndvSGowWXJsOUNCWVFEU1N1d1Nldw?oc=5",
+    "source": "ET HospitalityWorld",
     "published": "2026-08-10",
     "place_name": "Tadoba",
     "lat": 20.2333,
@@ -17206,6 +17260,15 @@
     "place_name": "Chennai",
     "lat": 13.0827,
     "lon": 80.2707
+  },
+  {
+    "headline": "I Went On My First-Ever Safari In Satpura, And The Forest Had Other Plans",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUmE3OHNWMlV4Vi1lQUZaX1NJdlh2MXpNZmRvNEtkcGc5aWNYX3hpSWRDNXE5VFJmbVM5R2NXdUdNNHY4cUIxTF9SZUMtblRxWF96VUZrSXRZNWxiZVBXVk5PZTJmR3o2dUcydmtaWjBBMTRSWG1CamoydDUzM0VENEp5azVsc0tlZnlVUTNQTFdEcjZtbDFEZXA3dVByYUlfdjV4X2V6alk5Y1hTRmfSAbYBQVVfeXFMT2lsREkyaVhHUWJKdkl4cmNfdTQzb1BoMXFqX2NDVEU3c1czWWhmZUVxeXNZMS1ZbHFZZVdMMlhkMWxEUGVKQzBsRWwyQzlrdkVuVEFwYVh2dEFNMFpkSFhFcDdqb1J1V3FWaVliZDg5Mi00ZGl2ZVJnOG0tSzZncWIzOUVqOUExbTVENUE0VldDUGJRX25tOVYwbld5d3A0Q2ZyVWJQX0VuMl84ZHFWRVN0MVNscmc?oc=5",
+    "source": "NDTV",
+    "published": "2026-02-09",
+    "place_name": "Satpura",
+    "lat": 22.5,
+    "lon": 78.0
   },
   {
     "headline": "Olive ridley turtle found dead on Kadambadi beach in Nagapattinam",
