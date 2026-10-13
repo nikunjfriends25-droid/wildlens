@@ -1,5 +1,14 @@
 [
   {
+    "headline": "WRD begins removal of invasive plants from irrigation tanks along Palar River in Vellore",
+    "url": "https://www.thehindu.com/news/national/tamil-nadu/wrd-begins-removal-of-invasive-plants-from-irrigation-tanks-along-palar-river-in-vellore/article71578999.ece",
+    "source": "The Hindu",
+    "published": "2026-10-14",
+    "place_name": "Vellore",
+    "lat": 12.9165,
+    "lon": 79.1325
+  },
+  {
     "headline": "Lessons from translocating a tiger for population recovery [Commentary]",
     "url": "https://india.mongabay.com/2026/10/lessons-from-translocating-a-tiger-for-population-recovery-commentary/",
     "source": "Mongabay India",
@@ -48,6 +57,42 @@
     "headline": "From 11% to 100%: How Himachal Pradesh saved the rare Cheer pheasant from dying out in the wild",
     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdUJ0YUdKZXpNcHZ6UmNWWktVSllJTS14OGFXcDFkd2FFMXJHSDBjTUVhaDVISU1EaEIzMnBiR0t2TGZ3VU44Y1lyV3paUUhZWWVDczZpNTRSRkJoR19manppaVIzZHNqWlVPOGlRMl9fdF8tWkpQRmk5UmJzU2hXTmFuX1N6aEs0UzRQdTNoWHpSX0dRdE5NX280NUQ0ZFZYNDQzTkM0MDJ5QmV0d1BGMnF2ZDFmZUhGVzlCMWFjZ3NGb3dRc2lEdlBqRkkxa1ZEVWF1ZHgxUVdzc0ZzeEphTEcxUllLeGlWYXfSAfABQVVfeXFMUHk4eUNxOEVod045TXlIWE9fZGRrcGpzN0ExS0xpb3NVZWx2b2t2cHJNVjR3ZVdsLTd1WnVrb1RENGhtNWVHOGhRVXFVZjF0WjZ1T2lQYldDaFVmWDFPSTJiV0dWSEhxdkdLQy00TU5WU3MwSm5RbFBmcmZYYWJLRWUwaktDaC1JbGtnaUFpdTlvdWhXYjAzNXNXLWcyRm41cGlJcFh4NEVuQXdDeTN0a1ZPWUtkQUxoZ01iMThKNFJqdnA2dTAwTWlxZzhOQ3UtR1p2dXp2REoxR09LTXJCME9tWHhMa08yZV95dGk1Z0Nk?oc=5",
     "source": "The Indian Express",
+    "published": "2026-10-13",
+    "place_name": "Himachal Pradesh",
+    "lat": 31.1048,
+    "lon": 77.1734
+  },
+  {
+    "headline": "Mangrove Army: How Sundarbans’ ‘tiger widows’ are protecting the forest, one sapling a time",
+    "url": "https://www.hindustantimes.com/india-news/mangrove-army-how-women-are-protecting-sundarbans-forest-one-sapling-a-time-101791899865511.html",
+    "source": "Hindustan Times",
+    "published": "2026-10-13",
+    "place_name": "Sundarbans",
+    "lat": 21.9497,
+    "lon": 88.8806
+  },
+  {
+    "headline": "Jaipur’s Jhalana leopard Rana missing for 18 days: Two cubs disappear from Sariska, raising questions over ...",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTW1fX3JMSFhlZFc2UFNoaFprcHNuNjljYWtZQkIzVVJGTkZGbi1VdjJ4MUdLcVkwMW5qdWpuM1ZZcGdyT00wb0N0ODNyd0lucjZseWowbU9WNUFKOGQ5eHpKeDV0Qkd6QjlGemlpc2FsTHFUUkZ6czhIc1dNQWJTU3VyYlJxLVRia2dLemY0RFlJT09OaDRmU3VaTndkdnUyMGVPa3JJX3Y1dTdEbEVqY0pyS0JsVzdEYXJGLUN1eHFmZDZHYTV1aFpjTFhrX2xfMzQxQk1B0gHbAUFVX3lxTE9NX1BsQUpxTzh6VHowNFZrX3lTb2hRTzJZMVFkVTQ2NVQxLS1nTXJxWkF4WjNsYzQ1T0NNUkhGOW45T1dtUzlVbXBwcG1xX1d1RXZnRjEwMG14Vi1PUi1QUTZPMVFJNUZGOHBoajVIN3dGVDMzRS1QNXpzMkZQNU1KNml3TjNzNGhpN3F0SFZhbjd5cGNwLWx6VlV4ajM0dDZHa0llR2xNbVppOTJGMEZ0bkFLSWhGWEZIeDF3OEVOa3hmZk5LcVpyV0VPUXhnOVVuOUZSWnUzYVoyOA?oc=5",
+    "source": "Bhaskar English",
+    "published": "2026-10-13",
+    "place_name": "Jaipur",
+    "lat": 26.9124,
+    "lon": 75.7873
+  },
+  {
+    "headline": "Mangrove Army: How women are protecting Sundarbans forest, one sapling a time | India News",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOM2dBcHlodmNwUmpUSDZkM0txYXZITE5vTzMtMFN2Z2FxcjBkTmRyZlk5LTBGYTNldEtUTXpGOVJaX1RtaHZTMEJ4NUFuQUZkRlNrNGxyOENBS1lSM25sRGlxV2YyWkYtYk1lTVFYa1BYWF9KMUx1ZW5IVkJmNVdpSlNBeDFlYlZKS3c3M3ZhaFRpVEo0UDFzQUpPMFJoUXBOT3lUUzc4UW9rWEd5TmJNVFV2dEFsVlFsblpnOGQxZ1lUdDhrQ1IyYUpPMDFUdWMtdnFqU9IB2gFBVV95cUxPVVZXc3dscmNfRDlVUzljSHgwMm9UNHQ5SVV2TGtndlUxOTFNYmU4WlRHTGNlSEdxQUZFUldHVkZtTkxCMFgtU1gzcEhmNS10QnNybEJyemdNTWJIeEtTYnN0SFkwZGl4RkdaNUstak5nc2RJTFc5SzdJWFFEQTVDSjNKcXJmcGdrSk1mQ3VhZ21tUnlRZ0V6X0lXaDVwY0FjT1pVUWI5bThPQi11T1FJdDI4d3lBVWFlQUFJM0tIZE1DNGxJYXJWZGRrSUVSMXpLc1k3V1dLWUkzQQ?oc=5",
+    "source": "Hindustan Times",
+    "published": "2026-10-13",
+    "place_name": "Sundarbans",
+    "lat": 21.9497,
+    "lon": 88.8806
+  },
+  {
+    "headline": "Himachal Pradesh High Court halts construction, tarring of forest roads",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWnlyeVNtSnlSMl85Vlh1MkV4RDMxdFNZeWVkY1RNYlVhZ3NidzRHNldtU2NiSXliaW0wUEM1S1lHdGVoWmZoRnlKZG9UY1UtN0Vpd1lDY3NvMENXLU1FYlNEcEV3RTJYdVQ2NjQ4THBfZEJGR0hJeTZyTzlwdG9GVDA1WllXLTBpNXZUWUVpNUsycWEwNHFzUExxanM5MXJrc3lIM1kzZWxwbEpfYzRHY2VpSnFzd0hFZUpUaVlwREprNkNaek8xWWhOQ0dnbGRzSEV0YdIB1AFBVV95cUxQWnlyeVNtSnlSMl85Vlh1MkV4RDMxdFNZeWVkY1RNYlVhZ3NidzRHNldtU2NiSXliaW0wUEM1S1lHdGVoWmZoRnlKZG9UY1UtN0Vpd1lDY3NvMENXLU1FYlNEcEV3RTJYdVQ2NjQ4THBfZEJGR0hJeTZyTzlwdG9GVDA1WllXLTBpNXZUWUVpNUsycWEwNHFzUExxanM5MXJrc3lIM1kzZWxwbEpfYzRHY2VpSnFzd0hFZUpUaVlwREprNkNaek8xWWhOQ0dnbGRzSEV0YQ?oc=5",
+    "source": "The Tribune",
     "published": "2026-10-13",
     "place_name": "Himachal Pradesh",
     "lat": 31.1048,
@@ -21472,6 +21517,15 @@
     "place_name": "Chennai",
     "lat": 13.0827,
     "lon": 80.2707
+  },
+  {
+    "headline": "Elephant tusks, tiger bones seized in Nagaon, three arrested - The Assam Tribune",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdC1WY1FNcHBpd2dYTk9saWNGTEJ4b29XYmVYOGVXSGZNNTdOVEI3NmlqdjRuYWsyTHlHVzg3dDAtTTQ5b01nSTZlY2paYXctak54MzB0VEc1NnRWWjJvNGpLWTZBNFpNQ2dKekVBYmlWcTJBMTZYREpqajdONzhlWkM0eUtlV0piTk1aRHBuamNZeGZpc0VPNGt4VFBFQdIBowFBVV95cUxPVXBXc3FabzlRVk0yMjhSc0tzS0c5aFRuOGlhdUdBSUtPa0FZR0pCWmRNT25iUW1zOU5udE55enpHd25zWHZwNkNQOTFPZDRhTDBBdHZpLTVFMGRmUUk4eDUtMlByRWpQdHZ0M0JEbngxRGFUTHZpMFJ3MWI0bnJ5RS13Yl9FZG1QLVoyMmZhbUdMZkJRLUhsVmhtejNheXltUWNZ?oc=5",
+    "source": "Assam Tribune",
+    "published": "2025-01-30",
+    "place_name": "Nagaon",
+    "lat": 26.35,
+    "lon": 92.68
   },
   {
     "headline": "Chennai: Expert says relocation of dogs to protect turtles would worsen situation",
