@@ -1,5 +1,59 @@
 [
   {
+    "headline": "Lessons from translocating a tiger for population recovery [Commentary]",
+    "url": "https://india.mongabay.com/2026/10/lessons-from-translocating-a-tiger-for-population-recovery-commentary/",
+    "source": "Mongabay India",
+    "published": "2026-10-13",
+    "place_name": "Valmiki Tiger Reserve",
+    "lat": 27.25,
+    "lon": 84.15
+  },
+  {
+    "headline": "Elephant transfers from Assam to Tamil Nadu raise provenance concerns, CRAR tells CITES",
+    "url": "https://nenow.in/environment/elephant-transfers-from-assam-to-tamil-nadu-raise-provenance-concerns-crar-tells-cites.html",
+    "source": "Northeast Now",
+    "published": "2026-10-13",
+    "place_name": "Tamil Nadu",
+    "lat": 11.1271,
+    "lon": 78.6569
+  },
+  {
+    "headline": "Row over previous Ramleela fair’s accounts leaves 3 dead in UP’s Pilibhit",
+    "url": "https://www.hindustantimes.com/india-news/ramleela-fair-uttar-pradesh-pilibhit-tension-fight-deaths-news-101791864154193.html",
+    "source": "Hindustan Times",
+    "published": "2026-10-13",
+    "place_name": "Pilibhit",
+    "lat": 28.6412,
+    "lon": 79.8046
+  },
+  {
+    "headline": "IHCL opens 17-key Brij Tara resort in Ranthambore, Rajasthan",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWldIQnQxNWQ1YVpqZ1V0WXBrRGpSOXF5amp6YjJ1cVN0X0l3YlZTTWhmZG1iV1EzUERodE5WQTZjY3pGQmNnMXBNTGdod2ZYZDhsY1lCdFZKdkV4WUp3WnJEZTZURnFfbEx2d2ctcEw3c0YyUXg3S05JckQyMmw1UVUyM3JoQ0VmSlJQbm84VQ?oc=5",
+    "source": "Trav Talk",
+    "published": "2026-10-13",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "Pangolin Weighing Over 5 Kg Rescued In Koraput",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdEZpd2M4UTJuU3QzZ1NjM3pLTUxiUlVaM0RnWjBUdk9ZN00xbFJTWUxLY1dxOWpCWHUzalBTbHUwblY2dlJSZkxHZVJpVnUzM2EtY3QwSkxrNGp1c2t3ay1xVlFRMHc4ckN1VTNlRHJoX0ZJRE1qWWVvLURNVjZqaHFMSlNKQV92Znc?oc=5",
+    "source": "Ommcom News",
+    "published": "2026-10-13",
+    "place_name": "Koraput",
+    "lat": 18.8124,
+    "lon": 82.7128
+  },
+  {
+    "headline": "From 11% to 100%: How Himachal Pradesh saved the rare Cheer pheasant from dying out in the wild",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdUJ0YUdKZXpNcHZ6UmNWWktVSllJTS14OGFXcDFkd2FFMXJHSDBjTUVhaDVISU1EaEIzMnBiR0t2TGZ3VU44Y1lyV3paUUhZWWVDczZpNTRSRkJoR19manppaVIzZHNqWlVPOGlRMl9fdF8tWkpQRmk5UmJzU2hXTmFuX1N6aEs0UzRQdTNoWHpSX0dRdE5NX280NUQ0ZFZYNDQzTkM0MDJ5QmV0d1BGMnF2ZDFmZUhGVzlCMWFjZ3NGb3dRc2lEdlBqRkkxa1ZEVWF1ZHgxUVdzc0ZzeEphTEcxUllLeGlWYXfSAfABQVVfeXFMUHk4eUNxOEVod045TXlIWE9fZGRrcGpzN0ExS0xpb3NVZWx2b2t2cHJNVjR3ZVdsLTd1WnVrb1RENGhtNWVHOGhRVXFVZjF0WjZ1T2lQYldDaFVmWDFPSTJiV0dWSEhxdkdLQy00TU5WU3MwSm5RbFBmcmZYYWJLRWUwaktDaC1JbGtnaUFpdTlvdWhXYjAzNXNXLWcyRm41cGlJcFh4NEVuQXdDeTN0a1ZPWUtkQUxoZ01iMThKNFJqdnA2dTAwTWlxZzhOQ3UtR1p2dXp2REoxR09LTXJCME9tWHhMa08yZV95dGk1Z0Nk?oc=5",
+    "source": "The Indian Express",
+    "published": "2026-10-13",
+    "place_name": "Himachal Pradesh",
+    "lat": 31.1048,
+    "lon": 77.1734
+  },
+  {
     "headline": "Over one tonne of waste removed in forest land along Girivalam path under ‘Clean Tiruvannamalai’ initiative",
     "url": "https://www.thehindu.com/news/national/tamil-nadu/over-one-tonne-of-waste-removed-in-forest-land-along-girivalam-path-under-clean-tiruvannamalai-initiative/article71571734.ece",
     "source": "The Hindu",
@@ -2473,6 +2527,15 @@
     "place_name": "Periyar Tiger Reserve",
     "lat": 9.4667,
     "lon": 77.15
+  },
+  {
+    "headline": "Rare leafless ‘ghost flower’ orchid discovered in Arunachal Pradesh",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaFJVVUtPMlBjNy1vRW00MlhYSnVGZVY3dXd2WXpScUxzY1VUSnVud0JBQ2UxR3plZndQVDJfOVlBTWtMRVppaEprdHFZZXNwSHpmVFRpNWVFV1IzMEh2Szhvcll3Qldic09BbG1iV0F5Mm5jelNYS1JqcXFXdnpvNjIzcDBmaC1vWjJLU0U2TEx5NXJXdkRDZWF6a3c4X0NTWHfSAacBQVVfeXFMUEtNcUlpR01mYWpobWdSYWRZNHhzM1ROazkzOFVyYWVYWkt5Zm9QTWJoNHhiNnNqSWwwam0wRW5DeWJIZW9FOWR1czNqR1hHeXJ0alppZjA1dm1OdmtwQkIxcUR1M3lwMGJnckZDYU5hTzJqQzBYY1NEd05ybWQzbWw1VlZ2NnlQelVrUmFsUHRvMl9sanpEd3podGstSHZ1S0I0Y1g2c1E?oc=5",
+    "source": "ThePrint",
+    "published": "2026-09-21",
+    "place_name": "Arunachal Pradesh",
+    "lat": 28.218,
+    "lon": 94.7278
   },
   {
     "headline": "Why hilsa-exporter Bangladesh is importing the fish from Gujarat - indiatoday.in",
