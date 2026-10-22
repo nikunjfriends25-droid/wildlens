@@ -18,6 +18,69 @@
     "lon": 78.6569
   },
   {
+    "headline": "Butterfly migration: Blue tigers head towards Western Ghats with the onset of North-East monsoon",
+    "url": "https://www.thehindu.com/sci-tech/energy-and-environment/butterfly-migration-blue-tigers-head-towards-western-ghats-with-the-onset-of-north-east-monsoon/article71606604.ece",
+    "source": "The Hindu",
+    "published": "2026-10-22",
+    "place_name": "Western Ghats",
+    "lat": 13.0,
+    "lon": 75.5
+  },
+  {
+    "headline": "Tadoba tiger reserve introduces sensor-based system to manage wildlife waterholes",
+    "url": "https://www.thehindu.com/news/national/maharashtra/tadoba-tiger-reserve-pilots-a-sensor-based-waterhole-system/article71610400.ece",
+    "source": "The Hindu",
+    "published": "2026-10-22",
+    "place_name": "Tadoba",
+    "lat": 20.2333,
+    "lon": 79.3833
+  },
+  {
+    "headline": "Baby elephant takes wobbly first steps as herd clears path in Odisha. Wholesome video",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNY2JNbDdPN0taYjlWaTNPV1ZwRlBybHIyVnAzcXowY1JiMjNqM3lYd1pUT1JCSVhtSkVOVjZrXzgxUFN1aEk4YU1RSGNJbjg0UVVBbG5Qalh0WEtGYWh1eHc5R0dOXzFiLWQ2ampuRXUzcm5FbzYxcnhlb2NsLWVWRC1rN25FNE5fQUZSeVVrUG5ZQ0Jhd3FYRnVha1R6MnZMNURoSUFrUjBKZ3plZ2h2NE42RkRFV19kTmdTNWhVcDBVODZIZUZBR19PSlJvbVJEUnh0eG91X0QtaXJVam1WSGFoUdIB6AFBVV95cUxOcnpzNlRoNGdVUi1KYXN5alM0aG9qeG9BaDlUU1gzZ0FaNWJsTHdjY3pEYm1ZbHQtb1U3eFIxVVZROXRHNWFCd1VoTU9kY0s5NDVHNkltSkNRN1Q1NmdZTHVPUkZ3ODhZTF9sd0NMck52OERpaGZRWlJFb1M0eW5sSnJLMnprYVpHa1FfSENmcEd0WHVnRHJNSlljem1lbkxSeDBCbENhX2FXaGlzQzNBbFRYNVZPeGFJYkp5OXdETnp1ZGIyVGpkeUc4Vk42bWdOYndwbW5CMFU4VG1seVZYN2hmUEl2Mm9X?oc=5",
+    "source": "India Today",
+    "published": "2026-10-22",
+    "place_name": "Odisha",
+    "lat": 20.9517,
+    "lon": 85.0985
+  },
+  {
+    "headline": "The whales never stopped coming to Gujarat’s beaches, the watchers did",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTmFGS25VVjZubUM3VVZWdEFhU05YWENRRmtGbkdWRkdpX256SFBTNkFEblU1WUdweWZScE9VZUVwRVBOVDhOSnpOb1k0bWtWREwyaERjbE1RTFJLcmZ4MHhIckJPZ2Y1MkczMTlPVlg3U0xFY0lkYmhiaTEzRXlDbmpVTVQ3YjkxQjJfRklWWjlBMUFZS0U3WERkSjV1c1ZiUkE4ZURYUWNVTVJfTkRzaEJTLWRSckswalNiZzM0d2xoR2JROUZsaXJOVjBPMFhqTlpwRHNGc09OVlB50gHjAUFVX3lxTFBYd2J1WWdtVnJuZ19GMzVoaklzaTF6THZ4eDR3M0ZySUtKbW5IcWJYMDNXaE41YWFnbFBXRWYyYWgxeldrS1FyN041bGd1cFlMeXN1SF91eUp0UDFnOWZ3d2drM0pnQzdLT1F6OUxPd1BGWlZuRmhnU0h4a24wSmpNUkp3NG5ZODRiQjFzN21xVzVHak5zdG51dGtmWVFIWUtSNGdjbG5teWNKOTdjMXU2QjVEWXVRR1gtVjduTlZkbVV1aXp5a2twUHp0eEZDRXlJS2xQRkw4eFFIYjBRMUplbDRz?oc=5",
+    "source": "The Hindu",
+    "published": "2026-10-22",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
+  },
+  {
+    "headline": "Meghalaya’s hills hum with a hidden world of bees key to honey economy, crop pollination, conservation",
+    "url": "https://www.hindustantimes.com/india-news/meghalayas-hills-hum-with-a-hidden-world-of-bees-key-to-honey-economy-crop-pollination-conservation-101792656970161.html",
+    "source": "Hindustan Times",
+    "published": "2026-10-22",
+    "place_name": "Meghalaya",
+    "lat": 25.467,
+    "lon": 91.3662
+  },
+  {
+    "headline": "Tadoba tiger reserve introduces sensor-based system to manage wildlife waterholes",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMGpzZmtvNHhBYnB3bTdobnZobEJ3cDJNaEx4em5PdDB3cFlBVk5hdWNONE02MjBha2wtY2FULWZ0QTEySGVVZllNdG45WjlHa2daRmhSRGVBUWdpNG1aejFtMkRldW5NS25oaXlBRHB1UHFVd1U2MTJzY0c4NzgyU2xVdC1xR0NfaGZKZWFlYjZLenRDZEZ1VW91cmc3Zy11TU9FaF9URUxTcC04WlhYdXVGNzVvSzNvR05rOS1wbjhjUnpKdXk1RkZR0gHQAUFVX3lxTE9PbXRKOEtKSV9QUTl4NW1SVHUwVUxTZjNKQjZFUk1na1g0WFRTSEU1V2NybTlFby0wa1dEemIyZl9pN3lvSjhQVG9GZ3U0cHZoWXNvdUpXeTNobWVHR2RsbzlLeHpTWTR1dGtsaS12ZDFldDlYT05JRjlYS0NWaWtpX1hmMk84eWRMc1lxMVBuZFNScERreGhfZ2Z2b2RLa1M3MktLazh2djdCc2VER3RZN09nZTNwNEJJX3pNQ1VOMFpQOERrLVVuN0Jfd0N0NWY?oc=5",
+    "source": "The Hindu",
+    "published": "2026-10-22",
+    "place_name": "Tadoba",
+    "lat": 20.2333,
+    "lon": 79.3833
+  },
+  {
+    "headline": "Jharkhand High Court Sets Four-Month Deadline for Palamau Subway",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ0hKNnh2cGw1THpSVmpMekdaLTdGU0kxUWtueTJKXzZtRkw5RWZ4cFNqSVBnUnl1SURSa2dWV0NKN3VNNklHX2F3OFpmcm1URW04em1jYW10LWRtNm9GR2w1TnFiSWVDMjE2WldwUUwzcHdRTWhrWW5abnEtYV9Ycm54blRxQ1NKaFRKQlotTWNYU3huUmZoT3JzUFFWMXY5X01pUk1OM1RxcGxKeHNQMGR1LWlwN3lQSU1pajZjYw?oc=5",
+    "source": "jharkhandstatenews.com",
+    "published": "2026-10-22",
+    "place_name": "Jharkhand",
+    "lat": 23.6102,
+    "lon": 85.2799
+  },
+  {
     "headline": "Tiger Shroff's escape echoes 90s Bollywood nightmares. Is Mumbai's underworld back, or did it never die?",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRlZqSWp2SDNLeGRxR1h2VW1nRlN6d3Z0ZEQ4c2g2R0dEUTFPczBhbmNPTHEzaktzc0RmS3ZESVBaR2xvMFFMQlNPaVVaVUl0QV9SMEUzTVRXQnlqOFZCYkxhTXRiTGdzM2k4RzRuVDh2LUd3Y2MtaFpfMW0zRVpvVl9pellZN0FkcThFNXYtbGstQUtmbzctOGEwdDAyZmI1ZHJXTDFHdzBLTGVZREpXMExzTU9falhQMjBRSTlneUN0d1RYZXBhcWpad0Racl9wclgtQ0gyV1bSAd4BQVVfeXFMTm95WHBCTDEwRWxDaC04bXpJbVFOaHBtUlRwVlJPc1BoTno4QUNDVHhmMkxmMXNYcC1XSEgtdkhwd1VXR3ZtSVFmcjlZeE01RWRucmRUX21EQ1dOdW1tcm9FUWJfTk53RE53R2dkZzVLYkNlS3JwNWk5TlJwNlJlSF91OVY2TXdyVkp2OWJFMG1WaWNTLVROaUp1R0h0UmdPdHhUeXBTM2NKZXpKRGxyN0JQSV9yLWpmQ0FyTHk1VFUzdWlST2tzbTBmLV9xTkNXenZ6WTR0ZlFmREZxVjRR?oc=5",
     "source": "India Today",
@@ -178,6 +241,15 @@
     "place_name": "Mumbai",
     "lat": 19.076,
     "lon": 72.8777
+  },
+  {
+    "headline": "The whales never stopped coming to Gujarat’s beaches, the watchers did",
+    "url": "https://www.thehindu.com/sci-tech/energy-and-environment/the-whales-never-stopped-coming-to-gujarat-beaches-the-watchers-did/article71606866.ece",
+    "source": "The Hindu",
+    "published": "2026-10-21",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
   },
   {
     "headline": "Man who put Tiger Shroff shooters in touch with Anil Pandit arrested from Haryana",
@@ -24282,6 +24354,15 @@
     "lon": 92.9376
   },
   {
+    "headline": "Revelers trespass easily into Belagavi’s ‘forests of a lesser guard’",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOanhnUVFNVExETUNpM0M5Wm5scWJkc29RY2tKWnRDQzBLeVE1eGtySmRsajM5Ymh0c3Z2akNpU21LWk9oNWFCTmtKMjFGZE1PS3dwdElUdzYtQ2l0TXotN3hMQ05FSUl5bllGWG1aZjhFWnlELThFTENHNk5qWm45d3BiaTRsZk9ZNnFYZHZkUkhSajluRXBlWGUzSHhScldPOHB6bU1aeTAxb0FicHZuRmYxRzBreTV4NENJ?oc=5",
+    "source": "Deccan Herald",
+    "published": "2024-06-04",
+    "place_name": "Belagavi",
+    "lat": 15.8497,
+    "lon": 74.4977
+  },
+  {
     "headline": "Bargarh SDJM Court Awards 3 Yrs RI To Wildlife Criminal",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdGNfX3hZT1JwOVhRSWFJSkR0SlcyaE9jeURlUzkydXMwamNacGFfUXBRRE5kWThZUWRGbUdMSHdQb0pnNm54eWpnVnlLZ09oU1M3OG5RTEJmMEMwY3BJS3JMWHVoaE5pZkdpNW54OWY5Uk00RWNGWWw5bnhJXzk3NG1hNG5UeUtEbWVIdXlwR2xHVGFCZlE?oc=5",
     "source": "Ommcom News",
@@ -25333,6 +25414,15 @@
     "place_name": "Great Himalayan National Park",
     "lat": 31.75,
     "lon": 77.5833
+  },
+  {
+    "headline": "Maharashtra’s Tadoba-Andhari Tiger Reserve: New thermal drones to help detect forest fires, intensify surveillance",
+    "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQdmVrQWRsbmo3SWlaeHhEeWdmSEczRkpIWnVHZHhsRWpvSXFFeXJTMUxlQjY3UG5oVHRfTGJTZGw4M3NRU3ozVnF1WVh2X0lYZ1ZHblE1MkF5TEZLcjNHUHE2TTVTOFhsbUwwOTJ6UG5VYVZ5OXYzYzFnbHBSaUF4NW5mZnhuR1JmNFpXX3RtXy1xUmRvY0lfMURQUFNZQUhWa1VHbms1N29GUmpZcU9VYld3OHZHNTdBd3BlWng4cUctdjBEVWxGSy1Fa2JkeWhNemQtYk1GT2R3ZkFlQlFaUExtMEpkTTllandfd29Sd0Nib0R6ZUVSS3B4dW5FdDlxMUh5RWMzVjFycWR4YVZV0gGWAkFVX3lxTE4xYVp5MW56Z0NsdFRNR3pJVm9UZkFLMWJ4SzFlUVhYMVZ3dEtDVzdBX0VrTDZSUktYcUU5cjFRMXE1N0JSRjVkVzNQMVl2NlMxQ3A5RGw4eDZvOVU3LW9fTFJvTGZoYzJGNl9wMnN3aWgtTDdncGlkajZkLXBEZVhCWDJpdENDZkdqaGQ1LTMxWU0wUEMyU3E0RVl5U0ZSV2toTm5tNTduNFZGbXprcjJORmZLY2dZbGhRV1F3QU9UaVkzbXJPbkpFUjVoYlY1c2NhU3M1M2M0VFB2NnpVLXNpRDZJaWNJcVM1SXItWm1EeFJlMXcyZV8zMmR4aEE1Y3A3YUtEcThWVGVmVk1LUHRPaWhqclhn?oc=5",
+    "source": "BusinessLine",
+    "published": "2023-06-27",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
   },
   {
     "headline": "Kerala's rogue elephant Arikomban in great shape now: Tamil Nadu forest department",
@@ -27252,6 +27342,15 @@
     "lon": 85.0985
   },
   {
+    "headline": "Indian Rhino Vision 2020 ends with translocation of 22 rhinos in Assam",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaXQwS1Y3Z3c3RzIxajl6NWZxREhNa29RRFM0NzBKZ0VsX0VPRm4xdmhxd0NIX3NfVHdPODVzQjZ6d2VGTHJQaHNLb0Q4WmlzUE9qOGJHN3A1UUZSY0tmT0cwamstbWpzQnVqZWxramFwejBleUNDNzRPR1o1czNhY2hrZzZvRkljZU9VOC1VQXhjQmZGMGVnalZyVHQ1UHZaOTlkc0JpR2llTHBDakJ1Vng3N09qMWti?oc=5",
+    "source": "Deccan Herald",
+    "published": "2021-04-12",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
     "headline": "Odisha plans to satellite-tag pangolins to study them better",
     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOXE1eFFDenlGLVZjRTFMUFhjdmRKZjlxbThXTjVLalBaRGFaYmkzOWxLRno5dDdwM1RRbjNrbWNJNzNhSzgybkctOWJEazNRYTE5LTFCZkFJUHRLUnI5YUl0Q1NDMml1SHdfME5RR29nODg1TzJxUmNyQ2JKZk1EbXMxbWxQYkFiNTNaLW9MMXp1TnZMWlZkalpYaUNGMDN4V3hWeENtVlJUS0NUWlpOUG9fNDdlemw1NlBLZUF0NnptU09nMkIxcjBmcEtpVjRV?oc=5",
     "source": "livemint.com",
@@ -28732,6 +28831,15 @@
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPREF1RkVGZWg4T1dIeFRwT1JRUE53VEQ5Q1RRdkU4b1hsNjNOZ1lvNjlsYmtlbVlpVTdKNFdHclAzTHoySHlWYWxsT2d0Nm1YZXRtdVQ1VmthbEdWWW43ZThRMUdBZXNVYlJISW10NkNwcE5WS2NZekpJaVFCZWVKQVdsRlFxMjBBTXVRVmlybkxnVUZ0QUhDb3VRLWpGRlpLR3NERkd3MEhock9jd0g0T1huZDhQaGszTGwwdWlfUnpEejhzLUHSAdMBQVVfeXFMTkU5Mkc2eVlISWtPODZwRW0wT25KbVdnczd0TkVrX0x1UmtFWlZXR3hmWUlrSjZRbUxXM0tieG9mY0dzeEdKWWhlNWE1X25zeEt5NlV3enhtNGoyUFV4WHBKS29JTXFITTJzQVR0ajY2bUZ4OU5rYmpqTGhQTlhJTl95cE15RjVjNS1uQ1EydWFDVnpvVVJEX2FqWnBMdG9WS3N2d0UyeXRIUlQ4RXlfZGxSTkVBejlNVVRCMUVrZ1FpUXJ0RndXUkhoUVIyeW5YV0VtYw?oc=5",
     "source": "The Sentinel - of this Land, for its People",
     "published": "2018-10-23",
+    "place_name": "Nagaland",
+    "lat": 26.1584,
+    "lon": 94.5624
+  },
+  {
+    "headline": "Nagaland Forest Division gets a giant lizard",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLXdkOFkzRVZTbmhHRW84VEhiYUtYMTNRdS03UUdlQk5zbV9qWlpkblhfNVRYRWhUQzkwdTlqMGk0Z2JITDVOeElBZm9qQjZXZmF3WFRDQmdPbnF2UDloSUNscW5CYXlMMFotN3gzcEJWaHE1RmFNS01nR2R4MmVmZWQwVlRHQzJlZWNhd1E1djhNU2xtX3RpV3JUcGtEbmI2dUdoVDRVT3l3NEg4Qm1maks1bGvSAbwBQVVfeXFMT0tkaDdlLUM0UHhFZUtpcndIcFBwUHlublZ6VUNzcGdhYWZUYTdheHMyYjRKNVJHcENaY0w0ZzhUbElqU1dVbkRoRVg3VHVYc0JjM3Rqa0tTcVdBTGdRMmttdkFQcXpMdUxWYWkweF81Rl9vNmxzclo3VzJFUlpGem9RbHNQS2JKUGlQTXBKcG54NDRRT3lsdWJxajZmd0tNRWxWd0g0aXM2WW96MUZDZ1pFUkFzanFDd3dyUDM?oc=5",
+    "source": "The Sentinel - of this Land, for its People",
+    "published": "2018-10-22",
     "place_name": "Nagaland",
     "lat": 26.1584,
     "lon": 94.5624
