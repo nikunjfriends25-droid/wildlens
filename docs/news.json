@@ -72,6 +72,33 @@
     "lon": 79.1003
   },
   {
+    "headline": "ISKCON unveils 800-kg robotic elephant in Visakhapatnam",
+    "url": "https://www.thehindu.com/news/national/andhra-pradesh/iskcon-unveils-800-kg-robotic-elephant-in-visakhapatnam/article71624265.ece",
+    "source": "The Hindu",
+    "published": "2026-10-25",
+    "place_name": "Visakhapatnam",
+    "lat": 17.6868,
+    "lon": 83.2185
+  },
+  {
+    "headline": "Telangana government to divert Godavari water to areas dependent on depleting Singur, Manjira reservoirs",
+    "url": "https://www.thehindu.com/news/national/telangana/telangana-government-diverts-godavari-water-to-areas-dependent-on-depleting-singur-manjira-reservoirs/article71624243.ece",
+    "source": "The Hindu",
+    "published": "2026-10-25",
+    "place_name": "Telangana",
+    "lat": 18.1124,
+    "lon": 79.0193
+  },
+  {
+    "headline": "Dhole may have disappeared from Uttarakhand forests, experts warn",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUzYxbHhOeE1CLWw3VkhQaGVzakNfSzVwR2JiZTJ5bk1aZ0JqTGNkaEJFcmQ4VXVaUUliUlV5akFjR1Y1NzhlV0IySEd3TGlzNHdfSEV2eU5JX2w0bUNBWUR6SVllRWZxRm9qbGQyQUw5RDE5Mm5mNWRNX3laTGNWSDMzVUtyWHJvYVZNdFVONjhtU2NCRXRLNWc4UjQ3bnE5SlBYTU5hU1A3REdlZTBxeXI2aG02UdIBwwFBVV95cUxOekh0T2hCMHI5dTIyTDh1VmRKZ3RRblpoUE5vTmJ5alc3VVdCd3F6TTNuMnNLTUd0eFdwRDloNDJVV3BPdHBxU3Q3NG5CZXlYUlFNcmhnZHA0MXJqUG5DdTdQRUs1ZTN2enlnNjMzR3pUU181STNVckxUdVN6emhNSXE5VnI5aXVXT2plWDUwQmNNNVQzUG82NHdZYk9HVHVKREoxajhUa3ZkdUF4LS02c0FRSVJndnJ0Sk52Zm4xczl4NGM?oc=5",
+    "source": "The New Indian Express",
+    "published": "2026-10-25",
+    "place_name": "Uttarakhand",
+    "lat": 30.0668,
+    "lon": 79.0193
+  },
+  {
     "headline": "Tamil Nadu rains: Forest Dept. restricts timings for devotees climbing Parvathamalai hillock in Tiruvannamalai",
     "url": "https://www.thehindu.com/news/national/tamil-nadu/forest-department-restricts-timings-for-devotees-climbing-parvathamalai-hillock-in-tiruvannamalai/article71619259.ece",
     "source": "The Hindu",
@@ -18909,6 +18936,15 @@
     "lon": 79.3
   },
   {
+    "headline": "Funding shortfall hits tiger reserves in Assam, operations affected - The Assam Tribune",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT1Q4eEJXbUhid09HcklVcDM1RHBBLVNXTkswWERnQlVlMEJYYTM2a1REbm1MemVIeWhWSDNUU3RpVkU0NHlvQTctSk9hTVBuQ1d1azRyQXYyOTV2YS1ld01pSmxQeDNRNURTamk4ZEJhbEpEWHk5eHQwZExZZjdKSF9qcDctN2E5Z2lNN3FSRmY0WjVMY0toa1hUQWZNNHZoN3RXdUpyUkzSAa4BQVVfeXFMTjd6ZGsyazREM2h3N0N2UnluQkZMY2pBYWtMT1lhQmpHX3JDZjBScmR6V055TWZULU1nNUUtWEg2UzhEY3FKZVh3dHRNU0E3a2gzbFEyS05OejNUOHNFbVZkU2F1X2Q4SF8yRy1wdVZ6R3RjRlM4djMyVnJCOVpuc2FrV3hwZU1uUW14eUpkUnE5RW45eEhENnVQNk9QbVVuanphVnYtbVNfR0R6VjB3?oc=5",
+    "source": "Assam Tribune",
+    "published": "2026-04-08",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
     "headline": "Kutch, Gujarat Sees Great Indian Bustard Chick After 10 Years Through 770 km Egg Transfer",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObGQ1U3BGbW1udUxNMlljYWE3UThFS0dfN3R2LVFGR1RRSHVlYWlLSnJrRlY5TlhoeGdMMW1VeDhDamo0OHljM1hLTDQzTVlMN0hLanIwZjJDYXVndk5hOEpTQU55RmJIOVRZMHpOTjd6MUQ0QlV3QU81a2F5MTFtQVZmLUdQQXFCeEtKVExXOUc0NElmdHhwMG9pRWJtMVpsc2pKSnM5VEFnNkV6MjloSzJ2UnhocE9ZLVBwZUlnN19nNEg00gHKAUFVX3lxTE1DaGZQWEppRHhUcmc1aFh2cDhTajFWeWRrUE0tNk1DUlYtTnNRMHJEYWozVVNtN2NoRDVGaXIxSTBqTUk4aUFnanJvOUgxTE1UdUZJSV9Ca3N0VzdwMG9Ra2t3X0JKc0IybUpEeFFtV0FidVdxWlFNT2RsTU92WTNKUndqbGpzZzhvV25vZ0lQUHREbm1DckRDR2Y0QmNWVGRPU0U2czBtS01tMUVfbmF4dlpseXJMc1Y1dnhDajhWazBHcVdHd0ZWZHc?oc=5",
     "source": "The Better India",
@@ -29635,6 +29671,15 @@
     "place_name": "Odisha",
     "lat": 20.9517,
     "lon": 85.0985
+  },
+  {
+    "headline": "Over 100 Islands In Sundarbans Face Existential Threat As Sea Level Rises",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTE1wRFFyLWVSamd4QnNTQXBNX1QwN3hkeVdfSUdYUWFId2RNdzgtN2JHZ0tGVnl2eFEtY01sSEIzMmJ3VDdkUm1fZUIyQnFtZ1pUeExiOEg0LXYweUdtdkw3bWtyNll0RTRzbEF3dzc5Z2l6OEVNSUlEcEVCSTdNR3hKSEJuckt4bUJRXzY2eU5UaHlrUVpPRUx5NzVqbnpYQi1JVnlxeGZZQUxTSlJCUDFBNA?oc=5",
+    "source": "NDTV",
+    "published": "2018-01-11",
+    "place_name": "Sundarbans",
+    "lat": 21.9497,
+    "lon": 88.8806
   },
   {
     "headline": "New frog species found in Arunachal Pradesh: All about it",
