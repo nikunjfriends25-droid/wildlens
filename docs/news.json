@@ -1,5 +1,41 @@
 [
   {
+    "headline": "Study maps foot-and-mouth disease risk zones where livestock and wildlife overlap",
+    "url": "https://india.mongabay.com/2026/11/study-maps-foot-and-mouth-disease-risk-zones-where-livestock-and-wildlife-overlap/",
+    "source": "Mongabay India",
+    "published": "2026-11-02",
+    "place_name": "Jammu and Kashmir",
+    "lat": 33.7782,
+    "lon": 76.5762
+  },
+  {
+    "headline": "Tamil Nadu government reconstitutes State Board for Wildlife",
+    "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-reconstitutes-state-board-for-wildlife/article71656342.ece",
+    "source": "The Hindu",
+    "published": "2026-11-02",
+    "place_name": "Tamil Nadu",
+    "lat": 11.1271,
+    "lon": 78.6569
+  },
+  {
+    "headline": "Beyond Ranthambore: How 8 Tiger Cubs Are Bringing New Hope for Rajasthan's Tiger Population",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRl82OG9YLWc4MUhhNU9GUEtNRDhfZDZyVk05MGFBSE5YN2NNRDdhYTVUMktFaFlBUFE2T3p5SVh2d1VBMmpxc3gweHVpV0ZQOGRtWktWMGlwZHFDZ0Z6WmEwcnVNRExjRXhVUFkzbnYzMTlWT0tUWEd3VFNwcFFuSEkyR2VVSDNXbHRnR25TWG9jVUZZdUNON3hPbEROcFZ5XzN1WS1tWVdZRTRLWFdnZzlvUF9OazdRVlM3ek1COExWQWhiSnUw?oc=5",
+    "source": "The Better India",
+    "published": "2026-11-02",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "Kuno Cheetah CCB-4 Enters Rajasthan’s Baran Forest Area",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZmkzUnJWanIwN29laS1EU1RjeTZpWlBNWVRvOUx1OVRVY2xocFNpUFREeWJTWGNnZFZPRGthQU9CTFJiT0FaQWVZenlWZ3RHSXlxRFdHYy0tSUJwVTZwUWNZdURQX0s2TWYyYTdweHBEVmJXUmY4bHBlWmRvZ2Vobkxxemg?oc=5",
+    "source": "GK Today",
+    "published": "2026-11-02",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
     "headline": "Assam: Two leopard cubs rescued near residential area in Margherita",
     "url": "https://nenow.in/environment/assam-two-leopard-cubs-rescued-near-residential-area-in-margherita.html",
     "source": "Northeast Now",
@@ -898,6 +934,15 @@
     "place_name": "Western Ghats",
     "lat": 13.0,
     "lon": 75.5
+  },
+  {
+    "headline": "Tadoba-Andhari Tiger Reserve introduces sensor-based system to manage wildlife waterholes",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcERyMFFlZGpLTDlTbVZRTW51VGdSajhRZ0dOc2R4cWdOM3hXbWdqemZySmp3clBmdDQ2bzlQdkMyTGVaSnRLbWZLaVpZMks3TGpwalJKWGYzbF9SelJ5d2llTnVpeG5XVFAtbm1ENXM0Y1hLR09OX0NRSGw3eEpmcXFzSlBWM2oxSHU2MHV1bjJQY1BVUjJMcjJhbnpxR3FWUXhFVXlGcE5tdVdvZV9Da3Y3VnlwdmtCUzJwbEk3X056YUU?oc=5",
+    "source": "Mid-Day",
+    "published": "2026-10-24",
+    "place_name": "Tadoba",
+    "lat": 20.2333,
+    "lon": 79.3833
   },
   {
     "headline": "Telangana Forest Beat Officer who died in line of duty selected for national award",
@@ -5083,6 +5128,15 @@
     "place_name": "Assam",
     "lat": 26.2006,
     "lon": 92.9376
+  },
+  {
+    "headline": "Taj Opens Luxury Resort Near Tadoba Tiger Reserve With 35 Villas; One-Night Stay Starts At ₹10,000",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdllSamtzdThiYlJ2YnNKZVFLOWI5bV9jVlJKN1VsMHJLUlBqWTh0UFoyUHI1OXROdEZRdUZONlRSVTJGTGhCSkd6TTJPNDZaZlNfODN2Qjh6WEhqOV9ZWUFUMGc5NkIzVTV5LVhXQ2VLR0pnTkZZUUNTMWVaMHFOMnhzREJqM0dYMUdBemtRYjU5RnVEWkpMeEJ4cUJKOThIcFFaV2FnZmg5SjRWWFZDdlQyWC03VW5OVGRHc3NoaFI?oc=5",
+    "source": "Curly Tales",
+    "published": "2026-09-22",
+    "place_name": "Tadoba",
+    "lat": 20.2333,
+    "lon": 79.3833
   },
   {
     "headline": "Sacred groves are better at growing future forests in the Western Ghats",
