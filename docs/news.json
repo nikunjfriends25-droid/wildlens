@@ -1,5 +1,95 @@
 [
   {
+    "headline": "When livelihoods adapt to a changing wetland",
+    "url": "https://india.mongabay.com/2026/11/when-livelihoods-adapt-to-a-changing-wetland/",
+    "source": "Mongabay India",
+    "published": "2026-11-03",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Curative religious rituals for untoward elephant incident during Shivamogga Dasara procession begin",
+    "url": "https://www.thehindu.com/news/national/karnataka/curative-religious-rituals-for-untoward-elephant-incident-during-shivamogga-dasara-procession-begins/article71660483.ece",
+    "source": "The Hindu",
+    "published": "2026-11-03",
+    "place_name": "Shivamogga",
+    "lat": 13.9299,
+    "lon": 75.5681
+  },
+  {
+    "headline": "Madras High Court orders immediate closure of 87 illegal resorts in Sathyamangalam Tiger Reserve",
+    "url": "https://www.thehindu.com/news/national/tamil-nadu/madras-high-court-orders-immediate-closure-of-87-illegal-resorts-in-sathyamangalam-tiger-reserve/article71660472.ece",
+    "source": "The Hindu",
+    "published": "2026-11-03",
+    "place_name": "Sathyamangalam Tiger Reserve",
+    "lat": 11.5,
+    "lon": 77.2333
+  },
+  {
+    "headline": "Supreme Court seeks Centre, Assam govt’s response on OIL’s Dibru-Saikhowa drilling plea",
+    "url": "https://nenow.in/environment/supreme-court-seeks-centre-assam-govts-response-on-oils-dibru-saikhowa-drilling-plea.html",
+    "source": "Northeast Now",
+    "published": "2026-11-03",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Amur Falcons from Siberia have reached Nagaland En route to Africa - India Today",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPa1dkM2ZzQmd0S0pTXzktcWxfazVtVlNVUWxDcnNZRUw0ek1td0czVXAtTlB6eVFweVRWWk5iTWpGSWZqUllQeHFjbW05dzhEVzdhckRDN0VMY3ZBZ3pWZmNSQ1dKeVNRU1hTX2QxUmttemgzQW4xbGJhd2VoQUphTVJUQ0NBUzdSWTRMNVN2dkJTa0pITms4ZHh4RDZmOXJtRXY0c3plM1VfRjkwVmcyMHlGLUtFWTJXUFpwbEM4em85RlVTNFRTRXptckVoYkpz0gHQAUFVX3lxTE9rV2QzZnNCZ3RLSlNfOS1xbF9rNW1WU1VRbENyc1lFTDR6TW13RzNVcC1OUHp5UXB5VFZaTmJNakZJZmpSWVB4cWNtbTl3OERXN2FyREM3RUxjdkFnelZmY1JDV0p5U1FTWFNfZDFSa216aDNBbjFsYmF3ZWhBSmFNUlRDQ0FTN1JZNEw1U3Z2QlNrSkhOazhkeHhENmY5cm1FdjRzemUzVV9GOTBWZzIweUYtS0VZMldQWnBsQzh6bzlGVVM0VFNFem1yRWhiSnM?oc=5",
+    "source": "India Today",
+    "published": "2026-11-03",
+    "place_name": "Nagaland",
+    "lat": 26.1584,
+    "lon": 94.5624
+  },
+  {
+    "headline": "She protected Gujarat’s precious bustard chick. She is now protesting for better pay",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZ0NJenhjbTZIdDZzWGNXbTlna2FMaDBUUWYtQzBRZXV3MzF0LUxuYnVPVTRfSlFNcmtqN1pKOG9aeTA0aUE0TjU4dU9nXzUzOWFXeFVTS1liajdiYVp6TTNBTFNqRGRnWGZPUDduRGVpRFhoX1FZUFJDSUhJaUZqVmRQQVkxMHJuejJ5WVZPVXBaUjY5dkxwNDdWOFRUY2xjRC1SRFBjY1NHOEtYLVJnYzAwZzlrNTjSAb4BQVVfeXFMTWlBZFkyTXpJRFdpdU5ZOEVoU2xpcTRsV053SEI1bjNHVlVPVE4wLS02dlhKa2Z6QUoyMTVIWlF4SlA1RE43OVhnbUFlQXlSbHJvOTY4NXNoMDlGWmVoNTM0UHJNNkp4NlRkelhCMy00eVpqVzhNdXBIeEVEZ0g5dHZLbS0tNW5RRlE4ZkN5XzFpdnJiVzl1UjVrLUlhOWRtS0lkUy1HM29LYURiQ3R3LTFROG5nRDZQR2hRcElxUQ?oc=5",
+    "source": "The Indian Express",
+    "published": "2026-11-03",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
+  },
+  {
+    "headline": "Nahargarh Wildlife Sanctuary boundary dispute: Supreme Court asks activist to pursue challenge to revised map before Rajasthan High Court",
+    "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxObUQyZE15TEpMZTBnWnVId2NPaDFsNkZ1RE5mLXpUTURIMHczSkNKQ2lUak1hbEF5ckMwR091NDR4SEtjTEhTT090YXBaeW03ZHYwVkh4dTB6TUhqRm5EM1ZES05raUM4S1ZmMC1QNFZrUXQ2dnRMZjlkVGxnVDN4NVdMeFlKZVFtY2NIS1Zoak5TV1VUYTRWRkFMUmhCSWVvUXBYanJIdnBRQnBEREo0eGZiTFJQMlpPbnJZdExVVFB1Rk90R1VYR3V6T2ZDd0ZqbnhxNmR1M3ZDMnNxaFYxV3RadTEwQUFGcjhDdy02TFB0cXpKSzVmd0xRU3RjRTlJU2tkcVM0ZUFBdXpJdnBrZEhCWl9nQTJXdXMxX05tT3BqNDNycUJR?oc=5",
+    "source": "India Legal",
+    "published": "2026-11-03",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "Kuno Cheetah CCB-4 reaches Rajasthan's Baran forests after leaving Madhya Pradesh, male big Cat known for...",
+    "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPWVZwc0lMVkVpZm5sVHVxRmx1Y1hJSnJIWDBweGg2cjNkamZsOVpmWmJ1SWprbk80QU1QbEM4dnJ3MTVieUthZGhMT3RUNFg2MWNEdUs1WFFnNVJiRFR4WmtYendMSVhDVHpkUFVMb2V6MEM4QkFhR3A0b0tGaXVoZVY4amJLenAydkpIS2JwY0VVZGl0WVVhbTJzbnhuNFZfWktPMC1USVUxeXdGWlRqMzJWT3ZvaVJ3Uk9fdm05ajNGT0Fhb01qdGM2b1FPNW9IRFFUNWRLbko4SDBNSGJzRnVqRkp5ZGo1aWFRVDMzRmZtOEd2Ukpna3RxcnJ4NFkwWksxR05WMlpuYksxZGVJWllUSXZKZ09xb2NhSnBRSXhGVGsxNElGOXU5N0tHS0RpcEHSAbcCQVVfeXFMTzhjVHBBWm5MNVZlN1lYOWNENC1mS3dFS0lTOGVnVHpiY1FKOUJUcXoxbVZUU0RXOEE0NkVpYWl4ZXJocU91S0Y1WnRYQUUtc3huNXhpUDNJUGdvLXNwSUx6NGRrTHJaWW95ZEdRZzVmZ0U4VEd4b0REOEV3b0tRRnhGY1dvZDEtUVhLa1hmN1U5U0VuRndVTV9LRVlzekZkdGlULXRzc3lub0Jrc3ZmNjc5ZE1HczRENURVMW1vbG8wYXdWQllQeEZSdE9FZTRjV0tZTkJrbkNXcnA5T3dqR0Q3bmRIZTdqaXI1YktRdjgxcDhzLXozVVJVS0E0dWZ0WEpYOE5PdGc2NEpUdWtFQ3R5RWtCd1BCRzVXa19ZRWNGX2VOOHdyZTNadlQxOWxyMV9VaFVWdXc?oc=5",
+    "source": "Moneycontrol.com",
+    "published": "2026-11-03",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
+  },
+  {
+    "headline": "Migratory Flamingos Arrive at Sambhar Lake in Rajasthan | Videos",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQmRhVmhUVzJtcE1ISWpnSzdOcG5FZmhGek0wR2dHWi03UkFUX1FFcHk3d1RmOGhMUmo5MHRHTkFPY1Q5WHUxa24wdzBGMDRVdXo2YnBoZXRHaVM4VkwwTGRNN0F5YWRJMDR2T2tvNDY3ZmNxa2c1QUZsSFBfYW5WUTA0VEhDV2YxT1VLQUEyUEZPVHczOFY0OWR2NzZNV2hzTURmVUZ4M3F3b094eTF1bG5ZNG_SAboBQVVfeXFMTkV2cnk3S0ttTy1NMHVKcXdmbENRMVpSWWVjWVJvREw3dnNvLXhUNnJfWC04NnVKUE1tdTJ1QVZRQ0praGs3Q0FuSlNVbElFSXFHRjdyN1ZTQnN3RmNxTEQxMDNwVUJFb1dteXJTSnAyQnVwS2w0ckdzZ2ktNDVmYlJMMVhWTXItdXpocW9PdlI5NHNWZ05kMzBOdlBzNWROZ3hES0hub0JjbVg5bUtlbE1tUUlETHhjY2F3?oc=5",
+    "source": "Hindustan Times",
+    "published": "2026-11-03",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "Weddings, parties and restaurant banned at Vidhyadhar Ka Bag near wildlife area: Rajasthan High Court",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOc0VlS1FvVjlldl8wc2pmY0dpLW9ncVl4U0h6ZlNsVjhfanVfa0Z3ZjBoNmJSZFhrRGdlS1NlbFA5QWxBWWRHeWlNT25RYk43bTdVUUoyRXB2Um1obTBLTTY1NnlmRjZMRW5FR1RLQWZMUVR3ZWVoejhWa2VuVGhSbkJMdHJVWHZsQ1U2YTlwdFU3VEcwR0syYVdGT1Q5dXc5R1dBZlRFUmRNRTNhdHdCNkhJVFFHbjIzdGFlanZfWlFDX29aUGwyMA?oc=5",
+    "source": "The PinkCity Post",
+    "published": "2026-11-03",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
     "headline": "Study maps foot-and-mouth disease risk zones where livestock and wildlife overlap",
     "url": "https://india.mongabay.com/2026/11/study-maps-foot-and-mouth-disease-risk-zones-where-livestock-and-wildlife-overlap/",
     "source": "Mongabay India",
@@ -12123,6 +12213,15 @@
     "lon": 87.855
   },
   {
+    "headline": "Andhra Pradesh Forest Dept Tracks Wild Elephant in East Godavari",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeG1kMndiZkJJbE01Z3RoMzZoTUkybmluZTNMb1ozZjhXNlU5dFFRQWwtb3VZRDEzWFZtU1owYmRHcWJxblFfWjRDRkJ2bWVOYTZsZ180N2ZUcVl3MXQ4QUptTkVwSGZ3T2JZZFplVXVCQlZpU1J1TjM3SXVMLXMwTGtKODUxbFN5SG94MWNEbTFCbUFzTDdlQnVSSFNFRk15cHFKM3dhTQ?oc=5",
+    "source": "The Chenab Times",
+    "published": "2026-07-28",
+    "place_name": "Andhra Pradesh",
+    "lat": 15.9129,
+    "lon": 79.74
+  },
+  {
     "headline": "New species of freshwater shrimp discovered camouflaging in Uttar Pradesh’s Gomti River",
     "url": "https://researchmatters.in/news/new-species-freshwater-shrimp-discovered-camouflaging-uttar-pradeshs-gomti-river",
     "source": "Research Matters",
@@ -23389,6 +23488,15 @@
     "place_name": "Andhra Pradesh",
     "lat": 15.9129,
     "lon": 79.74
+  },
+  {
+    "headline": "Man held for smuggling elephant tusks worth 3 crore in Hyderabad",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORDdjeUx0TUwxOXBMdExUeEN1UHlkYkNscktneFB5T01ST1VIM01DcENncTJ6MFRvYlVWVkVlbWZMMXVZV2tJNFdGSmRYVzBDS0pMeWtEVk5xWHdLUHZFV01XLVh5ZnRqYzdkNE9pc2Izd243MndRN3RxTkg2elQxRVp2aVRja1RfeTV0WFFFYWhKZE1Da3ZqT2JBbjXSAaIBQVVfeXFMT0ZzZS1TRG04SEtXTkJ5OF9PNnZXMEc5X01jZ0t3QkRDTWw1M3NlUkM1c0VWbFNBbFM4OTdFRHNJYVJBSGNDaDFQcnpIUFpxcDlnVjJvQi1mVUw2ZDNXOUNhWkNNeWUzWlhySVRYV0dtVUNyQXFwX0tvckJDQ1ZicXpMS0Zjb3BvYzFGeGdET1JvdHlRSDdabXJya2RNMUJGU1p3?oc=5",
+    "source": "The Siasat Daily",
+    "published": "2025-06-25",
+    "place_name": "Hyderabad",
+    "lat": 17.385,
+    "lon": 78.4867
   },
   {
     "headline": "AIADMK's Rajenthra Bhalaji does not care for Periyar or Anna: DMK Spokesperson TKS Ekangovan on Murugan conference in Madurai",
