@@ -1,5 +1,14 @@
 [
   {
+    "headline": "Rare white stork spotted at Okhla bird sanctuary since Nov 1",
+    "url": "https://www.hindustantimes.com/india-news/rare-white-stork-spotted-at-okhla-bird-sanctuary-since-nov-1-101793756817823.html",
+    "source": "Hindustan Times",
+    "published": "2026-11-04",
+    "place_name": "Okhla Bird Sanctuary",
+    "lat": 28.5333,
+    "lon": 77.3167
+  },
+  {
     "headline": "When livelihoods adapt to a changing wetland",
     "url": "https://india.mongabay.com/2026/11/when-livelihoods-adapt-to-a-changing-wetland/",
     "source": "Mongabay India",
@@ -133,6 +142,24 @@
     "place_name": "Jharkhand",
     "lat": 23.6102,
     "lon": 85.2799
+  },
+  {
+    "headline": "Study finds Western Ghats forest swamps as microclimatic refuge and suggests measures to conserve them",
+    "url": "https://www.thehindu.com/news/national/karnataka/study-finds-western-ghats-forest-swamps-as-microclimatic-refuge-and-suggests-measures-to-conserve-them/article71660332.ece",
+    "source": "The Hindu",
+    "published": "2026-11-03",
+    "place_name": "Western Ghats",
+    "lat": 13.0,
+    "lon": 75.5
+  },
+  {
+    "headline": "Lion drowns in sea during territorial clash with 2 other lions in Gujarat: Official | India News",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRFFxS3ZEcU1nSUs2VmxTRlF4dC1fa3FNZ2ktdE9IRnRheW5XX3JEX1NONGhDTWplYXZsN2dUbW5QeUZqaDBIY3NBSGdUeGYtVTJjM3hNRmdiTkxFc05LcGE2YWRTYzlqeVh3OURyZkRKOFNIM3l3eDFvM1lMaENSMGNMSTNyX2NiZ3lOdkNwYmVhaER6SDY5YTlnWUdMVEE0ZHFFRXU2LVRVb3RJdmxNQlpuRUVfc2w3OFU2Z2diRGZJdW1SRm1KRkxvUndDSDNFWlVfempPYkYwMVBnSnfSAeMBQVVfeXFMTi1HNGU0V09hLWhfb25kMl96MVU4RDNCNHR5Si1zRGdzR3JSdFJCdEh0YWhiT292UmpvNHhIM2VhNDkxbDhRSWdneDZjbVVKQ25rMFlkYTZoRnBLSjViTVFTbE5YRUdTUkNod1A0R3IzNHpqdzZUSVFDcUljWktlekxWMlVEZ3dUYkRlQklqNWNjX3FramxidWdtNmFmNTJHSkV6QkxlcHJfZjlSVVFLbjlpUmFuanMyaHhhWmNDLS05U2Y5VGRTQTgzWUl6U1ZxNC1nMXZVQmQzMnExekNZQU54dlk?oc=5",
+    "source": "Hindustan Times",
+    "published": "2026-11-03",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
   },
   {
     "headline": "Study maps foot-and-mouth disease risk zones where livestock and wildlife overlap",
