@@ -1,5 +1,68 @@
 [
   {
+    "headline": "The Megamalai Forests I Knew, and What We Stand to Lose",
+    "url": "https://thewire.in/environment/the-megamalai-forests-i-knew-and-what-we-stand-to-lose",
+    "source": "The Wire",
+    "published": "2026-11-11",
+    "place_name": "Megamalai",
+    "lat": 9.8,
+    "lon": 77.5
+  },
+  {
+    "headline": "The controversy surrounding procurement of books for Periyar Arivulagam in Coimbatore | Explained",
+    "url": "https://www.thehindu.com/news/national/tamil-nadu/the-controversy-surrounding-procuring-books-for-the-periyar-arivulagam-explained/article71688957.ece",
+    "source": "The Hindu",
+    "published": "2026-11-11",
+    "place_name": "Coimbatore",
+    "lat": 11.0168,
+    "lon": 76.9558
+  },
+  {
+    "headline": "8 held after Tiger found dead in Maharashtra reserve",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObTJfNExPMXc0UXY3ejQ4eFdtSE4wZTJCd1BhNDZXd2djZl9PUnJZd1RsbGRvWG5QUGNCcWRMcGVMSGdILTRXRm5WdFY4cVl1OEtJV1c4ZEl6Vk1XUGhhamVQd2FOelRwZXlhQUFfNjhNS0JacFY3OTRzN0hycHZEdTFqWTJyS1ZHNW9fcm9mOXl2T1U1Um9xTUxJMmppQTY0ZXRIQUtkQU9jWjZhR2F3S0t4ZkVCWXByLVZqdi0zdEVMUU8yQng1WUR3b3NVUGtvQ0E?oc=5",
+    "source": "Rediff",
+    "published": "2026-11-11",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
+    "headline": "Soha Ali Khan, Kunal Kemmu Celebrate Diwali In Tadoba Jungle With An Eco-Friendly Twist: Swapped Crackers",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQWF3cEszd1hVcFFGRDdVcGdhUVU3dERCWEJOQVBWdDQwck9WQjI0MUFTVE5UYnZILU4tWWgtY3VtV0RyR3dNS3FacHJ6TFRZcVdNeFZuT3NyMVhVRm1fVGZIeW44eC0tMkw4UE9rcktqVTNlci1tQ0liM3Npcnl4TWNILVVORmhzT2hvVGZwdTlZRzhpZGF4UlBZMXBPS0lGdXU1Ynk2NUZQS3pXcU1iT3ZPZDFUT3lySXdodTdiMWRiSlNxNXFIbEdxUVNFdFljb0xqMG5tZzlwM0RKWm5rbHkxRdIB6AFBVV95cUxOY3l6S1R0dVktTUtMdnpRYVN5c1hZUDZTc1c1WV9yVmgzWk1iRU9Idm5ZcUk3bk51Q2loSUtJeDJlM1FveU9MVF9xMDhwMGZpd3BnbmlCTExfd3RWeWZmcU5ZczV3OXk4a3gtYXVOSkszLWFkbU9CUUN2c0d6Y294SkFWWi1XRWpaNE9TMEhMNXo1TTItSDFTcUJtLUg2TTJlZ1dVVjdGODJ2WkV5aE1wWmVFbjliSUxPN2N4M2JIa3NLeWdsWVVJa0JsWVctYWxEOHJVdXREVmhTNlVraFd0TGxSSTNwUjJV?oc=5",
+    "source": "Free Press Journal",
+    "published": "2026-11-11",
+    "place_name": "Tadoba",
+    "lat": 20.2333,
+    "lon": 79.3833
+  },
+  {
+    "headline": "Cheetah from MP’s Kuno crosses Chambal, enters Rajasthan’s Karauli",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT2RKYTlVRXF4M1lldWh5cUxnQmctNEhESF9la0RHOS1wZnA4c29aOEhFTk1iZ1lZVHpGVURzUmdkeFlzOEFKdmdjZ0gxcUNkaXF4eE44UUtGOE9kUWp3VXRuM1lmZ3NGVnczY1htcWZ6VEJXOEs5TFIxNlFhRUJ0TEg4NVdzc2xhUV8xT2U2cnJ6Sk0ybGZYbm9HZkhNSknSAaQBQVVfeXFMT01wczVYUnBKUmRGMnA5eWFaNHY1dG5rWkN1T2ZBQkYyVmRkQmpnYzl1ajJidEpJTTc0dFNVRlh3c016eGJ0akl5NGZkYllQYlRRUWFhUjhUNE1PM2NQeTljR3k4Q3JSMWFMMldPald6djRyblJXUUU0dlVlMXVyc2ZFRDZWU2xpbUdZbXBlVmRvdkczN3dxY1NkaHF6aXR5czlreGc?oc=5",
+    "source": "ThePrint",
+    "published": "2026-11-11",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "Cheetah from Kuno crosses Chambal, enters Rajasthan",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQd2l1SVBjRnRiVWpLMEdjUE11anNhS1IwdVVncnZmRk1XZ0xlekF0YjhpbmNpMGV2bDlwd3d5LUp2VkNhSzI5WW5WWW01TGo4dFdwWnhodGRhbTJLeFBjTW1mTkNaM3pjU01DMGx0cXpCamZOSjJYd3FyU2IwWkVJWnhQbWt3VFBYR0ZkX1Zoa1FaTU5aLV9nSUZRUlFHVVoyb2RvYVRGYW5BeVR0RzhaZG1LeU5kNlJpUi1JdEVlRjNhU2FvM2VJT0QwZ3pmSDg?oc=5",
+    "source": "Rediff",
+    "published": "2026-11-11",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "Bihar woman trampled to death by elephant in Hazaribag; 10-year-old son hospitalised",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPc1JqNUQ0S0RhdkNIQkRtVF9nYWI2V0FUZGYtWjVkSnFqQWpRbGtfaFNBdmNHRGlnQkd5R1VvSzlPLTVLSXl2ZFpKSGk0NUZpSUVveS0ybGd3d2NGWTJXM2ZDcDB5MzFaZURJS3huWjlVYV90YVZoQUFQbExwLUgxR2J5eDBlYzdsenhQR2xYYjVZMXpjaTNOY04wbFRaX1dFY3VzMDRUX1FRaURXVDlNNjZCZGw0RmdVR0RKLXBJQ3puSE4wNzJmRUJUZ203U0haTmZZWEt0UDRyQ05LUTg1RWljcm1jVkJsWmczUS1n0gHzAUFVX3lxTE1URHR3MDlvVm13OFQ0N05XLV9MTUItZzNoZ1BlRERrSHd3SnRKdEdIZzNWY0pPbUh6LXNKSHBmVjhUZFM0V0Y2ZUNJTGNmbml1REdmcEFHR1MySkYxVWtoNjUtT3VjTkVEMmZvOExlUUR6Wl9qbkpXU3UzU2hwNnVZTmdfN0JYbjZVZGNWM0JPNmh3ZHN3RmxGRzRFTHR2R3BVSFpXNDAwQW5wNml6ekdQVUY1SkprUUhGbzJQRXhYSWRyRXVVNGFzUWJTcUp3ZzNEMTJHNzRVUEFqMzh5enFCd1lCeHM5VkFKNGNEWUZzOGRQNA?oc=5",
+    "source": "The Times of India",
+    "published": "2026-11-11",
+    "place_name": "Bihar",
+    "lat": 25.0961,
+    "lon": 85.3131
+  },
+  {
     "headline": "Wayanad conservationist N. Badusha wins environmental award",
     "url": "https://www.thehindu.com/news/national/kerala/wayanad-conservationist-n-badusha-wins-kfbc-environmental-award/article71683095.ece",
     "source": "The Hindu",
@@ -106,6 +169,15 @@
     "place_name": "Tadoba",
     "lat": 20.2333,
     "lon": 79.3833
+  },
+  {
+    "headline": "The Bare Necessities: Exploring Pench, Rukhad and Kanha at Jungle Camps India",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQOFZtN3dzZEpYQ05fMmF1Z1JLMnljQmFncUlEaFBhMlFlZ0NSY0FrRnluQkt4Y1IwWXoxTENWSFViUkMxbG5aZTVkTnAtVDBvbjRPTTVfZWpOSVl6ODJOeFpobjZQRmxzaVV6QnNSek8yN1QycjNWMjZoenVueHNTeG9GQ1RIRjItZEpuMHM2S25rX3FhcVEtTncyOEVtb0xyMmtXZi1wU1M1bUdqcUVmVDZ0bno3R1Fxc3E0cWRZRndYeEtfRGFBclRtZkJDVWYzVVFFRUVFcWRaS1ZtN1RGcVNXa9IB6gFBVV95cUxOWVJZNjQ0dWYyaS16bU9ocW83Yy1ONkw1bU16a3RDbUJOQksxWjdWNXBpQnJpelUtQ1d3OEo5RF9kcFRsVU1Ma1RiY2dNZ1JILTlCdXFNd3FYR1NlUTRlMVZINEREbU9ma3hLci1KY0dhSXRBVl9aeV9Rd1doZjJsUGtlODZzTlFfbzVwcDZmaUpwS3FfcTBlY0wwYjBtRGEteDY4WTNaNDg0T2s3LUM3Z0RRQ0RfU0NCYXFaU1VraF9OSmJ5ZzZjOU9qVHgzVkRfNGpROEI5OFFvSE45QXptbW94Vmh6TW1Da2c?oc=5",
+    "source": "The Hindu",
+    "published": "2026-11-10",
+    "place_name": "Kanha",
+    "lat": 22.3333,
+    "lon": 80.6167
   },
   {
     "headline": "Himachal executes first inter-state Golden Mahseer fingerling shipment to West Bengal",
