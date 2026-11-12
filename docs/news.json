@@ -1,5 +1,14 @@
 [
   {
+    "headline": "2 SPOs killed in J&amp;K’s Kishtwar, service rifles missing",
+    "url": "https://timesofindia.indiatimes.com/india/2-spos-killed-in-jks-kishtwar-service-rifles-missing/articleshow/135781119.cms",
+    "source": "Times of India",
+    "published": "2026-11-13",
+    "place_name": "Kishtwar",
+    "lat": 33.3137,
+    "lon": 75.7706
+  },
+  {
     "headline": "CII Partnership Summit: CM Naidu seeks WIPO’s support to boost innovation ecosystem in A.P.",
     "url": "https://www.thehindu.com/news/cities/Visakhapatnam/cii-partnership-summit-cm-naidu-seeks-wipos-support-to-boost-innovation-ecosystem-in-ap/article71689762.ece",
     "source": "The Hindu",
@@ -142,6 +151,51 @@
     "place_name": "Arunachal Pradesh",
     "lat": 28.218,
     "lon": 94.7278
+  },
+  {
+    "headline": "Forest Department seeks ₹1.68 crore to remove electric hazards along elephant corridors",
+    "url": "https://www.thehindu.com/news/national/andhra-pradesh/forest-department-seeks-168-crore-to-remove-electric-hazards-along-elephant-corridors/article71693615.ece",
+    "source": "The Hindu",
+    "published": "2026-11-12",
+    "place_name": "Chittoor",
+    "lat": 13.2172,
+    "lon": 79.1003
+  },
+  {
+    "headline": "Conserve our avian diversity, former Rajasthan CM Vasundhara Raje appeals on National Bird Day",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPSy1SdlY0U1UzZG1tZjd3U0V5TWlMT2tvM3BSYU53WFAxMVVvYjRkRDgyQjhTS1FVSllzUm1DUVpMMFRXWEpIVllCYXJnT1g1NEZFdUg5X2t2dUFEY1YyRjlRd2p4d3QxbjBnZk1yX0d4VnVsbGxmTDVscmV6Z2I4S0lpd29hWEEtRFFsaXYwVlNxaDBBUmdJa3hodzBIZHFDd2UtS3NrVkV3WWhLb0Q2M3QwdU9qSDB3eVlRa2hhbkFTdlFqY1gtc1ExbVl4aW93ZHhwVnBmbG9IbWZSdmcwT0xWdzBoZk5odmU0bXhR?oc=5",
+    "source": "ANI News",
+    "published": "2026-11-12",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "MP, Rajasthan Delay Cheetah Corridor MoU as Range Expands",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVWNyTS1hbHVBSlpobGJaTnpwcXVaVVF6NkJGcU5IblAtS0ZzOUNYRWdMRVVFSEpYdmltU2sxeEF5ZF8zWTFNd0FRaHFtMFhYbV9KeFRib2FqSG9Jd3dWUFRvODl4RmtBRnJGVy1kUGpOQWFLQ0dpSzVSb0pDakNEODhGemdEWDB6a2JCejNyTEZJOHBRUXZ5WVlnZVlpOExKYWFWRTJ3VFNHTnJ0QjVjZXM0MDVhTnJwOUlCMVYzLWx3cFZZYW1uaTB30gHPAUFVX3lxTE1ULS0tT0tLNE1DSVlHa1A0LUh2ZUEzR1RxSGxjV3ZENzNzY1gwa3FVRWRRajE5RHNtWFprbkpadUhXWGIwU1I4Vl9rN2c1UHFWeW1hUFp5eXZwVGZvRDQ5bzg2X1lUbFZMZHNWZEQ0UndmcHNZSGoxaldtRDBfNnlvVUVMRmpCa3FQWVBSYTJHNDFPR3J6WjB1cExKVWRuaEh4MFZ3V1Y2M2pOYS1oZmlXaUxLV2wzMXc4bmRQQ3FLU1JnVGxwUE10TVktLUdoVQ?oc=5",
+    "source": "The Times of India",
+    "published": "2026-11-12",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "Monkey Snatches Rs 81,000 in Shimla, Drops Notes from Tree",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVVYzNFRxWWJ6RWlhcnRmbE94cFNNTGczWVIxZ3J4cnYzY2VmbFJESDdFTS1TWUFXOHFFaGpHWDZJMkpvMGpFT0NGUWZISFQ2aXRiclViYkpDRnQwaUJoNDlOb0g5TEh5SWE0Mmp1OXAxUjhFbnZnMmpZcGhhaDNjWW5RUW5uQ2tnS0VHclNCRWl1WmxQWDU3bGJwZw?oc=5",
+    "source": "The Chenab Times",
+    "published": "2026-11-12",
+    "place_name": "Shimla",
+    "lat": 31.1048,
+    "lon": 77.1734
+  },
+  {
+    "headline": "Tiger Crosses Into Telangana From AP",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUXh6eDMzRXo4OUMwVkJBN3NEV0ZDc2lKMEFQaUs5ZGdOMG54aGpBTjhpYVFwWXhnaV80RDFKWEtYUmxrLV9XWXg3bFpqUDE0MzV0dTZJbzhEQ1pVY3BFbnF4OTZXMmt6cEtkTTludnljX2ZMb0VCaEFoNWtFdFNnMW1CWG5Ma21GcWFmZGpmSWNaTFJyUEh3SGQtcTEwaG1aT1dyR9IBqgFBVV95cUxPcjlZSjZWZVdabUhGQzhidm0yWlZ4QjkzM0RjU1ZIR1JHQlJBM3MzdDg1TFdHZTRxTlBYd3ZYSk5QZXBGXzlUN1ZKWU80UVl2OVFGRXFKcFMtamFYeTh2cmVzZVE3aXZlZy1RSjJ2VmxJSk5FYl9lMUFLMUlaalFGbjVjTWh3bVprX3lpUHNGWEFDT0Z0VzZSQ2VSYjJxbmEyREFDVG5BeU9OZw?oc=5",
+    "source": "Deccan Chronicle",
+    "published": "2026-11-12",
+    "place_name": "Telangana",
+    "lat": 18.1124,
+    "lon": 79.0193
   },
   {
     "headline": "The Megamalai Forests I Knew, and What We Stand to Lose",
@@ -27747,6 +27801,15 @@
     "lon": 75.7139
   },
   {
+    "headline": "Maharashtra: Tadoba reserve officials, 'Can’t say Maya is dead just yet’",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTUZwNXFIbzJZdUNmT0RvXy1PWWR0eElkOU0tbFZLYWNqTFp0aThxd1Y4TEtCZU5pUzlBU1dyUDZlR2FUWExIMFdUVmhuRXVQeWp6NXlNMGpzWFdISVZWQzl5OXR0dDMxWTVacHJSN0VSVjBCa3NfOUFZQWVGbmpIY0FDQTdnN1RPeUFTT0FOcFJRMzY1VllCcW91eU1CaDF1MHRESFVEWUVlSjJTV0kxVWtMb3NGaEswNU9vWkIydE0zME50T3c?oc=5",
+    "source": "Mid-Day",
+    "published": "2023-11-22",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
     "headline": "Maharashtra: Tadoba Tiger Reserve officials begin 3-day foot patrolling for Maya",
     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPLUlRY1hXYmJKV1FhanR3YnFzUmVXNXhTV0VSWFJnek5jVVhvWDdiTkwwSEdUcnAybXYxbjNCby1hcUpENDMtSjVTMHF2MC1wOW80bTdSSGprNWx2MUNQUWQ1dXY4ZmR3aktpS3I2SURJLXZaeVBHZ0IyaE5tbVh5QjA2Tm9ZNjVrVjhwSWxFOGV5YVE5S3hsUXNHMnJMclJjOHk0dkpLanFTdWhCR1F2dnkyd3pRemNZc0NOcU4zaS1MOGNQcWwxM0hpVDBXYmNRdmV4MTZn0gHbAUFVX3lxTFBhSWJGZnJ4UFBZblRtTFp1T1dvQ0Jmc29xeWRDcUtRWFNKampWd21DN0FHaGtncHAxeGJDNE5KcFpZNzlCTkswaDFJYlAxSDUybEVpSHhtMHViQXF6bExPcmJiMDduN3FXbVpxeHNYbWwzQmpWekRFWG1aRUg4RmFLQkZQOV9fR3lfYnJ2OW5HS0hYNHZiNmxoYXRsd1RuQVZ4c28zQnFQV2ljMHp1VTBveHNYbGJEZjBSWmF3Zkp5QXcxR1FIUEpPcG55T2RtRk1xdzhaV001Q25ycw?oc=5",
     "source": "Mid-Day",
@@ -27903,6 +27966,15 @@
     "headline": "Uttarakhand: Binsar Forest Sanctuary likely to offer bike riding and jungle safaris soon",
     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNVZRZERnWlBBR2JkaVFPSUZobGRRMUt3cHZKTDBFMW1QREtOV1ZwTjVwc0lDZklzZlM5NDdSY1pIV2pieTRtcGRHem4yUXJhTVNoUWp4d3RiOFNEclJNYjFZcVZoLTEtN2pfMkRneEdkRWlfeEd3X0JLektqTThOaHNlamIzajUyLU0xTXZaUFpnWFVHMFY0S1JfS05fQmxTMlFzdndlMlpSekxmTVZvY1RjTmt6a0VCR09nTU9YbjU4cWd4enVFWlIyRlRvM0JGMXAxZ2RQWEZrQllORjRxdWhIMWNSNU9hVHdlN1lKQXdEUXpxY1YyU3YtTzTSAYICQVVfeXFMTnVWbUZJdXVRTi03Qm9NN1h2bThtbkNjUnR4T2J3N25vM2FXRjgxT2RPaVFQSHgxaTByOTRQSFZfN0RUN0tKM092R2wwbzRBOXAxdENmcnRDLXloT3JrNDU0QnVjbzg0NHl6c050QVRUSFNXMjB0ZE5NMUJTQlJrMmt6VGpDSnpsWktfUTR6OGtPS05wbzJPXzA2dF9YSnRXVnBTZkl1ZnFTWkVZbXIyNW1wVTBQNG1pQVpzdHlDSllxclZzSzhrY200SVJOSXEwdmVqQlBfbm9haTlQUWgzTFZwSVFjRndCYW9DRUpGQWo2TEVpb0RWeTN6bWktdWs2cVdR?oc=5",
     "source": "The Times of India",
+    "published": "2023-10-05",
+    "place_name": "Uttarakhand",
+    "lat": 30.0668,
+    "lon": 79.0193
+  },
+  {
+    "headline": "You May Be Able To Explore Binsar Forest In Uttarakhand On Bikes & Through Fun Jungle Safaris",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWWJoWlVSOE9xcVBVTHFsLWYzbnVtRm9zaXlKWTJ6MU4tWVdqZ0szZnI4ZmU0OV9ZcFFKTlJVNDdpdnBQY1I4aFlwYjZGVGlHSVFhbFBITHFzdDZEcFVlbllOZzhPOVFnWmhObTk2YWNlUHkyMXNjRkdwZ2FmV240U0lqa1VDTWZfbl9oTkdyNEswZG1qTWI2SV8zSmRDck1oUWdqdmgxMnBLS3Y5US1VSlBUY18wUQ?oc=5",
+    "source": "curlytales.com",
     "published": "2023-10-05",
     "place_name": "Uttarakhand",
     "lat": 30.0668,
@@ -31732,6 +31804,15 @@
     "place_name": "Odisha",
     "lat": 20.9517,
     "lon": 85.0985
+  },
+  {
+    "headline": "Only one male Great Indian Bustard left in Gujarat: experts",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN2Y2d3d6VjFzZlNUQnhFVnptckdhNTNuelFfd3lmdnIxVlBwMldrb3RoWFN3dVVYUXpSSTdjVGpQLTFUOVUxZnpNSkU5Y0E0ajE3ZGJoLVdELWNaSHNicnNnOElDRWUyMWhpOUNReG5RNExBaTBIMUtLNEtzSDRkMnNGVWpaVGFPRTFqN1FpTUdleE9vLXFpeUhWcXMxc1ZrRXVwVE1FS3BYeTFPQ0FHczlrZlp1c0Jo0gHGAUFVX3lxTE54b1ExLS1CQ3pEVjE2X0N4N0dQalhsbzhDSUlVa1V2bkNoM2hEdGhXbmZUTnhYMk5sMHlPSXd2aDFkQTczVkROblZPYkxybTg4SHFWYTFBbnlYNnlkeThjalFCaTB4ZkdaYmdSVklRQTMydDU3NWgzNUx3bndPbGZqa25KOWl0TURMOTFDVGFqTTlwS1dYY2FFUGVXajJYOVEtUFR4bTNyRWwtNXJKbGg1RXd2X1dTOG9DR1gtdm85ZDdCX2Nodw?oc=5",
+    "source": "Down To Earth",
+    "published": "2018-07-09",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
   },
   {
     "headline": "Former Madhya Pradesh CM Babulal Gaur bats for police commissionerate system to check crimes",
