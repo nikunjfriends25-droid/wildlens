@@ -9,6 +9,15 @@
     "lon": 75.7706
   },
   {
+    "headline": "2 missing SPOs found shot dead in Jammu and Kashmir's Kishtwar",
+    "url": "https://www.hindustantimes.com/india-news/2-missing-spos-found-shot-dead-in-jammu-and-kashmirs-kishtwar-101794527922270.html",
+    "source": "Hindustan Times",
+    "published": "2026-11-13",
+    "place_name": "Jammu and Kashmir",
+    "lat": 33.7782,
+    "lon": 76.5762
+  },
+  {
     "headline": "CII Partnership Summit: CM Naidu seeks WIPO’s support to boost innovation ecosystem in A.P.",
     "url": "https://www.thehindu.com/news/cities/Visakhapatnam/cii-partnership-summit-cm-naidu-seeks-wipos-support-to-boost-innovation-ecosystem-in-ap/article71689762.ece",
     "source": "The Hindu",
@@ -196,6 +205,33 @@
     "place_name": "Telangana",
     "lat": 18.1124,
     "lon": 79.0193
+  },
+  {
+    "headline": "Assam: Retired forest officer on repeated extensions to be put in mines department now",
+    "url": "https://indianexpress.com/article/india/assam-retired-forest-officer-mines-department-10960943/",
+    "source": "Indian Express",
+    "published": "2026-11-12",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Bullet-riddled bodies of 2 missing SPOs found in Kishtwar, weapons missing",
+    "url": "https://indianexpress.com/article/india/2-missing-special-police-officers-found-dead-in-jks-kishtwar-10959819/",
+    "source": "Indian Express",
+    "published": "2026-11-12",
+    "place_name": "Kishtwar",
+    "lat": 33.3137,
+    "lon": 75.7706
+  },
+  {
+    "headline": "Five new diminutive horned frog species discovered in Arunachal Pradesh",
+    "url": "https://www.thehindu.com/news/national/kerala/five-new-diminutive-horned-frog-species-discovered-in-arunachal-pradesh/article71692996.ece",
+    "source": "The Hindu",
+    "published": "2026-11-12",
+    "place_name": "Arunachal Pradesh",
+    "lat": 28.218,
+    "lon": 94.7278
   },
   {
     "headline": "The Megamalai Forests I Knew, and What We Stand to Lose",
@@ -396,6 +432,15 @@
     "lon": 80.6167
   },
   {
+    "headline": "Rare tiger sighting gives hope to Odisha sanctuary looking to house big cats",
+    "url": "https://indianexpress.com/article/india/odisha-debrigarh-debrigarh-wildlife-sanctuary-royal-bengal-tiger-sighting-10956980/",
+    "source": "Indian Express",
+    "published": "2026-11-10",
+    "place_name": "Odisha",
+    "lat": 20.9517,
+    "lon": 85.0985
+  },
+  {
     "headline": "Himachal executes first inter-state Golden Mahseer fingerling shipment to West Bengal",
     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSjlpQkhCSUg4UVJOZGI5Tk1hNUxRNXJDd09ueGJOVFdoS19YSXpqUWhKY3dMOWZ3QnRBcmNYdmtBUnFfTEJsZjB5SHVLNEpOUk5nVWZGWDd0amQ3c09VQ3ZPTW84UXdacmE1eGFkeXh5QVNYMF9ZcmpmSTJ3bEtiNngyZ3lZUlB3djhYcUpPX0lzQWVkeDQ3SkxIQ042a3ZHZ0M3UUg3djNjMzY0OF93TU5nZnRtcmxuYWpHYkl4YmtlRi1wQVhkemwxWkFfY1ZLdm1nWWs1a1dNLXFWenVPZGI2T2dyZmlfZkhv0gHwAUFVX3lxTFAtQURLdko0Y24wM0NJLWNvVkwxNXlMTWZEWXZUTURPVHRVbTlVUjBSelFCcjBRMk91X1JKSjhrMHMzcGZURFVDSUZacldLNTlJR3VHekFOYXVOanpVTXZyNTQtd2xtMlRlbldhWG9DbFZ1THp6N0wwcUJ5YVNoVXg5RGhwWFV0SWF4NlRhOGRma3Y0OG83OFpzOTA0Y2t5LUd6aHAtTGx5Y3lxWGVScF8tdU1xbEpXeEhNRGQwbThvTDFKOEtvZ3NVRXpFbFJkOTMyYVZDS2oxeDNDc2xwR3NUZ29ySjJiS1NqNktNX3JHTA?oc=5",
     "source": "ET Government",
@@ -502,6 +547,15 @@
     "place_name": "Haryana",
     "lat": 29.0588,
     "lon": 76.0856
+  },
+  {
+    "headline": "Pumped hydro project in Panna-Ranipur tiger corridor gets in-principle forest nod",
+    "url": "https://indianexpress.com/article/india/panna-ranipur-tiger-corridor-forest-clearance-511-hectares-1800-mw-panari-pumped-storage-project-fac-approval-10956696/",
+    "source": "Indian Express",
+    "published": "2026-11-09",
+    "place_name": "Panna",
+    "lat": 24.7181,
+    "lon": 80.1895
   },
   {
     "headline": "Jumbo hustle: the transfer of elephants to Tamil Nadu’s temples",
@@ -772,6 +826,15 @@
     "place_name": "Kerala",
     "lat": 10.8505,
     "lon": 76.2711
+  },
+  {
+    "headline": "‘Shortcut to detain him’: Gauhati HC take stern view of NSA against Kaziranga activist Pranab Doley",
+    "url": "https://indianexpress.com/article/india/pranab-doley-activist-detention-nsa-high-court-kaziranga-luxury-hotel-project-protest-10953340/",
+    "source": "Indian Express",
+    "published": "2026-11-06",
+    "place_name": "Gauhati",
+    "lat": 26.1445,
+    "lon": 91.7362
   },
   {
     "headline": "Mumbai’s Byculla Zoo closer to getting four Asiatic lions from Gujarat",
@@ -21031,6 +21094,15 @@
     "place_name": "Nizamabad",
     "lat": 18.6724,
     "lon": 78.094
+  },
+  {
+    "headline": "New Great Indian Bustard Chicks Hatch in Rajasthan: How India Is Trying to Save the Species",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ0lfQ1g2Z3g4d3k2Z1VQc1dxeVBBbTA5YW5YSDBqSHRBZ2dvVXUwOGF1SE5Tb1J0a2g5dXIyb2d1eXdRQ1hMRWFCRncyczl4NGtFSExXaEJTVGk1ejNjLWZ5aU4tVGRBUGhJVVA4U1pvejBkYlpmUVNSZ0FycXZHX3BfT0FPbTd0OGN2QzVqQngxYW1nVXlrc0Z0UW54el9Fd0RvU01HdHZ1SThkZXhrWjQ3b2N3RjNtaDBj0gHAAUFVX3lxTE9aQ2M3R284TVZzU2hzeUE5cXg0Y2Npb3RuVi16eUNKWWp0Qzc2eE9rUG15SkpnOEdNamx5Sm1zbGVfSHN6ZDRuMGNreGh4TXBGLWsyR3NPMjhVR3RHa1pXdTFUR2pFOVBBRmhaQngwWFh4LXEzZGpCZHMtRFBqd1FUeWJIMXNHTHZQWXYwcFk0SGVHMkNJQmlCMldMM0tUZmk4TlJSN1o1NjJKV3pNNXhyUzlEdVJoNng0bzdGZnpkcA?oc=5",
+    "source": "The Better India",
+    "published": "2026-03-31",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
   },
   {
     "headline": "Hanging by a thread: Northeast Bat populations under severe threat",
