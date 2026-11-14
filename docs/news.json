@@ -1,5 +1,32 @@
 [
   {
+    "headline": "Kishtwar killings raise questions: Why were the cops sent to a base with its own SOG unit?",
+    "url": "https://indianexpress.com/article/india/kishtwar-killings-questions-special-police-officers-jammu-kashmir-10962372/",
+    "source": "Indian Express",
+    "published": "2026-11-14",
+    "place_name": "Kishtwar",
+    "lat": 33.3137,
+    "lon": 75.7706
+  },
+  {
+    "headline": "Algae-based artificial tree to help check air pollution in Guntur",
+    "url": "https://www.thehindu.com/news/national/andhra-pradesh/algae-based-artificial-tree-to-help-check-air-pollution-in-guntur/article71697256.ece",
+    "source": "The Hindu",
+    "published": "2026-11-14",
+    "place_name": "Guntur",
+    "lat": 16.3067,
+    "lon": 80.4365
+  },
+  {
+    "headline": "Maharashtra forest department seeks Adani’s response on Tarali project cost, Adani denies lowering project cost",
+    "url": "https://www.hindustantimes.com/india-news/maharashtra-forest-department-seeks-adani-s-response-on-tarali-project-cost-adani-denies-lowering-project-cost-101794619997280.html",
+    "source": "Hindustan Times",
+    "published": "2026-11-14",
+    "place_name": "Maharashtra",
+    "lat": 19.7515,
+    "lon": 75.7139
+  },
+  {
     "headline": "2 SPOs killed in J&amp;K’s Kishtwar, service rifles missing",
     "url": "https://timesofindia.indiatimes.com/india/2-spos-killed-in-jks-kishtwar-service-rifles-missing/articleshow/135781119.cms",
     "source": "Times of India",
@@ -142,6 +169,15 @@
     "place_name": "Assam",
     "lat": 26.2006,
     "lon": 92.9376
+  },
+  {
+    "headline": "Forest Department to implement human-wildlife conflict mitigation scheme in 11 villages in Coimbatore district",
+    "url": "https://www.thehindu.com/news/cities/Coimbatore/forest-department-to-implement-human-wildlife-conflict-mitigation-scheme-in-11-villages-in-coimbatore-district/article71698867.ece",
+    "source": "The Hindu",
+    "published": "2026-11-13",
+    "place_name": "Coimbatore",
+    "lat": 11.0168,
+    "lon": 76.9558
   },
   {
     "headline": "CII Partnership Summit: CM Naidu seeks WIPO’s support to boost innovation ecosystem in A.P.",
