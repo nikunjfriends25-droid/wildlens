@@ -1,5 +1,77 @@
 [
   {
+    "headline": "Maharshi Valmiki’s ideals should guide generations, says Raghumurthy",
+    "url": "https://www.thehindu.com/news/national/karnataka/maharshi-valmikis-ideals-should-guide-generations-says-raghumurthy/article71735710.ece",
+    "source": "The Hindu",
+    "published": "2026-11-23",
+    "place_name": "Valmiki",
+    "lat": 27.25,
+    "lon": 84.15
+  },
+  {
+    "headline": "Beyond Qutb Shahi tombs | People explore trees, birds and ecological relations at Hyderabad’s 106-acre heritage park",
+    "url": "https://www.thehindu.com/news/cities/Hyderabad/beyond-qutb-shahi-tombs-people-explore-trees-birds-and-ecological-relations-at-hyderabads-106-acre-heritage-park/article71731314.ece",
+    "source": "The Hindu",
+    "published": "2026-11-23",
+    "place_name": "Hyderabad",
+    "lat": 17.385,
+    "lon": 78.4867
+  },
+  {
+    "headline": "Complaint to National Tiger Conservation Authority seeks probe into T.N. Minister Vanni Arasu’s visit to Mudumalai Tiger Reserve",
+    "url": "https://www.thehindu.com/news/cities/Coimbatore/complaint-to-national-tiger-conservation-authority-seeks-probe-into-minister-vanni-arasus-mtr-visit/article71707137.ece",
+    "source": "The Hindu",
+    "published": "2026-11-23",
+    "place_name": "Mudumalai Tiger Reserve",
+    "lat": 11.55,
+    "lon": 76.6167
+  },
+  {
+    "headline": "Man crawls under elephant statue at Madhya Pradesh temple, gets stuck in tight spot",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZmwtS1VpTUgxU1d3SVdjTFN3R0dYb2U0azM1TlpLOVZkTlZucjgxZDFoWkRtczFnRjBadWFIRDV2ZWs2UXFYRW1GME1vcmhSUnBxOU5QRS1BY1ZRTEx6ZGxaazlxa25Ib2lYUHlUT20yZUtvSmlzZE0wTXY0WVV2R1Ytcl9rZ0VUQmdWaEFQNTRMWmhuOWZLLWFjS1lmZ2JYSm5oRVFLSmlkdlJNVGlEcmZoVi1YSl84VlpTSUFYLU5sRzczam5BRkNxM2JLWkxYLVJDenVNaWRzQWlDVnlqMtIB5gFBVV95cUxPUWI2OVQ5TW1zODdhc25TVGNJUEUtWF9PVE5mZ1Y1NUZwaHZRSVl3YVBQM1pSYU1DY004cWlZM3J5QkRqS1ZoYktIVXd2V1c2c1MxOC1XZXdadk93b1lGdzBveFVOcHE3ZlEwa2kweDdQNGZCRW50VkF3bUFLRjNhckd2VVI0b3hDSkxoYVVkVS1NT3piSDlQUXZGQUpMLXoxU2FXNEFCUGJSYzlFenlCdXdFVFg2TlpsMmhJblZyUXBiSUdqRFIwLVNPaEUzNnpMZlZfSURLTmJRX2VjVWNnRmMzVnB6UQ?oc=5",
+    "source": "India Today",
+    "published": "2026-11-23",
+    "place_name": "Madhya Pradesh",
+    "lat": 22.9734,
+    "lon": 78.6569
+  },
+  {
+    "headline": "HT Evening News Brief November 23: SC's BS-VI mandate for Delhi, India announces $1.6-billion Nepal aid, ICC to introduce bat gauges and more",
+    "url": "https://www.hindustantimes.com/india-news/ht-evening-news-brief-november-23-sc-bs-vi-vehicles-delhi-pollution-india-announces-nepal-package-icc-bat-gauges-101795434979114.html",
+    "source": "Hindustan Times",
+    "published": "2026-11-23",
+    "place_name": "Delhi",
+    "lat": 28.7041,
+    "lon": 77.1025
+  },
+  {
+    "headline": "‘Don’t act like Robin Hood or Bahubali’: SC rebukes Bihar judge for convicting cop",
+    "url": "https://www.hindustantimes.com/india-news/dont-act-like-robin-hood-or-bahubali-sc-rebukes-bihar-judge-for-convicting-sp-101795426038667.html",
+    "source": "Hindustan Times",
+    "published": "2026-11-23",
+    "place_name": "Bihar",
+    "lat": 25.0961,
+    "lon": 85.3131
+  },
+  {
+    "headline": "Roaming Tiger 'Explorer' Evades Recapture in Andhra Pradesh",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbVFIRklMTnRqWU56dWlmVms2Q1VRbEM5WjJEMkJ0MzY4bVljRkFDenNGb0dVdmhMNDdMcHB3YWZwQXRTdFZpanBreGVUaGtGME1UYVd2dHg4RE9qaFB2eWtVLTB3R3RrT0lma2V5Q0lCNVlVcU4xVWFMVVJObGs2WDRUZmNDdDBRY0Z3V0lhS0pMcmlhUlBKdTVpZE9id0R2ZDJ4ZXhMcVJNekZZT1B5d1AxWjBaZzROQ05NZ1Vn?oc=5",
+    "source": "Nature World News",
+    "published": "2026-11-23",
+    "place_name": "Andhra Pradesh",
+    "lat": 15.9129,
+    "lon": 79.74
+  },
+  {
+    "headline": "Clouded Leopard Released in Back Into The Wild In Arunachal Pradesh",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPX1FyTk9RUWs3UEtieUpUV3Bic0JzampQdnB6VUQwSG9STm5VR0RRdUtESTE4WFIzVUV5TG1kX2ZSTTgxZG1DMm1XZkhpdXNXNEo5Q0d3R2dKT0tjNlFmRUctZm04Vk5rVWVLWVVVeDQ2amF5R0JBd0NRemFlZUlYVVhyNnNkcDFNR0E4Qk9BcUtSWjNiUUJ0RGIxTkplUzIzakw5Qy1aaUxhOElHV0RZNVVJUlFPN0tZWWNZVVR6aEdkUW9JMVFWc24yaDZQY2vSAdwBQVVfeXFMTjdacjdxdGVTdzhvZ00yWjVFWUJKMWZMUnlvTzZidkhqX3N1SHg3UnVNUTZ1Ny1EMlphZjdoR0p2Z01MWVR0ekk4dVBHdjJINW5SS0tnams5N21Eam4tbWctelNYdGF3eWlzdUFhMHlfZkF2QmpJVmN1TXRtLVJBUXVzV3NHME14cGpCeEVTdlRoWng3REREUnBUcGVIRUI5dENkNklZRlhrbndkUGF1ZzkxeFZaODVuU0I3Y3h0a0djZjd4TXhGdTRZWGNRRWFPY0FsQ2hPNWVfMGloSA?oc=5",
+    "source": "The Sentinel - of this Land, for its People",
+    "published": "2026-11-23",
+    "place_name": "Arunachal Pradesh",
+    "lat": 28.218,
+    "lon": 94.7278
+  },
+  {
     "headline": "Watch: Biker Comes Face-To-Face With Tiger On Maharashtra Road, He Remains Motionless For 3 Minutes As Big Cat Blocks His Way; What Happened Next?",
     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOSEVKOU5QWTNMbFpLNHQxMVpvTGdfdmNlRnBZNkFQRkFtem1vUUtocl8xVm8yZW5iR0xMeUY4RnJDMWtRaS1GVmxpWlV1WS1IMkI1NlVyLVBXQmExMWFBYU4ydC1NR0RJV09iZTJYLXY3M0RuVTdpdHRuYWVYVFJFQ3BNczNnMThGeFI5ZVdDOVpTclVOVS1HT01LenJnQW5UZHl0SExfYTdvZ3ZBY1UxTS1idm13bndHMGZRTk1Pc253ei00QndHT0xiVjBiWkZiSlpya1dQSlg5bEdmMHdYcEQxVmdzQTJvVnN6ejhwa3lJRjNFMHFKcGlNcmk3LXItM3VxbEhDSHlvVTM5c1BN0gGUAkFVX3lxTE54QW8wdlIwdHdoR21BWU16SWQ4RjVXT1JaTldvR1lnWjROdl81TWZReElHeWUxNnB2azkzcWRvTzBQSWtjMDRwaEFMLXFGR0g2MEV5a0hEV3dGYm5XOWlVdnJsSVJvby1HS09LZDVRTEU1cFZHZVRveUphQmlGbFRZUElidzRIbmlldFRCVzlUc3M0dmgzLWVfYWlUT2xXRkJqMjgzRHJsanNldjRCSGh0dC1mT0lQamcxZ1luZ0k5Z2wwYm5WaEtRWHh0TW5lSVZlaGdiYTlhU2x0ZDR4dzNEQzVwa2k5LVFOeFZhRUtwbU9qQ2VRS3FIY0EtczUtY2hRR3hpeVkyeUJ3X2hFZHg0WThMYw?oc=5",
     "source": "NewsX",
@@ -52,6 +124,15 @@
     "place_name": "Assam",
     "lat": 26.2006,
     "lon": 92.9376
+  },
+  {
+    "headline": "Explore India's 13 UNESCO Biosphere Reserves: From The Nilgiris To Ladakh",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWFFLMEJmNXpoeTNQeS1rTWFmUHJMUlZJZDZJNDl0LVltS3JoanJTS0JLOURBNWQzNjk0V0RWSUtFM1NVOHJRXzg1SkFRbnlTMTNNTEp6SzZrSjJQV3UwY2Z3NXM3MzUxTXJreXZzaDE4OXBlYzFxdkY5TjRzMVJqSXlfQXFwV3JsSlBhNm9Nbm5WRzZXU3NDRHAtOFNTc0NUWUlWSERabGcteVdScWd3V0dnM1Z6Q0g3c3V0a0tkUkTSAc4BQVVfeXFMTm5mMkVxYW9zbm9rYmFGLVQ5QlNoVmRHamxLTmNQSXAzblJQbDlsQ2hVaHd5NkFERm9BdFJSZlZXTG04NzYxM2ZmR3NUTGNmZnJpLVByV25NWUQwbGVzTFpJM0dsMEZ1REo0ZHFkeVh2ekVIQlA1aHJ5YTNEZ0JNZDhnNjJlSzBQUGFzQzhPRnk2T2xDSG1Pb2h3Y0JnMG5YQXdVMEtKMXNrOEpVRVJDODc1aGdpR0VWRjEwOWZIS2N6eGJ3OWJ0UVhkZVB4aWc?oc=5",
+    "source": "Outlook Traveller",
+    "published": "2026-11-22",
+    "place_name": "Ladakh",
+    "lat": 34.2268,
+    "lon": 77.5619
   },
   {
     "headline": "Periyar Tiger Reserve launches eco-friendly Irumudikkettu in Keralam’s Sabarimala",
