@@ -18,6 +18,69 @@
     "lon": 71.1924
   },
   {
+    "headline": "Female langur returns to zoo enclosure in Thiruvananthapuram",
+    "url": "https://www.thehindu.com/news/cities/Thiruvananthapuram/female-langur-returns-to-zoo-enclosure-thiruvananthapuram/article71738970.ece",
+    "source": "The Hindu",
+    "published": "2026-11-24",
+    "place_name": "Thiruvananthapuram",
+    "lat": 8.5241,
+    "lon": 76.9366
+  },
+  {
+    "headline": "Government examining measures to curb human-elephant conflict in Hassan, says Forest Minister",
+    "url": "https://www.thehindu.com/news/national/karnataka/government-examining-measures-to-curb-human-elephant-conflict-in-hassan-says-forest-minister/article71739326.ece",
+    "source": "The Hindu",
+    "published": "2026-11-24",
+    "place_name": "Hassan",
+    "lat": 13.0068,
+    "lon": 76.1004
+  },
+  {
+    "headline": "Assam: Study documents 26 bird species in Maguri-Motapung wetland landscape amid oil industry pressures",
+    "url": "https://nenow.in/environment/assam-study-documents-26-bird-species-in-maguri-motapung-wetland-landscape-amid-oil-industry-pressures.html",
+    "source": "Northeast Now",
+    "published": "2026-11-24",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Endangered Asiatic wild dog photographed for the first time in Arunachal’s Tawang",
+    "url": "https://nenow.in/environment/endangered-asiatic-wild-dog-photographed-for-the-first-time-in-arunachals-tawang.html",
+    "source": "Northeast Now",
+    "published": "2026-11-24",
+    "place_name": "Tawang",
+    "lat": 27.5861,
+    "lon": 91.8594
+  },
+  {
+    "headline": "Assam CM hands over Rs 5 lakh cheques to families of 26 Kaziranga crash victims",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNR09jT1Fld3pxdk1UaGlNRHFVN3lUTFA5TGQxbGdhUjNQaC1wVXdCd3QzZmNhWFAwTjBsY0FnNGNWNFZDZmZLejgyVUVZcFVuOWNUanBGUmRicUo5bkxOY0hUeUpKR2FFTVNTcVV1cFpRSmVWdHlVYTN6dGJLLXdzN0hoWndHNFY2N1U3VXNjZWFnWHVrRDZjZzJIR2c2UmR1MHZuTktGbVZaVWR2QW85UGIyNkFtTGEzejVFNjBpbnEzNmQ0ODU0MkYxOGpaOThFLXhyWktKLUtkWkE1d2tFR0JiLXExQUnSAewBQVVfeXFMT1lDM0lmN0Z6c0QwQUlhdERKTVpUSFZWZm9RTGtCVUNYNW1vWU9SOXZYclFzLXJUY2cyRWlBc1MtTUZoXzR3aWVyOE5VQll3dWtseXMxeVhMemRjaDROV1N6dnpyVXZMZ2Qtd1l1VHNKUlduTkVRLURxcktoM1dqTEhjSW1iNXE2VUgycXNzeThKVDloRlpVTUlmOWtqYUE2ZlhRYjN5X1c4anZXMjRQd0lMbTc5QXBmbDhFTTJXVVhHQUZfVlhVSFFtWW4ydlJzWVAzZjc5SjA5OFBJcU1Jd09IY05PYzFreTh4Qms?oc=5",
+    "source": "India Today",
+    "published": "2026-11-24",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Nagaland gets 20-day PAP waiver for Hornbill Festival; stakeholders say not enough",
+    "url": "https://www.hindustantimes.com/india-news/nagaland-gets-20-day-pap-waiver-for-hornbill-festival-stakeholders-say-not-enough-101795520315726.html",
+    "source": "Hindustan Times",
+    "published": "2026-11-24",
+    "place_name": "Nagaland",
+    "lat": 26.1584,
+    "lon": 94.5624
+  },
+  {
+    "headline": "5 tree species, including eucalyptus, exempted from tree felling permission in Delhi",
+    "url": "https://www.hindustantimes.com/india-news/5-tree-species-including-eucalyptus-exempted-from-tree-felling-permission-in-delhi-101795490730173.html",
+    "source": "Hindustan Times",
+    "published": "2026-11-24",
+    "place_name": "Delhi",
+    "lat": 28.7041,
+    "lon": 77.1025
+  },
+  {
     "headline": "Maharshi Valmiki’s ideals should guide generations, says Raghumurthy",
     "url": "https://www.thehindu.com/news/national/karnataka/maharshi-valmikis-ideals-should-guide-generations-says-raghumurthy/article71735710.ece",
     "source": "The Hindu",
@@ -3778,6 +3841,15 @@
     "place_name": "Maharashtra",
     "lat": 19.7515,
     "lon": 75.7139
+  },
+  {
+    "headline": "Radisson Hotel Group expands its presence in wildlife tourism with the opening of Jungle Home Resort Tadoba,..",
+    "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPQzdyQW84b3pHaTBEZC1pN0lETkttOEwyaXBFODgwVmdoc0d6NEQyZVUyWkdTeEluRmJkOVowTkZxb1NjU3JzM19yZlMxTlRfdlBNNGRtTXpNRGdFZVNWOGVwTGNCQ2ZYUmNvOFhFUGJkME56Q1BXZk1KRjZrd1h6SHcwWElTMWVVXzZHZXdsRnFWWnFuZFZ1SGJMMTVGMFdFOF9VOG1fTDdLejBEUXZ2SVoxb1gyeldpY21XN3NCd2drcEU5MnRkZHJrYlBMYm5oenNYNURxazN1MlBfZmNCeHJOVHBfVFotc0ZFMWNlMTl3UHVwU1pWY2JXVWhKUFl5U1FIck1VamtreHowdzVEX2pvdGNJVEJPQkVsYXUtdUxyMmQxN0V2SXJ6R1hoTnpMWmRBcldQTnZYQm1Fdl90dGh30gHHAkFVX3lxTE5qQXlMWUdqQUQ1MUtWTGdxOVNpUmZnb0N3eVNFaXl5ZG1OaXA2dXdaZm94WmRqcDFHbTJTOE8zbExTRGdsLXNxTGhaT0swM0ROanlnZ3J6ajRLejdhVUtoRnBFM0Q0R1hyLWFhMy1nM2lHdUd6YlJONVVxTzhlRl9lU3hiekxMaEZlUks2VFRWNnQ5MzRQMWRBMElNU0d3bHhQNXY4TkozVUpSeHRDd3hEcTFDbWJyMkhZM211V3VjbVZ6S0x1VGN5bjZGMmlOZ0JQNEgtMG5qMEpaRkplYWdaWExZWThaMUZRWVlyMWFzNzY1UXVhSndtcDhTbDQ0djVPTDhyT2R5MmJWTGRBQmF1RGo4XzEtU0tOQ3ZMYnNZa2dRaGF6bnFlYTBMek5rZURzWUdqSHI5LWVNNUdGQmExRFQ1MF9hdw?oc=5",
+    "source": "ETHospitalityWorld",
+    "published": "2026-10-23",
+    "place_name": "Tadoba",
+    "lat": 20.2333,
+    "lon": 79.3833
   },
   {
     "headline": "Three held for suspected deer hunt in Karnataka; rifle, night-vision equipment seized in Hyderabad",
@@ -15858,6 +15930,15 @@
     "lon": 79.74
   },
   {
+    "headline": "Maharashtra to give two female tigers to Andhra Pradesh to boost wildlife conservation",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUmRmS01kcktZRW5zNm4xdmYyMlQwR1E1dnVSRUUybThjUVVvd3ZiYmpVRnlMUWVPSkkyajFPR0h2Vi1zdEE1YUtncTMydkQwaDZoVk44RnJ5MHlpMHZGNkp2TEJicl9OU1pTSjc2RzVNSHF3cHF0WkVkcUtRSGROM3dNclNUcFJYb2JDQnUtQTRPSHhHOTNycXpYRGhmQTcyQUE2SXhxaDBlX1pmTWRhM0poaV9mM1NwRXotak04bUNVSGE2bGRsZExCanZkSUcwenI4T3B0VDjSAeYBQVVfeXFMTVBDTk1NeF9YdGptSm50LUZrcndMNzZGU1NGUnpZLU45SVNnYjhuTHM4Y1N6dmI0YUNYMDVTMnZ6YjRZQnhobXJWSXZDUHl6OGdWQU5pUlRsRWpld1c2V1hGVnAwM2R3SUM4UVc0UFljZHF3cTZ6ak9maVhYRWRZXy13NVNYREVUN3Q5cXA2aWpINmhJZHp4Z2cwaDBtWElMelg0a2tncHZoZ1ZYcURNdjFNS250QlhxdVRzbVFZY2VBaUswYmJHaWx1OVJwVVZ5WUd6YTZUUlFGWVRzNWVwaUFGRnpSN3c?oc=5",
+    "source": "Deccan Herald",
+    "published": "2026-07-21",
+    "place_name": "Andhra Pradesh",
+    "lat": 15.9129,
+    "lon": 79.74
+  },
+  {
     "headline": "Panel to consider two complaints on leasing and illegal diversion of forest land in Kerala",
     "url": "https://www.thehindu.com/news/national/kerala/panel-to-consider-two-complaints-on-leasing-and-illegal-diversion-of-forest-land-in-kerala/article71242073.ece",
     "source": "The Hindu",
@@ -16805,6 +16886,15 @@
   {
     "headline": "BRICS delegates visit Tadoba reserve, spot multiple tigers",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOVR0ako5VFdmMkdnS29YSGtZUldCU1U2Q2kzSFZuR01qZGY3MmNfck9CUjBkWllqZ3dXb2ppWF9xVUdMM2w5UDlCN0RBVEptQjAzd3FFSl82WlZYMjFBcS1HQ3FfUV8tVEhTR0x3VEpOR1AxeGp1NXZhNmhETjNDc2lXSEp3V25PcVVWTkFUSUXSAZ8BQVVfeXFMTWY1aU5fVmtDenpJRTlleUMtSENwRHg5aHhyaEtrNlhzWjZRU1pJVWVlcjJ5QnlhaTA4N2N3SGpoNWxJWGtXOVV0NjUzN0VvVkpvc0N6bHpIamRBZ09Yejk4dng5WXV2R0FHMWhZbEhPOFBOWGNzVEJTbW5JWV9TRG1RTkpIM1pZbzAzRTBOYnZNWjBscG5JbFBQQjF4X3dN?oc=5",
+    "source": "Daily Pioneer",
+    "published": "2026-07-13",
+    "place_name": "Tadoba",
+    "lat": 20.2333,
+    "lon": 79.3833
+  },
+  {
+    "headline": "BRICS delegates visit Tadoba reserve, spot multiple tigers",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSFNmcmNENVExdVRXemVqTHI1b2t3SlJiOXJnemVDdmlLN0ZCU0c1empSc3J0TEZOdEZXRTNnZW1SamFBNGNCdDNxcFlMenJJYzBPTnRmcThMNThVa0xPNjM1cnhQbG5LRmFra0Z4YVhERnR3Z3l2YWU0dFJKYTF2UWQweEtoaFBPVTlwYk5CUmlLd9IBnwFBVV95cUxNZjVpTl9Wa0N6eklFOWV5Qy1IQ3BEeDloeHJoS2s2WHNaNlFTWklVZWVyMnlCeWFpMDg3Y3dIamg1bElYa1c5VXQ2NTM3RW9WSm9zQ3psekhqZEFnT1h6OTh2eDlZdXZHQUcxaFlsSE84UE5YY3NUQlNtbklZX1NEbVFOSkgzWllvMDNFME5idk1aMGxwbklsUFBCMXhfd00?oc=5",
     "source": "Daily Pioneer",
     "published": "2026-07-13",
     "place_name": "Tadoba",
@@ -22300,6 +22390,15 @@
     "place_name": "Maharashtra",
     "lat": 19.7515,
     "lon": 75.7139
+  },
+  {
+    "headline": "Tagged Olive Ridley turtles from Tamil Nadu reach Sri Lanka Dome, reveal migration patterns",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQdmJDNzdKQVlOcHZqdXVwckM0VDFSZnBCTXlLWTBhSlRKWGF3NVQxSV9pbndrZW9QNFphUGRpeTUxbGNYM0xYcXpGUGRjbThyT3JTV20taWJGVTY4ZC1ENkNsUVgwTU1yTFVXWE1xb2M0YkNlQ2FuN1pZWXUxZ3FJYmtZR2xWMjVCdlF6WGtzU1Noc0NxRkVXMjhkYzRkWHg4cjYzWmRwR2h5TVoyMjZtbjlxVG1xLV9yeEVpeUtSMUItVDJ3QklFV0M0NkxmSnRIR3Zqb29Qd3FhSDJJWjNueTZNZVZOUUU?oc=5",
+    "source": "The Hindu",
+    "published": "2026-04-25",
+    "place_name": "Tamil Nadu",
+    "lat": 11.1271,
+    "lon": 78.6569
   },
   {
     "headline": "Proposal for relocation of Indian gaurs awaiting Karnataka govt nod",
