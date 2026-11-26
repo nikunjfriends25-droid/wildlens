@@ -1,5 +1,104 @@
 [
   {
+    "headline": "Forest Department to capture one tusker in Chikkamagaluru",
+    "url": "https://www.thehindu.com/news/national/karnataka/forest-department-to-capture-one-tusker-in-chikkamagaluru/article71746912.ece",
+    "source": "The Hindu",
+    "published": "2026-11-26",
+    "place_name": "Chikkamagaluru",
+    "lat": 13.3161,
+    "lon": 75.772
+  },
+  {
+    "headline": "Farmers protest demanding release of Bhadra water in Shivamogga",
+    "url": "https://www.thehindu.com/news/national/karnataka/farmers-protest-demanding-release-of-bhadra-water-in-shivamogga/article71746334.ece",
+    "source": "The Hindu",
+    "published": "2026-11-26",
+    "place_name": "Shivamogga",
+    "lat": 13.9299,
+    "lon": 75.5681
+  },
+  {
+    "headline": "Tension at Nagarjunasagar as A.P. releases water to right canal unilaterally",
+    "url": "https://www.thehindu.com/news/national/telangana/tension-at-nagarjunasagar-as-ap-releases-water-to-right-canal-unilaterally/article71746621.ece",
+    "source": "The Hindu",
+    "published": "2026-11-26",
+    "place_name": "Nagarjunasagar",
+    "lat": 16.15,
+    "lon": 79.3
+  },
+  {
+    "headline": "Who runs Assam’s Forest dept? Orders, transfers and reporting lines draw scrutiny",
+    "url": "https://nenow.in/north-east-news/assam/who-runs-assams-forest-dept-orders-transfers-and-reporting-lines-draw-acrutiny.html",
+    "source": "Northeast Now",
+    "published": "2026-11-26",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Amur falcon flies 5,700 km non-stop from Manipur to Somalia in 101 hours",
+    "url": "https://nenow.in/environment/amur-falcon-flies-5700-km-non-stop-from-manipur-to-somalia-in-101-hours.html",
+    "source": "Northeast Now",
+    "published": "2026-11-26",
+    "place_name": "Manipur",
+    "lat": 24.6637,
+    "lon": 93.9063
+  },
+  {
+    "headline": "Indian researchers develop new antivenom for two pit vipers in Northeast India",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNbmVSOHVZWnpPOWdIZ21VLTNKQXhBdV9ienFJQzcyMlhla2o4YndDMTBpdVJ1cVNqY3hwMWpkc1B2aGwwZ1V3Z2VwdEk2b1ZEUi1uSjd1LVpFcm9JR1piYWw2SWJ5clo5bHRMMjBGV2xjNV92QVRIZHkwNWt2MlBhQjh4QklDYjhsaUp5eU5IdFJuWlFuVjl3Y0cyR3VlXzluNWVUSWFhNXpDdDlMT1N5c0lHakV2ek92eGVpRXdBaHN0R25xNDZuVzE2dHQtQUZxUVh3QXJTenh5cURFUmt5RXJseElmZGvSAewBQVVfeXFMT1RtdF9IRlJpLV9KOVI2c1lZU3pIdTlBQVJMX1JRZmxmeHQzVjQ0bnY0QjBQOUFEM21odzdwMjBzdkRqOFE3OTJ0NTJzQlhQMnZpNU5weHA3Z3RqbXNkOHFVeFZvMlluWk5RUU1Qa01pa245U0N6UktsTHZ3d2EtSG1YYk9tMENFVWxLbWtWQm05S3lBSDN5bzR0Qi1QaUcwcWhQUHBUdHRkeFkwUmJDZ0YwMzVhUXJCcmdyOURIZXE5LUxJRTJZVHhKY2dnb1o4SmZPZzFVaVN4ZHZyODd6dklFcmN5MmViNXJtanY?oc=5",
+    "source": "India Today",
+    "published": "2026-11-26",
+    "place_name": "Northeast India",
+    "lat": 25.2744,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Four newborn lion cubs die after pregnant lionesses rescued ahead of Gujarat pilgrimage",
+    "url": "https://www.hindustantimes.com/india-news/four-newborn-lion-cubs-die-after-pregnant-lionesses-rescued-ahead-of-gujarat-pilgrimage-101795694793303.html",
+    "source": "Hindustan Times",
+    "published": "2026-11-26",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
+  },
+  {
+    "headline": "Sundarbans sees simultaneous erosion and land accretion, Ghoramara loses 55% of land in 50 yrs: Panel",
+    "url": "https://www.hindustantimes.com/india-news/sundarbans-sees-simultaneous-erosion-and-land-accretion-ghoramara-loses-55-of-land-in-50-yrs-panel-101795682369108.html",
+    "source": "Hindustan Times",
+    "published": "2026-11-26",
+    "place_name": "Sundarbans",
+    "lat": 21.9497,
+    "lon": 88.8806
+  },
+  {
+    "headline": "‘Dip in Leatherback turtles’ nesting in Nicobar', government assessment finds",
+    "url": "https://www.hindustantimes.com/india-news/dip-in-leatherback-turtles-nesting-in-nicobar-government-assessment-finds-101795673752237.html",
+    "source": "Hindustan Times",
+    "published": "2026-11-26",
+    "place_name": "Nicobar",
+    "lat": 8.0883,
+    "lon": 93.545
+  },
+  {
+    "headline": "Azharuddeen slams ton, raises bat with Sanju's name in Keralam's big win over Himachal",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORXJvdS15M3ZSZ0tNVTd5aUdsVVNvSlUtZV9jbkVwems5ZHdFRUZHaFVFZDNoY1ZKdHdRaTBKR05uMTZ5RFk3RHZwaHk4a19WeldwUm9rQVNDVDFHUHpSVnpwQmpPYjEtVVFqSjNLcjA3UWNnWEhoSlFYRjVtdDhka3UwRXFZNGVWNGhZM2IxQVJ0eWVKRm5oWmgwZXI2SFZydDJ1TXVXME9CcHl2V2hMbE9qSVVGcEpfODlZTGw3cUpfQnNtdEo1NlpSUUxGVU9xc2YzQVJB?oc=5",
+    "source": "Onmanorama",
+    "published": "2026-11-26",
+    "place_name": "Himachal",
+    "lat": 31.1048,
+    "lon": 77.1734
+  },
+  {
+    "headline": "Calf killed in suspected tiger attack in Odisha’s Nuapada, panic grips residents",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYVVXWGM0eHAycmFiQ2pVVkdpelZXU1RZMC1PaW5sazFZRUFUOVh5Q29wY1dEUGNzNXRVbHVlQ3M4eWpjNU16bm41WlRtcnJjWi0tNWVYdmVnWmp1a0JUaTdDVXdpd2EzNk1YeW1wbS0xMFpfSTZ4QWJjaEpXOHk4Yk16ZEJ5MXc1dHBUSDRLX0hYY2xDWWlPeGtiVzJXWEhSTV9LVG13c25seEZBQllUSE5pUjHSAboBQVVfeXFMTUhycnMyX3Nmc3Rzb3hrQXNMeGljQjRTbldpRW94N3dGenJOSTNOWmJNZnExNnJNRjlXdGhoMjBhUEQ4dXkyNlotZko0MF9nLU5mbFVXMFpvN1V3bUszem1GOG1fV3d4WEZrSGFuRkVLdFIwb2tSRjhUZmxLTVFrcGhMREk0M0RsNFg0bkUyVlFGY0dqeE9SV2pTVUFMME1vNFFiTlFIOG1XdUtSblBCR0hIYmhKZGpPcFVB?oc=5",
+    "source": "Odisha TV",
+    "published": "2026-11-26",
+    "place_name": "Nuapada",
+    "lat": 20.8148,
+    "lon": 82.5347
+  },
+  {
     "headline": "Prey and water may be why tiger Explorer has stopped exploring in Andhra’s NTR district",
     "url": "https://www.thehindu.com/news/national/andhra-pradesh/prey-and-water-may-be-why-tiger-explorer-has-stopped-exploring-in-andhras-ntr-district/article71741124.ece",
     "source": "The Hindu",
@@ -79,6 +178,15 @@
     "place_name": "West Bengal",
     "lat": 22.9868,
     "lon": 87.855
+  },
+  {
+    "headline": "69 former bureaucrats seek scrapping of Arunachal Pradesh’s Demwe dam over ecological concerns | India News",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNb1h4QWxVUl9mRURsVkZJd2dFUkcycVpXOEw4SDAzcDRPeUVIQ283eWJySld3N1h1UzhKeVlPZzZ6ekpRTlduMGNNRDg0UTJFdTE2Ty1tR1dCM1NucnlUQXdiRVBWZUVKelYyYUp1ajN3YUFYR3RFY1VNbG5uM1hvcXlvQnJPRHlCVVFUb1BoaGJqYmJ1ekpIZkI0WDJHbE0tMUFpQzY5RHZ4azJsNWgtZXFGU0gzZlI0c3hRWXJfdzRjamtFUm8xcUhwVTQ0RnNvd2tDZHA2ejR2WE1Ic2h5SXJ4UWc4bVNpX2RfcUpB0gHzAUFVX3lxTFBsY2lHSVNobEYxajNlaVpIWTJrSzBXb1llLWpTcE1tZzlDbTF4TXliN0tMVUFPdHdiR1lUcWxCb3RJVFBMX3NrZEtGVTNvaHY3bEJzdWFiajZZU2ppZ3lWUk40bktfLXZ1N3VEZWltLW1FMkROVTYzenZJY0FGSl9nMVVUQldEZ05LcktQMjg0MlFuMS1yWXpreldDRzJkSlNhbElrb3V0VnZ6NVpwUlNNX1VkNGVtYy0tdVFrd1Iwb19xVTVhdDRBSmFZbm5BcjBRbkdiamFyZFBvUm1Ya2JrS3FtRklKRUk0LXRqNWNZd012cw?oc=5",
+    "source": "Hindustan Times",
+    "published": "2026-11-25",
+    "place_name": "Arunachal Pradesh",
+    "lat": 28.218,
+    "lon": 94.7278
   },
   {
     "headline": "Amur falcons fly non-stop 3,000 km over ocean to Africa. How feasting in Manipur helps",
@@ -196,6 +304,15 @@
     "place_name": "Hisar",
     "lat": 29.1492,
     "lon": 75.7217
+  },
+  {
+    "headline": "Leopard sightings put Gujarat’s Bharuch GNFC township on high alert",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQkpVOFhSU0k2dm1Ud2RtRWdiN2J4dXZoWDE4ZWs5aDN4eWJqdFlsLXdvT1A4SVRxcUg4UEtKSkxRckNBMlRMbVd5MFBSQkFWczEtNDVDcURnMm5jbHJ3TFgtRHpOTmhlSFhiS2FqUlVKZkE5RlcxeUxZNEJFY0JoZk9QbjJMOEdWYm9tTFJNYjRkSkZRcGRoOVZCb0NUM0QxQUhSWlFjYnE3NW1MX1lxVEpNNjN6ZUlCOWV6dWZlYV9TLW5BQTBEM2N30gHQAUFVX3lxTFBNd3ZhVTdyUUtVakp0b0Rtd09ndWQ2UDNlYnNLQ3pPYXVCOXFNM19ZbXNNTHNObGt5SmRrMkZJQldDeHUxZU5MQkVtZWxWTk9BOTBINmdNRGtYaDZONDV4NmR2ZThrZ2hZa3JKLUhyVDYwTkJDVVhuLW00OWlsWnNnRldPZy1qQ2hhUlJWTWdQaTdiVDNFR2hUTExvMEM5aEZTMTF2QU8yTUNOX2FCNVpYdEU1THhnVEFkUXRpQ09vclJ4emo1QmZndUg4YXBXbWE?oc=5",
+    "source": "The Indian Express",
+    "published": "2026-11-24",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
   },
   {
     "headline": "Maharshi Valmiki’s ideals should guide generations, says Raghumurthy",
@@ -1452,6 +1569,15 @@
     "headline": "Man arrested with 15-kg live pangolin in Odisha's Malkangiri",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOb1NudjUwSnJxSVNuU2NCbl9QLXctYVhTWkFuZk1SdVFPQkFtU3Rjdnd3TEt6RHJ6a3h6a1FCdGVvamdCMUtLRFFXc1l3QzlvR0xQSFNBMFNNcnYxbGdWc3pGbzgxcFZvdE5xem4yNlZ4RS1nMTEtemxJNjZaNGNZaVZHdDdISjhBSFlqZW5NeXdGcGJhbWxoNA?oc=5",
     "source": "thesamaja.com",
+    "published": "2026-11-14",
+    "place_name": "Malkangiri",
+    "lat": 18.353,
+    "lon": 81.8983
+  },
+  {
+    "headline": "Live Pangolin Rescued in Malkangiri; One Arrested, Two Flee Into Forest Leaving Bikes Behind",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVVhmZlBldHBmS3VpYTA3ajJXdHFMWWlhU2w0Y2ZmRzhIeFVKWEhianFqOUR6SjRLTkJxcXpTUWtoeUg3M05Mb2tBc0VILWZlSGxJNDdfcVRRQW55X3dPbXQwOUVCNXpGT0tqNUl1dEpaSXMwMjktelNTLVBZSHg3Vm9SejJEamJCc1A4cGJFTDMxTlNiTFFmU1JuTi1rNnFmaVdtZFNsdElkLWdHTGhtN2VQUW5ZNVhjdFFYZGpmUmVhUQ?oc=5",
+    "source": "www.thesamaja.com",
     "published": "2026-11-14",
     "place_name": "Malkangiri",
     "lat": 18.353,
@@ -9025,6 +9151,15 @@
     "place_name": "Sundarbans",
     "lat": 21.9497,
     "lon": 88.8806
+  },
+  {
+    "headline": "Gujarat completes mangrove plantation across 27,000 hectares in Kutch under ‘MISHTI’ scheme",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU0YzSUJhUi12V3lWaHN0ekdhQmxGUzhGN2dXeDhJVUxTRlc0c0Z4eFpmbk82cGo0cU1IZEFuOHVpQzY0MVdjblRuNXVHekdocko5VWhqMDdTSGtKT0pBcUVVdVBCUmRRRUprRWVhRHpWU242RUZKR3gxU3dfRjRTYVIwNV9fLTN4ZlB1VldReTZZOGxpc1NpamtZQmtFZlhjQ3pOODJJLUFrNGQxUWEtN1ZLd3M?oc=5",
+    "source": "News On AIR",
+    "published": "2026-09-14",
+    "place_name": "Gujarat",
+    "lat": 22.2587,
+    "lon": 71.1924
   },
   {
     "headline": "Young elephant ‘Durga’ from Assam to reach Madurai Meenakshi temple; activists raise concerns over transfer",
@@ -29567,6 +29702,15 @@
   {
     "headline": "Rare sight of Indian vulture spotted in Thane",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNX3RTdC1TNV8yNVpLWG53NzJFWk1xRXhJYmNISmx6MWdGdEEwUWtaTGZGb2pkWTVoMUdfY2VkUzMwa3lfRWIyTEN1ZE9FRFlBMGs0QVM1MkxzZEdZY3FGVE5ZNlBNRVF5TmNVRWZaOW9KUkJGck9XUlVNOUI4NjhwQUlCc1czMHpwODFVeDd6V0F2T2VEOWh5WkU5MU5GelhkLVhtV0stR3B3TTVXZHdBWXFlMk8ybThVb3FHaVFzUdIBxgFBVV95cUxORjdTUlIxUHFabTRVVWt4MVVJMkhhZ0VOellSaU4xNWp5QTRrQk5aYXVMYjBKbk9mS2lrMHEwQjQzNko5RzBmUnpvaU1TRU0wMEFPcW5qRWo5NzBNRG1TVXg5UEFEa3hnSE5pcWY1S2JNZ0NuY2ViU0xuck1RLXFoZWJKbm9wd1E4WjFWM2dFUVphLW45Z3RqVGN6eEVuUDRUUDdTUDJtMEhGM0h6NzZmTmNMQTBEeDVuV0RTYXlFUEk1QnpHa1E?oc=5",
+    "source": "The Hindu",
+    "published": "2024-01-17",
+    "place_name": "Thane",
+    "lat": 19.2183,
+    "lon": 72.9781
+  },
+  {
+    "headline": "Rare sight of Indian vulture spotted in Thane",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNX3RTdC1TNV8yNVpLWG53NzJFWk1xRXhJYmNISmx6MWdGdEEwUWtaTGZGb2pkWTVoMUdfY2VkUzMwa3lfRWIyTEN1ZE9FRFlBMGs0QVM1MkxzZEdZY3FGVE5ZNlBNRVF5TmNVRWZaOW9KUkJGck9XUlVNOUI4NjhwQUlCc1czMHpwODFVeDd6V0F2T2VEOWh5WkU5MU5GelhkLVhtV0stR3B3TTVXZHdBWXFlMk8ybThVb3FHaVFzUQ?oc=5",
     "source": "The Hindu",
     "published": "2024-01-17",
     "place_name": "Thane",
