@@ -1,5 +1,50 @@
 [
   {
+    "headline": "For the second time this year, Guindy Children’s Park closed as birds die of suspected flu",
+    "url": "https://www.thehindu.com/news/cities/chennai/for-the-second-time-this-year-guindy-childrens-park-closed-as-birds-die-of-suspected-flu/article71749831.ece",
+    "source": "The Hindu",
+    "published": "2026-11-27",
+    "place_name": "Guindy",
+    "lat": 12.99,
+    "lon": 80.22
+  },
+  {
+    "headline": "Assam govt promotes two IFS officers to Principal Chief Conservator of Forests rank",
+    "url": "https://nenow.in/north-east-news/assam/assam-govt-promotes-two-ifs-officers-to-principal-chief-conservator-of-forests-rank.html",
+    "source": "Northeast Now",
+    "published": "2026-11-27",
+    "place_name": "Assam",
+    "lat": 26.2006,
+    "lon": 92.9376
+  },
+  {
+    "headline": "Chhattisgarh forest dept registers case against NMDC GM after Dantewada mining dump collapse",
+    "url": "https://www.hindustantimes.com/india-news/chhattisgarh-forest-dept-registers-case-against-nmdc-gm-after-dantewada-mining-dump-collapse-101795780373681.html",
+    "source": "Hindustan Times",
+    "published": "2026-11-27",
+    "place_name": "Chhattisgarh",
+    "lat": 21.2787,
+    "lon": 81.8661
+  },
+  {
+    "headline": "Land reclassification in Rajasthan's Aravalli hills raises forest conservation concerns",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcWJwLWJJR092SkQ0ZUJxZTZQeTFIQ2dNSjVxNlR4TUEwTlBsX1V1dVh2TjlpZGF5SThJblNza1Nabl9xQVRkS2ZaMzBKX2d4RHZIaUU3TlE0ZkxwdlMtNWdaOUs5Y1JKbHo0cEplbnFHc05vOXQ3T2lSMU9lY2RNU185OTI1a0pxVURYQUZPS0ZoWU1jNzl6SnAzS0doWFU4NGpnSk5IQ0d2Tl9lNmhLWVFQaFpPYlliRmtibXlONmN4NzDSAdABQVVfeXFMT2hkRnNWOWp4MjJpT29NR1dSMmZ5dGFCNDBaTTc5NnFDekFEMjV3SWg4RS1CeWFfbXAxRXFuQjhGalpKaE51U3pOVkZyc0JmLTIxXzFqZ2VsWTlPZkVzMXpXaV9zUVRNamloc01RV08xUmxyVnJoNTRiQ3B1V2VmZjhUSEFDY3B2U093bDlkQU5IMGFteWtOYU5oLVRESGh5RldJaFEtOVZlR0xuU1QxQVJ2Skk1SndHX0tGaVpwZ2d6WnFCTHh6QnIwdGxBM29xVw?oc=5",
+    "source": "Down To Earth",
+    "published": "2026-11-27",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
+    "headline": "Contamination in river ecosystem: SC pulls up Rajasthan govt, warns of drastic action",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNN3dnOTg2VlVpVERWSHpXcmtkNmhpNjdHSnBVdGhlNlBBSXBVQTFBbXlpZ1U4YUs2LWduNnhzWGVBdjZzVWI1c2dNOU9vRzJJcHNVYjBfRklhREVienVydlJYWXRPZHVNOTJ2NE1uaGNCRkNrWEw4WWxKUjZFLUZCR3hRVEM3eWpxSGdvNUNOWjk1cjM3d1lGdHlDZzM3NzVxVjBYaHV5R2pNSG1ZX21LVW5UU2ZBeWEyUGfSAb8BQVVfeXFMTjljVWF4bTNybTA2eWVpOTVZTkFzZ2dXRDFzRGJIam5JM3ZGdF9zcjlJVTRHNWpfR3B1Z3N1TEZ0ZktodTc2bjk1dUJycUZscDlsU0FDX2laWFNCRUdjQi1ObWhuRldmLUxTUnZLRVBGTVo3M0ljS2pDSmlHNVpTaEZRNWpOWkZ0LTY4WXYxQVA3UklaUjAzbXVzLWQwTnNaS1R3OTM5X1RGTlNibEpNcVY5MlpRX2UtTmxPbFhUY0k?oc=5",
+    "source": "ThePrint",
+    "published": "2026-11-27",
+    "place_name": "Rajasthan",
+    "lat": 27.0238,
+    "lon": 74.2179
+  },
+  {
     "headline": "Forest Department to capture one tusker in Chikkamagaluru",
     "url": "https://www.thehindu.com/news/national/karnataka/forest-department-to-capture-one-tusker-in-chikkamagaluru/article71746912.ece",
     "source": "The Hindu",
@@ -24285,6 +24330,15 @@
     "headline": "Uttarakhand: IAF 'Swiftly' Responds To Forest Fire In Nanda Devi Biosphere Reserve",
     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUUJXNi1RNWxmNUJKdzk1Q1BMWDNRY3BJNDBFTnV3bk0tanFEQjZ1NnNZNHliOVlWUV9NcEhqc3hmTUw5UWpxbGh5WUFueWtMNTVQd0ZHVWd5RzNIZzY3cWtNWThVRm5iS1BLM2xvZkd2UExDTDNmb2hEbDc2RWJPYWdQZkRKbzhoSTlqZEhkQ25vcGFaRTRpZF9iSVp3aDRhSjBFS0hTakdKWG80cllabTU4aFd2Z3pZU1pvdEZJb01LQ0d4eHFsYU130gHPAUFVX3lxTFBiY3N4ek1IbWNBMGNTMHdoUlIxUnhuNV9HYldwNVpWbjdKWHFseDBVMC1GOEJMeUR1TDRrbVljTG00SFN0LTNiTFA4X1VScjAxTENLVTNYMkdSNXc1aHdRbERJNGNKZFNDVnZsRUx0VHFJV3lEMkVLV1l1eWJBVVEyRU9ocHJvemtfZHJneEtCQ1pJaHVxVXZuRjR1SndOWDZBZGlzTXhHazY3MHBVeXd0ZUVzOXRFUHlaTldjeDNWNTNKWDI3UkhJaVQ3VHZHTQ?oc=5",
     "source": "ETV Bharat",
+    "published": "2026-01-15",
+    "place_name": "Uttarakhand",
+    "lat": 30.0668,
+    "lon": 79.0193
+  },
+  {
+    "headline": "Uttarakhand: Chamoli Administration on high alert, Helicopter deployed to curb Nanda Devi forest fire",
+    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQaWJxWGRiZmlsbGdsZi0tVllDeG13bVVtR3pfVHU3QUNTejBRYTJ3VGZTTWdaVGdCUVFMaV9WbUdPTlVIR00xNmFCeWFydm1jYnNEN3pJV29xTENHalFtRXl3M05lMTJRV0N5ano2dXRoLWRSSTYtUW1YNGxpMGZ2WnRUZW5xZ01ySjJfQkNmb2l2bzdrS3pqZVF5RGRJMHRZWTJTRVM5cXdtVXdSN1YtbnNoaXZ0ckhZSXdpVmcxNGVIR3JqR01tM2pWODFWR2VJNWluVW83ckJWS1lZblo4empiaHBkdnNoSFdfN1hPeFllU2tXRUUw?oc=5",
+    "source": "ANI News",
     "published": "2026-01-15",
     "place_name": "Uttarakhand",
     "lat": 30.0668,
